@@ -1,17 +1,26 @@
-# Case Interview Preparation
-# Data Science and AI Masterclass: Lesson Creation Contest
+# TA Lesson Creation Contest - INFO 7390 Advances in Data Sciences and Architecture (The Art and Science of Data)
 
-Attention data scientists, educators, and AI enthusiasts! We're on the hunt for the brightest minds to help us shape an upcoming masterclass on Data Science and AI. Do you have what it takes? Join our **Data Science and AI Masterclass: Lesson Creation Contest** and showcase your talent in teaching complex topics with simplicity and clarity.
+In order to be considered for a TA for INFO 7390 Advances in Data Sciences and Architecture (The Art and Science of Data) in Fall 2023 you must:
+
+* Be a current MGEN or MSIS student
+* Not on Co-op
+* Have a 3.5 or better GPA
+* Have taken the course INFO 7390 before with an A- or better grade
+* Submit a sample of your teaching, critical thinking, and communication skills by creating a lesson for the course.
+* Brownie points if you have taken the course from me in the past.
+
 
 ## Contest Overview:
 
-The upcoming masterclass spans over 14 weeks, covering a gamut of topics from Information Visualization foundations to advanced Causal Analysis Techniques in Data Visualization. To ensure the highest quality of content and teaching methodology, we're inviting you to submit a sample lesson on any one of the listed topics. Your lesson should be comprehensive, including theory explanations, relevant code demonstrations, and engaging quiz questions to gauge student understanding.
+Only students that meet department criteria and submit a sample of their teaching, critical thinking, and communication skills by creating a lesson for the course will be considered. DO NOT send a CV or e-mail requesting a TA job. Instead, prove that you understand the material and can teach by showing an example of your work.
+
+## Requirements
+
+Read the syllabus [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data) and create a lesson for one of the topics listed under "Weekly Schedule."  The lesson must include theory, working examples through code, slides, and a quiz related to the lesson.  I will start reviewing the submissions on August 19, 2023 and continue until all TA positions are filled.
 
 ## Why Participate?
 
-1. **Teaching Opportunity:** The winners will get a chance to become one of the instructors for the actual masterclass. It's a chance to shine, teach, and make an impact on a global scale.
-2. **Networking:** Engage with a community of like-minded individuals, from seasoned educators to industry experts.
-3. **Prizes:** Apart from the teaching opportunity, winners will receive attractive prizes, certifications, and exclusive merchandise.
+1. **Teaching Opportunity:** The winners will get to TA for INFO 7390
 
 ## Guidelines:
 
@@ -30,5 +39,4 @@ The upcoming masterclass spans over 14 weeks, covering a gamut of topics from In
 5. **Practicality:** Quality and relevance of code (if applicable) and real-world examples.
 6. **Assessment:** Effectiveness and relevance of the quiz questions.
 
-Submissions are now open! Whether you're an experienced educator or someone passionate about Data Science and AI, this is your chance to contribute to a course that will shape the future of many aspiring data scientists. Join us in this endeavor and help shape the future of education in this domain.
-
+Submissions are now open! 
