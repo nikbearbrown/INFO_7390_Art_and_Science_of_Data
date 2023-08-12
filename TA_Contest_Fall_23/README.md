@@ -16,7 +16,7 @@ Only students that meet department criteria and submit a sample of their teachin
 
 ## Requirements
 
-Read the syllabus [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data) and create a lesson for one of the topics listed under "Weekly Schedule."  The lesson must include theory, working examples through code, slides, and a quiz related to the lesson.  I will start reviewing the submissions on August 19, 2023 and continue until all TA positions are filled.
+Read the syllabus [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data) and contest details [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/TA_Contest_Fall_23](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/TA_Contest_Fall_23). Create a lesson for one of the topics listed under "Weekly Schedule."  The lesson must include theory, working examples through code, slides, and a quiz related to the lesson.  I will start reviewing the submissions on August 19, 2023 and continue until all TA positions are filled.
 
 ## Why Participate?
 
