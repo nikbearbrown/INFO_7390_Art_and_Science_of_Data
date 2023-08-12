@@ -14,6 +14,8 @@ In order to be considered for a TA for INFO 7390 Advances in Data Sciences and A
 
 Only students that meet department criteria and submit a sample of their teaching, critical thinking, and communication skills by creating a lesson for the course will be considered. DO NOT send a CV or e-mail requesting a TA job. Instead, prove that you understand the material and can teach by showing an example of your work.
 
+Participants should ask to be a collaborator for this repository and upload their sample as a sub-folder of this directory.  
+
 ## Requirements
 
 Read the syllabus [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data) and contest details [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/TA_Contest_Fall_23](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/TA_Contest_Fall_23). Create a lesson for one of the topics listed under "Weekly Schedule."  The lesson must include theory, working examples through code, slides, and a quiz related to the lesson.  I will start reviewing the submissions on August 19, 2023 and continue until all TA positions are filled.
