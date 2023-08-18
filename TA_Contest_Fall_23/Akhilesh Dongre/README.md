@@ -28,7 +28,7 @@ Welcome to Week 1 of the Information Visualization course! In this week, we will
 
 1. We will go over the Presentation and Notebook with Worked Example simultaneously.
 2. Always try it yourself and ask questions like "Does it make sense?" or "What is an alternative to this solution"
-3. 
+3. Worked Example of Marketing Campaign Analysis and Various ways to visually analyse.
 
 ## Additional Resources
 
@@ -45,7 +45,7 @@ For any inquiries, please contact: dongre.ak@northeastern.edu
 Happy learning and exploring the fascinating world of information visualization!
 
 
-## AKHILESH DONGRE
+### BY AKHILESH DONGRE
 
 
 
