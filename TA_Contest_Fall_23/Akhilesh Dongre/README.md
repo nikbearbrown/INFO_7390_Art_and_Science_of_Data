@@ -46,7 +46,6 @@ For any inquiries, please contact: dongre.ak@northeastern.edu
 Happy learning and exploring the fascinating world of information visualization!
 
 
-### BY AKHILESH DONGRE
 
 
 
