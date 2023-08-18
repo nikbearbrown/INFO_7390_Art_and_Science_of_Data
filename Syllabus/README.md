@@ -104,9 +104,9 @@ Upon completion of this course, students will be able to:
 * Delving Deeper: Rhythm, Pattern, Unity, and Variety in Design
 
 ### Week 5
-* Introduction to Generative AI: Distinguishing Traditional ML, Generative AI, and AGI
+* [Introduction to Generative AI: Distinguishing Traditional ML, Generative AI, and AGI ](https://github.com/shardulchavan/Introduction-to-Generative-AI)
 * Real-world Applications and Limitations of Generative AI
-
+  
 ### Week 6
 * Crafting Generative AI Systems: Research and Design Phases
 * The Importance of Diverse Data Gathering
