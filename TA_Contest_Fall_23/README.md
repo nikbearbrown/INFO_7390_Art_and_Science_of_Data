@@ -42,3 +42,10 @@ Read the syllabus [https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_
 6. **Assessment:** Effectiveness and relevance of the quiz questions.
 
 Submissions are now open! 
+
+## Submissions
+
+Create s subfolder with your name for submissions   
+
+
+
