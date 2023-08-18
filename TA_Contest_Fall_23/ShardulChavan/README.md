@@ -1,5 +1,4 @@
-# Introduction-to-Generative-AI
-
+# Week 5 - Introduction-to-Generative-AI
 
 Generative AI is an exciting and innovative branch of artificial intelligence that revolves around the creation of new and original content. Unlike traditional AI approaches that focus on making predictions or decisions based on existing data, Generative AI aims to push the boundaries of creativity by generating novel outputs that resemble the input data it was trained on. 
 
