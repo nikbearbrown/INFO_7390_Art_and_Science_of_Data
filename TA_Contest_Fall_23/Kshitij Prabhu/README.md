@@ -1,5 +1,5 @@
 
-# Personal Details
+## Personal Details
 
 Kshitij Prabhu  
 
