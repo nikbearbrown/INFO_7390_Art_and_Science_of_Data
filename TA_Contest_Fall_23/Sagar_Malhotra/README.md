@@ -82,7 +82,7 @@ The popularity of social media has increased the impact of fake news on our cult
 ## BERT Model
 BERT stands for Bi-Directional Encoder Representations from Transformers. BERT uses the Transformers to understand the contextual relation between words present in a sentence or text. BERT Transformer has two mechanisms: An encoder that reads the text input and a decoder that predicts for a given task.
 
-##References
+## References
 1. https://en.wikipedia.org/wiki/BERT_(language_model)
 2. https://carpentries-incubator.github.io/python-text-analysis/10-transformers-intro/index.html
 3. https://sebastianraschka.com/blog/2023/llm-reading-list.html
