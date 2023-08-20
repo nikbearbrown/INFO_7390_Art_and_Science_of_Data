@@ -29,7 +29,8 @@ Welcome to Week 1 of the Information Visualization course! In this week, we will
 1. We will go over the Presentation and Notebook with Worked Example simultaneously.
 2. Always try it yourself and ask questions like *Does it make sense?* or *What is an alternative to this solution*
 3. Worked Example of Marketing Campaign Analysis and Various ways to visually analyse.
-4. Youtube Link: [Yet to upload]
+4. Youtube Link: https://youtu.be/Oz0Zs-R9USE
+[https://youtu.be/Oz0Zs-R9USE]
 
 ## Additional Resources
 
