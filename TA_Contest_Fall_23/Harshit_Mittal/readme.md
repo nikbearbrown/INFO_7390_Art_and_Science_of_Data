@@ -1,3 +1,14 @@
+# About me
+
+My name is Harshit Mittal. I am a Fall 2022 MSIS student at NEU, Boston, maintaining a GPA of 3.6. I successfully completed the course "INFO 7390: Advances in Data Science & Architecture" under prof. Nik Brown, and successfully secured ‘A’ grade in same.
+
+Email: mittal.h@northeastern.edu
+<br>Linkedin: http://www.linkedin.com/in/harshit-mittal-52b292131
+<br>Phone: (857)376-1917
+
+Please refer to my teaching sample video here: https://youtu.be/Ka0XC27VEG8
+<br>Colab notebook link: https://colab.research.google.com/drive/1biSAchcqA5ihdSaoALFQhEdLP6_bExfS?usp=sharing
+
 # Week 9: Generating Images with Generative AI Models
 
 Welcome to Week 9 of our course! In this week's session, we will dive into the fascinating world of generating images using Generative AI Models. From turning text into visuals to creating intricate artworks and animations, the field of image synthesis has seen remarkable advancements.
