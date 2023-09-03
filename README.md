@@ -7,11 +7,19 @@
 
 The first part of the course covers understanding the statistical properties of a data set visually, how to fix issues with their data, and how to graphically demonstrate how the data was improved. The choice of the right chart for a particular question is covered. The principles of visual design, including typography, contrast, balance, emphasis, movement, white space, proportion, hierarchy, repetition, rhythm, pattern, unity, and variety are covered.
 
-### 1A - Data Analysis and Improvement
+### 1A - Data Preprocessing and Prep
 
-In the initial segment of the course, students will be introduced to visual understanding of a dataset's statistical properties. This includes identifying potential problems within the data and implementing corrective measures. We'll also delve into effective graphical methods to showcase the enhancement and transformation of data. An essential part of this section is selecting the most suitable chart type to address specific questions or insights about the dataset.
+In this segment of the course, students will be immersed in the crucial initial steps of data science: data preprocessing and preparation. Before any robust analysis can occur, it's essential to ensure the data is clean, relevant, and ready for exploration. We'll begin by introducing the foundational techniques to clean and transform raw data, ensuring its quality and integrity. This involves handling missing data, outliers, and potential errors that can skew results.
 
-### 1B - Principles of Visual Design in Data Presentation
+Furthermore, students will learn about normalization and standardization processes, enabling them to make disparate data sets comparable. Techniques such as one-hot encoding and binning will be covered, emphasizing the need to make data machine-readable, particularly when preparing for machine learning or statistical modeling.
+
+As data comes in various forms - from textual and categorical to numerical - we'll delve deep into transforming these different data types to be more suited for analysis. The end goal of this segment is to equip students with the skills needed to turn raw, messy data into a polished and prepared asset, setting a solid foundation for subsequent analysis and visualization.
+
+### 1B - Data Analysis and Improvement
+
+In this segment of the course, students will be introduced to a visual understanding of a dataset's statistical properties. This includes identifying potential problems within the data and implementing corrective measures. We'll also delve into effective graphical methods to showcase the enhancement and transformation of data. An essential part of this section is selecting the most suitable chart type to address specific questions or insights about the dataset.
+
+### 1C - Principles of Visual Design in Data Presentation
 
 In this segment, we put emphasis on the art and science of visual design as it pertains to data presentation. Students will explore various fundamental principles, including typography, contrast, and balance. Additionally, we'll discuss advanced design concepts such as emphasis, movement, the strategic use of white space, proportion, hierarchy, and more. We'll also delve into the significance of repetition, rhythm, pattern, unity, and variety, ensuring that the data is not only accurate but also aesthetically compelling and easily comprehensible.
 
@@ -37,11 +45,21 @@ In this segment, we explore how generative AI can play a pivotal role in data ve
 
 The third part of the course covers visualizing causal relationships in data. The emphasis is on understanding visual techniques for separating causal relationships for correlation.
 
-### 3A - Visual Techniques in Causal Data
+### 3A - What is Causal Inference?
+
+In this segment of the course, we will delve into the fundamental concept of causal inference, demystifying the distinction between correlation and causation. Students will be introduced to the idea that while many factors might be correlated, not all are causative. We will explore the principles underlying causality, elucidating why it's a cornerstone in many scientific disciplines, especially in social sciences, medicine, and economics.
+
+Through real-world examples, learners will gain a grasp on the importance of discerning causative factors in various scenarios - from public policy decisions to medical treatments. Discussions will revolve around the challenges faced in establishing causality, especially when experiments are impractical or unethical.
+
+The segment will lay the foundation for understanding the differences between observational studies and randomized controlled trials (RCTs), highlighting the strengths and pitfalls of each approach. Moreover, students will be introduced to potential outcomes and counterfactual frameworks, which provide a structured way to think about cause and effect. By the end of this section, students will have a solid grasp of why causal inference is vital, its challenges, and the fundamental tools and concepts used to determine causality in data.
+
+
+
+### 3B - Visual Techniques in Causal Data
 
 In this segment of the course, the primary focus will be on the visualization of causal relationships within datasets. We aim to provide a robust understanding of visual methods that can be employed to distinguish genuine causal connections from mere correlations. This involves diving deep into concepts such as confounding, causal graphs, and the intricate relationship between Directed Acyclic Graphs (DAGs) and probability distributions. The segment will also highlight the significance of paths and associations, along with the idea of conditional independence through d-separation.
 
-### 3B - Advanced Causal Analysis Techniques
+### 3C - Advanced Causal Analysis Techniques
 
 Venturing further into the realm of causality, this segment dives into the practical aspects and methodologies used in observational studies. Techniques and concepts such as optimal matching, sensitivity analysis, and Inverse Probability of Treatment Weighting (IPTW) will be detailed. The course will subsequently move into the nuances of marginal structural models, providing insights on IPTW estimation and the meticulous process of causal effect identification and estimation. This part of the course aims to equip students with the advanced tools and knowledge necessary for in-depth causal analyses in complex scenarios.
 
