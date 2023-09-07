@@ -25,7 +25,8 @@
 
 Visual techniques help us conceptualize and understand complex causal relationships in a more natural and effortless way.
 
-![image](https://github.com/UKEYBHAKTI002922939/INFO_7390_Art_and_Science_of_Data/blob/1828f74b803575d69657cf05bc8f8770fa7bfa91/TA_Contest_Fall_23/Bhakti_Ukey/pictures/vc.jpeg)       ![image](https://github.com/UKEYBHAKTI002922939/INFO_7390_Art_and_Science_of_Data/blob/1828f74b803575d69657cf05bc8f8770fa7bfa91/TA_Contest_Fall_23/Bhakti_Ukey/pictures/vc2.jpeg)
+![image](TA_Contest_Fall_23/Bhakti_Ukey/pictures/vc.jpeg)       
+![image](https://github.com/UKEYBHAKTI002922939/INFO_7390_Art_and_Science_of_Data/TA_Contest_Fall_23/Bhakti_Ukey/pictures/vc2.jpeg)
 
 - **Visual Communication**: As per the famous quote "Pictures are worth a thousand words". Graphics are extremely effective at conveying complex information in a visual and intuitive manner.They can make data more accessible and understandable to a broader audience, including those who may not be data experts.
 
