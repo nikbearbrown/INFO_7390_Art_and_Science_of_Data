@@ -1,13 +1,12 @@
 # Data Visualization
 
-Notebooks for the lessions on data visualization for the Visual Analytics and Computational Skepticism
- YouTube course [https://www.youtube.com/c/NikBearBrown](https://www.youtube.com/c/NikBearBrown) 
+
  
 ## Data Visualization Recipe 
-### (Each of these will be covered in the VACS  YouTube course [https://www.youtube.com/c/NikBearBrown](https://www.youtube.com/c/NikBearBrown))   
+
 ### Any code and notebooks related to the lessons will be found in this directory.  
 
-Types of Visualization (The why?)
+Types of Visualization (The Why?)
 * Explanatory (Communicate something to a larger audience)  
 * Exploratory (Find out interesting aspects/patterns in the data) 
 * Confirmatory (Visual evidence for an assertion/hypothesis)  
