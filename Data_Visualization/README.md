@@ -18,18 +18,35 @@ Types of Visualization (The Why?)
   Offers a visual means to provide evidence in support of a specific assertion or hypothesis. It ensures that the conclusions drawn are based on factual evidence represented in the visualization.
 
 Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data quality before diving into visualization. Feeding flawed or irrelevant data will result in misleading visuals, hence the term "garbage in, garbage out."
-* Missing values?:Ensure that there aren't significant gaps in your dataset that might skew results. Tools and techniques for data imputation can help address this.
+* Missing values?: Ensure that there aren't significant gaps in your dataset that might skew results. Tools and techniques for data imputation can help address this.
 * Data types : Understanding the nature of your data is pivotal.
     * Categorical, Nominal, Ordinal: Classifications without a particular order or with a hierarchy.
     * Numeric: Quantifiable data that can be measured.
     * Strings & Dates: Textual data and specific time points or durations.
-* Descriptive statistics* A preliminary overview of data.
+* Descriptive statistics: A preliminary overview of data.
     * Numeric: Using methods like .describe() to get count, mean, standard deviation, etc.
     * Categorical: Evaluate using Shannon entropy to measure unpredictability, count unique values, and ascertain the frequency of each value.
 * Data type attributes (GPS, Sequence/Time-series, Nodes/Edges) - User feedback
+
+  It's essential to understand the context.
+    * GPS: Geographical points
+    * Sequence/Time-series: Data points arranged in time order
+    * Nodes/Edges: Data points representing network connections, needing feedback from users to interpret significance.
+
 * Data structure (Tabular, Graph, Time-series, Hierarchical, Geographic, Map, Network, etc.) - User feedback
+
+  Knowing the structure helps in selecting the right visualization.
+    * Tabular, Graph, Time-series, Hierarchical, Geographic, Map, Network, etc. Each offers different insights and requires unique visualization techniques.
 * Data type semantics (Spatial, Temporal) - User feedback
+
+  Semantic meaning can influence interpretation.
+    * Spatial: Relating to space
+    * Temporal: Relating to time
 * Outliers? (Numeric Box-whisker x times (deflaut 1.5) interquartile range, categorical would be rare values/low % default < 1%)
+
+  These are unusual data points that can heavily influence the overall visualization.
+    * Numeric: Use Box-whisker plots to identify values that fall outside the interquartile range.
+    * Categorical: Identify rare values or those that occur less frequently.
 
 To do:
 * Enough data (Power)?
