@@ -17,12 +17,15 @@ Types of Visualization (The Why?)
 
   Offers a visual means to provide evidence in support of a specific assertion or hypothesis. It ensures that the conclusions drawn are based on factual evidence represented in the visualization.
 
-Check the data! GIGO (Garbage-in, garbage-out)
-* Missing values?
-* Data types (Categorical, Nominal, Ordinal, Numeric, Strings, Dates)
-* Descriptive statistics
-    -  Numeric (.describe())
-    -  Categorical (Shannon entropy, valence/unique values, counts each value)
+Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data quality before diving into visualization. Feeding flawed or irrelevant data will result in misleading visuals, hence the term "garbage in, garbage out."
+* Missing values?:Ensure that there aren't significant gaps in your dataset that might skew results. Tools and techniques for data imputation can help address this.
+* Data types : Understanding the nature of your data is pivotal.
+    * Categorical, Nominal, Ordinal: Classifications without a particular order or with a hierarchy.
+    * Numeric: Quantifiable data that can be measured.
+    * Strings & Dates: Textual data and specific time points or durations.
+* Descriptive statistics* A preliminary overview of data.
+    * Numeric: Using methods like .describe() to get count, mean, standard deviation, etc.
+    * Categorical: Evaluate using Shannon entropy to measure unpredictability, count unique values, and ascertain the frequency of each value.
 * Data type attributes (GPS, Sequence/Time-series, Nodes/Edges) - User feedback
 * Data structure (Tabular, Graph, Time-series, Hierarchical, Geographic, Map, Network, etc.) - User feedback
 * Data type semantics (Spatial, Temporal) - User feedback
