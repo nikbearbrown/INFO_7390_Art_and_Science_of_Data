@@ -50,6 +50,12 @@ Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data qua
 
 To do:
 * Enough data (Power)?
+
+  * Sample Size: Ensure your dataset is large enough to draw valid conclusions and to represent the population or phenomenon you're studying accurately.
+  * Quality of Data: The quality of your data is more important than the quantity. Your data should be accurate, consistent, and up-to-date.
+  * Variance and Standard Error: Analyze the variance and standard error to know the reliability of your data. Smaller standard errors indicate more reliable data.
+  * Power Analysis: Conduct a power analysis to determine the minimum sample size needed for your analysis to be reliable.
+  
 * Is the data stationary?
 * Is the data biased?
 
