@@ -7,9 +7,15 @@
 ### Any code and notebooks related to the lessons will be found in this directory.  
 
 Types of Visualization (The Why?)
-* Explanatory (Communicate something to a larger audience)  
-* Exploratory (Find out interesting aspects/patterns in the data) 
-* Confirmatory (Visual evidence for an assertion/hypothesis)  
+* Explanatory (Communicate something to a larger audience)
+
+  Primarily used to communicate intricate patterns or findings to a larger audience. This type of visualization streamlines complex data, transforming it into easily digestible visuals that resonate with the audience's understanding.
+* Exploratory (Find out interesting aspects/patterns in the data)
+
+  Aimed at uncovering hidden patterns, relationships, and trends within the data. This is instrumental for data scientists and analysts during the initial phases of data analysis when they are trying to gain insights and generate hypotheses.
+* Confirmatory (Visual evidence for an assertion/hypothesis)
+
+  Offers a visual means to provide evidence in support of a specific assertion or hypothesis. It ensures that the conclusions drawn are based on factual evidence represented in the visualization.
 
 Check the data! GIGO (Garbage-in, garbage-out)
 * Missing values?
