@@ -67,7 +67,25 @@ Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data qua
     * Temporal: Relating to time
 * Outliers? (Numeric Box-whisker x times (deflaut 1.5) interquartile range, categorical would be rare values/low % default < 1%)
 
-  These are unusual data points that can heavily influence the overall visualization.
+  
+    Outliers are data points in a dataset that differ significantly from the typical data points. They may show variations in a measurement, faults in the 
+    experiment, or a novelty and can be significantly larger or significantly smaller than the other data points. The effects of outliers on statistical analysis 
+    can be significant, and they can skew the outcomes of any hypothesis testing. For accurate findings, it is crucial to thoroughly identify any potential 
+    outliers in your dataset and deal with them appropriately.
+
+   How do you identify outliers?
+
+   Use of statistical tests like z-scores or interquartile range (IQR) is one of the most used techniques.  We determine the z-score for each data point in the 
+   dataset using the z-score method. A data point is regarded as an outlier if the z-score exceeds a predetermined threshold. Any data point with a z-score 
+   larger than 3 or less than -3 is regarded as an outlier since the threshold value is often set to 3 or -3.
+
+   In the IQR approach, we first determine the dataset's IQR, which is the difference between the first and third quartiles (Q1 and Q3). Then, based on the IQR, 
+   a range of values that are deemed "normal" are established. An outlier is any data point that lies outside of this range.
+   
+   Through data visualisation, outliers can also be found. We may visually locate any data points that are considerably different from other points in the 
+   dataset by showing the data points on a graph.
+
+    These are unusual data points that can heavily influence the overall visualization.
     * Numeric: Use Box-whisker plots to identify values that fall outside the interquartile range.
     * Categorical: Identify rare values or those that occur less frequently.
 
