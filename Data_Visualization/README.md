@@ -166,13 +166,19 @@ line graphs—also known as line charts or time series plots—are frequently us
 ![line graph](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/94b3af77-5069-4b0a-9d99-7db3dd0f15cc)
 
 Line graphs are used to visually assess trends, patterns, or changes in numeric values over the sequence:
-Increasing Trend: If the line generally moves upward from left to right, it indicates an increasing trend in the numeric values.
-Decreasing Trend: If the line generally moves downward from left to right, it indicates a decreasing trend.
-Steady or Flat Trend: If the line remains relatively constant, it indicates that the numeric values are not changing significantly over the sequence.
-Cyclical or Seasonal Patterns: In some cases, you may observe repeating patterns or cycles in the data.
+-Increasing Trend: If the line generally moves upward from left to right, it indicates an increasing trend in the numeric values.
+-Decreasing Trend: If the line generally moves downward from left to right, it indicates a decreasing trend.
+-Steady or Flat Trend: If the line remains relatively constant, it indicates that the numeric values are not changing significantly over the sequence.
+-Cyclical or Seasonal Patterns: In some cases, you may observe repeating patterns or cycles in the data.
 Line graphs can also help identify outliers or sudden changes in the numeric values.
 
-* Matrix (Rows versus columns)  
+* Matrix (Rows versus columns)  :
+----> Rows and columns make up a matrix, which is a structured data representation. Row and column indices serve as a means of identifying each member of a matrix. Matrices are a basic concept in linear algebra and other fields of data analysis and machine learning because they are used to organize, store, and modify data.
+  EXAMPLE OF MATRIX :
+  
+![Matrix](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/37a55ccb-09ce-4f28-a826-50b203ecf354)
+
+  
 * Maps (Transformation)  
 
 See the Data Visualisation Catalogue  <a href='https://datavizcatalogue.com'>https://datavizcatalogue.com</a>   
