@@ -100,8 +100,14 @@ Graphical components
 
 
 Chart types and fundamental graphs   
-* Bar chart  (Categorical versus numeric)  
-* Scatter plot (Numeric versus numeric)  
+* Bar chart  (Categorical versus numeric)
+   ----> A bar chart is a typical style of chart used in data science and data visualization to display categorical data (also known as qualitative or nominal data) in contrast to numeric data (quantitative data). Bar graphs are useful tools for showing and contrasting several categories or groups within a dataset visually.[Example of Categorical bar chart]. 
+![Categorical - Bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/ecb716fd-11c8-4289-8a05-ed24daca5d7b).
+categorical data : Data that defines the categories or groups you want to compare is known as categorical data. Examples may be company names, locations, dates, or any other labels that lack numerals.
+Numerical Information: This displays the numbers or measures related to each category. Any type of numerical data, including counts, frequencies, percentages, and continuous values, may be included.
+
+* Scatter plot (Numeric versus numeric)
+  ---->
 * Line graphs (Sequence versus numeric) 
 * Matrix (Rows versus columns)  
 * Maps (Transformation)  
