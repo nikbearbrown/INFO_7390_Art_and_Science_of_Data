@@ -149,7 +149,10 @@ categorical data : Data that defines the categories or groups you want to compar
 Numerical Information: This displays the numbers or measures related to each category. Any type of numerical data, including counts, frequencies, percentages, and continuous values, may be included.
 
 * Scatter plot (Numeric versus numeric)
-  ---->
+  ----> A  scatter plot is a sort of data visualization that is used to show the relationship or correlation between two sets of numeric data variables. Exploring patterns, trends, clusters, or outliers in the data is where it is most helpful. Th![SCATTERERD GRAPH](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/c6726dfe-2ed9-487b-a75f-66d4c4a8377d)
+e x-axis and y-axis of a scatter plot both depict numerical variables.
+
+
 * Line graphs (Sequence versus numeric) 
 * Matrix (Rows versus columns)  
 * Maps (Transformation)  
