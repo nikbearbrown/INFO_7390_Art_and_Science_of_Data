@@ -153,6 +153,11 @@ Numerical Information: This displays the numbers or measures related to each cat
 
 ![SCATTERERD GRAPH](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/c6726dfe-2ed9-487b-a75f-66d4c4a8377d)
 
+- The link between the two numerical variables is visually evaluated using scatter plots:
+- A positive linear relationship exists between the variables if the data points form an approximately upward-sloping line, indicating that an increase in one variable tends to be associated with an increase in the other.
+-  A negative linear relationship exists between the variables if the data points form an approximately downward-sloping line, indicating that an increase in one variable tends to be associated with a decrease in the other.
+- No Linear Relationship: There may not be a linear relationship between the variables if there is no discernible pattern or if the points are dispersed at random.
+    
 
 * Line graphs (Sequence versus numeric) 
 * Matrix (Rows versus columns)  
