@@ -72,7 +72,37 @@ To do:
 
 
 Fix data issues and log what was done
-* Impute missing values  
+* Impute missing values
+  * Type of missing values:<br>
+  * Missing completely at Random:<br>
+    The missing value has absolutely no relation with other observations.<br>
+  * Missing Data not at Random:<br>
+      There is a relationship between missing value and other observations.<br>
+  * Missing at Random:<br>
+      Some values are missing at random.<br>
+
+  **Imputation Techniques**:<br>
+  * Mean, median, Mode:<br>
+    **Assumption**: Data is missing completely at random.<br>
+      Operation:<br>
+      Replacing the NaN with most frequently occurring variable based on mean, median or mode.<br>
+
+  * Random Sample imputation:<br>
+    **Assumption**: Data is missing completely at random.<br>
+      Operation:<br>
+      Taking random observation from given dataset and replace the NaNs with these observations.<br>
+
+  * End of Distribution:<br>
+    **Assumption**: Data not missing completely at random.<br>
+    Operation:<br>
+    Replace NaN in the dataset with the values at the extremes (outliers)<br>
+    This technique takes outliers into consideration.<br>
+
+  * Capturing NaN with a new feature:<br>
+    **Assumption**: Data NOT missing completely at random.<br>
+      Operation:<br>
+      Replace the NaN in dataset with a new feature. ex: 0 and 1<br>
+      Can also be replaced with a variable (for categorical variable). ex: “Missing”.<br>
 * Remove outliers  
 * Adjust for bias 
 * Upsample
