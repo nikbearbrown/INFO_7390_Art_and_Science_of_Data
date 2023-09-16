@@ -19,6 +19,15 @@ Types of Visualization (The Why?)
 
 Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data quality before diving into visualization. Feeding flawed or irrelevant data will result in misleading visuals, hence the term "garbage in, garbage out."
 * Missing values?: Ensure that there aren't significant gaps in your dataset that might skew results. Tools and techniques for data imputation can help address this.
+* Data Imputation : Data Imputation refers to the procedure of using alternate values in place of missing data. It is also referred to as unit imputation.
+    * Missing information can produce a significant degree of bias that makes analyzing and processing data more difficult and reduces the efficiency.
+ * Importance of data imputation : Distorts datasets : Large number of missing data can lead to anomalies in the variable distribution,which can change the relative importance of different categories in the dataset.
+     * Impacts the final model : Missing data leads to the bias in the dataset, which could affect the final model analysis.
+     * Difficult to work with majority machine learning libraries : When utilizing machine learning libraries, mistakes may occur because there is no automatic handling of the missing data.
+* Data Imputation Techniques : There are different data imputation technique some if the technique are :
+    * K Nearest Neighbour : The objective is to find K nearest examples in the data where the value in the relevant feature is not absent and then substitute the value of the feature that occurs most frequently in the group.
+    * Missing Value Prediction : Using a machine learning module to determine the final imputation value for charactersitic based on other features. The model is trained using the values in the remaining columns, and the rows in feature without missing values.
+    * Most Frequent Value : In this method the most frequent column is used to replace the missing values.
 * Data types : Understanding the nature of your data is pivotal.
     * Categorical, Nominal, Ordinal: Classifications without a particular order or with a hierarchy.
     * Numeric: Quantifiable data that can be measured.
