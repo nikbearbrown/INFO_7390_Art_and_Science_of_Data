@@ -82,23 +82,23 @@ Fix data issues and log what was done
       Some values are missing at random.<br>
 
   **Imputation Techniques**:<br>
-  * Mean, median, Mode:<br>
+  **Mean, median, Mode**:<br>
     **Assumption**: Data is missing completely at random.<br>
       Operation:<br>
       Replacing the NaN with most frequently occurring variable based on mean, median or mode.<br>
 
-  * Random Sample imputation:<br>
+  **Random Sample imputation**:<br>
     **Assumption**: Data is missing completely at random.<br>
       Operation:<br>
       Taking random observation from given dataset and replace the NaNs with these observations.<br>
 
-  * End of Distribution:<br>
+  **End of Distribution**:<br>
     **Assumption**: Data not missing completely at random.<br>
     Operation:<br>
     Replace NaN in the dataset with the values at the extremes (outliers)<br>
     This technique takes outliers into consideration.<br>
 
-  * Capturing NaN with a new feature:<br>
+  **Capturing NaN with a new feature**:<br>
     **Assumption**: Data NOT missing completely at random.<br>
       Operation:<br>
       Replace the NaN in dataset with a new feature. ex: 0 and 1<br>
