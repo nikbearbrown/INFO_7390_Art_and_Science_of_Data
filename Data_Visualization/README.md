@@ -143,13 +143,17 @@ Graphical components
 
 Chart types and fundamental graphs   
 * Bar chart  (Categorical versus numeric)
-   ----> A bar chart is a typical style of chart used in data science and data visualization to display categorical data (also known as qualitative or nominal data) in contrast to numeric data (quantitative data). Bar graphs are useful tools for showing and contrasting several categories or groups within a dataset visually.[Example of Categorical bar chart]. 
+   ----> A bar chart is a typical style of chart used in data science and data visualization to display categorical data (also known as qualitative or nominal data) in contrast to numeric data (quantitative data). Bar graphs are useful tools for showing and contrasting several categories or groups within a dataset visually.
+
+  EXAMPLE OG BAR CHART:
 ![Categorical - Bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/ecb716fd-11c8-4289-8a05-ed24daca5d7b).
 categorical data : Data that defines the categories or groups you want to compare is known as categorical data. Examples may be company names, locations, dates, or any other labels that lack numerals.
 Numerical Information: This displays the numbers or measures related to each category. Any type of numerical data, including counts, frequencies, percentages, and continuous values, may be included.
 
 * Scatter plot (Numeric versus numeric)
   ----> A  scatter plot is a sort of data visualization that is used to show the relationship or correlation between two sets of numeric data variables. Exploring patterns, trends, clusters, or outliers in the data is where it is most helpful. The x-axis and y-axis of a scatter plot both depict numerical variables.
+
+  EXAMPLE OF SCATTERED GRAPH:
 
 ![SCATTERERD GRAPH](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/c6726dfe-2ed9-487b-a75f-66d4c4a8377d)
 
@@ -161,7 +165,9 @@ Numerical Information: This displays the numbers or measures related to each cat
 
 * Line graphs (Sequence versus numeric) :
 
-line graphs—also known as line charts or time series plots—are frequently used to show the link between a series of data points (such as time intervals or sorted categories) and an associated set of numerical values. The ability to display trends and patterns over time or among ordered categories makes these graphs especially helpful. Example of Line Graph :
+----> line graphs—also known as line charts or time series plots—are frequently used to show the link between a series of data points (such as time intervals or sorted categories) and an associated set of numerical values. The ability to display trends and patterns over time or among ordered categories makes these graphs especially helpful. 
+
+EXAMPLE OF LINE GRAPH:
 
 ![line graph](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/94b3af77-5069-4b0a-9d99-7db3dd0f15cc)
 
