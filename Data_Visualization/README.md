@@ -24,7 +24,7 @@ Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data qua
  * Importance of data imputation : Distorts datasets : Large number of missing data can lead to anomalies in the variable distribution,which can change the relative importance of different categories in the dataset.
      * Impacts the final model : Missing data leads to the bias in the dataset, which could affect the final model analysis.
      * Difficult to work with majority machine learning libraries : When utilizing machine learning libraries, mistakes may occur because there is no automatic handling of the missing data.
-* Data Imputation Techniques : There are different data imputation technique some if the technique are :
+* Data Imputation Techniques : There are different data imputation technique some of the technique are :
     * K Nearest Neighbour : The objective is to find K nearest examples in the data where the value in the relevant feature is not absent and then substitute the value of the feature that occurs most frequently in the group.
     * Missing Value Prediction : Using a machine learning module to determine the final imputation value for charactersitic based on other features. The model is trained using the values in the remaining columns, and the rows in feature without missing values.
     * Most Frequent Value : In this method the most frequent column is used to replace the missing values.
@@ -174,8 +174,15 @@ Feature selection
 
 Scale, normalize and transform
 * When to scale?
+    * Scaling means that we are tranforming the data so that it fits within a specific scale, like 0-1. This method is used when you're using methods based on measures of how far apart data points are.
+    * It can help to balance the impact of all variables on the distance calculation and can help to imporve the performance of the algorithm.
 * When to normalize?
+    * The goal of normalization is to change the values of numerical columns in the dataset to use a common scale, without distorting differences in the ranges of values or losing information.
+    * The data should be normalized when features have different ranges.
+    * It also improves the performance and training stability of the model.
 * When to transform?
+    * Whenever a measurement variable does nit fit a normal distribution or has great different standard deviations in different groups it is better to perform a data tranformation.
+    * Transforming variables can be done to correct outliers and assumption failures.
 
 Graphical components
 * X-position  
