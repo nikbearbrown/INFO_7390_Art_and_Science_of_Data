@@ -32,7 +32,10 @@ Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data qua
   - There are several reasons why understanding the nature of data is important as its the first step in any data analysis-
     1. Data Cleaning: Data in the real world is often messy and inconsistent. Understanding your data can help you identify errors or anomalies that need to be addressed before analysis. ex- if certain columns need to contain a specifc data type such as Int but you see some string values, this would indicate a problem.
     2. Predictive Modeling: If you’re building a predictive model, understanding your data can inform feature engineering and the choice of model. ex- categorical variables might need to be one-hot encoded before being used by any ML model as its efficient to predict using binary digits rather than a string of characters.
-    3. Effective Communication: Different types of data require different types of visualizations. ex- categorical data might be best represented by a bar chart, while continuous data might be better suited for a histogram or scatter plot. 
+    3. Effective Communication: Different types of data require different types of visualizations. ex- categorical data might be best represented by a bar chart, while continuous data might be better suited for a histogram or scatter plot.
+   
+  - Few common data types and its uses:
+  
     * Categorical, Nominal, Ordinal: Classifications without a particular order or with a hierarchy.
       1. Categorical - This type of data is used to label data in a dataset into a finite number of discrete groups. Categorical data might not have a logical order. ex- gender (Male, Female, Other) is a categorical variable.
       2. Nominal - Nominal data is a type of categorical data where the categories do not have a standard hierarchy such as colors (red, blue, green) or city names (Boston, San Francisco).
@@ -46,6 +49,8 @@ Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data qua
     * Boolean: This type of data represents truth values and is commonly used in logic operations. It can only take two values: True or False.
     * Interval: Interval data is numeric but with a consistent scale and not necessarily start with zero (like temperature in Celsius or Fahrenheit).
     * Ratio: Ratio data is numeric with a consistent scale and does indeed start with zero (like height, weight, age).
+
+      
 * Descriptive statistics: A preliminary overview of data.
     * Numeric: Using methods like .describe() to get count, mean, standard deviation, etc.
     * Categorical: Evaluate using Shannon entropy to measure unpredictability, count unique values, and ascertain the frequency of each value.
