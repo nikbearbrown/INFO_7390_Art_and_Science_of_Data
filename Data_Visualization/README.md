@@ -174,6 +174,7 @@ Line graphs can also help identify outliers or sudden changes in the numeric val
 
 * Matrix (Rows versus columns)  :
 ----> Rows and columns make up a matrix, which is a structured data representation. Row and column indices serve as a means of identifying each member of a matrix. Matrices are a basic concept in linear algebra and other fields of data analysis and machine learning because they are used to organize, store, and modify data.
+
   EXAMPLE OF MATRIX :
   
 ![Matrix](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/37a55ccb-09ce-4f28-a826-50b203ecf354)
