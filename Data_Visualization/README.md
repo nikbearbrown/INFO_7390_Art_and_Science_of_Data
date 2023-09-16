@@ -159,7 +159,19 @@ Numerical Information: This displays the numbers or measures related to each cat
 - No Linear Relationship: There may not be a linear relationship between the variables if there is no discernible pattern or if the points are dispersed at random.
     
 
-* Line graphs (Sequence versus numeric) 
+* Line graphs (Sequence versus numeric) :
+
+line graphs—also known as line charts or time series plots—are frequently used to show the link between a series of data points (such as time intervals or sorted categories) and an associated set of numerical values. The ability to display trends and patterns over time or among ordered categories makes these graphs especially helpful. Example of Line Graph :
+
+![line graph](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/94b3af77-5069-4b0a-9d99-7db3dd0f15cc)
+
+Line graphs are used to visually assess trends, patterns, or changes in numeric values over the sequence:
+Increasing Trend: If the line generally moves upward from left to right, it indicates an increasing trend in the numeric values.
+Decreasing Trend: If the line generally moves downward from left to right, it indicates a decreasing trend.
+Steady or Flat Trend: If the line remains relatively constant, it indicates that the numeric values are not changing significantly over the sequence.
+Cyclical or Seasonal Patterns: In some cases, you may observe repeating patterns or cycles in the data.
+Line graphs can also help identify outliers or sudden changes in the numeric values.
+
 * Matrix (Rows versus columns)  
 * Maps (Transformation)  
 
