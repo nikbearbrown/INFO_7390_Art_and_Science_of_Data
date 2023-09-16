@@ -29,9 +29,23 @@ Check the data! GIGO (Garbage-in, garbage-out):  It's crucial to ensure data qua
     * Missing Value Prediction : Using a machine learning module to determine the final imputation value for charactersitic based on other features. The model is trained using the values in the remaining columns, and the rows in feature without missing values.
     * Most Frequent Value : In this method the most frequent column is used to replace the missing values.
 * Data types : Understanding the nature of your data is pivotal.
+  - There are several reasons why understanding the nature of data is important as its the first step in any data analysis-
+    1. Data Cleaning: Data in the real world is often messy and inconsistent. Understanding your data can help you identify errors or anomalies that need to be addressed before analysis. ex- if certain columns need to contain a specifc data type such as Int but you see some string values, this would indicate a problem.
+    2. Predictive Modeling: If you’re building a predictive model, understanding your data can inform feature engineering and the choice of model. ex- categorical variables might need to be one-hot encoded before being used by any ML model as its efficient to predict using binary digits rather than a string of characters.
+    3. Effective Communication: Different types of data require different types of visualizations. ex- categorical data might be best represented by a bar chart, while continuous data might be better suited for a histogram or scatter plot. 
     * Categorical, Nominal, Ordinal: Classifications without a particular order or with a hierarchy.
-    * Numeric: Quantifiable data that can be measured.
+      1. Categorical - This type of data is used to label data in a dataset into a finite number of discrete groups. Categorical data might not have a logical order. ex- gender (Male, Female, Other) is a categorical variable.
+      2. Nominal - Nominal data is a type of categorical data where the categories do not have a standard hierarchy such as colors (red, blue, green) or city names (Boston, San Francisco).
+      3. Ordinal - Ordinal data is also categorical but with a clear ordering or hierarchy such as customer satisfaction ratings (Unsatisfied, Neutral, Satisfied) are ordinal.
+    * Numeric: Quantifiable data that can be measured. Types of Numeric data:
+      1. Discrete: These are whole numbers and represent countable data. ex- the number of employees in a company.
+      2. Continuous: These can take any value within a range and represent measurable quantities. ex- temperature or weight.
     * Strings & Dates: Textual data and specific time points or durations.
+      1. String: represent textual data and can include names, addresses, and descriptions.
+      2. Dates: represent specific points in time and can be used to analyze trends over time.
+    * Boolean: This type of data represents truth values and is commonly used in logic operations. It can only take two values: True or False.
+    * Interval: Interval data is numeric but with a consistent scale and not necessarily start with zero (like temperature in Celsius or Fahrenheit).
+    * Ratio: Ratio data is numeric with a consistent scale and does indeed start with zero (like height, weight, age).
 * Descriptive statistics: A preliminary overview of data.
     * Numeric: Using methods like .describe() to get count, mean, standard deviation, etc.
     * Categorical: Evaluate using Shannon entropy to measure unpredictability, count unique values, and ascertain the frequency of each value.
