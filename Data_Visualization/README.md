@@ -103,6 +103,18 @@ Fix data issues and log what was done
       Operation:<br>
       Replace the NaN in dataset with a new feature. ex: 0 and 1<br>
       Can also be replaced with a variable (for categorical variable). ex: “Missing”.<br>
+
+  **Arbitrary Value Imputation**:<br>
+    **Operation**:<br>
+    Arbitrary value should not be the most frequent values.<br>
+    Replace the NAN value with arbitrary value such as the extreme values in the dataset or any other values other than mean, median or mode.<br>
+
+  **Frequent Category Imputation**:<br>
+    **Assumption**: The amount of missing value is low.<br>
+    **Operation**:<br>
+    Find the number of missing values.<br>
+    If there are few missing values: replace the missing values with most frequent value.<br>
+  
 * Remove outliers  
 * Adjust for bias 
 * Upsample
