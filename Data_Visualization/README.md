@@ -277,18 +277,20 @@ Scale, normalize and transform
     * Whenever a measurement variable does nit fit a normal distribution or has great different standard deviations in different groups it is better to perform a data tranformation.
     * Transforming variables can be done to correct outliers and assumption failures.
 
-Graphical components:
-    * Graphical components and diverse aspects are used in Data Visualisation to effectively represent and convey information.
+Graphical components ---> Graphical components and diverse aspects are used in Data Visualisation to effectively represent and convey information.
 These graphical components are the foundation of data visualization, and how they are used can have a big impact on the effectiveness of the visualizations.
 The graphical components used are determined by the type of data, the message that is to be conveyed, and the sort of visualization that is being generated (for example, bar charts, scatter plots, line charts, and so on).
 
-* X-position:
- The horizontal positioning of data points along a scale or axis is represented by an X-position. It usually refers to the dataset's independent variable or categories. The X-position is critical for organizing data along a similar scale, which allows readers to compare and analyze numbers within categories or across time
-Example:
- * In a bar chart, the X-positions represent different categories or groups.
- * In a line chart, the X-axis usually represents time or continuous variables.
+* X-position: The horizontal positioning of data points along a scale or axis is represented by an X-position. It usually refers to the dataset's independent variable or categories. The X-position is critical for organizing data along a similar scale, which allows readers to compare and analyze numbers within categories or across time
+  * Example:
+    * In a bar chart, the X-positions represent different categories or groups.
+    * In a line chart, the X-axis usually represents time or continuous variables.
  
-* Y - position  
+* Y - position: The vertical positioning of data points along a scale or axis is represented by the Y-position. It is usually associated with the dependent variable or data values.
+ The Y-position helps viewers grasp relationships and changes by displaying the size or value of data points.
+    * Example :
+      * In a bar chart, the Y-positions represent the heights or values of bars.
+      * In a scatter plot, the Y-coordinates show the relationship between two variables.
 * Color  
 * Marks - Shape (Points, Bars,Lines, Areas, Volumes)  
 * Channels (Position, Size, Angle/Slope, Color/Intensity/Hue,Texture)
