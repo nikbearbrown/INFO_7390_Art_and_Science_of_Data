@@ -261,7 +261,7 @@ Feature selection is an important aspect of building a machine learning model. D
   *	Pair Plots: Scatter plot matrices can show pairwise relationships between numerical features.
   *	Cross-tabulation: For categorical features, cross-tabulation can help understand the relationship between different categories.
 
-  **Example for the relation between the frature**
+  **Example for the relation between the feature**
     * We can plot lot to see the correlation between each variable and see the result:
     ![Seaborn_correlation](../Data_Visualization/IMG/correlation_breast-cancer-wisconsin.png)
     * From this graph, we can see there is a strong linearly correlation between many variables, such as radius_mean are strong linearly correlated with perimeter_mean, area_mean, radius_worst, perimeter_worst and area_worst, so we can drop the columns of perimeter_mean, area_mean, radius_worst, perimeter_worst and area_worst. 
