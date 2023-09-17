@@ -243,7 +243,16 @@ Feature selection is an important aspect of building a machine learning model. D
     
 * Partial dependencies/marginal contributions of each feature
   *	Partial Dependence Plots: These are used to visualize the effect of a single feature on the predicted outcome of a machine learning model.
+    * Example:
+      ![Partial dependence plot](../Data_Visualization/IMG/Partial_dependence%20.png)
+    * The simplest PD plots are 1-way plots, which show how a model’s predictions depend on a single input. The plot below shows the relationship (according the model that we trained) between price (target) and number of bathrooms. Here, we see that house prices increase as we increase the number of bathroom up to 4. After that it does not change the house price.
+    * PD plots look at the variable of interest across a specified range. At each value of the variable, the model is evaluated for all observations of the other model inputs, and the output is then averaged. Thus, the relationship they depict is only valid if the variable of interest does not interact strongly with other model inputs.
+
   *	Individual Conditional Expectation (ICE) Plots: An extension of partial dependence plots, ICE plots visualize the dependence of the prediction on a feature for each instance.
+    * Example:
+      ![Individual Conditional Expectation plot](../Data_Visualization/IMG/Individual_conditional_expectation.png)
+    * The ICE plots present a much different picture: the relationship is strongly positive for one observation, but strongly negative for the other observation. So contrary to what the PD plot tells us, the ICE plot shows that X1 is actually related to the target; it’s just that there are strong differences in the nature of that relationship, depending on the values of the other variables. 
+    * Basically, ICE plots separate the PD function (which, after all, is an average) to reveal interactions and individual differences.
   *	Shapley Values: These provide a measure of how each feature contributes to each individual prediction, allowing you to understand both global and local feature importance.
   
 * Relations between the features
@@ -251,12 +260,19 @@ Feature selection is an important aspect of building a machine learning model. D
   *	Multicollinearity Tests: The variance inflation factor (VIF) can be used to detect multicollinearity between features.
   *	Pair Plots: Scatter plot matrices can show pairwise relationships between numerical features.
   *	Cross-tabulation: For categorical features, cross-tabulation can help understand the relationship between different categories.
+
+  **Example for the relation between the frature**
+    * We can plot lot to see the correlation between each variable and see the result:
+    ![Seaborn_correlation](../Data_Visualization/IMG/correlation_breast-cancer-wisconsin.png)
+    * From this graph, we can see there is a strong linearly correlation between many variables, such as radius_mean are strong linearly correlated with perimeter_mean, area_mean, radius_worst, perimeter_worst and area_worst, so we can drop the columns of perimeter_mean, area_mean, radius_worst, perimeter_worst and area_worst. 
+    * In this case, we can use one strongest linearly correlation variable to represent the other variables and we do not need to analyze so many variables which is a way to reduce the workload.
       
 * Dependencies between the features
   *	Conditional Independence Tests: These tests can check if one variable is independent of another, given a third variable.
   *	Feature Interaction Terms: Adding interaction terms to the model can capture dependencies between features.
   *	Graphical Models: Bayesian networks or graphical models can represent conditional dependencies between features.
   *	Cluster Analysis: This can be used to find groups of highly similar features, indicating possible dependency.
+  *  Some Statistical Test Methods: Pearson Correlation Test, Spearman Correlation Test, Kendall-Tau Correlation Test, ANOVA test, Kruskal-Wallis H test, Chi-Square Test
 
 * Considerations:
   *	Overfitting: Be cautious of overfitting when considering feature relations and dependencies. More features can make the model more complex and susceptible to overfitting.
