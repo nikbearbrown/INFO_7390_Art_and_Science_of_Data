@@ -166,11 +166,38 @@ Fix data issues and log what was done
 * Upsample
 * Create synthetic data 
 
-Feature selection 
+Feature selection<br>
+Feature selection is an important aspect of building a machine learning model. Determining which features are important is essential for both performance and interpretability. Below are some methods and approaches to consider:
 * Which features are important?
-* Partial dependencies/marginal contributions of each feature    
-* Relations between the features  
-* Dependencies between the features  
+  * Statistical Tests: Correlation coefficients, chi-square tests, and t-tests can indicate the relationship between each feature and the target variable.
+  *	Ensemble Methods: Algorithms like Random Forest and XGBoost provide feature importance metrics.
+  *	Regularization Methods: Lasso and Elastic Net will shrink less important features towards zero, effectively performing feature selection.
+  *	Domain Knowledge: Sometimes, the importance of features can be determined by domain experts.
+  *	Wrapper Methods: Techniques like backward elimination and forward selection are model-based methods for feature selection.
+    
+* Partial dependencies/marginal contributions of each feature
+  *	Partial Dependence Plots: These are used to visualize the effect of a single feature on the predicted outcome of a machine learning model.
+  *	Individual Conditional Expectation (ICE) Plots: An extension of partial dependence plots, ICE plots visualize the dependence of the prediction on a feature for each instance.
+  *	Shapley Values: These provide a measure of how each feature contributes to each individual prediction, allowing you to understand both global and local feature importance.
+  
+* Relations between the features
+  * Correlation Matrix: A heat map of Pearson or Spearman correlation coefficients can show how features are related to each other.
+  *	Multicollinearity Tests: The variance inflation factor (VIF) can be used to detect multicollinearity between features.
+  *	Pair Plots: Scatter plot matrices can show pairwise relationships between numerical features.
+  *	Cross-tabulation: For categorical features, cross-tabulation can help understand the relationship between different categories.
+      
+* Dependencies between the features
+  *	Conditional Independence Tests: These tests can check if one variable is independent of another, given a third variable.
+  *	Feature Interaction Terms: Adding interaction terms to the model can capture dependencies between features.
+  *	Graphical Models: Bayesian networks or graphical models can represent conditional dependencies between features.
+  *	Cluster Analysis: This can be used to find groups of highly similar features, indicating possible dependency.
+
+* Considerations:
+  *	Overfitting: Be cautious of overfitting when considering feature relations and dependencies. More features can make the model more complex and susceptible to overfitting.
+  *	Interpreting Complexity: Complex relationships and dependencies between features can make the model less interpretable.
+  *	Computation Cost: Some feature selection techniques and methods for assessing feature relations and dependencies can be computationally expensive.
+It's often useful to employ a combination of these techniques to ensure a balanced approach to feature selection and understanding their interactions and dependencies.
+
 
 Scale, normalize and transform
 * When to scale?
