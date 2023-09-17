@@ -161,11 +161,11 @@ Fix data issues and log what was done
     Find the number of missing values.<br>
     If there are few missing values: replace the missing values with most frequent value.<br>
   
-* Remove outliers
+* Remove outliers : 
+  
 Removing outliers from a dataset is an important step in data preprocessing to ensure that your data analysis and modeling are not unduly influenced by extreme or erroneous data points. Outliers are data points that deviate significantly from the rest of the data. There are various methods to identify and remove outliers, and the choice of method depends on the nature of your data and the specific goals of your analysis. Here's a general outline of the process:
 
 1. Visual Inspection:
-
 Start by visualizing your data using plots like histograms, box plots, scatter plots, or Q-Q plots. These can help you identify potential outliers.
 Statistical Methods:
 
@@ -181,7 +181,7 @@ Remove or Transform Outliers:
 Remove them: Delete the rows or data points that are identified as outliers. Be cautious when doing this, as it may lead to a loss of valuable information.
 Transform them: Instead of removing outliers, you can transform them to be less extreme. Options include replacing them with the mean, median, or a predefined constant value, or applying data transformations like logarithms or winsorization.
 
-5.Evaluate Impact:
+5. Evaluate Impact:
 Always assess how removing outliers affects your data distribution and analysis. It's essential to understand whether the removal significantly changes the results or insights drawn from the data.
 
 6. Robust Algorithms:
@@ -190,11 +190,38 @@ Document and Justify:
 
 7. Document the process of outlier detection and removal, including the criteria used and the rationale behind it. This documentation is essential for transparency and reproducibility of your analysis.
  
-8.Iterate as Needed:
+8. Iterate as Needed:
 Depending on the impact of outlier removal, you may need to iterate through the process and re-evaluate your data.
 Remember that the decision to remove outliers should be made thoughtfully, as it can have a significant impact on your analysis. It's important to strike a balance between data cleaning and retaining valuable information.
  
-* Adjust for bias 
+* Adjust for bias
+
+  Adjusting for bias in data or in the context of data analysis is a critical step to ensure that your analysis and conclusions are as accurate and fair as possible. Bias can occur for various reasons, such as sampling methods, data collection processes, or algorithmic decisions. Here are some steps to help you adjust for bias in your data analysis:
+
+1. Identify the Sources of Bias:
+Before you can adjust for bias, you need to understand where bias may be present in your data or analysis. This could include bias in data collection, measurement error, sampling bias, or algorithmic bias.
+
+2. Collect Comprehensive Data:
+Ensure that your data collection process is as comprehensive as possible. Collecting data from a diverse and representative sample of the population or target group can help reduce bias due to underrepresentation.
+
+3. Use Random Sampling:
+If applicable, use random sampling techniques to select your data points. Random sampling helps ensure that each data point has an equal chance of being included, reducing selection bias.
+
+4.Account for Missing Data:
+Handle missing data appropriately. The way you handle missing data can introduce bias. Options include imputation methods or considering the missing data mechanism (missing completely at random, missing at random, or not missing at random) to make informed decisions about handling missing data.
+
+5. Analyze Subgroups:
+When analyzing data for bias, consider breaking down your analysis into subgroups based on relevant variables, such as age, gender, ethnicity, or other demographic factors. This can help identify bias affecting specific groups.
+
+6.Evaluate Data Collection Procedures:
+Examine the methods and procedures used to collect your data. Ensure that data collection tools and processes are designed to minimize bias. For example, consider using double-blind surveys to reduce response bias.
+
+7.Use Fair and Unbiased Algorithms:
+If you are using machine learning or algorithmic models, ensure that they are designed and trained to be fair and free from bias. Use techniques such as fairness-aware machine learning and algorithmic audits to detect and mitigate bias in models.
+
+8. Sensitivity Analysis:
+Perform sensitivity analysis to assess how changes in assumptions or methods affect your results. This can help you understand the impact of potential bias on your conclusions.
+
 * Upsample
 * Create synthetic data 
 
