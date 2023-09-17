@@ -291,8 +291,21 @@ The graphical components used are determined by the type of data, the message th
     * Example :
       * In a bar chart, the Y-positions represent the heights or values of bars.
       * In a scatter plot, the Y-coordinates show the relationship between two variables.
-* Color  
-* Marks - Shape (Points, Bars,Lines, Areas, Volumes)  
+
+* Color: Color is used to differentiate and categorize data points or groupings depending on a certain property or variable.
+Color provides a visual encoding that helps distinguish and highlight data points or patterns. It can be used for categorical or qualitative data.
+    * Example :
+      * In a pie chart, each segment is often colored differently to represent different categories.
+      * Heatmaps use color gradients to display variations in data intensity. 
+
+* Marks - Shape (Points, Bars,Lines, Areas, Volumes): Marks or shapes are graphical representations of individual data points or data groups.
+Marks are used to display data visually. Shapes can transmit distinct meanings or categories, and they are particularly helpful for encoding categorical data.
+    * Example:
+      * Scatter plots use points as marks to display individual data points.
+      * Bar charts use bars as marks to represent discrete data categories.
+      * An area chart uses filled areas to represent cumulative data over time or across categories
+      * A 3D bar chart uses volumetric bars to represent data values in three dimensions.
+
 * Channels (Position, Size, Angle/Slope, Color/Intensity/Hue,Texture)
 * Animation    
 * Faceting (small multiples) 
