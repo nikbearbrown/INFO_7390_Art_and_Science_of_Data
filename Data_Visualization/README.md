@@ -161,7 +161,39 @@ Fix data issues and log what was done
     Find the number of missing values.<br>
     If there are few missing values: replace the missing values with most frequent value.<br>
   
-* Remove outliers  
+* Remove outliers
+Removing outliers from a dataset is an important step in data preprocessing to ensure that your data analysis and modeling are not unduly influenced by extreme or erroneous data points. Outliers are data points that deviate significantly from the rest of the data. There are various methods to identify and remove outliers, and the choice of method depends on the nature of your data and the specific goals of your analysis. Here's a general outline of the process:
+
+1. Visual Inspection:
+
+Start by visualizing your data using plots like histograms, box plots, scatter plots, or Q-Q plots. These can help you identify potential outliers.
+Statistical Methods:
+
+2. Use statistical methods to detect outliers. Some common techniques include:
+Z-Score: Calculate the Z-Score for each data point, which measures how many standard deviations it is away from the mean. Data points with high absolute Z-Scores (typically greater than 3 or -3) can be considered outliers.
+IQR (Interquartile Range): Calculate the IQR, which is the difference between the 75th percentile (Q3) and the 25th percentile (Q1). Data points outside the range [Q1 - 1.5 * IQR, Q3 + 1.5 * IQR] are considered outliers.
+
+3. Domain Knowledge:
+Consider domain knowledge to identify outliers. Sometimes, data points that are outliers may have important information or may be valid data. In such cases, it's crucial to consult with domain experts before removing them.
+Remove or Transform Outliers:
+
+4. After identifying outliers, you can choose to:
+Remove them: Delete the rows or data points that are identified as outliers. Be cautious when doing this, as it may lead to a loss of valuable information.
+Transform them: Instead of removing outliers, you can transform them to be less extreme. Options include replacing them with the mean, median, or a predefined constant value, or applying data transformations like logarithms or winsorization.
+
+5.Evaluate Impact:
+Always assess how removing outliers affects your data distribution and analysis. It's essential to understand whether the removal significantly changes the results or insights drawn from the data.
+
+6. Robust Algorithms:
+When applicable, consider using robust statistical techniques or machine learning algorithms that are less sensitive to outliers, especially if you have reasons to believe that outliers are genuine data points.
+Document and Justify:
+
+7. Document the process of outlier detection and removal, including the criteria used and the rationale behind it. This documentation is essential for transparency and reproducibility of your analysis.
+ 
+8.Iterate as Needed:
+Depending on the impact of outlier removal, you may need to iterate through the process and re-evaluate your data.
+Remember that the decision to remove outliers should be made thoughtfully, as it can have a significant impact on your analysis. It's important to strike a balance between data cleaning and retaining valuable information.
+ 
 * Adjust for bias 
 * Upsample
 * Create synthetic data 
