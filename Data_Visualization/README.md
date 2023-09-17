@@ -926,11 +926,11 @@ Todo:
 Shapley Additive explanations generate visual explanations for individual predictions, indicating which features influenced a specific prediction and to what extent.
 They provide a way to understand the contribution of each feature to the prediction of an individual data point. SHAP values are based on cooperative game theory and aim to distribute the credit for a prediction among the input features. Here's a theoretical overview of SHAP plots:
 SHAP values provide a way to quantify the contribution of each feature to the difference between the model's prediction for an individual data point and the expected prediction.
-Calculation of SHAP Values
+### Calculation of SHAP Values
 SHAP values are calculated for each feature and each prediction. The key idea is to consider all possible feature subsets and calculate their contributions to the prediction.
 SHAP values account for both the effects of individual features and interactions between features.
-There are different methods to compute SHAP values, including Kernel SHAP, Tree SHAP for tree-based models, and Deep SHAP (for deep learning models). Each method has its advantages and is tailored to specific model types.
-Interpretation
+There are different methods to compute SHAP values, including Kernel SHAP, Tree SHAP for tree-based models, and Deep SHAP for deep learning models. Each method has its advantages and is tailored to specific model types.
+### Interpretation
 Positive SHAP values indicate that a feature's presence increased the prediction compared to the expected prediction.
 Negative SHAP values indicate that a feature's presence decreased the prediction compared to the expected prediction.
 The magnitude of the SHAP value represents the feature's contribution: larger values indicate a more significant impact on the prediction.
@@ -968,8 +968,7 @@ A waterfall plot illustrates how features collectively contribute to a predictio
 A dependency plot shows how varying the value of a specific feature affects its SHAP value and, consequently, the model's prediction. It usually looks like a line plot, with the feature's values on the x-axis and the corresponding SHAP values on the y-axis.
 5. Force Plot:
 A force plot presents SHAP values for a single prediction in an interactive and compact format. It displays the contributions of each feature to the prediction as arrows that move from the expected baseline to the final prediction value.
-Unfortunately, the force plot is challenging to represent textually due to its interactive nature.
-These textual representations provide a conceptual overview of SHAP plots. To create actual visualizations, you can use Python libraries like shap, matplotlib, or seaborn, which allow you to generate these plots with real data and model predictions.
+Unfortunately, the force plot is challenging to represent textually due to its interactive nature.These textual representations provide a conceptual overview of SHAP plots. To create actual visualizations, you can use Python libraries like shap, matplotlib, or seaborn, which allow you to generate these plots with real data and model predictions.
 
 
 
