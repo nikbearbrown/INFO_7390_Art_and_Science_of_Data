@@ -6,7 +6,7 @@
 
 ### Any code and notebooks related to the lessons will be found in this directory.  
 
-Dataset and how to use it:
+### Dataset and how to use it:
 
 The most effective way to use a dataset in order to understand its insights will depend on the specific dataset and the questions you are trying to answer. However, some general best practices for working with datasets include:
 
@@ -15,53 +15,69 @@ Understand the context:
 Before you start working with a dataset, make sure you understand the context in which it was collected, including the variables that were measured, the sample size, and any limitations of the data.
 Clean and organize the data: Once you have a basic understanding of the dataset, you should clean and organize the data so that it is in a format that is easy to work with. This may involve removing missing or duplicate values, and making sure that variables are in the correct format.
 
-Explore the data: 
+* Explore the data: 
 
 Before diving into specific analyses, it's important to explore the data and get a general sense of the patterns and trends that are present. This can be done through visualizations such as histograms, scatter plots, and box plots.
 
-Identify patterns and trends: 
+* Identify patterns and trends: 
 
 Use the data to identify patterns and trends that are relevant to the questions you are trying to answer. This may involve using statistical techniques such as hypothesis testing, regression analysis, or clustering.
 
-Communicate your insights: 
+* Communicate your insights: 
 
 It's important to communicate your findings in a clear and concise manner, whether it's to a team of colleagues, stakeholders, or to a broader audience. This can be done through reports, dashboards, or data visualization tools.
 
-Keep questioning: 
+* Keep questioning: 
 
 As you work with the data, keep questioning your findings and the assumptions you are making about the data. Try to find additional evidence to support or refute your findings.
 
 It is also worth mentioning that if the dataset is very large, it is a good practice to work with a sample of the data, and make sure that the sample is representative of the whole dataset, to avoid performance issues or too long processing times.
 
-Data collection mechanisms:
+### Data collection mechanisms:
 
 Data collection mechanisms are essential to ensure that the data you use for visualization is well-prepared, relevant, and conducive to effective visual representation. Here are key aspects of data collection mechanisms in relation to data visualization.
 
-Data Sources:
+* Data Sources:
 
 Identify Data Sources: 
 
 Determine where your data is coming from. Sources can include databases, spreadsheets, external APIs, web scraping, surveys, or even real-time data feeds.
 
-Data Access: 
+* Data Access: 
 
 Establish how you will access the data from these sources. This may involve setting up connections to databases, downloading files, or using APIs for data retrieval.
 
-Data Selection:
+* Data Selection:
 
 Select Relevant Data: Choose the specific dataset or subset of data that is most relevant to your visualization goals. Avoid including unnecessary or unrelated data.
 
-Filter and Preprocess:
+* Filter and Preprocess:
 
 Apply data filters and preprocessing steps to prepare the data for visualization. This may include cleaning, aggregating, or transforming the data as needed.
 
-Data Quality:
+* Data Quality:
 
 Quality Assurance: Ensure that the collected data is of high quality. Implement checks to address issues such as missing values, outliers, and data inaccuracies that may impact the accuracy of visualizations.
 
-Data Integration:
+* Data Integration:
 
 Merge Data Sources: If your visualization requires data from multiple sources, integrate them properly to create a unified dataset. Data integration may involve data cleaning and merging based on common keys.
+
+### Importance of Data Visualization:
+
+Data visualization is crucial in data analysis as it serves as the primary way to reveal complex data structures that may be hard to understand otherwise. Data by itself, consisting of bits and bytes stored in a file on a computer hard drive, is invisible. In order to be able to see and make any sense of data, we need to visualize it. Every new visualization is likely to give us some insights into our data. Some of those insights might be already known (but perhaps not yet proven) while other insights might be completely new or even surprising to us. Some new insights might mean the beginning of a story, while others could just be the result of errors in the data, which are most likely to be found by visualizing the data.
+
+* Revealing Unseen Insights: Visualization helps in discovering unexpected patterns and effects in data that might not be apparent through other means.
+
+* Data is Initially Invisible: Data, in its raw form, is invisible and cannot be easily comprehended. Visualization transforms it into a visible and understandable format.
+
+* Broad Understanding of Visualization: The concept of visualization extends beyond charts and graphs to include even textual representations of data, such as loading a dataset into spreadsheet software.
+
+* The Need for Visualization: Rather than questioning whether to visualize data, the focus should be on determining which type of visualization is most suitable for a given situation.
+
+* Moving Beyond Tables: Tables alone are often insufficient for gaining an overview of a dataset or identifying patterns. Visualizations, such as maps for geographical data, are essential for revealing certain types of patterns.
+
+* Diverse Patterns: Visualizations can help identify a wide range of patterns within data, including geographical patterns and other complex structures.
 
 Types of Visualization (The Why?)
 * Explanatory (Communicate something to a larger audience)
