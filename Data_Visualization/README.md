@@ -1544,6 +1544,18 @@ Providing context is crucial for understanding data visualizations. This could b
 ### Keep Your Audience in Mind
 Always consider who will be viewing your data visualization. What prior knowledge do they have? What are they interested in learning? Answering these questions can help you design a visualization that effectively communicates to your audience.
 
+### Visualizing categorical data
+## Categorical scatterplots
+
+In seaborn, there are several different ways to visualize a relationship involving categorical data. Similar to the relationship between relplot() and either scatterplot() or lineplot(), there are two ways to make these plots. There are a number of axes-level functions for plotting categorical data in different ways and a figure-level interface, catplot(), that gives unified higher-level access to them.
+It’s helpful to think of the different categorical plot kinds as belonging to three different families, which we’ll discuss in detail below. They are:
+Categorical scatterplots:
+```ruby
+stripplot() (with kind="strip"; the default)
+swarmplot() (with kind="swarm")
+```
+
+
 # Time Series Visualization 
 
 ## 1. Introduction to Time Series Data
