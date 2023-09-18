@@ -340,7 +340,22 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
       * An area chart uses filled areas to represent cumulative data over time or across categories
       * A 3D bar chart uses volumetric bars to represent data values in three dimensions.
 
-* Channels (Position, Size, Angle/Slope, Color/Intensity/Hue,Texture)
+* Channels (Position, Size, Angle/Slope, Color/Intensity/Hue, Texture): Channels refer to the different visual properties or attributes that can be used to represent and convey information about data points. These channels are ways to encode data so that viewers can interpret and understand the information more effectively. Common channels in data visualization include:
+
+1. Position: The location of data points along a scale or axis. For example, in a bar chart, the height of the bars represents data values, and their position along the horizontal axis provides context.
+
+2. Size: The physical dimensions of graphical elements, such as the size of circles in a scatter plot or the thickness of lines in a line chart. Size can be used to represent quantities, with larger elements indicating larger values.
+
+3. Color: The use of different colors to distinguish data points or categories. Color can convey information or be used to highlight specific data points. However, it's essential to use color thoughtfully, considering color blindness and ensuring readability.
+
+4. Shape: The choice of different shapes to represent data points. This is often used in scatter plots or symbol maps, where each shape may represent a different category or data attribute.
+
+5. Texture: The use of patterns or textures within graphical elements to provide additional information. Texture can be useful for adding detail or nuance to data visualization, although it's less commonly used than other channels.
+
+6. Angle/Slope: The orientation or angle of graphical elements, such as lines or wedges in pie charts. However, using angles and slopes to represent data should be done cautiously, as our perception of these attributes can be less accurate than position and size.
+
+7. Opacity/Transparency: The degree to which graphical elements are transparent or opaque. This can be used to show overlapping data points or emphasize certain elements while de-emphasizing others.
+
 * Animation    
 * Faceting (small multiples) 
 
