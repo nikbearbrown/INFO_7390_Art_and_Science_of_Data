@@ -1036,6 +1036,11 @@ Todo:
 * Zan Armstrong: [Why choose? Scrollytelling and steppers](https://medium.com/@zanarmstrong/why-choose-scrollytelling-steppers-155a59dd97fe))
 
 ### Map projections
+When utilizing geographic data for data visualization, map projections are essential. To guarantee that your data is appropriately represented when you visualize it on a map, you must select the right map projection. Using map projections for data visualization looks like this:
+
+Maintaining Data Accuracy: Based on the unique properties of the data being shown, various map projections are selected. For instance, you would select an equal-area projection that reduces area distortions if you were working with data that required correct area comparisons (such as population density). On the other hand, you might use a conformal projection that maintains angles and forms if your data includes navigational directions (for example, flight tracks).
+
+
 
 
 ### Colour
