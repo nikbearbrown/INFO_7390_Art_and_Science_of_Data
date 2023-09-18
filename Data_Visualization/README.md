@@ -743,6 +743,16 @@ A common way of showing part-to-whole data – but be aware that it’s difficul
 * Stephen Few: [Save the Pies for Dessert](https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf)
 
 
+####Pie Charts in Data Visualization: When to Slice and When to Pass
+
+##What is Pie Chart?
+
+Imagine a universal language for the world how easy it would be for everyone to communicate and share their thoughts. The same way data visualization acts as a universal language for communicating data. It enables individuals from completely different backgrounds to understand, relate and discuss data without the need of an extensive technical expertise.
+One of the most frequently used charts are pie chart because they represent data in an attractive manner. But whether they are a good choice or not depends on the situation and data you're dealing with. In this article, we'll take a closer look at when it's suitable to use pie charts and when it's better to use something else.
+
+![image](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114616849/2ccedb49-ae9e-4762-b83a-bbf6bdc43706)
+
+
 #### Donut
 
 Similar to a pie chart – but the centre can be a good way of making space to include more information about the data (eg. total) 
