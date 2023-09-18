@@ -356,7 +356,18 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
     
     * Opacity/Transparency: The degree to which graphical elements are transparent or opaque. This can be used to show overlapping data points or emphasize certain elements while de-emphasizing others.
 
-* Animation    
+* Animation: Animation in data visualization plays a role similar to storytelling in a movie. It helps make the data come to life and tells a dynamic story. Here's a simple explanation of its role:
+
+   * Engagement: Animation makes data more interesting and engaging. It captures the viewer's attention and keeps them interested in exploring the data.
+
+   * Sequence: It can show how things change over time or in a particular order. For example, you can use animation to reveal data points one by one to emphasize their importance.
+
+   * Transitions: Animation can smooth transitions between different views or data sets, making it easier for viewers to follow along and understand changes.
+
+   * Context: It provides context by showing how data elements move, grow, or interact. This helps viewers see the relationships and patterns within the data.
+
+   * Interactivity: Animated data visualizations often allow viewers to interact with the data, like zooming in, filtering, or clicking on elements for more details.
+     
 * Faceting (small multiples) 
 
 
