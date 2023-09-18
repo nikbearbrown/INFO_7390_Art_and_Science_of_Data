@@ -56,7 +56,34 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
     * Boolean: This type of data represents truth values and is commonly used in logic operations. It can only take two values: True or False.
     * Interval: Interval data is numeric but with a consistent scale and not necessarily start with zero (like temperature in Celsius or Fahrenheit).
     * Ratio: Ratio data is numeric with a consistent scale and does indeed start with zero (like height, weight, age).
+   * Text Data:
+     1. Unstructured Text: Free-form text data that doesn't follow a specific structure or format. Example: Customer reviews, Twitter posts.
+     2. Structured Text: Text data that follows a predefined structure or format. Example: Emails, XML or JSON data
+    * Time Series Data:
+    1. Temporal Data: Data collected over a period of time. Example: Stock prices over days, Sensor data with timestamps.
+    2. Sequential Data: Data with an inherent sequence or order. Example: Web clickstreams, GPS tracking data.
 
+   * Geospatial Data:
+    1. Point Data: Data representing specific geographic points. Example: Locations of landmarks, GPS coordinates.
+    2. Polygon Data: Data representing geographic areas as polygons. Example: Country borders, city boundaries.
+
+   * Percentage Data:
+
+Percentage: Data represented as a percentage of a whole. Example: Percentage of votes in an election, Percentage of budget allocated to different departments.
+
+   * Currency Data:
+
+Currency: Data representing monetary values. Example: Dollar amounts, Euro amounts, currency exchange rates.
+
+   * Image Data:
+
+Digital Images: Pixel-based data representing images. Example: Photographs, MRI scans.
+
+Vector Images: Graphics represented using mathematical equations. Example: Logos, icons.
+
+   * Audio Data:
+
+Audio: Sound data represented as waveforms. Example: Music recordings, Speech samples.
       
 * Descriptive statistics: A preliminary overview of data.
     * Numeric: Using methods like .describe() to get count, mean, standard deviation, etc.
@@ -900,7 +927,33 @@ The bar chart below shows each bar as a distinct product category, and the heigh
 
 <img width="800" alt="bar_chart_pie_pc" src="https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114616849/653f023f-0f8d-49c3-a812-022258fcd49c">
 
+Pie charts can be a useful tool for visualizing data when used appropriately, but they are often misused, leading to misinterpretation and ineffective communication of information. Here are some common misuses of pie charts:
 
+Too Many Categories: Pie charts become cluttered and hard to read when there are too many categories. If you have more than 5-7 categories, consider using a different type of chart, like a bar chart or a stacked bar chart.
+
+Non-Hierarchical Data: Pie charts are suitable for representing data that has a clear hierarchical structure, where the parts make up a whole. Using them for non-hierarchical data can lead to confusion.
+
+Comparing Non-Adjacent Slices: It's difficult to accurately compare slices that are not adjacent in a pie chart. If you need to compare specific categories, a bar chart or a stacked bar chart is often more effective.
+
+Inaccurate Sizing: Pie charts can mislead if the areas of the slices are not proportional to the data they represent. Always ensure that the sizes of the slices accurately reflect the data values.
+
+Lack of Labels: Without proper labels and data labels, it can be challenging for viewers to understand what each slice represents. Always include clear labels for each category.
+
+Overuse for Time-Series Data: Pie charts are not suitable for representing changes over time or showing trends. Line charts or area charts are better for displaying time-series data.
+
+3D Pie Charts: Three-dimensional pie charts add unnecessary complexity and can distort the perceived size of slices. Stick to 2D pie charts for clarity.
+
+Exploded Pie Charts: Exploding or pulling out slices from the pie can make it harder to compare sizes accurately. It's often better to keep slices together for easy comparison.
+
+Missing Data: Pie charts can't effectively represent missing data or data with unknown categories. In such cases, it's better to use other chart types or explicitly indicate the missing data.
+
+Overemphasis on Small Slices: Small slices, especially those with similar colors, can be easily overlooked. Consider aggregating small categories into an "Other" category or using a different visualization.
+
+No Total Value Displayed: Pie charts don't inherently show the total value of the data, which is essential for understanding the context. Always include the total value either within or outside the chart.
+
+Misleading Use of Colors: Colors should be used purposefully. Using colors arbitrarily or inconsistently can confuse viewers. Ensure that colors are meaningful and convey information effectively.
+
+In summary, while pie charts have their place in data visualization, they should be used thoughtfully and appropriately. It's crucial to consider the type of data you have and the message you want to convey when choosing a chart type. In many cases, other types of charts, such as bar charts, stacked bar charts, or line charts, may provide better clarity and accuracy for your data.
 
 ### Factors to Think About When Using a Pie Chart
 Some points to consider while selecting a pie chart as a data visualization for a particular data:
