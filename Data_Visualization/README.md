@@ -249,7 +249,13 @@ Audio: Sound data represented as waveforms. Example: Music recordings, Speech sa
    Through data visualisation, outliers can also be found. We may visually locate any data points that are considerably different from other points in the 
    dataset by showing the data points on a graph.
 
-    These are unusual data points that can heavily influence the overall visualization.
+When should you remove outliers?
+
+The desire to eliminate outliers as part of the data cleansing process would seem obvious. However, in practise, it's occasionally preferable—even imperative—to preserve outliers in your dataset. 
+
+Removing outliers purely because they were in the dataset's extremes can lead to inconsistent results, which would be harmful to your objectives as a data analyst. The statistical significance of the analysis could be lowered as a result of these inconsistencies.
+
+ These are unusual data points that can heavily influence the overall visualization.
     * Numeric: Use Box-whisker plots to identify values that fall outside the interquartile range.
     * Categorical: Identify rare values or those that occur less frequently.
 
