@@ -741,6 +741,8 @@ Stephanie Evergreen and Jennifer Lyons collaborated to create the Qualitative Ch
 
 The full content of the poster, along with links to related material, including research and examples of best practice. _This is a work in progress._
 
+Note: For the code of the example plots, refer to ... 
+
 ### General
 
 * National Geographic: [Taking data visualisation from eye candy to efficiency](http://news.nationalgeographic.com/2015/09/150922-data-points-visualization-eye-candy-efficiency/)
@@ -784,6 +786,8 @@ Show the relationship between two or more variables. Be mindful that, unless you
 
 The standard way to show the relationship between two continuous variables, each of which has its own axis.
 
+![Scatter Plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/43371452/e412dec5-5cc7-4d10-ad9a-193d0b7ea6dd)
+
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * Maarten Lambrechts: [7 reasons you should use dot graphs](http://www.maartenlambrechts.com/2015/05/03/to-the-point-7-reasons-you-should-use-dot-graphs.html)
 * Tim Brock: [Too Big Data: Coping with Overplotting](https://www.infragistics.com/community/blogs/tim_brock/archive/2015/04/21/too-big-data-coping-with-overplotting.aspx)
@@ -803,20 +807,26 @@ A good way of showing the relationship between an amount (columns) and a rate (l
 
 Usually used to show how the relationship between two variables has changed over time.
 
+![Connected Scatterplot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/connected_scatterplot.png?raw=true) 
+
 * Robert Kosara: [The Connected Scatterplot for Presenting Paired Time Series](https://eagereyes.org/papers/the-connected-scatterplot-for-presenting-paired-time-series)
 * Data Revelations: [Be Careful with Dual Axis Charts](http://www.datarevelations.com/be-careful-with-dual-axis-charts.html)
 * *Examples:* [_Washington Post_](https://www.washingtonpost.com/apps/g/page/business/the-end-of-the-us-oil-boom-told-through-one-texas-companys-bust/1999/)
 
-#### Bubble
+#### Bubble Plots
 
 Like a scatterplot, but adds additional detail by sizing the circles according to a third variable 
+
+![Bubble chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/bubble_chart.png?raw=true)
 
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * *Examples:* [_FT_](https://ig.ft.com/managements-missing-women-data/)
 
 #### XY heatmap
 
-A good way of showing the patterns between 2 categories of data, less good at showing fine differences in amounts.
+A good way of showing the patterns between 2 categories of data, but less good at showing fine differences in amounts.
+
+![HeatMap](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/heatmap.png?raw=true)
 
 * Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
 
@@ -827,6 +837,8 @@ Use where an item’s position in an ordered list is more important than its abs
 #### Ordered bar
 
 Standard bar charts display the ranks of values much more easily when sorted into order
+
+![ordered bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/43371452/3384af5f-5952-4728-817d-fe07990231e3)
 
 #### Ordered column
 
@@ -840,13 +852,19 @@ Use when there are big variations between values and/or seeing fine differences 
 
 Dots placed in order on a strip are a space-efficient method of laying out ranks across multiple categories.
 
+![dot strip plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/strip_charts.png?raw=true)
+
 #### Slope
 
 Perfect for showing how ranks have changed over time or vary between categories. 
 
+![slop chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/slope.png?raw=true)
+
 #### Lollipop chart
 
 Lollipops draw more attention to the data value than standard bar/column and can also show rank and value effectively.
+
+![lollipop chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/lollipop.png?raw=true)
 
 ### Distribution
 
@@ -858,15 +876,25 @@ Show values in a dataset and how often they occur. The shape (or ‘skew’) of 
 
 The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data
 
+![histogram](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/histogram.png?raw=true)
+
 * Aran Lunzer and Amelia McNamara: [Exploring histograms](http://tinlizzie.org/histograms/)
 
 #### Boxplot
 
 Summarise multiple distributions by showing the median (centre) and range of the data
 
+![box plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/boxplots.png?raw=true)
+
 #### Violin plot
 
 Similar to a box plot but more effective with complex distributions (data that cannot be summarised with simple average).
+
+![simple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/simple_violinplot.png?raw=true)
+
+_some comment_
+
+![Multiple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/multiple_violinplots.png?raw=true)
 
 #### Population pyramid
 
