@@ -114,6 +114,29 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
   Student D excels in math but faces challenges in science, whereas student E shines in 
   science but has a comparatively lower math score.
 
+  You'll see outliers classified as any of the following, in addition to the distinction 
+  between univariate and multivariate outliers:
+
+  Global outliers
+  Single data points that deviate significantly from the majority of the data distribution 
+  are referred to as global outliers (also known as point outliers). 
+
+  Contextual outliers
+  The same value may not be regarded as an outlier if it occurred in a different context. 
+  Contextual outliers, often referred to as conditional outliers, are values that 
+  considerably depart from the rest of the data points in the same context. These kinds of 
+  outliers are frequently observed in time series data. 
+
+  Collective outliers
+  A subset of data points that is completely distinct from the overall dataset is referred 
+  to as a collective outlier.
+
+
+
+
+
+
+
    How do you identify outliers?
 
    Use of statistical tests like z-scores or interquartile range (IQR) is one of the most used techniques.  We determine the z-score for each data point in the 
