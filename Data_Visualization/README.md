@@ -368,8 +368,9 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
 
    * Interactivity: Animated data visualizations often allow viewers to interact with the data, like zooming in, filtering, or clicking on elements for more details.
      
-* Faceting (small multiples) 
-
+* Faceting (small multiples): Faceting in data visualization is like dividing a big puzzle into smaller pieces to understand it better. Here's a simple explanation:
+Imagine you have a lot of data, and you want to see how it behaves in different groups or categories. Faceting helps you do this by splitting your data into smaller, similar parts and showing each part separately. Each smaller part is like a mini-graph that focuses on a specific group or category.
+For example, if you have data about sales in different regions and you use faceting, you'd create separate charts or graphs for each region. This way, you can quickly see how sales are doing in each area without getting overwhelmed by all the data at once.
 
 Chart types and fundamental graphs   
 * Bar chart  (Categorical versus numeric)
