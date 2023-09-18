@@ -6,6 +6,49 @@
 
 ### Any code and notebooks related to the lessons will be found in this directory.  
 
+Dataset and how to use it:
+The most effective way to use a dataset in order to understand its insights will depend on the specific dataset and the questions you are trying to answer. However, some general best practices for working with datasets include:
+
+Understand the context: 
+Before you start working with a dataset, make sure you understand the context in which it was collected, including the variables that were measured, the sample size, and any limitations of the data.
+Clean and organize the data: Once you have a basic understanding of the dataset, you should clean and organize the data so that it is in a format that is easy to work with. This may involve removing missing or duplicate values, and making sure that variables are in the correct format.
+
+Explore the data: 
+Before diving into specific analyses, it's important to explore the data and get a general sense of the patterns and trends that are present. This can be done through visualizations such as histograms, scatter plots, and box plots.
+
+Identify patterns and trends: 
+Use the data to identify patterns and trends that are relevant to the questions you are trying to answer. This may involve using statistical techniques such as hypothesis testing, regression analysis, or clustering.
+
+Communicate your insights: 
+It's important to communicate your findings in a clear and concise manner, whether it's to a team of colleagues, stakeholders, or to a broader audience. This can be done through reports, dashboards, or data visualization tools.
+
+Keep questioning: 
+As you work with the data, keep questioning your findings and the assumptions you are making about the data. Try to find additional evidence to support or refute your findings.
+
+It is also worth mentioning that if the dataset is very large, it is a good practice to work with a sample of the data, and make sure that the sample is representative of the whole dataset, to avoid performance issues or too long processing times.
+
+Data collection mechanisms:
+Data collection mechanisms are essential to ensure that the data you use for visualization is well-prepared, relevant, and conducive to effective visual representation. Here are key aspects of data collection mechanisms in relation to data visualization.
+
+Data Sources:
+Identify Data Sources: 
+Determine where your data is coming from. Sources can include databases, spreadsheets, external APIs, web scraping, surveys, or even real-time data feeds.
+
+Data Access: 
+Establish how you will access the data from these sources. This may involve setting up connections to databases, downloading files, or using APIs for data retrieval.
+
+Data Selection:
+Select Relevant Data: Choose the specific dataset or subset of data that is most relevant to your visualization goals. Avoid including unnecessary or unrelated data.
+
+Filter and Preprocess: 
+Apply data filters and preprocessing steps to prepare the data for visualization. This may include cleaning, aggregating, or transforming the data as needed.
+
+Data Quality:
+Quality Assurance: Ensure that the collected data is of high quality. Implement checks to address issues such as missing values, outliers, and data inaccuracies that may impact the accuracy of visualizations.
+
+Data Integration:
+Merge Data Sources: If your visualization requires data from multiple sources, integrate them properly to create a unified dataset. Data integration may involve data cleaning and merging based on common keys.
+
 Types of Visualization (The Why?)
 * Explanatory (Communicate something to a larger audience)
 
