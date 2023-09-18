@@ -1088,6 +1088,43 @@ Todo:
 * Zan Armstrong: [Why choose? Scrollytelling and steppers](https://medium.com/@zanarmstrong/why-choose-scrollytelling-steppers-155a59dd97fe))
 
 ### Map projections
+
+Map projections are techniques for displaying the Earth's three-dimensional surface on a two-dimensional surface, such as a map. Maps are flat, yet the Earth is a curving, spherical object, necessitating this change. Map projections use mathematical methods to flatten the Earth's surface while maintaining some characteristics or eliminating distortions, depending on the map's intended use. A thorough description of map projections is provided below:
+
+Why Is Map Projection Required?
+
+Maps are flat, two-dimensional depictions of the three-dimensional Earth's surface. Several difficulties arise when attempting to depict the spherical surface of the Earth on a flat map.
+Distortion: It is a necessary component of any representation of the Earth's surface. Different map projections try to accommodate some distortions while minimizing others.
+Preserving Properties: A map's attributes, such as lengths, angles, regions, or shapes, may need to be preserved depending on its intended use. certain map projections are optimized for certain qualities.
+Navigation and Visualization: Map-based navigation and visualization are two of the many uses for maps, which are also used for geographic analysis. For various applications, various map projections are appropriate.
+
+Key Concepts in Map Projections:
+
+Projection Surface: This is the imaginary surface onto which the Earth's features are projected. Common choices include cylinders, cones, and planes.
+Point of Tangency/Secant: For many map projections, the Earth's surface touches or intersects the projection surface at a specific point or along a line. This point or line is called the point of tangency (for tangent projections) or secant (for secant projections).
+Projection Center: This is the point from which the Earth is projected onto the projection surface. It can be inside or outside the Earth.
+Scale Factor: Map projections may include a scale factor that adjusts distances, ensuring they are accurate in specific directions or areas.
+Distortion: Different map projections introduce distortion in terms of area, shape, distance, or direction. Choosing a projection involves selecting which types of distortion are acceptable for the intended use.
+
+Common Map Projections:
+
+Mercator Projection: This is a cylindrical projection that preserves angles and is well-suited for navigation. However, it greatly distorts areas at high latitudes, making polar regions appear larger than they are.
+Robinson Projection: This compromise projection aims to minimize distortion in size, shape, and distance. It's commonly used in world maps.
+Lambert Conformal Conic Projection: A conic projection that preserves shape and is used for mapping regions with an east-west orientation.
+Azimuthal Equidistant Projection: An azimuthal (planar) projection that preserves distances from a central point. It's often used for maps centered on the poles.
+Equirectangular Projection: Also known as the Plate Carrée projection, this simple cylindrical projection preserves latitude and longitude as straight lines. However, it distorts shape and size at higher latitudes.
+Sinusoidal Projection: This pseudocylindrical projection preserves neither shape nor area but is known for accurately representing longitudes as straight lines.
+
+Applications of Map Projections:
+
+Navigation: Some map projections, like the Mercator, are well-suited for navigation because they preserve angles and allow for straight lines as courses.
+Geographic Analysis: Geographers and researchers use map projections that preserve area or shape to analyze data about countries, regions, or natural features.
+Climate and Weather Maps: Map projections are used to represent meteorological data, which helps in weather forecasting and climate analysis.
+Cartography: Cartographers choose map projections based on the specific purpose of the map, such as world maps, topographic maps, or thematic maps.
+In summary, map projections are crucial for representing the Earth's curved surface on flat maps, and different projections are chosen based on the specific needs of map users. Each projection comes with its advantages and trade-offs, making the selection of an appropriate projection a critical decision in cartography and geographic information systems (GIS).
+
+
+
 When utilizing geographic data for data visualization, map projections are essential. To guarantee that your data is appropriately represented when you visualize it on a map, you must select the right map projection. Using map projections for data visualization looks like this:
 
 Maintaining Data Accuracy: Based on the unique properties of the data being shown, various map projections are selected. For instance, you would select an equal-area projection that reduces area distortions if you were working with data that required correct area comparisons (such as population density). On the other hand, you might use a conformal projection that maintains angles and forms if your data includes navigational directions (for example, flight tracks).
@@ -1127,19 +1164,32 @@ The sum of SHAP values for all features plus the expected prediction equals the 
 SHAP plots are widely used in machine learning and data analysis for several purposes:
 
 1. Model Interpretation: SHAP plots help explain the output of machine learning models. They provide insights into why a specific prediction was made and the contribution of each input feature to that prediction. This is crucial for understanding complex models and building trust in their predictions.
+Example: Imagine you have a credit scoring model, and it predicts whether a loan applicant is likely to default or not. A SHAP plot for a specific loan applicant might reveal that their low credit score had the most significant positive impact on the model's prediction, indicating that their credit score was the primary reason for the prediction.
+
 2. Model Debugging: SHAP plots are useful for identifying and diagnosing model errors or biases. If a model makes a prediction that seems unexpected or incorrect, SHAP plots can reveal which features contributed to the prediction and why.
+Example: In a medical diagnosis model, you encounter a case where the model predicts a low probability of a patient having a severe illness when the patient's symptoms suggest otherwise. A SHAP plot might show that the "severity of symptoms" feature had a low negative impact, suggesting that the model's underestimation of symptom severity led to the incorrect prediction
 
 3. Feature Engineering: When working on feature engineering tasks, SHAP plots can guide the process. They help you understand how different feature transformations or selections affect the model's predictions.
+Example: Suppose you're building a recommendation system, and you want to improve the accuracy of movie recommendations. You can use SHAP plots to analyze the impact of various user and movie features on recommendations. For instance, by visualizing SHAP values, you might discover that the "genre preference" feature has a stronger effect on recommendations than "movie length," guiding you to focus on better encoding user genre preferences.
 
 4. Model Selection: When comparing multiple models, SHAP plots can provide valuable insights into how each model behaves. You can use SHAP values to compare the interpretability and reliability of different models.
+Example: You're comparing two different models for predicting customer churn in a subscription-based business. By generating SHAP plots for both models, you can assess which model provides more interpretable and reliable explanations for its predictions. If one model's SHAP plots are clearer and more consistent with your domain knowledge, you may lean towards selecting that model.
 
 5. Outlier Detection: SHAP plots can assist in identifying outliers or anomalies by showing the impact of each feature on a specific data point's prediction. Unusual SHAP values may indicate data points that don't conform to the expected patterns.
+Example: In a fraud detection model, SHAP plots can highlight data points with unusual SHAP values. Suppose you notice that a specific transaction has extremely high SHAP values for certain features. This might indicate that the transaction significantly deviates from the expected patterns of legitimate transactions, raising suspicion of fraud.
 
 6. Model Fairness and Bias Analysis: SHAP plots can help detect and mitigate biases in machine learning models. By examining SHAP values for different groups or demographics, you can assess whether the model's predictions are fair and unbiased.
+Example: You're developing a hiring model for a company, and you want to ensure that the model doesn't discriminate against gender. SHAP plots can help by showing the distribution of SHAP values for male and female candidates. If you observe that gender-related features have a significant impact on predictions, it could signal gender bias in the model.
 
 7. Hyperparameter Tuning: SHAP values can be used to assess the impact of hyperparameter choices on model performance. By visualizing SHAP plots for models with different hyperparameters, you can make informed decisions during hyperparameter tuning.
+Example: You're tuning hyperparameters for a gradient boosting model. By creating SHAP plots for models with different hyperparameter settings, you can compare how changes in parameters affect feature contributions. This can guide your hyperparameter selection process, helping you choose the settings that lead to more interpretable models.
+
 8. Explainability for Stakeholders: SHAP plots offer a clear and intuitive way to communicate model predictions and feature contributions to non-technical stakeholders, such as business managers or clients.
+Example: You're presenting the results of a machine learning model to a group of business stakeholders who lack technical expertise. SHAP plots can be used to show them how different features influence predictions. For instance, you can create a SHAP summary plot that displays feature importances in a visually intuitive manner, making it easier for stakeholders to understand why the model makes certain predictions.
+
 9. Regulatory Compliance: In regulated industries like finance and healthcare, SHAP plots can provide transparent explanations for model decisions, helping organizations comply with regulatory requirements for model interpretability.
+Example: In the financial sector, you're required to explain why a loan application was accepted or rejected. SHAP plots can provide a transparent breakdown of how various financial factors contributed to the decision. This not only helps you comply with regulatory requirements but also builds trust with regulators and customers.
+
 Overall, SHAP plots are a versatile tool that can enhance the understanding, trustworthiness, and transparency of machine learning models, making them valuable in a wide range of applications and scenarios.
 SHAP Plots
 SHAP plots visualize the SHAP values for each feature for a specific data point.
