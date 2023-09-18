@@ -255,6 +255,20 @@ The desire to eliminate outliers as part of the data cleansing process would see
 
 Removing outliers purely because they were in the dataset's extremes can lead to inconsistent results, which would be harmful to your objectives as a data analyst. The statistical significance of the analysis could be lowered as a result of these inconsistencies.
 
+What causes outliers to appear in datasets?
+
+It's important to consider how outliers get into datasets in the first place now that we understand what they are and how to spot them. 
+
+Some of the more frequent reasons for outliers in datasets are listed below:
+
+Human error, such as a misspelling, when manually entering data
+intentional mistakes, like adding mock outliers to a sample to test detection algorithms.
+
+Sampling errors that result from removing or combining data from unreliable or inconsistent sources, Data processing mistakes brought on by unintentional dataset changes or data tampering
+
+Instrumental error-related measurement errors
+
+Experimental blunders that occur during the design, execution, or data extraction stage
  These are unusual data points that can heavily influence the overall visualization.
     * Numeric: Use Box-whisker plots to identify values that fall outside the interquartile range.
     * Categorical: Identify rare values or those that occur less frequently.
