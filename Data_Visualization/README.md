@@ -85,6 +85,35 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
     can be significant, and they can skew the outcomes of any hypothesis testing. For accurate findings, it is crucial to thoroughly identify any potential 
     outliers in your dataset and deal with them appropriately.
 
+  Types of outliers
+  There are two kinds of outliers:
+  
+  Univariate Outlier
+  An excessive value related to only one variable is referred to as a univariate outlier.
+  Imagine you have a dataset of 10 employees’ having salary on a scale of $10k to $50k. The 
+  salaries are as follows: $35k, $40k, $42k, $48k, $49k, $47k, $46k, $41k, $40k, and $20k.In 
+  this case, the score of $20k is significantly lower than the rest of them and can be 
+  considered a univariate outlier.
+
+  Multivariate outlier
+  A collection of odd or extreme values for at least two different variables is known as a 
+  multivariate outlier.
+  Imagine you are a teacher, and you have collected data on how well a group of students 
+  performed in two subjects: mathematics and science. Your aim is to pinpoint students who 
+  either excel or struggle significantly in both subjects simultaneously.
+  Here are the scores of five students:
+  Student A: Achieved a high score in math (95) and a good score in science (90).
+  Student B: Scored well in both math (85) and science (88).
+  Student C: Received lower scores in both math (60) and science (55).
+  Student D: Obtained a remarkable math score (92) but struggled in science (40).
+  Student E: Excelled in science (92) but had a relatively lower math score (75).
+
+  In this scenario, students D and E are identified as multivariate outliers because they 
+  stand out by performing exceptionally well in one subject while significantly 
+  underperforming in the other subject when compared to the general distribution of scores. 
+  Student D excels in math but faces challenges in science, whereas student E shines in 
+  science but has a comparatively lower math score.
+
    How do you identify outliers?
 
    Use of statistical tests like z-scores or interquartile range (IQR) is one of the most used techniques.  We determine the z-score for each data point in the 
