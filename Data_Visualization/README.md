@@ -1892,7 +1892,31 @@ Here are some common types of anomaly detection plots:
 
 ### 4.2. Interactive Time Series Visualizations
 
-Interactive plots allow users to engage with the data dynamically. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+Interactive plots allow users to engage with the data dynamically. Interactive time series visualizations are essential for exploring and understanding temporal data effectively. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+
+Here's a closer look at how Plotly facilitates interactive time series visualizations:
+
+1. **Zooming:** Plotly allows users to zoom in on specific time intervals by selecting and dragging a region of interest on the time series plot. This feature is particularly useful when examining fine-grained details or focusing on specific time periods.
+
+2. **Panning:** Users can pan horizontally to navigate through the time series data, moving the view to different parts of the timeline. This is helpful for exploring different segments of the data without changing the zoom level.
+
+3. **Hovering:** Plotly provides hover interactions, where users can move the cursor over data points to reveal additional information. When hovering over a data point, tooltips display details such as the timestamp and corresponding value, offering context for specific time points.
+
+4. **Data Highlighting:** Interactive time series plots allow users to select and highlight specific data points or time intervals by clicking or tapping on them. This highlighting helps users focus on particular events or anomalies in the data.
+
+5. **Customized Tooltips:** You can customize tooltips in Plotly to display additional information beyond the default timestamp and value. This might include metadata, contextual details, or computed statistics related to the selected data point.
+
+6. **Dynamic Filtering:** Users can apply dynamic filters to the time series data directly from the interactive plot. This feature enables users to refine the visualization based on specific criteria, such as date ranges or threshold values, to investigate patterns and outliers.
+
+7. **Interactive Legends:** Plotly's interactive legends allow users to toggle the visibility of different data series or categories within the time series plot. This makes it easy to focus on specific components of the data or compare multiple time series.
+
+8. **Time-Based Animations:** Animations can be created using Plotly to visualize changes in time series data over time. You can control the speed of the animation and use it to reveal trends, patterns, or transitions in the data.
+
+9. **Custom Controls:** Advanced users can implement custom controls and widgets within the interactive visualization. This can include dropdown menus, sliders, or buttons that allow users to modify the data presentation or apply various transformations interactively.
+
+10. **Export and Sharing:** Once an interactive time series plot is created, it can be exported in various formats, including HTML files that retain interactivity. This makes it easy to share dynamic visualizations with others.
+
+By utilizing Plotly's interactive capabilities, you can create engaging and informative time series visualizations that empower users to explore temporal data with precision and depth. These features are valuable for data analysis, decision-making, and storytelling when working with time-dependent datasets.
 
 ## 5. Multi-Series and Multivariate Time Series Visualization
 
