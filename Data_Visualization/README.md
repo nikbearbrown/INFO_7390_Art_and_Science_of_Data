@@ -667,6 +667,57 @@ Benefits:
 In summary, data visualization is a powerful tool in marketing analytics, allowing marketers to uncover insights, track customer behavior, and optimize their strategies. Whether it's customer segmentation, funnel analysis, A/B testing, or overall campaign monitoring, effective data visualizations make complex data more accessible and actionable for marketing professionals.
 
 
+
+Chart types and fundamental graphs   
+* Bar chart  (Categorical versus numeric)
+   ----> A bar chart is a typical style of chart used in data science and data visualization to display categorical data (also known as qualitative or nominal data) in contrast to numeric data (quantitative data). Bar graphs are useful tools for showing and contrasting several categories or groups within a dataset visually.
+
+  EXAMPLE OG BAR CHART:
+![Categorical - Bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/ecb716fd-11c8-4289-8a05-ed24daca5d7b).
+categorical data : Data that defines the categories or groups you want to compare is known as categorical data. Examples may be company names, locations, dates, or any other labels that lack numerals.
+Numerical Information: This displays the numbers or measures related to each category. Any type of numerical data, including counts, frequencies, percentages, and continuous values, may be included.
+
+* Scatter plot (Numeric versus numeric)
+  ----> A  scatter plot is a sort of data visualization that is used to show the relationship or correlation between two sets of numeric data variables. Exploring patterns, trends, clusters, or outliers in the data is where it is most helpful. The x-axis and y-axis of a scatter plot both depict numerical variables.
+
+  EXAMPLE OF SCATTERED GRAPH:
+
+![SCATTERERD GRAPH](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/c6726dfe-2ed9-487b-a75f-66d4c4a8377d)
+
+- The link between the two numerical variables is visually evaluated using scatter plots:
+- A positive linear relationship exists between the variables if the data points form an approximately upward-sloping line, indicating that an increase in one variable tends to be associated with an increase in the other.
+-  A negative linear relationship exists between the variables if the data points form an approximately downward-sloping line, indicating that an increase in one variable tends to be associated with a decrease in the other.
+- No Linear Relationship: There may not be a linear relationship between the variables if there is no discernible pattern or if the points are dispersed at random.
+    
+
+* Line graphs (Sequence versus numeric) :
+
+----> line graphs—also known as line charts or time series plots—are frequently used to show the link between a series of data points (such as time intervals or sorted categories) and an associated set of numerical values. The ability to display trends and patterns over time or among ordered categories makes these graphs especially helpful. 
+
+EXAMPLE OF LINE GRAPH:
+
+![line graph](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/94b3af77-5069-4b0a-9d99-7db3dd0f15cc)
+
+Line graphs are used to visually assess trends, patterns, or changes in numeric values over the sequence:
+-Increasing Trend: If the line generally moves upward from left to right, it indicates an increasing trend in the numeric values.
+-Decreasing Trend: If the line generally moves downward from left to right, it indicates a decreasing trend.
+-Steady or Flat Trend: If the line remains relatively constant, it indicates that the numeric values are not changing significantly over the sequence.
+-Cyclical or Seasonal Patterns: In some cases, you may observe repeating patterns or cycles in the data.
+Line graphs can also help identify outliers or sudden changes in the numeric values.
+
+* Matrix (Rows versus columns)  :
+----> Rows and columns make up a matrix, which is a structured data representation. Row and column indices serve as a means of identifying each member of a matrix. Matrices are a basic concept in linear algebra and other fields of data analysis and machine learning because they are used to organize, store, and modify data.
+
+  EXAMPLE OF MATRIX :
+  
+![Matrix](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/37a55ccb-09ce-4f28-a826-50b203ecf354)
+
+  
+* Maps (Transformation)  
+
+See the Data Visualisation Catalogue  <a href='https://datavizcatalogue.com'>https://datavizcatalogue.com</a>   
+
+
 **What is causal inference and what are different Visual Techniques in Causal Data?**
 
 Causal Inference refers to the process of determining whether one event or variable (the cause) directly or indirectly brings about another event or variable (the effect). In other words, it involves understanding the cause-and-effect relationships between variables in a dataset or system. Causal inference is crucial in various fields, including epidemiology, economics, social sciences, and machine learning, as it helps us make informed decisions, predict outcomes, and understand the impact of interventions or policies.
@@ -731,58 +782,6 @@ Advanced causal analysis techniques are methods and approaches used to investiga
 11. Machine Learning Causal Discovery: Advanced machine learning algorithms, such as causal Bayesian networks, structural causal models, and causal discovery algorithms like PC (Peter-Clark) and FCI (Fast Causal Inference), are used to discover causal relationships in high-dimensional data.
 
 These advanced causal analysis techniques are essential for addressing complex questions in various fields, including economics, social sciences, epidemiology, and machine learning. They provide researchers with the tools to uncover causal relationships, make informed decisions, and develop more accurate models of complex systems.
-
-
-
-
-Chart types and fundamental graphs   
-* Bar chart  (Categorical versus numeric)
-   ----> A bar chart is a typical style of chart used in data science and data visualization to display categorical data (also known as qualitative or nominal data) in contrast to numeric data (quantitative data). Bar graphs are useful tools for showing and contrasting several categories or groups within a dataset visually.
-
-  EXAMPLE OG BAR CHART:
-![Categorical - Bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/ecb716fd-11c8-4289-8a05-ed24daca5d7b).
-categorical data : Data that defines the categories or groups you want to compare is known as categorical data. Examples may be company names, locations, dates, or any other labels that lack numerals.
-Numerical Information: This displays the numbers or measures related to each category. Any type of numerical data, including counts, frequencies, percentages, and continuous values, may be included.
-
-* Scatter plot (Numeric versus numeric)
-  ----> A  scatter plot is a sort of data visualization that is used to show the relationship or correlation between two sets of numeric data variables. Exploring patterns, trends, clusters, or outliers in the data is where it is most helpful. The x-axis and y-axis of a scatter plot both depict numerical variables.
-
-  EXAMPLE OF SCATTERED GRAPH:
-
-![SCATTERERD GRAPH](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/c6726dfe-2ed9-487b-a75f-66d4c4a8377d)
-
-- The link between the two numerical variables is visually evaluated using scatter plots:
-- A positive linear relationship exists between the variables if the data points form an approximately upward-sloping line, indicating that an increase in one variable tends to be associated with an increase in the other.
--  A negative linear relationship exists between the variables if the data points form an approximately downward-sloping line, indicating that an increase in one variable tends to be associated with a decrease in the other.
-- No Linear Relationship: There may not be a linear relationship between the variables if there is no discernible pattern or if the points are dispersed at random.
-    
-
-* Line graphs (Sequence versus numeric) :
-
-----> line graphs—also known as line charts or time series plots—are frequently used to show the link between a series of data points (such as time intervals or sorted categories) and an associated set of numerical values. The ability to display trends and patterns over time or among ordered categories makes these graphs especially helpful. 
-
-EXAMPLE OF LINE GRAPH:
-
-![line graph](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/94b3af77-5069-4b0a-9d99-7db3dd0f15cc)
-
-Line graphs are used to visually assess trends, patterns, or changes in numeric values over the sequence:
--Increasing Trend: If the line generally moves upward from left to right, it indicates an increasing trend in the numeric values.
--Decreasing Trend: If the line generally moves downward from left to right, it indicates a decreasing trend.
--Steady or Flat Trend: If the line remains relatively constant, it indicates that the numeric values are not changing significantly over the sequence.
--Cyclical or Seasonal Patterns: In some cases, you may observe repeating patterns or cycles in the data.
-Line graphs can also help identify outliers or sudden changes in the numeric values.
-
-* Matrix (Rows versus columns)  :
-----> Rows and columns make up a matrix, which is a structured data representation. Row and column indices serve as a means of identifying each member of a matrix. Matrices are a basic concept in linear algebra and other fields of data analysis and machine learning because they are used to organize, store, and modify data.
-
-  EXAMPLE OF MATRIX :
-  
-![Matrix](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114248445/37a55ccb-09ce-4f28-a826-50b203ecf354)
-
-  
-* Maps (Transformation)  
-
-See the Data Visualisation Catalogue  <a href='https://datavizcatalogue.com'>https://datavizcatalogue.com</a>   
 
 
 
