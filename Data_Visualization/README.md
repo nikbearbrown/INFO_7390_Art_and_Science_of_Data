@@ -2206,7 +2206,7 @@ Choosing the right color combination or color palette for your visualization is 
 
 <p>In this section, we will look at a few good practices to follow while representing insightful data.</p>
 
-### Anomaly Detection in Time Series data:
+# Anomaly Detection in Time Series data:
 Anomaly detection in time series data involves finding patterns or behaviours different from how the system being watched is supposed to act.
 Time series data is a list of data points collected at regular or irregular intervals. Anomalies in time series data could mean the system being watched is broken or acting strangely.
 
