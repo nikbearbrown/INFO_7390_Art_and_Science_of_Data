@@ -1646,7 +1646,25 @@ Categorical scatterplots:
 stripplot() (with kind="strip"; the default)
 swarmplot() (with kind="swarm")
 ```
+### Categorical distribution plots:
+```ruby
+boxplot() (with kind="box")
+violinplot() (with kind="violin")
+boxenplot() (with kind="boxen")
+```
+### Categorical estimate plots:
+```ruby
+pointplot() (with kind="point")
+barplot() (with kind="bar")
+countplot() (with kind="count")
+```
+These families represent the data using different levels of granularity. When deciding which to use, you’ll have to think about the question that you want to answer. The unified API makes it easy to switch between different kinds and see your data from several perspectives.
 
+The default representation of the data in catplot() uses a scatterplot. There are actually two different categorical scatter plots in seaborn. They take different approaches to resolving the main challenge in representing categorical data with a scatter plot, which is that all of the points belonging to one category would fall on the same position along the axis corresponding to the categorical variable. The approach used by stripplot(), which is the default “kind” in catplot() is to adjust the positions of points on the categorical axis with a small amount of random “jitter”:
+```ruby
+tips = sns.load_dataset("tips")
+sns.catplot(data=tips, x="day", y="total_bill")
+```
 
 # Time Series Visualization 
 
