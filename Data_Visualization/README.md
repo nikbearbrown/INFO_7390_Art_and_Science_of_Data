@@ -6,6 +6,109 @@
 
 ### Any code and notebooks related to the lessons will be found in this directory.  
 
+### Dataset and how to use it:
+
+The most effective way to use a dataset in order to understand its insights will depend on the specific dataset and the questions you are trying to answer. However, some general best practices for working with datasets include:
+
+Understand the context: 
+
+Before you start working with a dataset, make sure you understand the context in which it was collected, including the variables that were measured, the sample size, and any limitations of the data.
+Clean and organize the data: Once you have a basic understanding of the dataset, you should clean and organize the data so that it is in a format that is easy to work with. This may involve removing missing or duplicate values, and making sure that variables are in the correct format.
+
+* Explore the data: 
+
+Before diving into specific analyses, it's important to explore the data and get a general sense of the patterns and trends that are present. This can be done through visualizations such as histograms, scatter plots, and box plots.
+
+* Identify patterns and trends: 
+
+Use the data to identify patterns and trends that are relevant to the questions you are trying to answer. This may involve using statistical techniques such as hypothesis testing, regression analysis, or clustering.
+
+* Communicate your insights: 
+
+It's important to communicate your findings in a clear and concise manner, whether it's to a team of colleagues, stakeholders, or to a broader audience. This can be done through reports, dashboards, or data visualization tools.
+
+* Keep questioning: 
+
+As you work with the data, keep questioning your findings and the assumptions you are making about the data. Try to find additional evidence to support or refute your findings.
+
+It is also worth mentioning that if the dataset is very large, it is a good practice to work with a sample of the data, and make sure that the sample is representative of the whole dataset, to avoid performance issues or too long processing times.
+
+### Data collection mechanisms:
+
+Data collection mechanisms are essential to ensure that the data you use for visualization is well-prepared, relevant, and conducive to effective visual representation. Here are key aspects of data collection mechanisms in relation to data visualization.
+
+* Data Sources:
+
+Identify Data Sources: 
+
+Determine where your data is coming from. Sources can include databases, spreadsheets, external APIs, web scraping, surveys, or even real-time data feeds.
+
+* Data Access: 
+
+Establish how you will access the data from these sources. This may involve setting up connections to databases, downloading files, or using APIs for data retrieval.
+
+* Data Selection:
+
+Select Relevant Data: Choose the specific dataset or subset of data that is most relevant to your visualization goals. Avoid including unnecessary or unrelated data.
+
+* Filter and Preprocess:
+
+Apply data filters and preprocessing steps to prepare the data for visualization. This may include cleaning, aggregating, or transforming the data as needed.
+
+* Data Quality:
+
+Quality Assurance: Ensure that the collected data is of high quality. Implement checks to address issues such as missing values, outliers, and data inaccuracies that may impact the accuracy of visualizations.
+
+* Data Integration:
+
+Merge Data Sources: If your visualization requires data from multiple sources, integrate them properly to create a unified dataset. Data integration may involve data cleaning and merging based on common keys.
+
+### Importance of Data Visualization:
+
+Data visualization is crucial in data analysis as it serves as the primary way to reveal complex data structures that may be hard to understand otherwise. Data by itself, consisting of bits and bytes stored in a file on a computer hard drive, is invisible. In order to be able to see and make any sense of data, we need to visualize it. Every new visualization is likely to give us some insights into our data. Some of those insights might be already known (but perhaps not yet proven) while other insights might be completely new or even surprising to us. Some new insights might mean the beginning of a story, while others could just be the result of errors in the data, which are most likely to be found by visualizing the data.
+
+* Revealing Unseen Insights: Visualization helps in discovering unexpected patterns and effects in data that might not be apparent through other means.
+
+* Data is Initially Invisible: Data, in its raw form, is invisible and cannot be easily comprehended. Visualization transforms it into a visible and understandable format.
+
+* Broad Understanding of Visualization: The concept of visualization extends beyond charts and graphs to include even textual representations of data, such as loading a dataset into spreadsheet software.
+
+* The Need for Visualization: Rather than questioning whether to visualize data, the focus should be on determining which type of visualization is most suitable for a given situation.
+
+* Moving Beyond Tables: Tables alone are often insufficient for gaining an overview of a dataset or identifying patterns. Visualizations, such as maps for geographical data, are essential for revealing certain types of patterns.
+
+* Diverse Patterns: Visualizations can help identify a wide range of patterns within data, including geographical patterns and other complex structures.
+
+## Additional Insights
+
+* Interactive Visualizations: Mention the importance of interactive data visualizations, especially in explanatory and exploratory visualization. Interactive charts and graphs allow users to explore data on their own, providing a more engaging and insightful experience. Tools like D3.js, Plotly, or Tableau are popular for creating interactive visualizations.
+
+* Choosing the Right Visualization Type: Emphasize the significance of selecting the appropriate visualization type based on the nature of the data. For instance, line charts are ideal for time-series data, while scatter plots are great for exploring relationships between variables. Using the wrong visualization can lead to misinterpretations.
+
+* Color Palette and Accessibility: Discuss the importance of color choices in data visualization. Ensure that color palettes are chosen carefully to cater to colorblind users and maintain accessibility standards. Tools like ColorBrewer can assist in selecting suitable color schemes.
+
+* Data Storytelling: Data visualization is not just about displaying numbers; it's about telling a compelling story. Encourage readers to consider the narrative they want to convey through their visualizations. Annotations, labels, and captions can help guide the audience through the story being told by the data.
+
+* Data Cleaning and Preparation: Reiterate the critical role of data cleaning and preparation. Before visualization, ensure that data is cleaned of outliers, duplicates, and errors. Data transformation may also be necessary to make it suitable for visualization.
+
+* Data Aggregation: In exploratory visualizations, aggregating data can reveal hidden patterns. Discuss techniques like grouping, binning, or summarization to simplify complex data and make it more understandable.
+
+* Data Imputation Considerations: Expand on the challenges and considerations related to data imputation. Highlight the importance of understanding the missing data mechanism and choosing appropriate imputation techniques based on the nature of the data.
+
+* Handling Time-Series Data: Delve deeper into techniques specific to time-series data, such as smoothing methods, moving averages, and seasonality analysis. Time-series visualizations like line charts or heatmaps can be powerful tools for extracting insights.
+
+* Dimensionality Reduction: For datasets with high dimensionality, mention the benefits of dimensionality reduction techniques like PCA (Principal Component Analysis) or t-SNE (t-distributed Stochastic Neighbor Embedding) to visualize data in lower dimensions while preserving important information.
+
+* Custom Visualization Tools: Depending on the complexity of the data, readers may need to explore custom visualization tools and libraries. Python libraries like Matplotlib and Seaborn are versatile for creating a wide range of visualizations, while R offers powerful capabilities through packages like ggplot2.
+
+* Ethical Considerations: Remind readers of the ethical responsibilities in data visualization, such as avoiding data manipulation to convey misleading information and respecting user privacy when working with sensitive data.
+
+* User Feedback: Stress the importance of obtaining feedback from end-users or stakeholders. Data visualizations should be user-centric, and incorporating feedback can lead to more effective communication and decision-making.
+
+* Continual Learning: Encourage readers to stay updated with the latest trends and advancements in data visualization. The field is constantly evolving, and learning new techniques can lead to more impactful visualizations.
+
+
+
 Types of Visualization (The Why?)
 * Explanatory (Communicate something to a larger audience)
 
@@ -56,7 +159,34 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
     * Boolean: This type of data represents truth values and is commonly used in logic operations. It can only take two values: True or False.
     * Interval: Interval data is numeric but with a consistent scale and not necessarily start with zero (like temperature in Celsius or Fahrenheit).
     * Ratio: Ratio data is numeric with a consistent scale and does indeed start with zero (like height, weight, age).
+   * Text Data:
+     1. Unstructured Text: Free-form text data that doesn't follow a specific structure or format. Example: Customer reviews, Twitter posts.
+     2. Structured Text: Text data that follows a predefined structure or format. Example: Emails, XML or JSON data
+    * Time Series Data:
+    1. Temporal Data: Data collected over a period of time. Example: Stock prices over days, Sensor data with timestamps.
+    2. Sequential Data: Data with an inherent sequence or order. Example: Web clickstreams, GPS tracking data.
 
+   * Geospatial Data:
+    1. Point Data: Data representing specific geographic points. Example: Locations of landmarks, GPS coordinates.
+    2. Polygon Data: Data representing geographic areas as polygons. Example: Country borders, city boundaries.
+
+   * Percentage Data:
+
+Percentage: Data represented as a percentage of a whole. Example: Percentage of votes in an election, Percentage of budget allocated to different departments.
+
+   * Currency Data:
+
+Currency: Data representing monetary values. Example: Dollar amounts, Euro amounts, currency exchange rates.
+
+   * Image Data:
+
+Digital Images: Pixel-based data representing images. Example: Photographs, MRI scans.
+
+Vector Images: Graphics represented using mathematical equations. Example: Logos, icons.
+
+   * Audio Data:
+
+Audio: Sound data represented as waveforms. Example: Music recordings, Speech samples.
       
 * Descriptive statistics: A preliminary overview of data.
     * Numeric: Using methods like .describe() to get count, mean, standard deviation, etc.
@@ -77,6 +207,13 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
   Semantic meaning can influence interpretation.
     * Spatial: Relating to space
     * Temporal: Relating to time
+
+### Data Type Semantics (Spatial, Temporal):
+
+  * Emphasize that understanding data type semantics is crucial for effective data visualization. Spatial data, for example, can be visualized using maps, heatmaps, or geographical plots to convey geographic patterns. Temporal data, on the other hand, can be visualized using time series plots, calendars, or Gantt charts to reveal trends over time.
+  * Discuss how combining spatial and temporal data can lead to powerful visualizations, such as spatiotemporal heatmaps or animations, which can reveal insights about how phenomena change over both space and time.
+
+  
 * Outliers? (Numeric Box-whisker x times (deflaut 1.5) interquartile range, categorical would be rare values/low % default < 1%)
 
   
@@ -84,6 +221,66 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
     experiment, or a novelty and can be significantly larger or significantly smaller than the other data points. The effects of outliers on statistical analysis 
     can be significant, and they can skew the outcomes of any hypothesis testing. For accurate findings, it is crucial to thoroughly identify any potential 
     outliers in your dataset and deal with them appropriately.
+
+### Handling Outliers:
+
+Highlight that outliers can significantly impact the results of data analysis and visualizations. It's important to not only identify outliers but also consider whether they should be removed, transformed, or retained based on the context of the analysis.
+
+Mention the use of box plots and whisker plots to visualize the distribution of data and easily spot outliers. These plots provide a visual representation of the data's spread and can help in identifying extreme values.
+
+Discuss the importance of domain knowledge when deciding how to handle outliers. In some cases, outliers may represent critical data points that should not be removed without a thorough understanding of their significance.
+
+  Types of outliers
+  There are two kinds of outliers:
+  
+  Univariate Outlier
+  An excessive value related to only one variable is referred to as a univariate outlier.
+  Imagine you have a dataset of 10 employees’ having salary on a scale of $10k to $50k. The 
+  salaries are as follows: $35k, $40k, $42k, $48k, $49k, $47k, $46k, $41k, $40k, and $20k.In 
+  this case, the score of $20k is significantly lower than the rest of them and can be 
+  considered a univariate outlier.
+
+  Multivariate outlier
+  A collection of odd or extreme values for at least two different variables is known as a 
+  multivariate outlier.
+  Imagine you are a teacher, and you have collected data on how well a group of students 
+  performed in two subjects: mathematics and science. Your aim is to pinpoint students who 
+  either excel or struggle significantly in both subjects simultaneously.
+  Here are the scores of five students:
+  Student A: Achieved a high score in math (95) and a good score in science (90).
+  Student B: Scored well in both math (85) and science (88).
+  Student C: Received lower scores in both math (60) and science (55).
+  Student D: Obtained a remarkable math score (92) but struggled in science (40).
+  Student E: Excelled in science (92) but had a relatively lower math score (75).
+
+  In this scenario, students D and E are identified as multivariate outliers because they 
+  stand out by performing exceptionally well in one subject while significantly 
+  underperforming in the other subject when compared to the general distribution of scores. 
+  Student D excels in math but faces challenges in science, whereas student E shines in 
+  science but has a comparatively lower math score.
+
+  You'll see outliers classified as any of the following, in addition to the distinction 
+  between univariate and multivariate outliers:
+
+  Global outliers
+  Single data points that deviate significantly from the majority of the data distribution 
+  are referred to as global outliers (also known as point outliers). 
+
+  Contextual outliers
+  The same value may not be regarded as an outlier if it occurred in a different context. 
+  Contextual outliers, often referred to as conditional outliers, are values that 
+  considerably depart from the rest of the data points in the same context. These kinds of 
+  outliers are frequently observed in time series data. 
+
+  Collective outliers
+  A subset of data points that is completely distinct from the overall dataset is referred 
+  to as a collective outlier.
+
+
+
+
+
+
 
    How do you identify outliers?
 
@@ -97,7 +294,27 @@ Challenges in Data Imputation Techniques :Missing Data Mechanism: Understanding 
    Through data visualisation, outliers can also be found. We may visually locate any data points that are considerably different from other points in the 
    dataset by showing the data points on a graph.
 
-    These are unusual data points that can heavily influence the overall visualization.
+When should you remove outliers?
+
+The desire to eliminate outliers as part of the data cleansing process would seem obvious. However, in practise, it's occasionally preferable—even imperative—to preserve outliers in your dataset. 
+
+Removing outliers purely because they were in the dataset's extremes can lead to inconsistent results, which would be harmful to your objectives as a data analyst. The statistical significance of the analysis could be lowered as a result of these inconsistencies.
+
+What causes outliers to appear in datasets?
+
+It's important to consider how outliers get into datasets in the first place now that we understand what they are and how to spot them. 
+
+Some of the more frequent reasons for outliers in datasets are listed below:
+
+Human error, such as a misspelling, when manually entering data
+intentional mistakes, like adding mock outliers to a sample to test detection algorithms.
+
+Sampling errors that result from removing or combining data from unreliable or inconsistent sources, Data processing mistakes brought on by unintentional dataset changes or data tampering
+
+Instrumental error-related measurement errors
+
+Experimental blunders that occur during the design, execution, or data extraction stage
+ These are unusual data points that can heavily influence the overall visualization.
     * Numeric: Use Box-whisker plots to identify values that fall outside the interquartile range.
     * Categorical: Identify rare values or those that occur less frequently.
 
@@ -372,6 +589,53 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
 Imagine you have a lot of data, and you want to see how it behaves in different groups or categories. Faceting helps you do this by splitting your data into smaller, similar parts and showing each part separately. Each smaller part is like a mini-graph that focuses on a specific group or category.
 For example, if you have data about sales in different regions and you use faceting, you'd create separate charts or graphs for each region. This way, you can quickly see how sales are doing in each area without getting overwhelmed by all the data at once.
 
+
+**Uses In Real World Markets**
+ Data visualization plays a crucial role in analytics, helping marketers make data-driven decisions, gain insights into customer behavior, and optimize marketing strategies. Data-visualization is used in marketing analytics, including customer segmentation, funnel analysis, and A/B testing visualizations:
+ 
+**1. Customer Segmentation**:
+Customer segmentation is the process of dividing a customer base into distinct groups or segments based on shared characteristics or behaviors.
+ 
+Role of Data Visualization:
+     - Data visualizations, such as scatter plots, bar charts, and heatmaps, help marketers identify patterns and clusters within customer data.
+     - Visualizations provide a clear understanding of customer demographics, purchase history, geographic locations, and other attributes.
+     - Cluster analysis visualizations, like dendrogram trees or silhouette plots, help determine the optimal number of segments and their characteristics.
+ 
+Benefits:
+     - Marketers can tailor their messaging, products, and services to specific customer segments, resulting in more effective and personalized marketing campaigns.
+     - Visualization of segmentation results facilitate easy communication and collaboration among marketing teams, ensuring everyone understands and targets the identified segments.
+ 
+**2. Funnel Analysis**:
+Funnel analysis tracks the customer journey through different stages of a conversion process, such as awareness, interest, consideration, and conversion.
+ 
+ Role of Data Visualization:
+     - Funnel visualizations, such as funnel charts or Sankey diagrams, show the drop-off rates at each stage of the conversion funnel.
+     - Heatmaps can reveal user interactions on websites or apps, highlighting areas where users drop out or encounter friction.
+      Benefits:
+     - Data visualizations make it easy to identify bottlenecks and points of user attrition in the conversion process.
+     - By visualizing the funnel, marketers can focus on optimizing specific stages to improve overall conversion rates.
+ 
+**3. A/B Testing Visualizations**:
+A/B testing (or split testing) is a controlled experiment where two or more versions of a webpage, email, or ad are tested to determine which one performs better.
+Role of Data Visualization:
+     - Line charts, bar charts, and confidence interval plots help visualize A/B test results, showing the performance metrics (e.g., conversion rate, click-through rate) for each variant over time.
+     - Histograms and probability density plots display the distribution of key metrics to assess statistical significance.
+Benefits:
+     - Data visualizations enable marketers to quickly assess the impact of changes and determine if one variant significantly outperforms another.
+     - Visualizations also help in understanding how changes affect user behavior throughout the testing period.
+ 
+**4. Marketing Dashboards**:
+Marketing dashboards are interactive data visualizations that provide a comprehensive view of marketing metrics and performance indicators.
+Role of Data Visualization:
+     - Dashboards combine various visualizations, including line charts, pie charts, and tables, to offer a holistic view of marketing campaigns, website traffic, and social media engagement.
+     - Interactive elements, like filters and drill-down options, allow marketers to explore data and extract actionable insights.
+Benefits:
+     - Marketing dashboards facilitate real-time monitoring of marketing KPIs, helping marketers make informed decisions on the fly.
+     - Interactive dashboards empower marketing teams to customize views, investigate trends, and optimize campaigns efficiently.
+ 
+In summary, data visualization is a powerful tool in marketing analytics, allowing marketers to uncover insights, track customer behavior, and optimize their strategies. Whether it's customer segmentation, funnel analysis, A/B testing, or overall campaign monitoring, effective data visualizations make complex data more accessible and actionable for marketing professionals.
+
+
 Chart types and fundamental graphs   
 * Bar chart  (Categorical versus numeric)
    ----> A bar chart is a typical style of chart used in data science and data visualization to display categorical data (also known as qualitative or nominal data) in contrast to numeric data (quantitative data). Bar graphs are useful tools for showing and contrasting several categories or groups within a dataset visually.
@@ -423,19 +687,67 @@ See the Data Visualisation Catalogue  <a href='https://datavizcatalogue.com'>htt
 
 
 
-Legends, labels, annotations, and typeface  
-* How to design and choose legends, labels, annotations and type   
+### Legends, labels, annotations, and typeface  
+**How to design and choose legends, labels, annotations and type:**
+Legends, labels, annotations, and typeface are crucial elements in data science and data visualization as they help convey information clearly and effectively to the audience. Let's dive into each of these components and discuss how to design and choose them:
+
+1. **Legends**:
+   - **Definition**: Legends are used to explain the meaning of different elements in a chart or graph, particularly when multiple data series or categories are represented.
+   - **Design Tips**:
+     - Keep legends clear and concise. Avoid cluttering them with too much information.
+     - Use a font size that is easy to read but doesn't dominate the chart.
+     - Position legends in a way that they don't overlap with the data but are still close enough for easy reference.
+
+2. **Labels**:
+   - **Definition**: Labels provide context and information about specific data points, categories, or features within a visualization.
+   - **Design Tips**:
+     - Use labels sparingly, only providing information that is necessary for understanding the data.
+     - Make sure labels are legible and appropriately placed, avoiding overlaps with other elements.
+
+3. **Annotations**:
+   - **Definition**: Annotations add additional information or context to specific data points or areas of interest in a visualization.
+   - **Design Tips**:
+     - Use annotations to highlight important trends, outliers, or events.
+     - Keep annotations concise and avoid cluttering the visualization.
+
+4. **Typeface (Font)**:
+   - **Definition**: Typeface refers to the design of the characters used in text. Choosing the right typeface is important for readability and aesthetics.
+   - **Design Tips**:
+     - Use a clean and legible typeface. Sans-serif fonts are often a good choice for data visualization as they are easy to read on screens.
+     - Be consistent with font choices across the visualization and use different fonts for emphasis or headings.
+     - Pay attention to font size. Titles and headings should be larger for emphasis, while labels and annotations can be smaller but still easily readable.
+
+**Choosing and Designing Legends, Labels, Annotations, and Typeface**:
+
+1. **Consistency**: Maintain a consistent style across all visual elements. This includes using the same font family, font sizes, and color schemes.
+
+2. **Prioritize Readability**: Ensure that all text elements are easily readable. This may involve adjusting font size, color contrast, and avoiding complex or decorative fonts.
+
+3. **Consider the Audience**: Think about who will be viewing the visualization. Tailor your choices to suit the preferences and needs of your target audience.
+
+4. **Highlight Key Information**: Use variations in font size, color, or style to draw attention to important information like titles, headings, or key data points.
+
+5. **Test and Iterate**: Always test your visualization with a diverse group of users, if possible, to gather feedback on the readability and clarity of the text elements.
+
+Effective use of legends, labels, annotations, and typeface can significantly enhance the impact and communicative power of your data visualization. Keep in mind the principles of clarity, simplicity, and consistency while making design choices.
 
 
-Visual cognitive effectiveness   
-* Quality of Data    
-* Accuracy   
-* Discriminability    
-* Salience    
-* Clutter  
-* Grouping  
+### Visual cognitive effectiveness:
+Visual cognitive effectiveness refers to the ability of data visualizations to convey information clearly and efficiently to viewers, particularly in the context of data science and data visualization. It encompasses various factors that influence how well people can understand and interpret data when presented in visual form. Let's delve into each of the components you mentioned:
 
+1. **Quality of Data**: This aspect refers to the reliability and integrity of the data used in visualizations. High-quality data is accurate, complete, and free from errors or bias. In data science, ensuring data quality is fundamental because inaccurate or incomplete data can lead to misleading visualizations.This means using good and reliable data. If your data is messy or wrong, the picture won't make sense.
 
+2. **Accuracy**: Accuracy in data visualization relates to how faithfully the visual representation reflects the underlying data. Visualizations should accurately represent the data points and relationships they aim to convey. Misleading visualizations can result in incorrect conclusions and decisions. The picture should show exactly what the data says. If the picture is wrong, it could give the wrong idea.
+
+3. **Discriminability**: Discriminability refers to the ease with which viewers can distinguish between different data elements in a visualization. It's crucial that elements like data points, categories, or trends are visually distinct to avoid confusion. Color choices, shapes, and labeling can all impact discriminability. This is about making sure things in the picture look different enough from each other. If everything looks the same, it's hard to tell what's what.
+
+4. **Salience**: Salience refers to the degree to which certain elements or patterns in a visualization stand out to viewers. Effective visualizations emphasize the most important data points or trends while de-emphasizing less relevant information. Techniques such as using contrasting colors or emphasizing key data points can enhance salience. Important stuff in the picture should stand out. Imagine you're highlighting the most important parts with a bright color so people notice them.
+
+5. **Clutter**: Clutter occurs when there is an excessive amount of information or visual elements in a visualization. Too much clutter can overwhelm viewers and hinder their ability to extract meaningful insights. Effective data visualizations strike a balance between providing necessary information and avoiding clutter. Putting too much stuff in the picture will look messy. Keep it clean and simple.
+
+6. **Grouping**: Grouping involves organizing related data or elements together in a visualization. Grouping can help viewers understand the structure of the data and identify patterns or relationships more easily. Techniques like clustering data points or using visual containers can aid in grouping.  If things belong together, put them together in the picture. It helps people see how things are related.
+
+Achieving visual cognitive effectiveness is essential for effectively communicating insights and making informed decisions. Designing visualizations that prioritize these factors can lead to better understanding, more accurate analysis, and improved decision-making based on data. It's important to consider the audience and the specific objectives of the visualization when applying these principles to create informative and impactful visualizations. Visual cognitive effectiveness is about creating clear and easy-to-understand pictures or charts when you're dealing with data. It's like making sure your painting is neat, shows the right things, and isn't too messy, so everyone can understand what you're trying to say. 
  
  
 ## Data Visualization Design
@@ -521,6 +833,8 @@ Stephanie Evergreen and Jennifer Lyons collaborated to create the Qualitative Ch
 
 The full content of the poster, along with links to related material, including research and examples of best practice. _This is a work in progress._
 
+Note: For the code of the example plots, refer to Data_Visualization/Notebooks_Data_Visualization/example plots for readme.ipynb
+
 ### General
 
 * National Geographic: [Taking data visualisation from eye candy to efficiency](http://news.nationalgeographic.com/2015/09/150922-data-points-visualization-eye-candy-efficiency/)
@@ -564,6 +878,10 @@ Show the relationship between two or more variables. Be mindful that, unless you
 
 The standard way to show the relationship between two continuous variables, each of which has its own axis.
 
+![Scatter Plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/43371452/e412dec5-5cc7-4d10-ad9a-193d0b7ea6dd)
+
+<p align="center">Example of a scatterplot.</p>
+
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * Maarten Lambrechts: [7 reasons you should use dot graphs](http://www.maartenlambrechts.com/2015/05/03/to-the-point-7-reasons-you-should-use-dot-graphs.html)
 * Tim Brock: [Too Big Data: Coping with Overplotting](https://www.infragistics.com/community/blogs/tim_brock/archive/2015/04/21/too-big-data-coping-with-overplotting.aspx)
@@ -583,20 +901,32 @@ A good way of showing the relationship between an amount (columns) and a rate (l
 
 Usually used to show how the relationship between two variables has changed over time.
 
+![Connected Scatterplot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/connected_scatterplot.png?raw=true) 
+
+<p align="center">Example of a conencted scatterplot.</p>
+
 * Robert Kosara: [The Connected Scatterplot for Presenting Paired Time Series](https://eagereyes.org/papers/the-connected-scatterplot-for-presenting-paired-time-series)
 * Data Revelations: [Be Careful with Dual Axis Charts](http://www.datarevelations.com/be-careful-with-dual-axis-charts.html)
 * *Examples:* [_Washington Post_](https://www.washingtonpost.com/apps/g/page/business/the-end-of-the-us-oil-boom-told-through-one-texas-companys-bust/1999/)
 
-#### Bubble
+#### Bubble Plots
 
 Like a scatterplot, but adds additional detail by sizing the circles according to a third variable 
+
+![Bubble chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/bubble_chart.png?raw=true)
+
+<p align="center">Example of a bubble plot.</p>
 
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * *Examples:* [_FT_](https://ig.ft.com/managements-missing-women-data/)
 
 #### XY heatmap
 
-A good way of showing the patterns between 2 categories of data, less good at showing fine differences in amounts.
+A good way of showing the patterns between 2 categories of data, but less good at showing fine differences in amounts.
+
+![HeatMap](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/heatmap.png?raw=true)
+
+<p align="center">Example of a heatmap.</p>
 
 * Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
 
@@ -607,6 +937,10 @@ Use where an item’s position in an ordered list is more important than its abs
 #### Ordered bar
 
 Standard bar charts display the ranks of values much more easily when sorted into order
+
+![ordered bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/43371452/3384af5f-5952-4728-817d-fe07990231e3)
+
+<p align="center">Example of an ordered bar chart.</p>
 
 #### Ordered column
 
@@ -620,13 +954,25 @@ Use when there are big variations between values and/or seeing fine differences 
 
 Dots placed in order on a strip are a space-efficient method of laying out ranks across multiple categories.
 
+![dot strip plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/strip_charts.png?raw=true)
+
+<p align="center">Example of a dot strip plot.</p>
+
 #### Slope
 
 Perfect for showing how ranks have changed over time or vary between categories. 
 
+![slop chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/slope.png?raw=true)
+
+<p align="center">Example of a slope chart.</p>
+
 #### Lollipop chart
 
 Lollipops draw more attention to the data value than standard bar/column and can also show rank and value effectively.
+
+![lollipop chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/lollipop.png?raw=true)
+
+<p align="center">Example of a lollipop chart.</p>
 
 ### Distribution
 
@@ -638,19 +984,41 @@ Show values in a dataset and how often they occur. The shape (or ‘skew’) of 
 
 The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data
 
+![histogram](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/histogram.png?raw=true)
+
+<p align="center">Example of a histogram.</p>
+
 * Aran Lunzer and Amelia McNamara: [Exploring histograms](http://tinlizzie.org/histograms/)
 
 #### Boxplot
 
 Summarise multiple distributions by showing the median (centre) and range of the data
 
+![box plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/boxplots.png?raw=true)
+
+<p align="center">Example of a boxplot.</p>
+
 #### Violin plot
 
 Similar to a box plot but more effective with complex distributions (data that cannot be summarised with simple average).
 
+![simple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/simple_violinplot.png?raw=true)
+
+<p align="center">Example of a simple violin plot.</p>
+
+_some comment_
+
+![Multiple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/multiple_violinplots.png?raw=true)
+
+<p align="center">Example of a multivariate violin plot.</p>
+
 #### Population pyramid
 
 A standard way for showing the age and sex breakdown of a population distribution; effectively, back to back histograms.
+
+![population pyramid](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/population_pyramid.png?raw=true)
+
+<p align="center">Example of a population pyramid.</p>
 
 #### Dot strip plot
 
@@ -710,6 +1078,10 @@ Good for showing changing data as long as the data can be simplified into 2 or 3
 
 Use with care – these are good at showing changes to total, but seeing change in components can be very difficult 
 
+![Area chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/area_chart.png?raw=true)
+
+<p align="center">Example of an area chart.</p>
+
 #### Fan chart (projection) 
 
 Use to show the uncertainty in future projections - usually this grows the further forward to projection 
@@ -752,6 +1124,10 @@ A simple way of showing part-to-whole relationships but can be difficult to read
 #### Proportional stacked bar
 
 A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated. 
+
+![stacked bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/stacked-bar.png?raw=true)
+
+<p align="center">Example of a stacked bar chart.</p>
 
 * Chart Doctor: [How to apply Marimekko to data](https://www.ft.com/content/3ee98782-9149-11e7-a9e6-11d2f0ebb7f0)
 
@@ -800,7 +1176,33 @@ The bar chart below shows each bar as a distinct product category, and the heigh
 
 <img width="800" alt="bar_chart_pie_pc" src="https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114616849/653f023f-0f8d-49c3-a812-022258fcd49c">
 
+Pie charts can be a useful tool for visualizing data when used appropriately, but they are often misused, leading to misinterpretation and ineffective communication of information. Here are some common misuses of pie charts:
 
+Too Many Categories: Pie charts become cluttered and hard to read when there are too many categories. If you have more than 5-7 categories, consider using a different type of chart, like a bar chart or a stacked bar chart.
+
+Non-Hierarchical Data: Pie charts are suitable for representing data that has a clear hierarchical structure, where the parts make up a whole. Using them for non-hierarchical data can lead to confusion.
+
+Comparing Non-Adjacent Slices: It's difficult to accurately compare slices that are not adjacent in a pie chart. If you need to compare specific categories, a bar chart or a stacked bar chart is often more effective.
+
+Inaccurate Sizing: Pie charts can mislead if the areas of the slices are not proportional to the data they represent. Always ensure that the sizes of the slices accurately reflect the data values.
+
+Lack of Labels: Without proper labels and data labels, it can be challenging for viewers to understand what each slice represents. Always include clear labels for each category.
+
+Overuse for Time-Series Data: Pie charts are not suitable for representing changes over time or showing trends. Line charts or area charts are better for displaying time-series data.
+
+3D Pie Charts: Three-dimensional pie charts add unnecessary complexity and can distort the perceived size of slices. Stick to 2D pie charts for clarity.
+
+Exploded Pie Charts: Exploding or pulling out slices from the pie can make it harder to compare sizes accurately. It's often better to keep slices together for easy comparison.
+
+Missing Data: Pie charts can't effectively represent missing data or data with unknown categories. In such cases, it's better to use other chart types or explicitly indicate the missing data.
+
+Overemphasis on Small Slices: Small slices, especially those with similar colors, can be easily overlooked. Consider aggregating small categories into an "Other" category or using a different visualization.
+
+No Total Value Displayed: Pie charts don't inherently show the total value of the data, which is essential for understanding the context. Always include the total value either within or outside the chart.
+
+Misleading Use of Colors: Colors should be used purposefully. Using colors arbitrarily or inconsistently can confuse viewers. Ensure that colors are meaningful and convey information effectively.
+
+In summary, while pie charts have their place in data visualization, they should be used thoughtfully and appropriately. It's crucial to consider the type of data you have and the message you want to convey when choosing a chart type. In many cases, other types of charts, such as bar charts, stacked bar charts, or line charts, may provide better clarity and accuracy for your data.
 
 ### Factors to Think About When Using a Pie Chart
 Some points to consider while selecting a pie chart as a data visualization for a particular data:
@@ -810,7 +1212,57 @@ Some points to consider while selecting a pie chart as a data visualization for 
 •	Avoid using too many colors 
 •	Ensure values in the add up to 100%	
 
+When selecting a pie chart as a data visualization for a particular dataset, it's essential to consider whether a pie chart is the most suitable choice given the nature of the data and the message you want to convey. Here are some specific points to consider:
 
+Data Structure:
+
+Ensure that your data is structured in a way that makes sense for a pie chart. Pie charts are best suited for representing parts of a whole, where data can be categorized into discrete segments.
+Number of Categories:
+
+Limit the number of categories (slices) in the pie chart. Too many slices can make the chart cluttered and difficult to interpret. Generally, aim for no more than 5-7 categories for clarity.
+Data Accuracy:
+
+Verify the accuracy of your data. Inaccurate data can distort the proportions in the pie chart and mislead viewers.
+Clear Labels:
+
+Include clear and concise labels for each category (slice) to help viewers understand what each segment represents.
+Percentage Values:
+
+Consider including percentage values on or next to each slice to show the proportion of each category relative to the whole. This helps viewers better understand the distribution.
+Hierarchy or Order:
+
+Ensure that there's a logical hierarchy or order among the categories, especially if the data is ordinal. A pie chart can visually represent order, but the order should be evident.
+Avoiding Overlapping Labels:
+
+Pay attention to label readability, especially for small slices. Labels should not overlap or become illegible. Adjust the chart as needed.
+Comparative Data:
+
+Think about whether the data in the pie chart needs to be compared to other datasets. Pie charts are not suitable for comparing multiple datasets; consider other chart types for that purpose.
+Message Clarity:
+
+Consider whether a pie chart effectively communicates the key message or insight you want to convey. Sometimes, a different chart type might be more suitable for your specific message.
+Use as a Complement:
+
+Determine if the pie chart should be the primary visualization or if it's better used as a complement to other charts or graphs to provide additional context.
+Audience Understanding:
+
+Assess your audience's familiarity with pie charts. Ensure that your audience knows how to interpret and understand the chart.
+Accessibility:
+
+Make sure the chart is accessible to all viewers, including those with visual impairments. Provide alternative text or descriptions for digital or print materials.
+3D and Exploded Pie Charts:
+
+Use caution with 3D or exploded pie charts, as they can make it harder to accurately compare slice sizes. A 2D pie chart is often clearer.
+Alternatives:
+
+Consider whether an alternative chart type, such as a bar chart, stacked bar chart, or donut chart, might better suit your data and communication goals.
+Data Change Over Time:
+
+If your data represents changes over time, a time series or line chart might be more appropriate. Pie charts are static and do not show trends effectively.
+Interactive Features:
+
+Evaluate whether interactive features (e.g., tooltips, hover effects) can enhance the understanding of the pie chart, especially for digital formats.
+In summary, a pie chart can be a useful visualization tool for specific datasets, but it should be chosen thoughtfully based on the nature of the data and the intended message. Carefully consider these points to determine whether a pie chart effectively communicates your data insights or if another chart type would be more suitable.
 
 #### Donut
 
@@ -1010,6 +1462,58 @@ equirectangular
 * Rajesh Sigdel: [Understanding Map Projections](https://medium.com/nightingale/understanding-map-projections-8b23ecbd2a2f)
 * Scientific Reports: [2D map projections for visualization and quantitative analysis of 3D fluorescence micrographs](https://www.nature.com/articles/srep12457)
 
+Map projections are techniques for displaying the Earth's three-dimensional surface on a two-dimensional surface, such as a map. Maps are flat, yet the Earth is a curving, spherical object, necessitating this change. Map projections use mathematical methods to flatten the Earth's surface while maintaining some characteristics or eliminating distortions, depending on the map's intended use. A thorough description of map projections is provided below:
+
+Why Is Map Projection Required?
+
+Maps are flat, two-dimensional depictions of the three-dimensional Earth's surface. Several difficulties arise when attempting to depict the spherical surface of the Earth on a flat map.
+Distortion: It is a necessary component of any representation of the Earth's surface. Different map projections try to accommodate some distortions while minimizing others.
+Preserving Properties: A map's attributes, such as lengths, angles, regions, or shapes, may need to be preserved depending on its intended use. certain map projections are optimized for certain qualities.
+Navigation and Visualization: Map-based navigation and visualization are two of the many uses for maps, which are also used for geographic analysis. For various applications, various map projections are appropriate.
+
+Key Concepts in Map Projections:
+
+Projection Surface: This is the imaginary surface onto which the Earth's features are projected. Common choices include cylinders, cones, and planes.
+Point of Tangency/Secant: For many map projections, the Earth's surface touches or intersects the projection surface at a specific point or along a line. This point or line is called the point of tangency (for tangent projections) or secant (for secant projections).
+Projection Center: This is the point from which the Earth is projected onto the projection surface. It can be inside or outside the Earth.
+Scale Factor: Map projections may include a scale factor that adjusts distances, ensuring they are accurate in specific directions or areas.
+Distortion: Different map projections introduce distortion in terms of area, shape, distance, or direction. Choosing a projection involves selecting which types of distortion are acceptable for the intended use.
+
+Common Map Projections:
+
+Mercator Projection: This is a cylindrical projection that preserves angles and is well-suited for navigation. However, it greatly distorts areas at high latitudes, making polar regions appear larger than they are.
+Robinson Projection: This compromise projection aims to minimize distortion in size, shape, and distance. It's commonly used in world maps.
+Lambert Conformal Conic Projection: A conic projection that preserves shape and is used for mapping regions with an east-west orientation.
+Azimuthal Equidistant Projection: An azimuthal (planar) projection that preserves distances from a central point. It's often used for maps centered on the poles.
+Equirectangular Projection: Also known as the Plate Carrée projection, this simple cylindrical projection preserves latitude and longitude as straight lines. However, it distorts shape and size at higher latitudes.
+Sinusoidal Projection: This pseudocylindrical projection preserves neither shape nor area but is known for accurately representing longitudes as straight lines.
+
+Applications of Map Projections:
+
+Navigation: Some map projections, like the Mercator, are well-suited for navigation because they preserve angles and allow for straight lines as courses.
+Geographic Analysis: Geographers and researchers use map projections that preserve area or shape to analyze data about countries, regions, or natural features.
+Climate and Weather Maps: Map projections are used to represent meteorological data, which helps in weather forecasting and climate analysis.
+Cartography: Cartographers choose map projections based on the specific purpose of the map, such as world maps, topographic maps, or thematic maps.
+In summary, map projections are crucial for representing the Earth's curved surface on flat maps, and different projections are chosen based on the specific needs of map users. Each projection comes with its advantages and trade-offs, making the selection of an appropriate projection a critical decision in cartography and geographic information systems (GIS).
+
+
+
+When utilizing geographic data for data visualization, map projections are essential. To guarantee that your data is appropriately represented when you visualize it on a map, you must select the right map projection. Using map projections for data visualization looks like this:
+
+Maintaining Data Accuracy: Based on the unique properties of the data being shown, various map projections are selected. For instance, you would select an equal-area projection that reduces area distortions if you were working with data that required correct area comparisons (such as population density). On the other hand, you might use a conformal projection that maintains angles and forms if your data includes navigational directions (for example, flight tracks).
+
+Picking the Right Projection for the Job: The best projection will depend on the goal of your data visualization. For illustration:
+An equal-area projection like the Mollweide projection might be used to create a thematic map that displays population density by nation.
+A cylindrical projection, like the Mercator projection, which maintains straight lines but distorts area, might be used to plot travel routes on a globe map.
+
+A great-circle projection, which depicts the shortest distance between two points as a straight line, is used to display the shortest route between two locations on a map.
+
+Reducing Distortions: Data visualization designers must be mindful of the distortions that are introduced by map projections and how they could affect how the data is interpreted. For an analysis to be accurate, it is essential to comprehend the kind and level of distortion connected with a projection.
+
+Users frequently have the option to move between multiple map projections in interactive data visualizations in order to investigate data from various angles or to better suit their needs. This adaptability can be particularly useful for rendering intricate geographic datasets.
+
+Map projections are frequently used to provide additional context for data. For instance, overlaying geographic information on a thematic map or choropleth map can make it easier for viewers to comprehend how the data relates to its geographical setting.
+
 ### Colour
 
 * Mike Yi: [How to Choose Colors for Data Visualizations](https://chartio.com/learn/charts/how-to-choose-colors-data-visualization/)
@@ -1032,19 +1536,32 @@ The sum of SHAP values for all features plus the expected prediction equals the 
 SHAP plots are widely used in machine learning and data analysis for several purposes:
 
 1. Model Interpretation: SHAP plots help explain the output of machine learning models. They provide insights into why a specific prediction was made and the contribution of each input feature to that prediction. This is crucial for understanding complex models and building trust in their predictions.
+Example: Imagine you have a credit scoring model, and it predicts whether a loan applicant is likely to default or not. A SHAP plot for a specific loan applicant might reveal that their low credit score had the most significant positive impact on the model's prediction, indicating that their credit score was the primary reason for the prediction.
+
 2. Model Debugging: SHAP plots are useful for identifying and diagnosing model errors or biases. If a model makes a prediction that seems unexpected or incorrect, SHAP plots can reveal which features contributed to the prediction and why.
+Example: In a medical diagnosis model, you encounter a case where the model predicts a low probability of a patient having a severe illness when the patient's symptoms suggest otherwise. A SHAP plot might show that the "severity of symptoms" feature had a low negative impact, suggesting that the model's underestimation of symptom severity led to the incorrect prediction
 
 3. Feature Engineering: When working on feature engineering tasks, SHAP plots can guide the process. They help you understand how different feature transformations or selections affect the model's predictions.
+Example: Suppose you're building a recommendation system, and you want to improve the accuracy of movie recommendations. You can use SHAP plots to analyze the impact of various user and movie features on recommendations. For instance, by visualizing SHAP values, you might discover that the "genre preference" feature has a stronger effect on recommendations than "movie length," guiding you to focus on better encoding user genre preferences.
 
 4. Model Selection: When comparing multiple models, SHAP plots can provide valuable insights into how each model behaves. You can use SHAP values to compare the interpretability and reliability of different models.
+Example: You're comparing two different models for predicting customer churn in a subscription-based business. By generating SHAP plots for both models, you can assess which model provides more interpretable and reliable explanations for its predictions. If one model's SHAP plots are clearer and more consistent with your domain knowledge, you may lean towards selecting that model.
 
 5. Outlier Detection: SHAP plots can assist in identifying outliers or anomalies by showing the impact of each feature on a specific data point's prediction. Unusual SHAP values may indicate data points that don't conform to the expected patterns.
+Example: In a fraud detection model, SHAP plots can highlight data points with unusual SHAP values. Suppose you notice that a specific transaction has extremely high SHAP values for certain features. This might indicate that the transaction significantly deviates from the expected patterns of legitimate transactions, raising suspicion of fraud.
 
 6. Model Fairness and Bias Analysis: SHAP plots can help detect and mitigate biases in machine learning models. By examining SHAP values for different groups or demographics, you can assess whether the model's predictions are fair and unbiased.
+Example: You're developing a hiring model for a company, and you want to ensure that the model doesn't discriminate against gender. SHAP plots can help by showing the distribution of SHAP values for male and female candidates. If you observe that gender-related features have a significant impact on predictions, it could signal gender bias in the model.
 
 7. Hyperparameter Tuning: SHAP values can be used to assess the impact of hyperparameter choices on model performance. By visualizing SHAP plots for models with different hyperparameters, you can make informed decisions during hyperparameter tuning.
+Example: You're tuning hyperparameters for a gradient boosting model. By creating SHAP plots for models with different hyperparameter settings, you can compare how changes in parameters affect feature contributions. This can guide your hyperparameter selection process, helping you choose the settings that lead to more interpretable models.
+
 8. Explainability for Stakeholders: SHAP plots offer a clear and intuitive way to communicate model predictions and feature contributions to non-technical stakeholders, such as business managers or clients.
+Example: You're presenting the results of a machine learning model to a group of business stakeholders who lack technical expertise. SHAP plots can be used to show them how different features influence predictions. For instance, you can create a SHAP summary plot that displays feature importances in a visually intuitive manner, making it easier for stakeholders to understand why the model makes certain predictions.
+
 9. Regulatory Compliance: In regulated industries like finance and healthcare, SHAP plots can provide transparent explanations for model decisions, helping organizations comply with regulatory requirements for model interpretability.
+Example: In the financial sector, you're required to explain why a loan application was accepted or rejected. SHAP plots can provide a transparent breakdown of how various financial factors contributed to the decision. This not only helps you comply with regulatory requirements but also builds trust with regulators and customers.
+
 Overall, SHAP plots are a versatile tool that can enhance the understanding, trustworthiness, and transparency of machine learning models, making them valuable in a wide range of applications and scenarios.
 SHAP Plots
 SHAP plots visualize the SHAP values for each feature for a specific data point.
@@ -1065,5 +1582,362 @@ A force plot presents SHAP values for a single prediction in an interactive and 
 Unfortunately, the force plot is challenging to represent textually due to its interactive nature.These textual representations provide a conceptual overview of SHAP plots. To create actual visualizations, you can use Python libraries like shap, matplotlib, or seaborn, which allow you to generate these plots with real data and model predictions.
 
 
+# Effective Techniques and Tools for Data Visualization
 
+Effective data visualization is crucial for understanding complex data, identifying patterns, and communicating insights to others. Here are some techniques and tools for creating effective data visualizations:
+
+Techniques for Data Visualization:
+
+Simplify and Focus: Simplify complex data by focusing on the most relevant information. Remove unnecessary details and noise to highlight key insights.
+
+Use Appropriate Chart Types: Choose the right chart type that best represents your data and the message you want to convey. Common chart types include bar charts, line charts, scatter plots, pie charts, and heatmaps.
+
+Color Coding: Use color strategically to differentiate categories, highlight important data points, or convey meaning. Ensure that color choices are accessible to all viewers.
+
+Data Labeling: Label data points directly on the chart when necessary to provide context and clarity. Labels should be clear and concise.
+
+Legends and Keys: Include legends, keys, or color scales to help viewers interpret the visual elements of your chart, especially when using complex color coding.
+
+Consistent Formatting: Maintain consistency in font sizes, colors, and styles throughout your visualization to create a cohesive and professional look.
+
+Data Scaling: When comparing data from different scales or ranges, use appropriate scaling techniques such as logarithmic scales to ensure fair representation.
+
+Data Aggregation: If dealing with large datasets, consider aggregating data to reduce complexity and improve readability.
+
+Annotations: Add annotations, callouts, or explanatory notes to provide additional context and insights to your visualization.
+
+Interactivity: For digital visualizations, incorporate interactive elements like tooltips, filters, and drill-down options to allow viewers to explore the data further.
+
+Tools for Data Visualization:
+
+Matplotlib: A popular Python library for creating static, animated, and interactive visualizations. It's highly customizable and widely used in data analysis.
+
+Seaborn: Built on top of Matplotlib, Seaborn provides a high-level interface for creating aesthetically pleasing statistical visualizations.
+
+ggplot2: A data visualization package for R that follows the "Grammar of Graphics" philosophy, making it powerful and flexible for creating complex visualizations.
+
+D3.js: A JavaScript library for creating interactive and customizable data visualizations in web applications. It offers extensive control over visual elements.
+
+Tableau: A powerful data visualization tool with a user-friendly interface that allows users to create interactive dashboards and reports without coding.
+
+Power BI: Microsoft's business intelligence tool that enables users to connect to various data sources, transform data, and create interactive visualizations and reports.
+
+Plotly: A Python library that provides interactive and customizable visualizations for web-based and offline use. It supports a wide range of chart types.
+
+QlikView/Qlik Sense: Business intelligence platforms that allow users to create interactive dashboards, reports, and visualizations for data exploration.
+
+Excel: Microsoft Excel includes charting capabilities for creating basic visualizations. It's widely accessible and suitable for small-scale data analysis.
+
+Google Data Studio: A free tool for creating interactive and shareable dashboards and reports using data from various sources.
+
+Periscope Data: A data analysis and visualization platform designed for data professionals, offering SQL querying and interactive chart creation.
+
+Infogram: An online tool for creating infographics and interactive charts and maps. It's user-friendly and suitable for creating visually appealing reports.
+
+Bokeh: A Python library for interactive data visualization that is well-suited for creating web-based, interactive dashboards and applications.
+
+Selecting the right technique and tool for data visualization depends on your specific needs, the complexity of your data, and your audience. Effective data visualization enhances data-driven decision-making and helps convey insights in a clear and compelling manner.
+## 1. Introduction to Data Visualization Techniques
+Data visualization is the graphical representation of information and data. By using visual elements like charts, graphs, and maps, data visualization tools provide an accessible way to see and understand trends, outliers, and patterns in data.
+
+### Importance of Choosing the Right Technique
+The technique you choose can make or break your visualization. Selecting the appropriate visualization method can enhance understanding, while an inappropriate choice can lead to confusion.
+
+### Matching Data Types with Visualization Methods
+Not all data types are suitable for every visualization technique. For example, categorical data might be best visualized using bar charts, while continuous data can be represented with line charts.
+
+## 2. Common Visualization Techniques
+
+### Bar charts, Pie charts, Line charts, Scatter plots
+These are fundamental tools in a data visualizer's arsenal. Bar charts are excellent for comparing discrete data, while line charts show trends over time. Pie charts represent parts of a whole, and scatter plots reveal relationships between two variables.
+
+### Heatmaps, Histograms, Box plots, Violin plots
+Heatmaps display data in a matrix form with colours representing values, useful for understanding complex datasets. Histograms show the distribution of a single variable. Box plots (and their cousin, violin plots) display the distribution of data and its probability density.
+
+### Geospatial visualizations
+Choropleth maps, for instance, use colours to represent data values in specific geographical areas, making them useful for understanding regional distributions.
+
+### Advanced visualizations
+Sankey diagrams show flow and distribution in a network. Parallel coordinates allow for multivariate data visualization.
+
+## 3. Interactive Visualizations
+
+### Benefits of Interactivity in Data Visualization
+Interactivity allows users to engage with data, drilling down into specifics, and gaining deeper insights.
+
+### Tools for Interactive Visualizations
+Tools like Plotly provide a Python interface for creating interactive plots. Tableau offers drag-and-drop functionalities for business analytics, and D3.js is a JavaScript library for producing dynamic, interactive data visualizations.
+
+## 4. Best Practices in Data Visualization 
+(The Why) - Considering best practices in data visualization is crucial for effective communication, avoiding misinterpretation, ensuring accessibility, reflecting professionalism, and achieving efficiency. These practices guide the viewer towards the correct interpretation of the data, prevent misunderstandings, and ensure that your message is conveyed as intended.
+
+### Choosing the Right Color Palette
+Colors play a pivotal role. It's vital to select colors that are easily distinguishable and convey the right message.
+The color palette you choose can greatly influence the readability and interpretation of your data visualization. Colors should be easily distinguishable to avoid confusion. ex- using a colorblind-friendly palette can make your graphics accessible to a wider audience. Additionally, colors can convey emotions and biases, so it’s important to choose colors that align with the message you want to convey.
+
+### Importance of Axes Labels and Titles
+Clear labelling prevents confusion and aids in data interpretation.
+Axes labels and titles are essential for understanding the data being presented. They provide context for the data points and guide the viewer in interpreting the graph. Without clear labels and titles, viewers may misinterpret what they’re seeing or miss key insights.
+
+### Avoiding Chartjunk
+Chartjunk refers to unnecessary or confusing visual elements in charts. Stripping these out ensures clarity and understanding.
+Chartjunk refers to all unnecessary or confusing visual elements in charts and graphs that don’t increase understanding or could even mislead. This could include excessive use of colors, unnecessary gridlines, or decorations. A clean and simple design is usually more effective in conveying information clearly.
+
+### Use Appropriate Scales
+The scale used on your axes can significantly impact how viewers interpret the data. Using an inappropriate scale can distort the data and lead to incorrect interpretations.
+
+### Provide Context
+Providing context is crucial for understanding data visualizations. This could be done through annotations, captions, or even a well-written introduction.
+
+### Keep Your Audience in Mind
+Always consider who will be viewing your data visualization. What prior knowledge do they have? What are they interested in learning? Answering these questions can help you design a visualization that effectively communicates to your audience.
+
+### Visualizing categorical data
+## Categorical scatterplots
+
+In seaborn, there are several different ways to visualize a relationship involving categorical data. Similar to the relationship between relplot() and either scatterplot() or lineplot(), there are two ways to make these plots. There are a number of axes-level functions for plotting categorical data in different ways and a figure-level interface, catplot(), that gives unified higher-level access to them.
+It’s helpful to think of the different categorical plot kinds as belonging to three different families, which we’ll discuss in detail below. They are:
+Categorical scatterplots:
+```ruby
+stripplot() (with kind="strip"; the default)
+swarmplot() (with kind="swarm")
+```
+### Categorical distribution plots:
+```ruby
+boxplot() (with kind="box")
+violinplot() (with kind="violin")
+boxenplot() (with kind="boxen")
+```
+### Categorical estimate plots:
+```ruby
+pointplot() (with kind="point")
+barplot() (with kind="bar")
+countplot() (with kind="count")
+```
+
+
+These families represent the data using different levels of granularity. When deciding which to use, you’ll have to think about the question that you want to answer. The unified API makes it easy to switch between different kinds and see your data from several perspectives.
+
+The default representation of the data in catplot() uses a scatterplot. There are actually two different categorical scatter plots in seaborn. They take different approaches to resolving the main challenge in representing categorical data with a scatter plot, which is that all of the points belonging to one category would fall on the same position along the axis corresponding to the categorical variable. The approach used by stripplot(), which is the default “kind” in catplot() is to adjust the positions of points on the categorical axis with a small amount of random “jitter”:
+```ruby
+tips = sns.load_dataset("tips")
+sns.catplot(data=tips, x="day", y="total_bill")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_3_0.png)
+
+
+The jitter parameter controls the magnitude of jitter or disables it altogether:
+```ruby
+sns.catplot(data=tips, x="day", y="total_bill", jitter=False)
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_5_0.png)
+
+
+The second approach adjusts the points along the categorical axis using an algorithm that prevents them from overlapping. It can give a better representation of the distribution of observations, although it only works well for relatively small datasets. This kind of plot is sometimes called a “beeswarm” and is drawn in seaborn by swarmplot(), which is activated by setting kind="swarm" in catplot():
+
+```ruby
+sns.catplot(data=tips, x="day", y="total_bill", kind="swarm")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_7_0.png)
+
+
+Similar to the relational plots, it’s possible to add another dimension to a categorical plot by using a huesemantic. (The categorical plots do not currently support size or style semantics). Each different categorical plotting function handles the hue semantic differently. For the scatter plots, it is only necessary to change the color of the points:
+
+```ruby
+sns.catplot(data=tips, x="day", y="total_bill", hue="sex", kind="swarm")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_9_0.png)
+
+
+Unlike with numerical data, it is not always obvious how to order the levels of the categorical variable along its axis. In general, the seaborn categorical plotting functions try to infer the order of categories from the data. If your data have a pandas Categorical datatype, then the default order of the categories can be set there. If the variable passed to the categorical axis looks numerical, the levels will be sorted. But the data are still treated as categorical and drawn at ordinal positions on the categorical axes (specifically, at 0, 1, …) even when numbers are used to label them:
+
+```ruby
+sns.catplot(data=tips.query("size != 3"), x="size", y="total_bill")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_11_0.png)
+
+
+
+The other option for choosing a default ordering is to take the levels of the category as they appear in the dataset. The ordering can also be controlled on a plot-specific basis using the order parameter. This can be important when drawing multiple categorical plots in the same figure, which we’ll see more of below:
+
+```ruby
+sns.catplot(data=tips, x="smoker", y="tip", order=["No", "Yes"])
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_13_0.png)
+
+
+
+We’ve referred to the idea of “categorical axis”. In these examples, that’s always corresponded to the horizontal axis. But it’s often helpful to put the categorical variable on the vertical axis (particularly when the category names are relatively long or there are many categories). To do this, swap the assignment of variables to axes:
+
+
+```ruby
+sns.catplot(data=tips, x="total_bill", y="day", hue="time", kind="swarm")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_15_0.png)
+
+
+# Time Series Visualization 
+
+## 1. Introduction to Time Series Data
+
+Time series data is a series of data points indexed in time order, typically with equal time intervals. The importance of time series analysis spans various sectors:
+- **Finance**: Stock prices, market indices, and economic indicators.
+- **Healthcare**: Monitoring patient metrics over time.
+- **Meteorology**: Analyzing weather patterns and changes.
+- **Retail**: Tracking sales and inventory levels over different periods.
+
+## 2. Basics of Time Series Visualization
+
+### 2.1. Line Charts
+
+Line charts are foundational for time series visualization. By connecting individual data points with a line, they effectively display data trends over time, making them ideal for analyzing continuous data.
+
+### 2.2. Area Charts
+
+While similar to line charts, area charts fill the area between the axis and the line, emphasizing the magnitude of values and cumulative data, especially useful when showcasing non-negative values.
+
+### 2.3. Stacked Area Charts
+
+When visualizing multiple time series data simultaneously, stacked area charts can be invaluable. They display the evolution of the composition of a dataset over time, helping to understand not only the individual time series but also their collective behavior.
+
+## 3. Advanced Time Series Visualization Techniques
+
+### 3.1. Seasonal Decomposition Plots
+
+Time series data often contains underlying patterns. Seasonal decomposition separates the series into three components: trend, seasonality, and residuals, making it easier to analyze each aspect.
+
+### 3.2. Heatmaps for Time Series
+
+Heatmaps use color intensities to represent data values. In time series analysis, they can effectively represent patterns, such as hourly website traffic over several days, by using a gradient color scheme.
+
+### 3.3. Lag Plots
+
+A lag plot helps in understanding the relationship between an observation and its prior observation (lag). It's pivotal in checking the randomness of a dataset, where random data will not exhibit any structure in the lag plot.
+
+### 3.4. Autocorrelation and Partial Autocorrelation Plots
+
+These plots are essential for understanding the correlation of a series with its own lags. They're foundational when selecting models for time series forecasting, like ARIMA.
+
+## 4. Visualizing Time Series Anomalies
+
+### 4.1. Anomaly Detection Plots
+
+Anomaly detection plots are graphical representations used to visualize and identify anomalies or outliers in a dataset. Anomalies are data points that significantly deviate from the expected or normal pattern of the data. Detecting anomalies is important in various fields, including fraud detection, network security, industrial equipment monitoring, and quality control.
+
+Anomalies or outliers can be crucial in time series data. Highlighting these anomalies visually can provide insights into unexpected spikes, dips, or patterns in the data.
+
+![anomoly detection](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114646880/c6b63cf5-42f8-4563-85ab-2cdda4dd7b62)
+
+Here are some common types of anomaly detection plots:
+
+1. **Scatter Plots:** Scatter plots are a fundamental tool for visualizing data points in two dimensions. Anomalies may appear as data points that are far from the main cluster of points. Visual inspection can help identify these outliers.
+
+2. **Box Plots:** Box plots (box-and-whisker plots) provide a summary of the distribution of a dataset. Anomalies can be identified as data points that fall outside the whiskers of the box plot, which represent the "normal" range of data.
+
+3. **Histograms:** Histograms show the frequency distribution of a single variable. Unusual peaks or gaps in the histogram may indicate the presence of anomalies.
+
+4. **Time Series Plots:** Time series data is often used in anomaly detection. Anomalies in time series data can be visualized by plotting the data points over time and looking for sudden spikes, drops, or other irregular patterns.
+
+5. **Heatmaps:** Heatmaps are useful for visualizing anomalies in multivariate data. They can show relationships between multiple variables, and anomalies may manifest as unusual patterns or values in the heatmap.
+
+6. **Probability Density Plots:** Probability density plots display the distribution of data and can help identify anomalies by showing where data points are concentrated and where they deviate.
+
+7. **Cumulative Distribution Function (CDF) Plots:** CDF plots display the cumulative distribution of data. Anomalies may be revealed as steep deviations from the expected cumulative distribution.
+
+8. **Q-Q (Quantile-Quantile) Plots:** Q-Q plots compare the quantiles of the observed data with the quantiles of a theoretical distribution (e.g., normal distribution). Anomalies can be identified by deviations from the expected quantile-quantile relationship.
+
+9. **Autoencoder Reconstruction Error Plots:** In the context of deep learning-based anomaly detection, autoencoders are used to reconstruct input data. The difference between the input and reconstructed data, known as the reconstruction error, can be plotted to identify anomalies.
+
+10. **3D and Higher-Dimensional Plots:** For datasets with three or more dimensions, 3D plots or parallel coordinate plots can be used to visualize anomalies in the data.
+
+
+
+### 4.2. Interactive Time Series Visualizations
+
+Interactive plots allow users to engage with the data dynamically. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+
+## 5. Multi-Series and Multivariate Time Series Visualization
+
+### 5.1. Multiple Line and Area Charts
+
+When comparing multiple time series datasets, it's often beneficial to visualize them simultaneously. Techniques to ensure clarity, such as using varied line styles, colors, and legends, become essential.
+
+### 5.2. Parallel Coordinates Plot for Multivariate Time Series
+
+For high-dimensional time series data, parallel coordinates provide a means to visualize data across many variables, helping detect patterns or anomalies across multiple series.
+
+### 5.3. Cross-Correlation Heatmaps
+
+To understand relationships between multiple time series datasets, cross-correlation heatmaps can be invaluable. They show how two series correlate at different lags, shedding light on potential causative relationships.
+
+**6. Temporal Aggregation and Resampling**:
+   - Adjust the time intervals of your time series data to match your analysis needs, using techniques like aggregation and resampling.
  
+**7. Exponential Smoothing and Trend Lines**:
+   - Utilize exponential smoothing methods and trend lines to visualize and highlight smoothed trends within time series data.
+ 
+**8. Time Series Decomposition Models**:
+   - Explore different decomposition models, including additive and multiplicative, to capture various aspects of time series data.
+ 
+**9. Time Series Forecasting Visualizations**:
+   - Visualize historical data alongside forecasts, prediction intervals, and confidence bands to aid in forecasting tasks.
+ 
+**10. Box Plots and Violin Plots**:
+    - Use box plots and violin plots to depict data distribution within specific time periods, including median, quartiles, and potential outliers.
+ 
+**11. Time Series Decomposition Visualizations**:
+    - Create visual representations of decomposed time series components (trend, seasonality, residuals) to understand their individual patterns and contributions.
+ 
+**12. Time Series Animation**:
+    - Engage viewers with animated time series visualizations to convey changes and trends over time.
+ 
+**13. Custom Time Series Visualizations**:
+    - Tailor visualizations to the unique characteristics of your time series data, such as creating specialized radial plots or polar coordinates.
+ 
+**14. Geospatial Time Series Visualization**:
+    - Combine time series data with geographic information to create spatiotemporal visualizations, including animated choropleth maps and geospatial heatmaps.
+ 
+ 
+# Pincipal Component Analysis (PCA)
+### What is PCA?
+Principal Component Analysis (PCA) is an unsupervised learning algorithm that is used for dimensionality reduction in machine learning. PCA is used to reduce the dimensionality of a large dataset while retaining as much of the original variation as possible.
+
+![Principal Component Analysis](https://miro.medium.com/v2/resize:fit:596/1*QinDfRawRskupf4mU5bYSA.png)
+
+### How PCA works?
+PCA works by identifying a set of new variables, called principal components, that are linear combinations of the original variables, and then projecting the data onto these new variables. The first principal component is chosen to explain the maximum amount of variation in the data, and each subsequent component is chosen to explain the remaining variation in order of decreasing importance. The principal
+components are chosen such that they are orthogonal (i.e., uncorrelated) to each other.
+
+### PCA Algorithm Steps
+1. Standardize the data: PCA assumes that the data is standardized (i.e., centered at zero and scaled to have unit variance). This step involves subtracting the mean of each variable from each observation and dividing it by the standard deviation of each variable.
+2. Compute the covariance matrix: The covariance matrix measures the pairwise covariances between all pairs of variables in the data. This matrix is used to compute the principal components.
+3. Compute the eigenvectors and eigenvalues of the covariance matrix: The eigenvectors of the covariance matrix represent the directions in
+which the data varies the most, while the eigenvalues represent the amount of variance explained by each eigenvector.
+4. Select the principal components: The eigenvectors are sorted in descending order of their corresponding eigenvalues, and the top k eigenvectors are selected as the principal components. The number of principal components to select depends on the amount of variance that needs to be explained and the desired level of dimensionality reduction.
+5. Project the data onto the principal components: The original data is then projected onto the new set of k principal components. This involves computing the dot product of the original data matrix with the matrix of selected eigenvectors.
+6. Analyze the results: The resulting matrix of projected data can be analyzed using standard statistical techniques. The principal components themselves can also be examined to gain insight into the underlying structure of the data.
+
+### Why it is useful?
+PCA can be used for a variety of purposes, including data visualization, data compression, and data pre-processing for machine learning
+algorithms.
+By reducing the dimensionality of the data, PCA can make it easier to analyze and interpret large datasets, and can also help to remove noise and redundancy in the data.
+
+### Advantages
+1. Easy to calculate and compute.
+2. Speeds up machine learning computing processes and algorithms.
+3. Prevents predictive algorithms from data overfitting issues.
+4. Increases performance of ML algorithms by eliminating unnecessary correlated variables.
+5. Principal Component Analysis results in high variance and increases visualization.
+6. Helps reduce noise that cannot be ignored automatically.
+
+### Disadvantages
+1. Sometimes, PCA is difficult to interpret. In rare cases, you may feel difficult to identify the most important features even after computing the principal components.
+2. You may face some difficulties in calculating the covariances and covariance matrices.
+3. Sometimes, the computed principal components can be more difficult to read rather than the original set of components.
