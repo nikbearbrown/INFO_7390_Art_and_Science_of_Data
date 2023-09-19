@@ -222,6 +222,14 @@ Audio: Sound data represented as waveforms. Example: Music recordings, Speech sa
     can be significant, and they can skew the outcomes of any hypothesis testing. For accurate findings, it is crucial to thoroughly identify any potential 
     outliers in your dataset and deal with them appropriately.
 
+### Handling Outliers:
+
+Highlight that outliers can significantly impact the results of data analysis and visualizations. It's important to not only identify outliers but also consider whether they should be removed, transformed, or retained based on the context of the analysis.
+
+Mention the use of box plots and whisker plots to visualize the distribution of data and easily spot outliers. These plots provide a visual representation of the data's spread and can help in identifying extreme values.
+
+Discuss the importance of domain knowledge when deciding how to handle outliers. In some cases, outliers may represent critical data points that should not be removed without a thorough understanding of their significance.
+
   Types of outliers
   There are two kinds of outliers:
   
