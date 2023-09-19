@@ -2034,7 +2034,7 @@ By reducing the dimensionality of the data, PCA can make it easier to analyze an
  Exclusive clustering is a form of grouping that requires a data point to exist only in one cluster. This can also be referred to as “hard” clustering. The K-means clustering algorithm is an example of exclusive clustering.
 
  #### b. Overlapping Clustering
- ![Overlapping Clustering](https://www.researchgate.net/profile/Ali-Al-Yousef/publication/341874469/figure/fig1/AS:898328594227203@1591189635588/Hard-vs-Soft-Clustering.ppm)
+ ![Overlapping Clustering](https://static.packt-cdn.com/products/9781783554997/graphics/B03506_02_12.jpg)
  Overlapping clusters differs from exclusive clustering in that it allows data points to belong to multiple clusters with separate degrees of membership. “Soft” or fuzzy k-means clustering is an example of overlapping clustering.
 
  #### c. Hierarchical Clustering
