@@ -1160,6 +1160,51 @@ Summarise multiple distributions by showing the median (centre) and range of the
 
 #### Violin plot
 
+A violin plot is a data visualization tool that combines aspects of a box plot and a kernel density plot. It is used to represent the distribution of a continuous or categorical variable across different categories or groups. Violin plots provide a more detailed view of the data distribution than traditional box plots and can be especially useful for comparing distributions between groups. Let's explain the components of a violin plot with an example:
+
+Example: Exam Scores by Gender
+
+Suppose you are a teacher, and you want to compare the distributions of exam scores between male and female students in your class. You have collected the following data:
+
+Male students' exam scores: 78, 85, 62, 93, 75, 88, 91, 82, 70, 72
+Female students' exam scores: 98, 89, 65, 77, 84, 79, 73, 68, 95, 87
+You want to create a violin plot to visualize the distribution of exam scores for each gender.
+
+Here's how to create a violin plot:
+
+Data Collection: Collect the exam scores for male and female students, as shown above.
+
+Plotting the Violin Plot: Using a data visualization library like Python's Seaborn or R's ggplot2, you can create a violin plot. Each violin plot will have two "violins," one for each gender, representing the distribution of scores.
+
+Components of the Violin Plot:
+
+Violin Shape: The main component of the plot is the "violin" shape, which shows the distribution of the data. The width of the violin at any point represents the density of data points at that value. Wider parts of the violin indicate higher data density.
+
+Box Plot: Inside each violin, you can include a box plot, which provides summary statistics such as the median, quartiles, and potential outliers. The box plot is a simple rectangle inside the violin.
+
+Whiskers: In a violin plot, the whiskers of the box plot can extend beyond the violin, indicating the range of data values that are not considered outliers.
+
+Median Line: A line inside the box plot represents the median value of the data.
+
+Here's a textual representation of what a simplified violin plot might look like:
+
+lua
+
+|                .       .     .        |
+|              . .     . . . . .      . |
+|            . . . . . . . . . . . . . |
+|         . . . . . . . . . . . . . .  |
+|       . . . . . . . . . . . . . .    |
+|     . . . . . . . . . . . . . .      |
+|   . . . . . . . . . . . . . .        |
+| . . . . . . . . . . . . . .          |
+|        |---|                        |
+|        Median                      |
+In this example, the violin plot visually displays the distribution of exam scores for both male and female students. You can compare the shapes of the violins to understand how the distributions differ between the two groups. Additionally, you can see summary statistics like the median and quartiles in the box plots.
+
+Violin plots are useful for exploring and comparing data distributions, especially when dealing with multiple categories or groups. They provide a more detailed view of the data compared to traditional box plots and can reveal insights about the data's central tendency, spread, and skewness.
+
+
 Similar to a box plot but more effective with complex distributions (data that cannot be summarised with simple average).
 
 ![simple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/simple_violinplot.png?raw=true)
