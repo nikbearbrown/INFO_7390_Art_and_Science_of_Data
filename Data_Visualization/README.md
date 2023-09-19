@@ -1714,7 +1714,13 @@ These plots are essential for understanding the correlation of a series with its
 
 ### 4.1. Anomaly Detection Plots
 
+Anomaly detection plots are graphical representations used to visualize and identify anomalies or outliers in a dataset. Anomalies are data points that significantly deviate from the expected or normal pattern of the data. Detecting anomalies is important in various fields, including fraud detection, network security, industrial equipment monitoring, and quality control.
+
 Anomalies or outliers can be crucial in time series data. Highlighting these anomalies visually can provide insights into unexpected spikes, dips, or patterns in the data.
+
+![anomoly detection](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114646880/c6b63cf5-42f8-4563-85ab-2cdda4dd7b62)
+
+
 
 ### 4.2. Interactive Time Series Visualizations
 
