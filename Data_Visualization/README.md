@@ -1799,3 +1799,31 @@ For high-dimensional time series data, parallel coordinates provide a means to v
 
 To understand relationships between multiple time series datasets, cross-correlation heatmaps can be invaluable. They show how two series correlate at different lags, shedding light on potential causative relationships.
 
+**6. Temporal Aggregation and Resampling**:
+   - Adjust the time intervals of your time series data to match your analysis needs, using techniques like aggregation and resampling.
+ 
+**7. Exponential Smoothing and Trend Lines**:
+   - Utilize exponential smoothing methods and trend lines to visualize and highlight smoothed trends within time series data.
+ 
+**8. Time Series Decomposition Models**:
+   - Explore different decomposition models, including additive and multiplicative, to capture various aspects of time series data.
+ 
+**9. Time Series Forecasting Visualizations**:
+   - Visualize historical data alongside forecasts, prediction intervals, and confidence bands to aid in forecasting tasks.
+ 
+**10. Box Plots and Violin Plots**:
+    - Use box plots and violin plots to depict data distribution within specific time periods, including median, quartiles, and potential outliers.
+ 
+**11. Time Series Decomposition Visualizations**:
+    - Create visual representations of decomposed time series components (trend, seasonality, residuals) to understand their individual patterns and contributions.
+ 
+**12. Time Series Animation**:
+    - Engage viewers with animated time series visualizations to convey changes and trends over time.
+ 
+**13. Custom Time Series Visualizations**:
+    - Tailor visualizations to the unique characteristics of your time series data, such as creating specialized radial plots or polar coordinates.
+ 
+**14. Geospatial Time Series Visualization**:
+    - Combine time series data with geographic information to create spatiotemporal visualizations, including animated choropleth maps and geospatial heatmaps.
+ 
+ 
