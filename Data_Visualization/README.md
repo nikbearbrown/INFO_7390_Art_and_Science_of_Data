@@ -620,6 +620,19 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
 Imagine you have a lot of data, and you want to see how it behaves in different groups or categories. Faceting helps you do this by splitting your data into smaller, similar parts and showing each part separately. Each smaller part is like a mini-graph that focuses on a specific group or category.
 For example, if you have data about sales in different regions and you use faceting, you'd create separate charts or graphs for each region. This way, you can quickly see how sales are doing in each area without getting overwhelmed by all the data at once.
 
+** Animation**
+Animation in Data is a method used to visually present complex business data which can be expressed in multiple frames, turning it into an engaging, easy-to-understand visual story. It uses real-time data from various sources to create dynamic presentations that help audiences track data changes effectively.  
+Data animations are used in a variety of contexts such as financial reporting, advertising measurement, sales dashboards, and more. They improve data analysis and storytelling.
+
+Improve engagement: Data animations increase viewer engagement by making data more engaging and understandable. Animations allow viewers to follow data changes and modifications, leading to increased engagement.
+
+Improved communication: Data animation bridges the communication gap between management and employees by simplifying complex topics. Movement in animations highlights changes and clarifies data analysis. 
+
+Report: Data animations are effective in storytelling, helping audiences understand the reasons behind data changes over time. They provide context and inspire action or behavior change.
+
+View changes: Data animation helps viewers see and understand changes in data  more effectively, maintaining context during transitions between different data states.
+
+
 
 **Uses In Real World Markets**
  Data visualization plays a crucial role in analytics, helping marketers make data-driven decisions, gain insights into customer behavior, and optimize marketing strategies. Data-visualization is used in marketing analytics, including customer segmentation, funnel analysis, and A/B testing visualizations:
