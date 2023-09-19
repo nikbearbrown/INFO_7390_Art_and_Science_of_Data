@@ -1889,7 +1889,7 @@ To understand relationships between multiple time series datasets, cross-correla
 ### What is PCA?
 Principal Component Analysis (PCA) is an unsupervised learning algorithm that is used for dimensionality reduction in machine learning. PCA is used to reduce the dimensionality of a large dataset while retaining as much of the original variation as possible.
 
-![Principal Component Analysis](/../../Desktop/Screenshot%202023-09-18%20at%208.49.12%20PM.png)
+![Principal Component Analysis](https://miro.medium.com/v2/resize:fit:596/1*QinDfRawRskupf4mU5bYSA.png)
 
 ### How PCA works?
 PCA works by identifying a set of new variables, called principal components, that are linear combinations of the original variables, and then projecting the data onto these new variables. The first principal component is chosen to explain the maximum amount of variation in the data, and each subsequent component is chosen to explain the remaining variation in order of decreasing importance. The principal
