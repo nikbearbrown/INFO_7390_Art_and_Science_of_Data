@@ -663,6 +663,16 @@ Report: Data animations are effective in storytelling, helping audiences underst
 
 View changes: Data animation helps viewers see and understand changes in data  more effectively, maintaining context during transitions between different data states.
 
+When considering animation for the data, following four techniques will make the visualization understandable and intuitive.
+
+  1. Value Transformation: In data animation, we prefer to show the dynamic changes in data rather than static representations. For instance, rather than displaying a fixed number, one might present a numerical counter that incrementally progresses to a final value. This technique will illustrates progress, growth, or change. It is commonly used in mobile applications, like progress bars loading during language learning tasks, to show a sense of achievement and user interaction.
+
+ 2. Easing, Offset, and Delay: To ensure that data animations appear natural and avoid sudden or fast movements that can disrupt the viewer's experience easing techniques can be helpful. Easing involves gradually accelerating or decelerating animations through different frames. Additionally, introducing offsets and delays into animations assists in conveying distinctions between elements and organizing a visual hierarchy. For instance, in a stock trading application, delaying the display of stock values in comparison to general indices can enhance the comprehensibility and structure of the data.
+
+  3. Parenting: Parenting is a method that establishes relationships between various components within data animations. When a property within the parent element changes, it has a corresponding effect on a property in the child element. For example, in a line chart, if a point on the line represents the parent, dragging that point could result in alterations in the associated value (the child object). Parenting enhances interactivity and hierarchy within data animations, facilitating the viewer's understanding of relationships between data points.
+
+  4. Zooming: Zooming is employed to transition from an overview of data to a more detailed examination. It is important when we are dealing with datasets requiring deeper exploration like maps and multiple classifications. For instance, zooming is a frequent feature in map visualizations, allowing users to switch between a global perspective and a closer examination of specific regions or details on the map. This technique provides users with flexibility in exploring data and discovering insights.
+
 
 
 **Uses In Real World Markets**
