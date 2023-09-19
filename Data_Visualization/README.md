@@ -2030,19 +2030,19 @@ By reducing the dimensionality of the data, PCA can make it easier to analyze an
 
  ### Clustering Algorithms
  #### a. Exclusive Clustering
- ![Exclusive Clustering](https://miro.medium.com/v2/resize:fit:1080/1*fz-rjYPPRlGEMdTI-RLbDg.png)
+ ![Exclusive Clustering](https://miro.medium.com/v2/resize:fit:1080/1*fz-rjYPPRlGEMdTI-RLbDg.png)<br>
  Exclusive clustering is a form of grouping that requires a data point to exist only in one cluster. This can also be referred to as “hard” clustering. The K-means clustering algorithm is an example of exclusive clustering.
 
  #### b. Overlapping Clustering
- ![Overlapping Clustering](https://static.packt-cdn.com/products/9781783554997/graphics/B03506_02_12.jpg)
+ ![Overlapping Clustering](https://static.packt-cdn.com/products/9781783554997/graphics/B03506_02_12.jpg)<br>
  Overlapping clusters differs from exclusive clustering in that it allows data points to belong to multiple clusters with separate degrees of membership. “Soft” or fuzzy k-means clustering is an example of overlapping clustering.
 
  #### c. Hierarchical Clustering
- ![Hierarchial Clustering](https://media.geeksforgeeks.org/wp-content/uploads/20230425190545/download-(10).png)
+ ![Hierarchial Clustering](https://media.geeksforgeeks.org/wp-content/uploads/20230425190545/download-(10).png)<br>
  Hierarchical clustering can be categorized in two ways; agglomerative or divisive. Agglomerative clustering is considered a “bottoms-up approach.” Its data points are isolated as separate groupings initially, and then they are merged together iteratively on the basis of similarity until one cluster has been achieved.
 
  #### d. Probabilistic Clustering
- ![Probabilistic Clustering](https://miro.medium.com/v2/resize:fit:753/1*lTv7e4Cdlp738X_WFZyZHA.png)
+ ![Probabilistic Clustering](https://miro.medium.com/v2/resize:fit:753/1*lTv7e4Cdlp738X_WFZyZHA.png)<br>
  In probabilistic clustering, data points are clustered based on the likelihood that they belong to a particular distribution. The Gaussian Mixture Model (GMM) is one of the most commonly used probabilistic clustering methods.
 
  ### Applications of Clustering
