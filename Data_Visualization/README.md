@@ -1093,54 +1093,6 @@ Show values in a dataset and how often they occur. The shape (or ‘skew’) of 
 * Joey Cherdarchuk: [Visualising distributions](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3)
 
 #### Histogram
-A histogram is a graphical representation of the distribution of data, typically used to visualize the frequency or probability distribution of a dataset. It consists of a series of contiguous rectangles (bars) where the width of each bar represents a range of data values, and the height of each bar represents the frequency or count of data points falling within that range. Histograms are especially useful for understanding the distribution of continuous or discrete data.
-
-Let's walk through an example to explain histograms:
-
-Example: Exam Scores
-
-Suppose you are a teacher, and you want to visualize the distribution of exam scores for your class of 30 students. The scores range from 0 to 100, and you want to create a histogram to better understand how your students performed.
-
-Here's how you can create a histogram for this dataset:
-
-Data Collection: First, you collect the exam scores from all 30 students. Let's say the scores are as follows:
-
-
-78, 85, 62, 93, 75, 88, 91, 82, 70, 72,
-98, 89, 65, 77, 84, 79, 73, 68, 95, 87,
-71, 90, 76, 83, 74, 86, 69, 81, 80, 94
-Data Range and Bins: Determine the range of data values and decide on the number of bins (intervals) you want to use for your histogram. In this example, the range is 0 to 100 (the minimum and maximum exam scores possible), and let's choose 10 bins for simplicity.
-
-Calculate Bin Width: Calculate the width of each bin by dividing the range by the number of bins. In this case, the bin width is (100 - 0) / 10 = 10.
-
-Group Data into Bins: Group the exam scores into their respective bins based on their values. For example, you'll have bins like [0-10), [10-20), [20-30), and so on.
-
-Count Frequencies: Count the number of exam scores that fall into each bin. For instance, you might find that 2 students scored in the range [60-70), 5 students scored in the range [70-80), and so on.
-
-Create the Histogram: Now, create a bar graph where each bar represents a bin, and the height of the bar corresponds to the frequency of scores in that bin. The x-axis represents the score ranges, and the y-axis represents the frequency.
-
-Here's a simplified version of what the histogram might look like:
-
-bash
-
-Frequency
-  |
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  |     ######
-  +-------------------------------------
-  Score Range
-In this histogram, you can see the distribution of exam scores in your class. Most students scored in the range of 70-80, and the distribution is roughly bell-shaped, which is a common pattern for test scores.
-
-Histograms are valuable tools for summarizing and visualizing data distributions, making it easier to identify patterns, outliers, and the central tendency of the data.
-
 
 The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data
 
@@ -2161,3 +2113,38 @@ By reducing the dimensionality of the data, PCA can make it easier to analyze an
 1. Sometimes, PCA is difficult to interpret. In rare cases, you may feel difficult to identify the most important features even after computing the principal components.
 2. You may face some difficulties in calculating the covariances and covariance matrices.
 3. Sometimes, the computed principal components can be more difficult to read rather than the original set of components.
+
+
+# Color Theory in Data Visualization (a short guide)
+
+Choosing the right color combination or color palette for your visualization is very important, the data we encounter daily would lose its depth, its vibrancy, and its meaning if not depicted in the right hues. Understaning colors and patterns is a very powerful tool in the arsenal of a data visualization practitioner.
+
+<p>In this section, we will look at a few good practices to follow while representing insightful data.</p>
+
+### 1. Stay consistent
+Consider using same color for same variables to avoid confusion and to not overdo the visuals. Also make sure you always explain which color represents what part of the visualization through legends.
+
+![Alt text](color_theory_6.png)
+
+### 2. Go big or go home
+Make sure your viewers can read the texual part of the visualization. It is very essential to maintain readbility by having high contrast between your text color and color of the visual.
+
+![Alt text](color_theory_5.png)
+
+### 3. Gradients and Greys
+Sometimes using too many colors can be very distracting like in case of a treemap or heatmap. In those cases, we can make use of shades of a particular color to convey the insight in a more effective manner. 
+
+![Alt text](color_theory_1.png)
+
+It is also a good practice to choose two diverging colors to depict opposites, for example, a heatmap showing an average in grey and the two extremes can be red and green.
+
+![Alt text](color_theory_2.png)
+
+Also, sometimes to highlight a statistic, dimming the rest of the graph (by using shades of grey) to highlight what's important in the appropriate color can do the trick.
+
+![Alt text](color_theory_3.png)
+
+While gradients can be a great way of communicating data where concentrations of the same type are being depicted, avoid using them for displaying categorical data, which is, in most cases, always unrelated to each other.
+
+![Alt text](color_theory_4.png)
+### 4. 
