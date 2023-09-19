@@ -1659,7 +1659,7 @@ barplot() (with kind="bar")
 countplot() (with kind="count")
 ```
 
-![Alt text](https://seaborn.pydata.org/_images/categorical_3_0.png)
+
 These families represent the data using different levels of granularity. When deciding which to use, you’ll have to think about the question that you want to answer. The unified API makes it easy to switch between different kinds and see your data from several perspectives.
 
 The default representation of the data in catplot() uses a scatterplot. There are actually two different categorical scatter plots in seaborn. They take different approaches to resolving the main challenge in representing categorical data with a scatter plot, which is that all of the points belonging to one category would fall on the same position along the axis corresponding to the categorical variable. The approach used by stripplot(), which is the default “kind” in catplot() is to adjust the positions of points on the categorical axis with a small amount of random “jitter”:
@@ -1667,6 +1667,65 @@ The default representation of the data in catplot() uses a scatterplot. There ar
 tips = sns.load_dataset("tips")
 sns.catplot(data=tips, x="day", y="total_bill")
 ```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_3_0.png)
+
+
+The jitter parameter controls the magnitude of jitter or disables it altogether:
+```ruby
+sns.catplot(data=tips, x="day", y="total_bill", jitter=False)
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_5_0.png)
+
+
+The second approach adjusts the points along the categorical axis using an algorithm that prevents them from overlapping. It can give a better representation of the distribution of observations, although it only works well for relatively small datasets. This kind of plot is sometimes called a “beeswarm” and is drawn in seaborn by swarmplot(), which is activated by setting kind="swarm" in catplot():
+
+```ruby
+sns.catplot(data=tips, x="day", y="total_bill", kind="swarm")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_7_0.png)
+
+
+Similar to the relational plots, it’s possible to add another dimension to a categorical plot by using a huesemantic. (The categorical plots do not currently support size or style semantics). Each different categorical plotting function handles the hue semantic differently. For the scatter plots, it is only necessary to change the color of the points:
+
+```ruby
+sns.catplot(data=tips, x="day", y="total_bill", hue="sex", kind="swarm")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_9_0.png)
+
+
+Unlike with numerical data, it is not always obvious how to order the levels of the categorical variable along its axis. In general, the seaborn categorical plotting functions try to infer the order of categories from the data. If your data have a pandas Categorical datatype, then the default order of the categories can be set there. If the variable passed to the categorical axis looks numerical, the levels will be sorted. But the data are still treated as categorical and drawn at ordinal positions on the categorical axes (specifically, at 0, 1, …) even when numbers are used to label them:
+
+```ruby
+sns.catplot(data=tips.query("size != 3"), x="size", y="total_bill")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_11_0.png)
+
+
+
+The other option for choosing a default ordering is to take the levels of the category as they appear in the dataset. The ordering can also be controlled on a plot-specific basis using the order parameter. This can be important when drawing multiple categorical plots in the same figure, which we’ll see more of below:
+
+```ruby
+sns.catplot(data=tips, x="smoker", y="tip", order=["No", "Yes"])
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_13_0.png)
+
+
+
+We’ve referred to the idea of “categorical axis”. In these examples, that’s always corresponded to the horizontal axis. But it’s often helpful to put the categorical variable on the vertical axis (particularly when the category names are relatively long or there are many categories). To do this, swap the assignment of variables to axes:
+
+
+```ruby
+sns.catplot(data=tips, x="total_bill", y="day", hue="time", kind="swarm")
+```
+
+![Alt text](https://seaborn.pydata.org/_images/categorical_15_0.png)
+
 
 # Time Series Visualization 
 
