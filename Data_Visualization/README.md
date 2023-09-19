@@ -1934,7 +1934,43 @@ To understand relationships between multiple time series datasets, cross-correla
  
 **14. Geospatial Time Series Visualization**:
     - Combine time series data with geographic information to create spatiotemporal visualizations, including animated choropleth maps and geospatial heatmaps.
+
+
+**t-SNE** 
+
+t-SNE ( t-Distributed Stochastic Neighbor Embedding) is a technique that visualizes high dimensional data by giving each point a location in a two or three-dimensional map. The technique is the Stochastic Neighbor Embedding (SNE) variation that is much easier to optimize and produces significantly better visualization.Several other techniques can be used for visualizing high dimensional data, like PCA, which is a linear technique that focuses on keeping the low dimensional representation of dissimilar data points far apart.
  
+For high dimensional data that lie on or near a low dimensional nonlinear manifold, it is usually more important to keep the low dimensional representation of very similar data points as close as possible, which is typically not possible with the linear mapping.
+ 
+ t-SNE is capable of capturing much of the local structure of the high dimensional data, while also revealing the global structure, such as the presence of clusters at several scales. Figure 1 shows the use of t-SNE on the MNIST dataset which consists of images of handwritten digits.
+
+https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6j41Z2p5MW-YlzwBcjpG1Q.png
+
+t-SNE (t-Distributed Stochastic Neighbor Embedding) and PCA (Principal Component Analysis) are both dimensionality reduction techniques, but they have different advantages and are suited to different types of data and tasks. Here are some advantages of t-SNE over PCA:
+ 
+1. **Preservation of Non-Linear Structures**:
+   - t-SNE is particularly effective at preserving non-linear structures in the data. It can capture complex relationships and clusters that PCA, which focuses on linear relationships, might not capture accurately.
+ 
+2. **Visualization of High-Dimensional Data**:
+   - t-SNE is widely used for data visualization, especially when dealing with high-dimensional data. It can help visualize complex data structures in two or three dimensions, making it easier to interpret and understand.
+ 
+3. **Local Structure Preservation**:
+   - t-SNE aims to preserve the local structure of data points, meaning that similar data points in the high-dimensional space will be close to each other in the lower-dimensional space. This is valuable for revealing fine-grained patterns and clusters.
+ 
+4. **Robustness to Noise**:
+   - t-SNE is less sensitive to noise and outliers compared to PCA. It tends to focus on preserving meaningful structures while downplaying the impact of noisy data points.
+ 
+Limitations and Considerations: 
+- **Computationally Intensive**: t-SNE can be computationally expensive, especially for large datasets. Techniques like "approximate t-SNE" have been developed to address this issue.
+ 
+- **Stochastic Nature**: t-SNE is a stochastic algorithm, meaning that it may produce slightly different results on different runs. Users should be cautious of over-interpreting small variations in t-SNE plots.
+ 
+- **Curse of Dimensionality**: Like PCA, t-SNE can still suffer from the "curse of dimensionality" when dealing with extremely high-dimensional data.
+ 
+- **Hyperparameter Sensitivity**: t-SNE has several hyperparameters, including the perplexity parameter, which can affect the results. Choosing appropriate hyperparameters is crucial for meaningful visualizations.
+ 
+In summary, t-SNE is advantageous over PCA when dealing with high-dimensional data with complex non-linear structures or when the goal is to create informative visualizations. However, it's essential to select the dimensionality reduction technique that best suits the specific characteristics and objectives of our data analysis task. 
+
  
 # Pincipal Component Analysis (PCA)
 ### What is PCA?
