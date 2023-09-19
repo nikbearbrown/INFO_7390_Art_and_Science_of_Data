@@ -2223,4 +2223,14 @@ While gradients can be a great way of communicating data where concentrations of
 
 ![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_4.png?raw=true)
 
-### 4. 
+### 4. Ensure accessibility
+There might be a portion of your viewers who are colorblind, be mindful about using colors which can be easily read and understood by those masses as well. There are tool avaiable online like Coblis or Adobe Color that can detect how colorblind friendly is your visualization.
+
+![alt text](https://d33v4339jhl8k0.cloudfront.net/docs/assets/588089eddd8c8e484b24e90a/images/5ff3402166df373cab705f5d/file-wNt7PYwNTU.png)
+
+All the pictures are from https://academy.datawrapper.de/article/140-what-to-consider-when-choosing-colors-for-data-visualization
+
+Ref articles: 
+* [What to consider when choosing colors for data visualization](https://academy.datawrapper.de/article/140-what-to-consider-when-choosing-colors-for-data-visualization#:~:text=Use%20lightness%20to%20build%20gradients%2C%20not%20just%20hue.&text=If%20you%20do%20want%20to,in%20black%20and%20white%2C%20too.)
+* [8 rules for using color effectively in data visualizations](https://www.y42.com/blog/color-rules-data-visualization)
+* [The Role of Color Theory in Data Visualization](https://www.revunit.com/post/the-role-of-color-theory-in-data-visualization)
