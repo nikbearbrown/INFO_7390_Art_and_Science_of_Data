@@ -620,7 +620,8 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
 Imagine you have a lot of data, and you want to see how it behaves in different groups or categories. Faceting helps you do this by splitting your data into smaller, similar parts and showing each part separately. Each smaller part is like a mini-graph that focuses on a specific group or category.
 For example, if you have data about sales in different regions and you use faceting, you'd create separate charts or graphs for each region. This way, you can quickly see how sales are doing in each area without getting overwhelmed by all the data at once.
 
-** Animation**
+**Animation**
+
 Animation in Data is a method used to visually present complex business data which can be expressed in multiple frames, turning it into an engaging, easy-to-understand visual story. It uses real-time data from various sources to create dynamic presentations that help audiences track data changes effectively.  
 Data animations are used in a variety of contexts such as financial reporting, advertising measurement, sales dashboards, and more. They improve data analysis and storytelling.
 
