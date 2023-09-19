@@ -1093,6 +1093,54 @@ Show values in a dataset and how often they occur. The shape (or ‘skew’) of 
 * Joey Cherdarchuk: [Visualising distributions](http://www.darkhorseanalytics.com/blog/visualizing-distributions-3)
 
 #### Histogram
+A histogram is a graphical representation of the distribution of data, typically used to visualize the frequency or probability distribution of a dataset. It consists of a series of contiguous rectangles (bars) where the width of each bar represents a range of data values, and the height of each bar represents the frequency or count of data points falling within that range. Histograms are especially useful for understanding the distribution of continuous or discrete data.
+
+Let's walk through an example to explain histograms:
+
+Example: Exam Scores
+
+Suppose you are a teacher, and you want to visualize the distribution of exam scores for your class of 30 students. The scores range from 0 to 100, and you want to create a histogram to better understand how your students performed.
+
+Here's how you can create a histogram for this dataset:
+
+Data Collection: First, you collect the exam scores from all 30 students. Let's say the scores are as follows:
+
+
+78, 85, 62, 93, 75, 88, 91, 82, 70, 72,
+98, 89, 65, 77, 84, 79, 73, 68, 95, 87,
+71, 90, 76, 83, 74, 86, 69, 81, 80, 94
+Data Range and Bins: Determine the range of data values and decide on the number of bins (intervals) you want to use for your histogram. In this example, the range is 0 to 100 (the minimum and maximum exam scores possible), and let's choose 10 bins for simplicity.
+
+Calculate Bin Width: Calculate the width of each bin by dividing the range by the number of bins. In this case, the bin width is (100 - 0) / 10 = 10.
+
+Group Data into Bins: Group the exam scores into their respective bins based on their values. For example, you'll have bins like [0-10), [10-20), [20-30), and so on.
+
+Count Frequencies: Count the number of exam scores that fall into each bin. For instance, you might find that 2 students scored in the range [60-70), 5 students scored in the range [70-80), and so on.
+
+Create the Histogram: Now, create a bar graph where each bar represents a bin, and the height of the bar corresponds to the frequency of scores in that bin. The x-axis represents the score ranges, and the y-axis represents the frequency.
+
+Here's a simplified version of what the histogram might look like:
+
+bash
+
+Frequency
+  |
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  |     ######
+  +-------------------------------------
+  Score Range
+In this histogram, you can see the distribution of exam scores in your class. Most students scored in the range of 70-80, and the distribution is roughly bell-shaped, which is a common pattern for test scores.
+
+Histograms are valuable tools for summarizing and visualizing data distributions, making it easier to identify patterns, outliers, and the central tendency of the data.
+
 
 The standard way to show a statistical distribution - keep the gaps between columns small to highlight the ‘shape’ of the data
 
