@@ -1201,6 +1201,77 @@ _some comment_
 
 #### Population pyramid
 
+A population pyramid is a graphical representation of the age and gender distribution of a population. It is called a "pyramid" because it typically takes the shape of a two-sided, vertical pyramid, with the left side representing males and the right side representing females. The width of each bar in the pyramid corresponds to the population size or percentage of a specific age group or cohort, and the bars are stacked on top of each other, usually in five-year age groupings. Population pyramids are a valuable tool for understanding the age structure of a population and can provide insights into demographic trends, such as birth rates, death rates, and life expectancy.
+
+Let's explain the components of a population pyramid with an example:
+
+Example: Population Pyramid for a Country
+
+Suppose you are studying the population of a fictional country called "Demographica." You want to create a population pyramid to understand the age and gender distribution of Demographica's population. You have collected the following data:
+
+Total population: 10,000,000 people
+Age distribution:
+0-4 years: 1,200,000 people
+5-9 years: 1,400,000 people
+10-14 years: 1,600,000 people
+15-19 years: 1,800,000 people
+20-24 years: 1,700,000 people
+25-29 years: 1,500,000 people
+30-34 years: 1,300,000 people
+35-39 years: 1,200,000 people
+40-44 years: 1,100,000 people
+45-49 years: 900,000 people
+50-54 years: 800,000 people
+55-59 years: 700,000 people
+60-64 years: 600,000 people
+65-69 years: 500,000 people
+70-74 years: 400,000 people
+75-79 years: 300,000 people
+80+ years: 200,000 people
+To create a population pyramid for Demographica, follow these steps:
+
+Age Groups and Categories: Group the population data into age categories or cohorts, typically in five-year increments. In this example, you have 17 age groups, each spanning five years.
+
+Calculate Percentages: Calculate the percentage of the total population represented by each age group. For example, the percentage of people aged 0-4 years is (1,200,000 / 10,000,000) * 100% = 12%.
+
+Create the Pyramid: Draw a vertical axis representing the age groups, with the youngest age groups at the bottom and the oldest age groups at the top. The left side of the pyramid represents males, and the right side represents females.
+
+Draw Bars: For each age group, draw a horizontal bar extending to the left for males and to the right for females. The width of each bar corresponds to the percentage of the population in that age group. The bars should be stacked on top of each other, with the youngest age group at the bottom.
+
+Label the Pyramid: Label the axes with age group ranges and add a title to the population pyramid.
+
+Here's a textual representation of what the population pyramid for Demographica might look like:
+
+bash
+
+           |                      Males                       |                       Females
+ Age Group |--------------------------------------------------|--------------------------------------------------
+           |                 ####### 10% ########                |              ######## 10% #######
+           |               ########  12% ##########              |           ##########  12% ########
+           |             ##########  14% ############            |         ############  14% ##########
+           |           ############  16% ##############          |       ##############  16% ############
+           |         ##############  17% ################        |     ################  17% ##############
+           |       ################  15% ##################      |   ##################  15% ################
+           |     ##################  13% ####################    | ####################  13% ################
+           |   ####################  12% ######################  |######################  12% ################
+           |######################  11% ########################|#######################  11% ################
+           |#######################  9% #########################|#######################  9% #################
+           |#######################  8% #########################|#######################  8% #################
+           |#######################  7% #########################|#######################  7% #################
+           |#######################  6% #########################|#######################  6% #################
+           |#######################  5% #########################|#######################  5% #################
+           |#######################  4% #########################|#######################  4% #################
+           |#######################  3% #########################|#######################  3% #################
+           |#######################  2% #########################|#######################  2% #################
+           |--------------------------------------------------|--------------------------------------------------
+                    Age Group Ranges (in years)
+In this population pyramid, you can observe the following:
+
+The widest part of the pyramid is in the 15-19 age group, indicating a relatively high population of young people.
+The pyramid narrows as you move up in age groups, reflecting a decreasing population as people get older.
+The pyramid's shape can provide insights into demographic trends. In this case, it suggests a population with a significant number of young people and a declining population as you move toward older age groups.
+Population pyramids are valuable tools for demographers, policymakers, and researchers to understand the age structure and gender distribution of a population. They can help identify trends such as population growth, aging populations, and potential implications for healthcare, education, and social services.
+
 A standard way for showing the age and sex breakdown of a population distribution; effectively, back to back histograms.
 
 ![population pyramid](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/population_pyramid.png?raw=true)
