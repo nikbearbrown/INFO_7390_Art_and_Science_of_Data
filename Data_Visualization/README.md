@@ -1815,6 +1815,28 @@ Anomalies or outliers can be crucial in time series data. Highlighting these ano
 
 ![anomoly detection](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/114646880/c6b63cf5-42f8-4563-85ab-2cdda4dd7b62)
 
+Here are some common types of anomaly detection plots:
+
+1. **Scatter Plots:** Scatter plots are a fundamental tool for visualizing data points in two dimensions. Anomalies may appear as data points that are far from the main cluster of points. Visual inspection can help identify these outliers.
+
+2. **Box Plots:** Box plots (box-and-whisker plots) provide a summary of the distribution of a dataset. Anomalies can be identified as data points that fall outside the whiskers of the box plot, which represent the "normal" range of data.
+
+3. **Histograms:** Histograms show the frequency distribution of a single variable. Unusual peaks or gaps in the histogram may indicate the presence of anomalies.
+
+4. **Time Series Plots:** Time series data is often used in anomaly detection. Anomalies in time series data can be visualized by plotting the data points over time and looking for sudden spikes, drops, or other irregular patterns.
+
+5. **Heatmaps:** Heatmaps are useful for visualizing anomalies in multivariate data. They can show relationships between multiple variables, and anomalies may manifest as unusual patterns or values in the heatmap.
+
+6. **Probability Density Plots:** Probability density plots display the distribution of data and can help identify anomalies by showing where data points are concentrated and where they deviate.
+
+7. **Cumulative Distribution Function (CDF) Plots:** CDF plots display the cumulative distribution of data. Anomalies may be revealed as steep deviations from the expected cumulative distribution.
+
+8. **Q-Q (Quantile-Quantile) Plots:** Q-Q plots compare the quantiles of the observed data with the quantiles of a theoretical distribution (e.g., normal distribution). Anomalies can be identified by deviations from the expected quantile-quantile relationship.
+
+9. **Autoencoder Reconstruction Error Plots:** In the context of deep learning-based anomaly detection, autoencoders are used to reconstruct input data. The difference between the input and reconstructed data, known as the reconstruction error, can be plotted to identify anomalies.
+
+10. **3D and Higher-Dimensional Plots:** For datasets with three or more dimensions, 3D plots or parallel coordinate plots can be used to visualize anomalies in the data.
+
 
 
 ### 4.2. Interactive Time Series Visualizations
