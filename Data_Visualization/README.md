@@ -2008,3 +2008,54 @@ By reducing the dimensionality of the data, PCA can make it easier to analyze an
 1. Sometimes, PCA is difficult to interpret. In rare cases, you may feel difficult to identify the most important features even after computing the principal components.
 2. You may face some difficulties in calculating the covariances and covariance matrices.
 3. Sometimes, the computed principal components can be more difficult to read rather than the original set of components.
+ # CLUSTERING
+ ![Clustering](https://static.javatpoint.com/tutorial/machine-learning/images/clustering-in-machine-learning.png)
+
+ ### What is Clustering ? 
+ Clustering is the most popular version of unsupervised learning. In unsupervised learning, the goal is to identify patterns or structures in the data without any prior knowledge of what to expect. In Clustering, the goal is to group data points based on their similarity.
+ 
+ ### Why is it useful ?
+ Suppose you are the head of a retail store and wish to understand the preferences of your customers. 
+ Can you look at the details of each customer and devise a unique business strategy for each one of them? 
+ What you can do is cluster all of your customers into, say 5 groups based on their purchasing habits and use a separate strategy for each group.
+
+ ### Desirable Properties of a Clustering Algorithm
+ 1. Scalability (in terms of both time and space)
+ 2. Ability to deal with different data types
+ 3. Minimal requirements for domain knowledge to determine input parameters
+ 4. Able to deal with noise and outliers
+ 5. Insensitive to the order of input records
+ 6. Incorporation of user-specified constraints
+ 7. Interpretability and usability
+
+ ### Clustering Algorithms
+ #### a. Exclusive Clustering
+ ![Exclusive Clustering](https://av-eks-blogoptimized.s3.amazonaws.com/46668k-means-clustering-algorithm-in-machine-learning.png)
+ Exclusive clustering is a form of grouping that requires a data point to exist only in one cluster. This can also be referred to as “hard” clustering. The K-means clustering algorithm is an example of exclusive clustering.
+
+ #### b. Overlapping Clustering
+ ![Overlapping Clustering](https://www.researchgate.net/publication/341874469/figure/fig1/AS:898328594227203@1591189635588/Hard-vs-Soft-Clustering.ppm)
+ Overlapping clusters differs from exclusive clustering in that it allows data points to belong to multiple clusters with separate degrees of membership. “Soft” or fuzzy k-means clustering is an example of overlapping clustering.
+
+ #### c. Hierarchical Clustering
+ ![Hierarchial Clustering](https://media.geeksforgeeks.org/wp-content/uploads/20230425190545/download-(10).png)
+ Hierarchical clustering can be categorized in two ways; agglomerative or divisive. Agglomerative clustering is considered a “bottoms-up approach.” Its data points are isolated as separate groupings initially, and then they are merged together iteratively on the basis of similarity until one cluster has been achieved.
+
+ #### d. Probabilistic Clustering
+ ![Probabilistic Clustering](https://miro.medium.com/v2/resize:fit:753/1*lTv7e4Cdlp738X_WFZyZHA.png)
+ In probabilistic clustering, data points are clustered based on the likelihood that they belong to a particular distribution. The Gaussian Mixture Model (GMM) is one of the most commonly used probabilistic clustering methods.
+
+ ### Applications of Clustering
+
+ 1. Marketing: To characterize & discover customer segments for marketing purposes.
+ 2. Biology: For classification among different species of plants and animals.
+ 3. Libraries: Clustering different books on the basis of topics and information.
+ 4. City Planning: To make groups of houses and to study their values based on their geographical locations and other factors present.
+
+ ### Challenges
+
+ 1. Computational complexity due to a high volume of training data.
+ 2. Longer training times
+ 3. Higher risk of inaccurate results
+ 4. Human intervention to validate output variables
+ 5. Lack of transparency into the basis on which data was clustered
