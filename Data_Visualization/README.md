@@ -880,6 +880,8 @@ The standard way to show the relationship between two continuous variables, each
 
 ![Scatter Plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/43371452/e412dec5-5cc7-4d10-ad9a-193d0b7ea6dd)
 
+<p align="center">Example of a scatterplot.</p>
+
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * Maarten Lambrechts: [7 reasons you should use dot graphs](http://www.maartenlambrechts.com/2015/05/03/to-the-point-7-reasons-you-should-use-dot-graphs.html)
 * Tim Brock: [Too Big Data: Coping with Overplotting](https://www.infragistics.com/community/blogs/tim_brock/archive/2015/04/21/too-big-data-coping-with-overplotting.aspx)
@@ -901,6 +903,8 @@ Usually used to show how the relationship between two variables has changed over
 
 ![Connected Scatterplot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/connected_scatterplot.png?raw=true) 
 
+<p align="center">Example of a conencted scatterplot.</p>
+
 * Robert Kosara: [The Connected Scatterplot for Presenting Paired Time Series](https://eagereyes.org/papers/the-connected-scatterplot-for-presenting-paired-time-series)
 * Data Revelations: [Be Careful with Dual Axis Charts](http://www.datarevelations.com/be-careful-with-dual-axis-charts.html)
 * *Examples:* [_Washington Post_](https://www.washingtonpost.com/apps/g/page/business/the-end-of-the-us-oil-boom-told-through-one-texas-companys-bust/1999/)
@@ -911,6 +915,8 @@ Like a scatterplot, but adds additional detail by sizing the circles according t
 
 ![Bubble chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/bubble_chart.png?raw=true)
 
+<p align="center">Example of a bubble plot.</p>
+
 * Chart Doctor: [The storytelling genius of unveiling truths through charts](https://www.ft.com/content/e2eba288-ef83-11e6-930f-061b01e23655)
 * *Examples:* [_FT_](https://ig.ft.com/managements-missing-women-data/)
 
@@ -919,6 +925,8 @@ Like a scatterplot, but adds additional detail by sizing the circles according t
 A good way of showing the patterns between 2 categories of data, but less good at showing fine differences in amounts.
 
 ![HeatMap](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/heatmap.png?raw=true)
+
+<p align="center">Example of a heatmap.</p>
 
 * Chart Doctor: [Use fewer maps to illustrate data better](https://www.ft.com/content/de3ef722-9514-11e6-a1dc-bdf38d484582)
 
@@ -931,6 +939,8 @@ Use where an item’s position in an ordered list is more important than its abs
 Standard bar charts display the ranks of values much more easily when sorted into order
 
 ![ordered bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/assets/43371452/3384af5f-5952-4728-817d-fe07990231e3)
+
+<p align="center">Example of an ordered bar chart.</p>
 
 #### Ordered column
 
@@ -946,17 +956,23 @@ Dots placed in order on a strip are a space-efficient method of laying out ranks
 
 ![dot strip plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/strip_charts.png?raw=true)
 
+<p align="center">Example of a dot strip plot.</p>
+
 #### Slope
 
 Perfect for showing how ranks have changed over time or vary between categories. 
 
 ![slop chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/slope.png?raw=true)
 
+<p align="center">Example of a slope chart.</p>
+
 #### Lollipop chart
 
 Lollipops draw more attention to the data value than standard bar/column and can also show rank and value effectively.
 
 ![lollipop chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/lollipop.png?raw=true)
+
+<p align="center">Example of a lollipop chart.</p>
 
 ### Distribution
 
@@ -970,6 +986,8 @@ The standard way to show a statistical distribution - keep the gaps between colu
 
 ![histogram](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/histogram.png?raw=true)
 
+<p align="center">Example of a histogram.</p>
+
 * Aran Lunzer and Amelia McNamara: [Exploring histograms](http://tinlizzie.org/histograms/)
 
 #### Boxplot
@@ -978,19 +996,29 @@ Summarise multiple distributions by showing the median (centre) and range of the
 
 ![box plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/boxplots.png?raw=true)
 
+<p align="center">Example of a boxplot.</p>
+
 #### Violin plot
 
 Similar to a box plot but more effective with complex distributions (data that cannot be summarised with simple average).
 
 ![simple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/simple_violinplot.png?raw=true)
 
+<p align="center">Example of a simple violin plot.</p>
+
 _some comment_
 
 ![Multiple violin plot](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/multiple_violinplots.png?raw=true)
 
+<p align="center">Example of a multivariate violin plot.</p>
+
 #### Population pyramid
 
 A standard way for showing the age and sex breakdown of a population distribution; effectively, back to back histograms.
+
+![population pyramid](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/population_pyramid.png?raw=true)
+
+<p align="center">Example of a population pyramid.</p>
 
 #### Dot strip plot
 
@@ -1050,6 +1078,10 @@ Good for showing changing data as long as the data can be simplified into 2 or 3
 
 Use with care – these are good at showing changes to total, but seeing change in components can be very difficult 
 
+![Area chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/area_chart.png?raw=true)
+
+<p align="center">Example of an area chart.</p>
+
 #### Fan chart (projection) 
 
 Use to show the uncertainty in future projections - usually this grows the further forward to projection 
@@ -1092,6 +1124,10 @@ A simple way of showing part-to-whole relationships but can be difficult to read
 #### Proportional stacked bar
 
 A good way of showing the size and proportion of data at the same time – as long as the data are not too complicated. 
+
+![stacked bar chart](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/stacked-bar.png?raw=true)
+
+<p align="center">Example of a stacked bar chart.</p>
 
 * Chart Doctor: [How to apply Marimekko to data](https://www.ft.com/content/3ee98782-9149-11e7-a9e6-11d2f0ebb7f0)
 
