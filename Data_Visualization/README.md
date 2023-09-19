@@ -207,6 +207,13 @@ Audio: Sound data represented as waveforms. Example: Music recordings, Speech sa
   Semantic meaning can influence interpretation.
     * Spatial: Relating to space
     * Temporal: Relating to time
+
+### Data Type Semantics (Spatial, Temporal):
+
+  * Emphasize that understanding data type semantics is crucial for effective data visualization. Spatial data, for example, can be visualized using maps, heatmaps, or geographical plots to convey geographic patterns. Temporal data, on the other hand, can be visualized using time series plots, calendars, or Gantt charts to reveal trends over time.
+  * Discuss how combining spatial and temporal data can lead to powerful visualizations, such as spatiotemporal heatmaps or animations, which can reveal insights about how phenomena change over both space and time.
+
+  
 * Outliers? (Numeric Box-whisker x times (deflaut 1.5) interquartile range, categorical would be rare values/low % default < 1%)
 
   
