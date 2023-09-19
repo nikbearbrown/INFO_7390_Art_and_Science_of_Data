@@ -1441,6 +1441,27 @@ Todo:
 
 ### Map projections
 
+Map projections are a way of representing regions on the surface of a spherical object on a flat surface. For example, a continent on the Earth can be represented on a flat map. There are many map projections, but some are more prevalent in our work with scientific visualization data. Map projections are chosen based on the characteristics required by researchers. There is no perfect way to represent a spherical surface on a flat map, so no matter what map projection is chosen distortions occur. Some projections can preserve properties like: area, shape, and direction; so, projections are chosen depending on the scientist's needs.
+
+This visualization shows some of the more common projections that SVS has encountered. Some of these projections have parameters that change the central point of the projection. In those cases, the parameters are animated and shown in the lower left.
+
+Also included in this visualization are circles/ovals that are similar to "Tissot's Indicatrices". These are all circles of the same size on the spherical earth. Map projections distort them depending on the projection. The area of every circle is 1 million km² or about the size of Egypt. With each projection, the distortions of these circles show how shape and area are distorted in different parts of the projection.
+
+The following projections are shown:
+equirectangular
+* robinson
+* mollweide
+* hammer
+* sinusoidal
+* polar stereographic
+* lambert azimuthal
+* albers equal area conic
+* wrapped to a sphere
+* mercator
+
+* Rajesh Sigdel: [Understanding Map Projections](https://medium.com/nightingale/understanding-map-projections-8b23ecbd2a2f)
+* Scientific Reports: [2D map projections for visualization and quantitative analysis of 3D fluorescence micrographs](https://www.nature.com/articles/srep12457)
+
 Map projections are techniques for displaying the Earth's three-dimensional surface on a two-dimensional surface, such as a map. Maps are flat, yet the Earth is a curving, spherical object, necessitating this change. Map projections use mathematical methods to flatten the Earth's surface while maintaining some characteristics or eliminating distortions, depending on the map's intended use. A thorough description of map projections is provided below:
 
 Why Is Map Projection Required?
@@ -1493,12 +1514,11 @@ Users frequently have the option to move between multiple map projections in int
 
 Map projections are frequently used to provide additional context for data. For instance, overlaying geographic information on a thematic map or choropleth map can make it easier for viewers to comprehend how the data relates to its geographical setting.
 
-
-
-
-
-
 ### Colour
+
+* Mike Yi: [How to Choose Colors for Data Visualizations](https://chartio.com/learn/charts/how-to-choose-colors-data-visualization/)
+* Color: [Data Visualization (for beginners): Color](https://www.plainconcepts.com/data-visualization-color/)
+* Color Usage: [Use of Color in Data Visualization](https://earthobservatory.nasa.gov/resources/blogs/intro_to_color_for_visualization.pdf)
 
 ### Cognizance and Advantages of SHAP Plots
 Shapley Additive explanations generate visual explanations for individual predictions, indicating which features influenced a specific prediction and to what extent.
