@@ -2008,3 +2008,38 @@ By reducing the dimensionality of the data, PCA can make it easier to analyze an
 1. Sometimes, PCA is difficult to interpret. In rare cases, you may feel difficult to identify the most important features even after computing the principal components.
 2. You may face some difficulties in calculating the covariances and covariance matrices.
 3. Sometimes, the computed principal components can be more difficult to read rather than the original set of components.
+
+
+# Color Theory in Data Visualization (a short guide)
+
+Choosing the right color combination or color palette for your visualization is very important, the data we encounter daily would lose its depth, its vibrancy, and its meaning if not depicted in the right hues. Understaning colors and patterns is a very powerful tool in the arsenal of a data visualization practitioner.
+
+<p>In this section, we will look at a few good practices to follow while representing insightful data.</p>
+
+### 1. Stay consistent
+Consider using same color for same variables to avoid confusion and to not overdo the visuals. Also make sure you always explain which color represents what part of the visualization through legends.
+
+![Alt text](color_theory_6.png)
+
+### 2. Go big or go home
+Make sure your viewers can read the texual part of the visualization. It is very essential to maintain readbility by having high contrast between your text color and color of the visual.
+
+![Alt text](color_theory_5.png)
+
+### 3. Gradients and Greys
+Sometimes using too many colors can be very distracting like in case of a treemap or heatmap. In those cases, we can make use of shades of a particular color to convey the insight in a more effective manner. 
+
+![Alt text](color_theory_1.png)
+
+It is also a good practice to choose two diverging colors to depict opposites, for example, a heatmap showing an average in grey and the two extremes can be red and green.
+
+![Alt text](color_theory_2.png)
+
+Also, sometimes to highlight a statistic, dimming the rest of the graph (by using shades of grey) to highlight what's important in the appropriate color can do the trick.
+
+![Alt text](color_theory_3.png)
+
+While gradients can be a great way of communicating data where concentrations of the same type are being depicted, avoid using them for displaying categorical data, which is, in most cases, always unrelated to each other.
+
+![Alt text](color_theory_4.png)
+### 4. 
