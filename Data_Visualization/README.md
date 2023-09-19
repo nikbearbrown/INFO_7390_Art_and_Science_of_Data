@@ -620,6 +620,20 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
 Imagine you have a lot of data, and you want to see how it behaves in different groups or categories. Faceting helps you do this by splitting your data into smaller, similar parts and showing each part separately. Each smaller part is like a mini-graph that focuses on a specific group or category.
 For example, if you have data about sales in different regions and you use faceting, you'd create separate charts or graphs for each region. This way, you can quickly see how sales are doing in each area without getting overwhelmed by all the data at once.
 
+**Animation**
+
+Animation in Data is a method used to visually present complex business data which can be expressed in multiple frames, turning it into an engaging, easy-to-understand visual story. It uses real-time data from various sources to create dynamic presentations that help audiences track data changes effectively.  
+Data animations are used in a variety of contexts such as financial reporting, advertising measurement, sales dashboards, and more. They improve data analysis and storytelling.
+
+Improve engagement: Data animations increase viewer engagement by making data more engaging and understandable. Animations allow viewers to follow data changes and modifications, leading to increased engagement.
+
+Improved communication: Data animation bridges the communication gap between management and employees by simplifying complex topics. Movement in animations highlights changes and clarifies data analysis. 
+
+Report: Data animations are effective in storytelling, helping audiences understand the reasons behind data changes over time. They provide context and inspire action or behavior change.
+
+View changes: Data animation helps viewers see and understand changes in data  more effectively, maintaining context during transitions between different data states.
+
+
 
 **Uses In Real World Markets**
  Data visualization plays a crucial role in analytics, helping marketers make data-driven decisions, gain insights into customer behavior, and optimize marketing strategies. Data-visualization is used in marketing analytics, including customer segmentation, funnel analysis, and A/B testing visualizations:
@@ -665,6 +679,7 @@ Benefits:
      - Interactive dashboards empower marketing teams to customize views, investigate trends, and optimize campaigns efficiently.
  
 In summary, data visualization is a powerful tool in marketing analytics, allowing marketers to uncover insights, track customer behavior, and optimize their strategies. Whether it's customer segmentation, funnel analysis, A/B testing, or overall campaign monitoring, effective data visualizations make complex data more accessible and actionable for marketing professionals.
+
 
 
 Chart types and fundamental graphs   
@@ -715,6 +730,72 @@ Line graphs can also help identify outliers or sudden changes in the numeric val
 * Maps (Transformation)  
 
 See the Data Visualisation Catalogue  <a href='https://datavizcatalogue.com'>https://datavizcatalogue.com</a>   
+
+
+**What is causal inference and what are different Visual Techniques in Causal Data?**
+
+Causal Inference refers to the process of determining whether one event or variable (the cause) directly or indirectly brings about another event or variable (the effect). In other words, it involves understanding the cause-and-effect relationships between variables in a dataset or system. Causal inference is crucial in various fields, including epidemiology, economics, social sciences, and machine learning, as it helps us make informed decisions, predict outcomes, and understand the impact of interventions or policies.
+
+Some key concepts and techniques related to causal inference are:
+
+1. Observational vs. Experimental Data: Causal inference can be particularly challenging when working with observational data, where researchers do not have control over the assignment of treatment or exposure. Experimental data, where treatments are randomly assigned, makes causal inference more straightforward. Techniques like randomized controlled trials (RCTs) are common in experimental settings.
+
+2. Counterfactuals: A central concept in causal inference is the counterfactual scenario, which represents what would have happened if a particular treatment or event had not occurred. Causal inference aims to estimate the difference between what actually happened and what would have happened in the counterfactual scenario.
+
+3. Confounding Variables: Confounding variables are factors that can affect both the cause and the effect, leading to spurious correlations. Techniques like regression analysis and propensity score matching are used to control for confounding variables and isolate causal relationships.
+
+4. Causal Graphs (Causal Diagrams): Causal graphs or causal diagrams are visual representations of causal relationships among variables. They use directed acyclic graphs (DAGs) to depict the causal structure, including cause-effect relationships and confounding variables. These graphs help researchers identify and visualize causal pathways.
+
+5. Pearl's Causal Hierarchy: Judea Pearl's causal hierarchy classifies causal relationships into three levels: association (correlation), intervention (causation), and counterfactual (what would have happened). This framework helps formalize causal reasoning.
+
+6. Instrumental Variables: Instrumental variables are used in cases where randomization is not possible. These are variables that are associated with the treatment or exposure but not with the outcome except through their influence on the treatment. They help identify causal effects in the presence of unobserved confounders.
+
+
+Different visual techniques in causal data analysis:
+
+1. Causal Diagrams (Directed Acyclic Graphs - DAGs): These graphical representations show the causal relationships between variables, making it easier to identify potential confounders and causal pathways. DAGs help researchers visualize the structure of their causal model.
+
+2. Path Diagrams: Path diagrams are graphical representations that show the paths through which causal effects propagate from one variable to another. They are especially useful for visualizing multiple mediators and indirect effects.
+
+3. Forest Plots: Forest plots are commonly used in meta-analysis to display the results of multiple studies examining the same causal relationship. They provide a visual summary of effect sizes and confidence intervals across studies.
+
+4. Difference-in-Differences Plots: These plots show the difference in outcomes before and after an intervention or treatment for both the treated and control groups. They help assess the causal impact of an intervention over time.
+
+5. Heatmaps: Heatmaps can be used to visualize the relationships between variables and their strengths. They are useful for identifying potential confounders and for exploring the impact of different variables on the outcome of interest.
+
+6. Controlled Direct Acyclic Graphs (CDAGs): CDAGs extend DAGs by incorporating control variables explicitly. They help researchers visualize how control variables are used to estimate causal effects while accounting for confounding.
+
+7. Bubble Charts: Bubble charts can represent causal relationships by placing variables on the x and y axes and using bubble size or color to indicate the strength or direction of the causal effect.
+
+8. Interactive Visualization: Interactive visualizations, such as causal inference dashboards, allow users to explore causal relationships and perform "what-if" analyses by manipulating variables and observing the effects on outcomes.
+
+Visual techniques in causal data analysis play a crucial role in communicating complex causal relationships, helping researchers make informed decisions, and promoting transparency in the analysis process. They assist in identifying potential biases, validating causal models, and conveying findings to a broader audience.
+
+Advanced causal analysis techniques are methods and approaches used to investigate and understand complex causal relationships in data. These techniques go beyond basic methods like correlation analysis and regression to uncover more nuanced and intricate cause-and-effect relationships. Here are some advanced causal analysis techniques:
+
+1. Structural Equation Modeling (SEM): SEM is a statistical technique used to analyze the relationships between observed and latent (unobserved) variables. It allows researchers to create complex models that incorporate multiple causally linked variables. SEM can handle both confirmatory (testing pre-specified hypotheses) and exploratory (discovering relationships) analyses.
+
+2. Instrumental Variable (IV) Analysis: IV analysis is used when there is endogeneity (correlation between the independent variable and the error term) in regression models. IVs are variables that are correlated with the independent variable of interest but not directly with the outcome. By using IVs, researchers can estimate causal effects in the presence of confounding factors.
+
+3. Propensity Score Matching (PSM): PSM is a method used in observational studies to reduce bias when estimating causal effects. It involves matching subjects who received a treatment with those who did not, based on a set of observed covariates. This balances the groups, making them more comparable and helping to estimate causal effects more accurately.
+
+4. Regression Discontinuity Design (RDD): RDD is a quasi-experimental design used to estimate causal effects near a threshold or cutoff point. It assumes that individuals just above or below a certain threshold are similar, except for the treatment or exposure being studied. RDD can be used to estimate causal effects when randomization is not possible.
+
+5. Difference-in-Differences (DiD): DiD is a method used to estimate causal effects by comparing changes in outcomes over time between a treatment group and a control group. It is commonly used in program evaluation and policy analysis to assess the impact of interventions or policy changes.
+
+6. Bayesian Networks: Bayesian networks are graphical models that represent probabilistic relationships among variables. They are used to model causal relationships and perform probabilistic inference. Bayesian networks can handle uncertainty and are particularly useful when dealing with complex, interconnected variables.
+
+7. Granger Causality: Granger causality is a statistical test used to assess whether one time series can predict another time series. It is commonly used in econometrics and time series analysis to explore causal relationships between variables measured over time.
+
+8. Causal Inference with Machine Learning: Advanced machine learning techniques, such as causal forests, causal inference using neural networks (e.g., causal CNNs), and causal reinforcement learning, are employed to estimate causal effects and discover complex causal relationships in high-dimensional data.
+
+9. Mediation and Moderation Analysis: These analyses help researchers understand the mechanisms through which a causal effect operates. Mediation analysis examines intermediate variables that explain the relationship between an independent and dependent variable, while moderation analysis explores how the strength or direction of a causal effect varies under different conditions.
+
+10. Bayesian Structural Time Series (BSTS): BSTS is a Bayesian approach for modeling and forecasting time series data. It allows for the decomposition of time series into trend, seasonal, and causal components, making it useful for causal inference in time series analysis.
+
+11. Machine Learning Causal Discovery: Advanced machine learning algorithms, such as causal Bayesian networks, structural causal models, and causal discovery algorithms like PC (Peter-Clark) and FCI (Fast Causal Inference), are used to discover causal relationships in high-dimensional data.
+
+These advanced causal analysis techniques are essential for addressing complex questions in various fields, including economics, social sciences, epidemiology, and machine learning. They provide researchers with the tools to uncover causal relationships, make informed decisions, and develop more accurate models of complex systems.
 
 
 
@@ -1892,7 +1973,31 @@ Here are some common types of anomaly detection plots:
 
 ### 4.2. Interactive Time Series Visualizations
 
-Interactive plots allow users to engage with the data dynamically. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+Interactive plots allow users to engage with the data dynamically. Interactive time series visualizations are essential for exploring and understanding temporal data effectively. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+
+Here's a closer look at how Plotly facilitates interactive time series visualizations:
+
+1. **Zooming:** Plotly allows users to zoom in on specific time intervals by selecting and dragging a region of interest on the time series plot. This feature is particularly useful when examining fine-grained details or focusing on specific time periods.
+
+2. **Panning:** Users can pan horizontally to navigate through the time series data, moving the view to different parts of the timeline. This is helpful for exploring different segments of the data without changing the zoom level.
+
+3. **Hovering:** Plotly provides hover interactions, where users can move the cursor over data points to reveal additional information. When hovering over a data point, tooltips display details such as the timestamp and corresponding value, offering context for specific time points.
+
+4. **Data Highlighting:** Interactive time series plots allow users to select and highlight specific data points or time intervals by clicking or tapping on them. This highlighting helps users focus on particular events or anomalies in the data.
+
+5. **Customized Tooltips:** You can customize tooltips in Plotly to display additional information beyond the default timestamp and value. This might include metadata, contextual details, or computed statistics related to the selected data point.
+
+6. **Dynamic Filtering:** Users can apply dynamic filters to the time series data directly from the interactive plot. This feature enables users to refine the visualization based on specific criteria, such as date ranges or threshold values, to investigate patterns and outliers.
+
+7. **Interactive Legends:** Plotly's interactive legends allow users to toggle the visibility of different data series or categories within the time series plot. This makes it easy to focus on specific components of the data or compare multiple time series.
+
+8. **Time-Based Animations:** Animations can be created using Plotly to visualize changes in time series data over time. You can control the speed of the animation and use it to reveal trends, patterns, or transitions in the data.
+
+9. **Custom Controls:** Advanced users can implement custom controls and widgets within the interactive visualization. This can include dropdown menus, sliders, or buttons that allow users to modify the data presentation or apply various transformations interactively.
+
+10. **Export and Sharing:** Once an interactive time series plot is created, it can be exported in various formats, including HTML files that retain interactivity. This makes it easy to share dynamic visualizations with others.
+
+By utilizing Plotly's interactive capabilities, you can create engaging and informative time series visualizations that empower users to explore temporal data with precision and depth. These features are valuable for data analysis, decision-making, and storytelling when working with time-dependent datasets.
 
 ## 5. Multi-Series and Multivariate Time Series Visualization
 
@@ -1934,7 +2039,43 @@ To understand relationships between multiple time series datasets, cross-correla
  
 **14. Geospatial Time Series Visualization**:
     - Combine time series data with geographic information to create spatiotemporal visualizations, including animated choropleth maps and geospatial heatmaps.
+
+
+**t-SNE** 
+
+t-SNE ( t-Distributed Stochastic Neighbor Embedding) is a technique that visualizes high dimensional data by giving each point a location in a two or three-dimensional map. The technique is the Stochastic Neighbor Embedding (SNE) variation that is much easier to optimize and produces significantly better visualization.Several other techniques can be used for visualizing high dimensional data, like PCA, which is a linear technique that focuses on keeping the low dimensional representation of dissimilar data points far apart.
  
+For high dimensional data that lie on or near a low dimensional nonlinear manifold, it is usually more important to keep the low dimensional representation of very similar data points as close as possible, which is typically not possible with the linear mapping.
+ 
+ t-SNE is capable of capturing much of the local structure of the high dimensional data, while also revealing the global structure, such as the presence of clusters at several scales. Figure 1 shows the use of t-SNE on the MNIST dataset which consists of images of handwritten digits.
+
+https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6j41Z2p5MW-YlzwBcjpG1Q.png
+
+t-SNE (t-Distributed Stochastic Neighbor Embedding) and PCA (Principal Component Analysis) are both dimensionality reduction techniques, but they have different advantages and are suited to different types of data and tasks. Here are some advantages of t-SNE over PCA:
+ 
+1. **Preservation of Non-Linear Structures**:
+   - t-SNE is particularly effective at preserving non-linear structures in the data. It can capture complex relationships and clusters that PCA, which focuses on linear relationships, might not capture accurately.
+ 
+2. **Visualization of High-Dimensional Data**:
+   - t-SNE is widely used for data visualization, especially when dealing with high-dimensional data. It can help visualize complex data structures in two or three dimensions, making it easier to interpret and understand.
+ 
+3. **Local Structure Preservation**:
+   - t-SNE aims to preserve the local structure of data points, meaning that similar data points in the high-dimensional space will be close to each other in the lower-dimensional space. This is valuable for revealing fine-grained patterns and clusters.
+ 
+4. **Robustness to Noise**:
+   - t-SNE is less sensitive to noise and outliers compared to PCA. It tends to focus on preserving meaningful structures while downplaying the impact of noisy data points.
+ 
+Limitations and Considerations: 
+- **Computationally Intensive**: t-SNE can be computationally expensive, especially for large datasets. Techniques like "approximate t-SNE" have been developed to address this issue.
+ 
+- **Stochastic Nature**: t-SNE is a stochastic algorithm, meaning that it may produce slightly different results on different runs. Users should be cautious of over-interpreting small variations in t-SNE plots.
+ 
+- **Curse of Dimensionality**: Like PCA, t-SNE can still suffer from the "curse of dimensionality" when dealing with extremely high-dimensional data.
+ 
+- **Hyperparameter Sensitivity**: t-SNE has several hyperparameters, including the perplexity parameter, which can affect the results. Choosing appropriate hyperparameters is crucial for meaningful visualizations.
+ 
+In summary, t-SNE is advantageous over PCA when dealing with high-dimensional data with complex non-linear structures or when the goal is to create informative visualizations. However, it's essential to select the dimensionality reduction technique that best suits the specific characteristics and objectives of our data analysis task. 
+
  
 # Pincipal Component Analysis (PCA)
 ### What is PCA?
