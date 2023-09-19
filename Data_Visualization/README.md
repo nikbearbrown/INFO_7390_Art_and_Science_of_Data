@@ -398,6 +398,48 @@ To do:
 
 In conclusion, tackling data bias is critical for ensuring fair and accurate data-driven insights and choices. It entails careful evaluation of data sources, methods of collection, and preprocessing procedures, as well as continual monitoring and mitigation activities. You may move toward more equal and trustworthy data analysis and models by actively eliminating bias.
 
+Is data biased?
+Data can be influenced by a lot of factors like society, environment, favoritism, incomplete data, inaccurate data, etc.
+  The types of bias are:
+  1. Response/ Activity Bias
+     This includes user-based responses in the form of reviews or feedback. These can be biased on favoritism, intentions, etc. E.g.- Restaurant reviews, movie 
+     reviews, etc.
+  2. Societal Bias
+     This refers to a bias caused by unfair norms of society. This includes gender/ racial bias, etc. This can impact the whole society at large. The more      
+     dominating group affects the data. Eg: Gender pay gap, racial differences in corporate leadership opportunities
+  3. Omitted Bias
+     When data has missing values, it induces bias in data due to inconsistencies in the dataset.
+  4. Selection Bias
+     This happens when the bias is used to influence a selected part of the population to gain something. E.g.: Digital election campaigns, and biased ads.
+[1](https://www.wallstreetmojo.com/wp-content/uploads/2023/05/Data-Bias-Meaning.png)
+[2](https://assets.website-files.com/5d6060eb18edbee0be7240e8/62bc1fc688127da698aa9ef1_2.png)
+[3](https://helpfulprofessor.com/wp-content/uploads/2022/10/statistical-bias-examples-and-definition-1024x724.jpg)
+     
+Identifying Data Bias:
+1. Data Collection: 
+   Bias in data can be identified by data collection. Data collection can show three types of bias:
+   1. Selection Bias: This is a bias based on a particular selection and does not represent the whole dataset
+   2. Systematic Bias: This is a bias that gets repeated in a model.
+   3. Response Bias: This is bas that is caused on users' responses and their inputs.
+2. Data Preprocessing:
+   This step can help in various ways to make the data unbiased. In one of the ways, we can determine the outliers in data that can impact data. Missing values 
+   can be handled to determine biased data. Imputing missing values with the average might not necessarily remove the biased data.
+3. Data Analysis:
+   This includes two ways:
+   1. Confirmation Bias: Involves preconceptions of a theory
+   2. Misleading charts: Involved incorrect representation of data in various forms of visualizations
+      
+Correcting the biased data
+1. Improve Data Collection Methods: Use rigorous and standardized data collection protocols to minimize errors and inconsistencies.
+2. Address Non-Response Bias
+3. Use Appropriate Sampling Methods
+4. Apply Weighting
+5. Use Statistical Techniques
+6. Imputation for Missing Data
+7. Conduct Sensitivity Analysis
+8. Transparent Reporting
+9. Peer Review and Collaboration     
+10. Consider External Data Sources                   
 
   
 
