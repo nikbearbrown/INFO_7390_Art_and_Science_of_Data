@@ -213,6 +213,36 @@ Audio: Sound data represented as waveforms. Example: Music recordings, Speech sa
   * Emphasize that understanding data type semantics is crucial for effective data visualization. Spatial data, for example, can be visualized using maps, heatmaps, or geographical plots to convey geographic patterns. Temporal data, on the other hand, can be visualized using time series plots, calendars, or Gantt charts to reveal trends over time.
   * Discuss how combining spatial and temporal data can lead to powerful visualizations, such as spatiotemporal heatmaps or animations, which can reveal insights about how phenomena change over both space and time.
 
+##Visual Encoding channels
+
+Visual encoding channels in the context of machine learning refer to the various ways in which data attributes or features can be visually represented or encoded in data visualizations. These channels play a crucial role in conveying information effectively through visualizations. Understanding and effectively using these channels is important for creating informative and interpretable data visualizations. Common visual encoding channels include:
+
+1. **Position**: The position of objects (such as points or bars) along a common scale can encode quantitative or categorical values. For example, the height of bars in a bar chart or the x and y coordinates in a scatter plot encode numerical data.
+
+2. **Length**: The length of graphical elements, like bars in a bar chart, can represent quantitative values. Longer lengths typically correspond to larger values.
+
+3. **Color**: Color can be used to represent different categories or values within a dataset. For example, different colors might be used to distinguish different classes or data clusters. However, it's important to choose colors carefully to ensure accessibility and avoid colorblindness issues.
+
+4. **Shape**: Shapes, such as different markers or symbols, can be used to differentiate categories or data points within a visualization. For instance, circles and squares might represent different groups in a scatter plot.
+
+5. **Size**: The size of graphical elements, such as the diameter of circles or the thickness of lines, can be used to represent quantitative values. Larger sizes often correspond to larger values.
+
+6. **Texture and Pattern**: Texture and patterns, like stripes or dots, can be used to encode categories or data points. However, they should be used sparingly, as excessive texture can clutter visualizations.
+
+7. **Orientation**: The orientation of graphical elements, such as the angle of lines or bars, can be used to convey information. For example, the slope of a line might represent a trend or relationship.
+
+8. **Opacity/Transparency**: The transparency or opacity of elements can be adjusted to highlight or de-emphasize certain parts of a visualization. This is useful for showing overlapping data points.
+
+9. **Angle**: The angle of lines or wedges in a pie chart can encode values, but this channel is less accurate and less effective than position and length for quantitative data.
+
+10. **Direction/Connection**: Arrows or connections between points can represent directional relationships or flows in the data.
+
+11. **Volume (3D)**: In three-dimensional visualizations, the volume of objects can represent values, but 3D visualizations should be used with caution as they can introduce distortions and make it harder to perceive relationships accurately.
+
+12. **Time**: For time-series data, the temporal aspect can be encoded by the position along a timeline or the progression of elements over time.
+
+Choosing the appropriate visual encoding channel or combination of channels depends on the nature of the data and the goals of the visualization. Effective use of these channels can make your data visualizations more informative, interpretable, and engaging, which is crucial in the context of machine learning for exploring data, assessing model performance, and communicating results.
+
   
 * Outliers? (Numeric Box-whisker x times (deflaut 1.5) interquartile range, categorical would be rare values/low % default < 1%)
 
@@ -368,6 +398,48 @@ To do:
 
 In conclusion, tackling data bias is critical for ensuring fair and accurate data-driven insights and choices. It entails careful evaluation of data sources, methods of collection, and preprocessing procedures, as well as continual monitoring and mitigation activities. You may move toward more equal and trustworthy data analysis and models by actively eliminating bias.
 
+Is data biased?
+Data can be influenced by a lot of factors like society, environment, favoritism, incomplete data, inaccurate data, etc.
+  The types of bias are:
+  1. Response/ Activity Bias
+     This includes user-based responses in the form of reviews or feedback. These can be biased on favoritism, intentions, etc. E.g.- Restaurant reviews, movie 
+     reviews, etc.
+  2. Societal Bias
+     This refers to a bias caused by unfair norms of society. This includes gender/ racial bias, etc. This can impact the whole society at large. The more      
+     dominating group affects the data. Eg: Gender pay gap, racial differences in corporate leadership opportunities
+  3. Omitted Bias
+     When data has missing values, it induces bias in data due to inconsistencies in the dataset.
+  4. Selection Bias
+     This happens when the bias is used to influence a selected part of the population to gain something. E.g.: Digital election campaigns, and biased ads.
+[1](https://www.wallstreetmojo.com/wp-content/uploads/2023/05/Data-Bias-Meaning.png)
+[2](https://assets.website-files.com/5d6060eb18edbee0be7240e8/62bc1fc688127da698aa9ef1_2.png)
+[3](https://helpfulprofessor.com/wp-content/uploads/2022/10/statistical-bias-examples-and-definition-1024x724.jpg)
+     
+Identifying Data Bias:
+1. Data Collection: 
+   Bias in data can be identified by data collection. Data collection can show three types of bias:
+   1. Selection Bias: This is a bias based on a particular selection and does not represent the whole dataset
+   2. Systematic Bias: This is a bias that gets repeated in a model.
+   3. Response Bias: This is bas that is caused on users' responses and their inputs.
+2. Data Preprocessing:
+   This step can help in various ways to make the data unbiased. In one of the ways, we can determine the outliers in data that can impact data. Missing values 
+   can be handled to determine biased data. Imputing missing values with the average might not necessarily remove the biased data.
+3. Data Analysis:
+   This includes two ways:
+   1. Confirmation Bias: Involves preconceptions of a theory
+   2. Misleading charts: Involved incorrect representation of data in various forms of visualizations
+      
+Correcting the biased data
+1. Improve Data Collection Methods: Use rigorous and standardized data collection protocols to minimize errors and inconsistencies.
+2. Address Non-Response Bias
+3. Use Appropriate Sampling Methods
+4. Apply Weighting
+5. Use Statistical Techniques
+6. Imputation for Missing Data
+7. Conduct Sensitivity Analysis
+8. Transparent Reporting
+9. Peer Review and Collaboration     
+10. Consider External Data Sources                   
 
   
 
@@ -620,6 +692,30 @@ Marks are used to display data visually. Shapes can transmit distinct meanings o
 Imagine you have a lot of data, and you want to see how it behaves in different groups or categories. Faceting helps you do this by splitting your data into smaller, similar parts and showing each part separately. Each smaller part is like a mini-graph that focuses on a specific group or category.
 For example, if you have data about sales in different regions and you use faceting, you'd create separate charts or graphs for each region. This way, you can quickly see how sales are doing in each area without getting overwhelmed by all the data at once.
 
+**Animation**
+
+Animation in Data is a method used to visually present complex business data which can be expressed in multiple frames, turning it into an engaging, easy-to-understand visual story. It uses real-time data from various sources to create dynamic presentations that help audiences track data changes effectively.  
+Data animations are used in a variety of contexts such as financial reporting, advertising measurement, sales dashboards, and more. They improve data analysis and storytelling.
+
+Improve engagement: Data animations increase viewer engagement by making data more engaging and understandable. Animations allow viewers to follow data changes and modifications, leading to increased engagement.
+
+Improved communication: Data animation bridges the communication gap between management and employees by simplifying complex topics. Movement in animations highlights changes and clarifies data analysis. 
+
+Report: Data animations are effective in storytelling, helping audiences understand the reasons behind data changes over time. They provide context and inspire action or behavior change.
+
+View changes: Data animation helps viewers see and understand changes in data  more effectively, maintaining context during transitions between different data states.
+
+When considering animation for the data, following four techniques will make the visualization understandable and intuitive.
+
+  1. Value Transformation: In data animation, we prefer to show the dynamic changes in data rather than static representations. For instance, rather than displaying a fixed number, one might present a numerical counter that incrementally progresses to a final value. This technique will illustrates progress, growth, or change. It is commonly used in mobile applications, like progress bars loading during language learning tasks, to show a sense of achievement and user interaction.
+
+ 2. Easing, Offset, and Delay: To ensure that data animations appear natural and avoid sudden or fast movements that can disrupt the viewer's experience easing techniques can be helpful. Easing involves gradually accelerating or decelerating animations through different frames. Additionally, introducing offsets and delays into animations assists in conveying distinctions between elements and organizing a visual hierarchy. For instance, in a stock trading application, delaying the display of stock values in comparison to general indices can enhance the comprehensibility and structure of the data.
+
+  3. Parenting: Parenting is a method that establishes relationships between various components within data animations. When a property within the parent element changes, it has a corresponding effect on a property in the child element. For example, in a line chart, if a point on the line represents the parent, dragging that point could result in alterations in the associated value (the child object). Parenting enhances interactivity and hierarchy within data animations, facilitating the viewer's understanding of relationships between data points.
+
+  4. Zooming: Zooming is employed to transition from an overview of data to a more detailed examination. It is important when we are dealing with datasets requiring deeper exploration like maps and multiple classifications. For instance, zooming is a frequent feature in map visualizations, allowing users to switch between a global perspective and a closer examination of specific regions or details on the map. This technique provides users with flexibility in exploring data and discovering insights.
+
+
 
 **Uses In Real World Markets**
  Data visualization plays a crucial role in analytics, helping marketers make data-driven decisions, gain insights into customer behavior, and optimize marketing strategies. Data-visualization is used in marketing analytics, including customer segmentation, funnel analysis, and A/B testing visualizations:
@@ -665,6 +761,7 @@ Benefits:
      - Interactive dashboards empower marketing teams to customize views, investigate trends, and optimize campaigns efficiently.
  
 In summary, data visualization is a powerful tool in marketing analytics, allowing marketers to uncover insights, track customer behavior, and optimize their strategies. Whether it's customer segmentation, funnel analysis, A/B testing, or overall campaign monitoring, effective data visualizations make complex data more accessible and actionable for marketing professionals.
+
 
 
 Chart types and fundamental graphs   
@@ -715,6 +812,72 @@ Line graphs can also help identify outliers or sudden changes in the numeric val
 * Maps (Transformation)  
 
 See the Data Visualisation Catalogue  <a href='https://datavizcatalogue.com'>https://datavizcatalogue.com</a>   
+
+
+**What is causal inference and what are different Visual Techniques in Causal Data?**
+
+Causal Inference refers to the process of determining whether one event or variable (the cause) directly or indirectly brings about another event or variable (the effect). In other words, it involves understanding the cause-and-effect relationships between variables in a dataset or system. Causal inference is crucial in various fields, including epidemiology, economics, social sciences, and machine learning, as it helps us make informed decisions, predict outcomes, and understand the impact of interventions or policies.
+
+Some key concepts and techniques related to causal inference are:
+
+1. Observational vs. Experimental Data: Causal inference can be particularly challenging when working with observational data, where researchers do not have control over the assignment of treatment or exposure. Experimental data, where treatments are randomly assigned, makes causal inference more straightforward. Techniques like randomized controlled trials (RCTs) are common in experimental settings.
+
+2. Counterfactuals: A central concept in causal inference is the counterfactual scenario, which represents what would have happened if a particular treatment or event had not occurred. Causal inference aims to estimate the difference between what actually happened and what would have happened in the counterfactual scenario.
+
+3. Confounding Variables: Confounding variables are factors that can affect both the cause and the effect, leading to spurious correlations. Techniques like regression analysis and propensity score matching are used to control for confounding variables and isolate causal relationships.
+
+4. Causal Graphs (Causal Diagrams): Causal graphs or causal diagrams are visual representations of causal relationships among variables. They use directed acyclic graphs (DAGs) to depict the causal structure, including cause-effect relationships and confounding variables. These graphs help researchers identify and visualize causal pathways.
+
+5. Pearl's Causal Hierarchy: Judea Pearl's causal hierarchy classifies causal relationships into three levels: association (correlation), intervention (causation), and counterfactual (what would have happened). This framework helps formalize causal reasoning.
+
+6. Instrumental Variables: Instrumental variables are used in cases where randomization is not possible. These are variables that are associated with the treatment or exposure but not with the outcome except through their influence on the treatment. They help identify causal effects in the presence of unobserved confounders.
+
+
+Different visual techniques in causal data analysis:
+
+1. Causal Diagrams (Directed Acyclic Graphs - DAGs): These graphical representations show the causal relationships between variables, making it easier to identify potential confounders and causal pathways. DAGs help researchers visualize the structure of their causal model.
+
+2. Path Diagrams: Path diagrams are graphical representations that show the paths through which causal effects propagate from one variable to another. They are especially useful for visualizing multiple mediators and indirect effects.
+
+3. Forest Plots: Forest plots are commonly used in meta-analysis to display the results of multiple studies examining the same causal relationship. They provide a visual summary of effect sizes and confidence intervals across studies.
+
+4. Difference-in-Differences Plots: These plots show the difference in outcomes before and after an intervention or treatment for both the treated and control groups. They help assess the causal impact of an intervention over time.
+
+5. Heatmaps: Heatmaps can be used to visualize the relationships between variables and their strengths. They are useful for identifying potential confounders and for exploring the impact of different variables on the outcome of interest.
+
+6. Controlled Direct Acyclic Graphs (CDAGs): CDAGs extend DAGs by incorporating control variables explicitly. They help researchers visualize how control variables are used to estimate causal effects while accounting for confounding.
+
+7. Bubble Charts: Bubble charts can represent causal relationships by placing variables on the x and y axes and using bubble size or color to indicate the strength or direction of the causal effect.
+
+8. Interactive Visualization: Interactive visualizations, such as causal inference dashboards, allow users to explore causal relationships and perform "what-if" analyses by manipulating variables and observing the effects on outcomes.
+
+Visual techniques in causal data analysis play a crucial role in communicating complex causal relationships, helping researchers make informed decisions, and promoting transparency in the analysis process. They assist in identifying potential biases, validating causal models, and conveying findings to a broader audience.
+
+Advanced causal analysis techniques are methods and approaches used to investigate and understand complex causal relationships in data. These techniques go beyond basic methods like correlation analysis and regression to uncover more nuanced and intricate cause-and-effect relationships. Here are some advanced causal analysis techniques:
+
+1. Structural Equation Modeling (SEM): SEM is a statistical technique used to analyze the relationships between observed and latent (unobserved) variables. It allows researchers to create complex models that incorporate multiple causally linked variables. SEM can handle both confirmatory (testing pre-specified hypotheses) and exploratory (discovering relationships) analyses.
+
+2. Instrumental Variable (IV) Analysis: IV analysis is used when there is endogeneity (correlation between the independent variable and the error term) in regression models. IVs are variables that are correlated with the independent variable of interest but not directly with the outcome. By using IVs, researchers can estimate causal effects in the presence of confounding factors.
+
+3. Propensity Score Matching (PSM): PSM is a method used in observational studies to reduce bias when estimating causal effects. It involves matching subjects who received a treatment with those who did not, based on a set of observed covariates. This balances the groups, making them more comparable and helping to estimate causal effects more accurately.
+
+4. Regression Discontinuity Design (RDD): RDD is a quasi-experimental design used to estimate causal effects near a threshold or cutoff point. It assumes that individuals just above or below a certain threshold are similar, except for the treatment or exposure being studied. RDD can be used to estimate causal effects when randomization is not possible.
+
+5. Difference-in-Differences (DiD): DiD is a method used to estimate causal effects by comparing changes in outcomes over time between a treatment group and a control group. It is commonly used in program evaluation and policy analysis to assess the impact of interventions or policy changes.
+
+6. Bayesian Networks: Bayesian networks are graphical models that represent probabilistic relationships among variables. They are used to model causal relationships and perform probabilistic inference. Bayesian networks can handle uncertainty and are particularly useful when dealing with complex, interconnected variables.
+
+7. Granger Causality: Granger causality is a statistical test used to assess whether one time series can predict another time series. It is commonly used in econometrics and time series analysis to explore causal relationships between variables measured over time.
+
+8. Causal Inference with Machine Learning: Advanced machine learning techniques, such as causal forests, causal inference using neural networks (e.g., causal CNNs), and causal reinforcement learning, are employed to estimate causal effects and discover complex causal relationships in high-dimensional data.
+
+9. Mediation and Moderation Analysis: These analyses help researchers understand the mechanisms through which a causal effect operates. Mediation analysis examines intermediate variables that explain the relationship between an independent and dependent variable, while moderation analysis explores how the strength or direction of a causal effect varies under different conditions.
+
+10. Bayesian Structural Time Series (BSTS): BSTS is a Bayesian approach for modeling and forecasting time series data. It allows for the decomposition of time series into trend, seasonal, and causal components, making it useful for causal inference in time series analysis.
+
+11. Machine Learning Causal Discovery: Advanced machine learning algorithms, such as causal Bayesian networks, structural causal models, and causal discovery algorithms like PC (Peter-Clark) and FCI (Fast Causal Inference), are used to discover causal relationships in high-dimensional data.
+
+These advanced causal analysis techniques are essential for addressing complex questions in various fields, including economics, social sciences, epidemiology, and machine learning. They provide researchers with the tools to uncover causal relationships, make informed decisions, and develop more accurate models of complex systems.
 
 
 
@@ -1030,6 +1193,51 @@ Summarise multiple distributions by showing the median (centre) and range of the
 <p align="center">Example of a boxplot.</p>
 
 #### Violin plot
+
+A violin plot is a data visualization tool that combines aspects of a box plot and a kernel density plot. It is used to represent the distribution of a continuous or categorical variable across different categories or groups. Violin plots provide a more detailed view of the data distribution than traditional box plots and can be especially useful for comparing distributions between groups. Let's explain the components of a violin plot with an example:
+
+Example: Exam Scores by Gender
+
+Suppose you are a teacher, and you want to compare the distributions of exam scores between male and female students in your class. You have collected the following data:
+
+Male students' exam scores: 78, 85, 62, 93, 75, 88, 91, 82, 70, 72
+Female students' exam scores: 98, 89, 65, 77, 84, 79, 73, 68, 95, 87
+You want to create a violin plot to visualize the distribution of exam scores for each gender.
+
+Here's how to create a violin plot:
+
+Data Collection: Collect the exam scores for male and female students, as shown above.
+
+Plotting the Violin Plot: Using a data visualization library like Python's Seaborn or R's ggplot2, you can create a violin plot. Each violin plot will have two "violins," one for each gender, representing the distribution of scores.
+
+Components of the Violin Plot:
+
+Violin Shape: The main component of the plot is the "violin" shape, which shows the distribution of the data. The width of the violin at any point represents the density of data points at that value. Wider parts of the violin indicate higher data density.
+
+Box Plot: Inside each violin, you can include a box plot, which provides summary statistics such as the median, quartiles, and potential outliers. The box plot is a simple rectangle inside the violin.
+
+Whiskers: In a violin plot, the whiskers of the box plot can extend beyond the violin, indicating the range of data values that are not considered outliers.
+
+Median Line: A line inside the box plot represents the median value of the data.
+
+Here's a textual representation of what a simplified violin plot might look like:
+
+lua
+
+|                .       .     .        |
+|              . .     . . . . .      . |
+|            . . . . . . . . . . . . . |
+|         . . . . . . . . . . . . . .  |
+|       . . . . . . . . . . . . . .    |
+|     . . . . . . . . . . . . . .      |
+|   . . . . . . . . . . . . . .        |
+| . . . . . . . . . . . . . .          |
+|        |---|                        |
+|        Median                      |
+In this example, the violin plot visually displays the distribution of exam scores for both male and female students. You can compare the shapes of the violins to understand how the distributions differ between the two groups. Additionally, you can see summary statistics like the median and quartiles in the box plots.
+
+Violin plots are useful for exploring and comparing data distributions, especially when dealing with multiple categories or groups. They provide a more detailed view of the data compared to traditional box plots and can reveal insights about the data's central tendency, spread, and skewness.
+
 
 Similar to a box plot but more effective with complex distributions (data that cannot be summarised with simple average).
 
@@ -1892,7 +2100,31 @@ Here are some common types of anomaly detection plots:
 
 ### 4.2. Interactive Time Series Visualizations
 
-Interactive plots allow users to engage with the data dynamically. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+Interactive plots allow users to engage with the data dynamically. Interactive time series visualizations are essential for exploring and understanding temporal data effectively. Tools like Plotly in Python enable zooming, panning, and hovering, providing a deeper understanding of specific time intervals.
+
+Here's a closer look at how Plotly facilitates interactive time series visualizations:
+
+1. **Zooming:** Plotly allows users to zoom in on specific time intervals by selecting and dragging a region of interest on the time series plot. This feature is particularly useful when examining fine-grained details or focusing on specific time periods.
+
+2. **Panning:** Users can pan horizontally to navigate through the time series data, moving the view to different parts of the timeline. This is helpful for exploring different segments of the data without changing the zoom level.
+
+3. **Hovering:** Plotly provides hover interactions, where users can move the cursor over data points to reveal additional information. When hovering over a data point, tooltips display details such as the timestamp and corresponding value, offering context for specific time points.
+
+4. **Data Highlighting:** Interactive time series plots allow users to select and highlight specific data points or time intervals by clicking or tapping on them. This highlighting helps users focus on particular events or anomalies in the data.
+
+5. **Customized Tooltips:** You can customize tooltips in Plotly to display additional information beyond the default timestamp and value. This might include metadata, contextual details, or computed statistics related to the selected data point.
+
+6. **Dynamic Filtering:** Users can apply dynamic filters to the time series data directly from the interactive plot. This feature enables users to refine the visualization based on specific criteria, such as date ranges or threshold values, to investigate patterns and outliers.
+
+7. **Interactive Legends:** Plotly's interactive legends allow users to toggle the visibility of different data series or categories within the time series plot. This makes it easy to focus on specific components of the data or compare multiple time series.
+
+8. **Time-Based Animations:** Animations can be created using Plotly to visualize changes in time series data over time. You can control the speed of the animation and use it to reveal trends, patterns, or transitions in the data.
+
+9. **Custom Controls:** Advanced users can implement custom controls and widgets within the interactive visualization. This can include dropdown menus, sliders, or buttons that allow users to modify the data presentation or apply various transformations interactively.
+
+10. **Export and Sharing:** Once an interactive time series plot is created, it can be exported in various formats, including HTML files that retain interactivity. This makes it easy to share dynamic visualizations with others.
+
+By utilizing Plotly's interactive capabilities, you can create engaging and informative time series visualizations that empower users to explore temporal data with precision and depth. These features are valuable for data analysis, decision-making, and storytelling when working with time-dependent datasets.
 
 ## 5. Multi-Series and Multivariate Time Series Visualization
 
@@ -2008,54 +2240,67 @@ By reducing the dimensionality of the data, PCA can make it easier to analyze an
 1. Sometimes, PCA is difficult to interpret. In rare cases, you may feel difficult to identify the most important features even after computing the principal components.
 2. You may face some difficulties in calculating the covariances and covariance matrices.
 3. Sometimes, the computed principal components can be more difficult to read rather than the original set of components.
- # CLUSTERING
- ![Clustering](https://static.javatpoint.com/tutorial/machine-learning/images/clustering-in-machine-learning.png)
 
- ### What is Clustering ? 
- Clustering is the most popular version of unsupervised learning. In unsupervised learning, the goal is to identify patterns or structures in the data without any prior knowledge of what to expect. In Clustering, the goal is to group data points based on their similarity.
- 
- ### Why is it useful ?
- Suppose you are the head of a retail store and wish to understand the preferences of your customers. 
- Can you look at the details of each customer and devise a unique business strategy for each one of them? 
- What you can do is cluster all of your customers into, say 5 groups based on their purchasing habits and use a separate strategy for each group.
 
- ### Desirable Properties of a Clustering Algorithm
- 1. Scalability (in terms of both time and space)
- 2. Ability to deal with different data types
- 3. Minimal requirements for domain knowledge to determine input parameters
- 4. Able to deal with noise and outliers
- 5. Insensitive to the order of input records
- 6. Incorporation of user-specified constraints
- 7. Interpretability and usability
+# Color Theory in Data Visualization (a short guide)
 
- ### Clustering Algorithms
- #### a. Exclusive Clustering
- ![Exclusive Clustering](https://miro.medium.com/v2/resize:fit:1080/1*fz-rjYPPRlGEMdTI-RLbDg.png)<br>
- Exclusive clustering is a form of grouping that requires a data point to exist only in one cluster. This can also be referred to as “hard” clustering. The K-means clustering algorithm is an example of exclusive clustering.
+Choosing the right color combination or color palette for your visualization is very important, the data we encounter daily would lose its depth, its vibrancy, and its meaning if not depicted in the right hues. Understaning colors and patterns is a very powerful tool in the arsenal of a data visualization practitioner.
 
- #### b. Overlapping Clustering
- ![Overlapping Clustering](https://static.packt-cdn.com/products/9781783554997/graphics/B03506_02_12.jpg)<br>
- Overlapping clusters differs from exclusive clustering in that it allows data points to belong to multiple clusters with separate degrees of membership. “Soft” or fuzzy k-means clustering is an example of overlapping clustering.
+<p>In this section, we will look at a few good practices to follow while representing insightful data.</p>
 
- #### c. Hierarchical Clustering
- ![Hierarchial Clustering](https://media.geeksforgeeks.org/wp-content/uploads/20230425190545/download-(10).png)<br>
- Hierarchical clustering can be categorized in two ways; agglomerative or divisive. Agglomerative clustering is considered a “bottoms-up approach.” Its data points are isolated as separate groupings initially, and then they are merged together iteratively on the basis of similarity until one cluster has been achieved.
+# Anomaly Detection in Time Series data:
+Anomaly detection in time series data involves finding patterns or behaviours different from how the system being watched is supposed to act.
+Time series data is a list of data points collected at regular or irregular intervals. Anomalies in time series data could mean the system being watched is broken or acting strangely.
 
- #### d. Probabilistic Clustering
- ![Probabilistic Clustering](https://miro.medium.com/v2/resize:fit:753/1*lTv7e4Cdlp738X_WFZyZHA.png)<br>
- In probabilistic clustering, data points are clustered based on the likelihood that they belong to a particular distribution. The Gaussian Mixture Model (GMM) is one of the most commonly used probabilistic clustering methods.
+Some standard methods used for anomaly detection in time series data:
+1. Statistical methods involve looking for outliers by analysing the time series’ mean, variance, or distribution. One commonly used statistical method is the Z-score, which measures the distance between a data point and the mean in terms of standard deviations.
+2. Machine learning methods involve training a machine learning model to detect anomalies in time series data. Popular machine learning algorithms for anomaly detection include support vector machines (SVMs), decision trees, and neural networks.
+3. Signal processing methods involve analysing the signals generated by the system being monitored and detecting anomalies by identifying changes in the signal patterns. Examples of signal processing methods include Fourier analysis and wavelet analysis.
+4. Hybrid methods combine multiple techniques to improve anomaly detection accuracy. For example, a hybrid method may use statistical methods to detect anomalies in the time domain and machine learning techniques to detect abnormalities in the frequency domain.
+   
+Steps to follow as a general rule of thumb:
+ * Aggregate the data to the time granularity approximating the length of the effect you want to measure
+ * Forecast the time series one time step at a time N points ahead with some model that probably needs to include seasonality/holidays, so you will have a collection of forecasts & actuals for the whole series.
+ * Compute some metric of spread of forecast-actual, e.g. standard deviation, median absolute deviation, etc.
+ * Look at the distribution, define a threshold above which there is an anomaly.
+ * Report the anomalies.
+ * Remove the anomalies from the past history by interpolating with your forecast model.
 
- ### Applications of Clustering
+### 1. Stay consistent
+Consider using same color for same variables to avoid confusion and to not overdo the visuals. Also make sure you always explain which color represents what part of the visualization through legends.
 
- 1. Marketing: To characterize & discover customer segments for marketing purposes.
- 2. Biology: For classification among different species of plants and animals.
- 3. Libraries: Clustering different books on the basis of topics and information.
- 4. City Planning: To make groups of houses and to study their values based on their geographical locations and other factors present.
+![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_6.png?raw=true)
 
- ### Challenges
+### 2. Font size and contrast
+Make sure your viewers can read the texual part of the visualization. It is very essential to maintain readbility by having high contrast between your text color and color of the visual.
 
- 1. Computational complexity due to a high volume of training data.
- 2. Longer training times
- 3. Higher risk of inaccurate results
- 4. Human intervention to validate output variables
- 5. Lack of transparency into the basis on which data was clustered
+![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_5.png?raw=true)
+
+### 3. Gradients and Greys
+Sometimes using too many colors can be very distracting like in case of a treemap or heatmap. In those cases, we can make use of shades of a particular color to convey the insight in a more effective manner. 
+
+![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_1.png?raw=true)
+
+It is also a good practice to choose two diverging colors to depict opposites, for example, a heatmap showing an average in grey and the two extremes can be red and green.
+
+![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_2.png?raw=true)
+
+Also, sometimes to highlight a statistic, dimming the rest of the graph (by using shades of grey) to highlight what's important in the appropriate color can do the trick.
+
+![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_3.png?raw=true)
+
+While gradients can be a great way of communicating data where concentrations of the same type are being depicted, avoid using them for displaying categorical data, which is, in most cases, always unrelated to each other.
+
+![Alt text](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/blob/main/Data_Visualization/IMG/color_theory_4.png?raw=true)
+
+### 4. Ensure accessibility
+There might be a portion of your viewers who are colorblind, be mindful about using colors which can be easily read and understood by those masses as well. There are tool avaiable online like Coblis or Adobe Color that can detect how colorblind friendly is your visualization.
+
+![alt text](https://d33v4339jhl8k0.cloudfront.net/docs/assets/588089eddd8c8e484b24e90a/images/5ff3402166df373cab705f5d/file-wNt7PYwNTU.png)
+
+All the pictures are from https://academy.datawrapper.de/article/140-what-to-consider-when-choosing-colors-for-data-visualization
+
+Ref articles: 
+* [What to consider when choosing colors for data visualization](https://academy.datawrapper.de/article/140-what-to-consider-when-choosing-colors-for-data-visualization#:~:text=Use%20lightness%20to%20build%20gradients%2C%20not%20just%20hue.&text=If%20you%20do%20want%20to,in%20black%20and%20white%2C%20too.)
+* [8 rules for using color effectively in data visualizations](https://www.y42.com/blog/color-rules-data-visualization)
+* [The Role of Color Theory in Data Visualization](https://www.revunit.com/post/the-role-of-color-theory-in-data-visualization)
