@@ -1,5 +1,4 @@
 # Causal AI
-# CausalAI
 
 A comprehensive collection of resources on Causal AI, including surveys, individual treatment effects, representation learning, semiparametric inference, policy learning, causal recommendation, and causal reinforcement learning.
 
