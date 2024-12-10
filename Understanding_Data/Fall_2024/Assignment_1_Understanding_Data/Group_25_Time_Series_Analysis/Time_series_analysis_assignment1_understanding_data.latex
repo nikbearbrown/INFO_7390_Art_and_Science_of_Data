@@ -1,0 +1,1879 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+Chapter: Time-Series Data Analysis and Forecasting
+
+\textbf{1. Introduction}\\
+Time series analysis is a critical field in data science and statistics,
+focusing on data points collected or recorded sequentially over time.
+This type of analysis is crucial in various domains, including finance,
+economics, environmental science, and Internet of Things (IoT)
+applications. Time series data is unique because the temporal order of
+observations is inherently meaningful and can reveal important patterns,
+trends, and relationships that evolve over time.
+
+The importance of time series analysis in machine learning and data
+science cannot be overstated. It allows us to:
+
+\begin{quote}
+1.Understand historical patterns and trends\\
+2.Make predictions about future values\\
+3.Detect anomalies or unusual events\\
+4.Analyze the impact of interventions or changes over time\\
+5.Uncover relationships between different time-dependent variables
+\end{quote}
+
+As data collection becomes more automated and frequent, the ability to
+analyze and extract insights from time series data is becoming
+increasingly valuable across industries.
+
+\textbf{Research Question}
+
+The primary research question in time series analysis often revolves
+around understanding and predicting temporal patterns. A general
+formulation could be:
+
+\textbf{"How can we effectively model and forecast future values in a
+time series, taking into account historical patterns, seasonal effects,
+and external factors?"}
+
+This broad question can be broken down into more specific research
+questions depending on the application
+
+\begin{quote}
+1.What are the most effective techniques for capturing long-term trends
+and seasonal patterns in time series data?
+
+2.How can we incorporate external variables or events into time series
+forecasting models?
+
+3.What are the best approaches for handling multiple, interconnected
+time series (multivariate time series analysis)?
+
+4.How can we detect and account for structural changes or regime shifts
+in time series data?
+
+5.What are the most appropriate evaluation metrics for assessing the
+performance of time series forecasting models?
+\end{quote}
+
+\textbf{Theory and Background}
+
+The theoretical foundation of time series analysis is rooted in the
+understanding that data points collected sequentially over time possess
+unique properties requiring specialized analytical approaches. Key
+concepts include temporal dependency, stationarity, decomposition,\\
+autocorrelation, and spectral analysis. The field draws from statistics,
+signal processing, and information theory, with recent advancements in
+machine learning expanding available techniques. Effective time series
+analysis often relies on feature engineering, creating lag features,
+rolling statistics, and domain-specific indicators. These engineered
+features, along with an understanding of underlying temporal patterns,
+are crucial for model performance, often outweighing the benefits of
+more complex algorithms. This highlights the critical role of domain
+knowledge and data preprocessing in successful time series analysis and
+forecasting across various disciplines.
+
+\textbf{Problem Statement}
+
+\textbf{Our goal is to develop a time-series forecasting model that can
+accurately predict Nvidia\textquotesingle s daily stock closing prices
+for the next 30 days, given historical data.}
+
+Input:
+
+\begin{quote}
+•Historical daily stock price data (Open, High, Low, Close, Volume) for
+Nvidia stock over the past 10 years
+
+•Daily market index data (e.g., NASDAQ Composite) for the same period
+
+•Relevant economic indicators (e.g., interest rates, GDP growth)
+\end{quote}
+
+Output:
+
+\begin{quote}
+•Predicted daily closing prices for Nvidia stock for the next 30 days
+
+•Confidence intervals for the predictions
+
+•Performance metrics of the model (e.g., Mean Absolute Error, Root Mean
+Squared Error)
+\end{quote}
+
+Sample Input:
+
+\includegraphics[width=5.71944in,height=3.90556in]{vertopal_48def92280f64331b647cc0d042b280c/media/image1.png}
+
+\begin{quote}
+Sample Output:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Sample output structure}\\
+predictions = pd.DataFrame(\{\\
+\textquotesingle date\textquotesingle:
+pd.date\_range(start=\textquotesingle2024-01-01\textquotesingle,
+end=\textquotesingle2024-01-30\textquotesingle,
+freq=\textquotesingle D\textquotesingle),
+\textquotesingle predicted\_close\textquotesingle: {[}450.5, 452.3,
+448.7, ...{]},\\
+\textquotesingle lower\_ci\textquotesingle: {[}445.2, 447.1, 443.5,
+...{]},\\
+\textquotesingle upper\_ci\textquotesingle: {[}455.8, 457.5, 453.9,
+...{]}\\
+\})
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+performance\_metrics = \{\\
+\textquotesingle MAE\textquotesingle: 2.45,\\
+\textquotesingle RMSE\textquotesingle: 3.12\\
+\}
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+This problem statement provides a clear definition of our forecasting
+task, including the specific input data we\textquotesingle ll use and
+the expected output format. It sets the stage for our exploration of
+various time-series analysis and forecasting techniques in the context
+of stock price prediction.
+\end{quote}
+
+\textbf{Problem Analysis}
+
+\textbf{Constraints}
+
+\begin{quote}
+•The time series model should maintain interpretability, especially for
+business stakeholders.
+
+•The analysis process should be computationally efficient and scalable
+to handle long time series or multiple series simultaneously.
+
+•The chosen techniques should not introduce spurious correlations or
+violate key time series assumptions (e.g., stationarity requirements for
+certain models).
+\end{quote}
+
+\textbf{Approach}
+
+\begin{quote}
+•Analyze the time series components: trend, seasonality, and residuals
+through decomposition methods.
+
+•Identify potential non-linear patterns and long-term dependencies in
+the data.
+
+•Apply domain knowledge to create meaningful features from datetime
+information, such as cyclical patterns or holiday effects.
+
+•Use dimensionality reduction techniques to handle high-dimensional
+multivariate time series, if necessary.
+
+•Validate the impact of different modeling approaches on forecast
+accuracy through time series cross-validation.
+\end{quote}
+
+Let\textquotesingle s explore a few core techniques that can help
+transform time series data into powerful inputs for forecasting
+algorithms:
+
+\textbf{2. Time-Series Data Characteristics}
+
+Understanding the key properties of time-series data is crucial for
+effective analysis and modeling. In this section, we will explore the
+fundamental characteristics that define time-series data and influence
+its behavior.
+
+\textbf{2.1 Components of Time-Series Data}
+
+Time-series data can be decomposed into several components, each
+contributing to the overall pattern observed in the data:
+
+\begin{quote}
+1.\textbf{Trend}: The long-term movement or direction in the data. It
+can be increasing, decreasing, or steady over time.
+
+2.\textbf{Seasonality}: Regular, predictable patterns that repeat at
+fixed intervals. For example, retail sales often show seasonality with
+peaks during holiday seasons.
+
+3.\textbf{Cyclicity}: Fluctuations that do not have a fixed period.
+These cycles are often related to economic or business cycles and may
+vary in length and magnitude.
+
+4.\textbf{Irregularity}: Random variations or noise in the data that
+cannot be explained by the other components.
+\end{quote}
+
+Figure 2.1 illustrates these components in a typical time-series
+dataset:
+
+\includegraphics[width=4.44722in,height=3.49028in]{vertopal_48def92280f64331b647cc0d042b280c/media/image2.png}
+
+\textbf{2.2 Stationarity and Its Importance}
+
+A time-series is considered stationary if its statistical properties
+(such as mean, variance, and autocorrelation) remain constant over time.
+Stationarity is a crucial concept in time-series analysis for several
+reasons:
+
+\begin{quote}
+1.Many statistical models and forecasting techniques assume that the
+time-series is stationary.
+
+2.Non-stationary data can lead to spurious regressions and unreliable
+predictions.
+
+3.Stationarity simplifies the mathematical treatment of time-series
+models.
+\end{quote}
+
+To determine if a time-series is stationary, we can use various
+statistical tests, such as the Augmented Dickey-Fuller (ADF) test or the
+Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test.
+
+If a time-series is non-stationary, we can often transform it into a
+stationary series through techniques like differencing or detrending.
+
+\textbf{2.3 Autocorrelation and Partial Autocorrelation}
+
+Autocorrelation refers to the correlation of a time-series with its own
+past values. It measures the linear relationship between lagged
+observations of a time-series. The autocorrelation function (ACF) plots
+the correlation coefficients for different lag values.
+
+Partial autocorrelation, on the other hand, measures the correlation
+between an observation and its lag, after removing the effects of all
+shorter lags. The partial autocorrelation function (PACF) plots these
+partial correlation coefficients.
+
+Both ACF and PACF are essential tools for identifying the order of
+autoregressive (AR) and moving average (MA) processes in time-series
+modeling.
+
+Figure 2.2 shows example ACF and PACF plots for a time-series:
+
+\includegraphics[width=6.5in,height=3.19861in]{vertopal_48def92280f64331b647cc0d042b280c/media/image3.png}
+
+\textbf{2.4 Handling Missing Data and Outliers in Time-Series}
+
+Missing data and outliers are common issues in time-series analysis that
+can significantly impact the quality of our models and forecasts. Here
+are some strategies for dealing with these issues:
+
+\begin{quote}
+1.\textbf{Missing Data}:\\
+a.Forward fill: Propagate the last known value forward\\
+b.Backward fill: Use the next known value to fill gaps\\
+c.Interpolation: Linear, polynomial, or spline interpolation between
+known values d.Time-series specific imputation methods, such as Kalman
+filtering\\
+2.\textbf{Outliers}:
+
+a.Identification: Use statistical methods like Z-score, IQR, or
+domain-specific knowledge\\
+b.Treatment:\\
+i.Removal: If the outlier is due to a known error\\
+ii.Winsorization: Capping extreme values at a specified percentile\\
+iii.Transformation: Apply logarithmic or other transformations to reduce
+the impact of outliers\\
+iv.Robust statistical methods: Use techniques that are less sensitive to
+outliers
+\end{quote}
+
+It\textquotesingle s crucial to carefully consider the nature of your
+data and the potential impact of these treatments on your analysis
+before applying them.
+
+\textbf{3. Time-Series Data Pre-processing}
+
+Proper pre-processing of time-series data is essential for effective
+analysis and modeling. In this section, we will explore various
+techniques to prepare time-series data for further analysis.
+
+\textbf{3.1 Resampling and Aggregation}
+
+Resampling involves changing the frequency of a time-series. This can be
+done for various reasons, such as:
+
+\begin{quote}
+•Aligning data from different sources
+
+•Reducing noise in high-frequency data
+
+•Matching the time scale of the forecasting task
+\end{quote}
+
+There are two main types of resampling:
+
+\begin{quote}
+1.\textbf{Upsampling}: Increasing the frequency of the data (e.g., from
+daily to hourly) 2.\textbf{Downsampling}: Decreasing the frequency of
+the data (e.g., from hourly to daily)
+\end{quote}
+
+When downsampling, we need to specify an aggregation function to combine
+the values within each new time period. Common aggregation functions
+include:
+
+\begin{quote}
+•Mean
+
+•Median
+
+•Sum
+
+•First or last value
+
+•Min or max
+\end{quote}
+
+Here\textquotesingle s a Python example using pandas for resampling:
+
+\includegraphics[width=6.07222in,height=3.26944in]{vertopal_48def92280f64331b647cc0d042b280c/media/image4.png}
+
+\textbf{3.2 Smoothing Techniques}
+
+Smoothing helps to reduce noise and highlight underlying patterns in
+time-series data. Two common smoothing techniques are:\\
+1.\textbf{Moving Averages}: Calculates the average of a fixed number of
+consecutive data points.
+
+\begin{quote}
+For a time series Y₁, Y₂, ..., Yₜ, the n-period simple moving average
+is: SMAₜ = (Yₜ + Yₜ₋₁ + ... + Yₜ₋ₙ₊₁) / n
+
+Where: SMAₜ is the moving average at time t n is the number of periods
+in the moving average Yₜ is the observation at time t
+
+Weighted Moving Average (WMA): WMAₜ = (w₁Yₜ + w₂Yₜ₋₁ + ... + wₙYₜ₋ₙ₊₁) /
+(w₁ + w₂ + ... + wₙ)\\
+Where: w₁, w₂, ..., wₙ are the weights assigned to each observation.
+
+Example:
+
+\includegraphics[width=6.5in,height=4.04306in]{vertopal_48def92280f64331b647cc0d042b280c/media/image5.png}
+
+2.\textbf{Exponential Smoothing}: Assigns exponentially decreasing
+weights to older observations.
+
+Simple Exponential Smoothing: Sₜ = αYₜ + (1-α)Sₜ₋₁
+
+Where: Sₜ is the smoothed value at time t α is the smoothing factor (0
+\textless{} α \textless{} 1) Yₜ is the observation at time t\\
+Double Exponential Smoothing (Holt\textquotesingle s method): Level: Lₜ
+= αYₜ + (1-α)(Lₜ₋₁ + Tₜ₋₁) Trend: Tₜ = β(Lₜ - Lₜ₋₁) + (1-β)Tₜ₋₁
+Forecast: Fₜ₊ₖ = Lₜ + kTₜ
+
+Where: Lₜ is the level at time t Tₜ is the trend at time t α and β are
+smoothing factors (0 \textless{} α, β \textless{} 1) k is the number of
+periods ahead to forecast\\
+Triple Exponential Smoothing (Holt-Winters\textquotesingle{} method):
+For additive seasonality: Level: Lₜ = α(Yₜ - Sₜ₋ₘ) + (1-α)(Lₜ₋₁ + Tₜ₋₁)
+Trend: Tₜ = β(Lₜ - Lₜ₋₁) + (1-β)Tₜ₋₁ Seasonal: Sₜ = γ(Yₜ - Lₜ) +
+(1-γ)Sₜ₋ₘ Forecast: Fₜ₊ₖ = Lₜ + kTₜ + Sₜ₋ₘ₊ₖ
+
+Where: Sₜ is the seasonal component at time t m is the number of periods
+in a seasonal cycle γ is the seasonal smoothing factor (0 \textless{} γ
+\textless{} 1)\\
+For multiplicative seasonality, the equations are similar but involve
+multiplication instead of addition for the seasonal component.
+
+Example:
+\end{quote}
+
+\includegraphics[width=5.51111in,height=3.90556in]{vertopal_48def92280f64331b647cc0d042b280c/media/image6.png}
+
+Figure 3.1 illustrates the effect of these smoothing techniques on a
+noisy time-series:
+
+\begin{quote}
+\includegraphics[width=6.27083in,height=3.59444in]{vertopal_48def92280f64331b647cc0d042b280c/media/image7.png}
+
+\textbf{3.3 Detrending and Deseasonalization}
+
+Removing trend and seasonal components can help in analyzing the
+underlying patterns and making the time-series stationary.
+
+1.\textbf{Detrending}:\\
+a.Differencing: Subtract each observation from its previous value
+b.Fitting and subtracting a trend line
+
+Example:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# First-order differencing}\\
+df{[}\textquotesingle diff\textquotesingle{]} =
+df{[}\textquotesingle value\textquotesingle{]}.diff()
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Linear detrending}\\
+from scipy import signal\\
+detrended =
+signal.detrend(df{[}\textquotesingle value\textquotesingle{]})
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+2.\textbf{Deseasonalization}:\\
+a.Seasonal differencing: Subtract the value from the same period in the
+previous season\\
+b.Seasonal decomposition methods like STL (Seasonal and Trend
+decomposition using Loess)\\
+Example:
+
+from statsmodels.tsa.seasonal import seasonal\_decompose
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Assume \textquotesingle df\textquotesingle{} has a regular time
+index}\\
+result =
+seasonal\_decompose(df{[}\textquotesingle value\textquotesingle{]},
+model=\textquotesingle additive\textquotesingle, period=12)
+deseasonalized = df{[}\textquotesingle value\textquotesingle{]} -
+result.seasonal
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{3.4 Normalization and Standardization}
+
+Normalization and standardization are important when working with
+multiple time-series or when using certain machine learning algorithms.
+
+1.\textbf{Min-Max Normalization}: Scales the data to a fixed range,
+typically {[}0, 1{]}.
+
+df{[}\textquotesingle normalized\textquotesingle{]} =
+(df{[}\textquotesingle value\textquotesingle{]} -
+df{[}\textquotesingle value\textquotesingle{]}.min()) /
+(df{[}\textquotesingle value\textquotesingle{]}.max() -
+df{[}\textquotesingle value\textquotesingle{]}.min())
+
+2.\textbf{Z-score Standardization}: Transforms the data to have zero
+mean and unit variance.
+
+df{[}\textquotesingle standardized\textquotesingle{]} =
+(df{[}\textquotesingle value\textquotesingle{]} -
+df{[}\textquotesingle value\textquotesingle{]}.mean()) /
+df{[}\textquotesingle value\textquotesingle{]}.std()
+
+It\textquotesingle s important to note that when normalizing or
+standardizing time-series data, you should be cautious about potential
+data leakage. In many cases, it\textquotesingle s more appropriate to
+fit the scaler on the training data only and then apply it to both
+training and test data.
+
+\textbf{4. Feature Engineering for Time-Series}
+
+Feature engineering is a crucial step in preparing time-series data for
+machine learning models. Well-designed features can significantly
+improve model performance by capturing relevant temporal patterns and
+domain-specific information.
+
+\textbf{4.1 Lag Features and Rolling Statistics}
+
+Lag features are created by shifting the time series by a certain number
+of time steps. These features can help capture autocorrelation and
+temporal dependencies in the data.
+
+Example of creating lag features:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Create lag features for the past 3 time steps}\\
+for i inrange(1, 4):\\
+df{[}f\textquotesingle lag\_\{i\}\textquotesingle{]} =
+df{[}\textquotesingle value\textquotesingle{]}.shift(i)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Rolling statistics compute summary statistics over a moving window of
+the time series. These features can capture local trends and patterns.
+
+Example of creating rolling statistics:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Create 7-day rolling mean and standard deviation}\\
+df{[}\textquotesingle rolling\_mean\_7d\textquotesingle{]} =
+df{[}\textquotesingle value\textquotesingle{]}.rolling(window=7).mean()
+df{[}\textquotesingle rolling\_std\_7d\textquotesingle{]} =
+df{[}\textquotesingle value\textquotesingle{]}.rolling(window=7).std()
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{4.2 Time-based Features}\\
+Time-based features extract information from the datetime index of the
+time series. These features can help capture seasonality and cyclical
+patterns\\
+Example of creating time-based features:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+df{[}\textquotesingle hour\textquotesingle{]} = df.index.hour\\
+df{[}\textquotesingle day\_of\_week\textquotesingle{]} =
+df.index.dayofweek\\
+df{[}\textquotesingle month\textquotesingle{]} = df.index.month\\
+df{[}\textquotesingle quarter\textquotesingle{]} = df.index.quarter\\
+df{[}\textquotesingle is\_weekend\textquotesingle{]} =
+df{[}\textquotesingle day\_of\_week\textquotesingle{]}.isin({[}5,
+6{]}).astype(int)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{4.3 Fourier Transforms for Capturing Periodicity}\\
+Fourier transforms can be used to capture periodicity in time-series
+data by decomposing the signal into its frequency components.
+
+Example of creating Fourier features:\\
+import numpy as np
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+deffourier\_features(data, freq, order):\\
+time = np.arange(len(data))\\
+features = {[}{]}\\
+for i inrange(1, order +1):\\
+features.append(np.sin(2* i * np.pi * time / freq))
+features.append(np.cos(2* i * np.pi * time / freq)) return
+np.column\_stack(features)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Assuming daily data with yearly seasonality}\\
+yearly\_fourier =
+fourier\_features(df{[}\textquotesingle value\textquotesingle{]},
+freq=365, order=3)\\
+df{[}{[}\textquotesingle yearly\_sin\_1\textquotesingle,
+\textquotesingle yearly\_cos\_1\textquotesingle,
+\textquotesingle yearly\_sin\_2\textquotesingle,
+\textquotesingle yearly\_cos\_2\textquotesingle,
+\textquotesingle yearly\_sin\_3\textquotesingle,
+\textquotesingle yearly\_cos\_3\textquotesingle{]}{]} = yearly\_fourier
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{4.4 Domain-specific Feature Engineering}\\
+Domain-specific features incorporate expert knowledge about the
+particular field or application.
+
+For example, in financial time-series analysis, we might include
+technical indicators:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defcalculate\_rsi(data, window=14):\\
+delta = data.diff()\\
+gain = (delta.where(delta \textgreater0,
+0)).rolling(window=window).mean() loss = (-delta.where(delta \textless0,
+0)).rolling(window=window).mean() rs = gain / loss\\
+return100- (100/ (1+ rs))
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+df{[}\textquotesingle RSI\textquotesingle{]} =
+calculate\_rsi(df{[}\textquotesingle close\_price\textquotesingle{]})
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defcalculate\_macd(data, short\_window=12, long\_window=26,
+signal\_window=9): short\_ema = data.ewm(span=short\_window,
+adjust=False).mean()\\
+long\_ema = data.ewm(span=long\_window, adjust=False).mean()\\
+macd = short\_ema - long\_ema\\
+signal = macd.ewm(span=signal\_window, adjust=False).mean()\\
+return macd, signal
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+df{[}\textquotesingle MACD\textquotesingle{]},
+df{[}\textquotesingle MACD\_signal\textquotesingle{]} =
+calculate\_macd(df{[}\textquotesingle close\_price\textquotesingle{]})
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+When engineering features for time-series data, it\textquotesingle s
+important to be mindful of potential data leakage. Ensure that features
+are created using only past information and not future data points that
+wouldn\textquotesingle t be available at the time of prediction.
+\end{quote}
+
+\includegraphics[width=6.5in,height=1.45833in]{vertopal_48def92280f64331b647cc0d042b280c/media/image8.png}
+
+\begin{quote}
+\textbf{5. Time-Series Forecasting Models}
+
+Time-series forecasting is a critical task in many domains, from finance
+to weather prediction. In this section, we\textquotesingle ll explore
+various models used for time-series forecasting, ranging from classical
+statistical methods to modern machine learning approaches.
+
+\textbf{5.1 ARIMA and SARIMA Models}
+
+ARIMA (AutoRegressive Integrated Moving Average) and its seasonal
+variant SARIMA (Seasonal ARIMA) are widely used statistical methods for
+time-series forecasting.
+
+\textbf{ARIMA}
+
+ARIMA models are characterized by three parameters: •p: The order of the
+autoregressive term\\
+•d: The degree of differencing\\
+•q: The order of the moving average term\\
+Example of fitting an ARIMA model:\\
+from statsmodels.tsa.arima.model import ARIMA
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Fit ARIMA(1,1,1) model}\\
+model = ARIMA(df{[}\textquotesingle value\textquotesingle{]},
+order=(1,1,1))\\
+results = model.fit()\\
+forecast = results.forecast(steps=30) \emph{\# Forecast next 30 time
+steps}
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{SARIMA}
+
+SARIMA extends ARIMA by including seasonal components.
+It\textquotesingle s characterized by the parameters (p,d,q)(P,D,Q)m,
+where the uppercase letters represent the seasonal components and m is
+the number of periods per season.
+
+Example of fitting a SARIMA model:\\
+from statsmodels.tsa.statespace.sarimax import SARIMAX
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Fit SARIMA(1,1,1)(1,1,1,12) model for monthly data with yearly
+seasonality} model =
+SARIMAX(df{[}\textquotesingle value\textquotesingle{]}, order=(1,1,1),
+seasonal\_order=(1,1,1,12)) results = model.fit()\\
+forecast = results.forecast(steps=30)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{5.2 Exponential Smoothing Methods}
+
+Exponential smoothing methods are a class of forecasting models that
+weight past observations with exponentially decreasing weights.
+
+\textbf{Simple Exponential Smoothing}
+
+Suitable for data with no clear trend or seasonality.
+
+from statsmodels.tsa.holtwinters import SimpleExpSmoothing
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model =
+SimpleExpSmoothing(df{[}\textquotesingle value\textquotesingle{]})\\
+results = model.fit()\\
+forecast = results.forecast(steps=30)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{Holt-Winters\textquotesingle{} Method}
+
+Also known as triple exponential smoothing, this method extends
+Holt\textquotesingle s method to capture seasonality in addition to
+level and trend.
+
+from statsmodels.tsa.holtwinters import ExponentialSmoothing
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model =
+ExponentialSmoothing(df{[}\textquotesingle value\textquotesingle{]},
+trend=\textquotesingle add\textquotesingle,
+seasonal=\textquotesingle add\textquotesingle, seasonal\_periods=12)
+results = model.fit()\\
+forecast = results.forecast(steps=30)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{5.3 Prophet Model}
+
+Facebook\textquotesingle s Prophet is a powerful and flexible
+forecasting tool that handles daily data with multiple seasonalities and
+holiday effects.
+
+from fbprophet import Prophet
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Prepare data for Prophet (requires
+\textquotesingle ds\textquotesingle{} and
+\textquotesingle y\textquotesingle{} columns)}\\
+prophet\_df =
+df.reset\_index().rename(columns=\{\textquotesingle date\textquotesingle:
+\textquotesingle ds\textquotesingle,
+\textquotesingle value\textquotesingle:
+\textquotesingle y\textquotesingle\})
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = Prophet()\\
+model.fit(prophet\_df)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+future = model.make\_future\_dataframe(periods=30) forecast =
+model.predict(future)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{5.4 Machine Learning Approaches}
+
+Traditional machine learning algorithms can be adapted for time-series
+forecasting by using appropriate feature engineering techniques.
+
+\textbf{Random Forests for Time-Series}
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+from sklearn.ensemble import RandomForestRegressor from
+sklearn.model\_selection import train\_test\_split
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Assume \textquotesingle X\textquotesingle{} contains engineered
+features and \textquotesingle y\textquotesingle{} is the target
+variable}
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+X\_train, X\_test, y\_train, y\_test = train\_test\_split(X, y,
+test\_size=0.2, shuffle=False)
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = RandomForestRegressor(n\_estimators=100) model.fit(X\_train,
+y\_train)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+predictions = model.predict(X\_test)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{Gradient Boosting for Time-Series}\\
+from xgboost import XGBRegressor
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = XGBRegressor(n\_estimators=100, learning\_rate=0.1)
+model.fit(X\_train, y\_train)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+predictions = model.predict(X\_test)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Figure 5.1 compares the performance of different forecasting models on a
+sample dataset: {[}Insert Figure 5.1: Comparison of forecasting
+models\textquotesingle{} performance{]}
+
+\textbf{6. Deep Learning for Time-Series}\\
+Deep learning models have shown remarkable performance in various
+time-series tasks, especially when dealing with complex patterns and
+large datasets.
+
+\textbf{6.1 Recurrent Neural Networks (RNNs) and Long Short-Term Memory
+(LSTM) Networks} RNNs and LSTMs are designed to handle sequential data
+and can capture long-term\\
+dependencies in time-series.
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+from tensorflow.keras.models import Sequential from
+tensorflow.keras.layers import LSTM, Dense
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = Sequential({[}\\
+LSTM(50, activation=\textquotesingle relu\textquotesingle,
+input\_shape=(n\_steps, n\_features)), Dense(1)\\
+{]})\\
+model.compile(optimizer=\textquotesingle adam\textquotesingle,
+loss=\textquotesingle mse\textquotesingle)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model.fit(X\_train, y\_train, epochs=100, batch\_size=32,
+validation\_split=0.2)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{6.2 Temporal Convolutional Networks (TCNs)}
+
+TCNs use causal convolutions to process time-series data, offering an
+alternative to RNNs with parallelizable computations.
+
+from tensorflow.keras.layers import Conv1D, Dense, Dropout,
+LayerNormalization
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defTCN\_block(inputs, filters, kernel\_size, dilation\_rate):\\
+x = Conv1D(filters, kernel\_size, dilation\_rate=dilation\_rate,
+padding=\textquotesingle causal\textquotesingle)(inputs) x =
+LayerNormalization()(x)\\
+x = Dropout(0.1)(x)\\
+return x
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+inputs = Input(shape=(n\_steps, n\_features)) x = inputs\\
+for i inrange(4):\\
+x = TCN\_block(x, 64, 3, dilation\_rate=2**i) x = Dense(1)(x)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = Model(inputs=inputs, outputs=x)
+model.compile(optimizer=\textquotesingle adam\textquotesingle,
+loss=\textquotesingle mse\textquotesingle)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{6.3 Attention Mechanisms and Transformers for Time-Series}
+
+Attention mechanisms and Transformer architectures have revolutionized
+sequence modeling tasks and can be applied to time-series forecasting.
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+from tensorflow.keras.layers import MultiHeadAttention,
+LayerNormalization, Dense from tensorflow.keras.models import Model
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+deftransformer\_encoder(inputs, head\_size, num\_heads, ff\_dim,
+dropout=0): x = MultiHeadAttention(key\_dim=head\_size,
+num\_heads=num\_heads, dropout=dropout)(inputs, inputs)\\
+x = LayerNormalization(epsilon=1e-6)(x)\\
+res = x + inputs\\
+x = Dense(ff\_dim, activation="relu")(res)\\
+x = Dense(inputs.shape{[}-1{]})(x)\\
+return LayerNormalization(epsilon=1e-6)(x + res)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+inputs = Input(shape=(n\_steps, n\_features))\\
+x = transformer\_encoder(inputs, head\_size=256, num\_heads=4,
+ff\_dim=4, dropout=0.1) x = Dense(1)(x)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = Model(inputs=inputs, outputs=x)\\
+model.compile(optimizer=\textquotesingle adam\textquotesingle,
+loss=\textquotesingle mse\textquotesingle)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{6.4 Hybrid Models Combining Statistical and Deep Learning
+Approaches}
+
+Hybrid models aim to leverage the strengths of both statistical and deep
+learning methods.
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+from statsmodels.tsa.arima.model import ARIMA from
+tensorflow.keras.models import Sequential from tensorflow.keras.layers
+import LSTM, Dense
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# ARIMA component}\\
+arima\_model = ARIMA(train\_data, order=(1,1,1))\\
+arima\_results = arima\_model.fit()\\
+arima\_residuals = train\_data - arima\_results.fittedvalues
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# LSTM component}\\
+lstm\_model = Sequential({[}\\
+LSTM(50, activation=\textquotesingle relu\textquotesingle,
+input\_shape=(n\_steps, 1)),\\
+Dense(1)\\
+{]})\\
+lstm\_model.compile(optimizer=\textquotesingle adam\textquotesingle,
+loss=\textquotesingle mse\textquotesingle)\\
+lstm\_model.fit(X\_train, arima\_residuals, epochs=100, batch\_size=32)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Combine predictions}\\
+arima\_forecast = arima\_results.forecast(steps=len(test\_data))
+lstm\_forecast = lstm\_model.predict(X\_test)\\
+final\_forecast = arima\_forecast + lstm\_forecast.flatten()
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+Figure 6.1 illustrates the architecture of a hybrid ARIMA-LSTM model:
+\end{quote}
+
+\includegraphics[width=6.5in,height=5.71944in]{vertopal_48def92280f64331b647cc0d042b280c/media/image9.png}
+
+\begin{quote}
+\textbf{7. Evaluation Metrics for Time-Series Models}\\
+Proper evaluation of time-series models is crucial for assessing their
+performance and making informed decisions about model selection.
+
+\textbf{7.1 Time-Series Cross-Validation Techniques}\\
+Traditional cross-validation techniques are not suitable for time-series
+data due to its temporal nature. Instead, we use time-series specific
+cross-validation methods.
+
+\textbf{Rolling Window Validation}\\
+from sklearn.model\_selection import TimeSeriesSplit
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+tscv = TimeSeriesSplit(n\_splits=5)\\
+for train\_index, test\_index in tscv.split(X):\\
+X\_train, X\_test = X{[}train\_index{]}, X{[}test\_index{]} y\_train,
+y\_test = y{[}train\_index{]}, y{[}test\_index{]}
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+\emph{\# Train and evaluate model}
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{7.2 Error Metrics}
+
+Common error metrics for time-series forecasting include:
+
+1.Mean Absolute Error (MAE):
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+from sklearn.metrics import mean\_absolute\_error mae =
+mean\_absolute\_error(y\_true, y\_pred)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+2.Mean Absolute Percentage Error (MAPE):
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defmape(y\_true, y\_pred):\\
+return np.mean(np.abs((y\_true - y\_pred) / y\_true)) *100
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+3.Root Mean Square Error (RMSE):
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+from sklearn.metrics import mean\_squared\_error rmse =
+np.sqrt(mean\_squared\_error(y\_true, y\_pred))
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{7.3 Forecasting Accuracy Measures}
+
+1.Theil\textquotesingle s U:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+deftheil\_u(y\_true, y\_pred):\\
+numerator = np.sqrt(np.mean((y\_true - y\_pred)**2))\\
+denominator = np.sqrt(np.mean(y\_true**2)) +
+np.sqrt(np.mean(y\_pred**2)) return numerator / denominator
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+2.Mean Absolute Scaled Error (MASE):
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defmase(y\_true, y\_pred, y\_train):\\
+n =len(y\_train)\\
+d = np.abs(np.diff(y\_train)).sum() / (n -1)\\
+errors = np.abs(y\_true - y\_pred)\\
+return errors.mean() / d
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{7.4 Handling Multi-Step Forecasts and Probabilistic Forecasts}
+
+For multi-step forecasts, we can use metrics that account for the entire
+forecast horizon:
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+defmean\_absolute\_error\_multi\_step(y\_true, y\_pred): return
+np.mean(np.abs(y\_true - y\_pred), axis=1)
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+For probabilistic forecasts, we can use metrics like the Continuous
+Ranked Probability Score (CRPS):\\
+from properscoring import crps\_ensemble
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defcalculate\_crps(y\_true, forecast\_samples):\\
+return crps\_ensemble(y\_true, forecast\_samples)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{8. Advanced Topics in Time-Series Analysis}
+
+\textbf{8.1 Multivariate Time-Series Analysis}
+
+Multivariate time-series analysis involves modeling multiple related
+time-series simultaneously. Example using Vector Autoregression (VAR):\\
+from statsmodels.tsa.api import VAR
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+model = VAR(df{[}{[}\textquotesingle variable1\textquotesingle,
+\textquotesingle variable2\textquotesingle,
+\textquotesingle variable3\textquotesingle{]}{]}) results =
+model.fit(maxlags=15, ic=\textquotesingle aic\textquotesingle)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+forecast = results.forecast(y.values{[}-results.k\_ar:{]}, steps=5)
+\end{quote}
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{8.2 Hierarchical and Grouped Time-Series}
+
+Hierarchical time-series involve forecasting at multiple levels of
+aggregation. from statsmodels.tsa.statespace.structural import
+UnobservedComponents
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defhierarchical\_forecast(data, levels):\\
+forecasts = \{\}\\
+for level in levels:\\
+model = UnobservedComponents(data{[}level{]}, \textquotesingle local
+linear trend\textquotesingle) results = model.fit()\\
+forecasts{[}level{]} = results.forecast(steps=5)\\
+return forecasts
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{8.3 Anomaly Detection in Time-Series Data}
+
+Anomaly detection identifies unusual patterns that deviate from expected
+behavior.
+
+from sklearn.ensemble import IsolationForest
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defdetect\_anomalies(data, contamination=0.01):\\
+model = IsolationForest(contamination=contamination) anomalies =
+model.fit\_predict(data.reshape(-1, 1)) return anomalies ==-1
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{8.4 Causal Inference in Time-Series}
+
+Causal inference aims to understand the cause-effect relationships in
+time-series data.
+
+Example using Granger Causality:
+
+from statsmodels.tsa.stattools import grangercausalitytests
+\end{quote}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\begin{quote}
+defgranger\_causality(data, max\_lag=5):\\
+return
+grangercausalitytests(data{[}{[}\textquotesingle variable1\textquotesingle,
+\textquotesingle variable2\textquotesingle{]}{]}, maxlag=max\_lag)
+\end{quote}\strut
+\end{minipage} \\
+\midrule()
+\endhead
+\bottomrule()
+\end{longtable}
+
+\begin{quote}
+\textbf{9. Practical Applications and Case Studies}
+
+\textbf{9.1 Financial Market Prediction}
+
+Case study: Predicting stock prices using LSTM networks
+
+Theory: Long Short-Term Memory (LSTM) networks are a type of recurrent
+neural network (RNN) particularly well-suited for sequence prediction
+problems like stock price forecasting. LSTMs are designed to capture
+long-term dependencies in time series data, which is crucial in
+financial markets where past trends can influence future prices. They
+use a series of gates (input, forget, and output gates) to control the
+flow of information through the network, allowing it to selectively
+remember or forget information over long sequences.
+
+In stock price prediction, LSTMs can be trained on historical price
+data, often including additional features like trading volume, technical
+indicators, and even sentiment analysis of news. The model learns to
+recognize patterns and relationships in this multi-dimensional time
+series data, potentially capturing complex non-linear relationships that
+traditional time series models might miss.
+
+\textbf{9.2 Energy Consumption Forecasting}
+
+Case study: Forecasting household energy consumption using Prophet
+
+Theory: Prophet is a time series forecasting model developed by
+Facebook. It\textquotesingle s particularly well-suited for forecasting
+problems with strong seasonal effects and several seasons of historical
+\end{quote}
+
+data. Prophet implements an additive model where non-linear trends are
+fit with yearly, weekly, and daily seasonality, plus holiday effects.
+
+For energy consumption forecasting, Prophet can effectively capture:
+
+\begin{quote}
+1.Long-term trends in energy usage (e.g., increasing efficiency or
+growing demand) 2.Yearly seasonality (e.g., higher consumption in winter
+and summer)\\
+3.Weekly seasonality (e.g., different patterns on weekdays vs.
+weekends)\\
+4.Holiday effects (e.g., increased consumption during holidays)
+\end{quote}
+
+Prophet also allows for the incorporation of additional regressors, such
+as temperature, which can significantly impact energy consumption.
+
+\textbf{9.3 IoT Sensor Data Analysis}
+
+Case study: Predictive maintenance using sensor data and Random Forest
+
+Theory: Random Forest is an ensemble learning method that operates by
+constructing multiple decision trees during training and outputting the
+class that is the mode of the classes\\
+(classification) or mean prediction (regression) of the individual
+trees.
+
+In the context of predictive maintenance:
+
+\begin{quote}
+1.Each tree in the forest is trained on a bootstrap sample of the sensor
+data.
+
+2.At each node of the tree, a subset of features (sensor readings) is
+randomly selected to decide the split.
+
+3.The forest can capture complex, non-linear relationships between
+various sensor readings and the likelihood of equipment failure.
+
+4.It can handle high-dimensional data from multiple sensors effectively.
+
+5.Random Forests provide feature importance rankings, helping identify
+which sensors or measurements are most predictive of maintenance needs.
+\end{quote}
+
+This approach is particularly useful in IoT contexts where data from
+multiple sensors can be combined to predict when maintenance is
+required, potentially preventing equipment failures before they occur.
+
+\textbf{9.4 Epidemiological Modeling and Disease Spread Prediction}
+
+Theory: This approach combines a traditional compartmental model in
+epidemiology (SEIR) with modern machine learning techniques (LSTM).
+
+SEIR Model:
+
+\begin{quote}
+•Susceptible (S): The portion of the population vulnerable to the
+disease
+
+•Exposed (E): Individuals who have been infected but are not yet
+infectious
+
+•Infectious (I): Individuals capable of spreading the disease
+
+•Recovered (R): Individuals who have recovered and are assumed to be
+immune
+\end{quote}
+
+The SEIR model uses differential equations to model the flow of
+individuals between these
+
+compartments. Parameters like transmission rate (β), incubation rate
+(σ), and recovery rate (γ) govern these transitions.
+
+LSTM Network: The LSTM can be used to predict the parameters of the SEIR
+model or to directly forecast case numbers. It can capture complex
+temporal patterns in the data that might be missed by the SEIR model
+alone, such as:
+
+\begin{quote}
+•Changes in human behavior over time
+
+•Effects of interventions like lockdowns or vaccinations
+
+•Seasonal variations in disease spread
+\end{quote}
+
+By combining these approaches, we leverage both epidemiological domain
+knowledge (through the SEIR model) and the ability to capture complex
+patterns from data (through the LSTM), potentially leading to more
+accurate and interpretable predictions of disease spread.
+
+\textbf{10. Conclusion}
+
+In this chapter, we have explored the vast and complex field of
+time-series data analysis and forecasting. We\textquotesingle ve covered
+a wide range of topics, from the fundamental characteristics of
+time-series data to advanced modeling techniques and real-world
+applications.
+
+Key takeaways from this chapter include:
+
+\begin{quote}
+1.The importance of understanding the components of time-series data
+(trend, seasonality, cyclicity, and irregularity) for effective analysis
+and modeling.
+
+2.The critical role of data preprocessing and feature engineering in
+improving model performance.
+
+3.The variety of forecasting models available, from classical
+statistical methods like ARIMA to advanced deep learning approaches like
+LSTMs and Transformers.
+
+4.The necessity of proper evaluation techniques and metrics specific to
+time-series data. 5.The potential of advanced topics like multivariate
+analysis, anomaly detection, and causal inference in extracting deeper
+insights from time-series data.
+
+6.The wide-ranging applications of time-series analysis across various
+domains, from finance to epidemiology.
+\end{quote}
+
+As we look to the future, several trends and challenges in time-series
+analysis are worth noting:
+
+\begin{quote}
+1.The increasing availability of real-time data streams, necessitating
+the development of online learning algorithms and streaming data
+processing techniques.
+
+2.The growing integration of machine learning and deep learning
+techniques with traditional statistical methods, leading to more
+powerful hybrid models.
+
+3.The rising importance of interpretable and explainable AI in
+time-series forecasting, especially in critical domains like healthcare
+and finance.
+
+4.The challenge of handling high-dimensional, multivariate time-series
+data in fields like IoT and sensor networks.
+
+5.The need for more robust methods to handle non-stationary and
+non-linear time-series, which are common in real-world applications.
+
+6.The increasing use of transfer learning and meta-learning techniques
+to improve forecasting performance on small datasets or in domains with
+limited historical data.
+\end{quote}
+
+As the field continues to evolve, researchers and practitioners will
+need to stay abreast of these developments and challenges. The ability
+to effectively analyze and forecast time-series data will remain a
+crucial skill across many industries, driving innovation and informed
+decision-making in our increasingly data-driven world.
+
+\textbf{11. References}
+
+\begin{quote}
+•Box, G. E., Jenkins, G. M., Reinsel, G. C., \& Ljung, G. M. (2015).
+\emph{Time Series Analysis:} \emph{Forecasting and Control}. John Wiley
+\& Sons.
+
+•Hyndman, R. J., \& Athanasopoulos, G. (2018). \emph{Forecasting:
+Principles and Practice}. OTexts.
+
+•Brownlee, J. (2020). \emph{Deep Learning for Time Series Forecasting}.
+Machine Learning Mastery.
+
+•Seabold, S., \& Perktold, J. (2010). \emph{Statsmodels: Econometric and
+statistical modeling} \emph{with Python}. Proceedings of the 9th Python
+in Science Conference.
+
+•Taylor, S. J., \& Letham, B. (2018). \emph{Forecasting at Scale}. The
+American Statistician, 72(1), 37-45.
+\end{quote}
+
+\end{document}
