@@ -91,5 +91,7 @@ Now the application is up and running. Navigate to the following link to check t
 ## Project Structure
 <img width="317" alt="Screenshot 2024-12-03 at 5 13 27 PM" src="https://github.com/user-attachments/assets/ce865d49-01f2-42c3-8f44-53ed7e05ffb3">
 
-## Developer
+## Team Members
 - Sri Poojitha Mandali
+- Vasudha Ambre
+- Rasika Kole
