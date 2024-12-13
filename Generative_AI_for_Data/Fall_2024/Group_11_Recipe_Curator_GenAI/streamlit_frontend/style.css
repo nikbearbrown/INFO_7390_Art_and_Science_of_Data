@@ -1,0 +1,139 @@
+.title {
+    font-size: 50px;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Style for the main header */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+.summary {
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #3333FF; /* Blue background for summary */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Recipe card bubble */
+.recipe-card {
+    background-color: #FFFAE6; /* Light yellow background for recipe card */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.recipe-title {
+    font-size: 22px;
+    color: #FF5733;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.recipe-info {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Scrollable image wrapper */
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scroll */
+    padding: 10px 0;
+    scroll-behavior: smooth;
+    gap: 10px;
+}
+
+.scroll-img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+    flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+.instructions {
+    font-size: 16px;
+    color: #333333;
+    margin-top: 10px;
+}
+
+/* Custom styles for the Read More expander */
+.st-expander {
+    background-color: #227ecd; /* Light blue background for the expander */
+    border: 1px solid #d3d3d3; /* Light gray border */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.st-expander .st-expander-content {
+    background-color: #97c1ee; /* Slightly different blue for content */
+    color: white; /* White text for better contrast */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the ingredients and instructions inside the expander */
+.ingredients {
+    background-color: #97c1ee; /* Light gray background */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    background-color:#E89EB8; /* Light gray background */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.ingredients strong {
+    color: #0c049c; /* Highlighted titles in instructions/ingredients */
+}
+
+.instructions strong {
+    color: #AA336A; /* Highlighted titles in instructions/ingredients */
+}
+
+.instructions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Custom styles for the Nutrition Analysis bubble */
+.nutrition-analysis {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #FF5733; /* Orange background for nutrition analysis */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.badge {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 12px;
+}
+
+

@@ -1,0 +1,59 @@
+/* Recipe card styling */
+.recipe-card {
+    background-color: #FFFAE6; /* Light yellow background */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%; /* Full-width cards */
+    box-sizing: border-box;
+}
+
+.recipe-title {
+    font-size: 22px;
+    color: #FF5733;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.recipe-info {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+/* Scrollable image wrapper */
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scroll */
+    padding: 10px 0;
+    gap: 10px; /* Space between images */
+}
+
+.scroll-img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px; /* Fixed height for consistency */
+    flex-shrink: 0; /* Prevent images from shrinking */
+    object-fit: cover; /* Crop the image to fit the frame */
+}
+
+/* Ingredients and instructions inside the expander */
+.ingredients, .instructions {
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.nutrition-analysis {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #FF5733; /* Orange background */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

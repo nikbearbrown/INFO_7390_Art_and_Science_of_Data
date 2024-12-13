@@ -1,0 +1,18 @@
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+# Set the working directory
+WORKDIR /app
+
+# Copy backend code into the container
+COPY . /app
+
+# Install dependencies
+RUN pip install --no-cache-dir fastapi uvicorn requests pydantic snowflake-connector-python \
+    python-dotenv boto3 google-generativeai pinecone-client transformers torch google-cloud-language itsdangerous
+
+# Expose the port for FastAPI
+EXPOSE 8000
+
+# Command to run FastAPI
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]

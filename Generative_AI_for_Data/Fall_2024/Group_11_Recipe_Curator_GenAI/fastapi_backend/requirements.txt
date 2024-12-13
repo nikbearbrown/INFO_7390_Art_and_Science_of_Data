@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+datasets
+pydantic
+openai==0.28
+snowflake-connector-python
+python-dotenv
+boto3
+google-generativeai
+pinecone
+pinecone-client
+transformers
+torch
+google-cloud-language

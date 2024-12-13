@@ -1,0 +1,80 @@
+/* Style for the main header */
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Recipe card */
+.recipe-card {
+    background-color: #FFFAE6; /* Light yellow background for recipe card */
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Recipe title */
+.recipe-title {
+    font-size: 22px;
+    color: #FF5733;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Recipe images inside card */
+.recipe-img {
+    display: inline-block;
+    margin: 10px 5px;
+    width: 150px; /* Adjusted to match wishlist and recipe search */
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe information */
+.recipe-info {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+/* Custom styles for the Read More expander */
+.st-expander {
+    background-color: #227ecd; /* Light blue background for the expander */
+    border: 1px solid #d3d3d3; /* Light gray border */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.st-expander .st-expander-content {
+    background-color: #97c1ee; /* Slightly different blue for content */
+    color: white; /* White text for better contrast */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style the ingredients and instructions inside the expander */
+.ingredients {
+    background-color: #F3F4F6;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    background-color: #E89EB8; /* Light pink background */
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.ingredients strong {
+    color: #0c049c; /* Highlighted titles in instructions/ingredients */
+}
+
+.instructions strong {
+    color: #AA336A; /* Highlighted titles in instructions/ingredients */
+}

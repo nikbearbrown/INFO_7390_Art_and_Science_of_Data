@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./fastapi_backend
+      dockerfile: DOCKERFILE
+    ports:
+      - "8000:8000"  # Expose FastAPI on port 8000
+    env_file:
+      - .env  # Pass environment variables
+
+
+  frontend:
+    build:
+      context: ./streamlit_frontend
+      dockerfile: DOCKERFILE
+    ports:
+      - "8501:8501"  # Expose Streamlit on port 8501
+    depends_on:
+      - backend  # Ensure frontend starts after backend
+    env_file:
+      - .env  # Pass environment variables
+    environment:
+      BACKEND_URL: http://backend:8000  # Connect frontend to backend
