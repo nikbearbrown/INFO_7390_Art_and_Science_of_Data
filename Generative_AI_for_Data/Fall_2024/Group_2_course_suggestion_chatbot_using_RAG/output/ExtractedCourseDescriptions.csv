@@ -1,0 +1,244 @@
+Course Name,CRN,Instructor,Timings,CourseID,Course Description
+Intro to Python for Info Sys,35249,"Liu, Handan",MR 11:45am-1:25pm,INFO 5002,"Studies the Python programming language for application engineering. This hands-on course offers students an opportunity to obtain proﬁciency in
+the core concepts of Python and the skills and knowledge for building applications using any of the hundreds of thousands of task-speciﬁc Python
+libraries. Covers the important concepts such as reading and writing to standard IO, using operators, controlling the flow of execution, using functions,
+reading and writing ﬁles, and basic object-oriented programming concepts. Applies tools and techniques to classical software engineering and Python-
+speciﬁc facilities such as code introspection, reuse, built-in sequence types, and iteration."
+Data Sci Eng Methods,36949,"Pan, Hong",Sa 1pm-4:30pm,INFO 6105,"Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies."
+Data Sci Eng Methods,32517,"Zhao, Yizhen",W 6pm-9:30pm,INFO 6105,"Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies."
+Data Sci Eng Methods,40302,"MURTHY, AKASH",W 6:10pm-9:40pm,INFO 6105,"Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies."
+Data Sci Eng Methods,34535,"Konstantopoulos, Constantin",MR 11:45am-1:25pm,INFO 6105,"Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies."
+Data Sci Eng Methods,40303,"MURTHY, AKASH",Sa 9am-12:30pm,INFO 6105,"Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies."
+Data Sci Eng Methods,40534,"Pan, Hong",T 6:10pm-9:40pm,INFO 6105,"Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies."
+Neural Modeling Methods & Tool,35626,"Konstantopoulos, Constantin",MW 2:50pm-4:30pm,INFO 6106,"Uses a graph theoretic approach to build models representing dependencies of model components instead of using analytical functions in statistics to
+interpolate observations, build data models, and estimate model parameters. The interpolation is still parametric, but the parameters are graph related
+and do not involve analytic functions. Discusses how to explain neural models and not fear them; when it is appropriate to use neural models; and how
+to interact with machines that use neural models in the same way one would trust a friend, so that trust between humans and machines is enhanced
+rather than diminished. These so-called neural models mirror in some regard how biological brains build models to make sense of the world and do
+predictions."
+Web Design/User Experien Engr,31876,"Chawla, Vishal",F 6pm-9:30pm,INFO 6150,"Exposes students to both conceptual and technical aspects of Web design. User experience design is the discipline of creating a useful and usable
+website or application that is easily navigated and meets the needs of both the site owner and its users. Covers Web standards and best practices.
+Studies the fundamental concepts, techniques, practices, work flows, and tools associated with the practice of user-experience design in Web
+interfaces. Offers students an opportunity to learn the core principles of information architecture, usability, marketing hierarchy, and user experience
+for contextual, value-driven websites. Additional areas of focus include typography, color theory and composition, responsive design, CSS3 concepts,
+basic scripting, and JavaScript libraries to create functional, effective, and visually appealing websites.
+458  Information Systems Program (INFO)"
+Web Design/User Experien Engr,32322,"Chawla, Vishal",Sa 10am-1:30pm,INFO 6150,"Exposes students to both conceptual and technical aspects of Web design. User experience design is the discipline of creating a useful and usable
+website or application that is easily navigated and meets the needs of both the site owner and its users. Covers Web standards and best practices.
+Studies the fundamental concepts, techniques, practices, work flows, and tools associated with the practice of user-experience design in Web
+interfaces. Offers students an opportunity to learn the core principles of information architecture, usability, marketing hierarchy, and user experience
+for contextual, value-driven websites. Additional areas of focus include typography, color theory and composition, responsive design, CSS3 concepts,
+basic scripting, and JavaScript libraries to create functional, effective, and visually appealing websites.
+458  Information Systems Program (INFO)"
+Web Design/User Experien Engr,34571,"Chawla, Vishal",R 6:10pm-9:40pm,INFO 6150,"Exposes students to both conceptual and technical aspects of Web design. User experience design is the discipline of creating a useful and usable
+website or application that is easily navigated and meets the needs of both the site owner and its users. Covers Web standards and best practices.
+Studies the fundamental concepts, techniques, practices, work flows, and tools associated with the practice of user-experience design in Web
+interfaces. Offers students an opportunity to learn the core principles of information architecture, usability, marketing hierarchy, and user experience
+for contextual, value-driven websites. Additional areas of focus include typography, color theory and composition, responsive design, CSS3 concepts,
+basic scripting, and JavaScript libraries to create functional, effective, and visually appealing websites.
+458  Information Systems Program (INFO)"
+Program Structure & Algorithms,31376,"Hillyard, Robin",MR 11:45am-1:25pm,INFO 6205,"Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data
+structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the
+application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables,
+and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores
+external storage structures, time permitting."
+Program Structure & Algorithms,40440,"Liu, Handan",TF 9:50am-11:30am,INFO 6205,"Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data
+structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the
+application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables,
+and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores
+external storage structures, time permitting."
+Program Structure & Algorithms,35711,"Konstantopoulos, Constantin",T 11:45am-1:25pm; R 2:50pm-4:30pm,INFO 6205,"Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data
+structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the
+application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables,
+and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores
+external storage structures, time permitting."
+Program Structure & Algorithms,32263,"Hillyard, Robin",MW 2:50pm-4:30pm,INFO 6205,"Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data
+structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the
+application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables,
+and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores
+external storage structures, time permitting."
+Program Structure & Algorithms,38129,"Yu, Chen-Hsiang",TF 3:25pm-5:05pm,INFO 6205,"Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data
+structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the
+application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables,
+and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores
+external storage structures, time permitting."
+Business Analysis & Info Engr,34375,"Graham, Nichole",W 6pm-9:30pm,INFO 6215,"Covers computer information systems and the decision-making process, determination of information requirements, system development life cycle,
+and system modeling and analysis. Uses a hands-on approach to introduce the student to software engineering methodologies and practices,
+business requirements speciﬁcation, business process design, model-driven object-oriented design, software development, and maintenance.
+Emphasizes the effective leverage of the Uniﬁed Modeling Language (UML) to transform business issues and objectives to concrete software
+solutions that meet business needs and usability and user interface design as critical elements of a successful software engineering engagement."
+Business Analysis & Info Engr,34827,"Knowlton, Deborah",W 6pm-9:30pm,INFO 6215,"Covers computer information systems and the decision-making process, determination of information requirements, system development life cycle,
+and system modeling and analysis. Uses a hands-on approach to introduce the student to software engineering methodologies and practices,
+business requirements speciﬁcation, business process design, model-driven object-oriented design, software development, and maintenance.
+Emphasizes the effective leverage of the Uniﬁed Modeling Language (UML) to transform business issues and objectives to concrete software
+solutions that meet business needs and usability and user interface design as critical elements of a successful software engineering engagement."
+Web Development Tools & Methds,31058,"Ozbek, Yusuf",TF 3:25pm-5:05pm,INFO 6250,"Explores advanced server-side technologies and tools necessary to design and engineer complete web-based enterprise applications quickly.
+Designed to build on previous experience to cover the life cycle of a web-based application. Focuses on MVC web development frameworks to build
+server-side, data-intensive, and multitier web applications. Additionally, discusses designing rich internet applications (RIA) using AJAX and service-
+oriented architecture (SOA) using REST."
+Software Quality Contrl & Mgmt,32525,"Servattalab, Matthew",T 6pm-9:30pm,INFO 6255,"Examines techniques for the management and evolution of software systems. Topics include managing software as an asset; life cycle development
+and rapid development technologies; maintainability; quality assurance of software systems including testing strategies and problem analysis;
+software risk analysis; analysis of software project failures; process models, such as CMM and ISO 9001; conﬁguration management; and the impact
+of new development technologies on software management."
+Software Quality Contrl & Mgmt,32661,"Servattalab, Matthew",R 6pm-9:30pm,INFO 6255,"Examines techniques for the management and evolution of software systems. Topics include managing software as an asset; life cycle development
+and rapid development technologies; maintainability; quality assurance of software systems including testing strategies and problem analysis;
+software risk analysis; analysis of software project failures; process models, such as CMM and ISO 9001; conﬁguration management; and the impact
+of new development technologies on software management."
+Smartphones-Based Web Devlpmnt,31411,"Ahmed, Rabah",Sa 1pm-4:30pm,INFO 6350,"Covers application development for mobile devices using advanced development platforms. Focuses on how to write mobile applications using cross-
+platform development tools and processes. Topics include user interfaces, the software life cycle, persistent storage, networking using HTTP and
+other REST interfaces, and mobile/handheld data applications. Requires a ﬁnal project."
+Account/Budgets for Engineers,32858,"Shi, Shiaoming",Sa 1pm-4:30pm,INFO 7225,"Covers the latest engineering principles necessary for building complex software systems that comply with recognized standards in the ﬁnancial
+industry. With automated business processes today, risk and responsibility are shifting to information technology (IT) systems. Offers students an
+opportunity to learn how to incorporate information-based controls related to the ﬁnancial industry that signal trouble, detect violations, and provide
+accountability, as well as a working approval process. Emphasizes software design. Seeks to help engineers construct complex software from a
+sophisticated engineering perspective. Examines how to put together cutting-edge organizational systems that people in the ﬁnancial world can put to
+good use. Designed to prepare students for jobs in the building, maintaining, and employment of such information systems."
+Business Process Engineering,35259,"Pettiford, Shannon",R 3:15pm-6:35pm,INFO 7260,"Addresses the question of how to understand and specify the flow of work responsibility and movement of information throughout the enterprise.
+For businesses to maximize the beneﬁts of technology, they must transform their ad-hoc and often poorly deﬁned ways of doing things to formal
+business processes. Analyzes the speciﬁcation and implementation of complex information systems that integrate well into core business operations.
+Offers students an opportunity to learn how to use agile process speciﬁcation techniques, dynamic process execution, and real-time measurement and
+reporting to support continuous business improvement and change."
+Organizational Change and IT,40312,"Gurley, Kelley",M 6pm-9:30pm,INFO 7285,"Focuses on the change effort needed to integrate a project into the ﬁrm’s organizational structure, culture, business, and process metrics. Geared for
+students undertaking enterprise resource planning systems, or those involved in small or large organizational reengineering projects designed to make
+IT a primary focus of the ﬁrm’s business strategy. Topics include management theories and organizational design principles; strategy and critical
+success factor formulation; methods to reach information systems maturity; business process modeling techniques; quality, the mindset, and the
+problem-solving tools; human resource, cultural, and technical change enablers; how to plan a business reengineering project; and implementation of
+major organizational change.
+460  Information Systems Program (INFO)"
+Special Topics: Managing Op Risk for Engs,41097,"Sieczkowski, Kaleigh",T 3:25pm-6:55pm,INFO 7374,Covers state-of-the-art material of current interest. May be repeated without limit.
+ST: Prompt Engineering & AI,37910,"Brown, Nicholas",MW 2:50pm-4:30pm,INFO 7375,Covers recent advances in neural nets and deep learning techniques with applications to large-scale engineering problems.
+Advances Data Sci/Architecture,32862,"Brown, Nicholas",MR 11:45am-1:25pm,INFO 7390,"students with tools and frameworks primarily to build end-to-end applications. The course is divided into three parts: building the data pipeline for data
+science, implementing data science algorithms, and scaling and deploying data science algorithms."
+Adv Med Device Software Engr,40316,"Ghobreal, Bemin",W 6pm-9:30pm,INFO 7410,Description not found
+Concpts of Object-Oriented Des,31957,"Peters, Daniel",F 6pm-9:30pm,CSYE 6200,"Introduces object-oriented design and programming via the Java programming language; the use of inheritance, composition, and interface classes
+in software design; development of Java applets and applications; study of the Java class libraries, including the swing tool kit for building human
+computer interfaces, the network package for development of client-server systems, and the collections’ package for data structures and sorting
+algorithms. Requires a course project. Requires knowledge of C programming."
+Concpts of Object-Oriented Des,32304,"Peters, Daniel",M 2pm-5:30pm,CSYE 6200,"Introduces object-oriented design and programming via the Java programming language; the use of inheritance, composition, and interface classes
+in software design; development of Java applets and applications; study of the Java class libraries, including the swing tool kit for building human
+computer interfaces, the network package for development of client-server systems, and the collections’ package for data structures and sorting
+algorithms. Requires a course project. Requires knowledge of C programming."
+Concpts of Object-Oriented Des,35239,"Yu, Chen-Hsiang",T 11:45am-1:25pm; R 2:50pm-4:30pm,CSYE 6200,"Introduces object-oriented design and programming via the Java programming language; the use of inheritance, composition, and interface classes
+in software design; development of Java applets and applications; study of the Java class libraries, including the swing tool kit for building human
+computer interfaces, the network package for development of client-server systems, and the collections’ package for data structures and sorting
+algorithms. Requires a course project. Requires knowledge of C programming."
+Enterprise Software Design,31187,"Ozbek, Yusuf",WF 11:45am-1:25pm,CSYE 6220,"Designed to build on previous experience in concepts of object-oriented design courses with equal focus in the three areas of architecture, design,
+and implementation. Instruction and hands-on exercises cover both server-side and client-side web programming. Offers students an opportunity to
+build a conceptual understanding and to gain practical experience with popular frameworks (Spring MVC, Hibernate, and Dojo or jQuery) that increase
+productivity, empower developers, and greatly simplify web development. The goal is to be able to build the server side and client side of substantial
+web-based, client-server, database-intensive, multitier applications."
+Netwrk Strctrs & Cloud Cmpting,32147,"Parikh, Tejas",R 6pm-9:30pm,CSYE 6225,"Offers a practical foundation in cloud computing and hands-on experience with the tools used in cloud computing. Designed as a foundation
+course for cloud-aware, adept professionals. Focuses on the fundamentals of cloud computing, the principal areas of cloud architectures, cloud
+security, cloud governance, cloud storage, cloud virtualization, and cloud capacity. Discusses the Internet evolution that led to cloud and how cloud
+applications revolutionized Web applications."
+Parallel Machine Learning & AI,33290,"Liu, Handan",TF 1:35pm-3:15pm,CSYE 7105,"Explores the parallelization of machine learning and deep learning code that leads to high performance on heterogeneous cluster architectures.
+Includes the applications to a variety of domains, including image classiﬁcation, speech recognition, and natural language processing, etc. Covers
+a brief overview of the emerging parallel computing applications. Analyzes system architectures for different kinds of parallel computing systems
+(shared-memory system, distributed-memory system, accelerator system, and hybrid). Offers students an opportunity to practice the principles and
+the practice of the emerging parallelism-based machine-learning paradigm."
+Advanced Cloud Computing,33291,"Parikh, Tejas",Sa 9am-12:30pm,CSYE 7125,"Examines a collection of repeatable, generic software design patterns such as sidecar pattern, ambassador pattern, adapter pattern, event driven,
+stream and batch processing, containers and container orchestration with Kubernetes, replication, partitioning, transactions, consistency, and
+consensus to help make the development of reliable distributed systems more approachable and efﬁcient. Microservices, containers, and container
+orchestration have fundamentally changed how distributed systems are developed. Offers students an opportunity to determine which kind of
+technology is appropriate for which purpose and to understand how these patterns can be combined to form the foundation of a good application
+architecture."
+Big-Data Sys Engr Using Scala,31751,"Hillyard, Robin",T 11:45am-1:25pm; R 2:50pm-4:30pm,CSYE 7200,"Covers the fundamentals of functional programming with Scala and seeks to provide a basic, practical foundation for students who want to use it as a
+language for working with big-data platforms. Scala is one of a new breed of general-purpose functional programming languages that is strongly typed
+and is object oriented. It runs on the Java virtual machine and is able to share libraries from the vast collection of open-source projects written in Java.
+For these reasons it is readily accessible by programmers of Java, C++, and similar languages."
+Building Virtual Environments,32856,"Brown, Nicholas",TF 3:25pm-5:05pm,CSYE 7270,"Covers the basics of three-dimensional graphics programming using the Unity game engine. Includes a built-in terrain editor; a shader development
+facility; built-in physics; and advanced lighting, shadows, and audio to build 3D virtual environments and serious games. Javascript and C# can be
+used for scripting. Assets from various 3D modeling programs can be imported. Facilities to publish to the PC, Mac, iPhone and Wii and support for
+real-time multiplayer games are available. Requires a ﬁnal project."
+User Experience Design/Testing,31754,"Chawla, Vishal",M 6:10pm-9:40pm,CSYE 7280,"Introduces user experience concepts while working on Web design projects. Offers students an opportunity to build the necessary skill sets to make
+better decisions when designing contemporary websites that cater to customer needs. Students practice interview techniques to understand user
+requirements while keeping user experience central to the effort. Uses wireframes and user scenarios to drive the creative design process. Various
+case studies are introduced and discussed in team settings to emphasize user perspectives. Uses quality assurance and usability testing to drive
+validation and user-acceptance testing and approvals."
+User Experience Design/Testing,35246,"Chawla, Vishal",W 6:10pm-9:40pm,CSYE 7280,"Introduces user experience concepts while working on Web design projects. Offers students an opportunity to build the necessary skill sets to make
+better decisions when designing contemporary websites that cater to customer needs. Students practice interview techniques to understand user
+requirements while keeping user experience central to the effort. Uses wireframes and user scenarios to drive the creative design process. Various
+case studies are introduced and discussed in team settings to emphasize user perspectives. Uses quality assurance and usability testing to drive
+validation and user-acceptance testing and approvals."
+Special Topics: Design Patterns,34558,"Peters, Daniel",T 6pm-9:30pm,CSYE 7374,Offers topics of current interest in computer systems engineering. May be repeated without limit.
+Special Topics: Design Patterns,38184,"Peters, Daniel",W 6:10pm-9:40pm,CSYE 7374,Offers topics of current interest in computer systems engineering. May be repeated without limit.
+Theory & Prac App AI Gen Model,36938,"Das, Subrata",W 6pm-9:30pm,CSYE 7380,"Covers transformer-based language models (e.g. ChatGPT and Bard), generative image models (e.g., GAN and variational autoencoder), and generative
+models for structured data (e.g., Bayesian networks). Explores generative models for data of major modalities, namely, textual, image, and structured
+relational. Offers the opportunity to learn how to build such models for practical applications in different verticals using Python and numerous
+publicly available libraries in Keras/TensorFlow and Pytorch. Given recent surges in generative modeling tools, generative modeling technologies and
+applications are necessary skills for students entering the ﬁeld of industrial data science."
+Theory & Prac App AI Gen Model,40283,"Zhao, Yizhen",F 3:25pm-6:55pm,CSYE 7380,"Covers transformer-based language models (e.g. ChatGPT and Bard), generative image models (e.g., GAN and variational autoencoder), and generative
+models for structured data (e.g., Bayesian networks). Explores generative models for data of major modalities, namely, textual, image, and structured
+relational. Offers the opportunity to learn how to build such models for practical applications in different verticals using Python and numerous
+publicly available libraries in Keras/TensorFlow and Pytorch. Given recent surges in generative modeling tools, generative modeling technologies and
+applications are necessary skills for students entering the ﬁeld of industrial data science."
+Theory & Prac App AI Gen Model,40849,"Zhao, Yizhen",R 4:35pm-8:05pm,CSYE 7380,"Covers transformer-based language models (e.g. ChatGPT and Bard), generative image models (e.g., GAN and variational autoencoder), and generative
+models for structured data (e.g., Bayesian networks). Explores generative models for data of major modalities, namely, textual, image, and structured
+relational. Offers the opportunity to learn how to build such models for practical applications in different verticals using Python and numerous
+publicly available libraries in Keras/TensorFlow and Pytorch. Given recent surges in generative modeling tools, generative modeling technologies and
+applications are necessary skills for students entering the ﬁeld of industrial data science."
+Data Mgt and Database Design,34361,"Montrond, Manuel",M 6:10pm-9:40pm,DAMG 6210,"Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship
+(E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems
+(DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for
+personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications."
+Data Mgt and Database Design,34362,"Montrond, Manuel",W 6:10pm-9:40pm,DAMG 6210,"Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship
+(E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems
+(DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for
+personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications."
+Data Mgt and Database Design,34365,"Kuragayala, Naveen",R 6pm-9:30pm,DAMG 6210,"Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship
+(E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems
+(DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for
+personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications."
+Data Mgt and Database Design,34366,"Ozbek, Yusuf",Sa 2:30pm-6pm,DAMG 6210,"Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship
+(E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems
+(DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for
+personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications."
+Data Mgt and Database Design,34368,"Fotiadis, Dimitrios",WF 11:45am-1:25pm,DAMG 6210,"Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship
+(E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems
+(DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for
+personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications."
+Big Data Sys & Intel Analytics,34370,"Krishnamurthy, Srikanth",F 6pm-9:30pm,DAMG 7245,"Offers students an opportunity to learn a hands-on approach to understanding how large-scale data sets are processed and how data science
+algorithms are adopted in the industry through case studies and labs. This project-based course builds on INFO 7390 and focuses on enabling
+students with tools and frameworks primarily to build end-to-end applications. The course is divided into three parts: building the data pipeline for data
+science, implementing data science algorithms, and scaling and deploying data science algorithms."
+Big Data Sys & Intel Analytics,36939,"Krishnamurthy, Srikanth",Sa 1:30pm-5pm,DAMG 7245,"Offers students an opportunity to learn a hands-on approach to understanding how large-scale data sets are processed and how data science
+algorithms are adopted in the industry through case studies and labs. This project-based course builds on INFO 7390 and focuses on enabling
+students with tools and frameworks primarily to build end-to-end applications. The course is divided into three parts: building the data pipeline for data
+science, implementing data science algorithms, and scaling and deploying data science algorithms."
+Big Data Architec & Governance,34371,"Heydari, Kambiz",F 1:35pm-5:05pm,DAMG 7250,"Focuses on creating and managing a data-driven enterprise. Geared to current IT technical professionals, data scientists, technical project managers,
+aspiring IT professionals, and managers who want to understand the complex nature of creating and managing data-driven projects to support the
+new and legacy data environments. Covers the analysis that is required to design data-driven projects and make appropriate recommendations for the
+target state of an organization. This analysis is used as input to create a comprehensive road map to achieve the target state and includes current and
+future uses of data, consumption methods, data sources and categories, and aggregation and quality requirements.
+Northeastern University 2023-2024 Course Descriptions 239"
+Designing Data Arch Busn Intel,34373,"Kuragayala, Naveen",M 6pm-9:30pm,DAMG 7370,"Focuses on designing advanced data architectures supporting structured, unstructured, and semistructured data sources; hybrid integration and
+data engineering; and analytical uses by casual information consumers, power users, and data scientists. Technologies include databases (relational,
+columnar, in-memory, and NoSQL); hybrid data, application, and cloud integration; data preparation; data virtualization; descriptive, diagnostic,
+predictive, and prescriptive analytics; and on-premise and on-cloud deployments. Topics include data structures, data models, data integration
+workflow and data engineering, data integration, data preparation, and data virtualization."
+ST: Gen AI w/ LLM in Data Eng,36942,"Aradhya, Kishore",Sa 10am-1:30pm,DAMG 7374,Offers topics of current interest in data architecture and management. May be repeated without limit.
+ST: Adv Data Mgmt & Governance,36941,"Heydari, Kambiz",Sa 9am-12:30pm,DAMG 7374,Offers topics of current interest in data architecture and management. May be repeated without limit.

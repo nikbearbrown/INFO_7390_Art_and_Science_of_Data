@@ -1,0 +1,530 @@
+
+Computer Systems Engineering (CSYE)
+Courses
+CSYE 6200. Concepts of Object-Oriented Design. (4 Hours)
+Introduces object-oriented design and programming via the Java programming language; the use of inheritance, composition, and interface classes
+in software design; development of Java applets and applications; study of the Java class libraries, including the swing tool kit for building human
+computer interfaces, the network package for development of client-server systems, and the collections’ package for data structures and sorting
+algorithms. Requires a course project. Requires knowledge of C programming.
+CSYE 6202. Concepts of Object-Oriented Design with C#. (4 Hours)
+Introduces object-oriented design and programming via the C# (C-sharp) programming language and its underlying .NET platform. Covers the use
+of inheritance and composition in software design and development of complex C# .NET applications. Topics include classes, overloading, data
+abstraction, information hiding, encapsulation, inheritance, polymorphism, ﬁle processing, templates, exceptions, container classes, and low-level
+language features.
+CSYE 6205. Concepts of Object-Oriented Design with C++. (4 Hours)
+Introduces object-oriented design and programming via the C++ programming language. Covers the use of inheritance and composition in software
+design and development of complex C++ applications. Topics include classes, overloading, data abstraction, information hiding, encapsulation,
+inheritance, polymorphism, ﬁle processing, templates, exceptions, container classes, and low-level language features. Requires a course project.
+CSYE 6220. Enterprise Software Design. (4 Hours)
+Designed to build on previous experience in concepts of object-oriented design courses with equal focus in the three areas of architecture, design,
+and implementation. Instruction and hands-on exercises cover both server-side and client-side web programming. Offers students an opportunity to
+build a conceptual understanding and to gain practical experience with popular frameworks (Spring MVC, Hibernate, and Dojo or jQuery) that increase
+productivity, empower developers, and greatly simplify web development. The goal is to be able to build the server side and client side of substantial
+web-based, client-server, database-intensive, multitier applications.
+Prerequisite(s):  CSYE 6200 with a minimum grade of B- or CSYE 6202 with a minimum grade of B- or CSYE 6205 with a minimum grade of B-
+CSYE 6225. Network Structures and Cloud Computing. (4 Hours)
+Offers a practical foundation in cloud computing and hands-on experience with the tools used in cloud computing. Designed as a foundation
+course for cloud-aware, adept professionals. Focuses on the fundamentals of cloud computing, the principal areas of cloud architectures, cloud
+security, cloud governance, cloud storage, cloud virtualization, and cloud capacity. Discusses the Internet evolution that led to cloud and how cloud
+applications revolutionized Web applications.
+Prerequisite(s):  CSYE 6200 with a minimum grade of B- or INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B-
+CSYE 6230. Operating Systems. (4 Hours)
+Covers basic concepts of operating systems and system programming, such as utility programs, subsystems, and multiple-program systems. Main
+topics include processes, interprocess communication, and synchronization; memory allocation, segmentation, and paging; loading, linking, and
+libraries; resource allocation, scheduling, and performance evaluation; ﬁle systems, storage devices, and I/O systems; and protection, security, and
+privacy. Emphasizes key concepts through code design and development.
+Prerequisite(s):  INFO 6205 with a minimum grade of B-
+CSYE 6305. Introduction to Quantum Computing with Applications. (4 Hours)
+Addresses how scientists and engineers can use quantum computers to simulate large quantum mechanical systems easily, which is crucial in
+discovery of new lifesaving drugs and new efﬁcient materials. Quantum computers maintain an abstract state where both 0 and 1 states exist
+simultaneously with some probability. The course delves deeper into how such an abstract state can be realized physically and used as a computing
+tool to simplify algorithm implementation and execution. Offers students an opportunity to learn about the latest breakthroughs in cryptography
+systems (RSA), as well as fast database search; accurate weather forecasting; ultrasecure communication; and fast image recognition.
+Prerequisite(s):  INFO 6205 with a minimum grade of B
+CSYE 6700. Technical Writing and Professional Development. (0 Hours)
+Emphasizes professional communication skills through intensive verbal practice and technical writing application. Students work together in groups
+and individually to practice verbal and written communication to increase their English competency and comfort level for work in the United States.
+Offers students an opportunity to develop their ability to communicate technical skills sets in a professional setting. This course does not count
+toward graduation requirements.
+CSYE 6962. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+
+--- Page 2 ---
+Northeastern University 2023-2024 Course Descriptions 197
+CSYE 7105. High-Performance Parallel Machine Learning and AI. (4 Hours)
+Explores the parallelization of machine learning and deep learning code that leads to high performance on heterogeneous cluster architectures.
+Includes the applications to a variety of domains, including image classiﬁcation, speech recognition, and natural language processing, etc. Covers
+a brief overview of the emerging parallel computing applications. Analyzes system architectures for different kinds of parallel computing systems
+(shared-memory system, distributed-memory system, accelerator system, and hybrid). Offers students an opportunity to practice the principles and
+the practice of the emerging parallelism-based machine-learning paradigm.
+Prerequisite(s):  DAMG 6105 with a minimum grade of B or INFO 6105 with a minimum grade of B
+CSYE 7125. Advanced Cloud Computing. (4 Hours)
+Examines a collection of repeatable, generic software design patterns such as sidecar pattern, ambassador pattern, adapter pattern, event driven,
+stream and batch processing, containers and container orchestration with Kubernetes, replication, partitioning, transactions, consistency, and
+consensus to help make the development of reliable distributed systems more approachable and efﬁcient. Microservices, containers, and container
+orchestration have fundamentally changed how distributed systems are developed. Offers students an opportunity to determine which kind of
+technology is appropriate for which purpose and to understand how these patterns can be combined to form the foundation of a good application
+architecture.
+Prerequisite(s):  CSYE 6225 with a minimum grade of B
+CSYE 7200. Big-Data System Engineering Using Scala. (4 Hours)
+Covers the fundamentals of functional programming with Scala and seeks to provide a basic, practical foundation for students who want to use it as a
+language for working with big-data platforms. Scala is one of a new breed of general-purpose functional programming languages that is strongly typed
+and is object oriented. It runs on the Java virtual machine and is able to share libraries from the vast collection of open-source projects written in Java.
+For these reasons it is readily accessible by programmers of Java, C++, and similar languages.
+CSYE 7215. Foundations of Parallel, Concurrent, and Multithreaded Programming. (4 Hours)
+Covers all aspects of concurrent program design, development, and implementation utilizing the Java multithreading API/facilities. Topics covered
+include thread safety and lifetime issues, block structured versus explicit synchronization, intrinsic versus explicit locking, thread pools, liveness
+issues, deadlock, livelock, race conditions, atomicity, performance and scalability, execution policies, test strategies. Major Java multithreading API/
+facilities covered include synchronized blocks, wait sets, intrinsic locks and condition variables, synchronized and concurrent collections, executor
+framework. Comparisons between the Java multithreading API and the Posix Pthreads multithreading standard are provided.
+Prerequisite(s):  CSYE 6200 with a minimum grade of B- or INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B-
+CSYE 7220. Deployment and Operation of Software Applications. (4 Hours)
+Introduces the four most popular infrastructure languages—Chef, Puppet, Ansible, and Salt— and codes with them in the same way that we code with
+Java, Python, C#, and Javascript. IT infrastructure languages and their underlying methods and tools, referred to as DevOps, bridge the gap between
+software development and software administration. Instead of recruiting CPU cycles on our laptops, we create and manage virtual IT infrastructures
+on a public cloud. Offers students an opportunity to learn how to manipulate virtual machines, containers, and lambdas and set up assembly lines on
+public clouds in the fashion of a Model T assembly line.
+Prerequisite(s):  CSYE 6220 with a minimum grade of B- or INFO 6250 with a minimum grade of B-
+CSYE 7224. Engineering Reliable, Scalable, and Maintainable Distributed Systems. (4 Hours)
+Covers repeatable, generic software design patterns such as sidecar, ambassador, adapter, event driven, stream and batch processing, containers
+and container orchestration, replication, partitioning, transactions, consistency, and consensus to help make the development of reliable distributed
+systems more approachable and efﬁcient. Studies the common language and framework these patterns provide. Microservices, containers, and
+container orchestration have fundamentally changed how distributed systems are developed. Designed to ﬁnd ways of thinking about distributed
+systems—not just how they work, but also why they work, and what questions we need to ask. Offers students an opportunity to decide which kind of
+technology is appropriate for which purpose and to understand how these patterns can be combined to form the foundation of a sound application
+architecture.
+Prerequisite(s):  CSYE 6225 with a minimum grade of B
+CSYE 7230. Software Engineering. (4 Hours)
+Looks at the software life cycle (requirements analysis and speciﬁcation, software design, coding, testing, and maintenance). Offers veriﬁcation,
+validation, and documentation at various stages of the life cycle. Covers the Uniﬁed Modeling Language as applied to the software life cycle. Covers
+applications of design patterns. Overviews user interface design, software metrics, and software development environments. Emphasis is on modular
+software construction and development of modular libraries. Requires a small software development project.
+Prerequisite(s):  CSYE 6200 (may be taken concurrently) with a minimum grade of B- or INFO 5100 (may be taken concurrently) with a minimum grade
+of B- or INFO 5100 (may be taken concurrently) with a minimum grade of B-
+
+--- Page 3 ---
+198  Computer Systems Engineering (CSYE)
+CSYE 7235. Model-Driven Architecture. (4 Hours)
+Develops the skills to utilize new software modeling and management techniques in each state of the life cycle of component-based software
+systems. Applies and extends a basic knowledge of the Uniﬁed Modeling Language (UML). Introduces and applies metamodel management concepts
+using the OMG metaobject facility as a technology baseline. Develops a component-based software project throughout the course using C++ or Java;
+grading primarily based on the software project and its public presentation.
+Prerequisite(s):  INFO 6205 with a minimum grade of B-
+CSYE 7270. Building Virtual Environments. (4 Hours)
+Covers the basics of three-dimensional graphics programming using the Unity game engine. Includes a built-in terrain editor; a shader development
+facility; built-in physics; and advanced lighting, shadows, and audio to build 3D virtual environments and serious games. Javascript and C# can be
+used for scripting. Assets from various 3D modeling programs can be imported. Facilities to publish to the PC, Mac, iPhone and Wii and support for
+real-time multiplayer games are available. Requires a ﬁnal project.
+CSYE 7280. User Experience Design and Testing. (4 Hours)
+Introduces user experience concepts while working on Web design projects. Offers students an opportunity to build the necessary skill sets to make
+better decisions when designing contemporary websites that cater to customer needs. Students practice interview techniques to understand user
+requirements while keeping user experience central to the effort. Uses wireframes and user scenarios to drive the creative design process. Various
+case studies are introduced and discussed in team settings to emphasize user perspectives. Uses quality assurance and usability testing to drive
+validation and user-acceptance testing and approvals.
+Prerequisite(s):  CSYE 6200 (may be taken concurrently) with a minimum grade of B- or INFO 5100 (may be taken concurrently) with a minimum grade
+of B- or INFO 5100 (may be taken concurrently) with a minimum grade of B-
+CSYE 7370. Deep Learning and Reinforcement Learning in Game Engineering. (4 Hours)
+Introduces a deep learning and reinforcement learning framework for games called ML-Agents, which enable games and simulations to serve as
+environments for training intelligent agents. Studies and reviews classical game artiﬁcial intelligence (game AI), primarily search and decision trees.
+Uses game AI to generate responsive, adaptive, or intelligent behaviors primarily in nonplayer characters (NPCs) similar to human-like intelligence.
+Game AI includes everything from simple chasing and evading to pattern movement, to create opponents with complex tactical and strategic
+decisions.
+Prerequisite(s):  INFO 5100 with a minimum grade of B or INFO 5100 with a minimum grade of B or CSYE 6200 with a minimum grade of B
+CSYE 7374. Special Topics in Computer Systems Engineering. (4 Hours)
+Offers topics of current interest in computer systems engineering. May be repeated without limit.
+CSYE 7380. Theory and Practical Applications of AI Generative Modeling. (4 Hours)
+Covers transformer-based language models (e.g. ChatGPT and Bard), generative image models (e.g., GAN and variational autoencoder), and generative
+models for structured data (e.g., Bayesian networks). Explores generative models for data of major modalities, namely, textual, image, and structured
+relational. Offers the opportunity to learn how to build such models for practical applications in different verticals using Python and numerous
+publicly available libraries in Keras/TensorFlow and Pytorch. Given recent surges in generative modeling tools, generative modeling technologies and
+applications are necessary skills for students entering the ﬁeld of industrial data science.
+Prerequisite(s):  INFO 6205 with a minimum grade of B
+CSYE 7470. Advanced Game Analytics. (4 Hours)
+Explores the use of deep learning for the automated creation and analysis of game metrics. Uses convolutional neural networks (CNNs) to segment
+and identify anything on a game screen in real-time, which is used as input to AI systems. The second part of the course analyzes the importance
+of the metrics. Covers surrogate models, Shannon entropy, Individual Conditional Expectation (ICE), leave-one-covariate-out (LOCO), local feature
+importance, partial dependency plots, tree-based feature importance, standardized coefﬁcient importance, accumulated local effects (ALE) plots,
+and Shapley values. Lastly, covers building predictive models with game data using the following techniques: supervised learning, generative/
+discriminative learning, parametric/nonparametric learning, neural networks, unsupervised learning reinforcement learning, and adaptive control.
+Prerequisite(s):  INFO 6105 with a minimum grade of B
+CSYE 7550. Distributed Intelligent Agents in the Metaverse. (4 Hours)
+Introduces the ﬁeld of agent-based computing as enablers of metaverse social avatar systems. Focuses on important aspects that shape the agent’s
+experience within the challenging virtual-reality design and engineering landscape. Covers personal space, personiﬁed locomotion, agent aesthetics,
+agent social interactions, and agent’s relation to blockchain decentralized virtual identity. Students engage in projects to deliver VR platforms
+applicable to engineering ﬁelds such as mechanical, civil, chemical, and bioengineering. Considers distributed learning applications and certiﬁcation of
+credentials, as well. Offers students an opportunity to learn how to conﬁgure various agent types to construct virtual worlds bursting with lively agent
+interactive experiences that go far beyond the constraints of the physical reality.
+Prerequisite(s):  CSYE 7270 with a minimum grade of B ; INFO 6205 with a minimum grade of B
+CSYE 7962. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+
+--- Page 4 ---
+Northeastern University 2023-2024 Course Descriptions 199
+CSYE 7986. Research. (0 Hours)
+Offers students an opportunity to conduct full-time research under faculty supervision.
+CSYE 7990. Thesis. (1-8 Hours)
+Offers analytical and/or experimental work conducted under the direction of the faculty in fulﬁllment of the requirements for the degree. Requires ﬁrst-
+year students to attend a graduate seminar program that introduces students to the methods of choosing a research topic, conducting research, and
+preparing a thesis. Requires successful completion of the seminar program. May be repeated without limit.
+CSYE 7996. Thesis Continuation - Half-Time. (0 Hours)
+Offers analytical and/or experimental work conducted under the auspices of the department.
+
+--- Page 5 ---
+238  Data Architecture Management (DAMG)
+Data Architecture Management (DAMG)
+Courses
+DAMG 1990. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+DAMG 2990. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+DAMG 3990. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+DAMG 4990. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+DAMG 6105. Data Science Engineering with Python. (4 Hours)
+Studies the Python programming language with data science as the application domain. Offers students an opportunity to learn how to perform
+complex numerical calculations, ﬁxed data types, space efﬁciency, and vector manipulations. Covers tools and techniques for manipulating tables,
+spreadsheets, and group and pivot tables involving extremely large data sets. Covers large multidimensional arrays and matrices and the high-level
+mathematical functions to operate on these arrays. Studies how to use Python to manipulate the classic math and science algorithms. Analyzes
+helper functions such as linear and nonlinear regression, integration, Fourier transformations, numerical optimization, etc. Includes higher-level
+classes for manipulating and visualizing data. Applies tools and techniques to classical data science using cases such as time series forecasting,
+social network analysis, text analytics, and big data processing.
+DAMG 6210. Data Management and Database Design. (4 Hours)
+Studies design of information systems from a data perspective for engineering and business applications; data modeling, including entity-relationship
+(E-R) and object approaches; user-centric information requirements and data sharing; fundamental concepts of database management systems
+(DBMS) and their applications; alternative data models, with emphasis on relational design; SQL; data normalization; data-driven application design for
+personal computer, server-based, enterprise-wide, and Internet databases; and distributed data applications.
+DAMG 6962. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+DAMG 7105. Intelligent Data Modeling and Presentation for Engineers. (4 Hours)
+Studies every step in a data analysis pipeline and the visual techniques that aid in understanding the quality of each step. Offers students an
+opportunity to visualize the quality of their data, learn how to ﬁx issues, and then visualize what those ﬁxes helped. Focuses on visualizing models to
+produce actionable insights and how to visualize causal relationships in models. Emphasizes attention to graphical machine-learning models and how
+to visualize the critical parts of a network. Covers graphic design principles to assist students to effectively communicate their ﬁndings.
+Prerequisite(s):  INFO 5002 with a minimum grade of B or INFO 6105 with a minimum grade of B or DAMG 6105 with a minimum grade of B
+DAMG 7245. Big-Data Systems and Intelligence Analytics. (4 Hours)
+Offers students an opportunity to learn a hands-on approach to understanding how large-scale data sets are processed and how data science
+algorithms are adopted in the industry through case studies and labs. This project-based course builds on INFO 7390 and focuses on enabling
+students with tools and frameworks primarily to build end-to-end applications. The course is divided into three parts: building the data pipeline for data
+science, implementing data science algorithms, and scaling and deploying data science algorithms.
+Prerequisite(s):  DAMG 6105 with a minimum grade of B or INFO 6105 with a minimum grade of B
+DAMG 7250. Big Data Architecture and Governance. (4 Hours)
+Focuses on creating and managing a data-driven enterprise. Geared to current IT technical professionals, data scientists, technical project managers,
+aspiring IT professionals, and managers who want to understand the complex nature of creating and managing data-driven projects to support the
+new and legacy data environments. Covers the analysis that is required to design data-driven projects and make appropriate recommendations for the
+target state of an organization. This analysis is used as input to create a comprehensive road map to achieve the target state and includes current and
+future uses of data, consumption methods, data sources and categories, and aggregation and quality requirements.
+Prerequisite(s):  CSYE 6200 with a minimum grade of B or DAMG 6105 with a minimum grade of B or DAMG 6210 with a minimum grade of B or
+INFO 5100 with a minimum grade of B or INFO 6210 with a minimum grade of B
+
+--- Page 6 ---
+Northeastern University 2023-2024 Course Descriptions 239
+DAMG 7275. Advanced Database Management Systems. (4 Hours)
+Introduces the skill set required to become a serious database applications developer. Offers an overview of the Oracle9i object-relational database
+system for those who have mastered the fundamental principles of database design and are competent with basic SQL. Gives students the
+opportunity to develop a strong understanding of the PL/SQL programming language, which is used to create triggers, user-generated functions,
+stored procedures, and packages for programming Oracle objects. Emphasizes advanced SQL features and Oracle-speciﬁc SQL enhancements. Covers
+optimization and tuning issues. Covers corresponding material for Transact-SQL (used for Microsoft SQL Server and Sybase database systems) as
+time and resources permit.
+Prerequisite(s):  DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B
+DAMG 7290. Data Warehousing and Business Intelligence. (4 Hours)
+Examines the technical and management aspects of building a data warehouse. Explores the architecture, infrastructure, processes, data quality,
+database design, and data analysis involved in building the data warehouse for business analysis. Management issues include business goals,
+tool selection, project management, personnel skills, training, and user requirements. Topics include dimensional data modeling, extraction/
+transformation/load processes, data quality problems, datamarts, operational data stores (ODS), staging databases, and online analytic processing
+(OLAP).
+Prerequisite(s):  DAMG 6210 with a minimum grade of B or DAMG 7275 with a minimum grade of B or INFO 6205 with a minimum grade of B or INFO
+6210 with a minimum grade of B
+DAMG 7325. Introduction to Information Technology Auditing. (4 Hours)
+Designed to provide a foundation for the study and professional career development of information technology (IT) auditing. Introduces the
+fundamentals of IT auditing, core reasons why this is a specialized area of auditing, and the principle objectives of IT auditing and its relationship to
+integrated ﬁnancial or operational auditing. Offers an insight into management‘s objectives regarding IT risk management. Uses the Cobit governance
+and control framework to emphasize management issues regarding control of IT and the achievement of value through managed IT processes.
+Introduces three primary types of IT audits: the audits of computerized information systems, IT processing environments, and the process of
+developing and implementing information systems.
+Prerequisite(s):  DAMG 6105 with a minimum grade of B ; (DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B )
+DAMG 7350. Systems and Cybersecurity Fundamentals. (4 Hours)
+Presents the principles of data and technology that deﬁne systems and cybersecurity from a socio-technical perspective. Offers students an
+opportunity to gain insight into the importance of systems security within cybersecurity and the integral role that information systems analysts play in
+developing cybersecure systems that people use. Through hands-on dynamic learning, students explore foundational cybersecurity principles, security
+architecture, risk management, attacks and mitigation strategies using Kali Linux, cyber incident response, and emerging IT/IS technologies.
+Prerequisite(s):  DAMG 6105 with a minimum grade of B ; (DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B )
+DAMG 7370. Designing Advanced Data Architectures for Business Intelligence. (4 Hours)
+Focuses on designing advanced data architectures supporting structured, unstructured, and semistructured data sources; hybrid integration and
+data engineering; and analytical uses by casual information consumers, power users, and data scientists. Technologies include databases (relational,
+columnar, in-memory, and NoSQL); hybrid data, application, and cloud integration; data preparation; data virtualization; descriptive, diagnostic,
+predictive, and prescriptive analytics; and on-premise and on-cloud deployments. Topics include data structures, data models, data integration
+workflow and data engineering, data integration, data preparation, and data virtualization.
+Prerequisite(s):  DAMG 6210 with a minimum grade of B or INFO 6210 with a minimum grade of B
+DAMG 7374. Special Topics in Data Architecture and Management. (1-4 Hours)
+Offers topics of current interest in data architecture and management. May be repeated without limit.
+DAMG 7390. Advances in Hybrid Data Integration and Engineering. (4 Hours)
+Offers students an opportunity to understand concepts on integration use cases, integration processes and personae, data governance (with privacy
+and security), and data management, in an era when enterprises are increasingly adding, expanding, and altering data sources. While gathering data
+is often straightforward, enterprises struggle to integrate, cleanse, curate, transform, and govern data to deliver comprehensive and consistent data to
+support operations and enable analytics. Covers real-world integration use cases that present data fragmentation, data inconsistency, and data quality
+challenges and effective architectures needed to design, develop, and implement hybrid integration platforms. Studies how to apply theory and best
+and pragmatic practices with various technologies to implement hybrid integration platform solutions.
+Prerequisite(s):  DAMG 7370 with a minimum grade of B-
+DAMG 7986. Research. (0 Hours)
+Offers students an opportunity to conduct full-time research under faculty supervision.
+
+--- Page 7 ---
+Northeastern University 2023-2024 Course Descriptions 457
+Information Systems Program (INFO)
+Courses
+INFO 5001. Application Modeling and Design. (4 Hours)
+Practices social-technical software engineering methods and tools to solve real-world problems. Explores innovative design and programming
+techniques to build signiﬁcant business applications quickly. Studies the process of systematically combining UX techniques, business processes,
+and complex data models to assemble applications that are user-friendly and meet business requirements. Employs the object-oriented paradigm,
+visual user interface design principles, and programming languages such as Java, as well as productivity tools, to put together complicated, powerful
+business applications with ease. Explores the art of how to systematically write software programs to solve any business problem, through practicing
+simple and smart ways of making software programming enjoyable.
+INFO 5002. Introduction to Python for Information Systems. (4 Hours)
+Studies the Python programming language for application engineering. This hands-on course offers students an opportunity to obtain proﬁciency in
+the core concepts of Python and the skills and knowledge for building applications using any of the hundreds of thousands of task-speciﬁc Python
+libraries. Covers the important concepts such as reading and writing to standard IO, using operators, controlling the flow of execution, using functions,
+reading and writing ﬁles, and basic object-oriented programming concepts. Applies tools and techniques to classical software engineering and Python-
+speciﬁc facilities such as code introspection, reuse, built-in sequence types, and iteration.
+INFO 5100. Application Engineering and Development. (4 Hours)
+Takes students in a step-by-step manner through the process of systematically combining UX techniques, business processes, and complex
+data models to assemble applications that are user-friendly and meet business requirements. Employs the object-oriented paradigm, visual user
+experience, and system design principles to put together complicated, powerful, real-world applications. The primary objective of this course is to
+practice social-technical software engineering methods and tools to solve real-world problems. Offers students an opportunity to learn innovative
+design and programming techniques to build signiﬁcant business applications quickly; to practice simple and smart ways of making software
+construction enjoyable; and to master the art of how to systematically write software programs to solve any business problem.
+Corequisite(s):  INFO 5101
+INFO 5101. Lab for INFO 5100. (0 Hours)
+Accompanies INFO 5100. Provides additional instruction in Java programming.
+Corequisite(s):  INFO 5100
+INFO 6105. Data Science Engineering Methods and Tools. (4 Hours)
+Introduces the fundamental techniques for machine learning and data science engineering. Discusses a variety of machine learning algorithms, along
+with examples of their implementation, evaluation, and best practices. Lays the foundation of how learning models are derived from complex data
+pipelines, both algorithmically and practically. Topics include supervised learning (parametric/nonparametric algorithms, support vector machines,
+kernels, neural networks, deep learning) and unsupervised learning (clustering, dimensionality reduction, recommender systems). Based on numerous
+real-world case studies.
+Prerequisite(s):  INFO 5100 (may be taken concurrently) with a minimum grade of B- or INFO 5100 (may be taken concurrently) with a minimum grade
+of B- or CSYE 6200 (may be taken concurrently) with a minimum grade of B-
+INFO 6106. Neural Modeling Methods and Tools. (4 Hours)
+Uses a graph theoretic approach to build models representing dependencies of model components instead of using analytical functions in statistics to
+interpolate observations, build data models, and estimate model parameters. The interpolation is still parametric, but the parameters are graph related
+and do not involve analytic functions. Discusses how to explain neural models and not fear them; when it is appropriate to use neural models; and how
+to interact with machines that use neural models in the same way one would trust a friend, so that trust between humans and machines is enhanced
+rather than diminished. These so-called neural models mirror in some regard how biological brains build models to make sense of the world and do
+predictions.
+Prerequisite(s):  INFO 6105 with a minimum grade of B
+INFO 6150. Web Design and User Experience Engineering. (4 Hours)
+Exposes students to both conceptual and technical aspects of Web design. User experience design is the discipline of creating a useful and usable
+website or application that is easily navigated and meets the needs of both the site owner and its users. Covers Web standards and best practices.
+Studies the fundamental concepts, techniques, practices, work flows, and tools associated with the practice of user-experience design in Web
+interfaces. Offers students an opportunity to learn the core principles of information architecture, usability, marketing hierarchy, and user experience
+for contextual, value-driven websites. Additional areas of focus include typography, color theory and composition, responsive design, CSS3 concepts,
+basic scripting, and JavaScript libraries to create functional, effective, and visually appealing websites.
+Prerequisite(s):  INFO 5100 (may be taken concurrently) with a minimum grade of B- or INFO 5100 (may be taken concurrently) with a minimum grade
+of B- or CSYE 6200 (may be taken concurrently) with a minimum grade of B-
+
+--- Page 8 ---
+458  Information Systems Program (INFO)
+INFO 6205. Program Structure and Algorithms. (4 Hours)
+Presents data structures and related algorithms, beginning with a brief review of dynamic memory allocation. Discusses the fundamental data
+structures in detail, including the abstract representation, supporting algorithms, and implementation methods. Focuses on understanding the
+application of the abstract data structure and the circumstances that affect implementation decisions. Covers lists, stacks, queues, trees, hash tables,
+and graphs. Covers recursion and searching and sorting algorithms in detail. Emphasizes data abstraction and encapsulation in code design. Explores
+external storage structures, time permitting.
+Prerequisite(s):  INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B- or CSYE 6200 with a minimum grade of B-
+INFO 6215. Business Analysis and Information Engineering. (4 Hours)
+Covers computer information systems and the decision-making process, determination of information requirements, system development life cycle,
+and system modeling and analysis. Uses a hands-on approach to introduce the student to software engineering methodologies and practices,
+business requirements speciﬁcation, business process design, model-driven object-oriented design, software development, and maintenance.
+Emphasizes the effective leverage of the Uniﬁed Modeling Language (UML) to transform business issues and objectives to concrete software
+solutions that meet business needs and usability and user interface design as critical elements of a successful software engineering engagement.
+INFO 6245. Planning and Managing Information Systems Development. (4 Hours)
+Provides an overview of the most popular information systems needs’ assessment methodologies including portfolio analysis, stage assessment,
+business systems planning, and the Alloway survey technique. Topics include utilities IS strategic plan prioritization techniques of business goal
+alignment, architectural compatibility, and cost/beneﬁt and risk analysis to demonstrate how businesses match needs to budgetary constraints.
+Describes and evaluates options for the placement of the IS function within the organization and a variety of methods to manage the function.
+Introduces a generic application development and project planning methodology used as a model to facilitate the development of a four-stage project
+plan for a prototype project. Uses the Project Management Institute’s PMBOK and Harvard Business School case studies extensively.
+INFO 6250. Web Development Tools and Methods. (4 Hours)
+Explores advanced server-side technologies and tools necessary to design and engineer complete web-based enterprise applications quickly.
+Designed to build on previous experience to cover the life cycle of a web-based application. Focuses on MVC web development frameworks to build
+server-side, data-intensive, and multitier web applications. Additionally, discusses designing rich internet applications (RIA) using AJAX and service-
+oriented architecture (SOA) using REST.
+Prerequisite(s):  INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B-
+Corequisite(s):  INFO 6251
+INFO 6251. Lab for INFO 6250. (0 Hours)
+Accompanies INFO 6250. Offers additional instruction in Web tools discussed in class.
+Corequisite(s):  INFO 6250
+INFO 6255. Software Quality Control and Management. (4 Hours)
+Examines techniques for the management and evolution of software systems. Topics include managing software as an asset; life cycle development
+and rapid development technologies; maintainability; quality assurance of software systems including testing strategies and problem analysis;
+software risk analysis; analysis of software project failures; process models, such as CMM and ISO 9001; conﬁguration management; and the impact
+of new development technologies on software management.
+Prerequisite(s):  INFO 5100 (may be taken concurrently) with a minimum grade of B- or CSYE 6200 (may be taken concurrently) with a minimum grade
+of B-
+INFO 6350. Smartphones-Based Web Development. (4 Hours)
+Covers application development for mobile devices using advanced development platforms. Focuses on how to write mobile applications using cross-
+platform development tools and processes. Topics include user interfaces, the software life cycle, persistent storage, networking using HTTP and
+other REST interfaces, and mobile/handheld data applications. Requires a ﬁnal project.
+Prerequisite(s):  INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B- or CSYE 6200 with a minimum grade of B-
+INFO 6660. Business Ethics and Intellectual Property for Engineers. (4 Hours)
+Seeks to support successful engineering careers by offering students an applied understanding of ethical principles in the workplace and
+fundamentals of intellectual property and the American legal system. Seeks to increase students’ awareness of the ethical implications of their work
+and to influence colleagues to think and act in a socially cognizant manner. Introduces ethical principles and codes of professional ethics; types
+of intellectual property (patents, trade secrets, trademarks, copyrights); and fundamentals of the American legal system (sources of American law,
+contracts, torts, intellectual property, antitrust). Offers students an opportunity to practice verbal communication and presentation skills; develop
+an applied understanding of the relationship and differences between legal liability and ethical behavior; and develop applied critical thinking,
+communication, and presentation skills.
+INFO 6962. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+
+--- Page 9 ---
+Northeastern University 2023-2024 Course Descriptions 459
+INFO 7110. High-Performance Coding for Fintech. (4 Hours)
+Distills the programming challenges constantly faced by quantitative developers in the ﬁntech space. Presents high-performance computing
+challenges as well as their solutions for investment banks, market-making ﬁrms, capital management funds, and loan-ﬁnancing institutions. Covers
+the art of high-performance computing using object-oriented structure of ﬁve prevailing programming languages widely adopted in the ﬁntech
+industry: Java, C++, MATLAB, R, and Python. In particular, the course offers students an opportunity to obtain capabilities to successfully complete
+high-performance computing tasks in the following ﬁve application areas: global-macro arbitrage, quantitative equity portfolio management, option
+pricing and trading, ﬁxed-income securities, and market making.
+Prerequisite(s):  INFO 6205 with a minimum grade of B-
+INFO 7205. Advanced Application Engineering Project. (4 Hours)
+Offers students an opportunity to master advanced software design and programming techniques for building complex software applications quickly.
+The engineering issues addressed assume the business problems are difﬁcult to understand and manage in a practical manner—the system capacity
+must support thousands or even millions of users in a multitude of roles. Addresses high-performance computing requirements, such as concurrency
+and control, scalability, replication, and failover.
+Prerequisite(s):  INFO 5100 with a minimum grade of C- or INFO 5100 with a minimum grade of D- or CSYE 6200 with a minimum grade of C-
+INFO 7225. Accounting and Budgetary Systems for Engineers. (4 Hours)
+Covers the latest engineering principles necessary for building complex software systems that comply with recognized standards in the ﬁnancial
+industry. With automated business processes today, risk and responsibility are shifting to information technology (IT) systems. Offers students an
+opportunity to learn how to incorporate information-based controls related to the ﬁnancial industry that signal trouble, detect violations, and provide
+accountability, as well as a working approval process. Emphasizes software design. Seeks to help engineers construct complex software from a
+sophisticated engineering perspective. Examines how to put together cutting-edge organizational systems that people in the ﬁnancial world can put to
+good use. Designed to prepare students for jobs in the building, maintaining, and employment of such information systems.
+INFO 7245. Agile Software Development. (4 Hours)
+Offers students an opportunity to achieve a high level of practical understanding of software development life cycle (SDLC) with emphasis on agile and
+adaptive incremental methodologies. Examines techniques for the management and evolution of software systems, including project planning from
+requirements gathering, analysis, estimation, and releasing using a hands-on approach to implement agile methodologies. Also covers maintainability,
+including software risk analysis, project retrospectives, and process models such as capability maturity model, conﬁguration management, and their
+practical implementation.
+Prerequisite(s):  INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B- or CSYE 6200 with a minimum grade of B-
+INFO 7250. Engineering of Big-Data Systems. (4 Hours)
+Introduces a general framework for thinking about big data. Services such as Web analytics and intelligent e-commerce have promoted a rapid
+increase in the volume of data generated, analyzed, and archived. In order to solve the problems related to big data, a newer type of database product
+has emerged. Covers how to apply technologies like Hadoop, Accumulo, MongoDB, and various NoSQL databases to build simple, robust, and efﬁcient
+systems to manage and analyze big data. Also describes an easy approach to big data systems that can be built and run by a small team of students.
+Guides students through the theory of big data systems, how to implement them in practice, and how to deploy and operate them once they are built.
+Prerequisite(s):  INFO 6205 with a minimum grade of B- or INFO 6250 with a minimum grade of B- or INFO 7390 with a minimum grade of B- or
+CSYE 6220 with a minimum grade of B-
+INFO 7255. Advanced Big-Data Applications and Indexing Techniques. (4 Hours)
+Studies advanced indexing techniques and algorithms for big-data platforms such as Hadoop and NoSQL databases. Covers big-data design and
+indexing patterns to organize, aggregate, manipulate, and analyze huge amounts of data beyond human scale. Offers students an opportunity to learn
+advanced techniques to improve the performance and robustness of the advanced big-data programming models. Additional areas of focus include
+scalable graph databases, advanced indexing, and full-text searching in graph databases.
+Prerequisite(s):  CSYE 6220 with a minimum grade of B- or INFO 6205 with a minimum grade of B- or INFO 6250 with a minimum grade of B-
+INFO 7260. Business Process Engineering. (4 Hours)
+Addresses the question of how to understand and specify the flow of work responsibility and movement of information throughout the enterprise.
+For businesses to maximize the beneﬁts of technology, they must transform their ad-hoc and often poorly deﬁned ways of doing things to formal
+business processes. Analyzes the speciﬁcation and implementation of complex information systems that integrate well into core business operations.
+Offers students an opportunity to learn how to use agile process speciﬁcation techniques, dynamic process execution, and real-time measurement and
+reporting to support continuous business improvement and change.
+INFO 7285. Organizational Change and IT. (4 Hours)
+Focuses on the change effort needed to integrate a project into the ﬁrm’s organizational structure, culture, business, and process metrics. Geared for
+students undertaking enterprise resource planning systems, or those involved in small or large organizational reengineering projects designed to make
+IT a primary focus of the ﬁrm’s business strategy. Topics include management theories and organizational design principles; strategy and critical
+success factor formulation; methods to reach information systems maturity; business process modeling techniques; quality, the mindset, and the
+problem-solving tools; human resource, cultural, and technical change enablers; how to plan a business reengineering project; and implementation of
+major organizational change.
+
+--- Page 10 ---
+460  Information Systems Program (INFO)
+INFO 7300. Engineering Cybersecure Software Systems. (4 Hours)
+Addresses design and implementation issues critical to producing cybersecure software systems by using a software development perspective. Deals
+with the question of how to make the requirements for conﬁdentiality, integrity, and availability integral to the software development process from
+requirements gathering to design, development, conﬁguration, deployment, and ongoing maintenance. Covers emerging software life-cycle practices
+that address both cybersecurity problems caused by bad software practices that leave software vulnerable to cyberattack and other software
+vulnerabilities that are caused by deﬁciencies in modeling of security requirements, architecture, and design issues.
+Prerequisite(s):  INFO 5100 with a minimum grade of B- or CSYE 6200 with a minimum grade of B-
+INFO 7330. Information Systems for Healthcare-Services Delivery. (4 Hours)
+Addresses the important information systems questions facing the delivery and assessment of healthcare services from administrative, ﬁnancial,
+and clinical perspectives. These include the use of electronic medical records; health information exchanges; and performance evaluation of
+providers, patients, and payers. Provides an introduction on how healthcare is delivered. Also focuses on various information management tools being
+implemented as well as those needed to move care delivery and quality forward.
+INFO 7374. Special Topics in Information Systems. (1-4 Hours)
+Covers state-of-the-art material of current interest. May be repeated without limit.
+INFO 7375. Special Topics in Artiﬁcial Intelligence Engineering and Applications. (1-4 Hours)
+Covers recent advances in neural nets and deep learning techniques with applications to large-scale engineering problems.
+Prerequisite(s):  INFO 6205 with a minimum grade of B-
+INFO 7385. Managerial Communications for Engineers. (4 Hours)
+Focuses on communication strategies and tactics for engineers at the interpersonal, team, and organizational level. Course topics include forms (oral
+and written), styles, and differences in communication; coaching and giving feedback to staff; and building teams, managing conflict, and special
+topics in organizational communication. The primary goal is to strengthen the students’ social and emotional intelligence skills to help them progress
+along their engineering career path. Combines academic content with practical skill-building activities.
+INFO 7390. Advances in Data Sciences and Architecture. (4 Hours)
+Covers a wide range of skills and responsibilities that are necessary for managing complex business performance and operational data. Such data
+tend to be fragmented, poorly organized, and often flawed. Offers students an opportunity to learn how a more up-to-date mapping of complex data
+works and to be alerted to the care and attention they must give to such a task as well as the implications of the results. Covers best practices for
+managing all aspects of the data transformation life cycle, covering broad areas such as requirements gathering, meta-model design, data integration
+and transformation, as well as implementation and ongoing operations. Discusses tools for mapping fragmented data into business intelligence
+solutions that guide successful strategies.
+Prerequisite(s):  INFO 6105 with a minimum grade of B
+INFO 7405. Advances in Engineering Medical Information Systems. (4 Hours)
+Focuses on the fundamentals of engineering patient medical records as timelines of medical encounters that capture critical clinical decisions made
+in various contexts such as assessments, diagnoses, treatments, etc. Emphasizes semantically rich clinical information models to support predictive
+analysis in order to recognize patterns of disease early. Record systems typically focus on data recording for legal purposes, ignoring the critical
+needs of patients and caregivers. Introduces innovative software design and architecture techniques that recognize the complex interaction between
+patients and caregivers, provide immediately available detailed information for both, and thus invigorate clinical workplaces. Covers techniques for
+engineering medical applications as sociotechnical systems that promote the safety, effectiveness, and efﬁciency of core clinical operations.
+Prerequisite(s):  INFO 5100 (may be taken concurrently) with a minimum grade of B- or INFO 5100 (may be taken concurrently) with a minimum grade
+of B-
+INFO 7420. Drug Development Processes and Information Systems Compliance. (4 Hours)
+Begins with the recognition that information technology (IT) has transformed the way that new drugs are developed today. From preclinical studies
+to small Phase-I clinical trials all the way up to large global Phase-III pivotal trials, virtually every aspect of drug development is evolving due to
+technological advances. Each of these advances carries with it technological, procedural, and regulatory challenges and uncertainties. This course
+explores many of today’s most pressing and challenging IT questions facing the pharmaceutical/biotechnology industry and the FDA regarding
+the use of electronic records, databases, and information management systems that have become an integral part of development programs and
+regulatory submissions.
+INFO 7500. Cryptocurrency and Smart Contract Engineering. (4 Hours)
+Seeks to provide a detailed understanding of the function and deployment of smart contracts using the Solidity language. Digs deep into the technical
+design and operation of blockchain platforms and speciﬁcally the implementation of smart contracts for operationalizing business processes. Offers
+students an opportunity to practice the development of decentralized autonomous organization applications using blockchain scripting languages.
+Prerequisite(s):  INFO 5100 with a minimum grade of B- or INFO 5100 with a minimum grade of B- or CSYE 6200 with a minimum grade of B-
+
+--- Page 11 ---
+Northeastern University 2023-2024 Course Descriptions 461
+INFO 7510. Smart Contract Application Engineering and Development. (4 Hours)
+Emphasizes the essential coding skills for implementing self-enforcing, multiparty, mutually beneﬁcial, contractual rights and obligations on top
+of blockchain technologies. Offers students an opportunity to learn how to leverage the principles and mechanisms of “decentralized autonomous
+organization” to programmatically coordinate the interaction between participating parties at a global scale without the need for trusting a third party
+and how to build blockchain-type applications that automate the interaction of a network of participating entities such as buyers, sellers, suppliers,
+insurance, and ﬁnance.
+Prerequisite(s):  INFO 7500 with a minimum grade of B-
+INFO 7520. Engineering of Advanced Cryptocurrency Systems. (4 Hours)
+Addresses programming and information systems aspects of bitcoin and other cryptocurrencies. Topics covered include fundamentals of bitcoin
+mining, the theory of distributed consensus, principles of strong anonymity and untraceability, smart contract security, and peer-to-peer networking.
+Offers students an opportunity to learn about current developments in, and challenges facing, the use of cryptocurrencies in terms of the computing
+platform and systems integration. Students also have an opportunity to gain practical experience through challenging programming projects.
+Prerequisite(s):  INFO 7500 with a minimum grade of B-
+INFO 7525. Regulatory Aspects of Smart Contract Automation. (2 Hours)
+Addresses the legal implication of using the blockchain to transfer and exchange money, perform trade transactions, maintain ownership of property,
+and enforce contractual obligations in secure and cost-effective ways. These applications present signiﬁcant legal challenges in ﬁnance, property
+rights, and general commercial contracts in all industries. Offers students an opportunity to acquire the tools to engineer systems that adhere to
+existing and evolving regulatory frameworks. Highlights challenges around the issues of taxation, ﬁnancial crimes, and money laundering, since
+blockchain technologies were designed to facilitate cross-border transactions.
+INFO 7535. Digital Smart Contracts Product Innovations. (2 Hours)
+Addresses the issue of how blockchain technology creates new ways of doing business. Blockchain technology uses bitcoin cryptocurrency to create
+value in a virtual setting. By linking the blockchain with real currency and the ﬁnancial system, data, as well as business processes, a new breed of
+products and services can be realized. Explores innovative and disruptive applications of the blockchain.
+INFO 7610. Special Topics in Natural Language Engineering Methods and Tools. (4 Hours)
+Covers the latest techniques in natural language processing with applications to unstructured data.
+Prerequisite(s):  INFO 6205 with a minimum grade of B-
+INFO 7962. Elective. (1-4 Hours)
+Offers elective credit for courses taken at other academic institutions. May be repeated without limit.
+INFO 7986. Research. (0 Hours)
+Offers students an opportunity to conduct full-time research under faculty supervision.
+INFO 7990. Thesis. (1-8 Hours)
+Offers theoretical and experimental work conducted under the supervision of a departmental faculty.
+INFO 7996. Thesis Continuation - Half-Time. (0 Hours)
+Continues theoretical and experimental work conducted under departmental faculty supervision.
+Prerequisite(s):  INFO 7990 with a minimum grade of C-
+
