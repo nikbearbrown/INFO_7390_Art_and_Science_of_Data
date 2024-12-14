@@ -154,21 +154,10 @@ You can access the related files to this project here:
 - Documentation: [Codelabs Documentation](https://codelabs-preview.appspot.com/?file_id=1qj_hNrPvLQEQt1r2RgSReLwTkpFyHrK22inGdcHLsY8#0) 
 - Deployed FastAPI: [FastAPI Docs](http://3.14.131.176:8000/docs)  
 - Deployed Streamlit: [Streamlit App](http://3.14.131.176:8501/)  
-- Video Link: [Project Demo](https://drive.google.com/drive/folders/1sBLrejhuyzoQXzyt3lf0hlBzZ16HBY_4?usp=drive_link)  
+- Video Link: [Project Demo]()  
 
 
 ## **Conclusion**
 This project integrates Airflow, FastAPI, and Streamlit to provide a dynamic learning assistant. With separate environments and comprehensive testing, it is scalable, efficient, and user-friendly.
-
-## Contribution 
-## Work Distribution
-
-| Name     | Tasks                                                                                               | Contribution (%) |
-|----------|-----------------------------------------------------------------------------------------------------|------------------|
-| Abhinav  | Logic/implementation (lesson, plan) (Streamlit), FastAPI, Dockerization,                            | 33.33            |
-|          | Integration, CI/CD, Deployment, Snowflake                                                           |                  |
-| Nishita  | Web scraping, Snowflake, Airflow, lesson logic/integration (image, quiz),                           | 33.33            |
-|          | Streamlit, FastAPI, Pinecone, Documentation                                                         |                  |
-| Dhir     | Lesson logic/integration (summary, YouTube video, flashcards, quiz), Streamlit, FastAPI, Snowflake  | 33.33            |
 
 
