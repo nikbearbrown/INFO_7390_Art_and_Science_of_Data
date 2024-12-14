@@ -1,0 +1,134 @@
+name: Deploy AI Assistant
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    # Checkout code
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 
+
+    # Set up Docker Buildx
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v2
+
+    # Log in to DockerHub
+    - name: Log in to DockerHub
+      run: |
+        echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+    # Build FastAPI Image (using direct Dockerfile reference)
+    - name: Build FastAPI image using explicit Dockerfile
+      run: |
+        docker buildx build \
+          --file ${{ github.workspace }}/fastapi/Dockerfile \
+          ${{ github.workspace }}/fastapi
+
+    # Build and push FastAPI image
+    - name: Build and push FastAPI image
+      run: |
+        docker buildx build \
+          --platform linux/amd64 \
+          --push \
+          --cache-from=type=registry,ref=${{ secrets.DOCKER_USERNAME }}/fastapi:latest \
+          --cache-to=type=inline \
+          --tag ${{ secrets.DOCKER_USERNAME }}/fastapi:latest \
+          --tag ${{ secrets.DOCKER_USERNAME }}/fastapi:${{ github.sha }} \
+          ${{ github.workspace }}/fastapi
+
+    # Build and push Streamlit Image
+    - name: Build and push Streamlit image
+      run: |
+        docker buildx build \
+          --platform linux/amd64 \
+          --push \
+          --cache-from=type=registry,ref=${{ secrets.DOCKER_USERNAME }}/streamlit:latest \
+          --cache-to=type=inline \
+          --tag ${{ secrets.DOCKER_USERNAME }}/streamlit:latest \
+          --tag ${{ secrets.DOCKER_USERNAME }}/streamlit:${{ github.sha }} \
+          ./streamlit
+
+    # Create .env file for secrets
+    - name: Create .env file
+      run: |
+        echo "DEPLOY_URL=${{ secrets.DEPLOY_URL }}" > .env
+        echo "SECRET_KEY=${{ secrets.SECRET_KEY }}" >> .env
+        echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
+        echo "PINECONE_API_KEY=${{ secrets.PINECONE_API_KEY }}" >> .env
+        echo "INDEX_NAME=${{ secrets.INDEX_NAME }}" >> .env
+        echo "IMG_INDEX_NAME=${{ secrets.IMG_INDEX_NAME }}" >> .env
+        echo "YOUTUBE_INDEX=${{ secrets.YOUTUBE_INDEX }}" >> .env
+        echo "DIMENSION=${{ secrets.DIMENSION }}" >> .env
+        echo "METRIC=${{ secrets.METRIC }}" >> .env
+        echo "SNOWFLAKE_USER=${{ secrets.SNOWFLAKE_USER }}" >> .env
+        echo "SNOWFLAKE_PASSWORD=${{ secrets.SNOWFLAKE_PASSWORD }}" >> .env
+        echo "SNOWFLAKE_ACCOUNT=${{ secrets.SNOWFLAKE_ACCOUNT }}" >> .env
+        echo "SNOWFLAKE_WAREHOUSE=${{ secrets.SNOWFLAKE_WAREHOUSE }}" >> .env
+        echo "SNOWFLAKE_DATABASE=${{ secrets.SNOWFLAKE_DATABASE }}" >> .env
+        echo "SNOWFLAKE_SCHEMA=${{ secrets.SNOWFLAKE_SCHEMA }}" >> .env
+        echo "YOUTUBE_API_KEY=${{ secrets.YOUTUBE_API_KEY }}" >> .env
+        echo "CLOUD_PROVIDER=${{ secrets.CLOUD_PROVIDER }}" >> .env 
+        echo "REGION=${{ secrets.REGION }}" >> .env      
+        echo "IMAGE_DIMENSIONS=${{ secrets.IMAGE_DIMENSIONS }}" >> .env  
+
+    - name: Copy .env file to EC2
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ubuntu
+        key: ${{ secrets.EC2_SSH_KEY }}
+        source: .env
+        target: /home/ubuntu/
+
+    - name: Copy docker-compose.yml to EC2
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ubuntu
+        key: ${{ secrets.EC2_SSH_KEY }}
+        source: ./docker-compose.yml
+        target: /home/ubuntu/
+
+    - name: Deploy on EC2
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ubuntu
+        key: ${{ secrets.EC2_SSH_KEY }}
+        script: |
+          docker-compose down --volumes --remove-orphans
+          docker network inspect learningassistant_app-network || docker network create learningassistant_app-network
+          docker-compose pull
+          docker-compose up -d --remove-orphans
+
+    # Verify Deployment
+    - name: Check FastAPI service health
+      env:
+        EC2_HOST: ${{ secrets.EC2_HOST }}
+      run: |
+        retries=10
+        delay=10
+        for i in $(seq 1 $retries); do
+          echo "Checking FastAPI service health (attempt $i/$retries)..."
+          curl -f http://$EC2_HOST:8000/docs && break || sleep $delay
+        done
+
+    - name: Check Streamlit service health
+      env:
+        EC2_HOST: ${{ secrets.EC2_HOST }}
+      run: |
+        retries=10
+        delay=10
+        for i in $(seq 1 $retries); do
+          echo "Checking Streamlit service health (attempt $i/$retries)..."
+          curl -f http://$EC2_HOST:8501 && break || sleep $delay
+        done

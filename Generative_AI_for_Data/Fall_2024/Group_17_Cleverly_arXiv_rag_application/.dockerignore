@@ -1,0 +1,22 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+
+# Ignore Git-related files
+.git
+.gitignore
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore service-specific files (handled in subdirectories)
+fastapi/.dockerignore
+streamlit/.dockerignore

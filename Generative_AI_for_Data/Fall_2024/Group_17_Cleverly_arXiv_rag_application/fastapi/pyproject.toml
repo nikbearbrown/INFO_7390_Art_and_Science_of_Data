@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "fastapi_config"
+version = "0.1.0"
+description = ""
+authors = ["dhirthacker7neu <thacker.dh@northeastern.edu>"]
+readme = "README.md"
+ 
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14"  # Adjusting the Python version to match the dependency
+fastapi = "^0.115.5"
+python-dotenv = "^1.0.1"
+passlib = "^1.7.4"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+uvicorn = "^0.32.1"
+snowflake-connector-python = "^3.12.4"
+google-api-python-client = "^2.154.0"
+youtube-transcript-api = "^0.6.3"
+langgraph = "0.2.57"
+langsmith = "0.1.125"
+langchain-core = "0.2.43"
+fastapi-utils = "^0.8.0"
+typing-inspect = "^0.9.0"
+openai = "^1.57.2"
+tiktoken = "^0.8.0"
+scikit-learn = "^1.6.0"
+numpy = "^2.2.0"
+pinecone = "^5.4.2"
+xmltodict = "^0.14.2"
+ 
+ 
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
