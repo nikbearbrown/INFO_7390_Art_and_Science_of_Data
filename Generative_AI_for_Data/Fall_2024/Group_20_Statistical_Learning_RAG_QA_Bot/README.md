@@ -8,9 +8,9 @@ A research tool designed for efficient document parsing, vector storage, and mul
 
 ## Project Resources
 
-- **Google Codelab**: [Codelab Link]()
-- **App (Deployed on AWS EC2)**: [Streamlit Link]()
-- **YouTube Demo**: [Demo Link]()
+- **Google Codelab**: [Codelab Link](https://codelabs-preview.appspot.com/?file_id=1RTV20Xej59ySxaFmxgqvitRgzysof5FE8yfH0pOItho#0)
+- **App (Deployed on AWS EC2)**: [Streamlit Link](https://advancedatasciencfinal-nf555lufcam9hcdq6xsee5.streamlit.app/)
+- **YouTube Demo**: [Demo Link](https://youtu.be/gAQGwBde1qs)
 
 ## Features
 
