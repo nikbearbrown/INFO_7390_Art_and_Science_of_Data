@@ -57,7 +57,7 @@ The system is deployed on **Google Cloud Platform (GCP)**, using Docker for cont
 ## Project Structure
 
 ```plaintext
-ASSIGNMENT-3/
+CFA-Reserach-Publication-RAG-System
 ├── Airflow/
 │   ├── dags/
 │   │   ├── aws_ingestion_pipeline.py
