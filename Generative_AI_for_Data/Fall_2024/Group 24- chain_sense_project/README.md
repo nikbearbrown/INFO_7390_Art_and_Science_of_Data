@@ -17,8 +17,8 @@ This project implements a **Retrieval-Augmented Generation (RAG)** system that c
 
 ## **App Links**
 
-- **App (Deployed on GCP)**: [Live App Link]<http://35.238.75.76:8501>
-- **YouTube Demo**: [Demo Video](https://your-youtube-video-link)
+- **App (Deployed on GCP)**: http://35.238.75.76:8501
+- **YouTube Demo**: https://youtu.be/nvPpeCmkYGo
 
 ---
 
