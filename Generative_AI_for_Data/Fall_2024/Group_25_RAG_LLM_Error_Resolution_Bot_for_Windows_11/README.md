@@ -52,7 +52,7 @@ Develop an intelligent and automated system for diagnosing, exploring, and resol
 ---
 
 ## Architecture Diagram
-_(Insert architecture diagram here)_
+![Screenshot 2024-12-14 214506](https://github.com/user-attachments/assets/eb6071ae-4689-42e8-afb0-2068d44aa4dc)
 
 ---
 
@@ -66,8 +66,6 @@ A user-friendly platform that enables users to:
 
 ---
 
-## File Structure
-_(Insert file structure if necessary)_
 
 ---
 
@@ -148,65 +146,39 @@ _(Insert file structure if necessary)_
    - Diagnose BSOD errors across multiple systems.
 
 ---
-
-Steps to run this application
-
-Clone the repository:
-bashCopygit clone https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/Generative_AI_for_Data/Fall_2024/Group_25_RAG_LLM_Error_Resolution_Bot_for_Windows_11
-
-Install dependencies:
-bashCopypip install -r requirements.txt
-
-Set up environment variables:
-
-Create a .env file with the following keys:
+<p>Steps to run this application</p>
+<p>Clone the repository:
+bashCopygit clone <a href="https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/Generative_AI_for_Data/Fall_2024/Group_25_RAG_LLM_Error_Resolution_Bot_for_Windows_11">https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data/tree/main/Generative_AI_for_Data/Fall_2024/Group_25_RAG_LLM_Error_Resolution_Bot_for_Windows_11</a></p>
+<p>Install dependencies:
+bashCopypip install -r requirements.txt</p>
+<p>Set up environment variables:</p>
+<p>Create a .env file with the following keys:
 MilvusAPI key
-LLM model API key
-
-
-Run the application:
-bashCopystreamlit run app.py
-
-
-Deployment
-The system is deployed on Google Cloud Platform (GCP), using Docker for containerized deployment:
-
-Docker: Containers manage FastAPI and Streamlit, with Docker Compose orchestrating the components for consistent deployment.
-GCP: Ensures public access to the application and scalable infrastructure to accommodate user demand.
-
-Usage
-
-Query Error Codes:
-
-Enter an error code or keyword in the input box
-Receive step-by-step troubleshooting instructions
-
-
-Explore Error Trends:
-
-View error history and recommendations based on past queries
-
-
-Access Categorized Solutions:
-
-Browse resolutions grouped by severity and complexity
-
-
-
-Contributors
-
-Nagapriyaham Pindi (50%)
-Vishodhan Krishnan (50%)
-
-References
-
-Airflow Documentation
+LLM model API key</p>
+<p>Run the application:
+bashCopystreamlit run app.py</p>
+<p>Deployment
+The system is deployed on Google Cloud Platform (GCP), using Docker for containerized deployment:</p>
+<p>Docker: Containers manage FastAPI and Streamlit, with Docker Compose orchestrating the components for consistent deployment.
+GCP: Ensures public access to the application and scalable infrastructure to accommodate user demand.</p>
+<p>Usage</p>
+<p>Query Error Codes:</p>
+<p>Enter an error code or keyword in the input box
+Receive step-by-step troubleshooting instructions</p>
+<p>Explore Error Trends:</p>
+<p>View error history and recommendations based on past queries</p>
+<p>Access Categorized Solutions:</p>
+<p>Browse resolutions grouped by severity and complexity</p>
+<p>Contributors</p>
+<p>Nagapriyaham Pindi (50%)
+Vishodhan Krishnan (50%)</p>
+<p>References</p>
+<p>Airflow Documentation
 FastAPI Documentation
 Streamlit Documentation
 RAG Model
 RAG
 LLM
-Chatbot
-
-Additional Notes
-WE ATTEST THAT WE HAVEN'T USED ANY OTHER STUDENTS' WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
+Chatbot</p>
+<p>Additional Notes
+WE ATTEST THAT WE HAVEN&#39;T USED ANY OTHER STUDENTS&#39; WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.</p>
