@@ -47,6 +47,8 @@ The project is divided into three main components:
   - Generating quizzes and flashcards.
 - Lightweight and scalable.
 
+  ![Architecture diagram](./diagram/user_flow_diagram.png)
+
 ### **3. Streamlit**
 - User-friendly frontend for:
   - Navigating and viewing lesson plans.
