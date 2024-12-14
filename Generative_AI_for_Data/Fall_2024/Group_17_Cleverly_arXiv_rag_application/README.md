@@ -1,10 +1,10 @@
-# AIVY - AI Powered Learning Assistant
+# Cleverly  - AI Powered Learning Assistant
 
 ## **Overview**
-Aivy: AI Learning Assistant
-Aivy is a next-generation learning assistant that integrates various educational tools into a unified platform. Built with Airflow, FastAPI, and Streamlit, it offers a personalized, engaging, and efficient learning experience by combining text, videos, flashcards, and quizzes.
+Cleverly : AI Learning Assistant
+Cleverly  is a next-generation learning assistant that integrates various educational tools into a unified platform. Built with Airflow, FastAPI, and Streamlit, it offers a personalized, engaging, and efficient learning experience by combining text, videos, flashcards, and quizzes.
 
-Why Aivy?
+Why Cleverly?
 
 - Unified Learning Tools: Access all your learning content (text, images, videos, quizzes) in one place.
 - Personalized Assistance: AI tailors learning content and assessments to user needs.
