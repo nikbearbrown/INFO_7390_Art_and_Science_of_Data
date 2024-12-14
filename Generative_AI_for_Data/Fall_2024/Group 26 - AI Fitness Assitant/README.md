@@ -1,4 +1,4 @@
-# Fitness Assistant with Pinecone and LangChain
+# AI-Fitness Assistant 
 
 ## Overview
 This project creates a fitness assistant powered by Pinecone, LangChain, and Google Generative AI. It leverages Pinecone for vector database management, LangChain for text processing and retrieval, and Gemini LLM for generating AI-driven responses. The system processes fitness-related textual data, embeds it into Pinecone for fast querying, and integrates with the Gemini language model for natural language interaction.
