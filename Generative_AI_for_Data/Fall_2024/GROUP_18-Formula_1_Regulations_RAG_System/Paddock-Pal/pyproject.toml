@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "f1-poetry"
+version = "0.1.0"
+description = "Final Poetry file"
+authors = ["Aniket <144729623+aniket-afk@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+fastapi = "^0.115.5"
+streamlit = "^1.40.2"
+pinecone-client = "^5.0.1"
+openai = "0.28.0"
+apache-airflow = "^2.10.3"
+uvicorn = "^0.32.1"
+snowflake-connector-python = "^3.12.3"
+python-dotenv = "^1.0.1"
+boto3 = "^1.35.71"
+tqdm = "^4.67.1"
+langchain = "^0.3.10"
+langchain-core = "^0.3.22"
+langchain-huggingface = "^0.1.2"
+langchain-pinecone = "^0.2.0"
+pydantic = "^2.10.3"
+tavily-python = "^0.5.0"
+langchain-community = "^0.3.10"
+datetime = "^5.5"
+sentence-transformers = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
