@@ -52,7 +52,8 @@ Develop an intelligent and automated system for diagnosing, exploring, and resol
 ---
 
 ## Architecture Diagram
-![Screenshot 2024-12-14 214506](https://github.com/user-attachments/assets/eb6071ae-4689-42e8-afb0-2068d44aa4dc)
+![Screenshot 2024-12-14 214627](https://github.com/user-attachments/assets/1ac60eb7-71dd-42e1-b3af-b912b255a8a1)
+
 
 ---
 
