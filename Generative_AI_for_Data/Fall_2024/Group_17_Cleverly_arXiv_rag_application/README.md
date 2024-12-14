@@ -47,7 +47,6 @@ The project is divided into three main components:
   - Generating quizzes and flashcards.
 - Lightweight and scalable.
 
-  ![Architecture diagram](./diagram/user_flow_diagram.png)
 
 ### **3. Streamlit**
 - User-friendly frontend for:
@@ -57,8 +56,12 @@ The project is divided into three main components:
   - `lesson.py`: Displays detailed lesson content.
   - `quiz.py`: Manages quiz interface and results.
   - `planner.py`: Allows navigation across modules and plans.
+ 
+      ![Architecture diagram](./diagram/user_flow_diagram.png)
 
 ---
+
+
 
 ### **Folder Structure**
 ```
