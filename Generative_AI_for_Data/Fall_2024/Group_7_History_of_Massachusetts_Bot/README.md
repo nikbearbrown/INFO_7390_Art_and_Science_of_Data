@@ -15,10 +15,6 @@
 [![LangChain](https://img.shields.io/badge/LangChain-purple?style=for-the-badge)](https://www.langchain.com/)
 
 
-
-
-
-
 ## Overview
 
 The **History of Massachusetts Q&A Bot** is a Retrieval-Augmented Generation (RAG) system designed to answer questions about Massachusetts history. It leverages Wikipedia as the primary knowledge source, employs vector embeddings for semantic search, and integrates OpenAI's GPT-3.5-turbo for natural language responses. The system processes historical data into Markdown and CSV formats and uses a Streamlit interface for user interaction.
@@ -155,7 +151,8 @@ This structured process ensures that the Wikipedia data is well-organized, easy 
 2. **Interact with the Bot**:
    Enter historical queries and receive concise, contextually accurate answers.
 
-### Example Query
+## Output
+
 **Input**: "What is the history of the Massachusetts Bay Colony?"  
 **Output**: Founded in 1630, became Province of Massachusetts Bay in 1691–92
 
@@ -188,3 +185,7 @@ Refer to `requirements.txt` for the full list of dependencies.
 - **API Issues**: Ensure the OpenAI API key is valid and set up correctly in Streamlit secrets.
 - **Vector Store**: Verify FAISS index is correctly initialized with the processed data.
 - **UI Errors**: Restart the Streamlit server and check the console logs for detailed error messages.
+
+## Attestation
+
+WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
