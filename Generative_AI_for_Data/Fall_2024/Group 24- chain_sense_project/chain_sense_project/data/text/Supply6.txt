@@ -1,0 +1,4609 @@
+Climate Change and Adaptation in
+Global Supply-Chain Networks
+Nora M.C. Pankratz∗
+
+Christoph M. Schiller†
+
+First version: March, 2019
+This version: December, 2019
+
+Abstract
+
+This paper examines how firms adapt to climate-change risks resulting from their supplychain networks. Combining a large sample of global supplier-customer relationships
+with granular data on local temperatures and flooding incidents, we first document
+that the occurrence of climate shocks at affected supplier firms has both a large direct
+and indirect negative effect on earnings and revenues of suppliers and their customers.
+Second, we show that customers are 10% to 20% more likely to terminate existing
+supplier-relationships when realized climate shocks at the supplier firms exceed ex-ante
+expected climate shocks. Further, customers subsequently switch to suppliers with lower
+heatwave and flooding exposure. Our results indicate that climate change affects the
+formation of global production networks.
+Keywords: Firm Performance, Climate Change, Climate Adaptation, Supply-Chains.
+JEL Codes: Q54; G30; F64; Q51
+
+We thank Jaap Bos, Claudia Custodio (discussant), Jeroen Derwall, Hasan Fallahgoul (discussant), Caroline
+Flammer, Martin Götz, Adel Guitouni (discussant), Alexander Hillert, Taehyun Kim (discussant), Thomas Mosk,
+and Jisung Park for many valuable suggestions. We also thank the participants at the 2020 AEA Annual Meeting,
+2019 LBS Summer Finance Symposium, the IWFSAS, GRASFI, EDHEC Finance of Climate Change, and the Paris
+December Finance conference and seminars at Maastricht University and Goethe Universität Frankfurt for many
+helpful comments. Moreover, we gratefully acknowledge the Centre for Research on the Epidemiology of Disasters
+(CRED) for providing data from the Emergency Events Database (EM-DAT). Nora Pankratz thanks the French Social
+Investment Forum (FIR) and the Principles for Responsible Investment (PRI), and Christoph Schiller thanks the
+Canadian Securities Institute (CSI) for financial support. All remaining errors are our own.
+∗
+University of California, Los Angeles (UCLA), Luskin School of Public Affairs. Email: npankratz@g.ucla.edu.
+†
+Arizona State University (ASU), W.P. Carey School of Business. Email: christoph.schiller@asu.edu.
+
+1
+
+Introduction
+
+Climate change is one of the greatest challenges of our time. The average global surface temperature
+has increased by 0.85◦ Celsius (1.5◦ F) since the industrial revolution, leading to more frequent
+extreme weather events such as heatwaves, forest fires, and catastrophic floods, with dramatic
+effects for society and economic activity (Carleton and Hsiang, 2016). According to the 2017 U.S.
+Climate Science Special Report, the cost of extreme climate-related events for the United States
+alone has exceeded $1.1 trillion since 1980 (CSSR, 2017).1 By the end of the century, temperatures
+are expected to increase even further by 0.9 to 5.4◦ C (1.6 – 9.7◦ F) (IPCC, 2013).
+While the academic literature in finance and economics has provided broad evidence on the
+adverse effects of climate change, including corporate earnings (Addoum, Ng, and Ortiz-Bobea,
+2019), labor productivity (Graff-Zivin, Hsiang, and Neidell, 2018), stock returns (Kumar, Xin, and
+Zhang, 2019), and capital structure (Ginglinger and Moreau, 2019), much less is known about how
+firms and market participants can adapt to climate change. In contrast, managers and investors
+are increasingly looking for ways to mitigate climate change risks, for example by adapting their
+operations and investments (Lin, Schmid, and Weisbach, 2018).2
+In the age of globalization, most firms operate in extensive global production and supply-chain
+networks. Supply-chains often move through parts of the world that are most vulnerable to climate
+impacts. As a result, adapting to climate change is a complex task, as firms might be indirectly
+exposed to climate change risks due to their suppliers and customers.3 Indeed, Barrot and Sauvagnat
+(2016) and Seetharam (2018), among others, show that the impact of extreme weather events can
+propagate through firm-level production networks. Consequently, in a recent survey, over 50% of
+CEOs mentioned risks posed to their global supply chains by climate change as one of their primary
+concerns (PWC, 2015).
+Hence, the aim of this paper is twofold. First, we investigate if firms are affected by climate
+change risk due to their global supply-chain network. Specifically, we estimate the firm performance
+effects of climate change related extreme weather events on supplier firms around the world and the
+1
+
+See for example Dell, Jones, and Olken (2014) and Auffhammer (2018) for a summary of the literature on the
+economic effects of climate change.
+2
+Krüger, Sautner, and Starks (2018) document that institutional investors consider engagement and risk management strategies to address the financial implications of climate change risks for their portfolio firms.
+3
+For example, during the 2011 flooding disaster in Thailand, more than 14,500 firms reliant on Thai suppliers
+experienced business disruptions worldwide (BSR, 2018).
+
+1
+
+propagation of climate-related performance shocks to their corporate customers. Second, we study
+how firms adapt their supply-chain organizations in response to climate change risks. In particular,
+we examine if customers optimize and diversify their supplier network by replacing high-risk with
+low-risk supplier firms.
+We combine detailed global, firm-level supply-chain data from FactSet Revere with geographic
+location data from FactSet Fundamentals and granular climate data on heatwaves from the European
+Center for Medium-term Weather Forecasts and floods from the Darthmouth Flood Observatory.
+Our supply-chain dataset includes 4,289 (4,568) unique supplier (customer) firms, comprising over
+200,000 quarterly supplier-customer observations across 51 countries around the world, over the
+period from 2003 to 2017.4 We focus on two types of climate change risks – extreme heatwaves and
+flooding – for the following reasons. First, the literature in physiology and economics has pointed
+to several direct and indirect channels through which heatwaves can affect firm productivity. For
+example, extreme heat reduces human capital (Graff-Zivin et al., 2018), labor provision (Graff-Zivin
+and Neidell, 2014), and productivity (Zhang, Deschenes, Meng, and Zhang, 2018), with sharp
+declines typically observed at temperatures over 30◦ C.5 Given current global carbon emissions, the
+number of heat days (i.e. days that exceed 100◦ F) is projected to rise dramatically, from currently
+1% of days to more than 15% of days by 2099 (Graff-Zivin and Neidell, 2014), making extreme
+heatwaves a common and impactful phenomenon in the future. Second, flooding incidents can cause
+enormous economic damage to the affected region. According to FEMA, the United States suffered
+more than $260 billion in flood-related damages between 1980 and 2013. As a result of climate
+change, both inland and coastal floods are expected to become more frequent and severe in the
+coming years (CSSR, 2017).
+While Addoum et al. (2019) and Pankratz, Bauer, and Derwall (2019) show that exposure to
+local heatwaves affects the profitability of listed firms in many industries, both the question if climate
+change related shocks propagate along firm-level links and how customer firms can potentially
+mitigate such risks are unclear. First, the implications of climate shocks for suppliers and customers
+might differ. While extreme temperatures and floods might be costly to supplier firms, for example
+4
+In contrast to previous research on supply-chains in finance, which has mostly relied on data from Compustat
+Segment Files, this dataset allows us to study the initiation and termination of customer-supplier relationships. See
+Section 2 for details.
+5
+High temperatures are also associated with higher civil conflict risk (Burke, Hsiang, and Miguel, 2015a) and
+immigration (Feng, Krüger, and Oppenheimer, 2010), which might indirectly impact firms in the affected areas.
+
+2
+
+by increasing energy consumption for air conditioning or clean-up costs, customer firms would be
+unaffected by such shocks if suppliers cannot pass on the incurred costs downstream. In this case,
+neither heat nor flood related shocks would propagate from suppliers to customers. On the other
+hand, if heatwaves or floods lead to lower production output, such disruptions could propagate
+along the supply-chain and affect customer firms, potentially with a delay.
+Second, if managers understand the risks of climate change, they plausibly organize operations
+to absorb climate risks and minimize disruptions due to shocks to their suppliers. Again, we would
+not expect climate shocks to propagate from suppliers to customer in this case. On the other hand,
+frictions such as relationship-specific investments or a high degree of input specialization might
+prevent customer firms from making such adjustments or from switching to alternative suppliers.
+Further, the risks of climate change have become much more salient over the past decades, as the
+frequency of extreme weather events and scientific evidence of future risks and public awareness
+both have increased. If managers are increasingly considering climate change risks when making
+operational and investment decisions, we would expect that customers become more likely to switch
+suppliers when observed climate change risks exceed previous expectations.
+Our first set of tests focuses on the effect of climate change related weather events on the
+operating performance of affected supplier firms. Following the climate science literature (Carleton
+and Hsiang, 2016), we construct a location specific measure of heatwaves for our sample supplier
+firms based on the daily temperatures over a given quarter in the location of the firm’s production
+facilities. Consistent with Addoum et al. (2019), we document that the occurrence of a heatwave
+during one of the three previous firm-quarters is associated with a subsequent reduction in revenue
+(operating income) by 3.9% (9.7%) relative to the sample median. Focusing on flooding incidents,
+we document a decrease by 3.9% (10.2%) relative to the sample median. These results hold after
+controlling for firm-fixed effects, firm-specific seasonal trends, industry-specific time trends, as well
+as a host of firm- and industry characteristics and trends.
+Next, we provide evidence that firms are indeed exposed to climate change risks due to their
+global supply-chain network. Our findings show that climate change related shocks to supplier
+firms have a negative effect on the performance of their customers. Following the occurrence of a
+heatwave in a given firm-quarter at a single supplier, customer revenues decrease by 0.2% relative
+to the sample median. When suppliers are affected by a local flooding incident, customer revenue
+3
+
+and operating income are reduced by 1.8% and 2.2%, respectively. Consistent with Barrot and
+Sauvagnat (2016), these effects hold with a lag of up to four quarters.
+We conduct a number of robustness tests. First, we employ counting measures of heatwaves and
+flood incidents instead of using dummy variables and find similar result. Second, we implement our
+experiments both at the supplier-customer-quarter observation level as well as in a collapsed sample
+of customer-quarter-level observations, aggregating across suppliers for each sample customer. The
+results are similar in both settings. Third, we implement a placebo test by studying time periods in
+which our supplier-customer pairs were not yet or no longer in a supply-chain relationship. We find
+no evidence of climate risk propagation during these placebo periods.
+Our main tests focus on the adaptation of supply-chains to climate change risks. We first
+examine how climate change risk affects the likelihood that customers terminate the relationship
+with their customers. Assuming that managers trade off potential climate-related risks with other
+firm characteristics (product quality, costs, delivery times, etc.) when entering a supply-chain
+relationship, we hypothesize that a customer firm is more likely to terminate an existing supplierrelation when the climate shocks observed over the course of a supply-chain relationship exceed the
+ex-ante anticipated risks. We therefore construct a measure of realized vs. expected climate risk
+by comparing heatwaves and flood incidents after the establishment of a supply-chain link to the
+observed climate shocks in the years before as a benchmark.
+We document a large, positive effect of realized vs. expected climate risk on supplier termination.
+Our results show that a supply-chain relationship is 1.0 (3.7) percentage points more likely to
+be terminated in a given year, if the realized number of heatwaves (floods) exceeds the ex-ante
+expected number. This effect is economically meaningful given the unconditional expectation
+that a supply-chain relationship ends in any given year of 15.1% in our sample. The results are
+robust to using several alternative ways of constructing our climate risk measure, and significant
+at the 1%-level, controlling for any time-invariant supplier-by-customer characteristics, various
+time-variant financial supplier and customer characteristics, industry-by-time fixed effects, and
+country-by-time fixed effects. Importantly, when we solely consider the occurrence of heatwaves and
+floods throughout the supply-chain relationship (without comparing it to ex-ante expected climate
+shocks), we find a much smaller, statistically insignificant impact on the likelihood of supply-chain
+relationship termination. This is consistent with the notion that managers are taking climate risks
+4
+
+into consideration when entering a supply-chain relationship.
+Last, we examine how firms optimize their supply-chain climate risk by analyzing if customers
+switch from high climate-risk to low climate-risk suppliers. For this purpose, we consider all instances
+of ending supply-chain relationships in our sample and match each ‘dropped’ supplier with the
+‘replacement’ suppliers, i.e. firms with the same 4-digit SIC code which newly became suppliers to
+the same customer within the next two years. We then compare the realized climate risk of the
+dropped and replacement suppliers based on the number of heatwaves and flooding incidents over
+the same time period. We find that replacement suppliers on average have 0.83 fewer heatwaves
+and 0.03 fewer floods than terminated suppliers, measured over the duration of the relation with
+the terminated supplier. The result is statically significant at the 1% level (t-statistics of 17.9 and
+4.2), and robust to alternative comparison periods and climate risk measures.
+Our paper contributes to the literature on the economic effects of climate change along several
+dimensions. To the best of our knowledge, we present the first evidence of operational adaptation
+to climate change-risk at the firm level. Our main result shows that managers respond to climate
+risks resulting from their supply-chain network by switching from high-risk to low-risk suppliers,
+indicating that climate risks can drive the formation of global firm-level production networks. This
+finding has important potential implications. As the climate science literature has shown (e.g.
+Burke, Hsiang, and Miguel, 2015b and Carleton and Hsiang, 2016), developing countries around the
+world are more severely affected by the outcomes of global climate change than developed countries
+in North America and Western Europe. However, as particularly the largest corporations traded on
+international stock exchanges rely on extensive, worldwide production networks, it is important for
+managers and policymakers to be aware of the extent to which the economic implications of climate
+change are shared through supply chain links. Moreover, if firms further shift economic activity
+from ‘southern’ to ‘northern’ countries due to heterogeneity in climate change risk, this effect could
+contribute to widening global inequality and economically weaken the areas most vulnerable to
+climate change. Lin et al. (2018) also study climate change adaptation, focusing on the investments
+of electricity generating firms in more flexible power generation technologies.
+This paper also provides novel evidence on the implications of climate change for firms and
+investors. Previous research in the finance literature has studied the direct effects of climate shocks
+on firm profitability (Zhang et al., 2018; Addoum et al., 2019; Pankratz et al., 2019), housing prices
+5
+
+(Baldauf, Garlappi, and Yannelis, 2019), stock returns (Kumar et al., 2019), financial markets
+(Bansal, Kiku, and Ochoa, 2016; Hong, Li, and Xu, 2019; Schlenker and Taylor, 2019), and capital
+structure (Ginglinger and Moreau, 2019). Our paper is the first to show that firms can be indirectly
+exposed to climate shocks due to their global supplier network. This aspect of our findings is
+most closely related to Barrot and Sauvagnat (2016), Seetharam (2018), and Boehm, Flaaen, and
+Pandalai-Nayar (2019), who document the propagation of natural disasters along input-output
+linkages. The fundamental difference between our study and these papers is that we focus on the
+effects of temperature exposure and flood incidents, allowing us to assess the potential impact of
+climate change risk propagation along supply-chain links.
+
+2
+
+Data Sources and Descriptive Statistics
+
+To conduct our empirical analysis, we combine data on global supply-chain relationships, firm
+financial performance, and granular data on local climate exposure from four main sources. In the
+following sections we describe the data sources in detail, explain how we link the individual datasets,
+and provide summary statistics for our main sample. The final sample used for the empirical
+tests in Sections 3 and 5 varies, as we merge supplier-customer relationship data with different
+climate change-related databases. For example, in Section 3 we focus on the propagation of climate
+shocks along existing supply-chain links, while Section 5 explores the determinants of customers
+switching suppliers. The following summary statistics therefore refer to our main sample used to
+examine climate shock propagation in Section 3. For this purpose, we retain each supplier- and
+customer-quarter in our main sample for which a complete record of supply-chain data, financial
+information, and climate exposure data is available. Throughout the rest of the paper, we provide
+relevant summary statistics and details in the context of the respective empirical tests.
+
+2.1
+
+Global Supply-Chains
+
+We start by obtaining information on customer-supplier relationships from the recently available
+FactSet Revere database. Previous research on supply-chains in finance (e.g. Hertzel, Li, Officer,
+and Rodgers, 2008; Cohen and Frazzini, 2008; Banerjee, Dasgupta, and Kim, 2008) has relied
+primarily on the SEC’s regulation S-K, which requires U.S. firms to disclose the existence and
+6
+
+names of customer firms representing at least 10% of their total sales, to identify customer-supplier
+links. In contrast, the Revere supply-chain data has two important advantages that are particularly
+important in the context of this paper. First, while the SEC regulation does not apply in other
+countries, hence limiting existing research mostly to U.S. firms, Factset Revere supply-chain data
+includes both U.S. and foreign supplier and customer firms. This is important because many of the
+regions most vulnerable to climate change around the world are located outside of the United States.
+Second, and more importantly, previous research relying on the SEC regulation has been unable
+to study the initiation and termination of supplier-customer relationships, since the appearance
+and disappearance of a given supply-chain link in the data might either be due to a customer
+starting/ending a relationship with a given supplier, or because a customer firm was above/below the
+10% reporting threshold in a given year. In contrast, the Revere supply-chain data is hand-collected,
+verified, and updated by FactSet analysts relying on a range of primary sources of information,
+including companies’ annual reports and 10-K filings, investor presentations, company websites
+and press releases, corporate actions, and 10-Q and 8-K filings. This is crucial for our analysis of
+supply-chain formation and climate change adaptation, as it provides us with precise information
+on the beginning and end of a given supplier-customer relationship.
+In total, our sample includes 4,568 unique customer firms and 4,289 unique supplier firms
+across 51 different countries, comprising approximately 220,000 supplier-customer pair-year-quarter
+observations over the sample period from 2003 to 2017. The geographical and industry distribution
+of the suppliers and customers in our sample is summarized in Table 1 and visually illustrated in
+Figures 1 and 2. As documented in Table 1, most of the suppliers and customers in our sample
+operate in manufacturing (SIC 1st digits 2 and 3) or transport and utilities (SIC 1st digit 4).
+Geographically, the majority of suppliers are located in North America (41%), East Asia and Pacific
+(30.6%) and Europe or Central Asia (18.4%). The regional distribution of customers is similar to
+the geographic distribution of the suppliers.
+Table 2a (Panel C) presents relationship-level summary statistics for the firms in our sample.
+As documented, the average supply-chain relationship in the sample lasts 13.83 quarters. Similar
+to previous research on supply-chains in finance (e.g. Cen, Dasgupta, Elkamhi, and Pungaliya,
+2015; Cen, Maydew, Zhang, and Zuo, 2017; Cen, Chen, Hou, and Richardson, 2018), we document
+an asymmetric mutual importance between customers and their suppliers in our sample. First,
+7
+
+sample customer firms are typically much larger than their suppliers. The median sample customer
+holds 29 times the assets of the median supplier firm (book value of assets). Second, for firm-pairs
+where detailed sales data from supplier to customer is available (9.39% of the sample), the average
+proportion of sales the sample customers represent to their suppliers is 17.87%, while the average
+proportion of cost-of-goods-sold (COGS) suppliers represent to customers is only 1.82%. This
+relationship asymmetry suggests that customers on average have higher bargaining power in the
+relationship with their suppliers.
+
+2.2
+
+Accounting Performance and Firm Characteristics
+
+Next, we obtain quarterly financial performance records for the firms in our sample from 2000
+to 2017 from Compustat Global.6 Our main variables of interest for measuring operating firm
+performance in Section 3 are quarterly revenues and operating income, scaled by asset size. In
+addition to financial performance data, we obtain information on firms’ financial reporting schedules
+to ensure that we correctly match climate records and performance records when financial quarters
+deviate from calendar quarters. To ensure that international financial records comparable, we
+convert all variables into U.S. dollars using the WRDS currency conversion tables, and deflate the
+values using the consumer price index information provided by the International Financial Statistics
+of the International Monetary Fund.
+We further collect data on several additional firm characteristics from FactSet as control variables.
+These characteristics include firm controls such as the date of the first trade of the firms’ shares to
+construct a proxy for firm age, the price-to-book ratio as well as the debt-to-assets ratio. To remove
+outliers, we trim all variables above (below) the 99th (1st) percentile. We further drop firms with
+incomplete records of financial information and exclude firms in the financial industry (SIC code
+between 6000 and 6999).
+Panels A and B of Table 2a report summary statistics for customer and supplier financial
+performance and firm characteristics after applying the data filters outlined above. In line with
+the expectation that suppliers are on average smaller than their customers, the average book
+value of assets is is 6,354 million USD for customer firms, and 5,097 million USD for suppliers.
+6
+
+Compared to our sample of supply-chain relationships from FactSet Revere, we extend the financial performance
+sample by three years for later placebo tests, see Table 5.
+
+8
+
+Customers (Panel A) and suppliers (Panel B) have similar operating performance in our sample.
+The average quarterly (median) customer Revenue/Assets is 23.99% (19.91%) for customers and
+21.96% (18.77%) for suppliers. The average quarterly (median) customer Operating Income/Assets
+is 2.47% (2.57%) for customers and 1.92% (2.31%) for suppliers.
+
+2.3
+
+Firm Locations
+
+A crucial requirement for our empirical analysis of the impact of climate shocks on downstream
+propagation and the formation of supply-chain relationships is identifying the location of our sample
+firms. In this paper, we obtain information on the location of firms’ operations from the FactSet
+Fundamentals database. Specifically, as our primary measure for firm location we use the addresses
+(City, Zip Code, Street Name) of firm headquarters as obtained from FactSet Fundamentals.
+Of course, firms’ plants and establishments are not always located in the same location as firms’
+headquarters. However, this measurement error is likely to bias our estimates in Sections 3 and
+5 against finding any effect of climate shocks on firm performance and supply-chain formation.
+In addition, we use FactSet Revere information on firms’ geographical concentration of assets to
+determine in which locations firms operate. These records are collected based on firms’ public
+reporting of assets, sales, and income by geographic and product segments. Specifically, publicly
+listed firms are required to disclose these concentrations for all segments which represent more than
+10% of total assets, sales, or income. In our main analysis, we limit our sample to firms with more
+than 50% of their assets in their home country to ensure that climate shocks affect a substantial
+part of firms’ assets and operations. To match firms with the local information on climate hazards,
+we geocode the addresses of their headquarters using the Bing Maps API.
+We apply two additional location-based data filters to our main sample: First, we remove
+decentralized firms with < 50% of assets in their primary geographic segment. Second, we drop all
+supplier-customer firm-pairs for which the headquarters of the two firms are located within 500km of
+each other in the analyses of Section 5, to rule out that both firms are affected simultaneously by the
+same climate shocks. As reported in Panel A and B of Table 2a, both customers and suppliers hold
+a substantially larger share of their assets in their home country than imposed by our 50% threshold:
+the average asset home-country concentration of customers is 79.4%, and the concentration of
+suppliers’ assets is 80.5%.
+9
+
+2.4
+
+Climate Data
+
+In this paper we focus on two types of climate change related shocks – extreme heatwaves and
+flooding incidents – for the following reasons. First, heatwaves and floods are regionally concentrated
+events, allowing us to exploit the high granularity of climate data and the resulting geographic
+variation in climate exposure across our sample firms in our empirical tests. Second, climate science
+research widely agrees that heatwaves and floods are expected to become significantly more frequent
+and severe in the coming years (CSSR, 2017), making these climate shocks a particularly important
+subject of study for assessing the future economic costs of climate change. This is different from other
+type of natural disasters previously studied in the literature, e.g. earthquakes, as their occurrence
+cannot be unambiguously linked to climate change. Third, while both extreme heat and floods can
+cause significant economic damage (see e.g. Graff-Zivin et al., 2018; Graff-Zivin and Neidell, 2014;
+Zhang et al., 2018), the two types of climate shocks possibly affect firms’ operating performance
+and the results propagation effects through different channels. This allows us to further study the
+way climate shocks affect supply-chain formation by comparing similarities and differences between
+the effects of heatwaves and flooding incidents.
+2.4.1
+
+Heatwaves
+
+First, we construct indicators capturing the occurrence of heatwaves at the firm-quarter-level from
+daily, location-specific information on maximum temperatures. The global coverage of weather
+station-based temperature records varies substantially across time and across different regions
+around the world. The resulting data gaps can cause substantial issues for empirical analysis, as
+weather station coverage can for example be correlated with other economic characteristics of a
+given region. To alleviate this concern, we use ‘re-analysis’ temperature data7 from the European
+Center for Medium-term Weather Forecasts (ECMWF), which is available at a significantly higher
+geographical and temporal granularity than the temperature data used in previous research (see
+e.g. Lin et al., 2018). Specifically, we use the ERA-Interim reanalysis data set with global, daily
+coverage of a 0.75 × 0.75° latitude-longitude grid. The data is available starting in 1979.8
+7
+Re-analysis temperatures are generated by interpolating local temperatures based on data from existing weather
+stations and a number of other atmospheric data sources based on scientifically established climate models.
+8
+Dee, Uppala, Simmons, Berrisford, Poli, Kobayashi, Andrae, Balmaseda, Balsamo, Bauer, Bechtold, Beljaars,
+van de Berg, Bidlot, Bormann, Delsol, Dragani, Fuentes, Geer, Haimberger, Healy, Hersbach, Hlm, Isaksen, Kllberg,
+
+10
+
+To construct our sample of local heatwave shocks, we begin by matching daily maximum temperatures to customer and supplier firms by based on the closest ERA-interim latitude-longitude grid
+nodes for the geocoded addresses of our sample firms. Next, we convert the temperatures from Kelvin
+to °Celsius and identify the start and end dates of heatwaves. Following the heatwave definition of the
+National Weather Service, we label spells of three or more days with daily maximum temperatures
+over 30° Celsius by firm location as the occurrence of a heatwave (National Weather Service, 2019)9 .
+Additionally, we compute the duration of the heatwaves by location and heatwave, and aggregate
+the number of heatwave days on the monthly, and later on the firm-quarter level.
+Table 2b reports summary statistics on climate shocks affecting the customers and suppliers in
+our sample. As Panel A (customers) and B (supplier) of Table 2b show, the firms in our sample are
+regularly exposed to heatwaves, 29.8% of customer-firm-quarters and 36% of supplier-firm-quarters
+are affected by at least one heatwave in our sample. The average length of the heatwaves (consecutive
+days over 30° C) is substantial with an average of 23.8 heatwave days per financial quarter for
+suppliers, conditional on the occurrence of a heatwave, and 24.2 days for customers. On average,
+suppliers and customers are exposed to similar temperatures, with a sample average temperature of
+18.6° Celsius (18.5° Celsius) for the customers (suppliers).
+2.4.2
+
+Floods
+
+Second, we obtain data on global surface water levels to determine whether firms are affected by
+flooding incidents in a given quarter. While surface temperatures are the most commonly cited
+consequence of global climate change, the scientific literature widely agrees that flooding incidents
+will also increase significantly in frequency and severity in the future as a direct result of climate
+change, i.e. due to heavy rainfall, rapid melting of snow and ice, and parched soil (CSSR, 2017). At
+the same time, flooding can cause significant economic damage, providing us with a second type of
+climate shock that potentially affects firms in a different way than heatwaves.
+We gather information on surface water levels from the Dartmouth Flood Observatory. To
+compile this data, the Dartmouth Observatory models the earth surface as a set of highly granular
+Koehler, Matricardi, McNally, Monge-Sanz, Morcrette, Park, Peubey, de Rosnay, Tavolato, Thpaut, and Vitart 2011
+provide a detailed description of the data set.
+9
+Precisely, the National Weather Services defines heatwaves as “three or more consecutive days with the temperature
+reaching or exceeding 90 degrees (Fahrenheit)”.
+
+11
+
+polygons and uses on satellite images and remote sensing sources to identify flooding of inundated
+ares. In addition, the observatory collects information on floods from news and governmental sources.
+The dataset includes start and end dates for each flood and detailed geographical information
+on the inundated areas polygons, from 1984 until today. The dataset further provides additional
+information on the floods such as the associated damages, size of the affected area, and deaths. We
+rely on the flood polygons used by the Dartmouth Observatory to spatially match the coordinates
+of our sample firms to the areas affected by the floods using the software QGIS. Compared to the
+country-level flooding data used in previous research, this approach allows us to determine more
+precisely if a given firm location was inundated at a given point in time.
+Equivalent to the procedure outlined in Section 2.4.1 for the heatwave records, we compute the
+number of days for which a firm was exposed to a given flood, and aggregate the count of floods on
+a monthly basis. Panel A and B of Table 2b illustrate the aggregate flooding summary statistics at
+the firm-quarter level. On average, suppliers and customers experience floods in 6.0% and 6.1% of
+all firm-quarters. The average number of 26.7 (30.8) casualties conditional on the occurrence of a
+flood suggests that we observe flood events with a substantial magnitude.
+2.4.3
+
+EM-DAT Disaster Data
+
+For additional robustness tests in Section 3 we also include climate shock data from the international
+disaster database EM-DAT provided by the Centre for Research on the Epidemiology of Disasters
+(CRED, 2011). EM-DAT is one of the most commonly used datasets in the literature on the
+economic cost of climate hazards.10 To compare our heatwave and flood data with the country-level
+EM-DAT disaster, we first distinguish if the temperature-related EM-DAT events are heatwaves or
+cold spells. Subsequently, we aggregate flood and heat events on a monthly basis based on the start
+and end dates, and combine the disaster data with our local records from the ECMWF and the
+Darthmouth Flood Observatory. Table 2b provides the EM-DAT summary statistics.
+We conjecture that our high-granularity heatwave and flood incidents data and the country-level
+data from EM-DAT differ along two dimensions. First, using country-level information naturally
+overstates the extent to which firms have been affected by natural disasters. In that case, the
+EM-DAT shocks would overstate firms’ exposure to both floods and heatwaves. Second, the salience
+10
+
+See for example: Strömberg, 2007; Noy, 2009; Lesk, Rowhani, and Ramankutty, 2016
+
+12
+
+of the two hazard types and the probability that events are registered should differ across data
+sources. Both heat and flood events are recorded by EM-DAT only if they either caused ten or more
+associated casualties, affected more than 100 people, lead to the declaration of a state of emergency,
+or resulted in a call for international assistance. While floods are highly visible, the relevance of
+extreme temperatures and heatwaves can be contingent on the context, and hence more difficult
+to identify. Therefore, we expect that the disaster data only captures a subset of both floods and
+heatwaves that we can detect locally, particularly in the case of heatwaves.
+In line with this reasoning, the average number of flood-affected firm-quarter observations is
+significantly higher based on the country-level match compared to the EM-DAT match. For instance,
+suppliers are physically exposed to floods only 6.1% of the time according to the local data, compared
+to 49% if we match based on EM-DAT country-level records. The opposite holds for heatwaves.
+While our local data suggests that heatwaves occur frequently, the disaster statistics yield a much
+lower affected numbers of firm-quarters - despite the geographic overestimation.
+
+3
+
+Direct Exposure to Climate Shocks
+
+We begin our analysis by studying the direct effects of climate shocks on the supplier firms in
+our sample. This exercise is important to verify that the shocks we study in this paper indeed
+have an economically significant effect on firm operating performance. Many of the regions most
+severely affected by climate change are located outside of the developed countries of North America
+and Western Europe. Hence, our analysis complements the results in Somanathan, Somanathan,
+Sudarshan, and Tewari (2015); Zhang et al. (2018); Addoum et al. (2019), as we study the effect of
+heatwaves on firm earnings and performance in a global setting. Further, by also studying flooding
+incidents – in addition to local heatwaves – we are able to compare the economic effects of different
+climate change related risks. In our main analysis we focus on heatwave and flooding data from
+ECMWF and the Dartmouth Observatory, as the EM-DAT disaster data is less granular for floods
+and too restrictive for heatwaves, as documented in Section 2.4.3.
+One important consideration for our tests is that firms likely adjust to the average climate hazard
+exposure in production locations. If managers understand climate risks and organize production
+to maximize profits, they might choose (not) to produce in certain places if adjustment potential
+13
+
+is (in)sufficient, or they adjust the production equipment to match the expected climate exposure
+– contingent on the firm’s financial capacity to do so. Hence, it the cross-sectional relationship
+between climate exposure variables and firm financial performance is likely endogenous.
+However, while managers can base their decisions on expected climate exposure, they do not
+have power over the weather variation over time and the exact timing of climate shocks. Moreover,
+both floods and heatwaves can only be predicted with precision on short horizons, which are unlikely
+to allow for substantial adjustment in the production planning. Therefore, the variation in climate
+shocks over time is an exogenous source of variation and randomly distributed once we condition on
+fixed firm locations. This allows us to identify the causal impact of floods and heatwaves on firm
+operating performance.
+We isolate the effect of time-series variation in climate shocks for a given firm on firm operating
+performance by estimating OLS regressions with firm-by-quarter fixed effects. By interacting
+firm-fixed effects and quarter fixed effects, our model absorbs both any time-invariant firm-level
+characteristics, as well as firm-specific seasonal effects during the four quarters of the year. This
+is important because firm operating performance varies seasonally throughout the year, and this
+seasonal variation might be correlated with the occurrence of climate shocks. Further, we include
+industry-by-year-by-quarter fixed effects to absorb any industry-specific time trends.
+Our two main variables for measuring firm operating performance in the following regression
+models are sales turnover and profitability. Specifically, we use quarterly revenues and operating
+income, divided by assets. We specifically focus on these two measures – as opposed to for example
+earnings – since revenues and operating income are harder to manipulate by firms’ strategic
+accounting - and the incentive to smooth earnings might be particularly high following adverse
+financial shocks.
+In principle, the location-specific variation in flood and heat shocks over time cannot be actively
+influenced by firm choices. However, as climate shocks could randomly coincide with changes in
+firm characteristics over time, we additionally introduce size, age, and profitability specific time
+fixed effects. For this purpose, we sort all firms into size, age, and profitability terciles and interact
+the grouping variables with year-quarter fixed effects in our main specification, following Barrot and
+Sauvagnat (2016). Specifically, we estimate models of the following form, clustering robust standard
+
+14
+
+errors on the firm level in line with Barrot and Sauvagnat (2016):
+yiqt =
+
+0
+X
+
+βt × Climate Shocksiqt + µiq + γnqt + δBS2016 + iqt
+
+(1)
+
+t=−k
+
+where yiqt is either Revenue/Assets (Rev/AT) or Operating Income/Assets (OpI/AT) of firm
+i in quarter q of year t, Climate Shocksiqt is a dummy variable indicating the occurrence of a
+heatwave or flood in the location of firm i in year-quarter qt, µiq are firm-by-quarter fixed effects,
+γnqt are industry-by-year-by-quarter fixed effects based on 2-digit SIC codes, and δBS2016 are firm
+size, age, and profitability × time fixed effects as in Barrot and Sauvagnat (2016). In robustness
+tests, we also use the count of climate events by financial quarter as an alternative specification. As
+it is ex-ante unclear if the financial impact of climate shocks manifests immediately or with some
+delay throughout the financial year, we estimate two different specification of the outline model.
+First, we limit the climate shock observations to the current financial quarter and second, i.e. we
+restrict k = 0, second we additionally include three lags of three periods, i.e. k = 3.
+[Insert Table 3 here.]
+Table 3 reports the regression results for Equation (1). In Panel A we estimate regressions without
+climate shock lags, in Panel B we additionally include three lags of climate shock events. The results
+in both panels indicate that heatwaves and floods adversely impact the bottom line of our supplier
+firms. However, the results also show that the full financial impact only becomes visible over the
+course of the financial year. On the one hand, we find a very small contemporaneous impact of
+heat events on firm operating performance, as both the effect on sales turnover and profitability is
+statistically indistinguishable from zero in Panel A. At the same time, the occurrence of a flood is
+associated with an average decrease in Revenue/Assets of 0.19 percentage points, and a decrease
+in operating income over assets between 0.095 to 0.1 percentage points.
+On the other hand, Panel B indicates that the financial impact of heatwaves and floods is
+in fact much larger than the simple analysis of contemporaneous climate shocks suggests, in line
+with the findings of Barrot and Sauvagnat (2016). When we include three lags of climate shocks
+in Equation (1) while holding the sample fixed, we find a material impact of heatwaves on both
+Rev/AT and OpI/AT between one to three financial firm quarters after the occurrence of a heatwave.
+15
+
+The coefficient estimate for the effect of heatwaves on sales turnover in columns (1) and (2) is
+between -0.25 to -0.26 (statistically significant at the 5 and 10% level), and between -0.09 to -0.12
+for operating margin in columns (3) and (4) for the coefficients with a lag of two to three quarters.
+Floods similarly decrease sales turnover (between -0.25 and -0.29 percentage points, statistically
+significant on the 5% and 10% level) and profitability (-0.11 to -0.12 percentage points, significant
+on the 1% level) in the contemporaneous and the previous two financial quarters. Given the average
+operating margin (OpI/AT) of 2% and sales turnover (Rev/AT) of 22% in our supplier sample,
+the mean effects are economically meaningful, representing approximately a 1% reduction in sales
+turnover and a 5.5% reduction in operating income over assets, relative to the sample mean. The
+documented difference in how quickly financial performance measures reflect the occurrence of
+climate shocks could have important implications for market participants. If heatwaves are reflected
+by accounting measures of firm performance with a delay, it becomes more difficult for investors
+to understand the link between the such temperature events and firm performance. Hence, this
+delay could help explain the underreaction of investors to firms’ exposure to extreme temperatures,
+documented in the recent literature (Addoum et al., 2019; Pankratz et al., 2019).
+Our results naturally raise questions regarding the economic mechanisms driving the observed
+effects. In the context of heatwaves, a large literature in economics has focused on the channels
+through which extreme temperatures can cause aggregate economic losses11 . With regard to floods,
+these channels have been studied less explicitly, but the observed net effect could be caused by
+damages to assets, equipment and infrastructure, as well as production distortions during the floods,
+e.g. if worker safety is endangered and production thereby constrained throughout the duration of
+the floods. As the focus of our analysis lies on the direct and indirect performance implications of
+climate shocks and the adaptation of supply-chain managers, we remain agnostic about the precise
+mechanics of the directly observable effects in this paper.
+We conduct several robustness tests for the direct effects of climate shocks on firm operating
+performance. First, we estimate the impact of the climate shocks on supplier performance after
+replacing heatwave and flood dummies with counting variables indicating the number of climate
+events per financial quarter. The results are reported in Appendix Table A1 and show that the
+11
+
+Previous research documents that electricity prices increase with heat exposure (Pechan and Eisenack, 2014),
+while water supply tightens (Mishra and Singh, 2010) and both cognitive and physical worker performance are
+compromised (Sepannen, Fisk, and Lei, 2006; Xiang, Bi, Pisaniello, and Hansen, 2014).
+
+16
+
+statistical significance and overall pattern remain similar for this alternative specification. Moreover,
+the statistically strongest effects of heatwaves again appear to occur with a delay of two quarters
+after the firm was exposed to the heatwaves. Similarly, and in line with our main test in Table 3,
+contemporaneous floods have a significant immediate as well as a two-quarter delayed impact on
+sales turnover and operating income. When we use the count of heatwaves and floods per quarter for
+our estimations, the magnitude of the coefficient estimates is naturally smaller than the aggregate
+effect for all events in a financial quarter estimated in Table 3.
+As our final robustness test on the direct impact of climate shocks, we estimate the impact of
+heatwave and flooding disasters on supplier performance using the country-level data from EM-DAT.
+Overall, the results reported in Appendix Table A2 confirm our conjecture from Section 2.4.3: for
+evaluating the financial impact of climate shocks on the firm level the use of climate data with
+high geographical granularity is essential. While heatwaves identified as disasters in the EM-DAT
+database are negatively correlated with supplier performance only in the specifications in columns
+(1) and (2) and with a delay of one financial quarter, the coefficient estimates are statistically
+indistinguishable from zero, or even positive in all other specifications.
+
+4
+
+Indirect Exposure to Climate Shocks
+
+Based on our result from the previous Section 3, showing that heatwaves and floods significantly
+decrease supplier operating performance, we next test if climate hazards propagate downstream
+along supply-chain links. Since particularly the largest corporations traded on international stock
+exchanges rely on extensive, worldwide production networks, it is important to better understand
+if even firms which are not located in areas with a high climate risk exposure can indirectly be
+harmed by increases in the intensity of climate hazards due to their (remote) suppliers.
+Analogous to our previous tests, we use sales turnover and profitability, measured by revenue
+over assets and operating income over assets, as our two main dependent variables for assessing
+whether climate risk is indeed propagated along supply-chains are. Despite the adverse direct
+effect on suppliers documented above, the implications of climate shocks for supplier and customer
+performance might differ. On the one hand, customer firms could be unaffected by shocks to
+supplying firms if suppliers cannot pass on the incurred costs downstream. At the same time,
+17
+
+customers could also include climate factors in their contingency management, enabling them switch
+suppliers without incurring large costs if a specific supplier is hit by a heatwave or flooding. In
+both cases, neither heat nor flood related shocks would propagate from suppliers to customer along
+the supply-chain, and we should not be able to document a significant impact of climate shocks to
+suppliers on customer financial performance.
+On the other hand, environmental shocks such as heatwaves or floods can cause supply-chain
+glitches and lower production output at the supplier and customer level. These disruptions are
+particularly likely if the provided inputs have a high level of specificity (Barrot and Sauvagnat,
+2016). If climate shocks to suppliers on average cause distortions, we would expect to find a negative
+relation between customer financial performance and supplier exposure to climate risk.
+To test these competing hypotheses, we require two identifying assumptions. As in the previous
+analysis, it is problematic to study this question in the cross-section, as the exposure of customer
+firms to climate shocks through suppliers might be endogenous. For instance, if certain industries
+systematically depend on specific inputs from suppliers clustered in risky areas, climate shocks
+and customer firm performance might be endogenously correlated. In contrast, it is reasonable to
+assume that the variation in supplier exposure to climate shocks over time is unrelated to time
+invariant firm characteristics such as industry associations.12 Therefore, analogous to our model in
+Equation (1), all our results in this section are due to within-firm-pair variation over time.
+Second, customer firms could experience similar performance effects as their suppliers when
+they themselves are hit by climate shocks. Therefore, to ensure that our results are not due climate
+shocks affecting customer firms directly, we exclude all customers-supplier pairs with customers
+located within a 500 kilometer radius of the affected supplier from our analysis.
+Based on these considerations, we estimate two different models. In our first set of tests we
+estimate pooled OLS regressions of the following form,
+ycsqt =
+
+0
+X
+
+βt × Climate Shockscsqt + µcsq + γn(c)t + δBS2016 + csqt
+
+(2)
+
+t=−3
+
+where ycsqt is either Revenue/Assets or Operating Income/Assets of customer c in quarter q of
+12
+In our later analyses, we find that firms tend to terminate relationships with suppliers that face increases in
+climate shock exposure compared to historical, expected levels of climate risk. However, the tendency of customers to
+cut off suppliers that are particularly exposed to climate risk should only bias our effects downward.
+
+18
+
+year t, Climate Shockscsqt is a dummy variable indicating the occurrence of a heatwave or flood
+in the location of supplier s in year-quarter qt, µcsq are supplier-customer pair-by-quarter fixed
+effects, γn(c)qt are customer industry-by-year-by-quarter fixed effects based on 2-digit SIC codes,
+and δBS2016 are customer firm size, age, and profitability × year-quarter fixed effects similar to
+Equation (1). The unit of observation in these test is at the customer-supplier-year-quarter level. By
+including pair-by-quarter fixed effects (γn(c)qt ), our model subsumes all time-invariant relationship
+characteristics (e.g. supplier and customer country characteristics, languages, geographical distance,
+average input specificity, average relationship strength, and firm fixed effects) as well as relationshipspecific seasonal patterns. Our results are therefore obtained from time-series variation in a given
+firm-pair for the same quarter of the year.
+In our second set of tests, we collapse our panel observations at the customer level by aggregating
+over all suppliers of a given customer, and estimate regressions of the following form,
+ycqt =
+
+0
+X
+
+βt × Climate Shockscqt + µcq + γn(c)t + δBS2016 + cqt
+
+(3)
+
+t=−3
+
+where ycqt again captures customer firm operating performance, and µcq , γn(c)t , and δBS2016 are fixed
+effects at the customer-by-quarter, industry-by-year-by-quarter, and size/age/ROA × year-quarter
+level. Climate Shockscqt is obtained as the maximum of Climate Shockscsqt over all suppliers s of
+customer c in period qt. The unit of observation in these tests as at the customer-year-quarter level.
+Based on our findings in Section 3, we include lags of k = 3 periods for the climate shocks in both
+Model (2) and (3). In line with our identifying assumptions that the variation over time in flood and
+heat shocks on suppliers are exogenous and that the supplier shocks only affect customers through
+the supply chain link, other characteristics of the customer firms should not be systematically
+correlated with both the outcome and the flood and heatwave occurrence. Hence, we do not include
+firm-level controls in our main specification, but again add size, age, and profitability times quarter
+fixed effects to control for different firm profiles, analogous to Equation 2. In line with Barrot and
+Sauvagnat (2016), we cluster robust standard errors on the relationship and on the customer firm
+level in Equations (2) and (3), respectively.
+
+19
+
+4.1
+
+Climate Shock Propagation – Results
+
+Table 4 reports the results for our first test on customers’ sensitivity to supplier climate risk exposure,
+as detailed in Equation (2). The unit of observation in Panel A is at the supplier-customer-yearquarter level. The first four columns show the impact of supplier heatwaves, columns (5) to (8)
+report the effect of supplier floods. With regard to heatwaves, we find tentative evidence that
+the climate shocks on suppliers propagate along the supply chain. Specifically, we find a negative
+impact (coefficient -0.044) of heatwaves at the supplier locations on customer revenues in column (2),
+statistically significant at the 10% level. All other coefficient estimates for the propagation effect of
+heatwaves lagged by one to three quarters are marginally not statistically significant. However, all
+coefficient estimates carry negative signs, and the difference in the magnitude between the impact
+of heatwaves on revenues and operating income is in line with the estimations of the direct impact
+of heat on supplier firms. Hence, while the observed effect is small in our sample, our finding is still
+economically meaningful, given that the frequency of heatwaves is projected to increase substantially
+in the future due to ongoing climate change.
+In comparison, the shock propagation of floods is unambiguous and both statistically and
+economically large. According to our estimates, customer revenue over assets decreases between 0.10
+to 0.16 percentage points in three quarters after the supplier has initially been exposed to a flood.
+Moreover, customers’ operating income is reduced by 0.02 up to 0.04 percentage points (all effects
+significant on the 1% level). These magnitudes are economically meaningful even at low climate
+shock frequencies: Compared to the sample median, the occurrence of a flood at the supplier firm
+reduces customer revenue and operating income by 1.8% and 2.2%, respectively.
+[Insert Table 4 here.]
+In Panel B of Table 4, we show the results for the sample collapsed on the customer level, implementing the model in Equation (3). Again, we find evidence that the climate shocks on supplier
+firms propagate along the supply chain with a tentative, statistically negative impact of heatwaves
+at the supplier locations on operating income (column (3), coefficient estimate of -0.052, significant
+at the 5% level). For floods, the results are similar in magnitude to our first set of tests using the
+full panel. The impact of floods at one of a given customer’s supplier firms reduces revenues over
+assets between -0.15 and -0.16 percentage points (statistically significant at the 10% and 5% level),
+20
+
+with a lag of two calendar quarters. Further, floods have a significant negative effect on operating
+income (coefficient estimates between -0.053 and -0.045 percentage points, significant at the 5% and
+10% level), with a lag of one quarter.
+Taken together, our results provide evidence that climate change related shocks can propagate
+downstream along the supply-chain. This finding indicates that climate change could affect even
+firms in relatively ‘climate-safe’ parts of the world as supply-chains span the globe. On average,
+the results also suggest that suppliers can pass some of the cost caused by climate shocks on to
+customers, or that not all customers in our sample are fully hedged against idiosyncratic shocks to
+their suppliers through their contingency management. while the evidence on the side of heatwaves
+is tentative13 , the flood-related effects are pronounced both in a statistical and economic sense. Our
+results are consistent with Barrot and Sauvagnat (2016), who document that the financial shocks
+imposed by natural disasters propagate along the supply chain when inputs are specific.
+
+4.2
+
+Climate Shock Propagation – Robustness
+
+We conduct a number of robustness with respect to our findings on the propagation of climate shocks.
+First, to verify that the effects we observe are indeed attributable to climate shock transmission
+through supply-chain linkages, we implement a placebo test based on the start and end dates of our
+sample supply-chain relationships. Specifically, we re-estimate our regressions models specified in
+Equations (2) and (3) using the same sample of supplier-customer relationships. However, in our
+placebo tests we use only the periods before and after a given supplier-customer pair was engaged
+in a supply-chain relationship.
+[Insert Table 5 here.]
+If the supply-chain data from FactSet Revere correctly identifies the beginning and end of our
+sample supplier-customer relations, and our results in Section 4.1 are indeed due to the propagation
+of climate shocks, we should not find a negative effect of supplier climate shocks on customer firm
+operating performance in the placebo sample. Indeed, as reported in Table 5, we do not find a
+13
+
+Given the marginally insignificant results for the heatwave-based tests, it is important to bear in mind that
+the empirical setting biases the results downwards. First, if a share of the customers in the sample has a strong
+contingency management with several alternative suppliers, and second, if managers respond to operational distortions
+caused by troubled suppliers, and replace suppliers that are particularly exposed, so that affected supply-chain links
+systematically drop out of the sample.
+
+21
+
+negative relation between supplier climate shocks and customer firm performance, neither when
+conducting the tests on the full customer-supplier pair level sample (Panel A), nor on the collapsed
+sample at the customer level (Panel B).
+As an additional robustness test, we estimate the shock propagation based on a count measure
+of heatwaves and floods instead of an indicator variable. The results are reported in Appendix Table
+A3. Again, we find weak evidence for a propagation of heatwave-related shocks on the supplier
+to the customer operating income (column 2, coefficient estimate of -0.015, significant at the 5%
+level) and strong evidence for the propagation of flood related shocks. Last, we repeat our tests
+using the country-level climate shock data from EM-DAT, analogously to Section 3. The results are
+reported in Appendix Table A4. In line with our results focusing on the direct effect of climate
+shocks, we cannot document a consistent relation between customer performance and the climate
+disaster measures from EM-DAT.
+
+5
+
+Supply-Chain Adaptation
+
+Our results in the previous sections show that climate-related shocks matter for firm financial
+performance, both directly and indirectly through supply chain links. Hence, managers have an
+incentive to monitor the climate-change related risk imposed by their suppliers. In this section, we
+empirically test if managers indeed take climate-risk considerations into account by adapting their
+to supply-chain relationships.
+
+5.1
+
+Climate Trends and Supplier Termination
+
+We first test if climate-change risk increases the likelihood that a supplier-customer relationship is
+terminated. On the one hand, costly climate-related shocks could cause operational issues at a given
+supplier, making the firm a less attractive supply chain partner going forward. On the other hand,
+customer and supplier firms often make substantial relationship-specific investments to set up and
+maintain a supply chain relationship. It is unclear if the adverse financial consequences of climate
+risk exposure are sufficiently high to result in the termination of an existing customer-supplier
+relationship.
+We use the FactSet Revere information on the start and end dates of customer-supplier relation22
+
+ships to test these hypotheses. To construct the main outcome variable, we generate a panel of firm
+years in which the customer-supplier relationships are active, and set the dummy variable 1 (End)
+to take the value of one in the last year a given supply-chain relationship is reported in FactSet
+Revere. To avoid mechanical issues in the last year of our sample we drop observations from 2017.
+To construct our main variable of interest capturing supplier climate risk exposure, we start with
+the assumption that managers trade off potential climate-related risks with other firm characteristics
+such as product quality, costs and delivery times when entering a supply-chain relationship. Under
+this scenario, a customer firm is generally aware of climate risks associated with a given supplier
+and continuously weighs the costs and benefits of remaining in the relationship. As long as the
+costs of leaving a given relationship exceed the costs of staying, the customer will continue the
+relationship with a supplier. If this assumption holds, realized climate shocks over the course of a
+supply-chain relationship that fall within the normal, ex-ante anticipated range of events given a
+supplier’s location and climate risk will not substantially influence the likelihood that the supplier is
+dropped, all else equal. However, if realized climate risks increase beyond the anticipated levels, and
+in ways that firms are not prepared for or hedged against, it would reduce the economic viability of
+a supplier-customer relationship and increase the profitability that the relationship ends.
+To test this conjecture, we construct the measure 1 (Realized > Expected Climate Shocks) (t),
+as illustrated in Figure 3. We first estimate the expected number of climate shocks per year in
+the supplier location over a benchmark period of five14 yearsbefore the establishment of any given
+supplier-customer relationship. 1 (Realized > Expected Climate Shocks) (t) then takes the value
+of one in year t, if the difference between the realized number of climate shocks per year since
+the beginning of the supplier-customer relationship exceeds the corresponding expected number of
+shocks, and zero otherwise.
+In econometric terms, our following test again relies on two identifying assumptions. First, we
+exploit the fact that climate trends, besides the timing of climate shocks, are to a large extent
+random over time and cannot be predicted with precision. Hence, managers can incorporate expected
+levels of climate risk exposure, but not deviations from the expectation into their decision making.
+Second, to be able to assume that the estimated effect is not caused by the direct impact of changing
+climate risk on the customer, we again exclude all customers-supplier pairs with customers located
+14
+
+In robustness tests, we use seven, ten, and fifteen years, respectively.
+
+23
+
+within a 500 kilometer radius of the affected supplier. Based on these assumptions, our measure
+of realized vs. expected climate risk is orthogonal to other firm decisions, and our corresponding
+estimate reflects the impact of the change in supplier climate shock exposure. We estimate the
+following linear probability model,
+1 (End)sct = β × 1 (Realized > Expected Climate Shocks)st + µcs + γn(s)t + ρc(s)t + int
+
+(4)
+
+where 1 (End)sct is an indicator taking the value of one in year t if it is the last year on record of
+the relation between supplier s and customer c.
+To control for potential confounding effects, we estimate the regressions with several dimensions of
+fixed effects. First, we include relationship fixed-effects µcs in all specification to account for supplier
+characteristics that impact the probability of a relationship to end, but do not vary over time. For
+instance, suppliers could face a fixed probability of termination based on their industry association.
+Further, we include supplier industry-by-year fixed effects γn(s)t to account for industry trends, for
+example related to the extent to which customers switch from buying inputs to manufacturing
+inputs. We also add supplier country-year fixed effects ρc(s)t to account for changing macroeconomic
+risks that impact whether customer firms maintain supplier-relationships. In addition, we estimate
+the model with supplier country-customer-year × customer country-year fixed effects, to account
+for changes in international trade dynamics, such as changing barriers or import-related costs. We
+cluster robust standard errors on the relationship level.
+[Insert Table 6 here.]
+Table 6 reports the results. Across all specifications, we find a robust, positive impact of high realized
+vs. expected climate exposure on the likelihood of supply-chain relationship termination. In line
+with the results on the financial impact of the climate hazards as well as the financial propagation
+of the shocks in the supply chains, the results suggest that increases in flood exposure increase
+the probability a supply-chain relationship ends on average by 3.7 percentage points (column 8,
+coefficient significant at the 1%-level). The impact of heatwave exposure increases is equally strong
+in terms of its statistical significance but economically smaller at percentage points (column 4,
+coefficient statistically significant at the 1%-level). The difference in the magnitude between floods
+and heatwaves is in line with the stronger direct and indirect impact of floods compared to heatwaves
+24
+
+documented in Sections 3 and 4. Both the estimate for heatwaves and floods are economically
+meaningful, given the unconditional expectation of 15.12% that a supply chain relationship ends in
+any given year in our sample.
+To test the robustness of this result, we change the horizon over which we compute the expected
+number of floods or heatwaves per year. Appendix Table A5 indicates that the results are robust
+when we extend the period from 5 to 7, 10, or 15 years, as both the estimates for heatwaves and
+floods remain very similar in magnitude and significance. Moreover, we test whether the results
+remain stable when we include additional time-variant financial control variables for both the
+supplier and customer firms. Thereby, we control for changes in the financial health of the firms
+which could otherwise influence the probability of the continuation of the relationship. As Appendix
+Table A6 shows, the results again remain very similar both in magnitude and significance when we
+control for changes in the debt-to-assets ratio, the log price-to-book ratio, and firm size proxied by
+the natural logarithm of the market value of equity.
+
+5.2
+
+Climate Shocks and Supplier Termination
+
+To validate our assumption that managers take climate risks into account when establishing
+supply-chain relations, we next replace our measure of realized vs. expected climate risk with
+a simple measure of realized climate shocks since the beginning of the supplier relationship. If
+the general level of climate risk exposure is taken into consideration before forming supply chain
+relationships, climate shocks per se should not be a strong determinant of supplier termination.
+We again estimate the model in Equation (4), replacing 1 (Realized > Expected Climate Shocks)
+with Climate Shocks (t) of the supplier firm.
+[Insert Table 7 here.]
+The results, reported in table Table 7 show the sensitivity of supply-chain relationship continuation
+to realized climate shocks. Depending on the dimension of fixed effects, we find a small, positive
+impact of heatwave and flood occurrence on the probability that a supply-chain relationship ends
+for some specifications. However, the economic magnitude of this effect is small: For heatwaves,
+the probability of termination is increases by 0.16 to 0.17 percentage points (columns 3 and 4,
+coefficients significant at the 5% level), for floods, there is some evidence of an increase by 0.29 to
+25
+
+0.33 percentage points (columns 5 and 6, coefficients significant at the 1%-level). This effect is an
+order of magnitude smaller and insignificant compared to the tests based on realized vs. expected
+climate risk.
+Taken together, our results are consistent with the notion that managers are taking climate risks
+into consideration when entering a supply-chain relation. Also, the results suggest that increases in
+climate risk exposure can be an important determinant of the probability of the continuation of the
+relationships. If this effect holds globally, it could have important implications for international
+development. According to Burke et al., 2015b and Carleton and Hsiang, 2016, developing countries
+around the world are most severely affected by the outcomes of global climate change. If financial
+incentives from supply-chain disruptions motivate ’Northern’ firms to further shift economic activity
+from ‘Southern’ to ‘Northern’ countries, the effect could contribute to widening global economic
+inequality.
+
+5.3
+
+Climate Risk Exposure of Old and New Suppliers
+
+To shed further light on the question how firms adapt their supply-chains to climate change, and to
+examine if climate risks are indeed driving the formation of production networks, we next study if
+customers switch from high risk to low risk suppliers based on climate exposure. As we showed in the
+previous section, realized climate shocks in exceedance of previously anticipated levels can increase
+the likelihood that a given supplier relationship ends. However, it is unclear if managers understand
+the link between climate risk exposure and financial performance, and hence mitigate these risks by
+switching to different suppliers with lower climate exposure. Instead, customer managers might
+simply observe the adverse financial effects of (indirect) climate shocks without considering climate
+risk as an underlying driver of financial performance effects. Under this scenario, we would not
+expect to find a difference in climate risk exposure between ‘old’ suppliers whose supply-chain
+relationships are terminated and ‘new’ replacement suppliers.
+To test this conjecture, we limit our dataset to supplier-customer links with a known end date,
+retaining approximately 60,000 observations.15 Of course, not all supplier-customer relationships
+in our sample end because of climate risk considerations. However, the noise introduced by this
+15
+
+Note that in contrast to the performance-related tests, in this setting we do not condition on the availability of
+performance information for customer and supplier firms
+
+26
+
+measurement error would bias us against finding significant results. For each supplier whose
+relationship with a customer ends throughout our sample period (i.e. ‘old’ supplier), we then
+identify (likely) replacement suppliers who entered a new supply-chain relationship with the same
+customer within the next two years, as reported in FactSet Revere. We require replacement
+candidates to have the same four-digit SIC code as the ‘old’ supplier, and consider only supplychain relationships recorded by FactSet analysts for the first time in the two years after the ‘old’
+supply-chain relationship ended. After applying these constraints, we identify 100,000 combinations
+of terminated and replacement suppliers.
+Next, we compare the climate hazard exposure of actual supplier firms during the active years
+of the initial (‘old’) supply-chain relationship and their respective, likely, replacements. Figure 4
+illustrates the construction of the test. First, we compare the number of climate shocks of the
+actual, replaced supplier to the exposure that a replacement supplier would have had during the
+time period in which the original relationship was active. Second, we estimate and compare the
+number of climate shocks that actual and replacement suppliers were exposed to throughout the
+whole sample period from 1984 to 2017. Third, we compare the time period after which the original
+supply-chain relationship has ended. In all tests, we keep the observed years between the actual,
+original, and hypothetical replacement suppliers constant. This requirement is important to ensure
+that year-specific climate trends do not confound the comparison.
+[Insert Table 8 here.]
+Table 8 reports the mean differences and t-statistics of the comparison of the exposure of all
+replaced suppliers and replacement suppliers. We conduct three tests per climate hazard: first,
+based on the realized shocks throughout the entire sample period, second, based on the duration
+of the supply-chain relationship, and third, based on the time thereafter until 2017. Focusing
+on heatwaves, we find that replacement suppliers are on average less exposed during the original,
+terminated relationship period, experiencing 0.83 fewer heatwaves on average. In the period after
+the termination and during the time in which the new relationships are active, this difference further
+increases to 2.0 fewer heatwaves (all differences are significantly different from zero at the 1% level).
+The same pattern holds with regards to floods. Whereas potential replacement suppliers are slightly
+less exposed to floods during the original relationship period (difference of -0.031, significant at
+27
+
+the 1% level), the difference becomes more pronounced after the termination of the original link
+(difference of -0.33, significant at the 1% level).
+Hence, our results are consistent with the notion that climate risks can drive the formation of
+supply-chain relations. If suppliers are negatively impacted by climate shocks and the cost of these
+shocks are shared in supply chains, managers face a financial incentive to manage the extent to
+which they are indirectly exposed to climate risk. Moreover, we observe that supplier climate risk
+exposure beyond expected levels increases the probability that customers switch suppliers. In line
+with the notion that these switches are climate related, managers appear to identify less sensitive
+supplier firms as alternatives to the original supply-chain partner.
+
+6
+
+Conclusion
+
+In this paper, we combine temporally and spatially granular data on heatwaves and flooding from
+the European Center for Medium-term Weather Forecasts (ECMWF) and the Darthmouth Flood
+Observatory with a detailed dataset on global supply chain relationships from FactSet Revere. We
+obtain a climate-supply-chain database with 4,289 (4,568) suppliers (customers) across 51 countries
+around the world from 2003 to 2017, and investigate two questions: First, do climate shocks matter
+financially, and do they propagate along supply chains? And second, if so, how do firms respond to
+changing climate risk exposure in their supply chain networks?
+We present two main insights. First, we test if climate change exposure has direct and indirect
+firm performance effects due to supply chain networks. We find that the financial performance of
+suppliers is negatively associated with heatwaves and flooding incidents, and show that the financial
+consequences of these climate shocks propagate to customers through supply chain links. Second, we
+study how firms adapt their supply-chain organizations in response to climate change risks. We find
+that firms are more likely to end relationships with suppliers which experience an unexpectedly high
+number of climate shocks compared to expectations formed at the beginning of the supply-chain
+relationship. Moreover, in substituting these suppliers, firms diversify their supplier network and
+replace high-climate-risk with lower-climate-risk suppliers.
+Our results both on climate shock transmission and supply chain adaptation are economically
+meaningful. For instance, we find that heatwaves and floods are associated with a subsequent
+28
+
+reduction of 4% in sales turnover and 10% in profitability at the directly affect firm, relative to
+the sample median. In terms of the adaptation effects, unexpectedly high numbers of floods and
+heatwaves increase the probability that customers abandon their suppliers by 4% and 1% compared
+to the unconditional sample probability of a customer-supplier relationship termination of 15%.
+Our finding have two important, potential implications with regard to the impact of climate
+change on internationally diversified firms, and the impact of the adaptation efforts of these firms on
+international economic development. First, while developing countries are likely to experience the
+most pronounced increases in climate shocks, the results on the indirect impact of climate shocks
+suggest that economic impact of climate change is likely to be – at least partially – shared through
+economic links in global production networks. Second, if firms in high-climate risk countries are
+more likely to be substituted by customers in favor of suppliers in less vulnerable locations, the
+outlined effects could further economically weaken the areas most vulnerable to climate change.
+Our study contributes to the rapidly growing academic literature on the financial impact of
+climate change, and is among the first studies to provide evidence on how firms adapt to climate
+change.
+
+29
+
+References
+Addoum, J. M., D. T. Ng, and A. Ortiz-Bobea (2019). Temperature shocks and earning news. Review of
+Financial Studies, forthcoming.
+Auffhammer, M. (2018). Quantifying economic damages from climate change. Journal of Economic Perspectives 32 (4), 33–52.
+Baldauf, M., L. Garlappi, and C. Yannelis (2019). Does climate change affect real estate prices? Only if you
+believe in it. Review of Financial Studies, forthcoming.
+Banerjee, S., S. Dasgupta, and Y. Kim (2008). Buyer–supplier relationships and the stakeholder theory of
+capital structure. Journal of Finance 63 (5), 2507–2552.
+Bansal, R., D. Kiku, and M. Ochoa (2016). Price of long-run temperature shifts in capital markets. Working
+Paper 22529, National Bureau of Economic Research.
+Barrot, J.-N. and J. Sauvagnat (2016). Input specificity and the propagation of idiosyncratic shocks in
+production networks. The Quarterly Journal of Economics 131 (3), 1543–1592.
+Boehm, C. E., A. Flaaen, and N. Pandalai-Nayar (2019). Input linkages and the transmission of shocks:
+Firm-level evidence from the 2011 Tōhoku earthquake. The Review of Economics and Statistics 101 (1),
+60–75.
+BSR (2018). Climate & Supply Chain – The business case for action. Available at: https://www.bsr.org/
+reports/BSR_Climate_and_Supply_Chain_Management.pdf.
+Burke, M., S. M. Hsiang, and E. Miguel (2015a). Climate and conflict. Annual Review of Economics 7 (1),
+577–617.
+Burke, M., S. M. Hsiang, and E. Miguel (2015b). Global non-linear effect of temperature on economic
+production. Nature 527 (7577), 235.
+Carleton, T. A. and S. M. Hsiang (2016). Social and economic impacts of climate. Science 353 (6304).
+Cen, L., F. Chen, Y. Hou, and G. D. Richardson (2018). Strategic disclosures of litigation loss contingencies
+when customer-supplier relationships are at risk. The Accounting Review 93 (2), 137–159.
+Cen, L., S. Dasgupta, R. Elkamhi, and R. S. Pungaliya (2015). Reputation and loan contract terms: The
+role of principal customers. Review of Finance 20 (2), 501–533.
+Cen, L., E. L. Maydew, L. Zhang, and L. Zuo (2017). Customer–supplier relationships and corporate tax
+avoidance. Journal of Financial Economics 123 (2), 377–394.
+Cohen, L. and A. Frazzini (2008). Economic links and predictable returns. Journal of Finance 63 (4),
+1977–2011.
+CRED (2011). EM-DAT: The OFDA/CRED international disaster database. Centre for Research on the
+Epidemiology of Disasters. Université Catholique de Louvain Brussels, Belgium.
+CSSR (2017). Climate science special report. In D. Wuebbles, D. Fahey, K. Hibbard, D. Dokken, B. Stewart,
+and T. Maycock (Eds.), Fourth National Climate Assessment, Volume I. U.S. Global Change Research
+Program.
+Dee, D. P., S. M. Uppala, A. J. Simmons, P. Berrisford, P. Poli, S. Kobayashi, U. Andrae, M. A. Balmaseda,
+G. Balsamo, P. Bauer, P. Bechtold, A. C. Beljaars, L. van de Berg, J. Bidlot, N. Bormann, C. Delsol,
+R. Dragani, M. Fuentes, A. J. Geer, L. Haimberger, S. B. Healy, H. Hersbach, E. V. Hlm, L. Isaksen,
+P. Kllberg, M. Koehler, M. Matricardi, A. P. McNally, B. M. Monge-Sanz, J. Morcrette, B. Park, C. Peubey,
+P. de Rosnay, C. Tavolato, J. Thpaut, and F. Vitart (2011). The era-interim reanalysis: configuration and
+
+30
+
+performance of the data assimilation system. Quarterly Journal of the Royal Meteorological Society 137,
+553–597.
+Dell, M., B. F. Jones, and B. A. Olken (2014). What do we learn from the weather? The new climate-economy
+literature. Journal of Economic Literature 52 (3), 740–98.
+Feng, S., A. B. Krüger, and M. Oppenheimer (2010). Linkages among climate change, crop yields, and
+Mexico–US cross-border migration. Proceedings of the National Academy of Sciences 107 (32), 14257–14262.
+Ginglinger, E. and Q. Moreau (2019). Climate risk and capital structure. Working Paper, Université
+Paris-Dauphine.
+Graff-Zivin, J., S. M. Hsiang, and M. Neidell (2018). Temperature and human capital in the short and long
+run. Journal of the Association of Environmental and Resource Economists 5 (1), 77–105.
+Graff-Zivin, J. and M. Neidell (2014). Temperature and the allocation of time: Implications for climate
+change. Journal of Labor Economics 32 (1), 1–26.
+Hertzel, M. G., Z. Li, M. S. Officer, and K. J. Rodgers (2008). Inter-firm linkages and the wealth effects of
+financial distress along the supply chain. Journal of Financial Economics 87 (2), 374–387.
+Hong, H., F. W. Li, and J. Xu (2019). Climate risks and market efficiency. Journal of Econometrics 208 (1),
+265 – 281. Special Issue on Financial Engineering and Risk Management.
+IPCC (2013). Summary for policymakers. In T. Stocker, D. Qin, G. Plattner, M. Tignor, S. Allen,
+J. Boschung, A. Nauels, Y. Xia, V. Bex, and P. Midgley (Eds.), Climate change 2013: the physical science
+basis, contribution of working group I to the 5th assessment report of the intergovernmental panel on climate
+change. Cambridge University Press, Cambridge.
+Krüger, P., Z. Sautner, and L. T. Starks (2018). The importance of climate risks for institutional investors.
+Working Paper, Swiss Finance Institute.
+Kumar, A., W. Xin, and C. Zhang (2019). Climate sensitivity and predictable returns. Working Paper,
+Available at SSRN 3331872.
+Lesk, C., P. Rowhani, and N. Ramankutty (2016). Influence of extreme weather disasters on global crop
+production. Nature 529 (7584), 84.
+Lin, C., T. Schmid, and M. S. Weisbach (2018). Price risk, production flexibility, and liquidity management:
+Evidence from electricity generating firms. National Bureau of Economic Research.
+Mishra, A. K. and V. P. Singh (2010). A review of drought concepts. Journal of Hydrology 391 (1-2), 202–216.
+National Weather Service (2019). Heat - a weather hazard of summer. Available at: https://www.weather.
+gov/btv/heat_awareness.
+Noy, I. (2009). The macroeconomic consequences of disasters. Journal of Development Economics 88 (2),
+221–231.
+Pankratz, N., R. Bauer, and J. Derwall (2019). Climate change, firm performance, and investor surprises.
+Working Paper, University of California Los Angeles (UCLA).
+Pechan, A. and K. Eisenack (2014). The impact of heat waves on electricity spot markets. Energy Economics 43,
+63–71.
+PWC (2015). CEO pulse on climate change. Available at: http://download.pwc.com/gx/ceo-pulse/
+climatechange/index.htm.
+Schlenker, W. and C. A. Taylor (2019). Market expectations about climate change. Working Paper 25554,
+National Bureau of Economic Research.
+
+31
+
+Seetharam, I. (2018). The indirect effects of hurricanes: Evidence from firm internal networks. Working
+Paper, Stanford University.
+Sepannen, O., W. Fisk, and Q. H. Lei (2006). Effect of temperature on task performance in office environment.
+Working Paper, Lawrence Berkeley National Laboratory.
+Somanathan, E., R. Somanathan, A. Sudarshan, and M. Tewari (2015). The impact of temperature on
+productivity and labor supply: Evidence from indian manufacturing. Working Paper, Indian Statistical
+Institute.
+Strömberg, D. (2007). Natural disasters, economic development, and humanitarian aid. Journal of Economic
+Perspectives 21 (3), 199–222.
+Xiang, J., P. Bi, D. Pisaniello, and A. Hansen (2014). Health impacts of workplace heat exposure: an
+epidemiological review. Industrial Health 52 (2), 91–101.
+Zhang, P., O. Deschenes, K. Meng, and J. Zhang (2018). Temperature effects on productivity and factor
+reallocation: Evidence from a half million chinese manufacturing plants. Journal of Environmental
+Economics and Management 88, 1–17.
+
+32
+
+Tables and Figures
+
+Figure 1: This figure illustrates the geographical distribution of the customers in our sample.
+Supply-chain relationships and firm locations are obtained from FactSet Revere and FactSet
+Fundamentals, respectively. The corresponding Table 1 reports the number of customers by regions
+of the world.
+
+33
+
+Figure 2: This figure illustrates the geographical distribution of the suppliers in our sample. Supplychain relationships and firm locations are obtained from FactSet Revere and FactSet Fundamentals,
+respectively. The corresponding Table 1 reports the number of customers by regions of the world.
+
+34
+
+Climate Shocks
+
+Expected Climate Exposure
+
+Realized Climate Exposure
+
+3
+2
+1
+
+t
+-5
+
+-4
+
+-3
+
+-2
+
+-1
+
+0
+
+1
+
+climate shocks/year = 1
+
+2
+
+3
+
+4
+
+5
+
+climate shocks/year > 1
+
+Start Supply-Chain Relationship
+
+Figure 3: This figure illustrates the construction of 1 (Realized > Expected Climate Shocks) (t),
+an indicator variable capturing the discrepancy between realized and expected climate risk based
+on the exposure of a hypothetical supplier to climate shocks over time. It is constructed by first
+estimating the expected number of climate shocks per year in the supplier location over a benchmark
+period of five (in robustness tests seven, ten, and fifteen) years before the establishment a given
+supplier-customer relationship. 1 (Realized > Expected Climate Shocks) (t) then takes the value
+of one in year t if the difference between the realized number of climate shocks per year since
+the beginning of the supplier-customer relationship exceeds the corresponding expected number of
+shocks (illustrated in red), and zero otherwise (illustrated in green).
+
+35
+
+Climate Shocks, Replaced Supplier
+
+3
+2
+1
+
+Climate Shocks, Replacment Supplier
+
+3
+2
+1
+
+1984
+
+...
+
+2003
+
+2004
+
+2005
+
+2006
+
+2007
+
+2008
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+...
+
+t
+2017
+
+estimation period 1984 − 2017
+estimation period during
+
+Supply-Chain Rel. Start
+
+estimation period af ter
+
+Supply-Chain Rel. End
+
+Figure 4: This figure illustrates the construction of the comparison of the climate exposure of
+replaced and replacement suppliers, based on an example of a hypothetical replaced supplier and
+the replacement. We compare the climate exposure of old and new suppliers based on three time
+periods. First, we compute the exposure to climate shocks for actual and replacement suppliers
+throughout the whole sample period from 1984 to 2017. Second, we estimate and compare the
+climate shock exposure of the replaced and replacement supplier based on the years (illustrated in
+dark grey) during which the initial supply-chain relationship was active. Third, we compare the
+exposure of both suppliers during the years (illustrated in light grey) after the initial supplier has
+been replaced.
+
+36
+
+Table 1: Sample Composition
+Notes. This table shows the industry and geographic distribution of customers and suppliers in our sample. We
+retain supplier and customer firms from the FactSet Revere universe of supply chain relationships if more than 50% of
+their assets are in their home country and at least one complete record of financial performance data and climate
+hazard records is available during the period from 2000 to 2017. We drop firms that operate in the financial industry
+(one-digit SIC code of 6). The number of observations refers to firms.
+
+Customers
+
+Suppliers
+
+No.
+
+%
+
+1
+2
+3
+4
+5
+7
+8
+9
+
+460
+863
+1,147
+721
+646
+518
+195
+18
+
+10.1
+18.9
+25.1
+15.8
+14.1
+11.3
+4.3
+0.4
+
+Total
+
+4,568
+
+100.0
+
+SIC Code
+
+Customers
+
+%
+
+1
+2
+3
+4
+5
+7
+8
+9
+
+482
+803
+1,226
+637
+313
+606
+212
+10
+
+11.2
+18.7
+28.6
+14.9
+7.3
+14.1
+4.9
+0.2
+
+Total
+
+4,289
+
+100.0
+
+Suppliers
+No.
+
+%
+
+East Asia & Pacific
+Europe & Central Asia
+Latin America & Caribbean
+Middle East & North Africa
+North America
+South Asia
+Sub-Saharan Africa
+
+1,397
+838
+183
+135
+1,852
+99
+54
+
+30.6
+18.4
+4.0
+3.0
+40.6
+2.2
+1.2
+
+Total
+
+4,558
+
+100.0
+
+Region
+
+No.
+
+SIC Code
+
+No.
+
+%
+
+East Asia & Pacific
+Europe & Central Asia
+Latin America & Caribbean
+Middle East & North Africa
+North America
+South Asia
+Sub-Saharan Africa
+
+1,457
+775
+135
+96
+1,756
+27
+36
+
+34.0
+18.1
+3.2
+2.2
+41.0
+0.6
+0.8
+
+Total
+
+4,282
+
+100.0
+
+Region
+
+37
+
+Table 2a: Summary Statistics – Firm and Relationship Characteristics
+Notes. This table presents summary statistics of the financial performance of the customer firms (Panel A) and
+supplier firms (Panel B) in our sample, as well as the characteristics of the customer-supplier pairs (Panel C). The
+sample period is 2000 to 2017 and the number of observations refers to firm-quarters (pair year) in Panel A and B
+(Panel C). The percentage of assets, price-book ratio, and debt-asset ratio are obtained from Factset, and total assets,
+revenues and operating income over total assets are from Compustat Global and Compustat North America. The
+sample excludes firms with less than 50% of their assets in their home country, observations with missing records on
+revenue and/or operating income, missing lagged climate exposure records, as well as records of firms that operate in
+the financial industry (one-digit SIC code of 6).
+
+Panel A: Customers
+Variables
+Pct. Assets Home Country
+Price-Book Ratio
+Debt-Assets Ratio
+Total Assets mUSD
+Revenue/Assets (Quarter)
+Op. Income/Assets (Quarter)
+
+N
+
+Mean
+
+SD
+
+p25
+
+p50
+
+p75
+
+93,076.000
+77,938.000
+81,532.000
+93,076.000
+93,076.000
+93,076.000
+
+88.825
+4.386
+25.921
+6,353.646
+23.988
+2.474
+
+12,374.838
+69.987
+58.712
+22,195.190
+17.143
+2.941
+
+77.018
+1.245
+7.998
+381.761
+11.630
+1.214
+
+95.888
+1.991
+23.106
+1,296.504
+19.914
+2.565
+
+100.000
+3.318
+37.155
+4,250.391
+32.019
+3.959
+
+N
+
+Mean
+
+SD
+
+p25
+
+p50
+
+p75
+
+86,615.000
+72,695.000
+75,939.000
+86,615.000
+86,615.000
+86,615.000
+
+88.338
+3.749
+23.447
+5,096.686
+21.958
+1.932
+
+17.919
+20.676
+24.425
+21,595.702
+15.482
+3.653
+
+78.192
+1.258
+4.898
+194.664
+10.871
+0.781
+
+96.616
+2.025
+20.115
+690.095
+18.769
+2.310
+
+100.000
+3.368
+35.377
+2,612.214
+29.542
+3.758
+
+N
+
+Mean
+
+SD
+
+p25
+
+p50
+
+p75
+
+2,439
+1,848
+25,954
+25,954
+25,954
+25,954
+25,954
+
+17.873
+1.815
+342.489
+1.336
+1.022
+4,043.456
+13.828
+
+17.363
+5.085
+1,036.583
+1.437
+1.584
+3,894.813
+10.612
+
+8.667
+0.058
+4.908
+0.542
+0.429
+699.792
+8.000
+
+13.000
+0.274
+29.036
+0.902
+0.917
+2,593.262
+12.000
+
+20.400
+1.171
+172.786
+1.522
+1.566
+6,904.968
+16.000
+
+Panel B: Suppliers
+Variables
+Pct. Assets Home Country
+Price-Book Ratio
+Debt-Assets Ratio
+Total Assets mUSD
+Revenue/Assets (Quarter)
+Op. Income/Assets (Quarter)
+
+Panel C: Customer-Supplier Pairs
+Variables
+Suppl. Sales/Total Suppl. Sales
+Suppl. Sales/Cust. Cost Goods Sold
+Customer/Supplier Assets
+Customer/Supplier Sales
+Customer/Supplier Op. Income
+Distance Customer-Supplier (km)
+Customer-Supplier Active (Quarters)
+
+38
+
+Table 2b: Summary Statistics – Climate Exposure
+Notes. This Table presents summary statistics of the climate exposure measures of the customers (Panel A) and
+suppliers (Panel B) in our sample. The sample period is 2000 to 2017 and the number of observations refers to
+firm-quarters. We apply similar data filters as in Table 2a. The variables heatwave days, flood days, and flood deaths
+are constructed conditional on the respective occurrence of a heatwave of flood incident, lowering the respective
+number of observations. Heatwave occurrence and characteristics are constructed using daily temperature data from
+the ERA-Interim database of the European Center for Medium-term Weather Forecasts, flood-related variables are
+obtained from the Darthmouth Flood Observatory, and EM-DAT indicators are from the Emergency Events Database
+(EM-DAT) provided by the Centre for Research on the Epidemiology of Disasters (CRED).
+
+Panel A: Customers
+Variables
+Heatwave in Financial Quarter
+Number Heatwaves in Financial Quarter
+Heatwave Days
+Average Temperature
+Flood in Financial Quarter
+Number Floods in Financial Quarter
+Flood Deaths
+EM-DAT Flood
+EM-DAT Heatwave
+
+N
+
+Mean
+
+SD
+
+p25
+
+p50
+
+p75
+
+93,076.000
+93,076.000
+28,041.000
+93,076.000
+93,076.000
+93,076.000
+5,774.000
+93,076.000
+93,076.000
+
+0.301
+0.534
+23.881
+18.843
+0.062
+0.082
+29.338
+0.503
+0.054
+
+0.459
+0.918
+26.243
+8.920
+0.241
+0.347
+147.970
+0.500
+0.226
+
+0.000
+0.000
+7.000
+11.468
+0.000
+0.000
+0.000
+0.000
+0.000
+
+0.000
+0.000
+16.000
+20.379
+0.000
+0.000
+4.000
+1.000
+0.000
+
+1.000
+1.000
+32.000
+26.426
+0.000
+0.000
+18.000
+1.000
+0.000
+
+N
+
+Mean
+
+SD
+
+p25
+
+p50
+
+p75
+
+86,615.000
+86,615.000
+32,315.000
+86,615.000
+86,615.000
+86,615.000
+5,476.000
+86,615.000
+86,615.000
+
+0.373
+0.676
+24.499
+18.723
+0.063
+0.084
+33.801
+0.511
+0.055
+
+0.484
+0.996
+25.613
+8.797
+0.243
+0.351
+166.491
+0.500
+0.228
+
+0.000
+0.000
+7.000
+11.370
+0.000
+0.000
+1.000
+0.000
+0.000
+
+0.000
+0.000
+17.000
+20.204
+0.000
+0.000
+5.000
+1.000
+0.000
+
+1.000
+1.000
+33.000
+26.177
+0.000
+0.000
+22.000
+1.000
+0.000
+
+Panel B: Suppliers
+Variables
+Heatwave in Financial Quarter
+Number Heatwaves in Financial Quarter
+Heatwave Days
+Average Temperature
+Flood in Financial Quarter
+Number Floods in Financial Quarter
+Flood Deaths
+EM-DAT Flood
+EM-DAT Heatwave
+
+39
+
+Table 3: Climate Shocks and Supplier Firm Performance
+Notes. This Table presents OLS regression estimates on the impact of climate shocks in the location of the sample
+supplier firms on their revenues (Rev) and operating income (OpI), both scaled by assets. Heatwave (t) and F lood (t)
+are dummy variables indicating the occurrence of a climate shock in quarter t, respectively. Panel A shows the results
+for contemporaneous climate shocks observed during financial quarter t, Panel B includes three additional climate
+lags. The number of observations refers to supplier firm-quarters, and the sample period is 2000 to 2017. We apply
+similar data filters as in Table 2a. All regressions include firm-by-quarter fixed effects to control for time invariant
+firm characteristics and firm-specific seasonal effects, and industry-by-year-by-quarter fixed effects. Columns (2), (4),
+(6), and (8) additionally include interaction terms of terciles of firm size, age, and ROA with year-by-quarter fixed
+effects to control for firm characteristics (BS2016 FE), following Barrot and Sauvagnat (2016). Standard errors are
+clustered on the firm level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 10%, 5% and 1% level, respectively.
+
+Panel A
+
+Heatwave (t)
+Flood (t)
+Observations
+R-squared
+Firm-Qtr FE
+Ind-Year-Qtr FE
+BS2016 FE
+
+Sup Rev (t)
+
+Dependent Variable:
+Sup OpI (t)
+Sup Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.03166
+(0.1065)
+
+0.02241
+(0.1071)
+
+-0.01930
+(0.0360)
+
+-0.01513
+(0.0363)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Sup OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+-0.18854*
+(0.1112)
+
+-0.15404
+(0.1111)
+
+-0.09460***
+(0.0361)
+
+-0.09774***
+(0.0364)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Panel B
+Sup Rev (t)
+Heatwave (t)
+Heatwave (t-1)
+Heatwave (t-2)
+Heatwave (t-3)
+Flood (t)
+
+Dependent Variable:
+Sup OpI (t)
+Sup Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.05987
+(0.1253)
+-0.26467**
+(0.1316)
+-0.26348**
+(0.1326)
+-0.25308**
+(0.1201)
+
+-0.06485
+(0.1252)
+-0.26323**
+(0.1298)
+-0.23965*
+(0.1311)
+-0.23141*
+(0.1186)
+
+-0.04328
+(0.0393)
+-0.01000
+(0.0428)
+-0.13313***
+(0.0402)
+-0.10326***
+(0.0388)
+
+-0.03768
+(0.0398)
+-0.00882
+(0.0431)
+-0.12375***
+(0.0405)
+-0.09929**
+(0.0391)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Flood (t-1)
+Flood (t-2)
+Flood (t-3)
+Observations
+R-squared
+Firm-Qtr FE
+Ind-Year-Qtr FE
+BS2016 FE
+
+40
+
+Sup OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+-0.26743**
+(0.1288)
+-0.25238**
+(0.1237)
+-0.29058**
+(0.1266)
+-0.07022
+(0.1188)
+
+-0.22553*
+(0.1286)
+-0.21675*
+(0.1238)
+-0.28779**
+(0.1280)
+-0.04943
+(0.1197)
+
+-0.11412***
+(0.0403)
+-0.02420
+(0.0416)
+-0.12465***
+(0.0414)
+0.00359
+(0.0376)
+
+-0.11614***
+(0.0406)
+-0.02420
+(0.0419)
+-0.11980***
+(0.0413)
+0.00740
+(0.0374)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Table 4: Downstream Propagation of Climate Shocks
+Notes. This table presents OLS regression estimates on the impact of climate shocks at the supplier location on
+revenues over assets (Rev) and operating income over assets (OpI) of their respective customers. In Panel A the
+unit of observation is at the supplier-customer pair-quarter level. In Panel B we collapse the data at the customer
+level by aggregating across suppliers. The climate shock dummy variables take the value of one if at least one
+supplier has been affected by a heatwave or a flood, respectively. Hence, the number of observations in Panel B
+refers to customer firm-quarters. The sample period in both panels is from 2003 to 2017. Sup Heatwave (t) and
+Sup F lood (t) are dummy variables indicating the occurrence of a climate shock at the location of the supplier firm.
+We apply similar data filters as in Table 3. All regressions include relationship-by-quarter fixed effects (Panel A) and
+customer-by-quarter fixed effects (Panel B), respectively, as well as year-by-quarter fixed effects. Columns (2), (4),
+(6), and (8) additionally include terciles of size, age, and ROA interacted with year-by-quarter fixed effects (BS2016
+FE) as in Table 3. Standard errors are clustered on the customer-supplier relationship level. ∗ , ∗∗ and ∗∗∗ indicate
+statistical significance at the 10%, 5% and 1% level, respectively.
+Panel A: Supplier-Customer Pair-Level
+Cus Rev (t)
+Sup Heatwave (t)
+Sup Heatwave (t-1)
+Sup Heatwave (t-2)
+Sup Heatwave (t-3)
+Sup Flood (t)
+
+Cus OpI (t)
+
+Dependent Variable:
+Cus Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.02786
+(0.0470)
+-0.01464
+(0.0221)
+-0.03825
+(0.0245)
+-0.02819
+(0.0258)
+
+0.02672
+(0.0465)
+-0.01745
+(0.0213)
+-0.04398*
+(0.0238)
+-0.02662
+(0.0251)
+
+-0.01790
+(0.0137)
+-0.00962
+(0.0068)
+-0.00806
+(0.0074)
+-0.00956
+(0.0072)
+
+-0.01912
+(0.0132)
+-0.00987
+(0.0066)
+-0.00803
+(0.0071)
+-0.00805
+(0.0070)
+
+214,302
+0.948
+Yes
+Yes
+No
+
+214,302
+0.951
+Yes
+Yes
+Yes
+
+214,302
+0.807
+Yes
+Yes
+No
+
+214,302
+0.820
+Yes
+Yes
+Yes
+
+Sup Flood (t-1)
+Sup Flood (t-2)
+Sup Flood (t-3)
+Observations
+R-squared
+Relationship-by-Qtr FE
+Year-by-Qtr FE
+BS2016 FE
+
+41
+
+Cus OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+-0.08335
+(0.0569)
+-0.11191***
+(0.0418)
+-0.11857***
+(0.0416)
+-0.15530***
+(0.0430)
+
+-0.06364
+(0.0544)
+-0.09930**
+(0.0411)
+-0.12130***
+(0.0406)
+-0.14299***
+(0.0418)
+
+-0.01944
+(0.0161)
+-0.03034**
+(0.0122)
+-0.03792***
+(0.0120)
+-0.03110***
+(0.0120)
+
+-0.01096
+(0.0154)
+-0.02220*
+(0.0117)
+-0.03555***
+(0.0115)
+-0.02366**
+(0.0117)
+
+214,302
+0.948
+Yes
+Yes
+No
+
+214,302
+0.951
+Yes
+Yes
+Yes
+
+214,302
+0.807
+Yes
+Yes
+No
+
+214,302
+0.820
+Yes
+Yes
+Yes
+
+Panel B: Customer Firm-Level
+
+Sup Heatwave (t)
+Sup Heatwave (t-1)
+Sup Heatwave (t-2)
+Sup Heatwave (t-3)
+Sup Flood (t)
+
+Cus Rev (t)
+
+Dependent Variable:
+Cus OpI (t)
+Cus Rev (t)
+
+Cus OpI (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.04554
+(0.1113)
+-0.12701
+(0.0836)
+-0.05269
+(0.0748)
+-0.05443
+(0.0784)
+
+-0.02099
+(0.1114)
+-0.10292
+(0.0838)
+-0.06724
+(0.0747)
+-0.04173
+(0.0785)
+
+-0.03659
+(0.0294)
+-0.05150**
+(0.0258)
+0.00114
+(0.0258)
+-0.00864
+(0.0251)
+
+-0.02541
+(0.0290)
+-0.03996
+(0.0259)
+0.00398
+(0.0258)
+-0.00528
+(0.0251)
+
+44,566
+0.888
+Yes
+Yes
+No
+
+44,565
+0.891
+Yes
+Yes
+Yes
+
+44,566
+0.671
+Yes
+Yes
+No
+
+44,565
+0.679
+Yes
+Yes
+Yes
+
+Sup Flood (t-1)
+Sup Flood (t-2)
+Sup Flood (t-3)
+Observations
+R-squared
+Firm-by-Qtr FE
+Year-by-Qtr FE
+BS2016 FE
+
+42
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+0.02105
+(0.0892)
+-0.10328
+(0.0818)
+-0.15035*
+(0.0786)
+-0.07456
+(0.0857)
+
+0.03538
+(0.0889)
+-0.09463
+(0.0816)
+-0.16157**
+(0.0781)
+-0.08922
+(0.0874)
+
+0.00680
+(0.0250)
+-0.05304**
+(0.0248)
+-0.03007
+(0.0243)
+0.00754
+(0.0258)
+
+0.02062
+(0.0255)
+-0.04528*
+(0.0247)
+-0.03828
+(0.0240)
+0.00636
+(0.0255)
+
+44,566
+0.888
+Yes
+Yes
+No
+
+44,565
+0.891
+Yes
+Yes
+Yes
+
+44,566
+0.671
+Yes
+Yes
+No
+
+44,565
+0.679
+Yes
+Yes
+Yes
+
+Table 5: Downstream Propagation – Placebo Tests
+Notes. This table presents the results of placebo tests on the impact of climate shocks at the supplier location on
+customer revenues over assets (Rev) and operating income over assets (OpI). We construct the placebo sample by
+restricting the observations to real customer-supplier pairs during periods in which the relationship was not yet or
+no longer active. We apply similar data filters as in Table 4. Heatwave (t) and F lood (t) are dummies indicating
+the occurrence of a climate shock in period t. In Panel A, the number of observations refers to supplier-customer
+pair-quarters. In Panel B, we collapse the data in a similar way as in Panel B of Table 4. The sample period
+in both panels is from 2003 to 2017. All regressions include relationship-by-quarter fixed effects (Panel A) and
+customer-by-quarter fixed effects (Panel B), respectively, as well as year-by-quarter fixed effects. Columns (2), (4),
+(6), and (8) additionally include terciles of size, age, and ROA interacted with year-by-quarter fixed effects (BS2016
+FE) as in Table 4. Standard errors are clustered on the customer-supplier relationship level. ∗ , ∗∗ and ∗∗∗ indicate
+statistical significance at the 10%, 5% and 1% level, respectively.
+
+Panel A: Supplier-Customer Pair Level
+
+Sup Heatwave (t)
+Sup Heatwave (t-1)
+Sup Heatwave (t-2)
+Sup Heatwave (t-3)
+Sup Flood (t)
+
+Cus Rev (t)
+
+Dependent Variable:
+Cus OpI (t)
+Cus Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.02492
+(0.0395)
+0.02350
+(0.0200)
+0.03437*
+(0.0189)
+0.01116
+(0.0204)
+
+-0.02748
+(0.0383)
+0.01697
+(0.0196)
+0.02456
+(0.0185)
+0.00337
+(0.0199)
+
+-0.01388
+(0.0105)
+0.00199
+(0.0055)
+0.00914*
+(0.0054)
+0.00062
+(0.0053)
+
+-0.00968
+(0.0099)
+0.00006
+(0.0054)
+0.00623
+(0.0053)
+-0.00202
+(0.0052)
+
+542,962
+0.887
+Yes
+Yes
+No
+
+542,961
+0.891
+Yes
+Yes
+Yes
+
+542,962
+0.685
+Yes
+Yes
+No
+
+542,961
+0.703
+Yes
+Yes
+Yes
+
+Sup Flood (t-1)
+Sup Flood (t-2)
+Sup Flood (t-3)
+Observations
+R-squared
+Relationship-by-Qtr FE
+Year-by-Qtr FE
+BS2016 FE
+
+43
+
+Cus OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+0.07029*
+(0.0383)
+-0.00240
+(0.0315)
+0.01146
+(0.0317)
+0.01051
+(0.0311)
+
+0.05970
+(0.0375)
+-0.01806
+(0.0306)
+0.01105
+(0.0307)
+0.00328
+(0.0304)
+
+0.01540
+(0.0111)
+0.01524*
+(0.0087)
+0.01409*
+(0.0085)
+0.00825
+(0.0084)
+
+0.01676
+(0.0105)
+0.01616*
+(0.0083)
+0.01733**
+(0.0081)
+0.00849
+(0.0082)
+
+542,962
+0.887
+Yes
+Yes
+No
+
+542,961
+0.891
+Yes
+Yes
+Yes
+
+542,962
+0.685
+Yes
+Yes
+No
+
+542,961
+0.703
+Yes
+Yes
+Yes
+
+Panel B: Customer Firm Level
+Cus Rev (t)
+Sup Heatwave (t)
+Sup Heatwave (t-1)
+Sup Heatwave (t-2)
+Sup Heatwave (t-3)
+Sup Flood (t)
+
+Dependent Variable:
+Cus OpI (t)
+Cus Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.11981
+(0.0882)
+0.15363**
+(0.0743)
+0.01662
+(0.0727)
+-0.02077
+(0.0739)
+
+-0.11738
+(0.0878)
+0.16255**
+(0.0745)
+0.03214
+(0.0729)
+-0.00569
+(0.0741)
+
+-0.02767
+(0.0267)
+0.00044
+(0.0234)
+0.01570
+(0.0226)
+0.04261**
+(0.0216)
+
+-0.02955
+(0.0265)
+-0.00175
+(0.0234)
+0.01661
+(0.0229)
+0.04308**
+(0.0215)
+0.10892
+
+Sup Flood (t-1)
+Sup Flood (t-2)
+Sup Flood (t-3)
+Observations
+R-squared
+Firm-by-Qtr FE
+Year-by-Qtr FE
+BS2016 FE
+
+77,342
+0.839
+Yes
+Yes
+No
+
+77,339
+0.842
+Yes
+Yes
+Yes
+
+77,342
+0.587
+Yes
+Yes
+No
+
+77,339
+0.596
+Yes
+Yes
+Yes
+
+44
+
+Cus OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+0.08744
+(0.0740)
+0.13973*
+(0.0784)
+0.00940
+(0.0733)
+0.08090
+(0.0718)
+
+0.01090
+(0.0747)
+0.12288
+(0.0782)
+0.00138
+(0.0731)
+0.07144
+(0.0718)
+
+0.00010
+(0.0217)
+0.06497***
+(0.0203)
+0.03121
+(0.0219)
+0.02089
+(0.0211)
+
+(0.0217)
+0.06359***
+(0.0202)
+0.02713
+(0.0219)
+0.01358
+(0.0212)
+
+77,342
+0.839
+Yes
+Yes
+No
+
+77,339
+0.842
+Yes
+Yes
+Yes
+
+77,342
+0.587
+Yes
+Yes
+No
+
+77,339
+0.596
+Yes
+Yes
+Yes
+
+Table 6: Expected vs. Realized Climate Risk and Relationship Termination
+Notes. This table presents linear probability model estimates on the impact of realized vs. expected supplier-firm
+climate shocks on the likelihood of supply-chain relationship termination. Panel A reports the results for heatwaves,
+Panel B reports the results for flooding incidents. The unit of observation in all regressions is at the supplier-customer
+pair-year level, the dependent variable is a dummy variable taking the value of one if a given supplier-customer relationship ends after the current year t, and zero otherwise. The regressions include only pair-years in which the relationship
+was active. Our main variable of interest is the indicator variable 1 (Realized > Expected Climate Shocks) (t),
+capturing the deviation of realized from expected supplier climate. It is constructed by first estimating the expected
+number of climate shocks per year in the supplier location over a benchmark period of five years before the establishment a given supplier-customer relationship. 1 (Realized > Expected Climate Shocks) (t) then takes the value
+of one in year t if the difference between the realized number of climate shocks per year since the beginning of the
+supplier-customer relationship exceeds the corresponding expected number of shocks, and zero otherwise. We exclude
+customers headquartered within a 500 kilometer radius of the supplier and apply similar data filters as in Table 4.
+The regressions include relationship fixed effects, year fixed effects, supplier-industry-by-year, supplier-country-by-year,
+and supplier-country-by-customer-country-by-year fixed effects as indicated. Robust standard errors are clustered on
+the relationship level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 10%, 5% and 1% level, respectively.
+
+Panel A: Heatwaves
+Dependent Variable: Last Relationship Year (0/1)
+(1)
+(2)
+(3)
+(4)
+1 (Realized > Expected Heatwaves) (t)
+
+0.02320***
+(0.0022)
+
+0.02309***
+(0.0023)
+
+0.01422***
+(0.0023)
+
+0.01045***
+(0.0023)
+
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+299,718
+0.353
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.378
+Yes
+Yes
+Yes
+No
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.415
+Yes
+Yes
+No
+No
+Yes
+
+Panel B: Flooding Incidents
+Dependent Variable: Last Relationship Year (0/1)
+(1)
+(2)
+(3)
+(4)
+1 (Realized > Expected F loods) (t)
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+0.04707***
+(0.0021)
+
+0.04770***
+(0.0022)
+
+0.03982***
+(0.0022)
+
+0.03681***
+(0.0022)
+
+299,718
+0.354
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.379
+Yes
+Yes
+Yes
+No
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.416
+Yes
+Yes
+No
+No
+Yes
+
+45
+
+Table 7: Robustness – Realized Climate Risk and Relationship Termination
+Notes. This table presents linear probability model estimates on the of realized supplier-firm climate shocks on the
+likelihood of supply-chain relationship termination. Panel A reports the results for heatwaves, Panel B reports the
+results for flooding incidents. Heatwave (t) and F lood (t) are dummy variables indicating the occurrence of a climate
+shock in the location of the supplier firm in year t, respectively. The unit of observation is at the supplier-customer-year
+level. We include only active supply-chain relationship years. The dependent variable takes the value of one if a
+given supplier-customer relationship ends after the current year t, and zero otherwise. Similar to Table 6, we exclude
+all customers located within 500 kilometers of their supplier and apply similar data filters as in Table 6. The
+regressions include relationship fixed effects, year fixed effects, supplier-industry-by-year, supplier-country-by-year,
+and supplier-country-by-customer-country-by-year fixed effects as indicated. Robust standard errors are clustered on
+the relationship level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 10%, 5% and 1% level, respectively.
+
+Panel A: Heatwaves
+(1)
+
+Dependent Variable: Last Relationship Year (0/1)
+(2)
+(3)
+(4)
+
+Heatwave (t)
+
+0.00118
+(0.0008)
+
+0.00104
+(0.0008)
+
+0.00171**
+(0.0008)
+
+0.00160**
+(0.0008)
+
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+299,718
+0.353
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.378
+Yes
+Yes
+Yes
+No
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.415
+Yes
+Yes
+No
+No
+Yes
+
+Panel B: Flood Incidents
+Dependent Variable: Last Relationship Year (0/1)
+(1)
+(2)
+(3)
+(4)
+Flood (t)
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+0.00285***
+(0.0010)
+
+0.00331***
+(0.0010)
+
+0.00106
+(0.0010)
+
+0.00010
+(0.0010)
+
+299,718
+0.353
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.378
+Yes
+Yes
+Yes
+No
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.415
+Yes
+Yes
+No
+No
+Yes
+
+46
+
+Table 8: Climate Change Risk and Supplier Substitution
+Notes. This table reports the difference in climate change exposure between terminated suppliers and their subsequent
+replacements. To construct the sample for this table, we match each supplier firm for which the supplier-customer
+relationship is terminated during the sample period (“old suppliers”) (as reported in Table 6) with their replacements
+(“new suppliers”). Replacement suppliers are identified as those firms with identical 4-digit SIC codes as the “old
+suppliers”, which enter a new supply-chain relationship with a given customer within two years of the previous
+supply-chain relationship termination. Panel A shows the comparison for heatwave exposure, Panel B shows the
+results for flood exposure. The first line in each panel compares the number of climate shocks over the period from
+1984 to 2017, the second line compares the exposure during the period in which the “old” supply-chain relationship
+was active, and the third line refers to the time period after the “old” relationship is abandoned. t-statistics are
+reported in brackets. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 5%, 1% and 0.1% level, respectively.
+
+Panel A: Heatwaves
+(1)
+New vs. Old
+Heatwaves 1984-2017
+Heatwaves during Terminated Supply Chain Relationship
+Heatwaves after Termination of the Original Supply Chain Relationship
+
+-5.239∗∗∗
+-0.829∗∗∗
+-2.065∗∗∗
+
+Observations
+
+[-17.569]
+[-17.993]
+[-22.606]
+100,172
+
+Panel B: Flood Incidents
+(1)
+New vs. Old
+Floods 1984-2017
+Floods During Terminated Supply Chain Relationship
+Floods After Termination of the Original Supply Chain Relationship
+Observations
+
+-0.000
+-0.031∗∗∗
+-0.333∗∗∗
+
+[-0.008]
+[-4.182]
+[-23.340]
+100,172
+
+47
+
+A
+
+Appendix
+Table A1: Robustness – Climate Shocks and Supplier Firm Performance
+
+Notes. This table presents OLS regression estimates on the impact of climate shocks in the location of the sample
+supplier firms on their revenues (Rev) and operating income (OpI), both scaled by assets. Heatwaves (t) and
+F loods (t) are continuous variables measuring the total number (count) of climate shocks in the supplier’s location in
+quarter t. Panel A shows the results for contemporaneous climate shocks observed during financial quarter t, Panel B
+includes three additional climate lags. The number of observations refers to supplier firm-quarters, and the sample
+period is 2000 to 2017. We apply similar data filters as in Table 2a. All regressions include firm-by-quarter fixed effects
+to control for time invariant firm characteristics and firm-specific seasonal effects, and industry-by-year-by-quarter
+fixed effects. Columns (2), (4), (6), and (8) additionally include interaction terms of terciles of firm size, age, and ROA
+with year-by-quarter fixed effects to control for firm characteristics (BS2016 FE), following Barrot and Sauvagnat
+(2016). Standard errors are clustered on the firm level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 10%, 5%
+and 1% level, respectively.
+
+Sup Rev (t)
+Heatwaves
+Heatwaves (t-1)
+Heatwaves (t-2)
+Heatwaves (t-3)
+Floods
+
+Dependent Variable:
+Sup OpI (t)
+Sup Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.00036
+(0.0621)
+-0.09555
+(0.0696)
+-0.14765**
+(0.0715)
+-0.20294***
+(0.0660)
+
+0.00942
+(0.0624)
+-0.09363
+(0.0686)
+-0.14069**
+(0.0709)
+-0.18615***
+(0.0659)
+
+0.00884
+(0.0190)
+-0.00385
+(0.0209)
+-0.06833***
+(0.0207)
+-0.05274**
+(0.0206)
+
+0.00969
+(0.0192)
+-0.00613
+(0.0211)
+-0.06902***
+(0.0208)
+-0.05239**
+(0.0207)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Floods (t-1)
+Floods (t-2)
+Floods (t-3)
+Observations
+R-squared
+Firm-Qtr FE
+Ind-Year-Qtr FE
+BS2016 FE
+
+48
+
+Sup OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+-0.22041**
+(0.0885)
+-0.17513*
+(0.0924)
+-0.18122**
+(0.0912)
+-0.06639
+(0.0853)
+
+-0.19408**
+(0.0887)
+-0.15295*
+(0.0922)
+-0.18212**
+(0.0923)
+-0.05708
+(0.0860)
+
+-0.09581***
+(0.0283)
+-0.02764
+(0.0286)
+-0.07107**
+(0.0297)
+-0.01064
+(0.0272)
+
+-0.09614***
+(0.0287)
+-0.02481
+(0.0288)
+-0.06623**
+(0.0296)
+-0.00673
+(0.0271)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Table A2: Robustness – EM-DAT Climate Shocks and Supplier Performance
+Notes. This table presents OLS regression estimates on the impact of climate shocks in the location of the
+sample supplier firms on supplier firm revenues (Rev) and operating income (OpI), both scaled by assets. EM −
+DAT Heatwave (t) and EM − DAT F lood(t) are dummy variables indicating the occurrence of a climate shock in
+the supplier’s location in quarter t based on the EM-DAT international disaster database. The number of observations
+refers to supplier firm-quarters, and the sample period is 2003 to 2017. We apply similar data filters as in Table
+2a. All regressions include firm-by-quarter fixed effects to control for time invariant firm characteristics and firmspecific seasonal effects, and industry-by-year-by-quarter fixed effects. Columns (2), (4), (6), and (8) additionally
+include interaction terms of terciles of firm size, age, and ROA with year-by-quarter fixed effects to control for firm
+characteristics (BS2016 FE), following Barrot and Sauvagnat (2016). Standard errors are clustered on the firm level.
+∗ ∗∗
+,
+and ∗∗∗ indicate statistical significance at the 10%, 5% and 1% level, respectively.
+
+Sup Rev (t)
+EM-DAT Heatwave (t)
+EM-DAT Heatwave (t-1)
+EM-DAT Heatwave (t-2)
+EM-DAT Heatwave (t-3)
+EM-DAT Flood (t)
+
+Dependent Variable:
+Sup OpI (t)
+Sup Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.05013
+(0.1862)
+-0.34675**
+(0.1511)
+0.07203
+(0.1546)
+0.16453
+(0.1547)
+
+-0.22382
+(0.1977)
+-0.38940**
+(0.1602)
+-0.01361
+(0.1579)
+0.02850
+(0.1603)
+
+0.04729
+(0.0556)
+-0.12494***
+(0.0483)
+0.07404
+(0.0559)
+0.07788
+(0.0569)
+
+0.02408
+(0.0669)
+-0.15618***
+(0.0560)
+0.07325
+(0.0603)
+0.06295
+(0.0601)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+EM-DAT Flood (t-1)
+EM-DAT Flood (t-2)
+EM-DAT Flood (t-3)
+Observations
+R-squared
+Firm-Qtr FE
+Ind-Yr-Qtr FE
+BS2016 FE
+
+49
+
+Sup OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+-0.03392
+(0.0755)
+-0.04415
+(0.0822)
+-0.03657
+(0.0759)
+-0.07892
+(0.0703)
+
+-0.00332
+(0.0797)
+0.02797
+(0.0836)
+0.01128
+(0.0787)
+-0.02729
+(0.0725)
+
+0.00581
+(0.0268)
+0.06244**
+(0.0303)
+0.04908
+(0.0300)
+0.02255
+(0.0264)
+
+0.00484
+(0.0285)
+0.06291*
+(0.0323)
+0.05400*
+(0.0319)
+0.02113
+(0.0286)
+
+86,615
+0.887
+Yes
+Yes
+No
+
+86,615
+0.889
+Yes
+Yes
+Yes
+
+86,615
+0.740
+Yes
+Yes
+No
+
+86,615
+0.741
+Yes
+Yes
+Yes
+
+Table A3: Robustness – Downstream Propagation of Climate Shocks
+Notes. This table presents OLS regression estimates on the impact of climate shocks at the supplier location on
+revenues over assets (Rev) and operating income over assets (OpI) of their respective customers. The unit of observation
+is at the supplier-customer pair-quarter level and the sample period is from 2003 to 2017. Sup Heatwaves (t) and
+Sup F loods (t) are continuous variables measuring the total number (count) of climate shocks in the supplier’s location
+in quarter t. We apply similar data filters as in Table 4. All regressions include relationship-by-quarter fixed effects
+as well as year-by-quarter fixed effects. Columns (2), (4), (6), and (8) additionally include terciles of size, age, and
+ROA interacted with year-by-quarter fixed effects (BS2016 FE) as in Table 4. Standard errors are clustered on
+the customer-supplier relationship level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 10%, 5% and 1% level,
+respectively.
+
+Cus Rev (t)
+Sup Heatwaves (t)
+Sup Heatwaves (t-1)
+Sup Heatwaves (t-2)
+Sup Heatwaves (t-3)
+Sup Floods (t)
+
+Cus OpI (t)
+
+Dependent Variable:
+Cus Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.02938
+(0.0257)
+0.00610
+(0.0120)
+0.00525
+(0.0123)
+0.00787
+(0.0129)
+
+0.03503
+(0.0250)
+0.00773
+(0.0117)
+0.00278
+(0.0119)
+0.01075
+(0.0126)
+
+-0.01539**
+(0.0072)
+-0.00487
+(0.0033)
+-0.00061
+(0.0035)
+-0.00344
+(0.0033)
+
+-0.01081
+(0.0069)
+-0.00314
+(0.0031)
+-0.00052
+(0.0034)
+-0.00183
+(0.0032)
+
+214,302
+0.948
+Yes
+Yes
+No
+
+214,302
+0.951
+Yes
+Yes
+Yes
+
+214,302
+0.807
+Yes
+Yes
+No
+
+214,302
+0.820
+Yes
+Yes
+Yes
+
+Sup Floods (t-1)
+Sup Floods (t-2)
+Sup Floods (t-3)
+Observations
+R-squared
+Relationship-by-Qtr FE
+Yr-by-Qtr FE
+BS2016 FE
+
+50
+
+Cus OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+-0.11948***
+(0.0451)
+-0.13504***
+(0.0323)
+-0.15698***
+(0.0318)
+-0.15580***
+(0.0321)
+
+-0.10698**
+(0.0424)
+-0.13094***
+(0.0315)
+-0.15939***
+(0.0307)
+-0.14692***
+(0.0315)
+
+-0.03053**
+(0.0123)
+-0.03392***
+(0.0094)
+-0.03760***
+(0.0083)
+-0.02846***
+(0.0083)
+
+-0.02331**
+(0.0115)
+-0.02911***
+(0.0088)
+-0.03565***
+(0.0079)
+-0.02304***
+(0.0080)
+
+214,302
+0.948
+Yes
+Yes
+No
+
+214,302
+0.951
+Yes
+Yes
+Yes
+
+214,302
+0.807
+Yes
+Yes
+No
+
+214,302
+0.820
+Yes
+Yes
+Yes
+
+Table A4: Robustness – Downstream Propagation of EM-DAT Climate Shocks
+Notes. This table presents OLS regression estimates on the impact of climate shocks at the supplier location on
+revenues over assets (Rev) and operating income over assets (OpI) of their respective customers. The unit of observation
+is at the supplier-customer pair-quarter level and the sample period is from 2003 to 2017. EM − DAT Heatwave (t)
+and EM − DAT F lood (t) are dummy variables indicating the occurrence of a climate shock in the supplier’s location
+in quarter t based on the EM-DAT international disaster database. We apply similar data filters as in Table 4. All
+regressions include relationship-by-quarter fixed effects as well as year-by-quarter fixed effects. Columns (2), (4), (6),
+and (8) additionally include terciles of size, age, and ROA interacted with year-by-quarter fixed effects (BS2016 FE) as
+in Table 4. Standard errors are clustered on the customer-supplier relationship level. ∗ , ∗∗ and ∗∗∗ indicate statistical
+significance at the 10%, 5% and 1% level, respectively.
+
+Cus Rev (t)
+EM-DAT Heatwave (t)
+EM-DAT Heatwave (t-1)
+EM-DAT Heatwave (t-2)
+EM-DAT Heatwave (t-3)
+EM-DAT Flood (t)
+
+Dependent Variable:
+Cus OpI (t)
+Cus Rev (t)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+-0.07784
+(0.0831)
+0.08667*
+(0.0497)
+-0.11003**
+(0.0502)
+-0.04647
+(0.0521)
+
+-0.09911
+(0.0820)
+0.06417
+(0.0486)
+-0.10010**
+(0.0499)
+-0.04014
+(0.0516)
+
+0.04383*
+(0.0264)
+0.00409
+(0.0155)
+-0.01911
+(0.0153)
+0.01404
+(0.0168)
+
+0.04897**
+(0.0245)
+0.00762
+(0.0149)
+-0.01421
+(0.0148)
+0.01114
+(0.0163)
+
+214,302
+0.948
+Yes
+Yes
+No
+
+214,302
+0.951
+Yes
+Yes
+Yes
+
+214,302
+0.807
+Yes
+Yes
+No
+
+214,302
+0.820
+Yes
+Yes
+Yes
+
+EM-DAT Flood (t-1)
+EM-DAT Flood (t-2)
+EM-DAT Flood (t-3)
+Observations
+R-squared
+Relationship-by-Qtr FE
+Year-by-Qtr FE
+BS2016 FE
+
+51
+
+Cus OpI (t)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+0.06421
+(0.0408)
+0.02745
+(0.0225)
+0.01866
+(0.0235)
+0.04297*
+(0.0227)
+
+0.04346
+(0.0406)
+0.01803
+(0.0222)
+0.01528
+(0.0228)
+0.05178**
+(0.0229)
+
+0.02854**
+(0.0117)
+-0.00236
+(0.0070)
+0.01159*
+(0.0068)
+-0.00326
+(0.0067)
+
+0.02195**
+(0.0112)
+-0.00463
+(0.0068)
+0.01082
+(0.0066)
+-0.00228
+(0.0063)
+
+214,302
+0.948
+Yes
+Yes
+No
+
+214,302
+0.951
+Yes
+Yes
+Yes
+
+214,302
+0.807
+Yes
+Yes
+No
+
+214,302
+0.820
+Yes
+Yes
+Yes
+
+Table A5: Robustness – Expected vs. Realized Climate Risk
+Notes. This table presents linear probability model estimates on the impact of realized vs. expected supplierfirm climate shocks on the likelihood of supply-chain relationship termination. The sample and variables are
+constructed similarly as in Table 6. In Panels A, B, and C we use benchmark periods of seven, ten, and fifteen years before the establishment of a supply-chain relationship to construct our main variables of interest,
+1 (Realized > Expected Climate Shocks) (t), as illustrated in Figure 3. We apply similar data filters as in Table 6.
+The regressions include relationship fixed effects, year fixed effects, supplier-industry-by-year, supplier-country-by-year,
+and supplier-country-by-customer-country-by-year fixed effects as indicated. Robust standard errors are clustered on
+the relationship level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance at the 10%, 5% and 1% level, respectively.
+Panel A: 7-year benchmark period
+
+1 (Realized > Expected Heatwaves) (t)
+1 (Realized > Expected F loods) (t)
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+Dependent Variable: Last Relationship Year (0/1)
+(3)
+(4)
+(5)
+(6)
+
+(1)
+
+(2)
+
+0.01340***
+(0.0021)
+
+0.01259***
+(0.0021)
+
+0.00744***
+(0.0022)
+
+0.00564***
+(0.0022)
+
+299,718
+0.353
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.378
+Yes
+Yes
+Yes
+Yes
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.415
+Yes
+Yes
+No
+No
+Yes
+
+(1)
+
+(2)
+
+0.01452***
+(0.0021)
+
+0.01203***
+(0.0021)
+
+0.00671***
+(0.0021)
+
+0.00662***
+(0.0021)
+
+299,718
+0.353
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.378
+Yes
+Yes
+Yes
+Yes
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.415
+Yes
+Yes
+No
+No
+Yes
+
+(1)
+
+(2)
+
+0.01984***
+(0.0021)
+
+0.01691***
+(0.0021)
+
+0.01286***
+(0.0022)
+
+0.01414***
+(0.0022)
+
+299,718
+0.353
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.378
+Yes
+Yes
+Yes
+Yes
+No
+
+297,998
+0.413
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.415
+Yes
+Yes
+No
+No
+Yes
+
+(7)
+
+(8)
+
+0.07069***
+(0.0022)
+
+0.07149***
+(0.0022)
+
+0.06483***
+(0.0023)
+
+0.06027***
+(0.0023)
+
+299,718
+0.356
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.381
+Yes
+Yes
+Yes
+Yes
+No
+
+297,998
+0.415
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.417
+Yes
+Yes
+No
+No
+Yes
+
+(7)
+
+(8)
+
+Panel B: 10-year benchmark period
+
+1 (Realized > Expected Heatwaves) (t)
+1 (Realized > Expected F loods) (t)
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+Dependent Variable: Last Relationship Year (0/1)
+(3)
+(4)
+(5)
+(6)
+
+0.07492***
+(0.0022)
+
+0.07381***
+(0.0022)
+
+0.07195***
+(0.0023)
+
+0.06895***
+(0.0023)
+
+299,718
+0.356
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.381
+Yes
+Yes
+Yes
+Yes
+No
+
+297,998
+0.415
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.417
+Yes
+Yes
+No
+No
+Yes
+
+(7)
+
+(8)
+
+Panel C: 15-year benchmark period
+
+1 (Realized > Expected Heatwaves) (t)
+1 (Realized > Expected F loods) (t)
+Observations
+R-squared
+Relationship FE
+Yr FE
+Sup-Industry-by-Yr FE
+Sup-Country-by-Yr FE
+Sup-Country-by-Cus-Country-by-Yr FE
+
+Dependent Variable: Last Relationship Year (0/1)
+(3)
+(4)
+(5)
+(6)
+
+52
+
+0.06034***
+(0.0022)
+
+0.05982***
+(0.0022)
+
+0.05815***
+(0.0023)
+
+0.05595***
+(0.0023)
+
+299,718
+0.355
+Yes
+Yes
+No
+No
+No
+
+298,053
+0.380
+Yes
+Yes
+Yes
+Yes
+No
+
+297,998
+0.414
+Yes
+Yes
+Yes
+Yes
+No
+
+294,330
+0.416
+Yes
+Yes
+No
+No
+Yes
+
+Table A6: Robustness – Expected vs. Realized Climate Risk with Control Variables
+Notes. This table presents linear probability model estimates on the impact of realized vs. expected supplier-firm
+climate shocks on the likelihood of supply-chain relationship termination, controlling for supplier and customer
+firm characteristics. The sample and variables are constructed similarly as in Table 6. In Panels A, B, and C
+we use benchmark periods of seven, ten, and fifteen years before the establishment of a supply-chain relationship
+to construct our main variables of interest, 1 (Realized > Expected Climate Shocks) (t), as illustrated in Figure
+3. We apply similar data filters as in Table 6. The regressions include relationship fixed effects, year fixed effects,
+supplier-industry-by-year, supplier-country-by-year, and supplier-country-by-customer-country-by-year fixed effects as
+indicated. Robust standard errors are clustered on the relationship level. ∗ , ∗∗ and ∗∗∗ indicate statistical significance
+at the 10%, 5% and 1% level, respectively.
+Panel A: 7-year benchmark period
+
+1 (Realized > Expected Heatwaves) (t)
+1 (Realized > Expected F loods) (t)
+Debt-Assets Ratio Supplier
+Debt-Assets Ratio Customer
+Price-Book Ratio Customer
+Price-Book Ratio Supplier
+Ln(MV Equity) Supplier
+Ln(MV Equity) Customer
+Observations
+R-squared
+Relationship FE
+Yr FE
+SupIndustry-Yr FE
+SupCountry-Yr FE
+SupCountry-CusCountry-Yr FE
+
+Dependent Variable: Last Relationship Year (0/1)
+(3)
+(4)
+(5)
+(6)
+
+(1)
+
+(2)
+
+0.01306***
+(0.0032)
+
+0.01154***
+(0.0033)
+
+0.00614*
+(0.0034)
+
+0.00612*
+(0.0034)
+
+-0.00035**
+(0.0001)
+0.00014
+(0.0002)
+-0.02256***
+(0.0034)
+-0.00089
+(0.0032)
+-0.02108***
+(0.0028)
+-0.00093
+(0.0017)
+
+-0.00056***
+(0.0001)
+0.00004
+(0.0002)
+-0.01471***
+(0.0034)
+0.00790**
+(0.0033)
+-0.02462***
+(0.0029)
+-0.00032
+(0.0016)
+
+-0.00004
+(0.0001)
+0.00001
+(0.0002)
+-0.01023***
+(0.0033)
+0.00863***
+(0.0033)
+-0.01757***
+(0.0029)
+0.00018
+(0.0016)
+
+137,239
+0.373
+Yes
+Yes
+No
+No
+No
+
+137,171
+0.400
+Yes
+Yes
+No
+No
+No
+
+137,099
+0.435
+Yes
+Yes
+Yes
+Yes
+No
+
+(1)
+
+(2)
+
+0.01727***
+(0.0032)
+
+0.01362***
+(0.0032)
+
+0.00728**
+(0.0033)
+
+0.00907***
+(0.0033)
+
+-0.00034**
+(0.0001)
+0.00014
+(0.0002)
+-0.02254***
+(0.0034)
+-0.00078
+(0.0032)
+-0.02105***
+(0.0028)
+-0.00093
+(0.0017)
+
+-0.00055***
+(0.0001)
+0.00005
+(0.0002)
+-0.01470***
+(0.0034)
+0.00796**
+(0.0033)
+-0.02456***
+(0.0029)
+-0.00032
+(0.0016)
+
+-0.00004
+(0.0001)
+0.00001
+(0.0002)
+-0.01022***
+(0.0033)
+0.00866***
+(0.0033)
+-0.01754***
+(0.0029)
+0.00018
+(0.0016)
+
+137,239
+0.373
+Yes
+Yes
+No
+No
+No
+
+137,171
+0.400
+Yes
+Yes
+No
+No
+No
+
+137,099
+0.435
+Yes
+Yes
+Yes
+Yes
+No
+
+(7)
+
+(8)
+
+0.00017
+(0.0001)
+0.00037*
+(0.0002)
+-0.01515***
+(0.0035)
+0.00066
+(0.0032)
+-0.01110***
+(0.0029)
+-0.00039
+(0.0017)
+
+0.06411***
+(0.0035)
+-0.00035**
+(0.0001)
+0.00012
+(0.0002)
+-0.02205***
+(0.0034)
+-0.00089
+(0.0032)
+-0.02106***
+(0.0028)
+-0.00106
+(0.0017)
+
+0.06738***
+(0.0035)
+-0.00055***
+(0.0001)
+0.00002
+(0.0002)
+-0.01425***
+(0.0034)
+0.00783**
+(0.0033)
+-0.02457***
+(0.0029)
+-0.00043
+(0.0016)
+
+0.06050***
+(0.0036)
+-0.00005
+(0.0001)
+-0.00001
+(0.0002)
+-0.00990***
+(0.0033)
+0.00882***
+(0.0032)
+-0.01739***
+(0.0029)
+0.00008
+(0.0016)
+
+0.05226***
+(0.0036)
+0.00016
+(0.0001)
+0.00035*
+(0.0002)
+-0.01517***
+(0.0035)
+0.00080
+(0.0032)
+-0.01097***
+(0.0029)
+-0.00051
+(0.0017)
+
+133,519
+0.439
+Yes
+Yes
+No
+No
+Yes
+
+137,239
+0.375
+Yes
+Yes
+No
+No
+No
+
+137,171
+0.403
+Yes
+Yes
+No
+No
+No
+
+137,099
+0.436
+Yes
+Yes
+Yes
+Yes
+No
+
+133,519
+0.440
+Yes
+Yes
+No
+No
+Yes
+
+(7)
+
+(8)
+
+Panel B: 10-year benchmark period
+
+1 (Realized > Expected Heatwaves) (t)
+1 (Realized > Expected F loods) (t)
+Debt-Assets Ratio Supplier
+Debt-Assets Ratio Customer
+Price-Book Ratio Customer
+Price-Book Ratio Supplier
+Ln(MV Equity) Supplier
+Ln(MV Equity) Customer
+Observations
+R-squared
+Relationship FE
+Yr FE
+SupIndustry-Yr FE
+SupCountry-Yr FE
+SupCountry-CusCountry-Yr FE
+
+Dependent Variable: Last Relationship Year (0/1)
+(3)
+(4)
+(5)
+(6)
+
+53
+
+0.00017
+(0.0001)
+0.00037*
+(0.0002)
+-0.01514***
+(0.0035)
+0.00069
+(0.0032)
+-0.01112***
+(0.0029)
+-0.00038
+(0.0017)
+
+0.06559***
+(0.0035)
+-0.00035**
+(0.0001)
+0.00011
+(0.0002)
+-0.02211***
+(0.0034)
+-0.00082
+(0.0032)
+-0.02068***
+(0.0028)
+-0.00114
+(0.0017)
+
+0.06581***
+(0.0035)
+-0.00056***
+(0.0001)
+0.00001
+(0.0002)
+-0.01438***
+(0.0034)
+0.00800**
+(0.0033)
+-0.02420***
+(0.0029)
+-0.00051
+(0.0016)
+
+0.06344***
+(0.0037)
+-0.00005
+(0.0001)
+-0.00001
+(0.0002)
+-0.01001***
+(0.0033)
+0.00896***
+(0.0032)
+-0.01710***
+(0.0029)
+-0.00000
+(0.0016)
+
+0.05770***
+(0.0037)
+0.00016
+(0.0001)
+0.00034*
+(0.0002)
+-0.01527***
+(0.0035)
+0.00095
+(0.0032)
+-0.01070***
+(0.0029)
+-0.00059
+(0.0017)
+
+133,519
+0.439
+Yes
+Yes
+No
+No
+Yes
+
+137,239
+0.375
+Yes
+Yes
+No
+No
+No
+
+137,171
+0.402
+Yes
+Yes
+No
+No
+No
+
+137,099
+0.436
+Yes
+Yes
+Yes
+Yes
+No
+
+133,519
+0.440
+Yes
+Yes
+No
+No
+Yes
+
+

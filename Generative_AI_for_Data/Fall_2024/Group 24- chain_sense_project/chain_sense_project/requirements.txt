@@ -1,0 +1,6 @@
+openai==0.27.0
+pinecone-client==5.0.1
+streamlit==1.26.0
+python-dotenv==1.0.0
+nltk==3.8.1
+pillow>=10.0.0

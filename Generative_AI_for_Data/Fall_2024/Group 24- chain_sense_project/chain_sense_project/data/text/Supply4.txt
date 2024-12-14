@@ -1,0 +1,4976 @@
+Weathering the Storm:
+Supply Chains and Climate Risk
+
+WP 24-03R
+
+Juanma Castro-Vincenzi
+Harvard University
+Gaurav Khanna
+University of California, San Diego
+Nicolas Morales
+Federal Reserve Bank of Richmond
+Nitya Pandalai-Nayar
+University of Texas at Austin
+
+Weathering the Storm:
+Supply Chains and Climate Risk∗
+Juanma Castro-Vincenzi
+University of Chicago
+
+Gaurav Khanna
+University of California, San
+Diego
+
+Nicolas Morales
+Federal Reserve Bank of
+Richmond
+
+Nitya Pandalai-Nayar
+University of Texas at Austin
+and NBER
+
+September 2024
+Abstract
+We characterize how firms structure supply chains under climate risk. Using new
+data on the universe of firm-to-firm transactions from an Indian state, we show that
+firms diversify sourcing locations, and that suppliers exposed to climate risk charge
+lower prices. We develop a general equilibrium spatial model of firm input sourcing
+under climate risk. Firms diversify identical inputs from suppliers across space, trading off the probability of climate disruptions against higher input costs. We quantify
+the model using data on 271 Indian regions. Wages are inversely correlated with
+sourcing risk, giving rise to a cost minimization-resilience tradeoff. Supply chain
+diversification unambiguously reduces real wage volatility, but ambiguously affects
+their levels, as diversification may come with high input costs. While diversification mitigates climate risk, it exacerbates the distributional consequences of climate
+change by reducing wages in regions prone to frequent shocks.
+JEL: F14, L14
+Keywords: Production networks, supply chains, economic geography, climate change
+∗
+
+We thank Claire Conzelmann and Simon Farbman for outstanding research assistance and Swapnika Rachapalli for sharing data. We also thank our discussants David Atkin, Joaquin Blaum, Meredith
+Startz, Jose Vasquez, as well as Pol Antràs, Adrien Bilal, Chris Boehm, Olivier Coibion, Elhanan Helpman, Gabriel Kreindler, Andrei Levchenko, Hugo Lhuillier, Ezra Oberfield, Andres Rodriguez-Clare,
+Esteban Rossi-Hansberg, Alireza Tahbaz-Salehi, audiences at Minnesota Macro, Princeton IES, Stanford, University of Michigan, St Louis Fed, Warwick, McGill, UQAM, UT Austin, NBER Summer Institute ITM, Midwest Macro, SED-Barcelona, WIEN - Vienna, TIGN, Empirical Macro Workshop and
+Kiel-CEPR Geopolitics Conference for helpful comments. The views expressed are those of the authors
+and do not necessarily reflect those of the Federal Reserve Bank of Richmond or the Board of Governors. Email: castrovincenzi@uchicago.edu, gakhanna@ucsd.edu, nicolas.morales@rich.frb.org
+and npnayar@utexas.edu.
+
+1
+
+Introduction
+
+The intersection of complex supply chains and climate risk presents a critical challenge to
+the global economy. Complex supply chains yield significant efficiency gains worldwide,
+enabling firms to procure inputs from the most efficient suppliers regardless of location.
+Yet, escalating climate risk raises concerns about the vulnerability of interlinked production networks and the ensuing broader economic fragility (Barrot and Sauvagnat, 2016;
+Boehm et al., 2019). Increasing global risk of climate change heightens the likelihood of
+natural disasters such as flooding and storm surges. In response, forward-looking firms
+may choose their production locations (Castro-Vincenzi, 2024), or diversify the locations
+of their suppliers based on geographic variability in climate threats, to mitigate the impact
+of disruptions to their production. Therefore, our understanding of how climate change
+may reshape economic production and its implications for welfare across regions hinges
+on firms’ adaptive sourcing decisions in response to escalating hazards. In this paper, we
+provide a theoretical, empirical, and quantitative analysis of the spatial consequences of
+supply chain restructuring in light of increased climate risk.
+Studying the general equilibrium consequences of how firms structure supply chains when
+faced with climate hazards raises two important challenges. First, for empirical evidence
+on how firms adapt to climate risk, we need high-frequency data on transactions along
+the supply chain, the precise locations of establishments, and meaningful variation in
+weather-related events. Second, to quantify the broader economy-wide consequences, we
+require a general equilibrium model of firm input sourcing under climate risk, where firms
+face trade-offs such as the lower probability of climate shocks against higher costs, less
+productive inputs, or higher shipping costs.
+To address the first challenge, we obtain the universe of establishment-to-establishment
+level transactions from a large state in India, as long as one node of the transaction (either
+buyer or seller) is in the state (the other node can be anywhere in the country). This
+dataset contains the precise zip code of the establishments, the value of the transaction,
+the product code, the date, the quantity (and so the unit values), and the unique tax
+ID of the establishment. Using these data, we document important new motivating facts
+suggesting firms are optimizing supply chains to mitigate climate risk. First, firms diversify the locations they source from, multisourcing 74% of product value even within
+narrow product codes. Second, firms that multisource the same product buy from farther
+distances, dryer regions and pay higher prices. And third, suppliers in regions that are
+more exposed to climate risk tend to charge lower prices.
+An advantage of our setting is that India experiences monsoonal rainfall that follows a
+somewhat predictable spatial pattern every year, although the intensity and timing can
+
+1
+
+vary. Regions across India are regularly and increasingly experiencing large flooding events
+that disrupt firm supply chains. Firms operating in this environment might reasonably
+consider the probability of climate-related disruptions in their operations, as suggested
+by our descriptive analysis.
+To provide causal evidence of firm responses to climate shocks, we leverage the exogenous
+geographic and temporal variation in flooding events using an event study design. We
+show that the sales of flood-hit suppliers fall drastically over three months but recover by
+five months after a flood. The total purchases and sales of downstream buyers decrease
+substantially. Importantly, despite the shock, they are unlikely to substitute to other
+suppliers. We show no difference in affected and unaffected firms in the pre-period. Our
+descriptive and event-study results together suggest firms plan for climate risk and recover
+from the realized shocks relatively quickly.
+Our second contribution is theoretical. To address the challenge of quantifying economywide impacts, we build a spatial general equilibrium model of firm sourcing under climate
+risk. Motivated by our empirical results and the patterns in the data, firms diversify
+their sourcing of otherwise identical inputs across locations to mitigate climate risk. Such
+diversification comes with a trade-off: in general equilibrium, input prices are higher for
+places with lower climate risk, which might also be less productive, or geographically
+distant, necessitating payment of higher trade costs.
+A key feature of the model is that firms’ expected profit functions in the presence of
+sourcing risk are concave in input orders. That is, firms behave as if they are riskaverse, even in the absence of explicit managerial risk aversion.1 This implies that firms
+from each region will choose to diversify their input sourcing across regions if they face
+imperfectly correlated regional risk, even in the extreme case where regional fundamentals
+are constant across space, and trade is costly (a “symmetric” economy). In a comparative
+statics exercise, we show that in this setting, there might be no conventional gains from
+trade, but trade still occurs purely due to the diversification motives of firms. As a
+result, despite identical fundamentals, “safer” regions see higher real wages in general
+equilibrium, while more distant or riskier regions see lower real wages.
+Interestingly, this comparative statics exercise implies that the prices of inputs and, therefore, of regional consumption, are higher under costly trade than regional autarky. A stark
+insight from this exercise is that expected regional real wages can be lower under costly
+trade than under autarky, but their volatility is also lower. With risk aversion in consumer preferences, the decrease in volatility offsets the decline in expected real wages,
+and diversification is welfare-improving, but aggregate output is lower. We show that free
+1
+
+Blaum et al. (2024) study firm input sourcing under shipping time risk where firms face a similar
+problem. In contrast, our focus is the multi-region general equilibrium.
+
+2
+
+trade in the symmetric economy brings both the diversification benefits of lower wage
+volatility and higher expected real wages compared to costly trade.
+We quantify this model using a census of manufacturing firms across the country, allowing
+us to estimate location-specific productivities and labor shares. We implement the model
+on 271 regions in India. To discipline the magnitude of disruptions, should one occur, we
+leverage the estimated input disruptions from our event studies.
+Our model implies that bilateral sourcing shares are a function of all regional labor endowments, productivities, and bilateral trade costs, as well as the risk of sourcing in each
+region. Given estimates of regional labor, productivity, and bilateral trade costs, we back
+out the model-implied spatially correlated regional risk to match observed sourcing shares.
+To validate our framework, we project the model-implied risk on climate observables such
+as rainfall, floods, temperature and dryness as well as other risk-related variables such
+as ruggedness/elevation and court capacity to capture institutional and geographic features that affect firm decisions. We find that climate-related risk is strongly positively
+correlated with the estimated risk probabilities, with an R2 of 0.32-0.34. The positive
+correlation suggests that firms take into account several sources of risk when they form
+their supply chains, a feature that has been largely ignored by the literature (an exception
+is Kopytov et al. (2024) who study how supply chains adapt to supplier volatility).2
+While the comparative statics exercises provide stark analytical insights about the possible
+impacts of diversification, the effects of firm diversification in a realistic economy will, in
+general, depend on the variation in fundamentals and “standard” motives for trade, such
+as geography and productivity in addition to risk-mitigation incentives. Our third contribution is, therefore, quantitative: we compute expected real wages, real wage volatility
+and welfare across districts in our calibrated model, given model-implied sourcing risk.
+Our framework implies that as a result of firm sourcing decisions, real wages in each
+district will depend on the geography, productivity, and climate risk of all districts.
+We perform several quantitative exercises in our calibrated model. First, we validate the
+insight from our comparative statics exercises regarding wage volatility. We find that
+under the estimated trade costs and climate risk, the variance of real wages is 9.25%
+higher in autarky. Expected real wages are also higher in autarky. In our calibrated
+model, they are, on average, 3.1% higher, although for some districts expected real wages
+decline. With risk aversion in preferences, autarky is welfare reducing, with a 7.29%
+average welfare decline.
+We then study how regional wages change in general equilibrium under alternative shock
+2
+In an alternative exercise, we parameterize the regional risk as a function of climate-related variables
+and other risk-related variables related to institutional quality and local development and estimate the
+relevant parameters. Our quantitative results remain very similar.
+
+3
+
+probabilities to capture scenarios of changing climate risk, and to highlight our new channel. We use the correlation of flood, heat, dryness and precipitation risk with our estimated district-level risk probabilities to infer how these probabilities would change given
+IPCC projections of flood, heat, dryness and precipitation risk. We then compute expected real wages, input prices, and wage volatility under the scenario of climate increasing as projected. We find that the average risk of districts increases by 1.1p.p., but there
+is wide heterogeneity. Expected real wages decline on average by 1.96%, their volatility
+increases slightly by an average of 0.15%. Welfare decreases on average by 2.01%. Around
+37% of districts see expected real wage increases, however.
+Our quantification highlights the distributional consequences of adaptation to climate
+risk. In the counterfactual, initially better-off districts largely see welfare increases, while
+initially worse-off districts see welfare declines. Regions where risk is increasing bear the
+direct effects of shocks, but additionally see downward pressure on wages due to firm
+adaptation away from them. In an additional counterfactual, we study the distributional
+implications of myopia about climate risk changing, and show that for some regions,
+especially those who are experiencing an increase in risk, adaptation is welfare decreasing.
+In sum, our model and quantification show that firm sourcing decisions help mitigate
+the effects of climate shocks and have quantitatively important implications in general
+equilibrium for real wages in safer regions relative to riskier ones.
+Our results highlight two economic implications of climate change. On the positive side,
+the risks of climate change are partially mitigated as firms anticipate climate risk and
+diversify their sourcing decisions. This implies that more volatile weather does not necessarily translate into higher aggregate output volatility. On the negative side, climate
+change will have even larger redistributive effects across regions than commonly believed.
+Regions with more climate risk will face the direct effects of the shocks themselves, but
+additionally will also become less appealing to other regions as a source of inputs. As
+a result, demand for products from these regions will decline, and real wages will fall.
+The converse will occur in “safer” regions. In other words, diversification will amplify the
+distributional effects of climate change.
+Related literature. A growing literature studies how climate change shapes economic
+activity. Several papers focus on the long run, assessing how the distribution of economic
+activity changes within and across regions, and countries (Bilal and Rossi-Hansberg, 2023;
+Cruz and Rossi-Hansberg, 2023; Desmet et al., 2021; Farrokhi and Lashkaripour, 2024;
+Hsiao, 2023; Jia et al., 2022; Nath, 2024). A smaller subset considers optimal mediumterm policy responses (Balboni, 2024). Another branch of the literature studies the effects
+of extreme weather events on firms’ employment and location decisions as well as on FDI
+
+4
+
+(Castro-Vincenzi, 2024; Gu and Hale, 2023; Indaco et al., 2020; Pankratz and Schiller,
+2024). In this paper, we study the general equilibrium impacts of endogenous firm supply
+network decisions under climate risk. While we emphasize how firms can use their supply
+networks to mitigate the risk of extreme weather events, our model is well suited to
+analyze the general equilibrium effects of supply network formation under any locationspecific risk.
+Our theoretical and quantitative results are related to the insights in Kopytov et al.
+(2024), who study supply chain adaptation to supplier volatility, and to Pellet and TahbazSalehi (2023), who study the implications of rigidities in supply chains that arise due to
+incomplete information. Similar to the rigid inputs in Pellet and Tahbaz-Salehi (2023),
+firms in our model place orders for intermediate inputs prior to shock realization, and
+cannot adjust orders ex-post. In contrast to these papers, our model features households
+in multiple regions who cannot trade shares of the different firms, and the incentive to
+mitigate volatility arises from the concavity of firm profits. As a result, in our framework,
+aggregate volatility decreases in trade openness, as firms mitigate risk, reminiscent of the
+findings in Caselli et al. (2019). However, expected real wages can be lower under costly
+trade compared to autarky. This parallels the results in these papers that aggregate output
+is also lower due to diversification away from volatile suppliers. We show, however, that
+eliminating trade barriers permits both expected real wages to be higher and aggregate
+volatility to be lower, maximizing the benefits of diversification. At the micro level, our
+firm problem is similar to Blaum et al. (2024), but our model delivers strong implications
+for how wages across space are shaped by regional risk in general equilibrium, and can be
+used to infer the risk that firms assign to different sourcing locations.
+Supply chain fragility and resilience have received increased attention in the literature
+following the Covid-19 pandemic (Goldberg and Reed, 2023; Grossman et al., 2023, 2024;
+Khanna et al., 2022), and recent global disruptions (Korovkin et al., 2024). Our firmto-firm data are similar to Khanna et al. (2022), but our identification strategy uses
+extreme weather events, and we emphasize the adaptation of supply chains to climate
+risk and the general equilibrium consequences, which are not studied in that paper. Our
+empirical evidence indeed suggests that firm supply chain responses to climate-related risk
+vary qualitatively and quantitatively from their responses to an unanticipated, temporary
+shock like Covid-19.
+Additionally, we also build on a growing research agenda on how production networks
+respond to shocks. A long literature documents the importance of international trade in
+inputs and studies the macroeconomic consequences of such trade (Antràs et al., 2017;
+Caliendo and Parro, 2015; Hummels et al., 2001; Huo et al., 2024; Johnson and Noguera,
+2012, 2017; Yi, 2003). A strand of this literature has emphasized the transmission of nat5
+
+ural disasters through trade and supply chain links (Barrot and Sauvagnat, 2016; Boehm
+et al., 2019; Carvalho et al., 2021). In contrast to studying the responses of firms or
+sectors to the incidence of shocks, we quantify the general equilibrium economy-wide consequences of firm supply chain adaption to the (changing) probability of disruptions.
+Finally, our paper contributes to research studying trade under risk (e.g. Helpman and
+Razin (1978), Esposito (2022), Allen and Atkin (2022), Adamopoulos and Leibovici
+(2024), among others), albeit without an emphasis on supply chains and climate risk.
+While the responses of firm supply chains to climate risk have received little attention
+in the literature, closely related is ongoing work by Balboni et al. (2024) and Blaum
+et al. (2024), who study supply chain responses to floods in Pakistan, and US importer
+responses to shipping-time volatility, respectively. These papers provide rich empirical
+evidence of varied aspects of firm responses to supply chain risk. Our empirical evidence
+is complementary, but our focus here is on the quantitative model studying the spatial
+general equilibrium implications of supply chain adaptation to climate risk.
+The rest of our paper is structured as follows. Section 2 outlines our data and shows
+descriptive patterns. Section 3 sets up the model, derives some analytical results, and
+performs comparative statics. Section 4 calibrates and quantifies the model, while 4.4
+contains the climate change counterfactuals, and Section 5 concludes.
+
+2
+
+Empirical Approach
+
+2.1
+
+Data
+
+Firm-to-firm trade. Our primary data source is daily establishment-level transactions
+(while we use the term “firm”, the data are at the granular establishment level). These
+data are from the tax authority of a large Indian state with a fairly diversified production
+structure, roughly 50% urbanization, and high population density. Comparing this context to others with firm-to-firm transaction data, we observe that the state has roughly
+three times Belgium’s population, seven times Costa Rica’s, and double Chile’s.
+The data contain daily transactions from April 2018 to October 2020 between all registered
+establishments within the state, and all transactions where one node of the transaction
+(either buyer or seller) is in the state. All transactions have unique tax identifiers for both
+the selling and buying establishments, which include the value of the whole transaction,
+the value of the items being traded by 8-digit HSN code, the quantity of each item, its
+unit, and transportation mode.
+Each transaction also reports the zip code location of both the selling and buying establishments, which we merge with other geographic data. By law, any goods transaction
+6
+
+with value over Rs.50,000 ($700) has to generate eway-bills, which populate our data.
+Transactions with values lower than $700 can also optionally be registered. As such, our
+network is representative of relatively larger firms, but the threshold is sufficiently low to
+capture small firms as well. More information is in Appendix A, with summary statistics
+in Table A1. The distribution of customers and suppliers each firm has is very similar to
+that documented by Alfaro Ureña et al. (2018) for Costa Rica.
+We use the data to construct the buyer-supplier network every period and the total value
+of inputs purchased and output sold by firms. To obtain a measure of real inputs and
+output, we use the reported quantity of each transaction to calculate unit values for each
+product, construct a price index, and deflate firm-level input purchases and sales.
+
+2.2
+
+Descriptive Analysis
+
+To begin our analysis, we document three facts related to supplier diversification and
+climate risk to motivate the key features of our model.
+Fact 1: A significant mass of firms source the same product from multiple
+regions.
+We leverage the detailed product information in our transaction data and compute the
+number of districts a firm sources a given product from. As shown in Table 1 column
+1, 62% of the firms in our data buy from more than one district. The results are even
+starker when looking at total value transacted, where 96.5% of total purchases come from
+firms with more than one supplier-district. In columns 3 to 6, we show that a significant
+fraction of firms also multisource the same product across regions. We compute the
+number of districts a firm-by-HSN product code pair sources from. In Columns 3 and
+4, we use 4-digit product codes; and in Column 5-6, 8-digit product codes. Even with
+the narrowest product definition available in our data, 14.4% of firms source the same
+product from more than one district, and 74% of purchases come from firms that source
+the product from more than one district. This is evidence that a significant fraction of
+firms multisource their products. In Appendix Table B1, we show that the distribution
+of the number of supplier districts is very similar when we exclude likely wholesalers and
+likely retailers from the analysis.3
+Fact 2: Firms that multisource more, buy products from farther distances,
+dryer regions, and pay higher input prices.
+Focusing on firm-product pairs at the 8-digit product level in Figure 1a, we show that
+firms that source the same product from more regions tend to buy from suppliers that
+3
+
+We also show in Table B2 that the results are consistent when looking at multisourcing across firms
+instead of supplier districts.
+
+7
+
+Table 1: Share of firms that source from multiple districts
+Number of supplier
+districts
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10+
+
+Share of buyers
+
+Share of buyers
+x HSN-4
+
+Share of buyers
+x HSN-8
+
+Firms
+
+Value
+
+Firms
+
+Value
+
+Firms
+
+Value
+
+37.9%
+20.6%
+12.2%
+7.7%
+5.3%
+3.7%
+2.7%
+2.0%
+1.5%
+6.4%
+
+3.5%
+3.9%
+8.4%
+4.0%
+3.7%
+4.0%
+3.5%
+3.7%
+3.2%
+62.0%
+
+77.1%
+13.8%
+4.5%
+1.9%
+1.0%
+0.5%
+0.3%
+0.2%
+0.1%
+0.4%
+
+13.1%
+11.1%
+13.7%
+7.6%
+6.8%
+5.7%
+4.0%
+4.0%
+3.4%
+30.5%
+
+85.6%
+10.1%
+2.5%
+0.9%
+0.4%
+0.2%
+0.1%
+0.1%
+0.0%
+0.1%
+
+25.8%
+16.4%
+10.9%
+9.2%
+5.6%
+4.1%
+4.0%
+2.6%
+2.8%
+18.6%
+
+Note. Column 1 aggregates the data at the firm level and computes the share of firms that source from
+a certain number of districts. Column 2 calculates the fraction of total value purchased by number of
+supplier districts sourced from. Columns 3-4 aggregate the data at the firm-by-4-digit product level, and
+Columns 5-6 at the firm-by-8-digit product level.
+
+are farther away. For instance, firm-product pairs that source from one district have an
+average distance of 350km to suppliers. On the other hand, firm-product pairs with five
+suppliers per product have an average distance of more than double, at 711km.
+In Figure 1b, we also show that firm-product pairs with more suppliers also seem to
+source from lower rainfall districts. For firm-product pairs that source from one district,
+such districts have, on average, a 6.5mm daily rainfall. On the other hand, for firmproduct pairs that source from five districts, such districts have, on average, 5.4mm of
+daily rainfall. The 1.1mm difference in rainfall between one and five source districts, is
+17% with respect to the mean. In Appendix Table B3, we show that such patterns are
+also prevalent for other measures of climate risk, such as historical riverine flooding.
+Finally, in Figure 1c, we show that firms that source from more districts also tend to pay
+higher prices for their inputs.4 As shown in Figure 1c, firms that source from five districts
+pay an average price that is almost one standard deviation higher than firms that source
+from only one district. The average price paid monotonically increases with the number
+of districts sourced from.5
+Fact 3: Supplier districts that face higher climate risk charge lower prices.
+Figures 1b and 1c suggest that as buyers purchase from more suppliers, they source from
+4
+
+To compute average prices, we first estimate a regression of log price on product fixed effects, and
+standardize the residual of such regression to construct our residual price index. We then normalize the
+average price for those firms that source from only one region to one.
+5
+In Appendix Table B3, we show that these patterns are statistically significant, and remain so within
+product and controlling for buyer size and supplier size. In other words, the patterns are not driven by
+specific products, or by larger buyers, or by supplier capacity.
+
+8
+
+Figure 1: Supplier characteristics by number of districts sourced from
+
+(a) Distance to suppliers
+
+(b) Average rainfall
+
+(c) Average price of inputs
+
+Note. In the left panel, we compute the average distance between the firm and each of its suppliers from
+our transaction data. We then compute the average distance across firm-product pairs sourcing from 1 to
+5 districts. In the middle panel, for each firm-product pair, we compute the average daily rainfall at each
+of the districts the firm sources from. Daily rainfall comes from the India Meteorological Department.
+We then compute the average across all firm-product pairs sourcing from 1 to 5 districts. In the right
+panel, we compute the average price paid for inputs for firm-product pairs sourcing from 1 to 5 districts.
+To construct our price index, we first run a regression of log prices on product fixed effects and take the
+residual. We standardize the residual and normalize it to 1 for firm-product pairs that source from only
+one district.
+
+regions with lower climate risk and pay higher prices. The flip side of this pattern is
+that suppliers in riskier areas might charge lower prices. To investigate this relationship
+further, we estimate a regression at the buyer (j) - supplier district (d) - product (p) level
+as in equation 1.
+log(Price)j,d,p = α1 log(Climate risk)d + α2 log(Distance)j,d + α3 1(j in d)j,d +
+α4 1(j, d in same state)j,d + γXd,p + δj + δp + ϵj,d,p ,
+
+(1)
+
+where log(Price)j,d,p is the log of the average price charged to buyer j for product p by
+suppliers in district d. We control for the distance between j and d, indicators on whether
+the buyer is in district d or the same state as district d, and a set of controls at the
+product-supplier district level (Xd,p ) such as the log size of all supplier sales from that
+district-product pair, and the log of the total sales from that district. We also include
+buyer and product fixed effects, so the identification of the climate variables comes from
+firms that buy from multiple districts. Additionally, we include covariates that aim to
+capture market power at the supplier district, such as the log of the total number of
+suppliers for a given product in the district, and the log of the largest supplier market
+share for that product in the district.
+We consider two climate risk measures: the average daily rainfall for each district in 2019
+and the historical river flooding in each district. Details on how these climate variables
+9
+
+are computed can be found in Appendix B.2. As shown in Table 2, both climate measures
+are negatively correlated with prices. The magnitudes are robust to including additional
+controls at the supplier-district level. A 10% increase in rainfall in a district, is associated
+with suppliers in those districts charging 0.11% lower prices. Similarly, a 10% increase
+in riverine flooding levels in a district is associated with 2.55% lower prices charged by
+suppliers in that district. While these results cannot be interpreted as causal, they are
+suggestive that riskier areas charge lower prices.
+Table 2: Correlation between price and supplier district climate risk
+Log (Price)j,d,p
+
+Log (Price)j,d,p
+
+Log(Avg Rainfall)d
+
+-0.0179***
+(0.005)
+
+-0.0112**
+(0.005)
+
+N obs
+Additional controls
+
+991,802
+No
+
+991,802
+Yes
+
+Log (Price)j,d,p
+
+Log (Price)j,d,p
+
+Log(Avg River Flooding)d
+
+-0.381***
+(0.026)
+
+-0.255***
+(0.026)
+
+N obs
+Additional controls
+
+996,720
+No
+
+996,720
+Yes
+
+Note. ∗∗∗ p < 0.01, ∗∗ p < 0.05, ∗ p < 0.1. We run a cross-sectional regression at the firm (j), supplier
+district (d), 8-digit product (p) level. The outcome is the log of the average price charged by suppliers in
+district d, to firm j for product p. The first and third columns control for log average distance between
+j and suppliers in d, a dummy variable for whether j is in district d, a dummy variable for whether j
+is in the same state as d, the log of total sales in product p from suppliers in d, the log of total sales of
+suppliers in d across all products, buyer fixed effects and product fixed effects. Columns 2 and 4 include
+additional controls for the log number of suppliers for product p in d and the log market share of the
+highest supplier in product p. Climate variables used are average daily rainfall in district in 2019 (left
+panel) and historical riverine flooding levels in district (right panel).
+
+Fact 4: Purchases fall temporarily when suppliers are affected by floods.
+Next, we leverage the timing of unexpected floods to examine how input purchases change
+in the lead-up to and right after the shock. Our event-study analysis examines pre-trends
+in the lead-up to the shock, and dynamics thereafter. The absence of pre-trends provides
+suggestive evidence that our parallel-trends identification assumption is likely to hold,
+whereas the post-shock dynamics are informative of how long it takes for firms to recover
+after the flood. In Appendix B.1, we discuss the data on flood events in our sample.
+We use the existing supplier network (in the pre-shock period) as a measure of the exposure
+to the disruption, to study how buyers were affected when their suppliers were hit. We
+examine outcomes yj,t,k,τ for firm j, in period t, and industry k, measured in event-time
+(since flood) τ using the specification:
+yj,t,k,τ =
+
+x=+5
+X
+
+[γx (Flood Exposure)jτ + δτ,x + βx Xj,τ0 −1 ] + δj + δr,k,t + ϵj,t,k,τ
+
+(2)
+
+x=−5
+
+We estimate two specifications. First, when studying the direct impacts on suppliers in
+flooded areas, “Flood Exposurejτ ” takes a value of 1 if firm j was exposed to a particular
+flood. Then, when examining how downstream buyers are affected, “Flood Exposurejτ ” is
+10
+
+“Supplier Exposurejτ ”, which captures how exposed its suppliers were to the flood:
+(Supplier Exposure)jτ =
+
+N
+X
+
+si,j,τ,x<0 × 1 (Supplier i exposed to flood in τ ) ,
+
+i
+
+where si,j,τ,x<0 is the value of purchases that firm j buys from firm i, relative to firm j’s
+total purchases, over the five months before the flood. The index essentially calculates
+the weighted average of the flood exposure of firm j’s sellers. A higher value of the index
+implies firm j faces a higher “supplier-exposure,” as a larger share of its purchases were
+coming from firms exposed to the flood.
+We include a wide range of high-dimensional fixed effects to account for confounding
+shocks. These include firm fixed effects δj that control for firm-specific time-invariant
+differences; industry-by-time fixed effects δr,k,t that control for district-industry-specific
+shocks;6 and flood event-time since flood fixed effects δτ,x that control for aggregate trends
+around the flood event that affect all firms (including those not in the flood-exposed areas).
+We also control for firm size-specific shocks, by controlling for purchases in the pre-period
+Xj,τ0 −1 , interacted with time-since flood indicators.
+Figure 2a plots impacts on suppliers, and shows a lack of meaningful pre-trends in the
+lead-up to the flood. After the flood, there is an immediate decline in sales of 0.10 log
+points, which worsens until two months after the flood. After the two-month slump, there
+is a quick recovery to what they were in the pre-period.
+Figure 2: Effects of Floods on Sales and Purchases
+
+(a) Sales of affected suppliers
+
+(b) Downstream purchases
+
+(c) Existing vs new suppliers
+
+Note. Figure 2a includes event-time, industry-time, and firm fixed effects, and controls for pre-period
+firm sales interacted with time indicators. Figure 2b and 2c include firm, time, event-time, and industrydistrict-real time fixed effects, and demand controls and log pre-period purchases-time controls. Standard
+errors clustered at the district level.
+
+Figure 2b plots effects on purchases of downstream firms. Once again, the coefficients
+in the pre-periods do not display any meaningful trends. Consistent with Figure 2a, we
+find that purchases decline sharply for the first few months, and then start to recover.
+Purchases are the lowest at two months after the flood, dropping by 0.07 log points with
+6
+
+When studying the direct impacts on suppliers, we include industry-time fixed effects δk,t instead, as
+the flood varies at the district-time level.
+
+11
+
+respect to the baseline period, for every one standard deviation increase in the supplier
+exposure (SD of exposure is 0.1). As we describe in our calibration section, we use this
+estimate to choose the input disruption parameter χj to match the drop.
+Interestingly, Figure 2c shows that affected firms do not systematically switch to new
+suppliers following the realization of a disruption. Rather, they return to existing suppliers, which is additional evidence supporting the view that firms are adapting to the
+probability of climate-related disruptions ex-ante.7
+Appendix B.1.2 examines a wider range of outcomes and methods. It shows these patterns
+are similar if we use insights from recent advances in two-way fixed effects methods, and
+estimate Local Projections-Diff-in-Diff (LP-DID) specifications as well as using a binary
+treatment. The appendix also illustrates responses of other outcomes, such as downstream
+sales and prices.8 Finally, in Appendix C.5 we examine the importance of inventories in
+our empirical analysis. We find that inventories are, on average, less than a month’s sales,
+and are not correlated with multisourcing behavior.
+
+3
+
+Model
+
+This section develops a spatial general equilibrium model of firm sourcing under risk and
+performs comparative statics. Section 4 calibrates and quantifies the model. The model
+is static, as the rich geographic variation and a large number of locations is necessary for
+illustrating the diversification mechanism.9
+
+3.1
+
+Setting
+
+The economy consists of I regions. Each region i is endowed with Li workers, a unit
+continuum of final goods producers who produce nontraded final goods, and competitive
+intermediate goods producers.
+7
+
+These patterns are consistent with evidence from the same context showing how buyer-supplier
+relationships are personalized as relationship-capital is important (Cevallos Fujiy et al., 2023), and so
+firms are unlikely to switch suppliers in the face of temporary shocks (Cevallos Fujiy et al., 2021).
+8
+We find that downstream sales decrease by 7% in the three months after the shock for exposed
+firms relative to non-exposed firms while total purchases decrease by 16%. This implies that for every
+1% decrease in purchases, sales decrease by 0.43%. Using a back-of-the-envelope calculation, our model
+predicts that for every 1% decrease in purchases, sales decrease by 0.54%. Our quantitative model in
+Section 4 matches this pattern.
+9
+The event studies illustrated (short-lived) dynamic responses to shock incidence. However, a dynamic
+model with sufficiently rich geographic/locational variation is not currently tractable. Our emphasis is on
+understanding the steady state general equilibrium consequences of a distribution of risk across space, not
+on the reaction to the incidence of a disruption. That said, our model can be used to study the immediate
+ex-post response to the incidence of a disruption, as we do in Section 4.4. Given the short-lived responses
+in the data, we would not expect a significant role for additional dynamics here.
+
+12
+
+Timing. The model is static and consists of two stages. In the first stage, final goods
+producers in each location i place their orders for intermediate inputs from location j,
+Mji . In the second stage, inputs are produced, origin-specific sourcing disruption shocks,
+χ = {χj }, j ∈ I are realized, and then inputs are delivered, final goods firms choose their
+labor inputs and produce, households supply labor and consume, and all markets clear at
+equilibrium prices.
+Households. The representative household in region i supplies labor Li inelastically to
+firms in i and chooses a consumption aggregate of the non-traded regional final goods,
+qi (χ), to maximize
+Z
+max
+
+log
+
+qi (ω,χ)
+
+qi (ω, χ)
+
+σ−1
+σ
+
+!
+σ
+ σ−1
+dω
+
+(3)
+
+ω∈[0,1]
+
+subject to the budget constraint,
+Z
+pi (ω, χ)qi (ω, χ) = Yi (χ) ≡ wi (χ)Li + Πi (χ)
+
+∀χ ∈ G(χ),
+
+(4)
+
+ω∈[0,1]
+
+where pi (ω, χ) is the price of final good qi (ω, χ), Yi (χ) is total income in region i and
+σ > 1 is the elasticity of substitution. Total income Yi (χ) is composed of labor income,
+wi (χ)Li , and aggregate profits rebated to the household by the firms, Πi (χ). Our baseline
+model assumes labor is immobile across regions.
+1
+The Lagrange multipliers λi (χ) = Yi (χ)
+of the state-specific budget constraints measure
+how much an extra unit of income contributes to utility in different states of the world.
+These multipliers define the stochastic discount factor firms use to compare profits across
+different states of the world.
+
+Intermediate goods producers. In each region, there are a continuum of competitive
+suppliers of tradable intermediate inputs, M̄i , with production function M̄i = zi ℓM
+i , where
+zi is their productivity and ℓM
+i is the labor used in the production of intermediates. The
+wi (χ)
+price of intermediates in i is equal to their constant marginal cost, pM
+i (χ) = zi , where
+wi (χ) corresponds to the wages in that region. Notice that intermediates M̄i are produced
+before the realization of shocks, but their price is potentially stochastic.
+Let pM
+ji (χ) denote the price of intermediates from j used in i. We assume iceberg trade
+costs τji between regions. No arbitrage in shipping implies that the factory-gate price and
+M
+the price at the time of intermediate usage are related by: pM
+ji (χ) = τji pj (χ).
+
+13
+
+Final goods firms. Each region i contains a unit continuum of homogeneous final
+goods producers that produce differentiated varieties ω. Final goods are not tradable
+across regions. The constant returns to scale production function of the firms is
+qi (ω, χ) = ϕi ℓi (ω, χ)β xi (ω, χ)1−β ,
+
+(5)
+
+where ϕi is the productivity of final goods’ producers in location i, ℓi (ω, χ) is the firm’s
+labor input, and intermediates, xi (ω, χ), can be sourced from each region j ∈ I as perfect
+substitutes:10
+xi (ω, χ) =
+
+X
+
+xji (ω, χ) .
+
+(6)
+
+j∈I
+
+For compact notation, for the remainder of the paper we suppress the explicit dependence
+of variables on χ except where necessary for expositional clarity. Note that all equilibrium
+variables except M̄i remain potentially stochastic.
+Second stage. In the second stage, final goods firms have already placed their orders
+of intermediates Mji (ω), shocks χ have been realized, and production takes place. The
+profit maximization problem of a final goods firm in i in the second stage is
+max
+
+qi ,{xji }Ij=1 ,ℓi
+
+such that
+
+ σ−1  σ1
+σ−1
+qi (ω) σ − wi ℓi (ω)
+Y i Pi
+xi (ω) =
+
+X
+
+xji (ω)
+
+(7)
+(8)
+
+j∈I
+
+xji (ω) ≤ χj Mji (ω)
+
+∀j,
+
+(9)
+
+and the production function (5). Here, Yi is income, and Pi is the price index in region
+i. χj ≤ 1, j ∈ I are the shock realizations. We assume the shocks destroy some of the
+orders of inputs, Mji , that have been placed in the region in the first stage, and so if
+a shock materializes, the firm receives fewer inputs than its order. This captures the
+notion that risk is associated with a disruption of the quantity of inputs that arrive for
+production for reasons that can include climate-associated shocks such as rainfall or floods,
+and we will calibrate the shock size to match our event study estimates in Section 2.2.
+We assume the stochastic shocks are origin-specific, and so they affect orders of inputs
+from all buying regions. As the shocks are not idiosyncratic, they will potentially affect
+aggregate outcomes.
+10
+
+Alternatively, we could also use an aggregator of K varieties of inputs, where inputs of the different
+regions are perfect substitutes within a variety. For simplicity, our baseline model uses a single “variety”
+of input that can be sourced from multiple regions. Appendix E.2 considers a CES aggregate of inputs.
+
+14
+
+Note that as second-stage profits (7) are monotonically increasing in input usage xi (ω),
+the firm will always optimally use all available inputs that are delivered of its orders
+Mji (ω). In other words, Equation (9) will always hold with equality.
+The first order conditions of the firm’s second stage problem (7) pin down a firm’s optimal
+choices of labor li , as well as its price pi , quantity qi , and profits πi as a function of the
+vectors of first stage orders Mi = {Mji }Ij=1 and origin-specific shocks, χ = {χj }Ij=1 . In
+particular, the expression of profits for a firm in region i, suppressing the variety index ω
+for concise exposition, is:
+
+
+πi (Mi ; χ) =
+
+σ(1 − β) + β
+β(σ − 1)
+
+
+
+β(σ − 1)
+σ
+
+1
+
+(1−β)(σ−1)  β+σ(1−β)
+ σ−1 X
+
+
+σ−1
+ϕi 
+χj Mji 
+.
+ Yi Pi
+
+
+
+
+σ
+ β+σ(1−β)
+
+β(1−σ)
+β+σ(1−β)
+
+wi
+
+j∈I
+
+(10)
+
+First stage. In the first stage, prior to the realization of shocks, final goods producers in
+all locations choose their orders Mji of inputs to maximize expected profits. Firms have
+rational expectations and make their input sourcing decisions based on the true joint
+distribution of origin-specific disruption shocks, G(χ).11 The firm’s problem in stage one
+is
+"
+!#
+X
+pM
+max Eχ λi πi (Mi ; χ) −
+,
+(11)
+ji Mji
+Mi ≥0
+
+j∈I
+
+where pM
+ji is the order cost of inputs from j in i, and πi (Mi ; χ) is as in Equation 10. The
+first order conditions of this problem are
+
+
+
+
+Eχ λi χj Θi
+
+−1
+# β+σ(1−β)
+
+"
+X
+
+
+ ≤ 0 ∀ j ,
+− pM
+ji
+
+χj Mji
+
+(12)
+
+j∈I
+
+ih
+i σ
+h
+β(1−σ)
+1
+ σ−1  σ−1  β+σ(1−β)
+β(σ−1) β+σ(1−β)
+β+σ(1−β)
+w
+Y i Pi
+ϕi
+is a function of equiwhere Θi = (1−β)
+i
+β
+σ
+librium aggregates that are potentially stochastic, as Yi , wi , and Pi might depend on the
+shock realizations across regions.
+These first order conditions highlight that when placing an order for intermediate inputs
+of a given origin j, firms equate expected marginal benefits and marginal costs. Moreover,
+11
+
+In our empirical implementation of the model, we assume that these shocks are binary, occurring
+with probability ρi in each location i. In our quantification of the model we permit spatially-correlated
+shocks. Note that we impose rational expectations. This is only necessary for our solution approach, the
+model can accommodate alternative belief structures.
+
+15
+
+this optimality condition elucidates under which circumstances the firm does not source
+from a particular location. This occurs if the expected marginal benefit from placing an
+infinitesimal order in location j, with optimal orders elsewhere, is strictly smaller than its
+expected price, pM
+ji (χ).
+Proposition 1 Ex-ante profits are concave in orders of inputs Mji .
+Proof. See Appendix C.
+This property of the firm’s problem is important for the firm’s optimal sourcing strategy.
+Interestingly, it implies that the firms behave as if they are risk averse, even without
+explicit risk aversion in managerial preferences, when placing their inputs orders to maximize expected profits. As a result, the “risk-aversion” from the concavity in profits implies
+firms will optimally diversify sourcing locations.
+Appendix E.2 shows that the concavity of firm profits continues to hold with a CES
+aggregator of inputs from different origins.12
+
+3.2
+
+General Equilibrium
+
+In the second stage, shocks are realized, inputs are delivered across regions, and all goods
+and labor markets clear. The labor market clearing condition for each region i is
+
+σ
+ β+σ(1−β)
+
+1−β  σ−1
+σ
+X
+ β(σ − 1) 1 
+
+ σ1 
+
+
+=
+,
+Yi Pσ−1
+χj Mij 
+ ϕi 
+
+i
+
+
+σ
+wi
+
+
+
+M̄i
+Li −
+z
+| {z i}
+
+
+
+(13)
+
+j∈I
+
+L̃i , Final goods labor
+
+i
+where L̃i is the labor used in the production of final goods in i, and M̄
+is the labor used
+zi
+PJ
+in the production of M̄i = j=1 τij Mij intermediates to ship to all regions j ∈ I from
+region i.
+
+Goods markets clear in each region, implying that the region’s income is equal to its
+expenditure
+Yi = wi Li + Π̂i ,
+(14)
+where Π̂i are the aggregate profits in i of the final goods firms as in Equation (7) less
+12
+
+With a finite elasticity of substitution, firms would choose to source from all locations, inconsistent
+with the data on sourcing shares. Here, the diversification motive would imply they source more at the
+intensive margin from each region. While our assumption of perfect substitutes in the input bundle is
+analytically convenient, estimates of input substitution elasticities are often low. With a low substitution
+elasticity, the CES aggregator features “dislike-for-variety.” Allowing for an extensive margin of choosing
+the number of sourcing locations would imply that firms in a low-elasticity world would choose few
+sourcing locations. Observed multisourcing would then be driven by the diversification motive.
+
+16
+
+their intermediate goods order costs
+Z
+Π̂i =
+
+πi (ω)dω −
+
+Z X
+
+pM
+ij Mij (ω)dω.
+
+(15)
+
+j
+
+Notice that we assume firms pay for their orders of intermediate inputs, not for the fraction
+they receive after the shock. Additionally, Equation (13) implies that the full quantity
+of intermediates ordered in stage 1 is produced. This implies that the shocks “destroy” a
+fraction of produced inputs.13
+The equilibrium of the economy is formally defined in Appendix C.1.
+Features of the equilibrium. As all firms in a region are homogeneous, under the
+unit mass of firms assumption, the regional price index Pi = pi , and aggregate profits
+Π̂i = π̂i . We can then characterize several features of the equilibrium.
+1
+Lemma 1 Aggregate profits are a constant fraction of labor income Π̂i = σ−1
+wi Li . Further, aggregate expenditure on materials in i is given by
+
+X
+
+pM
+ij Mij = (1 − β)wi Li ,
+
+(16)
+
+j
+
+and aggregate income in location i is given by,
+Yi =
+
+σ
+wi Li .
+σ−1
+
+(17)
+
+Proof. See Appendix C.2.
+Lemma 2 The aggregate labor demand of final goods producers is inelastic, independent
+of the realization of shocks, χ, and is a constant share of the aggregate labor endowment,
+L̃i = βLi .
+
+(18)
+
+Proof. See Appendix C.2.
+To understand the intuition behind Lemma 2, consider the case of firms in a region facing
+negative shocks in its sourcing locations at the start of stage 2. Due to input disruptions,
+all else equal, the demand of final goods producers for labor will decline. However, in
+13
+
+We do not observe actual contracts between firms in the data, so we have to make an assumption
+regarding what fraction of the orders of inputs are paid for. Our setup would remain tractable under
+alternative assumptions, e.g. only a fraction of the order is paid for upfront. While that would change
+the input costs entering Equation (11), it would not change the concavity of first stage profits in order
+costs, which is the key mechanism for firm input diversification in this framework.
+
+17
+
+equilibrium, this decline is exactly offset by the increase in final goods prices and decline
+in the real wage, as aggregate consumer demand is downward sloping. The net effect is
+that the aggregate labor demand from final goods producers remains unaffected.
+Equation (18) has strong implications for equilibrium wages. In particular, equilibrium
+wages must be such that the remaining workers are used by the intermediate inputs sector
+in stage 1. This implies that equilibrium wages wi and input prices pM
+i are such that stage
+1 firm input orders demand (1 − β)Li to produce M̄i so that labor markets clear.
+Lemma 3 Let labor in region 1 be the numeraire. Equilibrium relative wages wi are deterministic. This, in turn, implies that aggregate income in location i is also deterministic.
+Proof. See Appendix C.2.
+Lemma 3 follows immediately from the discussion above. There is a unique wage wi in each
+location such that equilibrium input orders use the labor not used in final goods production
+in stage 2. This simplifies the analysis substantially: while wages could potentially vary
+across states of the world, by Lemmas 1-3, wages, input prices, nominal income and
+profits are deterministic. The only aggregate variable that is stochastic, varying with the
+realization of shocks, is the ideal price index, Pi
+In the ex-post general equilibrium, the expression for Θi which is part of the marginal
+contribution to profits of a marginal unit of Mji (Equation 7) is given by the following
+expression:
+!− (1−β)(σ−1)
+β+σ(1−β)
+Θi = (1 − β)wi Li
+
+X
+
+χj Mji
+
+.
+
+j∈I
+
+This implies that Θi is stochastic from the perspective of firms in stage 1.
+Ex-Ante General Equilibrium As pointed out above, the vector of relative wages is
+deterministic and determined at the first stage, and intermediate goods producers employ
+(1 − β)Li workers in input production. In turn, due to the linear technology assumption,
+it must be the case that in equilibrium, the production of intermediates in each location
+is equal to M̄i = (1 − β)zi Li . In the equilibrium of this economy, the vector of wages,
+{wi }Ii=1 , must be such that total demand from intermediate goods producers in each region
+exactly equals this amount.
+From the trade balance and the optimal total intermediate-expenditure conditions, we de-
+
+18
+
+rive the following equilibrium system, which generates the equilibrium vector of wages,
+
+wj Lj =
+
+X
+
+wi Li sji ({wi }Ii=1 )
+
+i
+
+;
+
+wj τji
+Mji ({wi }Ii=1 )
+zj
+I
+sji ({wi }i=1 ) = P w τ
+I
+ℓ ℓi
+ℓ zj Mℓi ({wi }i=1 )
+
+∀ j ∈ I,
+
+n
+oI
+where crucially, the matrix of sourcing shares defined by sji ({wi }Ii=1 )
+
+is a function
+
+i=1,j=1
+
+of the vector of wages, the parameters of the model and the probability distribution of
+the shocks.14 This completes the description of the economy.
+Welfare Agents’ welfare is given by their expected consumption, which, is equal to the
+output of the final goods’ producers and varies by region. In general equilibrium, the
+aggregate output of the final sector in region i, conditional on the available inputs, is
+given by
+!1−β
+X
+χj Mji
+Qi (Mi ; χ) = ϕi β β Lβi
+,
+j
+
+and expected welfare becomes
+"
+Wi = Eχ [log Qi (Mi ; χ)] = log ϕi + β log β + β log Li + Eχ (1 − β) log
+
+!#
+X
+
+χj Mji
+
+.
+
+j
+
+(19)
+As is clear from this welfare expression, since consumers are risk averse under log utility,
+the sourcing strategy selected by the final goods producers has effects on their welfare.
+Consumers also benefit from diversification in firms’ sourcing strategies.15
+
+3.3
+
+A Two Location Example
+
+To gain intuition, consider a simple case with two locations. Region 1 is risky and receives
+a shock χ1 < 1, with probability ρ, and region 2 is a safe location.16 Additionally, there
+are no trade costs, and therefore, the optimal intermediate bundle chosen by firms is the
+same in both locations.
+M
+Notice that in equilibrium it must be that pM
+1 < p2 , because otherwise, the safe location’s
+input is unambiguously better than the input from the risky location, and the labor market
+14
+
+Similar non-linear systems of equations in wages appear in several static trade models. Note that
+here, the system includes orders of intermediates, Mji , which are also equilibrium objects and do not
+have a closed-form solution.
+15
+While consumers unambiguously gain from diversification and trade with our assumption of log
+utility, under a linear utility index of standard CES preferences (risk-neutral consumers), consumers
+value diversification less than firms. In that case, there can be losses from trade when trade costs are
+high. We discuss this case in Appendix C.3
+16
+That is, E1χ = ρχ1 + (1 − ρ) and E2χ = 1.
+
+19
+
+will not clear in the risky location.17
+The optimal stage 1 sourcing choices of firms for firms from both regions i ∈ 1, 2 is
+−1
+
+−1
+
+−1
+β+σ(1−β)
+
+−1
+β+σ(1−β)
+
+S NS
+M1i : ρχ1 λSi ΘSi [χ1 M1i + M2i ] β+σ(1−β) + (1 − ρ)λN
+[M1i + M2i ] β+σ(1−β) = pM
+i Θi
+1
+
+M2i : ρλSi ΘSi [χ1 M1i + M2i ]
+
+S NS
++ (1 − ρ)λN
+[M1i + M2i ]
+i Θi
+
+(1−β)(σ−1)
+
+= pM
+2 ,
+
+(20)
+(21)
+(1−β)(σ−1)
+
+S
+Yi (χ1 M1i + M2i )− β+σ(1−β) and ΘN
+= (1−β)(σ−1)
+Yi (M1i + M2i )− β+σ(1−β) .
+where ΘSi = (1−β)(σ−1)
+i
+σ
+σ
+As discussed above, Θi is stochastic, and depends on whether or not the shock materializes in region 1. Under the monopolistic competition assumption, all firms take these
+aggregates as given. Entering these shifters into the first order conditions of the firms, we
+can solve for optimal orders as a function of wages:
+
+
+
+ρ
+(1 − β)(σ − 1)
+1−ρ
+− M
+M1i =
+Yi M
+σ
+p 1 − χ 1 pM
+p2 − pM
+2
+1
+
+
+(1 − β)(σ − 1)
+ρ
+(1 − ρ)χ1
+M2i =
+Yi M
+− M
+.
+σ
+p 2 − pM
+p1 − χ1 pM
+1
+2
+
+(22)
+(23)
+
+Let wages in the less risky region 2 be the numeraire. As intermediates are priced at
+marginal cost and from the labor market clearing condition (Equation 13), a constant
+fraction of labor is used in the production of intermediates, we can show that equilibrium
+wages in the risky region 1 are given by
+w1 =
+
+z1 z1 L1 χ1 + z2 L2 (1 − ρ(1 − χ1 ))
+.
+z2 z1 L1 (ρ + χ1 (1 − ρ)) + z2 L2
+
+(24)
+
+Equation 24 shows that the nominal wage in the risky location relative to the safe one
+is a function of relative productivities, relative sizes, and the probability and magnitude
+of the shock. This wage is increasing in relative productivity and decreasing in relative
+population of location 1, and particularly relevant to our application, decreasing in both
+the probability and the magnitude of the sourcing disruption.
+
+3.4
+
+Comparative Statics
+
+For a larger number of regions, the model does not have an analytical solution. Prior to a
+full calibration to districts in India in Section 4.2, we first illustrate the model’s properties
+in a stylized 3-region setting.
+To narrow the focus to the role of varied risk across space in firm sourcing decisions,
+17
+
+The fact that in this simple case, we have an interior solution for firms in both locations does not
+need to hold in general when there are multiple locations and trade costs.
+
+20
+
+we assume the regions are homogeneous in the productivity of their firms ϕi , their labor
+endowment Li , and the productivity of their intermediate goods producers, zi . Trade is
+costly between regions and increasing in distance with elasticity of 0.5. We assume that
+if a shock occurs, 90% of the inputs ordered are destroyed (χ = 0.1).
+We consider two situations to illustrate separately the roles of geography and spatial
+variation in risk. First, we look into the case where the three locations are equidistant
+P
+from each other, but risk varies across space. Here we assume I1 3i=1 ρi = 0.5. Second, we
+allow for regions to vary in their distance to each other, placing them on a straight line,
+but risk is constant across space (ρi = 0.5 for all i). In both cases, we contrast outcomes
+with regional autarky, where trade costs are infinity.
+In Appendix C.4, we consider other experiments for both geographies and risk profiles,
+including “no risk” (ρi = 0 for all regions), and free trade, where trade costs are set to 0
+across regions.
+Homogeneous risk, heterogeneous distance. Figure 3 illustrates the bilateral sourcing shares when the risk of shocks in each region is ρ = 0.5. Firms now face a trade-off:
+as shocks are independent across regions, they can reduce the probability of input disruptions by sourcing from multiple regions. On the other hand, sourcing from other regions
+is costly, given trade costs. As a result, firms still largely source inputs from their own
+regions, but also diversify by sourcing some inputs from geographically closer regions
+where trade costs are lower. The figure illustrates that this higher demand for inputs
+from more central regions in equilibrium results in higher expected real wages in these
+regions. These more central regions also diversify their risk the most by participating
+in interregional sourcing. Note that the expected price index in more central regions is,
+therefore, lower in equilibrium, as firms from these regions pay less in trade costs for
+inputs and better diversify risk.
+Heterogeneous risk, homogeneous distance. The left panel of Figure 4 illustrates
+the regional maps and the shock probabilities of each region in the heterogeneous risk case.
+Regions are equidistant in this setting, so geography does not play a role in diversification.
+The middle panel shows the bilateral sourcing shares between regions. The diagonal
+is again the darkest: in the presence of trade costs, all regions source most of their
+inputs from their own region despite heterogeneous risk. However, there is clear variation.
+Regions 1 and 3 (the safest regions), see the most “own sourcing.” The riskiest region 2
+diversifies the most. All regions source inputs from other regions, with relatively larger
+shares from those with low risk.
+The right panel shows that expected real wages across regions are negatively correlated
+21
+
+Figure 3: Scenario with homogeneous risk, heterogeneous distance
+
+(a) Bilateral Sourcing Shares
+
+(b) Real Wages
+
+Note. The figures in the left panel consist of a 3x3 input-output matrix where the buying regions are on
+the vertical axis, and the supplying regions are on the horizontal axis. Each line represents the share of
+inputs purchased by a buying region from each supplying region (column). The figures in the right panel
+presents the real wages for each region, as well as a visual representation of the geographical location of
+regions in space. The regions are in a straight line, such that the regions have different distances between
+each other. The scales are shown to the right of each figure.
+
+with the risk of shocks, and are highest in safest location despite identical regional fundamentals. The underlying mechanisms at work are that safer regions experience higher
+labor demand for their intermediate inputs from all regions, pushing up nominal wages.
+They also face a lower price index of their final goods, as they can source safer “domestic”
+inputs without paying trade costs. Notice that in general equilibrium, the wage impacts
+on riskier regions will modulate sourcing from them.
+Figure 4: Scenario with heterogeneous risk, homogeneous distance
+Different distance between regions
+
+(a) Shock Probabilities
+
+(b) Bilateral Sourcing Shares
+
+(c) Real Wages
+
+Note. The figures in the left panel show the probability that each region is hit by a shock, as well as
+a visual representation of the geographical location of regions in space. The figures in the middle panel
+consist of a 3x3 input-output matrix where the buying regions are on the vertical axis, and the supplying
+regions are on the horizontal axis. Each line represents the share of inputs purchased by a buying
+region from each supplying region. The right panel presents the real wages for each region. Regions are
+equidistant from each other. The scales are shown to the right of each figure.
+
+Importantly, under our assumption that inputs are perfect substitutes, and that regions
+have identical fundamentals, there is no source of traditional gains from trade either
+through comparative advantage or increasing varieties. The incentives for trade here
+22
+
+arise entirely to mitigate risk, with strong spatial general equilibrium implications for
+wages and prices.
+Heterogeneous risk and autarky. To understand the equilibrium implications of diversification to mitigate risk, we maintain heterogeneous risk across regions but raise
+trade costs to infinity, shutting down inter-regional input sourcing. Appendix figure C6
+illustrates that in regional autarky, the riskiest region sees the lowest expected real wages,
+while the safest regions see the highest expected real wages. These regions have the lowest
+expected prices due to the lowest shock probabilities and fully domestic sourcing. Appendix C.4 shows that the expected real wage patterns are similar for with heterogeneous
+distance, as with autarky, regional geography has no impact on regional outcomes.
+We next consider how expected real wages change across regions moving from costly trade
+to autarky in Panel A, Figure 5. Interestingly, all regions see a decline in expected real
+wages moving to trade from autarky. The intuition is that in this setting, there are
+no “conventional” gains from trade, as there is no comparative advantage or gains from
+variety. The primary reason for trade here is for risk diversification. However, trade
+is costly, so the benefits of diversification are obtained at a higher average input price,
+raising regional price indices and lowering expected real wages under costly trade. The
+largest decline in real wages is for the high-risk region 2. It also has the lowest expected
+real wages in both the costly trade scenario and autarky scenarios.
+Importantly, lower expected real wages under costly trade do not imply welfare losses
+from trade. Panel B of the figure illustrates that there is a large decline in the volatility
+of real wages under trade, for all regions. Supply chain diversification lowers the variance
+in final goods prices across all regions, insuring against shocks and real wage volatility.
+The riskiest region 2 sees the smallest increase in the variance of expected real wages
+when trade is barred, as its large own sourcing share in trade implies its variance is higher
+in both the trade and autarky scenarios. Household welfare is their expected log quantity
+of the final goods bundle consumed (Equation 19). As a result, the decline in variance of
+real wages contributes positively to their welfare, offsetting the decline in expected real
+wages, and trade is welfare improving.18
+Appendix Figure C7 shows the same insight holds with heterogeneous distance: regional
+geography primarily modulates sourcing patterns via trade, but does not otherwise play a
+role in the mechanisms underlying the relative decline in real wages (given the disruption
+probabilities and trade costs), and increase in their variance moving from costly trade to
+18
+
+Recall, E[log X] ≈ log E[X] − cV[X]. This result depends on the assumption of log utility. Appendix
+C.3 illustrates that under CES utility, trade at high trade costs can be Pareto-inferior relative to autarky
+as the decreased volatility of expected real wages does not compensate for the decrease in expected output
+with non-log preferences.
+
+23
+
+autarky. Appendix C.4 shows other comparative statics, including cases of no risk and
+free trade.
+Figure 5: Comparison between heterogeneous risk under costly trade and autarky
+Different distance between regions
+
+(a) Expected Real Wages Ratio
+
+(b) Variance of Real Wages Ratio
+
+Note. In this figure we plot the expected real wages (left panel) and variance of real wages (right panel)
+for the scenario with heterogeneous risk and costly trade shown in Figure 4 relative to the scenario with
+heterogeneous risk and autarky shown in Figure C6. The variance of real wages is computed across
+potential states of the world. Here, regions are are equidistant from each other. The scales are shown to
+the right of each figure.
+
+4
+
+Quantification
+
+4.1
+
+Solution Approach
+
+The solution to the quantitative model introduced in Section 3 requires overcoming three
+computational challenges. First, the perfect substitutability across intermediate inputs
+from different origins, combined with the existence of trade costs, implies that the solution
+to the firms’ sourcing problem may not necessarily be interior; that is, firms in some regions
+might find it optimal not to source intermediates from certain origins. Second, finding the
+solution to the firms’ optimal sourcing problem involves computing a high-dimensional
+expectation over 2I states of the world.19 Third, the two challenges mentioned above are
+compounded by the need to find the equilibrium of the model, which essentially surmounts
+to finding the vector of wages for which all markets clear.
+Given a vector of wages, {wi }Ii=1 , and shock probabilities, {ρi }Ii=1 , we leverage the structure of the model to solve it efficiently. The first property of the problem described in
+Equation 11 is that the objective function is concave, and that the constraints are linear.
+Thus, any locally optimal point is also globally optimal, i.e., the Karush-Kuhn-Tucker
+19
+
+There are more than 600 districts in India, but we group small contiguous districts to create 271
+regions. We implement our model for the 271 regions, so that involves computing expectations over
+2271 ≈ 1082 states of the world.
+
+24
+
+(KKT) conditions are both necessary and sufficient for global optimality. These allow us
+to solve the firm’s problem by combining the stationarity and complementary slackness
+conditions to find that at the optimum, the following condition holds with equality:
+
+E χi Θj
+
+
+−1
+# β+σ(1−β)
+ Mij = wi τij Mij ∀ i ∈ I,
+χi Mij
+zi
+i=1
+
+" I
+X
+
+which results from multiplying the first order condition in Equation 12 by Mij . We then
+substitute for the general equilibrium object, Θj , to derive the following expression:
+
+
+I
+X
+
+(1 − β)wj Lj Mij E χi
+
+!−1 
+χi Mij
+
+i=1
+
+ = wi τij Mij ∀ i ∈ I.
+zi
+
+This system of I equations in I unknowns defines a nonlinear complementarity problem
+for which efficient numerical optimization routines exist.20 Finally, we approximate the
+high-dimensional expectation by using simulations, effectively solving the following system
+of equations for each region:21
+
+(1 − β)wj Lj Mij
+
+S
+1X
+
+S s=1
+
+
+χi(s)
+
+I
+X
+
+!−1 
+(s)
+
+χi Mij
+
+i=1
+
+ = wi τij Mij ∀ i ∈ I.
+zi
+
+The procedure described above yields a solution to the firms’ sourcing problem given
+a vector of wages, {wi }Ii=1 . To find the equilibrium wages, we manipulate the trade
+balance and the optimal total intermediates expenditure conditions to derive the following
+equilibrium system,
+
+wj Lj =
+
+X
+i
+
+wi Li sji ({wi }Ii=1 )
+
+;
+
+wj τji
+Mji ({wi }Ii=1 )
+zj
+I
+sji ({wi }i=1 ) = P w τ
+I
+k ki
+k zk Mki ({wi }i=1 )
+
+n
+oI
+where, the matrix of sourcing shares defined by sji ({wi }Ii=1 )
+
+∀ j ∈ I,
+
+is a function of the
+
+i=1,j=1
+
+vector of wages and the parameters of the model. The solution to the system of equilibrium
+conditions above finds the equilibrium wages conditional on a vector of probabilities,
+{ρi }Ii=1 . We describe how we calibrate these probabilities in the next subsection.
+20
+
+We solve this problem using the optimizer PATH implemented on Julia through the optimization
+modeling language JuMP (see, respectively, Ferris and Munson 1999, Bezanson et al. 2017 and Lubin
+et al. 2023).
+21
+In our estimation procedure and in the computation of counterfactuals, we use 10000 simulations.
+
+25
+
+4.2
+
+Calibration
+
+We group the 600 districts in India into 271 regions by grouping contiguous low-population
+districts.22 We calibrate our model to these 271 regions. To calibrate the model for India
+as a whole, we complement our transaction data with the Annual Survey of Industries
+(ASI), which is a nationally representative survey of manufacturing plants in India with
+more than ten employees. We primarily use the wave of 2006-7 since it is the latest year
+for which the ASI has publicly available district identifiers.
+We need to calibrate the following parameters and moments: the demand elasticity (σ),
+labor endowments by district (Li ), regional productivities (ϕi ), the labor share in the
+production function (β), iceberg trade costs (τij ), the input disruption due to the shock
+(χj ) and flood probabilities (ρi ).
+First, we set the demand elasticity σ = 2 following Boehm et al. (2023). Second, we use
+the ASI to obtain employment by district, which is our labor endowment, Li .
+We use the documented evidence in Fact 4 in Section 2.2 to choose the input disruption
+parameter χj , and match the drop in buyer purchases from the event study. This generates
+a response to the incidence of a disruption within our model that matches the drop
+estimated in Fact 4.23
+Productivities To estimate productivities by district, ϕi , and the labor share β, we
+follow the literature on production function estimation and use the Ackerberg, Caves, and
+Frazer (2015) approach (henceforth ACF).24 We use revenues as the dependent variable
+and labor, materials, and capital as production function inputs. We implement ACF to
+estimate the production function parameters and the productivities.25
+Panel A of Figure 6 illustrates the estimated variation in district-level productivities.
+From the ACF procedure, we also get the corresponding coefficients for labor, materials,
+22
+
+We aggregate districts with fewer than 10000 manufacturing workers to a single district within a
+state, or merge them to neighboring larger districts in their own state.
+23
+Note that we calibrate χj to the impact of the incidence of a flood. The disruption probabilities
+in our model capture many sources of risk, climate and non-climate-related, as we discuss below. This
+calibration assumes all disruptions, if they occur, are as severe as the realization of flood events. We do
+not have other exogenous shocks to discipline the severity of other sources of risk, but we can readily
+assess robustness to alternative values of χj in the quantification.
+24
+This approach requires lagged values of labor and materials as instruments, and we need a panel of
+firms. However, the public version of the ASI is a cross-section of plants which prevents constructing
+a firm-level panel. As a solution, we use the waves for 2004-05, 2005-06, and 2006-07 to construct a
+synthetic panel at the industry-district level. We then treat each industry-district pair as a “firm” for
+the purposes of estimation.
+25
+Once we back out the ACF productivity for each industry-district pair, we aggregate at the region
+level by using weights based on the relative importance of each industry in each region. In the few cases
+where productivity cannot be estimated due to missing data for smaller districts, we assign those regions
+the average productivity of their closest neighbors.
+
+26
+
+and capital. The results are shown in the left panel of Table 3, where the materials share
+is 0.81, the labor share 0.17, and the capital share 0.08. We compute the labor share
+as β = 1 − 0.81 = 0.19. Since we do not have capital in the model, we think of the
+labor share as the share of capital-augmented labor, so we include both capital and wage
+expenses into the calculations.
+Figure 6: Estimated productivities and disruption probabilities
+
+(a) Productivity
+
+(b) Model-Implied Risk Profile
+
+Note. In this figure, we plot the estimated district-level productivities (left panel) and the model-implied
+district-level disruption probabilities (central panel). Productivities are estimated using the ACF procedure as described in the text. Baseline disruption probabilities are obtained by matching model-implied
+sourcing shares to the data as described in the text. The right panel plots the district-level disruption
+probabilities implied by the parameterized approach outlined in the text. The scales are shown to the
+right of each figure.
+
+Iceberg trade costs The iceberg trade costs τij are estimated using our transaction
+data, leveraging our information on transaction-level prices. Our data is only available
+if one node of the transaction lies in one particular state, but we need to back out trade
+costs for each bilateral pair of districts throughout India. To address this, we proceed in
+two steps. First, we use our transaction data, focus on firms in our state that sell their
+goods, and aggregate the data at the seller-buyer-product-time level. We then estimate
+Equation 25.
+log(ps,b,t,q ) = γ1 log(distance from s to b)s,b + γ2 1(b in same state as s)s,b + δs,q,t + ϵs,b,t,q ,
+(25)
+where ps,b,t,q is the price charged by seller s to buyer b for product q at time t. For
+each buyer-supplier pair, we compute the log distance between them as reported in our
+transaction data. We also include an indicator variable for whether the buyer (b) is in
+our state. The coefficient on distance captures how prices charged change as distance
+increases. Importantly, we add seller-product-time fixed effects δs,q,t , so effectively, the
+27
+
+coefficients γ1 and γ2 are being identified by sellers that sell the same product to multiple
+buyers in a given time period.
+The underlying assumption is that iceberg trade costs τij which are unobserved, are
+proportional to distance. In our data, the same seller charges different prices to different
+buyers for the same product and month. We assume this variation partly depends on
+unobserved iceberg costs. Since we include seller-product-time fixed effects, the estimates
+are not driven by seller-level shocks (e.g., productivity) that may also affect prices.
+Note that iceberg trade costs conventionally included observed costs such as freight or
+transportation, but additionally other unobserved costs such as contracting frictions, linguistic/ethnic differences, unobserved preference shifters, etc. We assume these are proportional to observed distance, which is common in gravity estimation. In our data,
+freight costs are not required to be included in the values of goods shipped reported,
+though sellers might include this. So, it is likely our iceberg trade cost estimation might
+not include transportation costs. Some sellers also explicitly separately report freight
+costs. As robustness, we also create an “Adjusted Price” measure, which adds the reported freight costs. Estimates remain similar, but the sample is much smaller as this
+variable is missing for many observations in the data. The results of this regression can
+be found in the right panel of Table 3.
+Table 3: Estimation results
+Panel A: Production Function Estimation
+
+Panel B: Trade Costs Estimation
+
+log(Sales)
+log(Materials)
+log(Workers)
+log(Fixed Capital)
+Number of Observations
+∗∗∗
+
+∗∗
+
+0.81***
+(0.076)
+0.17***
+(0.061)
+0.08
+(0.063)
+
+log(distance from s to b)
+
+9128
+
+Number of Observations
+
+1(b in same state as s)
+
+log(Prices,b,t,q )
+
+log(Adj. Prices,b,t,q )
+
+0.0174***
+(0.0001)
+-0.086***
+(0.0001)
+
+0.0186***
+(0.0002)
+-0.0798***
+(0.0009)
+
+65,477,898
+
+45,338,641
+
+∗
+
+Note.
+p < 0.01,
+p < 0.05, p < 0.1 Panel A presents the results of the production function
+estimation using the ACF procedure. The reported coefficients are for log materials, log number of
+workers, and log fixed capital as calculated from the ASI. Panel B presents the results for the trade costs
+estimation using our transaction data. The outcome is the log price charged by a seller in our state (s),
+for a given product (q), to a buyer (b) in a given month-year period (t). The main regressors are log
+distance from buyer to seller and a dummy that takes the value of 1 if the buyer is in the same state
+as the seller. We control for seller-product-time fixed effects. In column 2 of Panel B, we compute the
+adjusted price by adding the total transaction value and “other” reported costs (including freight), and
+dividing by quantity. Other costs include additional self-reported transportation costs not reported in
+the transaction value.
+
+After this, we use the estimated coefficient to predict trade costs for the rest of India. We
+compute bilateral distances between the centroid of each district and use those distances to
+predict trade costs between regions using the estimated coefficients γ̂1 and γ̂2 . We assume
+that the border effect estimated through coefficient γ̂2 is the same for all states.
+28
+
+Disruption probabilities. Our model implies that bilateral sourcing shares are pinned
+down by district fundamentals like productivities and labor force, and bilateral trade costs,
+in addition to the vector of district-level shock probabilities. Therefore, we can obtain
+the vector of shock probabilities, ρi , by minimizing the distance between the observed
+sourcing shares in the data with those implied by the model. Importantly, in estimating
+the probabilities, we allow for spatial correlation in the realization of disruptions, as floods
+or other disruptions might affect more than one district.26
+The intuition of the exercise is as follows: conditional on the rest of the parameters and
+moments of the model, we pick the shock probabilities of each district to minimize the
+distance between the model-implied shares with the observed shares of purchases from
+every district in our state to each other district in India.27 This is our baseline approach,
+as it allows us to remain agnostic on the sources of risk in the model. Instead, we can
+validate our model by projecting the shock probabilities on plausible sources of risk. Panel
+B of Figure 6 plots the baseline disruption probabilities by district. Figure 7 illustrates
+the spatial correlation in disruption realizations for Ahmadabad (Panel A) or Kolkata
+(Panel B). As an alternative approach, we also parameterize regional risk as a function of
+observables, and estimate the parameters of this function, as described below.
+The underlying assumption of our baseline approach is that anything that is not captured
+by the district-level productivities and trade costs is part of the risk of the district. Of
+course, in practice, such residuals do not only include flooding risk, but also many other
+risk components. However, in Figure 8 and Appendix Figure D2, we show that our
+estimated probabilities are significantly correlated with historical and projected average
+rainfall, coastal flooding, and riverine flooding, average temperature and dryness.
+In Table 4, we run regressions of the model probabilities on the climate variables (historical
+and projected 2050) as well as other variables that could also be related to risk. The
+climate variables such as daily rainfall, coastal flooding and average temperature are
+all strongly significantly correlated with the probabilities, and the R2 of the regressions
+26
+We assume that these disruptions are generated by a binary random variable that is equal to 1
+whenever a Normal latent variable with mean 0 and standard deviation 1 is below a threshold equal to
+Φ−1 (ρi ), where Φ−1 is the standard normal inverse CDF. We allow these latent variables to be correlated
+across regions where the correlation in the realizations between region i and region j is equal to e−ζDistij ,
+where ζ is a measure of spatial decay in this correlation. We estimate ζ in the same routine as the
+probabilities, ρi .
+27
+We do not observe the realizations of disruptions in each district, and we remain agnostic on the
+sources of risk that might generate disruptions. However, observed sourcing shares in the data include
+any realizations of disruptions, which we treat as structural errors. Precisely, given a sourcing strategy in
+each region, we generate a large number of shocks, χi , from the true distribution G (χ) , P (χi = χ) = ρi
+and compute the model-implied shock-inclusive sourcing shares. We then estimate ρi by minimizing the
+gap between the shares in the data and the average across model simulations, allowing for the spatial
+
+2
+
+PS
+P
+I
+correlation as discussed above. Formally, minρ∈[0,1]I j∈I o sData
+− S1 s=1 sji {χsi }i=1 , ρi
+, where
+ji
+I
+
+s is a model simulation with shocks {χsi }i=1 .
+
+29
+
+Figure 7: Correlation in Disruption Realizations: Ahmadabad (left) and Kolkata (right)
+
+Note. In this figure, we plot the estimated spatial correlation in disruption probabilities for districts with
+Ahmadabad district (left panel) and Kolkata district (right panel).
+
+are high, at 0.32-0.34. Average ruggedness also positively correlated while nightlights
+is uncorrelated with the disruption probabilities. Court congestion is slightly negatively
+correlated with disruption probabilities, although the significance is modest. This might
+be because court congestion is correlated with unobserved measures such as less corruption
+in those regions with more active/congested courts. Finally, in Figure D1, we show that
+these probabilities do not show a strong correlation with either the estimated district
+productivities, nor the average distance to the state of our study.
+Notice that this exercise requires solving jointly for the vector of district-level risk that
+minimizes the gap between model-implied sourcing shares and data, as all bilateral sourcing shares are equilibrium objects that depend on the fundamentals and risk of all other
+districts. Further, we cannot exactly match all bilateral sourcing shares in the data, as
+we choose a single shock probability for each district, but we observe multiple sourcing
+shares for that district from all districts in our state. We, therefore, set up a Minimum
+Distance Estimator, which aims to match the average sourcing shares for each origin district observed across all destination districts in our data. In practice, we also are able to
+match all the bilateral sourcing shares in the data well, as Figure 9 shows. As external
+validation, the right panel of Figure 9 shows that our model also matches the data on
+sales shares well, which are untargeted moments.28
+28
+
+While our estimated probabilities might seem high, as discussed above, they capture several sources of risk.
+Further, available evidence from Indian businesses suggests that supply chain disruptions are a key concern.
+For instance, PwC’s 26th Annual Global CEO
+Survey in late 2022 found that 50% of India CEOs were concerned about supply chain disruptions
+(https://www.pwc.in/assets/pdfs/research-insights-hub/immersive-outlook-3/
+paradigm-shift-in-supply-chain-management.pdf).
+
+30
+
+Figure 8: Model Probabilities and Historical Observables
+
+(a) Avg Daily Rainfall
+
+(b) Coastal Flooding
+
+(c) Riverine Flooding
+
+.
+
+(d) Std Precipitation Index
+
+(e) Average Temperature
+
+Note. In this figure, we plot the estimated probabilities against historical climate observables. In Figure
+8a, we correlate the probabilities with the average daily rainfall in 2019. Figures 8b and 8c use historical
+coastal and riverine flooding respectively. Figure 8d correlates the probabilities with a standardized
+precipitation index, a measure of dryness. In Figure 8e, we correlate the probabilities with average
+temperature. A more detailed definition of each of the variables can be found in Appendix D.1.
+
+Figure 9: Sourcing shares: Model vs. Data
+
+(a) Input Shares
+
+(b) Output Shares
+
+Note. In this figure, we plot the sourcing shares in the data against the model. The red line is a 45-degree
+line. In the left panel we plot the input sourcing shares. We target average sourcing probabilities from
+our state’s districts to the rest of the districts, but we do not force anything to match the particular
+sourcing shares of each district. The left panel plots each individual district’s input shares. The right
+panel shows sales shares, which are entirely untargeted.
+
+Robustness Our baseline approach has the benefit of remaining agnostic about the
+sources of disruptions firms face. However, it requires estimating a disruption probability
+
+31
+
+Table 4: Regression of model probabilities on observables
+Historical
+
+Projected (2050)
+
+Historical
+
+Projected (2050)
+
+Daily Rainfall
+
+0.104***
+(0.0264)
+
+0.0566***
+(0.0182)
+
+0.0977***
+(0.0215)
+
+0.0466***
+(0.0142)
+
+Coastal Flooding
+
+1.455***
+(0.543)
+
+1.418***
+(0.311)
+
+2.204***
+(0.659)
+
+1.878***
+(0.382)
+
+Riverine Flooding
+
+0.287
+(0.337)
+
+0.359
+(0.295)
+
+0.401
+(0.333)
+
+0.406
+(0.289)
+
+Avg SPI
+
+-0.155
+(0.182)
+
+-0.0444
+(0.114)
+
+-0.117
+(0.168)
+
+0.0162
+(0.102)
+
+Avg Temperature
+
+0.0519***
+(0.0175)
+
+0.0669***
+(0.0188)
+
+0.0674***
+(0.0187)
+
+0.0748***
+(0.0188)
+
+Avg Elevation
+
+-0.000111
+(0.000324)
+
+-0.000145
+(0.000315)
+
+0.0000163
+(0.000343)
+
+-0.0000707
+(0.000323)
+
+Avg Ruggedness
+
+0.0351**
+(0.0155)
+
+0.0445***
+(0.0155)
+
+0.0310**
+(0.0157)
+
+0.0435***
+(0.0155)
+
+Avg Court Congestion
+
+-0.100*
+(0.0533)
+
+-0.0861*
+(0.0468)
+
+Avg Nightlights Luminosity
+
+0.00831
+(0.00758)
+
+0.00931
+(0.00722)
+
+271
+0.341
+
+271
+0.327
+
+N
+adj. R-sq
+
+271
+0.322
+
+271
+0.313
+
+Note. ∗∗∗ p < 0.01, ∗∗ p < 0.05, ∗ p < 0.1. We estimate regressions of the inverse logit of the estimated
+model probabilities on observables. In columns 1 and 3, climate variables used are measured with their
+historical values. In columns 2 and 4, climate variables used are measured with the projected values
+for 2050. Observables are in levels. A more detailed definition of each of the variables can be found in
+Appendix D.1.
+
+for each district, which is a large number of parameters. As an alternative, we assume
+that the disruption risk in each district is a function of observables, including the climate
+and alternative variables in Table 4. We then estimate the coefficients of this function
+to minimize the distance between model-implied and observed sourcing shares. This has
+the advantage that we restrict the number of parameters to be estimated to 11. However,
+as we do not observe all sources of disruptions, there will be more unexplained variation.
+Panel A of Figure E7 illustrates district-level disruption risk implied by this approach.
+Unsurprisingly, as the observable risk measures were correlated with the “agnostic” risk
+from our baseline approach, the results of the parameterized approach are also correlated
+with our baseline. Appendix E.1 outlines this approach in more detail, provides the
+estimated coefficients, and presents all our quantitative results under this alternative
+approach. Our main conclusions remain unchanged.
+Table 5 summarizes our model calibration.
+
+32
+
+Table 5: Calibrated moments
+
+4.3
+
+Parameter
+
+Source
+
+Li : Labor endowments
+
+Annual Survey of Industries (ASI), 2019-20
+
+ϕi : Region productivities
+
+Ackerberg et al. (2015) estimation (ASI, 2004-2007)
+
+τij : Iceberg trade costs
+
+Regression of within firm-product price on distance
+between buyer and seller (Transaction data)
+
+ρi : Shock probabilities
+
+Minimum distance estimator using sourcing shares across
+districts (Transaction data)
+
+χi : Shock parameter
+
+Match drop in buyer purchases
+from event study (Transaction data)
+
+β: Labor share
+
+0.19: Ackerberg et al. (2015) estimation (ASI, 2004-2007)
+
+σ: Demand elasticity
+
+2: Based on Boehm et al. (2023)
+
+Quantitative Results
+
+We begin by showing that the model delivers a strong negative relationship between shock
+probabilities and relative nominal wages (and real wages) in the cross-section. Figure 10
+shows that both nominal and real wages are negatively correlated with shock probabilities, as we would expect. These results quantitatively validate the key trade-off in the
+model, between sourcing risk and input costs, and illustrate the baseline distributional
+consequences of risk: higher risk regions are poorer in real terms. In Figure D3, we also
+show that the price index and the variance in real wages are negatively correlated with
+the shock probabilities.
+Figure 10: Shock probabilities and wages
+
+(a) Nominal Wages
+
+(b) Real Wages
+
+Note. In this figure, we plot model-derived nominal (left panel) and real wages (right panel) against the
+estimated shock probabilities. Figure D3 further plots the price index and the variance in real wages
+against the shock probabilities.
+
+33
+
+Probabilities and sourcing shares. To illustrate the rich heterogeneity in bilateral
+sourcing patterns in the quantitative model, we show the sourcing choices of two districts in Figure 11. The left panel illustrates the sourcing patterns of Ahmadabad, a
+relatively low-risk district. The right panel shows the sourcing shares chosen by Kolkata,
+a higher-risk district. In both districts, firms diversify, but sourcing strategies depend on
+geography – they source more from relatively geographically closer areas than, say, the
+far south of India. Diversification also depends on the risk profile of the origin district –
+for Kolkata, the model implies the district’s firms choose more interdistrict sourcing to
+mitigate risk. Ahmadabad’s own-district sourcing share is 39%, while Kolkata’s is 32%.
+Sourcing is not purely determined by proximity; it also depends on the spatial correlation
+of disruptions with the own district, and on the distribution of disruption probabilities
+across space. Comparing these patterns to Figure 7, both districts clearly source from districts less spatially correlated with themselves as well. Notice that the sourcing patterns
+for both districts imply several zeros (our solution algorithm permits zero sourcing shares
+in equilibrium, as discussed in Section 4.1). In Appendix Figure D4, we show that under
+free trade, the sourcing patterns for all regions are identical, and each region sources from
+districts all over the country.
+Figure 11: Ahmadabad and Kolkata sourcing shares
+
+Note. In this figure, we plot model sourcing shares for Ahmadabad district (left panel) and Kolkata
+district (right panel).
+
+Expected real wages under baseline and autarky. The comparative statics in
+Section 3 show that with identical regional fundamentals, calibrated trade costs, and
+independent disruption probabilities, expected real wages are lower for all regions with
+costly trade than in autarky, and their variance was also lower. To assess whether this
+mechanism is quantitatively relevant in the calibrated model with varying regional fundamentals, estimated trade costs, and disruption probabilities that are spatially correlated,
+34
+
+we compute the difference in expected real wages in the baseline model with the modelimplied expected real wages given the same regional fundamentals, disruption probabilities
+and infinite trade costs.
+Figure 12 illustrates the spatial variation of expected real wages in the baseline model
+and in the autarky counterfactual. On average, expected real wages are 3.1% higher in
+autarky than in the baseline model. The variance of real wages is 9.2% higher in autarky
+than in the baseline model, validating the quantitative relevance of the main comparative
+statics exercises. Overall, autarky is welfare decreasing for all regions. Welfare decreases
+on average by 7.3%, as the change in volatility more than offsets the gain in log expected
+real wages. 0.74% of districts see real wage declines, unlike in the comparative statics
+where all regions had higher real wages in autarky.
+Expected real wages under baseline and free trade. In contrast, Figure 12 shows
+that expected real wages are higher for all regions under a free trade counterfactual, and
+their volatility is lower, so the welfare gains from free trade are large. To implement free
+trade in our quantitative exercise, we set the iceberg trade costs to 1 between all districts.
+Under free trade, expected real wages are, on average, 5.9% higher than in the baseline,
+whereas the variance of real wages is 2.8% lower. Welfare is on average 8.9% higher and
+no district is worse off under free trade.
+Shock propagation Our framework can also be used to assess the effect of disruptions
+ex-post for aggregate welfare. In Panel A of Figure 13, we show, for each origin district,
+what is the impact of a disruption in that district on the real wages of all other districts
+(including itself). We use the size of the labor force in each district to compute the
+weighted average of the effect. The impact of a realized disruption in a district on the
+rest depends on how large is the affected district as a supplier to the rest. The effects
+vary widely by district, with shocks that materialize in lower-risk or more productive
+districts that are more important as sourcing locations in equilibrium having larger welfare
+consequences. While the “own” effect of the shock is important, a large component (62.6%
+on average) of the aggregate welfare changes happens through the propagation of the
+shock, as Panel B of the figure illustrates. Here, we plot the aggregate welfare changes
+caused by the incidence of a disruption in each origin district, excluding the own effect.
+Finally, Panel C illustrates the number of districts that experience a welfare decline when
+an origin district experiences a disruption.
+Inventories. In Appendix C.5, we show that mean and median product-level inventories
+are less than a month’s sales, and that inventories are not correlated with the prevalence
+of multisourcing. On the other hand, 74% of the value of HS-8 products are multisourced.
+35
+
+Figure 12: Quantitative results
+Panel A: Expected Welfare
+
+(a) Baseline
+
+(b) ∆ in Autarky
+
+(c) ∆ in Free Trade
+
+Panel B: Log of expected real wages
+
+(d) Baseline
+
+(e) ∆ in Autarky
+
+(f) ∆ in Free Trade
+
+Panel C: Variance of real wages
+
+(g) Baseline
+
+(h) ∆ in Autarky
+
+(i) ∆ in Free Trade
+
+Note. This figure shows welfare (Panel A), expected real wages (Panel B) and their variance (Panel C).
+The left column shows welfare, expected real wages and their variance in the baseline calibrated model.
+In the middle and right columns, the figure shows the percentage changes in these variables under the
+autarky and the free trade counterfactuals relative to the baseline scenario.
+
+While inventories and multisourcing would appear to be alternative strategies for risk
+
+36
+
+Figure 13: Shock Propagation
+
+(a) Weighted Average Welfare (b) Weighted Average Welfare (c) Number of regions with
+Change
+Change in Other Regions
+Welfare Decline > 1%
+Note. In Panel A, for each district, we compute the impact a materialized disruption has on the real
+wages of all other districts (including itself). We then use the labor force in each district to calculate the
+weighted average of the impact. Panel B, removes the own impact in real wages of a disruption, to isolate
+the “propagation” effect to other districts. Panel C, reports the number of districts that experience a
+welfare decline, when the district experiences a disruption.
+
+mitigation, in practice it appears firms are systematically choosing multisourcing.29 That
+said, the additional regressions in Appendix B.1.2 illustrated that following a flood, sales
+of exposed firms declined by less than their inputs. In fact, the decline in sales is 44%
+of inputs. While inventories might explain this, in fact our calibrated model without
+inventories implies that sales declines less than inputs upon the incidence of a shock.
+Equation (10) illustrates that the partial elasticity of firm profits to delivered inputs is
+(1−β)(σ−1)
+. Quantitatively, given our parameter calibration, this implies that sales fall by
+β+σ(1−β)
+47% of the fall in inputs, which is very similar to the drop observed in the data.
+
+4.4
+
+Climate Change Counterfactuals
+
+While the previous section explored several counterfactuals, such as autarky or free trade,
+we next study the implications of varying climate risk in our model. We estimate the
+share of our model-implied shock probabilities that can be explained by climate-riskrelated variables such as rainfall or flooding events. Through the lens of our model,
+these probabilities capture the risk firms assign to each district. However, as discussed
+above, the risk associated with each region can be due to climate risk, as well as other
+regional characteristics such as infrastructure or governance. In this section, to highlight
+the implications of changing climate risk, we hold all other sources of risk constant and
+change only the climate risk of each region relative to the baseline.
+To discipline how climate risk changes, we proceed as follows: First, we regress the inverse
+29
+
+We lack inventory holding costs in India, so the unobserved tradeoff might be that inventory depreciation rates are high, making it a less attractive strategy for risk mitigation.
+
+37
+
+logit transformation of our probabilities on historical measures of rainfall, coastal flooding, riverine flooding, temperature and the standardized precipitation index presented in
+Figure 8. Second, we use the estimated coefficients, shown in Column (1) of Table 4, to
+predict the counterfactual disruption probabilities in 2050, for our five climate measures,
+while holding constant the unexplained variation in these probabilities. This method
+yields how the probabilities would change if climate variables evolve as predicted in the
+RCP 4.5 scenario of the International Project for Climate Change (IPCC).
+Figure 14: Counterfactuals: Climate Risk Increase
+
+(a) A: ∆ in Probabilities
+
+(b) B: ∆ in Welfare
+
+(c) C: ∆ Input Prices and Probabilities
+
+(d) D: ∆ and Initial Welfare
+
+Note. In this figure, we plot the change in probabilities of climate risk (panel A), the change in welfare
+(panel B), the relationship between the change in input prices and changes in probabilities change in
+expected real wages (panel C), and the relationship between the change in welfare in the counterfactual
+and the welfare at baseline when climate risk increases as described in Section 4.4.
+
+Panel A of Figure 14 illustrates how these probabilities change across space in our main
+counterfactual. As the figure makes clear, there is wide variation in the changes in climate
+risk, with the northeast and parts of the west coast seeing large increases in risk, while
+the central part of the country sees decreases in risk. On average, risk increases by 1.1
+percentage points. Panel B illustrates the change in expected welfare in this counterfactual. Welfare on average decreases by 2.01%. There is wide spatial variation, with a range
+of 3.11pp, and some of the less risky regions see welfare gains. 62.73% of districts see real
+wage declines.
+38
+
+To understand the mechanisms at work, Panel C shows how the change in district supplier
+prices correlates with changes in district risk. Input prices offered by intermediate firms
+from the district decrease the most for districts experiencing the largest increases in risk.
+This negative terms-of-trade effect arises from the decline in nominal wages in these risky
+regions in equilibrium.30
+Panel D illustrates the change in welfare, and relates it to the initial district welfare.
+This highlights the distributional consequences of climate change in our quantification:
+the change in welfare is positively correlated with initial welfare. In other words, initially
+well-off regions see relative welfare improvements following climate risk increases, while
+initially worse-off regions see welfare declines. A key quantitative finding is that here,
+sourcing diversification of firms amplifies the effects of climate risk increases. Climate
+risk will not only subject riskier regions to increased shocks, but also to a decrease in real
+wages as firm supply chains become less reliant on these regions.31
+Table 6 summarizes the quantitative results across all counterfactuals.
+Table 6: Model Counterfactuals: Summary
+Counterfactual
+
+∆ in Welfare
+∆ in log Expected Real Wages ∆ in Real Wage Volatility
+% districts
+Avg. change Range Avg. change
+Range
+Avg. change
+Range
+Real wage declines
+
+Baseline risk
+Autarky
+Free Trade
+
+-7.29
+8.94
+
+2.92
+2.30
+
+3.10
+5.92
+
+1.87
+1.70
+
+9.25
+-2.84
+
+3.99
+0.96
+
+0.74%
+0.00%
+
+Alternative risk
+Climate change
+∆ in Rainfall and Flood Risk Only
+∆ in Temperature and SPI Risk Only
+
+-2.01
+-0.24
+-1.76
+
+3.11
+3.52
+2.69
+
+-1.96
+-0.25
+-1.72
+
+3.10
+3.46
+2.64
+
+0.15
+0.06
+0.06
+
+0.13
+0.13
+0.13
+
+62.73%
+25.09%
+86.72%
+
+Note. This table shows statistics of the distribution of percentage changes between the baseline scenario
+with current climate risk and costly trade and other scenarios, weighted by district population. Range
+refers to the interquartile range.
+
+Robustness and extensions. In addition to our main climate counterfactual, we also
+consider scenarios where only rainfall and floor risk, or only temperature changes and
+SPI changes occur. Table 6 summarizes the results. While in both cases average welfare
+declines and there is wide spatial variation, under the scenario of only temperature/SPI
+changes, 86.72% of districts see real wage declines, while with only rainfall/flood risk
+increases, 25.09% of districts see real wage declines. Appendix Figures D5 and D6 shows
+these results in detail, where other risk factors are held constant.
+Appendix E estimates two alternative models and conducts the counterfactuals in these
+Recall input prices pi = wzii . Effectively, the nominal wages in risky regions are decreasing, by more
+than the increase in risk as firms diversify away from riskier regions.
+31
+This is not a mechanical result, but rather, depends on the spatial distribution of climate risk, the
+initial equilibrium, and the IPCC predictions for which areas are getting riskier. If initially higher welfare
+areas saw larger changes in predicted climate risk, they would not see relative welfare increases.
+30
+
+39
+
+Figure 15: Distributional Implications of Climate Change Adaptation
+
+Note: This figure plots the difference in the change in welfare for regions if true climate risk changes and
+regions are “myopic” compared to the case where true climate risk changes and regions adapt, relative
+to the initial known climate risk. The x-axis orders regions by their change in true climate risk. Regions
+in red see an increase in true climate risk, while regions in blue see a decrease in true climate risk.
+
+cases. We first consider a model where the district probabilities are obtained from projections on climate-related variables, as discussed in Section 4.2. Second, we consider a
+model where the input bundle is CES, with a substitution elasticity of 3.1 (Peter and Ruane, 2023). Table E2 summarizes the results for these two alternative models. Strikingly,
+the two models deliver very similar implications for the climate counterfactuals, in terms
+of the welfare declines and spatial variation.
+Climate change myopia. As a final exercise, we consider a scenario where climate
+risk increases as projected by the IPCC, but agents believe that climate risk is unchanged
+from the baseline. In practice, we start in the baseline equilibrium, but simulate a model
+where shocks are drawn from the new distribution with changed climate risk.
+Figure 15 illustrates the results. The red bars show the change in welfare for regions
+that have true climate risk increases in the myopic scenario relative to the change in
+welfare in the scenario where agents know the true new risk probabilities and, therefore,
+adapt. The blue bars show the differential change in welfare across these two scenarios
+for regions with true climate risk decreases. Climate adaptation has large distributional
+consequences. Welfare declines with adaptation in regions where underlying climate risk
+is increasing. The intuition is that firms believe these regions are lower risk, and so there
+is less diversification away from them and less downward pressure on their wages than if
+firms understood their true risk. The converse happens to regions where climate risk is
+going down in the counterfactual. If firms do not internalize that these regions will be
+less risky, they do not see their attractiveness as sourcing locations increase.32
+32
+
+Note that the direct effect of the shocks themselves also has an impact, so truly higher risk regions
+
+40
+
+5
+
+Conclusion
+
+Climate risk is an increasingly important concern worldwide, with large projected economic impacts. Adaptation of firm supply chains to perceived climate risk is a crucial
+channel through which economies might adjust to climate risk. Such adaptation has
+implications for the spatial concentration of economic activity and regional income. Regions that are low-risk but less productive might see increases in their real wages as firms
+diversify their supply chains.
+This paper provides empirical evidence suggesting firm supply chains are structured taking
+climate risk into account. Our new model of firm supply chain decisions under risk
+incorporates key patterns we see in the data: firms source the same inputs from multiple
+locations and seek drier regions to source inputs even when they are farther away. The
+model results suggest that, on the one hand, input sourcing decisions mitigate climate risk
+as firms diversify their sources. Yet, on the other hand, they amplify the distributional
+effects, as regions that face adverse climate shocks will also suffer lower real wages.
+Our quantification exercise infers that the impact of climate risk on firm sourcing delivers
+important implications for economic activity across space. In particular, expected real
+wages are higher for regions that are less risky. On average, increases in climate risk
+decrease welfare, but there is wide spatial variation. Initially worse-off regions see welfare
+declines, while initially better off regions see relative welfare gains. Climate “myopia” can
+benefit relatively risky regions, as myopic firms do not diversify away from them.
+will see more shocks and an impact on their price indices as a result. Therefore while on average they
+benefit when there is no adaptation, these regions might still see welfare declines relative to the baseline.
+
+41
+
+References
+Ackerberg, D. A., K. Caves, and G. Frazer (2015, November). Identification Properties
+of Recent Production Function Estimators. Econometrica 83 (6), 2411–2451.
+Adamopoulos, T. and F. Leibovici (2024). Trade Risk and Food Security. Working paper .
+Alfaro Ureña, A., M. Fuentes Fuentes, I. Manelici, and J. P. Vasquez (2018). Costa Rican
+Production Network: Stylized Facts. Working paper .
+Allen, T. and D. Atkin (2022). Volatility and the Gains from Trade. Econometrica 90 (5),
+2053–2092.
+Antràs, P., T. C. Fort, and F. Tintelnot (2017, September). The Margins of Global
+Sourcing: Theory and Evidence from US Firms. American Economic Review 107 (9),
+2514–64.
+Balboni, C. (2024, October). In Harm’s Way? Infrastructure Investments and the Persistence of Coastal Cities. Mimeo.
+Balboni, C., J. Boehm, and M. Waseem (2024). Firm Adaptation and Production Networks: Structural Evidence from Extreme Weather Events in Pakistan. Mimeo.
+Barrot, J.-N. and J. Sauvagnat (2016). Input Specificity and the Propagation of Idiosyncratic Shocks in Production Networks. Quarterly Journal of Economics 131 (3),
+1543–1592.
+Bezanson, J., A. Edelman, S. Karpinski, and V. B. Shah (2017). Julia: A Fresh Approach
+to Numerical Computing. SIAM Review 59 (1), 65–98.
+Bilal, A. and E. Rossi-Hansberg (2023, June). Anticipating Climate Change Across the
+United States. Working Paper 31323, National Bureau of Economic Research.
+Blaum, J., F. Esposito, and S. Heise (2024). Input Sourcing Under Risk: Evidence from
+U.S. Manufacturing Firms. Mimeo.
+Boehm, C. E., A. Flaaen, and N. Pandalai-Nayar (2019, March). Input Linkages and the
+Transmission of Shocks: Firm-Level Evidence from the 2011 Tōhoku Earthquake. The
+Review of Economics and Statistics 101 (1), 60–75.
+Boehm, C. E., A. A. Levchenko, and N. Pandalai-Nayar (2023, April). The Long and
+Short (Run) of Trade Elasticities. American Economic Review 113 (4), 861–905.
+Borusyak, K., X. Jaravel, and J. Spiess (2024). Revisiting Event Study Designs: Robust
+and Efficient Estimation. Review of Economic Studies.
+Caliendo, L. and F. Parro (2015, 11). Estimates of the Trade and Welfare Effects of
+NAFTA. The Review of Economic Studies 82 (1), 1–44.
+Callaway, B. and P. H. C. Sant’Anna (2020). Difference-in-Differences with Multiple Time
+Periods. Journal of Econometrics.
+Carvalho, V. M., M. Nirei, Y. U. Saito, and A. Tahbaz-Salehi (2021, May). Supply Chain
+Disruptions: Evidence from the Great East Japan Earthquake. Quarterly Journal of
+Economics 136 (2), 1255–1321.
+42
+
+Caselli, F., M. Koren, M. Lisicky, and S. Tenreyro (2019, 09). Diversification Through
+Trade. The Quarterly Journal of Economics 135 (1), 449–502.
+Castro-Vincenzi, J. (2024, June). Climate Hazards and Resilience in the Global Car
+Industry. mimeo.
+Cevallos Fujiy, B., D. Ghose, and G. Khanna (2021). Production Networks and Firm-level
+Elasticities of Substitution. Working Paper .
+Cevallos Fujiy, B., G. Khanna, and H. Toma (2023). Cultural Proximity and Production
+Networks. Working Paper .
+Cruz, J.-L. and E. Rossi-Hansberg (2023). The Economic Geography of Global Warming.
+Technical report.
+Desmet, K., R. E. Kopp, S. A. Kulp, D. K. Nagy, M. Oppenheimer, E. Rossi-Hansberg,
+and B. H. Strauss (2021, April). Evaluating the Economic Cost of Coastal Flooding.
+American Economic Journal: Macroeconomics 13 (2), 444–86.
+Dreze, J. H. (1985). (uncertainty and) the firm in general equilibrium theory. The Economic Journal 95, 1–20.
+Dube, A., D. Girardi, O. Jorda, and A. Taylor (2023). A Local Projections Approach to
+Difference-in-Differences Event Studies. NBER Working Paper 31184 .
+Esposito, F. (2022). Demand risk and diversification through international trade. Journal
+of International Economics 135 (103562).
+Farrokhi, F. and A. Lashkaripour (2024). Can Trade Policy Mitigate Climate Change? .
+Working Paper.
+Ferris, M. C. and T. S. Munson (1999). Interfaces to PATH 3.0: Design, Implementation
+and Usage. Computational Optimization and Applications 12 (1), 207–227.
+Goldberg, P. K. and T. Reed (2023). Is the Global Economy Deglobalizing? And If
+So, Why? And What Is Next? Brookings Papers on Economic Activity Spring 2023,
+347–396.
+Goodman-Bacon, A. (2021). Difference-in-differences with variation in treatment timing.
+Journal of Econometrics 225 (2), 254–277. Themed Issue: Treatment Effect 1.
+Grossman, G., E. Helpman, and H. Lhuillier (2023). Supply Chain Resilience: Should
+Policy Promote Diversification or Reshoring? Journal of Political Economy 131.
+Grossman, G., E. Helpman, and A. Sabal (2024). Resilience in vertical supply chains.
+Mimeo.
+Gu, G. and G. Hale (2023, December). Climate Risks and FDI. Journal of International
+Economics 146.
+Helpman, E. and A. Razin (1978, August). Welfare Aspects of International Trade in
+Goods and Securities. The Quarterly Journal of Economics 92 (3), 489–508.
+Hsiao, A. (2023). Sea Level Rise and Urban Adaptation in Jakarta. Mimeo.
+
+43
+
+Hummels, D., J. Ishii, and K.-M. Yi (2001, June). The Nature and Growth of Vertical
+Specialization in World Trade. Journal of International Economics 54, 75–96.
+Huo, Z., A. A. Levchenko, and N. Pandalai-Nayar (2024, 03). International Comovement
+in the Global Production Network. The Review of Economic Studies.
+Indaco, A., F. Ortega, Taspınar, and Süleyman (2020, 11). Hurricanes, Flood Risk and the
+Economic Adaptation of Businesses. Journal of Economic Geography 21 (4), 557–591.
+Jia, R., X. Ma, and V. W. Xie (2022, July). Expecting Floods: Firm Entry, Employment, and Aggregate Implications. Working Paper 30250, National Bureau of Economic
+Research.
+Johnson, R. C. and G. Noguera (2012). Accounting for Intermediates: Production Sharing
+and Trade in Value Added. Journal of International Economics 86 (2), 224 – 236.
+Johnson, R. C. and G. Noguera (2017). A Portrait of Trade in Value-Added over Four
+Decades. The Review of Economics and Statistics 99 (5), 896–911.
+Khanna, G., N. Morales, and N. Pandalai-Nayar (2022). Supply Chain Resilience: Evidence from Indian Firms. NBER Working Papers 30689, National Bureau of Economic
+Research, Inc.
+Kopytov, A., B. Mishra, K. Nimark, and M. Taschereau-Dumouchel (2024, September).
+Endogenous Production Networks under Supply Chain Uncertainty. Econometrica.
+Korovkin, V., A. Makarin, and Y. Miyauchi (2024). Supply Chain Disruption and Reorganization: Theory and Evidence From Ukraine’s War. Working Paper.
+Lubin, M., O. Dowson, J. Dias Garcia, J. Huchette, B. Legat, and J. P. Vielma (2023).
+JuMP 1.0: Recent Improvements to a Modeling Language for Mathematical Optimization. Mathematical Programming Computation.
+Nath, I. (2024). Climate Change, the Food Problem, and the Challenge of Adaptation
+through Sectoral Reallocation. Mimeo.
+Pankratz, N. and C. Schiller (2024). Climate Change and Adaptation in Global SupplyChain Networks. Review of Financial Studies 37 (6), 1729–1777.
+Pellet, T. and A. Tahbaz-Salehi (2023). Rigid Production Networks. Journal of Monetary
+Economics 137 (C), 86–102.
+Peter, A. and C. Ruane (2023, May). The aggregate importance of intermediate input
+substitutability. NBER Working Paper No. 31233.
+Stiglitz, J. E. (1972). On the optimality of the stock market allocation of investment. The
+Quarterly Journal of Economics 86 (1), 25–60.
+Sun, L. and S. Abraham (2021). Estimating Dynamic Treatment Effects in Event Studies
+with Heterogeneous Treatment Effects. Journal of Econometrics 225 (2), 175–199.
+Yi, K.-M. (2003, February). Can Vertical Specialization Explain the Growth of World
+Trade? Journal of Political Economy 111 (1), 52–102.
+
+44
+
+Appendix for online publication only
+A
+
+Details on the Firm-to-Firm Data
+
+We illustrate a stylized example of our establishment-level networks data in Figure A1.
+As the diagram shows, we observe all transactions where one node of the transaction is
+within the state. This includes all transactions between establishments within the state
+(the yellow lines), any inflows from or outflows to the rest of the country (the blue lines),
+and all international imports and exports (the green lines).
+Figure A1: Stylized Example of Establishment-Level Network
+
+Notes: Stylized example of establishment-level data. The upper half represents the country, and the
+upper left quadrant represents the state in question. The data includes all transactions within the state,
+and all transactions where one node of the transaction (either buyer or seller) is in the state.
+
+The data report value and quantity of traded items, so we can construct unit values.
+To do this, we aggregate values and quantities at the four-digit HSN/month/transaction
+level, and then construct implied unit values. We can then collapse the data at the 4-digit
+HSN/month level to construct average unit values, the number of transactions between
+each seller and buyer pair, and total value of the goods transacted. This is the foundation
+of the firm-to-firm dataset we use in the analysis. Additionally, we can aggregate these
+data to the buyer level, which we use in our reduced-form section. Table A1 summarizes
+our primary variables of interest using this dataset. In Table A2 we present statistics on
+the number of buyers per supplier and suppliers per buyer. Despite differences in region
+sizes, the distribution of firms follows closely the one documented by Alfaro Ureña et al.
+(2018) for Costa Rica.
+
+i
+
+Table A1: Summary Statistics for Main Variables
+Outcome
+
+Mean
+
+Separation Rate (%)
+Entry Rate (%)
+Net Separations (%)
+Real Input Value (log)
+Real Sales (log)
+Avg. Supplier Size (millions of rupees)
+Avg. Supplier Outdegree
+Share Purch. Lgst. Supplier (%)
+Number Products
+Share Purch. Diff. Prod. (%)
+Supply Chain Depth
+Number Suppliers
+Avg. Distance (km)
+Share Purch. Non-Home State (%)
+
+30.9
+74.06
+-43.12
+14.91
+16.33
+106.42
+43.04
+52.39
+12.05
+60.19
+32.32
+12.35
+486.71
+38.54
+
+p25
+
+p50
+
+p75
+
+0 16.67 52.78
+0
+50 106.67
+-70
+0
+0
+12.48 14.55 16.96
+13.57 16.05 18.66
+9.65 34.04 127.49
+3.3 10.97 31.99
+31.06 47.84 71.82
+3
+7
+14
+21.25 72.78 97.81
+28.15 31.46 36.35
+3
+7
+14
+97.13 251.65 712.75
+0 24.42 78.48
+
+Note. We calculate summary statistics for key outcomes to describe the network. Summary statistics
+calculated in December 2019-February 2020. Number of firms included in calculations: 136,562.
+
+Table A2: Distribution of buyers and suppliers
+Mean
+
+SD
+
+10th
+
+25th
+
+50th
+
+75th
+
+90th
+
+95th
+
+99th
+
+N suppliers per buyer
+N of buyers per supplier
+
+8.0
+16.3
+
+23.6
+55.3
+
+1
+1
+
+1
+1
+
+3
+4
+
+8
+12
+
+18
+36
+
+29
+65
+
+72
+194
+
+N supplier districts per buyer
+N buyer districts per supplier
+
+3.5
+3.1
+
+4.4
+3.0
+
+1
+1
+
+1
+1
+
+2
+2
+
+4
+4
+
+7
+7
+
+11
+10
+
+21
+14
+
+Note. We calculate network characteristics for the year 2019. The top two rows compute the number
+of buyers per supplier and suppliers per buyer. The bottom rows compute the number of supplier
+districts per buyer and number of buyer districts per supplier.
+
+B
+
+Empirical Facts Appendix
+
+In Table 1 we show that firms seem to multi-source products even within detailed product
+categories. We proceed to show that such results is not driven by retailers and wholesalers.
+While we cannot directly identify retailers and wholesalers in our data, we can use the
+pattern of their transactions to infer firms that likely belong to those industries. For
+retailers, we expect that they would sell their goods predominantly to final consumers
+instead of shipping their goods to other firms, hence they should show up as having zero
+sales in our data. For wholesalers, we expect that they would not transform the products
+they buy in order to sell them. Hence, we identify as wholesaler firms that buy and sell
+the same HSN-4 products. Of course, these classifications will be overestimating retailers
+and wholesalers, as manufacturing firms might buy and sell the same 4-digit product or
+not ship goods to other firms. However, we want to corroborate that our results are robust
+to excluding these firms.
+ii
+
+From our sample in 2019, we have a total of 195,872 firms. Of those, 7,867 fall under our
+classification of wholesalers and 137,574 fall under our classification of retailer. As shown
+in Table B1, the distributions of regions sourced from stay fairly constant when excluding
+such firms. Similarly, we show that the results are consistent when we look at the number
+of suppliers per product as opposed to supplier districts. As shown in Table B2, there
+is a slightly larger fraction of firms that source from more than one supplier than when
+looking at sourcing from different supplier districts.
+Table B1: Firms that source from multiple districts (excluding wholesale and retail)
+Number of districts Share of buyers
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10+
+
+Share of buyers
+x HSN-4
+
+Share of buyers
+x HSN-8
+
+Firms
+
+Value
+
+Firms
+
+Value
+
+Firms
+
+Value
+
+12.0%
+13.4%
+12.4%
+10.6%
+8.9%
+7.3%
+6.0%
+5.0%
+4.1%
+20.3%
+
+1.5%
+2.0%
+2.8%
+3.0%
+3.1%
+3.7%
+3.4%
+3.8%
+3.4%
+73.3%
+
+69.4%
+16.4%
+6.4%
+3.0%
+1.6%
+1.0%
+0.6%
+0.4%
+0.3%
+0.9%
+
+9.6%
+9.8%
+8.9%
+8.0%
+7.5%
+6.4%
+4.5%
+4.6%
+4.0%
+36.6%
+
+80.9%
+12.6%
+3.5%
+1.4%
+0.6%
+0.3%
+0.2%
+0.1%
+0.1%
+0.2%
+
+21.6%
+15.4%
+11.1%
+10.0%
+5.9%
+4.5%
+4.5%
+2.9%
+3.1%
+21.1%
+
+Note. Column 1 aggregates the data at the firm level and computes the share of firms that source from
+a certain number of districts. Column 2 calculates the fraction of total value purchased by number of
+supplier districts sourced from. Columns 3-4 aggregate the data at the firm-by-4-digit product level, and
+Columns 5-6 at the firm-by-8-digit product level. We exclude likely-retailers and likely-wholesalers from
+the analysis.
+
+Next, we show that firms that have larger purchases of a given product are more likely to
+source from multiple regions. To see this, we rank all firm-by-8-digit HSN pairs into percentiles, based on total purchases, where the higher percentiles include the firm-product
+pairs with the higher purchase volume. As shown in Figure B1, the smallest firm-product
+pairs tend to only source from a single supplier. However, towards the end of the distribution, the largest firm-product pairs source, on average, from more than one region.
+Firms above the 95th percentile source, on average, from two districts, and firms in the
+top percentile source from four. This suggests that larger, more productive firms are more
+likely to multisource.
+However, firm size does not drive the descriptive patterns shown in Figures 1a-1c. In Table
+B3, we document that our descriptive patterns under Fact 2 are not driven by firm size,
+product composition or capacity of suppliers. We run a regression at the product-firm
+level as shown in equation 26.
+
+iii
+
+Table B2: Share of firms that source from multiple suppliers
+Number of suppliers Share of buyers
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10+
+
+Share of buyers
+x HSN-4
+
+Share of buyers
+x HSN-8
+
+Firms
+
+Value
+
+Firms
+
+Value
+
+Firms
+
+Value
+
+28.6%
+16.0%
+10.4%
+7.4%
+5.4%
+4.2%
+3.4%
+2.7%
+2.3%
+19.6%
+
+2.3%
+6.7%
+2.3%
+2.2%
+1.8%
+1.8%
+1.8%
+1.6%
+2.0%
+77.4%
+
+70.6%
+15.0%
+5.7%
+2.9%
+1.6%
+1.0%
+0.7%
+0.5%
+0.4%
+1.6%
+
+15.7%
+9.2%
+7.2%
+5.8%
+6.5%
+4.8%
+3.5%
+2.9%
+3.3%
+41.1%
+
+81.7%
+11.7%
+3.4%
+1.4%
+0.7%
+0.4%
+0.2%
+0.1%
+0.1%
+0.3%
+
+24.5%
+17.1%
+12.7%
+8.4%
+5.2%
+4.7%
+3.0%
+2.6%
+2.5%
+19.4%
+
+Note. In this table we look at number of supplier firms instead of number of supplier districts. Column 1
+aggregates the data at the firm level and computes the share of firms that source from a certain number
+of suppliers. Column 2 calculates the fraction of total value purchased by number of suppliers sourced
+from. Columns 3-4 aggregate the data at the firm-by-4-digit product level, and Columns 5-6 at the
+firm-by-8-digit product level.
+
+Figure B1: Number of supplier districts by total purchases
+
+Note. We rank all firm-product pairs into percentiles (1-100) based on the volume of total purchases
+in 2019. For each percentile (in the horizontal axis), we compute the average number of districts the
+firm-product pairs source from.
+
+log yj,p = β 1(Firm j multisources p) + γXj + δp + ϵj,p
+
+(26)
+
+Where log yj,p is the log of the average characteristic of a firm’s suppliers such as average
+distance to suppliers, average rainfall of supplier districts, average riverine flooding of
+
+iv
+
+supplier districts and average prices paid to suppliers. The key explanatory variable
+is 1(Firm j multisources p) which is a dummy that indicates whether the firm sources
+product p from more than one district. Importantly, we control for product fixed effects,
+the log of total purchases by firm j, and log average sales of suppliers.
+As shown in Table B3, our descriptive patterns are robust to adding these controls. Multisourcers buy products from distances 76% farther than single-sourcers. They also source
+from districts with 2.3% lower rainfall and 1.4 % lower river flooding levels. Finally, they
+pay 44% higher input prices than single sourcers. The product fixed effects help us rule
+out that the differences between single sourcers and multisourcers are driven by differences
+in product quality. The own purchases control rules out that the patterns are just driven
+by differences in firm size (e.g. large firms multisource more and also pay higher prices).
+Finally, the control for supplier size helps us rule out that the reason for multisourcing is
+that their suppliers don’t have enough capacity to meet demand.
+Table B3: Supplier characteristics by number of districts sourced from
+Log (Distance to suppliers)
+
+Log(Daily Rainfall)
+
+Log(Historical riverine flooding)
+
+Log(Price of inputs)
+
+1(Multisourcer)
+
+0.760***
+
+-0.0229***
+
+-0.0140***
+
+0.441***
+
+N
+R-sq
+
+739,520
+0.327
+
+739,520
+0.271
+
+739,520
+0.124
+
+739,520
+0.545
+
+Note. ∗∗∗ p < 0.01, ∗∗ p < 0.05, ∗ p < 0.1. We run a cross-sectional regression at the firm (j), 8-digit
+product (p) level. The outcome is the log average distance to suppliers (column 1), log average daily
+rainfall at suppliers’ district (column 2), log average riverine flooding at suppliers’ district (column 3)
+and log average price of inputs (column 4). The main regressor is a dummy variable on whether the firm
+sources the HSN-8 product from more than one district. All regressions include HSN-8 product fixed
+effects and controls for log size of the firm and log average size of suppliers.
+
+B.1
+
+Responses to flooding events - additional results.
+
+B.1.1
+
+Data
+
+Climate data. We use data from the Dartmouth Flood Observatory to identify geocoded
+flooding events throughout India for our event study analysis. As shown in Figure B2,
+we identify 19 events of large monsoonal floods throughout India between 2018 and 2021.
+For our event study analysis, we limit the set of floods to those that occurred outside of
+our state, for which we have at least 3 months of data before and after the flood, and
+where at least 200 buyers in our state transacted with affected suppliers the period before
+the flood. These restrictions leave us with seven large flood events, which we use in our
+analysis Fact 4 in Section 2.2.
+
+v
+
+Figure B2: Monsoonal rain floods, 2018-2020
+
+Note: The figure plots the geographic coverage of all large floods that occurred between 2018 and 2020,
+as described in the Dartmouth Flood Observatory.
+
+B.1.2
+
+Two-way Fixed Effects Analysis
+
+In this Section, we delve deeper into the event-study results presented in Figure 2. For
+exposition clarity, we run difference-in-difference specifications which we summarize in
+Table B4. In the top panel, we present the two-way fixed effects specifications with
+continuous treatment as described below. In the middle panel, we present the results
+for a binary treatment. Finally, in the bottom panel, we present the results using the
+Local Projections Difference-in-Differences (LP-DID) estimator developed by Dube et al.
+(2023). This last set of estimates further accounts for issues raised by recent discussions
+on two-way fixed effects methods (Borusyak et al., 2024; Callaway and Sant’Anna, 2020;
+Goodman-Bacon, 2021).
+We begin with documenting the direct effect on suppliers in flood-hit zones, where we
+examine outcomes yj,t,k,τ for firm j, in period t, industry k, and event τ .
+yj,t,k,τ = α1 (Exposed to flood)jτ × Postt,τ +
+
+x=+5
+X
+
+[δτ,x + βx Xj,x<0 ] + δj + δk,t + ϵj,t,k,τ . (27)
+
+x=−5
+
+Here, the variable “Exposed to floodjτ ” takes a value of 1 if firm j was exposed to a
+particular flood. We index the months before and after flood happened by x, with x = 0
+being the month the flood τ occurs. We include a wide range of high-dimensional fixed
+effects to account for confounding shocks. These include firm fixed effects δj that control
+for firm-specific time-invariant differences; industry-by-time fixed effects δk,t that control
+
+vi
+
+for industry-specific shocks; and flood event-time since flood fixed effects δτ,x that control
+for aggregate trends around the flood event that affect all firms (including those not in the
+flood-exposed areas). We also control for firm size-specific shocks, by controlling for sales
+in the five months before the flood Xj,x<0 , interacted with time-since flood indicators. In
+all difference-in-difference results we restrict the post period to 3 months after the flood.
+Consistent with the results in Figure 2a, we find that affected sellers experience a 13%
+decline in sales, on average, with respect to non-affected firms the three months after the
+flood occurs.
+Next, we look into the effect of a flood for buyers located in our state. We use the existing
+supplier network (in the 5-months leading to the flood) as a measure of the exposure to
+the disruption, as described in equation B.1.2.
+(Supplier Exposure)jτ =
+
+N
+X
+
+si,j,τ,x<0 × 1 (Supplier i exposed to flood in τ ) ,
+
+i
+
+where si,j,τ,x<0 is the value of purchases that firm j buys from firm i, relative to firm j’s
+total purchases, over the five months before the flood. We then standardize this index
+and interact it with a post flood indicator to study how buyers were affected when their
+suppliers were hit. We examine outcomes yj,t,k,τ for firm j, in period t, and industry k,
+measured in event-time (since flood) τ equation 28:
+yj,t,k,τ = γ (Flood Exposure)jτ × Postt,τ +
+
+x=+5
+X
+
+[δτ,x + βx Xj,x<0 ] + δj + δr,k,t + ϵj,t,k,τ . (28)
+
+x=−5
+
+The fixed effects are similar to equation 27 but we add an industry-region-time fixed
+effect δk,r,t to control for local demand shocks affecting the region-industry of the firm. In
+columns 2-4 of Table B4, we present the results for the outcomes of log total purchases
+(column 2), log purchases of returning suppliers (column 3) and log purchases of new
+suppliers (column 4). We define returning suppliers as those suppliers who transacted
+with the firm within 3-months before the shock, and track the purchases from that set of
+suppliers throughout time. New suppliers are defined as suppliers who transact with the
+firm in a given period who have not transacted before. Difference-in-difference results are
+consistent with the event studies in Figures 2b and 2c.
+In column 5 of Table B4, we present the results for the outcome of buyer sales.33 Buyers
+with one standard deviation higher exposure experience a decline in sales of 2% relative
+33
+As our data does not include sales made directly to consumers, we need to impose some additional
+restrictions to ensure that we focus on firms that consistently sell to other firms. We restrict the sales
+sample to firms that are observed selling something to other firms every month for the last nine months
+prior to the flood. We also restrict the sample to be the same as the purchases sample, so we consider
+the log of 1+sales in cases where the firm is not observed selling anything that period.
+
+vii
+
+to buyers with average exposure. When considering the binary treatment in the second
+panel, we find that firms exposed to the flood through their suppliers experience a decline
+of 7% relative to firms that are not exposed.
+When focusing on the result for sales with binary treatment, we find that for every
+1% decrease in the purchases for exposed buyers, sales drop by 0.44% (exposed buyers
+decrease purchases by 16% and sales by 7% relative to non exposed buyers). We compare
+this result to the one implied by our model which, using a back-of-the-envelope calculation,
+indicates that for every 1% decline in purchases, sales decrease by 0.47%. The close result
+is reassuring given that our sales result is untargeted by our estimation process.
+Table B4: Regression results on the impact of floods.
+Supplier sales
+
+Buyer Purchases Total
+
+Buyer Purchases Returning Suppliers
+
+Buyer Purchases New suppliers
+
+Buyer Sales
+
+Input prices
+
+-
+
+-0.05***
+(0.003)
+1,218,663
+
+-0.05***
+(0.003)
+1,160,881
+
+-0.03***
+(0.01)
+606,655
+
+-0.02***
+(0.01)
+468,280
+
+-0.009
+(0.01)
+1,912,563
+
+-0.13***
+(0.02)
+1,604,955
+
+-0.16***
+(0.01)
+1,218,663
+
+-0.24***
+(0.01)
+1,160,881
+
+-0.13***
+(0.02)
+606,655
+
+-0.07**
+(0.03)
+468,280
+
+0.004
+(0.01)
+1,912,563
+
+-0.29***
+(0.06)
+742,966
+
+-0.17***
+(0.02)
+897,777
+
+-0.12***
+(0.03)
+829,534
+
+-0.15**
+(0.08)
+130,600
+
+-0.03
+(0.06)
+413,392
+
+0.007
+(0.09)
+716,388
+
+Continuous treatment
+Standardized exposure × 1(τ ≥ 0)
+N
+Binary treatment
+
+1(Exposure ≥ 0.1) × 1(τ ≥ 0)
+N
+Local projections with binary treatment
+Difference between pooled pre and post period
+N
+
+Note. ∗∗∗ p < 0.01, ∗∗ p < 0.05, ∗ p < 0.1. Column 1 presents the estimates for equation 27 for suppliers
+affected by the floods. Columns 2-5 present the results for equation 28 different outcomes of downstream
+firms. Column 6 presents a regression at the firm-product-time-event level using unit value of inputs
+as the outcome. In all cases, we restrict the post period to cover up to three months after each flood.
+Standard errors are clustered at the district level. The top panel presents results for the standardized
+exposure. The middle panel presents the results for a binary treatment. For supplier sales the binary
+treatment is whether the supplier was affected by the flood or not. In columns 2-5 the binary treatment is
+whether the buyer exposure is more than 10 % of purchases. In column 6 the binary treatment is whether
+the buyer-product exposure is above 10% of purchases. We present the local projections estimates in the
+bottom panel, where we compute the difference between the post and pre-treatment coefficients. We
+calculate standard errors for the difference using a bootstrap with 100 repetitions.
+
+Products and input prices. An advantage of our version of the firm-to-firm trade
+data is that it has detailed product codes and unit values. This allows us to examine
+product-specific trades and changes in prices as a result of upstream suppliers being
+exposed to a shock. We first transform the data to the buyer-by-product-by-time level.
+Our specification is similar to Equation 28, but with a product dimension that allows us
+to include event-time, industry-district-product-time, and firm-by-product fixed effects,
+along with controls for pre-period firm-by-product sales interacted with time indicators.
+In column 6 of Table B4, we study the evolution of product-specific prices for transactions
+that occur around the flood. While noisier, results are suggestive of a slight increase in
+price levels three months after the flood when using either the binary treatment or the
+local projections specification.
+viii
+
+New advances in two-way fixed effects methods. Recent econometric advancements in two-way fixed effects methods point out that staggered treatment can lead to
+the negative weighting of certain disaggregated treatment effects (Goodman-Bacon, 2021).
+New methods developed by Borusyak et al. (2024); Callaway and Sant’Anna (2020); Sun
+and Abraham (2021) provide consistent and interpretable estimates. Yet, our setting offers some further challenges. Our “treatment” turns “off” and “on” and perhaps “on”
+again, and our specifications control for various time-varying covariates, and a wide variety of other fixed effects, making some of these new advances challenging to apply in our
+setting. A new Local Projections Difference-in-Differences (LP-DID) estimator developed
+by Dube et al. (2023) allows us to recover interpretable estimates in a flexible and efficient
+manner.
+We present the results from this LP-DID estimator in the bottom panel of Table B4, which
+show similar patterns. We further implement the LP-DID for the event study analysis as
+well. In Figure B3b, we once again reproduce the same pattern as before: downstream
+purchases fall for the first few months, and thereafter recover by month 4. The results
+from the LP-DID method qualitatively resemble our main results for all other outcomes as
+well. Figure B3a shows the sales of affected suppliers, and Figure B3c contrasts existing
+vs. new suppliers. These patterns once again show that sales of affected suppliers fall,
+and that purchases from buyers decrease from both new and existing suppliers.
+Figure B3: LP-DID Event Studies
+
+(a) Sales of affected suppliers
+
+(b) Downstream purchases
+
+(c) Existing vs new suppliers
+
+Note. Event studies using the Local Projections Difference-in-Differences (LP-DID) approach, discussed
+in Dube et al. (2023). Figure B3a includes event-time, industry-district-product-time, and firm-byproduct fixed effects, and controls for pre-period firm-by-product sales interacted with time indicators.
+Figure B3b and B3c include firm, time, event-time, and industry-district-real time fixed effects, and
+demand controls and log pre-period purchases-time controls. Standard errors clustered at the district
+level.
+
+B.2
+
+Dataset construction
+
+In Section 4.2, we use multiple sources to correlate our model implied probabilities with
+observables related to supply chain disruption risk. We consider five climate related measures: rainfall, coastal flooding, riverine flooding, temperature, and drought conditions.
+Our climate data is available for grid areas that are much more detailed than our 271
+ix
+
+regions. In such cases, we use shape files to overlay our regions to the available maps and
+calculate the average measure of the climate variables within each of our regions.
+Coastal and riverine flooding are taken from the World Resources Institute’s Aqueduct
+Floods Hazard Map. Historical flooding is defined as the present day meters of flooded
+areas. Projected flooding are the expected meters of increase in flooded areas expected
+in 2050. We use 10-year floods and the RCP 4.5 as our baseline projection.
+Historical and projected temperature and drought data is taken from the IPCC WG1
+Interactive Atlas. Historical temperatures are the average daily degrees centigrade in
+2005 (the latest year available for historical data). Droughts are measured with the SPI
+index based on precipitation anomalies over the last 6 months. A lower SPI corresponds to
+more severe drought conditions. Both temperature and SPI are observed monthly, and we
+take the average across 12 months to get a value for the gridcell in 2005. Projected data
+for 2050 is calculated assuming a risk scenario of RCP 4.5 and using a risk model of NOAA
+global circulation model and the Swedish Meterological and Hydrological Institute’s local
+circulation model.
+Daily rainfall data is taken from the India Meteorological Department and measured in
+millimeters. We take the average across all days in 2019 for each district. For predicted
+rainfall, we first extract the average historical (measured in 2005) and predicted 2050
+rainfall from the IPCC WG1 Interactive Atlas, using the same settings as for temperature.
+We then compute the change for each district between 2005 and 2050, and apply the
+implied yearly change to update the 2019 values to 2050.
+The non climate variables mostly come from the Socioeconomic High-resolution RuralUrban Geographic Platform for India (SHRUG). Elevation is defined as the average elevation in meters of each district while terrain ruggedness is the Terrain Ruggedness Index
+expressing elevation differences between adjacent pixels. The nightlights luminosity index
+aims to capture economic activity by detailed regions. Finally, court congestion is taken
+from the Development Data Lab and measures the average delay in days for the courts
+in each district.
+
+C
+
+Theory Appendix
+
+C.1
+
+Equilibrium Definition
+
+An equilibrium of this economy is a set of state-contingent consumption, {qi (ω, χ)}χ∈G(χ) ,
+
+and final-good labor demand plans, ℓG
+i (ω, χ) χ∈G(χ) , intermediate goods producers labor
+ I
+demands, ℓi , an allocation of input orders, {Mji }j∈I,i∈I , and a vector of prices and
+
+I
+wages, wi (χ), pG
+i (ω, χ), Pi (χ), pi i∈I,χ∈G(χ) such that:
+x
+
+1. Given prices and wages, the representative consumer of each location maximizes its
+utility.
+2. Given prices and wages, firms in each location maximize expected profits.
+3. Labor and goods Markets clear state by state
+Z
+
+I
+ℓG
+i (ω, χ) + ℓi = Li
+
+∀i ∈ I, χ ∈ G(χ)
+
+ω∈[0,1]
+
+!1−β
+qi (ω, χ) = ϕi ℓG
+i (ω, χ)
+
+β
+
+X
+
+χj Mji
+
+∀ω ∈ [0, 1] , i ∈ I, χ ∈ G(χ)
+
+j=1
+
+X
+
+τij Mij = zi ℓIi
+
+∀i
+
+j
+
+4. Trade is balanced state by state
+X
+
+pM
+j τji Mji =
+
+j
+
+C.2
+
+X
+
+pM
+i τij Mij
+
+∀i ∈ I, χ ∈ G(χ)
+
+j
+
+Proofs
+
+Proposition 1: Proof. Since the cost of materials is linear in Mji and the constraints
+are conventional (linear) non-negativity constraints, it suffices to show that the expected
+operating profits function Eχ (π(M i ; χ)) is concave in the vector M i . The expectation operator preserves the concavity of π(M i ; χ) which is the only thing required to
+prove. The concavity of ex-post profits, π(M i ; χ), follows from the parametric restric< 1.
+tion, (1−β)(σ−1)
+β+σ(1−β)
+Lemmas 1 and 2: Proof. Conditional on some state of the world, χ, ex-post aggregate
+profits are given by,
+Z
+
+pi (ω; χ)qi (ω; χ) − wi (χ)ℓi (ω; χ) −
+
+πi (ω; χ)dω =
+ω∈[0,1]
+
+!
+
+Z
+ω∈[0,1]
+
+X
+
+pM
+ji (χ)Mji (ω) dω.
+
+j
+
+Using the assumption of a unit mass of homogenous firms in a region, ex-post aggregate
+profits are then
+πi (χ) = pi (χ)qi (χ) − wi (χ)ℓi (χ) −
+
+X
+
+pM
+ji (χ)Mji .
+
+j
+
+where pi (χ)qi (χ) corresponds to aggregate revenues from the final goods sector, wi (χ)ℓi (χ)
+P
+are payments to labor by final goods producers, and j pM
+ji (χ)Mji is total expenditure
+xi
+
+on intermediate inputs.
+As final goods firms are monopolistically competitive and the final goods aggregator is
+CES, standard algebra shows that revenues minus labor costs are a constant fraction of
+aggregate income:
+pi (χ)qi (χ) − wi (χ)ℓi (χ) =
+
+β + σ(1 − β)
+Yi (χ).
+σ
+
+From goods market clearing and trade balance, it is easy to show that aggregate income is
+equal to the aggregate revenues of the final goods producers, Yi (ω) = pi (χ)qi (χ). Plugging
+this expression in the equation above, we get an aggregate labor demand equation as a
+function of wages and aggregate income,
+ℓi (χ) =
+
+β(σ − 1) Yi (χ)
+.
+σ
+wi (χ)
+
+Turning to expenditure in intermediates inputs, multiplying the first order conditions
+defined in Equation 12 by Mji , and adding up across origins j, we obtain:
+
+
+
+
+# (1−β)(σ−1)
+β+σ(1−β)
+
+"
+
+Eχ λi (χ) Θi (χ)
+
+X
+
+
+−
+
+χj Mji
+
+X
+
+ = 0.
+pM
+ji (χ)Mji
+
+j∈I
+
+We can then plug the expression for Θi (χ) and for the stochastic discount factor λi (χ) =
+1
+to simplify the expression above as:
+Yi (χ)
+
+Eχ
+
+1
+Yi (χ)
+
+
+
+X
+(1 − β)(σ − 1)
+Yi (χ) −
+pM
+ji (χ)Mji
+σ
+
+
+= 0.
+
+Trade balance and zero profits for intermediate goods producers imply that
+P M
+pij (χ)Mij = wi (χ)ℓIi . Thus,
+
+Eχ
+
+P M
+pji (χ)Mji =
+
+
+(1 − β)(σ − 1) wi (χ) I
+−
+ℓ = 0.
+σ
+Yi (χ) i
+
+Imposing labor market clearing, it must be that ℓi (χ) + ℓIi = Li for all states of the world.
+Jointly, with the aggregate demand equation, it follows that
+Li − ℓIi =
+
+β(σ − 1) Yi (χ)
+,
+σ
+wi (χ)
+
+xii
+
+which in turn, implies that
+
+Eχ
+
+
+(1 − β)(σ − 1) β(σ − 1) ℓIi
+= 0 =⇒ ℓIi = (1 − β)Li
+−
+σ
+σ
+Li − ℓIi
+∀i ∈ I, χ ∈ G(χ).
+
+=⇒ ℓi (χ) = βLi
+
+This means that equilibrium aggregate profits are equal to
+πi (χ) = pi (χ)qi (χ) − wi (χ)ℓi (χ) −
+
+X
+
+pM
+ji (χ)Mji
+
+j
+
+β + σ(1 − β)
+σ
+wi (χ)ℓi (χ) − wi (χ)(1 − β)Li
+σ
+β(σ − 1)
+
+
+β + σ(1 − β)
+= wi (χ)Li
+− (1 − β)
+σ−1
+wi (χ)Li
+.
+=
+σ−1
+=
+
+Finally, from the budget constraint, Yi (χ) = wi (χ)Li + πi (χ). Combining these expressions, we can show that
+σ
+Yi (χ) =
+wi (χ)Li .
+σ−1
+
+Lemma 3: Proof. Let labor in region 1 be the numeraire. We prove that wages in
+each location i, wi , are deterministic by showing that labor market clearing must occur
+at the time of producing intermediates.
+By backward induction, after intermediate inputs have been produced, final goods producers in each region face an inelastic residual labor supply equal to L̄i . Aggregate labor
+demand in each region is given by,
+ β1
+
+
+
+LD
+i (χ) = 
+
+ϕi
+
+Yi (χ)
+
+ ,
+1−β
+pi (χ)
+j∈I χj Mij
+
+P
+
+where final goods’ prices can be written as
+
+
+β(σ − 1)
+pi (χ) =
+σ
+
+−β
+
+!−(1−β)
+ϕ−1
+i
+
+X
+
+χj Mij
+
+wi (χ)β Yi (χ)1−β .
+
+j∈I
+
+If we plug the expression for prices, in the aggregate labor demand equation, and simplify
+
+xiii
+
+we get that,
+LD
+i (χ) = βLi
+Crucially, aggregate labor demand by final goods producers does not depend on the realization of the shocks, χ. However to clear the labor market in each location the wage
+rate needs to be such that the residual labor supply that final goods’ producers face, L̄i ,
+is equal to their inelastic labor demand. The wage rate is set ex-ante when intermediate
+good production takes place and is independent of the realization of the shocks. As a
+corollary, this implies that the wage rate, wi (χ), aggregate profits πi (χ) and aggregate
+income Yi (χ) are all deterministic.
+
+C.3
+
+Welfare
+
+In this appendix, we discuss the welfare implications of an alternative assumption on
+consumer preferences – a linear utility index over a standard CES consumption aggregator,
+and on firms’ behavior – maximizing expected profits, rather than owners’ value; two
+conventional assumptions in the trade literature.
+Under these assumptions, consumers maximize the following objective function:
+Z
+max
+
+qi (ω, χ)
+
+qi (ω,χ)
+
+σ−1
+σ
+
+σ
+ σ−1
+
+dω
+
+ω∈[0,1]
+
+subject to the budget constraint,
+Z
+pi (ω, χ)qi (ω, χ) = Yi (χ) ≡ wi (χ)Li + Πi (χ)
+
+∀χ ∈ G(χ),
+
+ω∈[0,1]
+
+whereas firms maximize the following ex-ante profits,
+#
+
+"
+max Eχ πi (Mi ; χ) −
+
+Mi ≥0
+
+X
+
+pM
+ji Mji
+
+.
+
+j∈I
+
+Since firms are purely expected profit maximizers, rather than expected consumer value
+maximizers in this setting, the relevant stochastic discount factor is excluded (with these
+preferences, the stochastic discount factor λi (χ) = Pi 1(χ) ). It can be shown that Proposition 1 and Lemmas 1-3 hold in this economy, and that the optimal sourcing bundle for
+each location i in this problem is exactly the same as in our baseline model in Section
+3, as the resulting first order conditions coincide. However, as a result of the different
+assumptions on the utility functions of the representative consumer, the expected welfare
+
+xiv
+
+for location i is given by:
+
+Wi = Eχ [Qi (Mi ; χ)] = ϕi β β Lβi Eχ 
+
+!1−β 
+X
+
+χj Mji
+
+.
+
+(29)
+
+j
+
+As it is clear from this expression for welfare, even though consumers are risk neutral,
+the sourcing strategy selected by the final goods producers has effects on their welfare.
+Consumer also benefit from diversification in the firms’ sourcing strategies. However, as
+this expression also shows, the curvature of this function with respect to the amount
+of inputs differs from the curvature in the firms’ profit function, which was given by
+(1−β)(σ−1)
+. This discrepancy in curvatures causes a disagreement between consumers and
+β+σ(1−β)
+firms in the optimal diversification. To clarify this point, we reproduce below the firstorder conditions for input sourcing, for the social planner,
+
+
+#−β 
+
+"
+
+(1 − β)αi β β ϕi Lβi Eχ χj
+
+X
+
+ ≤ pM
+ji ∀ j
+
+χj Mji
+
+j∈I
+
+with αi , an utility weight, and, pM
+ji a Lagrange multiplier, and for the firm, after incorporating the general equilibrium aggregates:
+
+(1 − β)wi Li Eχ χj
+
+#−1 
+
+"
+X
+
+χj Mji
+
+ ≤ pM
+ji ∀ j.
+
+j∈I
+
+As these expressions show, as β < 1, in the model proposed in this appendix, there is
+excessive diversification in the competitive equilibrium relative to the planner’s solution.
+An implication of this difference of the concavity of welfare and of profits in terms of input
+orders is that consumers value that firms diversify when this diversification is cheap, in
+particular, when firms can import inputs from other regions at a low cost. However, when
+trade costs increase, consumers would prefer to have less costly goods than less volatility,
+although firms still have incentives to source from other regions. In terms of welfare,
+this makes consumers prefer autarky when trade costs increase, rather than having the
+likelihood of trading. This result arises from individual firms’ diversification choices, which
+do not take into account their impact on district prices, akin to an aggregate input demand
+externality. This could be corrected by adding the relevant stochastic discount factor to
+the firm problem, however this is not the convention in standard trade models.
+The consumer/planner internalizes the impact on prices and therefore chooses less diversification. These results echo the findings in an older literature that in the presence
+of incomplete markets, the optimal decisions of profit-maximizing firms can differ from
+xv
+
+the optimal choices of their owners (the consumers) (see, e.g., Stiglitz (1972) or Dreze
+(1985)).
+We provide numerical evidence in a simplified setting for these countervailing forces in
+Appendix Figure C1. In this figure, we are plotting welfare with costly trade relative
+to autarky’s welfare for a stylized model with two symmetric regions with independent
+disruption realizations. As the figures show, as trade costs decline, firms start sourcing
+from the other region. However, as firms have more incentives to diversify than socially
+optimal, they source from the other region even in the case that trade costs are very high,
+which ends up reducing the amount of total inputs they have for production.
+Figure C1: Comparison between costly and free trade
+
+(a) Region 1
+
+(b) Region 2
+
+Note. This figure illustrates the welfare in Region 1 (left column), and Region 2 (right column) relative to
+autarky, as trade costs increase. Regions are symmetric in all their fundamentals including the probability
+of disruptions which is equal to 0.5.
+
+We complement this numerical analysis with a first order approximation of welfare around
+autarky in this stylized setting. Due to symmetry, the wage in both locations can be
+normalized to 1, furthermore, we assume that the productivities and labor endowments
+in each location are also equal to 1. The derivative of the expression for expected welfare
+in region 1 in Equation 29 with respect to τ is,
+
+
+
+∂M11
+∂M21
+∂W1
+−β
+β
+= (1 − β)β Eχ (χ1 M11 + χ2 M21 )
+χ1
++ χ2
+∂τ
+∂τ
+∂τ
+"
+" ∂M M τ
+##
+11
+11
+21 M21 τ
+χ1 ∂τ M11 τ + χ2 ∂M
+1−β
+∂τ M21 τ
+β
+= (1 − β)β Eχ (χ1 M11 + χ2 M21 )
+χ1 M11 + χ2 M21
+i
+h
+(1 − β)β β
+=
+Eχ (χ1 M11 + χ2 M21 )1−β [Λ11 (χ)EM11 ,τ + Λ12 (χ)EM21 ,τ ]
+τ
+where EMji ,τ is the elasticity of input orders from origin j in region i, Mji , with respect to
+τ and Λ11 (χ) and Λ12 (χ) are state-contingent input quantity-shares. Thus, the elasticity
+
+xvi
+
+of welfare with respect to trade costs is,
+h
+i
+1−β
+E
+(χ
+M
++
+χ
+M
+)
+[Λ
+(χ)E
++
+Λ
+(χ)E
+]
+χ
+1 11
+2 21
+11
+M11 ,τ
+12
+M21 ,τ
+∂ ln W1
+h
+i
+= (1 − β)
+∂ ln τ
+Eχ (χ1 M11 + χ2 M21 )1−β
+
+(30)
+
+This expression can be simplified by using that aggregate expenditure in materials is equal
+to (1 − β). Thus,
+Mii + τ Mji = 1 − β,
+and after taking the derivative with respect to τ is equal to
+∂Mii
+∂Mii
++ Mji + τ
+= 0.
+∂τ
+∂τ
+Using this expression, one can write an equation that relates elasticities and input order
+shares,
+Sii (τ )
+EMji ,τ = −1 − EMii ,τ ×
+,
+Sji (τ )
+τM
+
+ji
+ii
+and Sii (τ ) = MiiM+M
+. Plugging this relationship
+with input value-shares Sji (τ ) = Mii +M
+ji
+ji
+between the elasticities in Equation 30, we get,
+
+h
+
+1−β
+
+h
+
+
+
+)
+Λ11 (χ) − SSjiii (τ
+Λ (χ)
+(τ ) 12
+
+Eχ (χ1 M11 + χ2 M21 )
+EM11 ,τ
+∂ ln W1
+h
+i
+= (1 − β)
+1−β
+∂ ln τ
+Eχ (χ1 M11 + χ2 M21 )
+
+
+
+ii
+− Λ12 (χ)
+.
+
+We explore the limit of this elasticity when the economy approaches to autarky. Denote
+by τ ∗ , the choke trade cost, at which autarky becomes the equilibrium outcome. This
+trade cost exists due to the perfect substitutability between inputs of the different origins.
+All the limits of this elasticity are trivial, except,
+lim∗
+
+τ →τ
+
+M11
+χ2 M21
+1 χ2
+Sii (τ )
+Λ12 (χ) = lim∗
+= ∗ .
+τ →τ τ M21 χ1 M11 + χ2 M21
+Sji (τ )
+τ χ1
+
+Then, the autarky limit for this elasticity is
+h
+lim∗
+
+τ →τ
+
+Eχ
+∂ ln W1
+(1 − β)
+∗
+=
+E
+M
+,τ
+11
+∂ ln τ
+τ∗
+
+χ1−β
+1
+
+
+
+h
+
+τ
+
+∗
+
+− χχ21
+
+Eχ χ1−β
+1
+
+i
+
+i
+,
+
+which only depends on the choke trade cost, the elasticity of the own-input to τ in the
+autarky limit, the intermediate inputs’ share in production and features of the distribution
+of disruptions. Finally, we simplify this expression further by computing the value of the
+
+xvii
+
+demand elasticity as the economy converges to autarky.
+We compute this term by using the first order conditions for the firms’ sourcing problem
+in this stylized economy,
+
+
+Eχ χ1 (χ1 M11 + χ2 M21 )−1 = 1
+
+
+Eχ χ2 (χ1 M11 + χ2 M21 )−1 = τ,
+and we apply the implicit function theorem to derive the following expression for the
+elasticity in autarky,
+h i
+∗
+
+Eχ
+
+χ2
+χ1
+
+χ
+
+χ1
+
+h i
+∗
+
+Eχ
+
+χ2
+
+χ1
+τ
+∂M11 τ
+h i
+h i τ ∗.
+= (1 − β)
+=
+EM11 ,τ ∗ =
+∗
+∂τ M11
+V χ2 (1 − β)
+V χ2
+χ
+
+χ1
+
+Using the expression above to simplify the elasticity of welfare with trade costs in the
+autarky limit gives us,
+h i
+
+h
+
+i
+1−β
+χ2
+∗
+Eχ
+Eχ χ1
+τ − χ1
+∂ ln W1
+h i
+h
+i
+.
+lim∗
+= (1 − β)
+τ →τ
+∂ ln τ
+Vχ χχ21
+Eχ χ1−β
+1
+χ2
+χ1
+
+Lastly, it canh beishown that in this simplified setting, that the choke trade cost is equal
+to τ ∗ = Eχ χχ21 , guaranteeing, that the last term is positive. Thus, as this limit is
+always positive, in this model, as the economy approaches to autarky, expected welfare
+increases.
+
+C.4
+
+Additional Results: Comparative Statics
+
+In this Appendix, we present other comparatve statics both with regions on a line and
+equidistant regions. We consider no risk, as a benchmark. We then complement the homogeneous risk and heterogeneous distance discussion in Section 3 with the analysis for
+homogeneous risk and homogeneous distance. Turning to heterogeneous risk, we complement the main discussion by illustrating the case of heterogeneous risk and distance. We
+then compare this case to autarky, and heterogeneous risk to free trade.
+No risk. Figure C2 illustrates the sourcing shares and expected real wages when ρ = 0
+for all regions. With identical fundamentals and positive trade costs, it is optimal for
+every firm to source all inputs domestically within its own region. This is true regardless
+of geography. Figure C2a illustrates the diagonal terms are 1, i.e., within-region sourcing
+shares are 1 for all regions, and cross-region sourcing shares are zero. The figure also makes
+clear that expected real wages are equalized across all regions under both geographies.
+xviii
+
+This setting benchmarks our model relative to typical trade and spatial models where
+there is no sourcing risk. As all regions are identical and inputs are perfectly substitutable,
+there are no gains from trade, and the equilibrium is regional autarky. In particular, the
+contrast between equidistant regions and regions on a line does not change either sourcing
+shares or regional real wages. There is no role for geography in the equilibrium with no
+risk and positive trade costs.
+Figure C2: Scenario with no risk
+
+(a) Bilateral Sourcing Shares
+
+(b) Real Wages
+
+(c) Real Wages
+
+Note. Panel A shows the 3x3 input-output matrix where the buying regions are in the vertical axis and
+the supplying regions are in the horizontal axis. Each row represents the share of inputs purchased by a
+buying region from each (column) supplying region. In the scenario with no risk, the sourcing shares in
+Panel A are the sourcing shares for the geographies in Panels B and C. Panels B and C present the real
+wages for each region, as well as a visual representation of the geographical location of regions in space.
+In Panel B, regions are equidistant from each other. In Panel C, regions are in a straight line, implying
+that the regions have different distances from each other.
+
+Homogeneous risk, homogeneous distance. Figure C3 illustrates the bilateral sourcing shares when the risk of shocks in each region is ρ = 0.5. Firms now face a trade-off:
+as shocks are independent across regions, they can reduce the probability of input disruptions by sourcing from multiple regions. On the other hand, sourcing from other
+regions is costly, given trade costs. As a result, firms still largely source inputs from
+their own regions, but also diversify by sourcing some inputs other regions. In contrast
+to the case with heterogeneous distance discussed in Section 3, firms diversify much less
+overall. There is no geographic variation in expected real wages or in sourcing patterns
+with equidistant regions.
+Heterogeneous risk, heterogeneous distance. The left panel of Figure C4 illustrate
+the regional maps and the shock probabilities of each region in the heterogeneous risk
+case under heterogeneous distance. The middle panel shows the bilateral sourcing shares
+between regions. The diagonal is again the darkest: in the presence of trade costs, all
+regions source most of their inputs from their own region despite heterogeneous risk.
+However, there is clear variation. Regions 1 and 3 (the safest regions), see the most
+“own sourcing.” The riskiest region 2 diversifies the most, particularly when it is more
+geographically central. All regions source inputs from other regions, with relatively larger
+xix
+
+Figure C3: Scenario with homogeneous risk
+
+(a) Bilateral Sourcing Shares
+
+(b) Real Wages
+
+Note. The figures in the left panel consist of a 3x3 input-output matrix where the buying regions are in
+the vertical axis and the supplying regions are in the horizontal axis. Each line represents the share of
+inputs purchased by a buying region from each supplying region (column). The figures in the right panels
+present the real wages for each region, as well as a visual representation of the geographical location of
+regions in space. The scales are shown to the right of each figure.
+
+shares from those with low risk. Geography plays an important role too, with relatively
+more sourcing from risky region 2 when it is more central, in contrast to the homogeneous
+risk case in Section 3.
+The right panel shows again that expected real wages across regions are negatively correlated with the risk of shocks, and are highest in safest locations despite identical regional
+fundamentals. The underlying mechanisms at work are that safer regions experience
+higher labor demand for their intermediate inputs from all regions, pushing up nominal
+wages. They also face a lower price index of their final goods, as they can source safer
+“domestic” inputs without paying trade costs. Notice that in general equilibrium, the
+wage impacts on riskier regions will modulate sourcing from them. As a result, when the
+regions are on a line and trade costs to the risky region are low, its equilibrium real wages
+are slightly higher than in the equidistant setting.
+Importantly, under our assumption that inputs are perfect substitutes, and that regions
+have identical fundamentals, there is no source of traditional gains from trade either
+through comparative advantage or increasing varieties. The incentives for trade here
+arise entirely to mitigate risk, with strong spatial general equilibrium implications for
+wages and prices. We will return to this point below, when evaluating the welfare gains
+from supplier diversification.
+Comparison between homogeneous and heterogeneous risk cases. Figure C5
+compares the expected real wages and their variance between the homogeneous and heterogeneous risk cases. The left panels show the ratio of expected real wages, and the
+xx
+
+Figure C4: Scenario with heterogeneous risk
+Different distance between regions
+
+(a) Shock Probabilities
+
+(b) Bilateral Sourcing Shares
+
+(c) Real Wages
+
+Note. The figure in the left panel shows the probability that each region is hit by a shock, as well as
+a visual representation of the geographical location of regions in space. The figure in the middle panel
+consists of a 3x3 input-output matrix where the buying regions are in the vertical axis and the supplying
+regions are in the horizontal axis. Each line represents the share of inputs purchased by a buying regions
+from each supplying region. The right panel presents the real wages for each region. The scales are shown
+to the right of each figure.
+
+right panels show the ratio of their variance. As is immediately clear, the riskiest region
+2 has the largest declines in its expected real wages as we move from homogeneous to
+heterogeneous risk under both geographies, while the safest regions 1 and 3 have lower
+expected real wages under homogeneous risk. The right panels of the figure show that
+the safer regions see an increase in the variance of their expected real wages in the heterogeneous risk case relative to the homogeneous risk. This is despite their disruption
+probability decreasing when moving to heterogeneous risk. While they face less volatility
+from their own shocks, they diversify when risk is heterogeneous and source more from
+relatively riskier regions. The riskiest region 2 sees an decline in the variance of real wages
+when moving to heterogeneous risk, because it mitigates volatility by sourcing from safer
+regions. This decline is larger when region 2 is more central, and faces lower trade costs
+for diversification.
+Heterogeneous risk and autarky. We next maintain the heterogeneous risk and
+distance across regions but raise trade costs to infinity, shutting down inter-regional input
+sourcing. Figure C6 illustrates that while the probabilities of shocks remain the same as
+the heterogeneous risk with trade case above, bilateral sourcing mimics the no-risk case.
+However, the impact on expected real wages is very different. The riskiest region sees the
+lowest expected real wages, while the safest regions see the highest expected real wages,
+as they have the lowest expected prices due to the lowest shock probabilities and fully
+domestic sourcing. Similar results hold in the homogeneous distance case, as in autarky,
+regional geography has no impact on regional outcomes.
+
+xxi
+
+Figure C5: Comparison between homogeneous and heterogeneous risk cases
+Panel A: Same distance between regions
+
+(a) Expected Real Wages Ratio
+
+(b) Variance of Real Wages Ratio
+
+Panel B: Different distance between regions
+
+(c) Expected Real Wages Ratio
+
+(d) Variance of Real Wages Ratio
+
+Note. In this figure we plot the expected real wages (left panel) and variance of real wages (right panel)
+for the homogeneous case shown in Figure 3 relative to the heterogeneous case shown in Figure 4. The
+variance of real wages is computed across potential states of the world. For the top panels, regions are
+equidistant from each other. In the bottom panels, regions are in a straight line, such that the regions
+have different distances between each other. The scales are shown to the right of each figure.
+
+Welfare comparison between costly trade and autarky with heterogeneous
+and heterogeneous distance risk cases. We next consider how expected real wages
+change across regions moving from costly trade to autarky with heterogeneous distance
+in Figure C7. Again, all regions see a decline in expected real wages moving to trade
+from autarky. The intuition is that in this setting, there are no “conventional” gains
+from trade, as there is no comparative advantage or gains from variety. The primary
+reason for trade here is for risk diversification. However, trade is costly, so the benefits of
+diversification are obtained at a higher average input price, raising regional price indices
+and lowering expected real wages under costly trade. The smallest decline in real wages
+is for the central high-risk region 2, which pays the least in trade costs for diversification.
+It also has the lowest expected real wages in both the costly trade scenario and autarky
+scenarios.
+xxii
+
+Figure C6: Scenario with heterogeneous risk and infinite trade costs
+Panel A: Different distance between regions
+
+(a) Shock probabilities
+
+(b) Bilateral Sourcing Shares
+
+(c) Real Wages
+
+Panel B: Same distance between regions
+
+(d) Shock probabilities
+
+(e) Bilateral Sourcing Shares
+
+(f) Real Wages
+
+Note. This figure presents the case where trade costs are set to infinity. The figures in the left panel show
+the probability that each region is hit by a shock, as well as a visual representation of the geographical
+location of regions in space. The figures in the middle panel consist of a 3x3 input-output matrix where
+the buying regions are in the vertical axis and the supplying regions are in the horizontal axis. Each
+line represents the share of inputs purchased by a buying regions from each supplying region. The right
+panels presents the expected real wages for each region. The scales are shown to the right of each figure.
+In Panel A, regions vary in their distance and are located on a line. The case with equidistant regions is
+shown in Panel B.
+
+While the diversification motive for trade does not increase expected real wages in this
+comparative static, Panel B of the figure illustrates that the variance in real wages increases sharply, moving to costly trade from autarky for all regions. Supply chain diversification lowers the variance in final goods prices across all regions, insuring against
+shocks and real wage volatility. Again, the riskiest region 2 sees the largest increase in the
+variance of expected real wages when trade is barred. Section 3 showed the same insight
+holds with equidistant regions: regional geography primarily modulates sourcing patterns
+via trade, but does not otherwise play a role in the mechanisms underlying the relative
+decline in real wages, given the disruption probabilities and trade costs, and increase in
+their variance moving from costly trade to autarky.
+Heterogeneous risk and free trade. Under free trade, firms can diversify their input
+risk at lower costs – the trade-off is only that inputs in lower-risk regions will be more
+costly in equilibrium as those regions will see higher expected real wages. With the same
+fundamentals across regions and free trade, in equilibrium, every firm in every region
+
+xxiii
+
+Figure C7: Comparison between heterogeneous risk under costly trade and autarky
+Different distance between regions
+
+(a) Expected Real Wages Ratio
+
+(b) Variance of Real Wages Ratio
+
+Note. In this figure we plot the expected real wages (left panel) and variance of real wages (right panel)
+for the scenario with heterogeneous risk and costly trade shown in Figure 4 relative to the scenario with
+heterogeneous risk and trade autarky shown in Figure C6. The variance of real wages is computed across
+potential states of the world. Here, regions are in a straight line, such that the regions have different
+distances between each other. The scales are shown to the right of each figure. The case with equidistant
+regions is shown in Figure 5.
+
+has the same optimal sourcing strategy. The middle panel of Figure C8 illustrates these
+sourcing shares. The left panel illustrates that sourcing concentrates in the safest location,
+regions 1 and 3, pushing up real wages there. Under free trade, regional geography plays
+no role in these patterns, and sourcing shares and expected real wages are the same as in
+this case when regions are equidistant.
+Welfare comparison between costly and free trade with heterogeneous risk.
+Panel A of Figure C9 illustrates that in contrast to costly trade, all regions see higher
+expected real wages under free trade. This is due to the lower costs of inputs, both
+from risk diversification and the lack of trade costs. The largest increases in expected
+real wages moving from costly to free trade are in the risky region 2. This region sees
+increases in sourcing from all regions as firms no longer face high trade costs to access the
+region’s higher risk inputs, and so its equilibrium wage does not need to decline as much
+as the case with costly trade. Panel B illustrates that moving from costly to free trade
+also lowers the variance of expected real wages across all regions. Thus, under free trade,
+there is no trade-off between higher expected real wages and lower volatility. Similar
+insights hold when regions are equidistant in the lower panel.
+
+xxiv
+
+Figure C8: Scenario with heterogeneous risk and free trade
+Panel A: Different distance between regions
+
+(a) Shock Probabilities
+
+(b) Bilateral Sourcing Shares
+
+(c) Real Wages
+
+Panel B: Same distance between regions
+
+(d) Shock probabilities
+
+(e) Bilateral Sourcing Shares
+
+(f) Real Wages
+
+Note. This figure presents the case where there are no trade costs. The figured in the left panel show
+the probability that each region is hit by a shock, as well as a visual representation of the geographical
+location of regions in space. The figures in the middle panel consist of a 3x3 input-output matrix where
+the buying regions are in the vertical axis and the supplying regions are in the horizontal axis. Each
+line represents the share of inputs purchased by a buying regions from each supplying region. The right
+panels present the real wages for each region. The scales are shown to the right of each figure. Panel
+A illustrates the case where regions are on a line, and Panel B illustrates the case when regions are
+equidistant from each other.
+
+xxv
+
+Figure C9: Comparison between costly and free trade
+Panel A: Different distance between regions
+
+(a) Expected Real Wages Ratio
+
+(b) Variance of Real Wages Ratio
+
+Panel B: Equidistant regions
+
+(c) Expected Real Wages Ratio
+
+(d) Variance of Real Wages Ratio
+
+Note. In this figure we plot the expected real wages (left panel) and variance of real wages (right panel)
+for the scenario with heterogeneous risk and costly trade shown in Figure 4 relative to the scenario with
+heterogeneous risk and free trade shown in Figure C8. The variance of real wages is computed across
+potential states of the world. In Panel A, regions are in a straight line, such that the regions have different
+distances between each other. The case with equidistant regions is in Panel B. The scales are shown to
+the right of each figure.
+
+xxvi
+
+C.5
+
+Inventories - descriptive evidence
+
+In Section B.1.2, we made the point that our baseline model without inventories estimates
+that a 1% decrease in purchases implies a 0.47% decline in sales, which is close to the
+value estimated in the data of a 0.43% decline in sales. This is suggestive that while
+firms might use strategies other than multi-sourcing to protect themselves from shocks,
+we can approximate the overall impact on sales without explicitly incorporating other
+channels.
+We proceed to investigate how important inventory holdings are in India, to understand
+whether they are an important feature to account for. While we do not observe inventory
+holding directly in our data, we compute measures of inventories at the product level using
+two alternative approaches. First, we use the Annual Survey of Industries (ASI) for 201415 to compute, for each HSN-4 product, the average months of inventory held by firms
+in the survey. We divide the closing value of finished goods by the average monthly sales
+to measure average inventory levels in terms of how many months of sales they account
+for. Second, we use our transaction data to compute what is the average gap in terms of
+months between two consecutive purchases of each HSN-4 product. Intuitively, products
+that are purchased on average with larger gaps will have more accumulated inventories
+that those with more frequent purchases.
+A first thing to note is that the levels of inventories for most products in the data are
+quite low. According to the average months of inventory held from the ASI, the mean
+across products in 0.91 months of inventory. The 75th percentile is 0.96, which reinforces
+that for most product, firms hold less than one months of inventory. In Figure C10, we
+correlate both measures with the fraction of firms that multisource a given HSN-4 product
+computed from our transaction data. As shown in the figure, both measures show that
+there is no correlation between how much a product is multi-sourced and the level of
+inventory holdings. While inventories might be a relevant strategy for some products,
+they don’t seem to be substitutes or complements to multi-sourcing for our firms.
+
+xxvii
+
+Figure C10: Product-level inventories and multisourcing, by product
+(a) Avg months of inventory held
+
+(b) Avg months between purchases
+
+Note. In both figures, the horizontal axis plots the share of firms that we observe sourcing a product
+from at least two suppliers during 2019. In the left panel, the vertical axis measures the average months
+of inventories held for each product, as computed from the ASI. The vertical axis in the right panel,
+computes for each product the average number of months between consecutive purchases as measured
+from our transaction data.
+
+D
+
+Quantitative Appendix
+
+D.1
+
+Model Probabilities - Additional Analysis
+Figure D1: Model probabilities, Productivities and Distance
+
+(a) Prob vs Productivities
+
+(b) Prob v Average Distance
+
+Note. In this figure, we plot the estimated probabilities against some observables. In the left panel, we
+correlate the probabilities with Log(Productivities). In the right panel, we correlate the probabilities
+with the average distance to the state of our study.
+
+xxviii
+
+Figure D2: Model Probabilities and Projected Observables
+
+(a) Average Daily Rainfall - (b) Coastal Flooding - Pro- (c) Riverine Flooding - ProProjected 2050
+jected 2050
+jected 2050
+
+.
+
+(d) Standardized Precipation (e) Average Temperature Index - Projected 2050
+Projected 2050
+Note. In this figure, we plot the estimated probabilities against 2050 projections for climate observables.
+In Figures D2a and D2e, we correlate the rainfall and temperature projections for year 2050 with the
+recovered probabilities. Figures D2b use the projected coastal flooding, while Figures D2c correlate the
+probabilities with projected riverine flooding, respectively. A more detailed definition of each of the
+variables can be found in Appendix D.1.
+
+Figure D3: Model Probabilities, Price Indices and Wages
+
+(a) Price Index
+
+(b) Real Wage Variance
+
+Note. In this figure, we plot the model-derived price index (left panel) and real wage variance (right
+panel) against the estimated disruption probabilities.
+
+xxix
+
+Figure D4: Ahmadabad sourcing, Kolkata sourcing – Free Trade
+
+Note. In this figure, we plot model sourcing shares with Free Trade for Ahmadabad district (left panel)
+and Kolkata district (right panel).
+
+Figure D5: Counterfactuals: Change in Precipitation and Flood Only
+
+(a) ∆ in Probabilities
+
+(b) ∆ in Expected Welfare
+
+Note. In this figure, we plot the change in probabilities when average rainfall, coastal flooding and
+riverine flooding change as projected, but the other climate variables are held constant (left panel), and
+the corresponding change in welfare (right panel).
+
+xxx
+
+Figure D6: Counterfactuals: Change in Temperature and SPI Risk Only
+
+(a) ∆ in Probabilities
+
+(b) ∆ in Welfare
+
+Note. In this figure, we plot the change in probabilities when temperature and SPI change as projected,
+but the other climate variables are held constant (left panel), and the corresponding change in welfare
+(right panel).
+
+xxxi
+
+E
+
+Alternative Models
+
+In this appendix we consider two alternative models. First, we model risk probabilities
+using observables in Appendix E.1. Second we consider a CES aggregator of inputs in
+Appendix E.2
+
+E.1
+
+Projecting Probabilities on Observables
+
+In this model, we describe an alternative estimation strategy for the disruption probabilities, ρi . Instead of computing one parameter per region, we parameterize the vector
+{ρi }Ii=1 on a vector of observable characteristics, Zi . This vector Zi includes a constant
+term, average court delays, ruggedness, elevation, night lights, average rainfall, average
+coastal flooding, average riverine flooding, and average temperature. We include all of
+these variables in logs, and we add a dummy for the case in which historical coastal
+flooding is positive, to allow the function to allow the function to flexibly estimate the
+asymptotic behavior of the log at 0. Then, we assume that these probabilities have the
+following functional form,
+′
+eZi γ
+ρi =
+′ ,
+1 + eZi γ
+where γ is the vector of parameters that we estimate. We estimate this by minimizing the
+gap between model-implied and the observed average sourcing shares in the data.
+In Table E1, we present the estimates of the vector γ. The resulting probabilities from
+this approach are shown in Panel (c) of Figure 6.
+This estimation approach requires estimating fewer parameters than our baseline, but
+necessitates that we take a stance on the sources of district-level risk. While the estimation approaches are independent of each other, the estimated coefficients for rainfall,
+flooding and temperature are positive, consistent with the baseline. Nightlights have a
+zero coefficient, also consistent with the baseline. In contrast to the baseline, however,
+courts also contribute positively to risk under this approach.
+Table E1: Estimates of the Model for the Probabilities
+Constant
+
+Courts
+
+Ruggedness
+
+Elevation
+
+-1.20
+
+0.01
+
+1.18
+
+0.08
+
+γ
+
+E.2
+
+Night Rainfall Coastal
+Lights
+Flooding
+0.00
+
+0.19
+
+0.27
+
+Coastal
+Dummy
+
+Riverine
+Flooding
+
+Temperature
+
+0.08
+
+0.07
+
+0.82
+
+A Model with Finite Elasticity Across Inputs
+
+In this Appendix, we develop a model in which we relax the assumption of perfect substitution of inputs across different regions by allowing for a finite elasticity of substitution,
+xxxii
+
+Figure E7: Estimated Disruption Probabilities for Alternative Models
+
+(a) Parameterized Risk
+
+(b) Finite Elasticity Model-Implied Risk
+
+Note. In this figure, we plot the model-implied district-level disruption probabilities for the alternative
+models. The left panel plots the district-level disruption probabilities implied by the parameterized
+approach outlined in the text. The right panel shows the district-level disruption probabilities obtained
+by following the same approach as in the baseline model, but allowing a finite elasticity of substitution
+across inputs of different origins. The scales are shown to the right of each figure.
+
+akin to an Armington model. In this model, firms will have two incentives to source input
+varieties from different regions. The first one is the diversification motive, which is the
+main focus of this paper. The second incentive corresponds to love for variety.
+The only modification to the model in Section 3 is to allow for imperfect substitution in
+the aggregator of inputs in Equation 6. Thus, the expression becomes:
+
+xi (ω) =
+
+X
+
+ε−1
+ε
+
+xj
+
+ε
+! ε−1
+
+.
+
+j∈I
+
+Since this assumption is just changing the way that the received input units are aggregated, the ex-post problem of the firm remains unchanged. Profits as a function of the
+total number of inputs the firm has are:
+1
+ β+σ(1−β)
+
+ε (1−β)(σ−1)
+ ε−1
+β(1−σ)
+
+
+ε−1
+ σ−1  X
+
+σ−1
+
+ϕi  
+[χj Mji ] ε 
+,
+πi (Mi ; χ) = κwiβ+σ(1−β) 
+
+ Yi Pi
+
+
+
+
+j∈I
+
+where κ =
+
+h
+
+σ(1−β)+β
+β(σ−1)
+
+ih
+
+β(σ−1)
+σ
+
+σ
+i β+σ(1−β)
+
+. The sourcing problem of the firm is to choose Mij
+
+xxxiii
+
+to maximize expected profits minus order costs
+
+1
+ β+σ(1−β)
+
+ε (1−β)(σ−1)
+ ε−1
+
+ X
+β(1−σ)
+
+
+ε−1
+ σ−1  X
+
+
+
+σ−1
+ε 
+
+
+Y
+P
+[χ
+M
+]
+pM
+max Eχ κwiβ+σ(1−β) 
+ϕ
+−
+
+
+i
+j
+ji
+j Mji ,
+i
+i
+
+
+Mij ≥0
+
+
+
+
+
+
+j∈I
+
+j∈I
+
+(31)
+
+with first order condition,
+
+Eχ χj Θi
+
+"
+X
+
+ε−1
+
+# −ε+β+σ(1−β)
+β+σ(1−β)
+
+
+1
+
+(χj Mji )− ε  ≤ pIj .
+
+(χj Mji ) ε
+
+j∈I
+
+In this particular model due to an Inada condition, the solution will be interior, and is
+implicitly given by:
+
+−1
+
+"
+
+ε−1
+
+Mji ε Eχ χj ε Θi
+
+X
+
+−ε+β+σ(1−β) 
+# (ε−1)(β+σ(1−β))
+ε−1
+ = pIj
+(χj Mji ) ε
+
+j∈I
+
+(pIj )−ε
+
+Mji =
+ε−1
+ε
+
+Eχ χj
+
+Θi
+
+hP
+
+j∈I (χj Mji )
+
+ε−1
+ε
+
+−ε+β+σ(1−β)
+i (ε−1)(β+σ(1−β))
+
+!−ε
+
+and can be simplied after plugging in the GE components to
+ε
+
+ε
+
+Mji = (1 − β) (wi Li )
+
+(pIj )−ε
+
+
+i −ε .
+ε−1 hP
+ε−1 −1
+ε
+ε
+Eχ χj
+j∈I (χj Mji )
+
+where
+
+Θi = (1 − β)wi Li
+
+X
+
+[χj Mji ]
+
+ε−1
+ε
+
+ε (1−β)(σ−1)
+!− ε−1
+β+σ(1−β)
+
+j∈I
+
+Notice that we cannot derive a closed-form solution for this expression, we can only define
+it implicitly, and solve for the demand of inputs numerically.
+Proposition 2 The ex-ante profit function described in Equation 31 is concave in orders
+of inputs Mji .
+Proof. Since the cost of materials is linear in Mij and the constraints are conventional
+(linear) non-negativity constraints, it suffices to show that the expected operating profits
+xxxiv
+
+function Eχ (π(M ; χ)) is concave in the vector M . The expectation operator preserves
+the concavity of π(M ; χ) which is the only thing required to prove. The concavity
+of the CES aggregator follows from the fact that it is a quasi-concave function that is
+homogeneous of degree 1. The concavity of ex-post profits, π(M ; χ), follows from the
+< 1, as the composition of concave functions is concave.
+parametric restriction, (1−β)(σ−1)
+β+σ(1−β)
+
+E.3
+
+Quantitative Implications
+
+Table E2 summarizes the baseline and counterfactuals in the two alternative models. The
+insights are very similar to the baseline model in Section 4. In both models, autarky is
+welfare decreasing, though there is spatial heterogeneity. In the CES model, autarky decreases welfare by two orders of magnitude more on average, because autarky additionally
+implies losses from variety as only own-region inputs can be used to produce. Free trade
+is welfare improving in both models.
+Interestingly, the implications of climate risk changing are extremely similar in both models, despite their independent estimation and varied structure. On average welfare decreases by 2% in the climate counterfactual in both models (contrast to 2.01% in the
+baseline). The fraction of districts with real wage declines is somewhat larger in the CES
+model, at 86.35%, than in the projected probabilities model, at 54.98%.
+Table E2: Model Counterfactuals: Summary – Alternative Models
+Counterfactual
+
+∆ in Welfare
+∆ in log Expected Real Wages ∆ in Real Wage Volatility
+% districts
+Avg. change Range Avg. change
+Range
+Avg. change
+Range
+Real wage declines
+Parameterized Risk
+
+Baseline risk
+Autarky
+Free Trade
+
+-6.79
+7.40
+
+3.75
+2.32
+
+2.54
+4.96
+
+1.31
+1.57
+
+7.14
+-2.42
+
+5.97
+1.32
+
+2.58%
+0.00%
+
+Alternative risk
+Climate change
+
+-2.00
+
+4.68
+
+-2.12
+
+4.67
+
+-0.02
+
+0.11
+
+54.98%
+
+Finite Elasticity of Substitution Across Inputs
+Baseline risk
+Autarky
+Free Trade
+
+-198.96
+15.33
+
+42.01
+1.08
+
+-186.83
+15.33
+
+43.34
+1.07
+
+11.87
+4.25
+
+3.71
+2.45
+
+100.00%
+0.00%
+
+Alternative risk
+Climate change
+
+-2.00
+
+2.71
+
+-1.96
+
+2.71
+
+0.03
+
+0.00
+
+86.35%
+
+Note. This table shows statistics of the distribution of percentage changes between the baseline scenario
+with current climate risk and costly trade and other scenarios, weighted by district population. Range
+refers to the interquartile range.
+
+xxxv
+
+Figure E8: Counterfactuals: Climate Risk Increase – Alternative Models
+Parameterized Risk Profile
+
+(a) ∆ in Probabilities
+
+(b) ∆ in Welfare
+
+Finite Elasticity of Substitution Across Inputs
+
+(c) ∆ in Probabilities
+
+(d) ∆ in Welfare
+
+Note. In this figure, we plot the change in probabilities of climate risk (Panel A), and the change in
+welfare (Panel B) for the model with parameterized risk. In Panel C and Panel D, we plot the change in
+probabilities of climate, and the change in welfare for the model with a finite elasticity of substitution.
+
+xxxvi
+
+

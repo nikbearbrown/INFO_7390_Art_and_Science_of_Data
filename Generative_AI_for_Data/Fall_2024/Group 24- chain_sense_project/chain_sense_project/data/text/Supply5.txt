@@ -1,0 +1,1640 @@
+Climate risk and response: Physical hazards and socioeconomic impacts
+
+Could climate
+become the weak
+link in your
+supply chain?
+Case study
+August 2020
+
+McKinsey Global Institute
+Since its founding in 1990, the McKinsey
+Global Institute (MGI) has sought to
+develop a deeper understanding of the
+evolving global economy. As the business
+and economics research arm of McKinsey
+& Company, MGI aims to provide leaders
+in the commercial, public, and social
+sectors with the facts and insights
+on which to base management and
+policy decisions.
+MGI research combines the disciplines of
+economics and management, employing
+the analytical tools of economics with
+the insights of business leaders. Our
+“micro-to-macro” methodology examines
+microeconomic industry trends to better
+understand the broad macroeconomic
+forces affecting business strategy and
+public policy. MGI’s in-depth reports have
+covered more than 20 countries and
+30 industries. Current research focuses
+on six themes: productivity and growth,
+natural resources, labor markets, the
+evolution of global financial markets,
+the economic impact of technology and
+
+innovation, and urbanization. Recent
+reports have assessed the digital
+economy, the impact of AI and automation
+on employment, income inequality,
+the productivity puzzle, the economic
+benefits of tackling gender inequality,
+a new era of global competition,
+Chinese innovation, and digital and
+financial globalization.
+MGI is led by three McKinsey & Company
+senior partners: James Manyika,
+Sven Smit, and Jonathan Woetzel.
+James and Sven also serve as co-chairs
+of MGI. Michael Chui, Susan Lund,
+Anu Madgavkar, Jan Mischke,
+Sree Ramaswamy, Jaana Remes,
+Jeongmin Seong, and Tilman Tacke are
+MGI partners, and Mekala Krishnan is an
+MGI senior fellow.
+Project teams are led by the MGI
+partners and a group of senior fellows
+and include consultants from McKinsey
+offices around the world. These teams
+draw on McKinsey’s global network of
+
+partners and industry and management
+experts. The MGI Council is made
+up of leaders from McKinsey offices
+around the world and the firm’s sector
+practices and includes Michael Birshan,
+Andrés Cadena, Sandrine Devillard,
+André Dua, Kweilin Ellingrud,
+Tarek Elmasry, Katy George, Rajat Gupta,
+Eric Hazan, Acha Leke, Gary Pinkus,
+Oliver Tonby, and Eckart Windhagen.
+The Council members help shape the
+research agenda, lead high-impact
+research and share the findings with
+decision makers around the world. In
+addition, leading economists, including
+Nobel laureates, advise MGI research.
+The partners of McKinsey fund MGI’s
+research; it is not commissioned by
+any business, government, or other
+institution. For further information about
+MGI and to download reports for free,
+please visit
+www.mckinsey.com/mgi.
+
+In collaboration with McKinsey & Company's Sustainability and Global Risk practicies
+McKinsey & Company’s Sustainability
+Practice helps businesses and
+governments reduce risk, manage
+disruption, and capture opportunities
+in the transition to a low-carbon,
+sustainable-growth economy. Clients
+benefit from our integrated, systemlevel perspective across industries from
+energy and transport to agriculture and
+consumer goods and across business
+functions from strategy and risk to
+operations and digital technology. Our
+proprietary research and tech-enabled
+tools provide the rigorous fact base
+that business leaders and government
+policy makers need to act boldly with
+confidence. The result: cutting-edge
+solutions that drive business-model
+
+advances and enable lasting performance
+improvements for new players and
+incumbents alike.
+www.mckinsey.com/sustainability
+McKinsey & Company’s Global Risk
+Practice partners with clients to go
+beyond managing risk to enhancing
+resilience and creating value.
+Organizations today face unprecedented
+levels and types of risk produced by
+a diversity of new sources. These
+include technological advances
+bringing cybersecurity threats and
+rapidly evolving model and data risk;
+external shifts such as unpredictable
+geopolitical environments and climate
+change; and an evolving reputational risk
+
+landscape accelerated and amplified by
+social media. We apply deep technical
+expertise, extensive industry insights,
+and innovative analytical approaches to
+help organizations build risk capabilities
+and assets across a full range of risk
+areas. These include financial risk,
+capital and balance sheet–related risk,
+nonfinancial risks (including cyber, data
+privacy, conduct risk, and financial crime),
+compliance and controls, enterprise risk
+management and risk culture, model risk
+management, and crisis response and
+resiliency—with a center of excellence for
+transforming risk management through
+the use of advanced analytics.
+www.mckinsey.com/
+business-functions/risk
+
+Could climate
+become the weak
+link in your
+supply chain?
+Case study
+August 2020
+
+Authors
+Jonathan Woetzel, Shanghai
+Dickon Pinner, San Francisco
+Hamid Samandari, New York
+Hauke Engel, Frankfurt
+Mekala Krishnan, Boston
+Claudia Kampel, Stuttgart
+Jakob Graabak, Oslo
+
+4
+
+Introduction to case studies
+In January 2020, the McKinsey Global Institute published Climate risk and response: Physical
+hazards and socioeconomic impacts. In that report, we measured the impact of climate
+change by the extent to which it could affect human beings, human-made physical assets,
+and the natural world. We explored risks today and over the next three decades and examined
+specific cases to understand the mechanisms through which climate change leads to
+increased socioeconomic risk. This is one of our case studies, focused on supply chains.
+We investigated cases that cover a range of sectors and geographies and provide the basis
+of a “micro-to-macro” approach that is a characteristic of McKinsey Global Institute research.
+To inform our selection of cases, we considered over 30 potential combinations of climate
+hazards, sectors, and geographies based on a review of the literature and expert interviews
+on the potential direct impacts of physical climate hazards. We found these hazards affect five
+different key socioeconomic systems: livability and workability, food systems, physical assets,
+infrastructure services, and natural capital.
+We ultimately chose nine cases to reflect these systems and based on their exposure to the
+extremes of climate change and their proximity today to key physiological, human-made, and
+ecological thresholds (Exhibit 1). As such, these cases represent leading-edge examples of
+climate change risk. Each case is specific to a geography and an exposed system, and thus
+is not representative of an “average” environment or level of risk across the world. Our cases
+show that the direct risk from climate hazards is determined by the severity of the hazard and
+its likelihood, the exposure of various “stocks” of capital (people, physical capital, and natural
+capital) to these hazards, and the resilience of these stocks to the hazards (for example, the
+ability of physical assets to withstand flooding). We typically define the climate state today as
+the average conditions between 1998 and 2017, in 2030 as the average between 2021 and
+2040, and in 2050 between 2041 and 2060. Through our case studies, we also assess the
+knock-on effects that could occur, for example to downstream sectors or consumers. We
+primarily rely on past examples and empirical estimates for this assessment of knock-on
+effects, which is likely not exhaustive given the complexities associated with socioeconomic
+systems. Through this “micro” approach, we offer decision makers a methodology by which to
+assess direct physical climate risk, its characteristics, and its potential knock-on impacts.
+Climate science makes extensive use of scenarios ranging from lower (Representative
+Concentration Pathway 2.6) to higher (RCP 8.5) CO2 concentrations. We have chosen to
+focus on RCP 8.5, because the higher-emission scenario it portrays enables us to assess
+physical risk in the absence of further decarbonization. Such an “inherent risk” assessment
+allows us to understand the magnitude of the challenge and highlight the case for action.
+(We also choose a sea level rise scenario for one of our cases that is consistent with the RCP
+8.5 trajectory). Our case studies cover each of the five systems we assess to be directly
+affected by physical climate risk, across geographies and sectors. While climate change
+
+Climate risk and response | Case study: Supply chains
+
+5
+
+will have an economic impact across many sectors, our cases highlight the impact on
+construction, agriculture, finance, fishing, tourism, manufacturing, real estate, and a range of
+infrastructure-based sectors. The cases include the following:
+— For livability and workability, we look at the risk of exposure to extreme heat and humidity
+in India and what that could mean for that country’s urban population and outdoor-based
+sectors, as well as at the changing Mediterranean climate and how that could affect
+sectors such as wine and tourism.
+— For food systems, we focus on the likelihood of a multiple-breadbasket failure affecting
+wheat, corn, rice, and soy, as well as, specifically in Africa, the impact on wheat and coffee
+production in Ethiopia and cotton and corn production in Mozambique.
+— For physical assets, we look at the potential impact of storm surge and tidal flooding
+on Florida real estate and the extent to which global supply chains, including for
+semiconductors and rare earths, could be vulnerable to the changing climate.
+— For infrastructure services, we examine 17 types of infrastructure assets, including
+the potential impact on coastal cities such as Bristol in England and Ho Chi Minh City
+in Vietnam.
+— Finally, for natural capital, we examine the potential impacts of glacial melt and runoff
+in the Hindu Kush region of the Himalayas; what ocean warming and acidification could
+mean for global fishing and the people whose livelihoods depend on it; as well as potential
+disturbance to forests, which cover nearly one-third of the world’s land and are key to the
+way of life for 2.4 billion people.
+
+6
+
+McKinsey Global Institute
+
+Ex
+Exh
+hib
+ibit
+it 1
+
+We have selected nine case studies of leading-edge climate change impacts across all
+major geographies, sectors, and affected systems.
+
+7
+2
+5
+
+1
+4
+
+Global case studies
+Heat stress1 Low
+
+Livability and workability
+
+Food systems
+
+Physical assets
+
+Infrastructure services
+
+Natural capital
+
+High
+
+3
+
+8
+
+7
+
+6
+
+9
+
+Highest drought risk in 20502
+
+Increase in hurricane/cyclone severity
+
+1
+
+Will India get too hot to work?
+
+2
+
+A Mediterranean basin without a Mediterranean climate?
+
+3
+
+Will the world’s breadbaskets become less reliable?
+
+4
+
+How will African farmers adjust to changing patterns of precipitation?
+
+5
+
+Will mortgages and markets stay afloat in Florida?
+
+6
+
+Could climate become the weak link in your supply chain?
+
+7
+
+Can coastal cities turn the tide on rising flood risk?
+
+8
+
+Will infrastructure bend or break under climate stress?
+
+9
+
+Reduced dividends on natural capital?
+
+1. Heat stress measured in wet-bulb temperatures.
+2. Drought risk defined based on time in drought according to Palmer Drought Severity index (PDSI).
+Source: Woods Hole Research Center; McKinsey Global Institute analysis
+
+Climate risk and response | Case study: Supply chains
+
+7
+
+Dark, stormy skies, ships and the port of Colon, Panama.
+© Jonathan Kingston/National Geographic
+
+Supply chains
+Could climate become the weak link in your supply chain?
+Much of global economic production is organized around a complex system of interdependent
+supply chains. Supply chains facilitate the production of everything from computers and
+cars to lifesaving medicines and food, and support world trade in goods that is worth almost
+$20 trillion annually.1 End products may have up to many thousands of parts, sourced from
+diverse geographies around the world. Over time, these supply chains have been honed to
+deliver maximum efficiency and speed.
+But questions about supply chain risks and resilience are now being raised in the context
+of the global Covid-19 pandemic as well as acute weather events.2 A changing climate and
+the greater frequency and/or severity of hazards may increase disruptions in supply chains
+that interrupt production, raise costs, hurt corporate revenues, and lead to higher prices
+or shortages for consumers. According to a recent Allianz survey of companies, business
+interruptions are the number-one risk facing the corporate sector today. 3 A similar poll by the
+World Economic Forum found natural catastrophes as the greatest concern for businesses
+in East Asia and the Pacific. 4 Hurricanes and floods contribute to the majority of economic
+losses in natural disasters, accounting for 50 percent and 20 percent of total losses since
+2000, respectively. 5
+In this case study, we examine how risks from climate hazards, already present in global
+supply chains, are likely to evolve over the next few decades. We focus specifically on the
+risk from hurricanes and extreme precipitation and find that supply chains can be disrupted
+in different ways. For example, access to plants or production at plants can be shut down
+or production of critical inputs or access to them can be disrupted, impacting production
+downstream and potentially increasing prices to manufacturers and consumers. We identify
+three broad types of supply chains that illustrate how climate risks vary across a spectrum:
+specialty, intermediate, and commodity. Typically, the more specialized the supply chain, the
+more severe the impact for a downstream player could be as supply of a critical input may only
+be available from the source that has been disrupted. However, the more commoditized the
+supply chain is, the larger the number of downstream players that may be affected by spiking
+prices from a sudden reduction in supply.
+For a deeper appreciation of the extent of risks, we focus on two supply chains that illustrate
+how disruption may play out. As an example of specialty supply chains, we examine the
+semiconductor industry; for commodity supply chains, heavy rare earth metals. Both create
+critical inputs for advanced industries. Semiconductor chips are ubiquitous in electronics from
+computers to smartphones to electronic watches. Rare earths are critical in aerospace and
+defense, electric vehicles, wind turbines, drones, medical appliances, and other electronics.
+Both supply chains are highly geographically concentrated in regions with an increasing
+probability of relevant climate hazards. However, these are only examples illustrating
+broader trends.
+
+1
+2
+
+3
+4
+5
+
+World Trade Statistical Review, 2018. See also Globalization in transition: The future of trade and global value chains,
+McKinsey Global Institute, January 2019.
+Recent MGI research examines how industry value chains are exposed to a broader set of risks, including climate events.
+This work also examines vulnerabilities within specific companies and broader value chains, financial losses, and ways to
+bolster resilience. See Risk, resilience, and rebalancing in global value chains, McKinsey Global Institute, August 2020.
+Allianz Risk Barometer 2019, Allianz, January 2019.
+World Economic Forum, Regional risks for doing business 2019, World Trade Organization, 2019.
+NatCatSERVICE, Munich Re, 2019.
+
+Climate risk and response | Case study: Supply chains
+
+9
+
+Assessing the inherent risk to supply chains without any adaptation action and based on an
+RCP 8.5 scenario, the probability of a hurricane occurring that is severe enough to disrupt
+semiconductor manufacturing (defined as a hurricane with more rainfall than manufacturing
+assets typically are designed to withstand) could increase from 1 percent per annum currently
+to 2 to 4 percent by 2040 across much of the western Pacific.6 Increase in hurricane wind
+hazard is less homogenous but is projected to increase from 1 percent per annum currently up
+to 2 percent by 2040 in some parts of Taiwan and Japan. In other words, risk of a disruptive
+hurricane could be expected to approximately double.7 We estimate that in this scenario, such
+hurricanes could lead to months of lost production for the directly affected player and could
+cause up to 35 percent revenue loss for unprepared downstream players in a disaster year. In
+the case of rare earths, we find that the likelihood of extreme rainfall in any given year which
+is sufficient to trigger mine and road closures could roughly double by 2030 in southeastern
+China. This could reduce global production by 20 percent in a disaster year. 8
+Global supply chains could adapt to manage these risks. For semiconductor supply chains,
+two key areas of adaptation include building disaster-proof plants (for producers) and raising
+inventory levels in order to continue production even if a supply chain is interrupted (for
+downstream players). We find that building disaster-proof plants means additional costs of
+roughly 2 percent of the building costs, which equals an additional $20 million for an average
+plant. Raising the inventory to provide a meaningful buffer in case of supply disruption, with
+estimated costs for warehousing and working capital, may increase input costs by less than
+a percent.
+Companies using rare earths could protect themselves from climate-change-induced
+physical risk by raising inventory levels at the costs of additional working capital and storage
+space needed. Rare earth miners could, for example, by using leaches that decrease the
+risk of landslides or moving leach holes away from the steepest slopes.9 We estimate these
+measures could lead to a cost of goods sold (COGS) increase of less than 5 percent.
+
+Supply chains are already being disrupted by extreme weather, and this
+risk will increase with climate change
+Floods, storms, drought, and fires are all climate hazards that have already disrupted supply
+chains in recent years, halting production and resulting in lost revenues and profits. While
+this case study focuses on the impact of storms and floods, drought can also impact supply
+chains (See Box 1, “How drought can affect supply chains”). As climate change makes extreme
+weather more frequent and/or severe, it increases the annual probability of events that are
+more intense than manufacturing assets are constructed to withstand, and supply chain
+disruptions become more common.
+
+6
+
+7
+
+8
+9
+
+10
+
+If not indicated differently, we follow standard practice and define current and future (2030, 2050) states as average
+climatic behavior over multidecade periods. Climate state today is defined as average conditions between 1998 and 2017,
+in 2030 as average between 2021 and 2040, and in 2050 as average between 2041 and 2060. For the analysis of 2040,
+the average of 2031 and 2050 was used. Also, if not indicated differently, the climatological analyses in this case use
+RCP 8.5 to represent the changes in atmospheric greenhouse gas concentrations that could occur absent a mitigation
+response. Please see technical appendix of the full report for details.
+Woods Hole Research Center analysis drawing on: Kerry Emanuel, The Coupled Hurricane Intensity Prediction System
+(CHIPS), Massachusetts Institute of Technology, 2019; Water and Climate Resilience Center, RAND Corporation. While
+total hurricane frequency is expected to remain unchanged or to decrease slightly under increased global warming,
+cumulative hurricane rainfall rates, average intensity, and proportion of storms that reach Category 4 or 5 intensity are
+projected to rise, even for an increase of two degrees Celsius or less in global average temperatures. Thomas Knutson et
+al., “Tropical cyclones and climate change assessment: Part II. Projected response to anthropogenic warming,” Bulletin of
+the American Meteorological Society, 2019.
+Probability increases from approximately 2 percent per year in 1965 to approximately 2.5 percent currently,
+approximately 4 percent in 2030, and approximately 6 percent in 2050.
+Heavy rare earths are mined in open-pit clay mines using an in situ leaching technique, making them sensitive to extreme
+rainfall. Shallow holes of a few meters are dug, and hydrochloric acid leach is sprayed over the clay. The acid acts as an
+extraction agent; after 150 to 400 days, leach containing heavy rare earths has concentrated in the leach holes. This
+leach is then brought to a treatment pond, where a precipitation agent (such as ammonium bicarbonate) is applied,
+causing the heavy rare earth to form roughly 92 percent grade rare earth oxides that accumulate at the bottom of the
+solution.
+
+McKinsey Global Institute
+
+Box 1.
+
+How drought can affect supply chains
+Drought has already impacted supply chains across the world. In Europe, for example,
+drought has had a significant impact on the flow of goods through waterways. In the
+third quarter of 2018, transport on the Rhine was down 27 percent year on year due to
+low water levels. Transport performance was also 10 percent lower on the Danube.1 This
+resulted in a 10 percent drop in Germany’s production of chemicals and pharmaceuticals
+from September to November, as major industrial players shut down plants that
+were unable to secure raw material, reporting in some instances over $220 million in
+additional logistics costs. The Panama Canal, which shortens the 8,000-mile journey
+around Cape Horn to just 48 miles, is already having to reduce weight on ships due to
+reduced water levels in drought conditions.2 Similarly, along the Mississippi River in
+the United States, both floods and droughts have disrupted logistics and agricultural
+production over the past decade. 3 A tow on the upper Mississippi River typically has 15
+barges, each capable of carrying more than 1,000 tons. A one-inch drop in river level
+can reduce tow capacity by 255 tons. 4
+
+1
+2
+3
+4
+
+Holly Ellyatt, “A major river in Europe hit by drought could create economic havoc,” CNBC, July 31, 2019.
+“Climate change threatens the Panama Canal,” Economist, September 21, 2019. Henry Fountain, “What Panama’s
+Worst Drought Means for Its Canal’s Future”, New York Times, May 17, 2019.
+Karl Plume, “Floods stall fertilizer shipments in latest blow to U.S. farmers,” Reuters, April 25, 2019; Debbie
+Elliott, “Drought causes ripple effect along mighty Mississippi River,” NPR, January 23, 2013.
+“U.S. Energy Sector Vulnerabilities to Climate Change and Extreme Weather,” US Department of Energy, 2013.
+
+Extreme events that exceed the design threshold of physical assets can cause major supply
+chain disruptions. One of the costliest floods in the past decade occurred in Thailand in
+2011. Flood defenses that were supposed to keep industrial facilities dry broke and became
+overwhelmed by extreme rain, disrupting production of food, automobiles, and consumer
+electronics and raising prices for consumers (See Box 2, “What happened in Thailand in
+2011 when the floods hit?”). Design thresholds vary but are typically defined to be tolerant
+up to a specific magnitude of event, which in turn has a specific frequency or likelihood
+associated with it (often referred to as the historical return period of the event). Common
+design thresholds for manufacturing assets are typically in the range of 1 to 2 percent
+probability events (also known as “100-year” and “50-year” events, respectively), depending
+on what is required either by local regulations or by reinsurers.10
+As climate change makes extreme weather more frequent and/or severe, it increases the
+annual probability of events that are more intense than manufacturing assets are constructed
+to withstand and supply chain disruptions become more common.
+Research suggests that thunderstorm conditions will become more frequent due to climate
+change, and furthermore that hurricane rainfall, average intensity, and proportion of storms
+that reach Category 4 or 5 will increase, magnifying disruption risk for manufacturing in Asia
+and along the US Gulf Coast.11
+
+10
+11
+
+Based on expert interviews.
+Noah S. Diffenbaugh, Martin Scherer, and Robert J. Trapp, “Robust increases in severe thunderstorm environments in
+response to greenhouse forcing,” PNAS, Volume 10, October 8, 2013; Resilinc, EventWatch annual reports, 2014–18;
+Thomas Knutson et al., Tropical cyclones and climate change assessment: Part II. Projected response to anthropogenic
+warming, American Meteorological Society, 2019.
+
+Climate risk and response | Case study: Supply chains
+
+11
+
+Box 2.
+
+What happened in Thailand in 2011 when the floods hit?
+In 2011, Thailand suffered the worst
+flooding in 50 years with many
+regions under 3 meters of water
+at peak severity, inundating entire
+provinces in the industrial areas near
+Bangkok.1 Flooding lasted 30 to
+60 days, disrupted global electronics,
+automotive and food supply chains, and
+resulted in losses totaling $40 billion
+to $50 billion.2 The impact on local
+industry was severe; industrial output
+in Thailand dropped almost 50 percent
+in November 2011 compared with
+the previous year. Manufacturing
+accounted for 70 percent of damages
+and losses, representing about onethird of manufacturing value added
+in Thailand at the time. 3 While climate
+attribution studies broadly suggest
+no link of the Thai floods to climate
+change, they are a good illustrative
+example of how increasing frequency
+of extreme events can threaten specific
+supply chains. 4
+There were several factors that made
+the impact from these floods so severe:
+— Production was concentrated in a
+high-hazard region: Thailand has
+a “supercluster strategy,” where
+incentives such as tax breaks,
+grants, infrastructure upgrades,
+workforce support, etc. encourage
+the colocation of academia,
+research, and multiple industries.
+As a result, manufacturing is
+concentrated in a few estates in
+the Chao Praya river basin (which
+has extreme precipitation in the
+monsoon season) near Bangkok.
+
+1
+
+2
+3
+4
+5
+6
+7
+8
+9
+
+12
+
+— Resilience was insufficient: Flood
+defenses in industrial estates could
+not withstand the flood, and either
+broke or were overrun.
+— Reconstruction took time:
+The most resilient small and
+medium-size enterprises (SMEs)
+in manufacturing returned to
+business after only one to three
+months, almost as soon as the
+floodwaters receded. Larger firms,
+took three to five months to restart
+production as they were using more
+advanced equipment with longer
+replacement times, which delayed
+recovery. The least resilient SMEs
+had even longer delays and higher
+levels of bankruptcy, reflecting a
+lower financial capacity to tolerate
+outages. By June 1, 2012, seven to
+eight months after the onset of the
+floods, 70 percent of Thai factories
+were restored or partly restored,
+20 percent were not yet restored,
+and 5 to 10 percent of factories had
+shut down permanently as a result
+of the floods. 5 Even a year after the
+floods, utilization of Thai electronics
+SME facilities was still only at
+40 percent.
+There were significant knock-on effects
+globally in key supply chains. The
+electronics and automotive industries
+were hardest hit and experienced an
+80 percent year-on-year decline in
+production in November.6 While the
+automotive sector returned to positive
+growth after four months, recovery for
+the electronics industry took longer
+
+and year-on-year growth was still
+negative seven months after the onset
+of the floods.
+Japanese manufacturers in the
+electronics and automotive industries
+were particularly affected as they were
+sourcing large parts of their inputs from
+Thailand. Most of the manufacturing
+facilities of the suppliers to Japanese
+automotive companies were disrupted
+for only one to three months; however,
+some factories were closed for up to
+six months, as plants were critically
+damaged and needed significant repairs.
+In total, car manufacturers produced at
+least 750,000 fewer cars because of the
+flood. Car manufacturers with smaller
+inventories, concentrated supply, and a
+long recovery time were more affected
+than others.7
+Prices of hard disk drives (HDD), the key
+product segment in the Thai electronics
+industry, spiked 80 to 190 percent
+(reflecting different products) as up to
+40 percent of global HDD production
+capacity was flooded, with prices
+remaining elevated for more than a
+year. 8 Industries downstream of and
+adjacent to HDD manufacturing were
+affected unevenly; the share prices
+of a major computer manufacturer
+fell 5 percent, while share prices for
+a manufacturer of solid state disks
+(SSDs), a substitute product, rose
+5 percent.9 This illustrates that while
+downstream players suffer when
+suppliers are disrupted, producers of
+substitute products may actually gain a
+temporary competitive advantage.
+
+Royal Thai Government and World Bank, Thai flood 2011: Rapid assessment for resilient recovery and reconstruction planning, 2012; Surapong Sarapa, The status
+of current meteorological alert of Thailand, Regional Workshop on Impact-Based Forecasts in RA II (Asia), Seoul, Korea, November 7–9, 2017, wmo.int/pages/
+prog/amp/pwsp/documents/2-2-1_SurapongSARAPA_Thailand.pdf.
+Christophe Courbage, Meghan Orie, and Walter R. Stahel. “Thai floods and insurance.” The Geneva Reports, 2012.
+T. W. Bank, “Thai Flood 2011: Rapid assessment for resilient recovery and reconstruction planning.” Bangkok: The World Bank, 2012.
+See for example, Thomas C. Peterson, Peter A. Stott, and Stephanie Herring, “Explaining extreme events of 2011 from a climate perspective,” Bulletin of the
+American Meteorological Society, July 2012, Volume 93, Number 7.
+Masahiko Haraguchi and Upmanu Lall, “Flood risks and impacts: A case study of Thailand’s floods in 2011 and research questions for supply chain decision making,”
+International Journal of Disaster Risk Reduction, December 2015, Volume 14, Part 3.
+David S. H. Rosenthal et al., The economics of long-term digital storage, Stanford University, September 2012.
+Bank of Thailand; Masahiko Haraguchi and Upmanu Lall, “Flood risks and impacts: A case study of Thailand’s floods in 2011 and research questions for supply chain
+decision making,” International Journal of Disaster Risk Reduction, December 2015, Volume 14, Part 3.
+Ibid.
+“Thai floods hit global hard drive production,” Financial Times, October 20, 2011.
+
+McKinsey Global Institute
+
+The risk of disruption has increased as supply chains have become
+optimized for efficiency rather than resiliency
+Increasingly global and efficient supply chains have underpinned economic growth and
+productivity improvements over the past few decades. However, the drive for efficiency and
+the resulting greater complexity and intricacy have increased the vulnerability of supply
+chains to disruption.
+Changes in inventory levels contribute to increased vulnerability. Since lean manufacturing
+gained popularity in the 1970s, with Just-in-Time and Just-in-Sequence production,
+companies have been striving to reduce metrics like inventory levels. Lower inventories
+reduce working capital, but also reduce supply chain resilience as the leanest companies
+are most reliant on receiving inputs from their suppliers on time. One industry where it is
+very costly to hold large inventories is aerospace, because parts like an airplane fuselage
+are so big. This also applies to some commodities, like the petrochemical gas ethylene,
+which either takes up a large amount of space or needs expensive pressurized containers;
+only a few days of ethylene inventory exists, and much of it is in transit in tankers or
+pipelines. Large inventories are also expensive in the semiconductor industry, because
+rapid innovation cycles cause inventory to depreciate fast.
+Vulnerability is also exacerbated by changes in production strategy. To achieve economies
+of scale, suppliers often only have one production site with the necessary technology to
+produce the goods they are making. For example, in a 2018 survey, 88 percent of suppliers
+across industries responded that they have only one production site available for each of
+their products. This was especially true in aerospace and defense and pharmaceuticals,
+where high safety requirements and long lead times to acquire regulatory approval increase
+the cost of new manufacturing facilities.12 Very specific requirements for production
+conditions (for example, in pharmaceuticals, semiconductors, or automotive) also mean that
+even small changes in the manufacturing environment can create production disruptions.
+Furthermore, these specific requirements make it harder to quickly get new sources of
+input during a disaster. For example, Hurricane Maria in 2017 created a shortage of saline
+bags in the United States as 40 percent of saline bags are produced in Puerto Rico, which
+suffered a power outage for 90 days following the hurricane. Strict requirements for the
+sterility of the manufacturing environment prevented other manufacturers from rapidly
+stepping in to compensate for lost capacity.13 There are also examples of raw materials that
+require specific natural conditions, like lithium. Lithium is extracted by drying lithium brine
+in an evaporation pond for two years in areas with very low precipitation. However, shifting
+weather patterns are already interfering with this process as historically dry regions in Chile
+have experienced torrential rainfalls over the past few years, reducing lithium output.14
+In some instances, production has also become more concentrated in regions with high
+climate hazards. With the goal of maximizing returns, companies have shifted manufacturing
+production centers to areas with preferable operating characteristics. Historically, this was
+in part due to labor arbitrage, but more recently, another driver has been to co-locate in
+specialized clusters.15 However, many of these areas are more susceptible to climate hazards.
+We identify two aspects of increased globalization that may be increasing climate risk in
+supply chains.
+
+12
+13
+14
+15
+
+EventWatch 2018 annual report, Resilinc, 2019.
+Philip J. Palin et al., Supply chain resilience and the 2017 hurricane season, CNA Corporation, 2018.
+Ernest Scheyder, “Albemarle’s lithium sales drop after Chilean rains,” Reuters, May 8, 2019.
+Globalization in transition: The future of trade and value chains, McKinsey Global Institute, January 2019.
+
+Climate risk and response | Case study: Supply chains
+
+13
+
+Firstly, the value of trade in goods as a proportion of all economic activity has increased
+from 10 percent in 1960, peaking at 25 percent in 2008 and then retreating to 23 percent in
+2018.16 This means that supply chains are more exposed to climate hazards from all over the
+world. This particularly applies to companies that assemble specialized manufactured goods
+containing many thousands of parts, like consumer electronics companies or automotive
+and airplane OEMs, as they require reliable inputs of a broad range of specialized parts
+that often are sourced from many different locations. The increased trade intensity also
+increases reliance on functional infrastructure services (for example, ports, rails, roads, and
+airports). Logistical infrastructure is often less well defended than manufacturing assets.
+Chronic flooding can cause regular short infrastructure interruptions of days or weeks. Even if
+businesses can absorb these interruptions, they can still add costs to production (for example,
+cost of relying on a private power generator), disproportionately affect small businesses (who
+typically lack the ability to run to private infrastructure services). The cost of self-generation
+is typically three times larger than that supplied from the grid.17 Acute tail events can cause
+significant damage to infrastructure systems, resulting in longer service outages that may
+cause bankruptcy to even larger and more prepared businesses.
+Secondly, economic activity has moved to higher-hazard countries, on average. For example,
+in 2018, countries with high hurricane hazard contributed 45 percent of global value of traded
+goods compared with 40 percent in 1991.18 Some industries are particularly concentrated
+in one region, driven by a focus on regional competitive advantage and the self-reinforcing
+effects of regional ecosystems. These industries have higher volume of output at risk, as a
+significant share of the global supply capacity can be disrupted simultaneously. For instance,
+40 percent or more of global refinery capacity of metals like copper, cobalt, and aluminum is
+in China.
+Production asset resilience has generally increased with improved technology, increased
+regulatory pressure for safety, and higher capital expenditures increasing value at risk and
+so incentivizing increased investments. However, this is partly offset by an increase in the
+requirements of the manufacturing environment—for example, moisture, temperature, or dust
+levels in manufacturing areas due to requirements from regulations or advanced automated
+technology. Automation in industries like automotive and semiconductors has grown rapidly.
+Automated manufacturing robots often are less resilient than laborers in several ways: some
+robots may be damaged by dust and moisture levels that workers can tolerate; repairs of
+specialized machines may take several months; and power consumed by the robots makes
+it necessary to install more emergency power to continue operations. Industries in rapid
+growth (like cobalt, lithium, medical appliances, or industrial robotics) may also experience
+“growth pains” like tight inventories and high utilization rates, further increasing climate risk.
+If the growth is fueled by high innovation rates, then leading-edge technology will be less
+commoditized, and fewer suppliers will be available to ramp up if one is disrupted. Therefore,
+some of the fastest growing and most technically advanced and innovative industries may be
+the most at risk and so the most in need of adaptation.
+
+16
+17
+18
+
+14
+
+Ibid.
+Stephane Hallegatte, Jun Rentschler, and Julie Rozenberg, Lifelines: The Resilient Infrastructure Opportunity, World
+Bank, July 2019.
+World Bank; Woods Hole Research Center.
+
+McKinsey Global Institute
+
+We identify three broad types of supply chains based on varying risk
+characteristics of downstream disruption from climate change
+We identify a spectrum of supply chains to help assess the nature of climate risk that
+companies may face. These include specialty and commodity at either end and intermediate
+in the middle (Supply chain‑1).
+Specialty
+In specialty supply chains, OEMs typically secure their inputs through long-term contracts
+or strategic collaborations with suppliers. Critical supplies may even be secured internally
+if players are vertically integrated. Suppliers may have unique manufacturing equipment
+that is designed specifically to produce the components of their customers. The necessary
+technology may exist in only one or a handful of manufacturing plants in the world. A good
+example is leading-edge semiconductors (see below for more details on semiconductor
+supply chains). In the supply chain of semiconductors, a supply disruption could lead to
+long production disruptions for downstream players, up to a year in extreme cases. The end
+products are designed for specific inputs, which means that inputs with different designs—for
+example, a microcontroller from another supplier—may change the functionality of the end
+product. If a supplier is disrupted, a downstream player without access to the usual inputs
+would have to requalify their product with their customers, using different inputs. As the
+alternative input would have somewhat different properties, this could require a full redesign
+of the product, which is typically not a viable strategy.
+Therefore, downstream players are reliant on getting the specific inputs they have planned
+for. Manufacturing of these inputs requires specific, advanced, and costly equipment. This
+machinery typically exists in only one to five locations around the world, due to economies of
+scale.19 Even if several machines exist, utilization may already be near 100 percent, preventing
+unaffected suppliers from scaling up if one of the machines breaks.20 Therefore, the machines
+must be replaced before production can resume. As this equipment is costly and specialized,
+it is manufactured on-demand, which typically takes several months. Specialized industries
+are thus often in turn reliant on another specialized supply chain, compounding downtimes.
+Additionally, industries like semiconductor equipment already have a production backlog of
+several months, driving the equipment replacement time up to a total of 6 to 12 months for
+some manufacturing devices.21 During the production disruption, the players downstream
+of the disrupted supplier are likely unable to maintain production unless they have access to
+alternative sources of inputs.
+Intermediate
+Intermediate supply chains are between specialty and commodity in their characteristics.
+Bilateral supply relationships are common but are shorter-term and of a less strategic nature
+than for the specialty supply chains. It is typically cheap for customers to switch suppliers, and
+several suppliers offer goods of comparable quality. Examples include standardized or lower
+quality chips; airplane interiors (for example, seats); and niche commodity chemicals. The
+less specialized the supply chain is, the easier it will be for unaffected suppliers to take over
+for a supplier that is disrupted. Therefore, downstream players will have to compete for the
+remaining supply capacity.
+
+19
+20
+21
+
+World fab forecast, SEMI, September 2019.
+McKinsey Semiconductor Practice expert interviews.
+Ibid.
+
+Climate risk and response | Case study: Supply chains
+
+15
+
+Case study
+
+Supply chain-1
+
+Supply chains face different knock-on effects from production disruption
+depending on the degree of commoditization.
+Strength of impact
+
+Illustrative
+
+Player directly affected by the disaster
+Low
+
+High
+
+Player experiencing negative knock-on effects
+Player experiencing competitive advantage
+
+Specialty
+
+Examples
+
+Suppliers
+
+Airplane fuselages, specialty
+drugs, high-end CPU chips,
+leading-edge optoelectronics
+
+S1
+
+C1
+
+S2
+
+C2
+
+S3
+
+C3
+
+S1
+
+C1
+
+S2
+
+C2
+
+S3
+
+C3
+
+S1
+
+C1
+
+S2
+
+C2
+
+RAM chips, generic
+automotive parts (e.g., car
+tires), hard disk drives,
+airplane interiors (e.g., seats)
+
+Metals (e.g., rare earths),
+oil and gas, petrochemicals
+(e.g., ethylene)
+
+Customers
+
+Market
+
+S3
+Commodity
+Source: McKinsey Global Institute analysis
+
+16
+
+McKinsey Global Institute
+
+C3
+
+Commodity
+In commoditized supply chains, downstream players acquire their inputs on a commodity
+trading exchange or via commodity brokers, and there is typically no direct bilateral
+relationship between the supplier and the customer. Products are standardized, and
+several suppliers are selling goods of comparable quality. Heavy rare earths are an example
+of a commoditized supply chain (see below for more details on heavy rare earth supply
+chains). Rare earth producers sell their product to brokers who resell it to industries that
+use rare earths in the production of EV batteries or specialized electronics.22 Therefore, all
+downstream players would be affected by the supply disruption as prices would rise. The
+effects of Hurricane Harvey caused US steam cracker utilization rates to drop by more than
+20 percent between August and September 2017. Ethylene prices increased over 25 percent
+during this period.23
+To better illustrate what happens due to disruptions in supply chains, we consider two
+examples of supply chains at the bookends of this distribution.
+
+The probability of a hurricane of sufficient intensity to disrupt
+semiconductor supply chains may grow two to four times by 2040
+As an example of a specialty supply chain, we analyze supply chains for semiconductor
+manufacturing, more than a $400 billion industry.24 By 2040, a company using leading-edge
+chips (for example, with applications in memory, logic, communication, or optoelectronics) such
+as an automotive OEM, sourcing from geographies in Korea, Japan, Taiwan, or other hubs in
+the western Pacific, can expect that hurricanes sufficient to disrupt their suppliers will become
+two to four times more likely.25 Some of these disruptions may last for several months. This has
+implications for many industries as chips are increasingly critical to the modern economy. For
+example, electrical content in cars increased from 2 percent in 1960 to 35 percent in 2010.26
+Several stages of the supply chain are highly concentrated in Asia–Pacific, including:
+— Raw material, for example, wafer and chemical-mechanical polishing (CMP) slurry
+— Chip manufacturing in segments within different application areas, for example, logical
+components like CPUs, communication technologies like 5G, memory technologies
+like RAM
+— Chip packaging
+— Chip assembly, creating specialized electronic circuitry for automotive, consumer tech,
+and industrial electronics, for example
+More than 50 percent of chip foundry production capacity of about 45 nanometer or smaller
+chips (typically focused on logic chips) is concentrated in ~15 facilities (factory modules)
+in Taiwan. About 98 percent of manufacturing capacity of 350 nanometer and smaller
+optoelectronic chips (for example, used in image sensors, lasers, LEDs) is in nine facilities in
+southern Japan, and about 40 percent of memory chip capacity is in ten facilities in Seoul and
+surrounding cities.27 A product using such chips will typically be reliant on many parts working
+at the same time. Therefore, a supply disruption in any one component category (for example,
+memory) may lead to many downstream production disruptions. The downstream assembled
+product will sell at a price higher than the sum of its components, and may be 100 times or
+
+22
+23
+24
+25
+26
+27
+
+Nawshad Haque et al., “Rare earth elements: Overview of mining, mineralogy, uses, sustainability and environmental
+impact,” Resources, October 2014, Volume 3, Number 4, mdpi.com/2079-9276/3/4/614/htm.
+IHS Markit Economics and Country Risk.
+Arne Holst, Semiconductor industry sales worldwide 1987-2020, Statista, Jan 7, 2020.
+McKinsey Global Institute analysis; Woods Hole Research Center.
+McKinsey Automotive Practice expert interviews.
+World fab forecast, SEMI, September 2019.
+
+Climate risk and response | Case study: Supply chains
+
+17
+
+even several thousand times the price of any individual part. For this reason, the disrupted
+gross output from an extreme weather event may become much larger if disruptions cascade
+through supply chains.
+Hurricane intensity can be measured in wind speeds, using the Saffir-Simpson scale, or in
+precipitation, measured in millimeters of precipitation per event, or precipitation over a time
+period. High wind speeds can be a hazard directly to vulnerable structures (for example,
+distribution power cables) or by causing storm surge that inundates coastal infrastructure and
+properties. Precipitation can directly harm sensitive manufacturing assets, particularly if the
+building exterior is already damaged by high wind speed, and cause flooding or landslides.
+This analysis keeps exposure constant to highlight how much climatic factors are driving risk.
+In other words, it assumes the distribution of facilities in 2040 is largely similar to today, which
+can be considered a “business as usual” scenario on the basis of clustering effects discussed
+in the introduction. Facility owners may decide to take action and relocate future or indeed
+current facilities. This analysis shows what the inherent risk is and how to best manage it.
+The increase in annual probability of hurricanes with extreme precipitation is driven primarily
+by an increase in temperature driving increased water-carrying capacity of hurricanes.28 This
+increased water-carrying capacity leads both to more intense rainfall (measured in millimeters
+per day), and longer-lasting rainfalls. Moreover, hurricanes could move slower, making
+rainfall last even longer in each location. Both the increase in intensity and duration of rainfall
+increase the risk of landslides and risk of rainwater directly contaminating the manufacturing
+assets. Increased rainfall intensity contributes more to increased flooding hazard than longer
+duration does. The reason is that the longer duration increases the opportunity for runoff,
+softening the severity of floods, compared with storms with similar total rainfall levels but over
+shorter durations.
+We analyzed hurricanes with a 1 percent annual probability of occurring in each location,
+based on cumulative event rainfall. With increasingly severe storms, events that currently
+have a 1 percent probability of occurring could become two to three times as common by
+2040 across ten major semiconductor hubs, under an RCP 8.5 scenario (Supply chain‑2).
+In Taiwan, this means that cities like Hsinchu, Taichung, and Tainan could see hurricanes
+with 1,500- to 2,500-millimeter precipitation or more approximately twice to three times as
+often, depending on the specific location.29 In Japan, precipitation levels for these events
+range from 500 millimeters in Tokyo to 950 millimeters in Kirishima, on the southern tip of the
+main islands. This is more than the recent Typhoon Jebi, which MunichRE’s NatCat database
+estimates is the costliest hurricane to date in the western Pacific. 30 The precipitation from a
+1 percent hurricane precipitation hazard in Korea is much lower, only 100 to 150 millimeters
+of rainfall near Seoul, but this is where the increase in annual probability is highest—up to
+four times. 31
+
+28
+
+29
+
+30
+31
+
+18
+
+Thomas Knutson et al., “Tropical cyclones and climate change assessment: Part II. Projected response to anthropogenic
+warming,” Bulletin of the American Meteorological Society, 2019; Geert Jan van Oldenborgh et al., “Attribution of extreme
+rainfall from Hurricane Harvey, August 2017,” Environmental Research Letters, December 2017, Volume 12, Number 12.
+This is higher than the 1,539 millimeters of rainfall observed in the US during Hurricane Harvey; Harvey was the wettest
+tropical cyclone on record in the United States and resulting flood waters, combined with wind speeds, caused damages
+of $100 billion. Munich Re, NatCatSERVICE, 2019. Jack F. Williams and Ch’ang-yi David Chang, Taiwan’s Environmental
+Struggle Toward a green silicon island, Routledge 2008.
+Munich Re, NatCatSERVICE, 2019.
+Kerry Emanuel, The Coupled Hurricane Intensity Prediction System (CHIPS), Massachusetts Institute of Technology,
+2019; Water and Climate Resilience Center, RAND Corporation. Woods Hole Research Center.
+
+McKinsey Global Institute
+
+Case study
+
+Supply chain-2
+
+Semiconductor manufacturing hubs in the Western Pacific are expected
+to experience disruptive extreme hurricanes two to three times as often
+by 2040 compared to today.
+Rainfall during historical 1-in-100 year hurricanes (with
+potential to disrupt production, as assets are typically
+engineered to withstand up to 1-in-100 year events)1
+Millimeters per hurricane
+
+Based on RCP 8.5
+
+Semiconductor
+market segment
+Opto- Foundry Memory
+electronic
+>25
+Global
+market 16–25
+share2
+11–15
+%
+≤10
+≤20
+≤50
+≤100
+≤250
+≤500
+≤1,000
+≤1,500
+≤2,000
+>2,000
+
+Change in frequency of hurricanes of this intensity by 2040
+Historical = 1
+
+≤1.00
+1.01–1.25
+1.26–1.75
+1.76–2.25
+2.26–3.00
+>3.00
+
+1. Hurricanes with 100-year historical return period, using 1980–2000 as reference period.
+2. Global market share of each hub in given product segment (e.g., foundry for 26% of chips of <47mm size globally concentrated in Tainan).
+Note: See the Technical Appendix for why we chose RCP 8.5. All projections based on RCP 8.5, CMIP 5 multimodel ensemble.
+Source: Woods Hole Research Center; McKinsey Global Institute analysis
+
+Climate risk and response | Case study: Supply chains
+
+19
+
+Change in wind speed evolution is also expected to be uneven across geographies.
+Hurricanes with annual probability of 1 percent today, based on maximum wind speed, will
+reach 1.25 to 2 percent annual probability in some locations by 2040, like western Taiwan and
+southwestern Japan. But there are winners as well as losers—such hurricanes are also set to
+decrease to 0.7 percent in parts of Korea and the Philippines. For exposed locations in Taiwan
+or Japan that see an increase, the historical 1 percent probability storm is either a category
+4 or 5, with wind speeds above about 200 kilometers per hour. 32
+There are three drivers of near-term losses for suppliers that are hit by such events, potentially
+leading to losses of up to 200 percent of annual profit and 35 percent of revenues: physical
+damages to assets, including facilities, production equipment, and inventories; reduced
+sales, either because production is disrupted or because goods cannot be shipped to the
+market; and higher costs in the reconstruction phase and after the plant is back in production,
+as market prices of labor, energy, and logistics may spike following a disaster (as seen in
+the 2011 Thai floods). The combination of these impacts may also limit suppliers’ ability to
+quickly and efficiently restore production, by reducing their ability to raise capital for repairs
+or by choking short-term cash flow and presenting unusual operational obstacles. However,
+these effects can be partly mitigated if manufacturers hold disaster insurance, have asset
+hardening or tighter design standards, or if the government offers disaster support.
+Semiconductor supply could be reduced by an extreme hurricane in several ways. First,
+common losses during extreme events include loss of infrastructure services, for example due
+to flooding of roads near the facilities preventing workers from accessing the facility, power
+grid outages, or closures of ports and airports.
+Second, direct damages to manufacturing assets are rarer, and historically direct damages
+have been minor. For instance, building exteriors may experience minor damages from
+wind pressure, water, or physical objects, but in itself, this is unlikely to lead to a production
+disruption. Other damages that have been observed in the past include damages to raw
+materials, work in progress inventory and finished chips, as well as unplanned shutdowns
+that may require rebooting the production robotics and requalifying that conditions in the
+manufacturing environment (for example, dust levels, humidity, temperature) are within
+required limits. This could disrupt several weeks and potentially months of production,
+particularly if the manufacturing area is contaminated by water, dust, or moisture that
+damages large amounts of inventory. These damages contributed to the slow recoveries
+following the 2011 Thai floods.
+Third, damages to the internal power system, building main structure, or specialized
+manufacturing equipment could be particularly costly as it could cause up to or beyond a
+full year of supply disruptions. For this reason, suppliers invest in making these parts of
+the factory particularly resilient. For instance, suppliers may have two connections to the
+central power grid, each sufficient to supply the plant with enough power on its own if the
+other should break. The manufacturing area clean rooms containing the manufacturing
+devices are typically placed on the upper floors to prevent any flooding. The clean rooms
+are often protected by an additional inner shell. If factories are flooded during the extreme
+weather, the manufacturing devices may be moved to particularly robust safe rooms to
+ensure that they are unharmed.
+
+32
+
+20
+
+Woods Hole Research Center Analysis, drawing from: Kerry Emanuel, The Coupled Hurricane Intensity Prediction
+System (CHIPS), Massachusetts Institute of Technology, 2019. National Hurricane Center and Central Pacific Hurricane
+Center, Saffir-Simpson Hurricane Wind Scale.
+
+McKinsey Global Institute
+
+We find that a severe supply disruption can cause cascading production disruptions
+downstream, particularly for unprepared players (Supply chain‑3). Using a hypothetical
+example, we estimate that downstream players could lose up to a third of annual revenue if
+supply is disrupted for an illustrative period of five months, a duration seen in some of the
+more severely disrupted players in the 2011 Thai floods. This could be the case if no alternative
+source or substitute was able to keep supply going (beyond a minimal inventory of finished
+goods) and if no measures had been taken to limit losses from disrupted downstream
+production (for example, insurance or negotiations with customers to delay supply).
+A well-prepared player, on the other hand, may only lose about 5 percent of revenue in a similar
+event. Preparations may include dual sourcing (so only 50 percent of supply is lost), increasing
+supplier resiliency through due diligence and collaboration with suppliers on asset hardening;
+this can limit the recovery time to less than one month. Several other actions can help further
+reduce the losses, including insurance, even faster recovery through best practice emergency
+procedures, and discounted cross-selling of substitute products (for example, premium models
+or older product versions) to end consumers. These adaptations come with a cost that needs to
+be considered, but many of these investments may be smaller than the loss avoided.
+Adaptation areas for semiconductor supply chains include two key areas: building disasterproof plants (for producers) and raising inventory levels in order to continue production even
+if a supply chain is interrupted (for downstream players). We find that building disaster-proof
+plants means additional costs of roughly 2 percent of the building costs which equals an
+additional $20 million for an average plant. Raising the inventory to provide a meaningful
+buffer in case of supply disruption, with estimated costs for warehousing and working capital,
+could increase input costs by less than a percent.
+The value of preparedness can be even higher if the supply disruption happens before a new
+product launch. In consumer electronics, product global change: life cycles are short, with
+new smartphone models being launched every year, and product lifetimes rarely exceeding
+five years. If product launch is delayed by five months, the technology may be outdated shortly
+thereafter, and competitors may gain a significant advantage.
+
+Climate risk and response | Case study: Supply chains
+
+21
+
+Case study
+
+Supply chain-3
+
+Being prepared for extreme weather impacts can minimize supply chain disruptions.
+In the case of disruption to the semiconductor supply chain, an unprepared downstream company
+could lose about 35% of annual revenue while preparation limits the loss to about 5%.
+Effect of disruption from 100-year hurricane on
+upstream semiconductor manufacturer
+Impact on earnings before interest and taxes (EBIT),
+% of normal year revenues
+
+Illustrative
+
+Normal year
+
+Normal year revenues
+
+100
+
+Disaster year—
+low-impact scenario
+Disaster year—
+high-impact scenario
+
+-70
+
+Normal year costs
+Normal year EBIT
+
+30
+
+Damaged assets write-down:
+plant, equipment, inventory1
+EBIT impact from lost sales2
+Disefficiencies in logistics,
+labor, basic supplies3
+EBIT in disaster year
+
+-45
+
+-30
+-10
+-55
+
+Effect of disruption from 100-year hurricane on
+downstream electronics player4
+% of normal year revenues
+
+Normal year
+Hypothetical disaster year
+
+An unprepared player could lose
+~35% of revenues in a disaster year
+Normal year
+revenues
+
+100
+
+Lost sales from
+disrupted supply
+Sales based
+on safety stock
+Disaster year
+revenues
+
+A well-prepared player would lose much less,
+even in a disaster year
+
+40
+5
+
+100
+15
+10
+
+65
+
+95
+-35%
+
+5-month disruption of 100% of single-sourced
+supply
+With 2 weeks of safety stock, resulting
+production disruption of 4.5 months
+
+-5%
+
+Dual sources and stronger asset resilience:
+only 3 months of 50% of supply disrupted
+2x safety stock, spending at half pace due to dual
+sourcing, lasting for 2 months
+Only 1 month disruption of 50% supply
+
+1. Includes structural plant failure, replacement, repairs, and/or requalification of equipment, as well as raw material, work-in-progress inventory, and
+finished goods.
+2. Lost revenues from disrupted sales, partly mitigated by reduced cost of goods sold proportional to reduction in sales volumes.
+3. Includes costly additional labor, expensive backup power during grid failure, makeshift logistics solutions during rail or road disruptions, etc.
+4. Excludes impact of insurance; exact outcomes vary considerably with local conditions and other factors.
+Source: CP Analytics; Thailand government reports on 2011 floods; McKinsey Global Institute analysis
+
+22
+
+McKinsey Global Institute
+
+The probability heavy rare earths production is severely disrupted from
+extreme rainfall may increase two to three times by 2030
+Heavy rare earths production is concentrated in southeastern China, which is increasingly
+exposed to extreme rainfall. About 80 to 90 percent of global production is concentrated in
+only 60 mines in a 150-kilometer-radius circle around Anyuan, in the province of Jiangxi. Heavy
+rare earths are vital in permanent magnets and electronics used in the defense sector, electric
+vehicles, wind turbines, consumer electronics, and medical appliances and typically cannot
+be substituted with light rare earths or other materials without a significant drop in quality. We
+examine this as an example of a commodity supply chain facing potential disruption.
+Scientists are confident that continued increasing global temperatures will drive an increase
+in intensity and frequency of heavy precipitation events in many regions. 33 We find that heavy
+rare earth production in southeastern China will experience extreme precipitation events
+(defined as events that occurred historically with an annual probability of about 2 percent,
+corresponding to precipitation of about 170 millimeters per day in the relevant region) twice
+as often by 2030. Expert estimates and historical events indicate that such rainfall events
+significantly increase the risk of landslides in the region.
+This region already has some of the strongest rainfalls in the world, with pluvial flooding nearly
+every year, and some mines already close for a couple of months during the wet season in
+mid-June to mid-September. Moreover, annual probability of extreme precipitation events has
+already increased to 2.5 percent compared with the historical baseline of 1951-80, and will
+continue evolving past 2030, reaching 6 percent annual probability by 2050. 34 While China
+has invested significantly in flood defenses in the past 20 years this has primarily focused on
+urban areas, and has done little to reduce risk to rare earth mines.
+We estimate that the manifestation of an extreme precipitation event, or series of events,
+could cause at least a 20 percent drop in heavy rare earth output, and potentially much more
+in a worst case scenario. Damage mechanisms include excessive mud and landslides in
+mines, flooding treatment ponds, and disrupted logistics to and from mines (Supply chain‑4).
+Landslides are of particular concern, as they could both disrupt the ongoing leaching process
+in the mine if leach holes collapse and prevent production after the landslide if on-site repair
+works are required before new leach holes are dug (for example, to make sure that the soil
+has stabilized). This means a large landslide could disrupt production for up to 12 months in
+severely hit mines, though for most mines the disruption would be shorter if the landslide is
+shallow and only affects parts of the mine.
+Even a limited supply shortfall could cause prices to rise substantially (Supply chain‑5). During
+the supply crisis in 2010–11, prices of several rare earths increased more than ten times. 35 The
+supply crisis was caused by market fears and diplomatic tensions after China reduced export
+quotas from about 50 metric tons to about 30 metric tons. 36 According to Chinese authorities,
+environmental reasons and a crackdown on illegal mining caused the supply shortage. The
+magnitude of the global shortfall in production is uncertain as reliable data on the extent of
+the illegal mining prior to 2010 are scarce, but estimates range from 10 to 40 percent. 37
+
+33
+34
+
+35
+36
+37
+
+Richard Wartenburger et al., “Changes in regional climate extremes as a function of global mean temperature: An
+interactive plotting framework,” Geoscientific Model Development, September 2017, Volume 10, Number 9.
+It is important to note that near-term regional projections of precipitation extremes have been assessed as highly
+sensitive to the influence of natural variability, particularly in lower latitudes, and therefore the 30-year projection is more
+robust than the decadal projection. Furthermore, there is recent evidence from observational records indicating that
+in many regions climate models may underestimate changes in precipitation volume. For more details on the relevant
+uncertainties, please see: Ben Kirtman et al., “Near-term Climate Change: Projections and Predictability,” in Climate
+Change 2013: The Physical Science Basis. Contribution of Working Group I to the Fifth Assessment Report of the
+Intergovernmental Panel on Climate Change, Thomas F. Stocker et al., eds., New York, NY: Cambridge University
+Press, 2014. Woods Hole Research Center.
+Molycorp, 2014.
+March Humphries, Rare Earth Elements: The Global Supply Chain, Specialist in Energy Policy December 16, 2013.
+Wayne M. Morrison and Rachel Tang, China’s rare earth industry and export regime: Economic and trade implications
+for the United States, US Congressional Research Service, April 30, 2012; Xibo Wang et al., “Production forecast of
+China’s rare earths based on the Generalized Weng model and policy recommendations,” Resources Policy, March 2015,
+Volume 43.
+
+Climate risk and response | Case study: Supply chains
+
+23
+
+Case study
+
+Supply chain-4
+
+The frequency of rainfall events in Southeast China with the potential
+to cause landslides in mines producing heavy rare earth metals is
+projected to continue to increase.
+Future and annual probability of extreme precipitation
+Defined as precipitation exceeding ~170mm per day
+
+Based on RCP 8.5
+
+Multiple,
+compared
+to historic1
+0–2.0x
+
+Today
+Increase from historical
+reference period (1951–81)
+to current (1998–2017).
+
+2.1–3.0x
+3.1–4.0x
+4.1–5.0x
+>5.0x
+Number
+of mines
+producing
+heavy rare
+earths2
+1
+
+2030
+Increase relative to
+historical reference period
+
+2–3
+4–9
+>9
+
+2050
+Increase relative to
+historical reference period
+
+1. Multiple relative to historical reference period (1951–81).
+2. Map shows 66 of 67 mines producing heavy rare earth metals globally, representing >90% of global production; some mines producing light rare
+earths, e.g., Bayan Obo in Inner Mongolia, produce limited quantities of heavy rare earths.
+Note: See the Technical Appendix for why we chose RCP 8.5. All projections based on RCP 8.5, CMIP 5 multimodel ensemble. Following standard
+practice, we define current and future (2030 and 2050) states as average climatic behavior over multidecade periods. Climate state today is
+defined as average conditions between 1998 and 2017, in 2030 as average between 2021 and 2040, and in 2050 between 2041 and 2060.
+Source: Chinese Ministry of Information and Technology through NengApp.com; Woods Hole Research Center; McKinsey Global Institute analysis
+
+24
+
+McKinsey Global Institute
+
+Case study
+
+Supply chain-5
+
+Supply shortfalls in rare earths could cause price spikes as happened in 2010–11.
+STOXX Global Rare Earth Index prices for heavy rare earths
+Index: 100 = January 2010
+
+Dysprosium
+
+2,200
+
+Yttrium
+
+Terbium
+
+2,000
+1,800
+1,600
+1,400
+1,200
+1,000
+800
+600
+400
+200
+0
+Jan
+2010
+Chinese
+government
+announces
+export quota
+restriction on
+rare earths
+
+Jun
+10
+
+Sep
+10
+
+Jan
+2011
+
+Chinese government
+announces rare earth
+export ban to Japan
+following diplomatic
+tensions
+
+Aug
+11
+35% reduction
+in Chinese
+export quotas
+kicks in
+
+Jan
+2012
+
+Aug
+12
+
+Jan
+2013
+
+Lynas opens
+rare earth
+mine in
+Mount Wells,
+Australia
+
+Molycorp reopens
+rare earth mine in
+Mountain Pass,
+California
+
+Jan
+2014
+
+Source: Croat, 2018; Lynas Corp.; Molycorp, 2014; New York Times; Wiley Rein
+
+Since the supply shortages, some rare earth consumers have attempted to build stockpiles
+in case of price spikes, but public data on the scale of the stockpiling are scarce. For
+downstream players without substantial inventories, a price spike would mean they either
+have to reduce their consumption of heavy rare earths or increase their spending.
+A supply shortfall would be more critical for some heavy rare earths than others. Since the
+supply shortage in 2010–11, significant effort has been put into researching alternatives
+to rare earths, but with limited success in the key application areas. Going forward, there
+is concern about whether supply can keep up with demand for the materials that are used
+in high-growth segments like cleantech and consumer electronics, as well as high-end
+segments like aerospace and defense and medical appliances. Disruptions from climatic
+disruptions will add extra pressure to a supply chain that has little to no slack. This particularly
+applies to dysprosium (used in batteries, wind turbines, electric vehicles, and missile guidance
+systems), erbium (used in fiber optics), and terbium and yttrium (used in display electronics
+and low energy lighting). All of these materials are further used in high-end electronics (for
+example, for radiation detection equipment and X-ray screens) as well as glass coloring.
+Of these, dysprosium, terbium, and yttrium, together with the light rare earths neodymium
+and europium, are considered “critical to advancement in a clean energy future” by the
+
+Climate risk and response | Case study: Supply chains
+
+25
+
+US Department of Energy. 38 In the case of a supply shortfall, prices of these materials would
+be particularly likely to spike, and customers with low inventories and low willingness to pay
+would have to reduce their consumption through lower quality substitutes or reduced output.
+Downstream players dependent on rare earths can protect themselves from climate-changeinduced physical risk by raising inventory levels at the cost of additional working capital and
+storage space needed, similar to the semiconductor example above.
+Rare earth miners can also adapt in other ways, for example, by using different leaching
+products and processes that decrease the risk of landslides or moving leach holes away
+from the steepest slopes. We estimate these measures could increase COGS by less than
+5 percent.
+Other adaptation measures could slightly decrease the output of the mines: one option
+would be to select sites in areas with a lower concentration of mines in order to diversify risk,
+even if these mines have marginally lower potential. For example, Yunnan and Hunan have less
+than 2 mines today, while there are more than 54 mines in Jiangxi. Finally, if extreme rainfall is
+expected, miners could extract the leach in the most mature leach holes ahead of schedule.
+This would limit destruction of work in progress inventory when the rainfall turns mines to
+mud. All adaptation measures mentioned could be implemented in the short term and would
+eliminate about 50 to 80 percent of risk for rare earth miners, according to our estimates.
+
+There is significant potential for industries to adapt and strengthen
+supply chains in the face of growing climate risks
+Supply chains and the infrastructure that supports them are designed for a stable climate.
+As hazards evolve, it will be necessary to increase investment in adaptation, possibly at the
+expense of efficiency.
+Risk diagnostics should be a major consideration for many players. To successfully increase
+climate resilience, supply chain managers should first identify which of their suppliers (and
+their suppliers’ suppliers, and so on) are critical for business continuity, and what level of
+climate hazard these suppliers face. Based on this information, an assessment can be made of
+where the largest risks lie in the supply chain from climate-related hazards. This is a non-trivial
+task: the many possible permutations and layers in supply chains, the interdependencies of
+supply and demand and the vast optionality of different adaptation measures at different
+points all create significant complexity. Investments in digital analytics to understand datadriven simulations of alternate adaptation and risk scenarios may be beneficial. No-regret
+moves include: identifying and prioritizing key risks, having adequate insurance coverage,
+setting up a war room and practicing simulations, and closer collaboration between suppliers
+and buyers. While any individual action is insufficient to eliminate the supply disruption risk
+entirely, a combination of adaptive actions can limit the risk significantly.
+We find significant potential for many industries to adapt in the next decade, and indeed this
+is already underway in some areas, including from public authorities, suppliers in high-hazard
+locations, and customers in downstream sectors. For example, a leading global manufacturing
+conglomerate has increased stocks of critical inputs and has entered contingency plan
+agreements with suppliers to ensure they get allocation of available supplies following a
+disaster. 39 A global agricultural business is diversifying its raw material sourcing across
+different geographies and its industrial activities across crops, to reduce the impact of local
+crop failures (for example, from unusual local weather conditions).
+
+38
+39
+
+26
+
+Nawshad Haque et al., “Rare earth elements: Overview of mining, mineralogy, uses, sustainability and environmental
+impact,” Resources, October 2014, Volume 3, Number 4.
+Weathering the storm: Building business resilience to climate change, Center for Climate and Energy Solutions,
+July 2013.
+
+McKinsey Global Institute
+
+Broader adaptation measures we identify include:
+— Protecting supply chain assets: For rare earth metals, this may include selecting
+leaching chemicals that degrade the structural stability of the soil as little as possible;
+putting lids on treatment ponds; limiting the slope around leach holes where possible;
+and extracting leach from near-mature leach holes in advance of major rainfalls. For
+semiconductors, this may include strengthening the inner shell around the clean rooms
+where critical manufacturing equipment and WIP inventory are kept; elevating the facility
+to stay above likely flood levels; or designing the facility so the most critical equipment
+is on the higher floors. Approaches to protecting assets should be considered as early
+as possible in the asset lifecycle, as tightening design standards will be cheaper than
+hardening assets after they are constructed in most cases.
+— Redesigning supply chain operations: Working to improve the extreme weather
+preparedness of suppliers could help by encouraging suppliers to keep reserve capacity
+of critical supplies on-site, increase flexibility of production so it can continue even
+through a minor asset damage, or hold a war chest to be able to invest quickly to repair
+damages after a natural disaster. Downstream players can increase the safety stock of
+critical inputs to ensure their production continues even if the supply chain is interrupted.
+In addition, it is helpful to keep an overview of all relevant inventory in the entire supply
+chain, as there may be additional inventory at supplier sites or in transit.
+— Reducing exposure by creating alternatives: By avoiding co-locating with a large share
+of suppliers or helping specialized suppliers select plant locations with low climate hazard,
+risk could be reduced. Finding ways to invest in spare production capacity to be able to
+ramp up if one supplier is disrupted is another option. Where possible, companies could
+source commoditized, generic parts and avoid at-risk materials or products. An option
+includes increasing modularity in product design to make it possible to replace parts with
+near substitutes without implications for other parts.
+— Allocating risk by using financial and contractual mechanisms: Suppliers should
+consider hedging commodity price extreme risks to limit the impact of price volatility,
+engaging in long-term fixed-price contracts with resilient commodity suppliers to prevent
+price flareups in a disaster, and investing in insurance to help recoup repair costs.
+— Shoring up supply chain infrastructure: Supply chains are also heavily exposed
+to infrastructure risk. Actions that can be taken to adapt include investment in
+understanding granular local hazards and infrastructure vulnerabilities to help businesses
+and communities adapt; organizing public-private partnerships to foster collaboration
+on climate change adaptation for exposed infrastructure; investing in infrastructure
+hardening to increase resistance to extreme weather; developing urban drainage
+solutions to limit future flood levels; and investing in early warning systems to alert the
+public when there is imminent risk of extreme weather events.
+Not all actions will make sense for each supply chain category, as there often is a tradeoff between efficiency and resilience. For example, dual-sourcing may not make sense
+if economies of scale are too large, as often is the case in pharmaceuticals or aerospace.
+Building safety stock may be too costly if holding costs are high (for example, airplane
+fuselage), inventory depreciation is high (for example, in semiconductors due to rapid
+innovation lifecycles) or if there already is a supply backlog meaning building inventory would
+limit current sales. There are “win-wins,” however—some actions that increase resiliency
+can also increase efficiency or product quality. For instance, increasing modularity can
+make it easier to innovate and improve product design, because the design of each part
+
+Climate risk and response | Case study: Supply chains
+
+27
+
+is less constrained by the other parts. For downstream players, this could also help provide broader
+diversification opportunities across different suppliers and help reduce procurement costs. Similarly,
+closer collaboration with suppliers of single-sourced inputs can both enable resilience and offer
+opportunities for co-innovation through co-investing in asset hardening measures.
+Industry 4.0 technologies could help support companies in achieving resilience as well as efficiency; for
+example, through improving transparency in supply chains, and in some cases, potentially changing the
+economics of production.
+
+28
+
+McKinsey Global Institute
+
+McKinsey Global Institute
+August 2020
+Copyright © McKinsey & Company
+Designed by the McKinsey Global Institute
+www.mckinsey.com/mgi
+@McKinsey
+@McKinsey
+
+

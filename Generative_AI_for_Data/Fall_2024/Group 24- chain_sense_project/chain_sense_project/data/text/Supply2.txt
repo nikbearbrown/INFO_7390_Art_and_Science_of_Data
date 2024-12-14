@@ -1,0 +1,1558 @@
+© 2024 International Monetary Fund
+
+WP/24/79
+
+IMF Working Paper
+European Department
+This Is Going to Hurt: Weather Anomalies, Supply Chain Pressures and Inflation
+Prepared by Serhan Cevik and Gyowon Gwon*
+Authorized for distribution by Bernardin Akitoby
+April 2024
+
+IMF Working Papers describe research in progress by the author(s) and are published to elicit
+comments and to encourage debate. The views expressed in IMF Working Papers are those of the
+author(s) and do not necessarily represent the views of the IMF, its Executive Board, or IMF management.
+
+ABSTRACT: As climate change accelerates, the frequency and severity of extreme weather events are
+expected to worsen and have greater adverse consequences for ecosystems, physical infrastructure, and
+economic activity across the world. This paper investigates how weather anomalies affect global supply chains
+and inflation dynamics. Using monthly data for six large and well-diversified economies (China, the Euro area,
+Japan, Korea, the United Kingdom, and the United States) over the period 1997-2021, we implement a
+structural vector autoregressive model and document that weather anomalies could disrupt supply chains and
+subsequently lead to inflationary pressures. Our results—based on high-frequency data and robust to
+alternative estimation methodologies—show that these effects vary across countries, depending on the severity
+of weather shocks and vulnerability to supply chain disruptions. The impact of weather shocks on supply chains
+and inflation dynamics is likely to become more pronounced with accelerating climate change that can have
+non-linear effects. These findings have important policy implications. Central bankers should consider the
+impact of weather anomalies on supply chains and inflation dynamics to prevent entrenching second-round
+effects and de-anchoring of inflation expectations. More directly, however, governments can invest more for
+climate change adaptation to strengthen critical infrastructure and thereby minimize supply chain disruptions.
+RECOMMENDED CITATION: Cevik, S., and G. Gwon (2024). “This Is Going to Hurt: Weather Anomalies,
+Supply Chain Pressures and Inflation,” IMF Working Paper No. 24/79 (Washington, DC: International Monetary
+Fund).
+JEL Classification Numbers:
+
+E32; F14; F62; F64; G15; G30; Q54
+
+Keywords:
+
+Climate change; weather anomalies; temperature; supply chain
+pressures; inflation; structural VAR
+
+Author’s E-Mail Address:
+
+scevik@imf.org; gyowon.gwon@univ-paris13.fr
+
+* The authors would like to thank Yan Carriere-Swallow, Andrew Hodge, Geoffrey Keim, Samuel Pienknagura,
+Baoping Shang, Christoph Ungerer, and the participants of a seminar at the European Department of the
+International Monetary Fund (IMF) for helpful comments and suggestions.
+
+©International Monetary Fund. Not for Redistribution
+
+WORKING PAPERS
+
+This Is Going to Hurt
+Weather Anomalies, Supply Chain Pressures and
+Inflation
+
+Prepared by Serhan Cevik and Gyowon Gwon
+
+©International Monetary Fund. Not for Redistribution
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Contents
+Executive Summary ............................................................................................................................................ 3
+I.
+
+Introduction .................................................................................................................................................. 4
+
+II.
+
+Literature Review ................................................................................................................................... 6
+
+III.
+
+Data Overview ........................................................................................................................................ 7
+
+IV.
+
+Econometric Strategy ......................................................................................................................... 11
+
+V.
+
+Empirical Results ................................................................................................................................ 12
+
+VI.
+
+Conclusion ........................................................................................................................................... 24
+
+References ......................................................................................................................................................... 25
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+2
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Executive Summary
+The world economy has experienced a series of unprecedented shocks over the past three years, disrupting
+supply chains, causing a deep recession, and pushing inflation to the highest level since the 1970s. While
+inflation is on a downward trajectory with economic activity on the mend, vulnerabilities persist. One of the most
+significant risks to the global economy and financial markets is climate change. As human-induced climate
+change accelerates over the coming decades, greater frequency and severity of extreme weather conditions
+can have far-reaching adverse consequences for physical infrastructure and economic activity. There is
+convincing evidence that climate-related natural disasters have significant effects on inflation and economic
+growth. An important channel of this relationship is the impact of weather anomalies—caused by climate
+change—on global supply chains in the production and distribution of goods and services. Disruptions during
+the COVID-19 pandemic and the ensuing sharp increase in global inflation have highlighted the importance of
+risks to the complex and interdependent network of supply chains across the world. With rising global
+temperatures, extreme weather events stress transportation infrastructure and highly connected global supply
+chains, interrupting production, causing shortages, and leading to higher prices.
+Demand-side factors certainly play a significant role in driving inflation, but this paper aims to close an
+important gap in the literature by investigating the impact of weather anomalies on global supply chains and
+inflation dynamics. Using monthly data covering six large and well-diversified economies—China, the Euro
+area, Japan, Korea, the United Kingdom, and the United States—over the period 1997-2021, we implement a
+structural vector autoregressive (SVAR) model and trace the contemporaneous effects of weather anomalies
+on supply chains and inflation dynamics. To the best of our knowledge, this is the first attempt in the literature
+to investigate the impact of weather shocks on supply chain pressures and alternative measures of inflation
+using a SVAR model, which offers insights on how climate change could affect global supply networks and
+inflation dynamics beyond the sample of countries used in the analysis. For robustness, we also implement the
+local projection (LP) method to trace the dynamic effects of temperature anomalies on supply chains and
+inflation over time.
+We find that weather anomalies could contribute to supply chain disruptions and subsequently lead to
+inflationary pressures. Our results—based on high-frequency data and robust to alternative estimation
+methodologies—show significant heterogeneity across countries in the sample, which we attribute to
+differences in the severity of weather shocks and vulnerability to supply chain disruptions. The impact of
+weather shocks on supply chains and inflation dynamics is likely to become more pronounced with accelerating
+climate change that can have non-linear effects. Although our empirical results do not always show a strong
+positive link between weather shocks and supply chain disruptions, due to, in part, the use of aggregated
+supply-side disruptions, this does not imply that we can be complacent about increasing weather anomalies.
+For instance, a severe drought has reduced water level considerably in Panama Canal, disrupting trade route
+connecting Asia and North America. Our results have important policy implications. Central bankers should
+consider the persistent impact of weather anomalies on supply chains and inflation dynamics to prevent
+entrenching second-round effects and de-anchoring inflation expectations. More directly, however,
+governments can invest more for climate change adaptation to strengthen critical infrastructure and thereby
+minimize supply chain disruptions.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+3
+
+IMF WORKING PAPERS
+
+I.
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Introduction
+
+The world economy has experienced a multitude of shocks in recent years, disrupting global supply chains,
+causing a deep recession, and pushing inflation to the highest level since the 1970s. While inflation is on the
+decline from its peak of 11.6 percent in 2022 to 5.3 percent in 2023, long-term vulnerabilities persist. One of the
+most significant risks to the global economy and financial markets is climate change. The increase in the global
+land temperature has reached more than 1.1 degrees Celsius (°C) compared with the preindustrial average,
+before human-induced climate change began to take effect (Figure 1).1 Projections show that accelerating
+climate change will raise the mean temperature above the 1.5°C threshold in the near term and by as much as
+4°C over the next century absent a global green transition. As climate change accelerates over the coming
+decades, greater frequency and severity of acute weather events can have far-reaching adverse consequences
+for physical infrastructure and economic activity (Stern 2007; IPCC 2007, 2014, 2019; 2021). There is
+convincing evidence that show climate-related natural disasters having significant effects on inflation and
+growth (Cevik and Jalles, 2023). An important channel of transmission in this context is the complex and
+interdependent network of supply chains across the world, as shown by disruptions during the COVID-19
+pandemic (Bonadio et al., 2021; Binici et al., 2022; Celasun et al., 2022; Santacreu and LaBelle, 2022). With
+rising temperatures, extreme weather conditions will stress transportation infrastructure and highly-connected
+global supply chains—interrupting production, causing shortages, and leading to higher prices.2
+
+Figure 2. Global Temperature Anomalies
+Degrees Celsius
+3
+2.5
+2
+1.5
+1
+0.5
+0
+-0.5
+-1
+-1.5
+
+2023
+
+2016
+
+2010
+
+2004
+
+1997
+
+1991
+
+1984
+
+1978
+
+1971
+
+1965
+
+1959
+
+1952
+
+1946
+
+1939
+
+1933
+
+1927
+
+1920
+
+1914
+
+1907
+
+1901
+
+1894
+
+1888
+
+1882
+
+1875
+
+1869
+
+1862
+
+1856
+
+1850
+
+-2
+
+Source: National Oceanic and Atmospheric Administration.
+The average global temperature in 2023 was already about 1.5°C warmer than that of the pre-industrial period. However, a
+temporary increase of 1.5°C is different from the Paris Agreement target of limiting long-term global warming to 1.5°C by 2100.
+2
+Supply chain disruptions persisting a month or longer already occur every 3.7 years on average (Lund et al., 2020). These
+disruptions are not just caused by hurricanes and tornadoes, but also by severe drought due to intense heat waves, for example, in
+the Panama Canal and the Rhine river, which are the only passageway for container vessels between the Atlantic and Pacific
+oceans and one of the most important inland waterways in Europe, respectively. Carriere-Swallow et al. (2023) find that higher
+shipping costs due to supply chain disruptions have a significant effect on domestic inflation in a sample of 46 countries.
+1
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+4
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Conceptually, the effects of weather anomalies, as measured by unseasonal temperature deviations in this
+paper, can evolve through different direct and indirect transmission mechanisms, with opposing effects
+simultaneously on demand and supply (Somanathan et al., 2021; Cevik and Jalles, 2023; Ciccarelli, Kuik, and
+Hernández, 2023). First, weather shocks can result in higher energy demand and prices, which could in turn
+lead to second-round effects on non-energy prices across the economy. Second, large weather fluctuations
+can lower individual productivity in climate-sensitive sectors of the economy and alter inflation dynamics. Third,
+weather shocks can cause supply chain disruptions, instigating a productivity shortfall, increasing the cost of
+transportation and production, and consequently contributing to higher inflation. In this complex context, we
+examine how the increasing frequency and severity of weather anomalies affect supply chains and inflation
+dynamics (Figure 2).
+
+Figure 2. Transmission of Temperature Shocks
+
+This paper aims to close an important void in the literature by providing an empirical analysis of how weather
+anomalies—measured by unseasonal deviation in temperature from the historical average—affect supply chain
+pressures and inflation dynamics. Using monthly data covering six large economies—China, the Euro area,
+Japan, Korea, the United Kingdom, and the United States—over the period 1997-2021, we estimate a set of
+structural vector autoregressive (SVAR) models for each country in the sample and trace the contemporaneous
+effects of weather shocks on country-specific supply chain pressures and inflation. To the best of our
+knowledge, this is the first attempt in the literature to investigate the impact of temperature anomalies on supply
+chain disruptions and alternative measures of inflation using a SVAR model, which offers insights on how
+climate change could affect global supply networks and inflation dynamics beyond the sample of countries
+used in the analysis. For robustness, we also implement the local projection (LP) method to trace the dynamic
+effects of temperature anomalies on supply chains and inflation dynamics over time.
+We find that weather anomalies could disrupt supply chains and subsequently lead to inflationary pressures.
+Our results—based on high-frequency data and robust to alternative estimation methodologies—show
+significant heterogeneity across countries in the sample, which we attribute to differences in the severity of
+weather shocks and vulnerability to supply chain disruptions. The impact of weather shocks on supply chains
+and inflation dynamics is likely to become more pronounced with accelerating climate change that can have
+non-linear effects. Although our empirical results do not always show a strong positive link between weather
+shocks and supply chain disruptions, due to, in part, the use of aggregated supply-side disruptions, this does
+not imply that we can be complacent about increasing weather anomalies. For instance, a severe drought has
+reduced water level considerably in Panama Canal, disrupting trade route connecting Asia and North America.
+Our results have important policy implications. Central bankers should consider the persistent impact of
+weather anomalies on supply chains and inflation dynamics to prevent entrenching second-round effects and
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+5
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+de-anchoring inflation expectations. More directly, however, governments can invest more for climate change
+adaptation to strengthen critical infrastructure and thereby minimize supply chain disruptions.
+The remainder of this study is structured as follows. Section II describes the data used in the analysis. Section
+III introduces the salient features of our econometric strategy and presents the empirical results. Finally,
+Section IV offers concluding remarks with policy implications.
+
+II. Literature Review
+This paper contributes to a growing branch of the literature focusing on the impact of climate change on
+economic activity and financial markets.3 Starting with Nordhaus (1991; 1992) and Cline (1992), aggregate
+damage functions are widely used to analyze the relationship between climatic conditions and economic
+developments. Although the identification of macroeconomic effects of annual variation in climatic conditions is
+a difficult empirical undertaking, Gallup, Sachs, and Mellinger (1999), Nordhaus (2006), and Dell, Jones, and
+Olken (2012) observe that higher temperatures result in a significant reduction in economic growth in
+developing countries. Burke, Hsiang, and Miguel (2015) corroborate this finding and determine that higher
+temperatures would have a greater damage in countries that are concentrated in geographic areas with hotter
+climates. Using large datasets, Acevedo et al. (2018), Burke and Tanutama (2019), Kahn et al. (2021), and
+Akyapi, Bellon, and Massetti (2022) show that the long-term economic impact of weather anomalies, such as
+persistent changes in the temperature above or below the historical norm, is not homogenous across countries
+and that economic growth responds nonlinearly to extreme temperature.
+It is also well documented that increasing frequency and severity of climate-related natural disasters affect
+economic development (Loyaza et al., 2012; Noy, 2009; Raddatz, 2009; Skidmore and Toya, 2002), reduce the
+accumulation of human capital (Cuaresma, 2010) and worsen external balances (Gassebner, Kesk, and The,
+2006). More recently, Cevik and Jalles (2020; 2021; 2022) show that climate change vulnerability has
+significant effects on the cost of government borrowing and the probability of sovereign debt default, especially
+in developing countries. Similarly, Bansal, Kiku, and Ochoa (2016) and IMF (2020) find that risks associated
+with climate change—as proxied by temperature increases—have a negative effect on asset valuations, while
+Bernstein, Gustasson, and Lewis (2019) show that real estate exposed to the risk of sea level rise is priced at a
+discount relative to otherwise similar unexposed houses. Focusing on the U.S., Painter (2020) finds that
+counties more likely to be affected by climate change pay more in underwriting fees and initial yields to issue
+long-term municipal bonds compared to counties unlikely to be affected by climate change.
+There is a small but growing literature on the impact of climate change on consumer price inflation. A few
+studies look at the impact of natural hazards on prices (Parker, 2018; Heinen, Khadan, and Strobl, 2019), while
+there is almost no research on the effect of extreme weather events including temperature deviations, apart
+from studies focusing on specific sectors of activity (De Winne and Peersman, 2021) or a single country (Kim,
+Matthes, and Phan, 2022). Studying how extreme temperatures affect various measures of inflation in 48
+advanced and emerging economies during the period 1951–1980, Faccia, Parker, and Stracca (2021) find that
+higher temperatures play a non-negligible role in driving price developments, especially for emerging market
+economies. Similarly, Kabundi, Mlachila, and Yao (2022) analyze how climate shocks affect consumer prices
+
+3
+
+Tol (2018) provides a recent overview of this expanding literature.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+6
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+and find that the impact depends on the type and intensity of shocks, the level of income, and the type of
+monetary policy regime. Finally, in a recent study covering 173 countries over the period from 1970 to 2020,
+Cevik and Jalles (2023) show that climate-related natural disasters have significant effects on consumer price
+inflation and economic growth.
+The literature on supply chain pressures and inflation is limited, but also growing fast after the COVID-19
+pandemic. Benigno et al. (2022) introduces a new index of global supply chain pressures and find a significant
+effect on inflation during the pandemic period. With a model-based approach, Di Giovanni et al. (2022) shows
+that supply bottlenecks in international trade contribute to higher inflation. Using data from international
+container trade, Finck and Tillmann (2022) find that global supply chain disruptions caused by the Tohoku
+earthquake in 2011, the Suez Canal obstruction in 2021, and the Shanghai backlog in 2022 caused a decline in
+real economic activity and an increase in consumer prices in the euro area. LaBelle and Santacreu (2022)
+analyze the effect of supply chain pressures on producer prices in the US and conclude that about one-fifth of
+the producer price inflation. Likewise, Kabaca and Tuzcuoglu (2023) analyze the contribution of supply-side
+forces to consumer price inflation in the US and show that global supply chain and oil price shocks are the most
+principal factors during the COVID-19 pandemic. Using a panel of 29 sub-Saharan African countries,
+Andriantomanga, Bolhuis, and Hakobyan (2023) find that an increase in global supply chain pressures leads to
+a significant increase in consumer price inflation.
+
+III. Data Overview
+The vector of endogenous variables includes three variables: weather anomalies, supply chain pressures and
+consumer price inflation. We assemble a dataset of monthly observations covering six countries (China, the
+Euro area, Japan, Korea, the United Kingdom, and the United States) over the period 1997–2021. The sample
+selection is determined by the availability of country-specific data on supply chain pressures. Inflation is
+computed as the year-on-year percentage change in the Consumer Price Index (CPI) as follows:
+
+𝜋𝑖,𝑡 = (
+
+𝐶𝑃𝐼𝑖,𝑡
+
+𝐶𝑃𝐼𝑖,𝑡−12
+
+) ∗ 100
+
+(1)
+
+where 𝜋𝑖,𝑡 denotes inflation in country i at time t based on headline CPI or core CPI, drawn from the World
+Bank’s global database of inflation (Ha, Kose, and Ohnsorge, 2023). To mitigate outliers and handle the
+possible negative values of inflation, we resort to an inverse hyperbolic sine transformation, i.e.,
+2
+ln (𝜋𝑖,𝑡 + √𝜋𝑖,𝑡
++ 1).
+
+We measure country-specific supply chain disruptions with the Supply Chain Pressures Index (SCPI)
+constructed by the Federal Reserve Bank of New York (Benigno et al., 2022). The SCPI is a novel measure of
+supply chain pressures based on monthly information from 27 indicators including international transportation
+costs, port congestions, shortage of containers and drivers, and supply chain-related components of the
+Purchasing Managers’ Index surveys for manufacturing firms. The SCPI is measured in standard deviations
+from the sample average and normalized to have an average value of zero over the full time series.
+Accordingly, a reading above zero implies an increase in supply chain disruptions relative to the average.
+Weather anomalies are measured as a deviation of monthly mean temperature from the historical average,
+which are obtained from the World Bank’s Climate Change Knowledge Portal. We follow the literature and
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+7
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+calculate monthly deviations in temperature as 𝑇𝑖,𝑡 = 𝑇𝑖,𝑡 − 𝑇𝑖,(𝑡) in country i at time t. In other words, weather
+anomalies are derived from the difference between the temperature observation at time t and the historical
+average for that month during the reference period of 1901-1996. Given that the SCPI begins in 1997, we
+choose the reference year for weather anomalies from 1996 backward. For the Euro area, we aggregate 19
+countries to calculate a GDP-weighted average series of temperature deviations to account for the differences
+in country size. To develop a more granular analysis, we also focus on extreme weather events defined as an
+anomaly that is large relative to historical variation.
+Descriptive statistics, presented in Table 1, show significant variation across countries and over time. First, we
+observe that the deviation of monthly mean temperature from its historical average ranges from 0.86°C in the
+United Kingdom to 1.26°C in Japan, with an upward trend across all countries. Second, supply chain pressures
+as measured by the SCPI vary from -0.02 in Japan to -0.01 in the Euro Area. Third, headline inflation moves
+from an average of 0.06 percent in Japan to 1.49 percent in Korea, while core inflation stands at -0.11 percent
+in Japan and 1.44 percent in the United States.
+For the appropriate implementation of the SVAR model, it is necessary to analyze the time-series properties of
+the data to avoid spurious results. The stationarity of all variables is checked by applying the augmented
+Dickey-Fuller (1981), which is widely used in literature. These results, presented in Appendix Table A1, indicate
+that all series are stationary after logarithmic transformation.
+
+Table 1. Summary Statistics
+Temperature
+Mean
+Variance
+Minimum
+Maximum
+Supply chain pressures
+Mean
+Variance
+Minimum
+Maximum
+Headline Inflation
+Mean
+Variance
+Minimum
+Maximum
+Core Inflation
+Mean
+Variance
+Minimum
+Maximum
+
+China
+
+EA
+
+Japan
+
+Korea
+
+UK
+
+US
+
+0.9592
+0.7228
+-1.7583
+3.9747
+
+1.2417
+1.3944
+-2.4578
+4.0698
+
+1.2687
+0.7898
+-1.7947
+3.9183
+
+1.1846
+1.3405
+-3.1941
+4.3788
+
+0.8603
+0.9623
+-3.7659
+3.2510
+
+0.9203
+0.8936
+-1.8784
+3.7734
+
+-0.0216
+0.9381
+-1.7932
+4.3582
+
+-0.0098
+0.9931
+-3.2800
+3.5000
+
+-0.0224
+0.9330
+-2.7560
+3.6264
+
+-0.0177
+0.9605
+-7.1594
+3.1049
+
+-0.0122
+0.9827
+-4.1183
+3.3160
+
+-0.0192
+0.9523
+-1.8996
+4.0856
+
+1.0826
+1.1059
+-1.5297
+2.8716
+
+1.1642
+0.3301
+-0.5688
+2.3124
+
+0.0618
+0.5586
+-1.6528
+2.0192
+
+1.4928
+0.3863
+-0.4141
+2.9522
+
+1.3602
+0.1640
+0.1985
+2.2814
+
+1.4024
+0.4095
+-1.4863
+2.6493
+
+0.9568
+0.3686
+-1.2995
+1.6187
+
+1.1459
+0.0947
+0.3900
+1.7191
+
+-0.1151
+0.4221
+-1.2507
+1.6746
+
+1.3880
+0.3173
+-0.6502
+2.5116
+
+1.2145
+0.1284
+-0.1288
+2.0479
+
+1.4493
+0.0611
+0.6184
+2.4044
+
+Source: Authors’ calculations.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+8
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 3. Country-Specific Weather Anomalies
+
+Monthly Temperature Anomalies
+5
+
+4
+
+China
+
+Euro Area
+
+Japan
+
+Korea
+
+UK
+
+US
+
+3
+2
+1
+0
+-1
+-2
+-3
+
+-4
+-5
+1997 1999 2000 2002 2004 2005 2007 2008 2010 2011 2013 2015 2016 2018 2019 2021
+
+Note: Weather anomalies are measured by monthly deviations in temperature from the historical average. EA is Euro
+Area counties whose temperature deviation is calculated based on the weighted average, with GDP as a weight.
+Source: World Bank Climate Change Knowledge Portal; authors’ calculations.
+
+Figure 4. Country-Specific Supply Chain Pressures
+Monthly Supply Chain Pressures
+6
+China
+
+Euro Area
+
+Japan
+
+Korea
+
+UK
+
+US
+
+4
+
+2
+
+0
+
+-2
+
+-4
+
+-6
+
+-8
+1997 1999 2000 2002 2004 2005 2007 2008 2010 2011 2013 2015 2016 2018 2019 2021
+
+Note: Supply chain pressures are measured in standard deviations from the sample average.
+Source: Benigno et al. (2022).
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+9
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 5. Headline CPI
+Percent (year-on-year)
+4
+
+China
+
+3
+
+Euro Area
+
+Japan
+
+Korea
+
+UK
+
+US
+
+2
+
+1
+
+0
+
+-1
+
+-2
+1997 1999 2000 2002 2003 2005 2006 2008 2009 2011 2012 2014 2015 2017 2018 2020 2021
+
+Note: Monthly year-on-year inflation is subject to an inverse hyperbolic sine transformation.
+Source: World Bank; authors’ calculations.
+
+Figure 6. Core CPI
+Percent (year-on-year)
+3
+2.5
+
+China
+
+Euro Area
+
+Japan
+
+Korea
+
+UK
+
+US
+
+2
+1.5
+1
+0.5
+0
+-0.5
+-1
+-1.5
+1997 1999 2000 2002 2004 2005 2007 2008 2010 2011 2013 2015 2016 2018 2019 2021
+
+Note: Monthly year-on-year inflation is subject to an inverse hyperbolic sine transformation.
+Source: World Bank; authors’ calculations.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+10
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+IV. Econometric Strategy
+The empirical objective of this paper is to estimate the impact of weather anomalies—as measured by
+temperature deviations—on supply chain disruptions and alternative measures of inflation, using monthly data
+covering six large economies (China, the Euro area, Japan, Korea, the United Kingdom, and the United States)
+over the period 1997–2021. To gain better insights into the dynamic relationship between climate change,
+supply chain disruptions and alternative measures of inflation, we implement a three-variable SVAR model and
+resort to the Cholesky decomposition to orthogonalize the reduced-form residuals that impose causal chains in
+this framework.
+We are interested in how temperature shocks affect supply chains and inflation dynamics, which are also partly
+determined by supply chain disruptions. In our SVAR framework, we assume that temperature anomalies are
+strictly exogenous, and that no variable could influence the weather variable. One may argue that temperature
+anomalies are indeed an outcome of human activity, but the anthropogenic impact on weather anomalies is a
+slow-moving process over centuries (Ciccarelli, Kuik, and Hernández, 2023). Given that our focus is the shortrun effect of temperature shocks on supply chain pressures and inflation, it is less likely that supply chain
+pressures and inflation affect weather anomalies. Our identification of temperature shocks is based on the idea
+that weather anomalies cause supply chain disruptions that lead to changes in transportation costs and crossborder shipment quantities. Accordingly, in this paper, we use the identification assumption that weather
+anomalies cause supply chain disruptions that in turn reduce the supply of goods and services and lead to
+higher inflation. We estimate the AB model SVAR specification for each country separately as follows
+(Lütkepohl, 2005):
+(2)
+
+𝑝
+
+𝐴𝑋𝑡 = ∑𝑗=1 Π𝑗 𝑋𝑡−𝑗 + 𝐵𝜀𝑡
+
+in which 𝑋𝑡 is a 3 x 1 vector of endogenous variables including weather anomalies (as measured by
+temperature deviations), the country-specific SCPI and headline or core inflation, subject to an inverse
+hyperbolic sine transformation, at time t. 𝜀𝑡 is an independent and identically distributed random vector with
+variance equal to the identity matrix of dimension of 3. We omit constant for simplicity. Under these restrictions,
+we specify the SVAR model with the 3x3 matrix as below:
+1
+𝐴 = [0
+0
+
+𝑎1
+1
+0
+
+𝑎2
+𝑎3 ]
+1
+
+(3)
+
+Π𝑗 is a 3x3 matrix such that
+𝑦
+
+𝑦
+
+𝜋𝑦,𝑗
+Π𝑗 = [ 0
+0
+
+𝜋𝑠,𝑗
+𝑠
+𝜋𝑠,𝑗
+0
+
+𝑦
+
+𝜋𝜏,𝑗
+𝑠
+𝜋𝜏,𝑗
+]
+𝜏
+𝜋𝜏,𝑗
+
+(4)
+
+Given that the A matrix is upper triangular, its inverse is also upper triangular and corresponds to
+1
+𝐴−1 = [0
+0
+
+−𝑎1
+1
+0
+
+𝑎1 𝑎3 − 𝑎2
+−𝑎3 ]
+1
+
+(5)
+
+Hence, the reduced form of our model is as follows:
+𝑝
+
+𝑋𝑡 = ∑𝑗=1 𝐴−1 Π𝑗 𝑋𝑡−𝑗 + 𝐴−1 𝐵𝜀𝑡
+
+(6)
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+11
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+𝑦
+
+𝜋𝑦,𝑗
+−1
+Φ𝑗 = 𝐴 Π𝑗 = [ 0
+0
+
+𝑦
+
+𝑦
+
+𝜋𝑠,𝑗 − 𝑎1 𝜋𝑠,𝑗
+𝑠
+𝜋𝑠,𝑗
+0
+
+𝑦
+
+𝑦
+
+𝜏
+𝜏
+𝜋𝜏,𝑗 − 𝑎1 (𝜋𝑠,𝑗 − 𝑎3 𝜋𝜏,𝑗
+) − 𝑎2 𝜋𝜏,𝑗
+𝑠
+𝜏
+]
+𝜋𝜏,𝑗
+− 𝑎3 𝜋𝜏,𝑗
+𝜏
+𝜋𝜏,𝑗
+
+(7)
+
+This implies that Φ𝑗 is also upper triangular, and we can therefore directly impose those restrictions onto the
+reduced form coefficients. The B matrix is a diagonal matrix. For the optimal lag length of the SVAR model for
+each country, we resort to the SIC criteria that indicates 1 to 2 lags depending on the country.
+
+V. Empirical Results
+In this section, we provide a visual presentation of the impulse response of supply chain pressures and inflation
+to temperature shocks in terms of one standard deviation over the 24-month horizon, together with
+corresponding 68 percent confidence intervals.4 In Figure 7, we begin with the impact of weather shocks on
+supply chain pressures in six economies that we analyze. These results indicate that a larger temperature
+deviation with respect to the historical average tends to exert upward pressure on supply chain pressures. The
+estimated coefficients are economically intuitive, but not statistically significant for all countries in the sample.
+Quantitatively, we find that a 1°C increase in temperature with respect to historical average increases supply
+chain pressures by roughly 0.3 and 0.6 standard deviation after 2 years in China, Korea and the United States,
+respectively. On the other hand, the impact of weather shocks on supply chain pressures appears to be
+negligible in the Euro Area, Japan, and the United Kingdom. Altogether, these findings confirm that weather
+shocks could cause greater supply chain disruptions in a non-linear fashion as climate change accelerates.
+It is also important to highlight the components forming the supply chain pressures. As described in the
+previous section, the SCPI is constructed based on shipping rates, air freight prices, and the sub-components
+of the PMI, such as delivery time, backlogs, and purchased stocks. These components tend to be affected
+more by, for instance, oil price fluctuations and port congestion that have a direct influence on supply chain
+pressures. Thus, the share of weather shocks explaining supply chain pressures might be smaller than what
+we would have expected. In addition, our results may have been contaminated by the unprecedented COVID19 pandemic period, which we exclude as a robustness check in the next section.
+In Figures 8 and 9, we present the impact of supply chain pressures on headline and core inflation,
+respectively, in each economy. There is a clear upward pressure on headline inflation across all countries,
+except Korea. Quantitatively, a one-standard deviation shock of supply chain pressures on inflation is
+associated with large and persistent increases in headline inflation in China, the United Kingdom and the
+United States, amounting to about 1.3 percent, 0.7 percent, and 1.5 percent, respectively, over the 24-month
+period. The magnitude of this supply-chain effect on headline inflation is significantly smaller in the Euro Area
+and Japan, and supply chain pressures do not appear to have an adverse effect in the case of Korea.
+However, we should note that inflation in Korea may have been affected to a significant extent by the Asian
+financial crisis (1997-1999) that disrupted supply chains. After excluding the Asian financial crisis and the
+COVID-19 pandemic, we find that greater supply chain pressures lead to higher inflation in Korea (Appendix
+Figure 1A). We also observe that the impact of supply chain disruptions on core inflation follows a similar
+pattern (except for Japan), with considerably lower estimated coefficients (except for the United States).
+
+4
+
+We estimate 2,000 bootstrapped error bans for the impulse response coefficients.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+12
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Finally, in Figures 10 and 11, we present the direct impact of weather shocks on headline and core inflation,
+respectively, for each economy separately. These statistically insignificant results yield an ambiguous picture of
+the relationship between temperature shocks and inflation dynamics. This should not be surprising since our
+sample consists of six large and well-diversified economies where inflation dynamics are shaped by more
+powerful domestic and global factors. It is also important to note that higher temperatures may have a positive
+effect on agricultural output and depress energy demand, which in turn lowers inflation pressures. As Lucidi et
+al. (2022) argue, warmer winters decrease energy demand more than warmer summers raise it. Therefore, a
+decline in inflation could result from reduced energy demand. Nevertheless, with accelerating climate change,
+there is also an increase in the volatility of weather patterns, which we find to be associated with supply chain
+disruptions and consequently higher inflation.
+
+Figure 7. Weather Shocks and Supply Chain Pressures
+
+Note: The figure presents the cumulative response of supply chain pressures to temperature shocks in dark blue line and 68
+percent confidence intervals in light blue. Estimates of the Euro Area and China began from December 2001 and January
+2006, respectively, to December 2021.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+13
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 8. Supply Chain Pressures and Inflation: Headline CPI
+
+Note: The figure presents the cumulative response of headline inflation to supply chain pressures in dark blue line and 68
+percent confidence intervals in light blue.
+
+Figure 9. Supply Chain Pressures and Inflation: Core CPI
+
+Note: The figure presents the cumulative response of core inflation to supply chain pressures in dark blue line and 68
+percent confidence intervals in light blue. Estimates of the Euro Area and China began from December 2001 and January
+2006, respectively, to December 2021.
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+14
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 10. Weather Shocks and Inflation: Headline CPI
+
+Note: The figure presents the cumulative response of headline inflation to weather shocks in dark blue line and 68 percent
+confidence intervals in light blue.
+
+Figure 11. Weather Shocks and Inflation: Core CPI
+
+Note: The figure presents the cumulative response of core inflation to weather shocks in dark blue line and 68 percent
+confidence intervals in light blue. Estimates of the Euro Area and China began from December 2001 and January 2006,
+respectively, to December 2021.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+15
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+VI. Robustness Checks
+To check the robustness of our baseline results, we estimate the model (i) for a panel of six countries in our
+sample, (ii) for the periods excluding the COVID-19 pandemic and pre- and post-global financial crisis, (iii)
+using the cyclical component of inflation.
+First, we implement the LP method developed by Jordà (2005) to capture the dynamic effects of temperature
+anomalies on supply chains and inflation over time in a panel setting. The LP approach is a flexible alternative
+to SVAR vector as it does not constrain the shape of IRFs. We follow our previous causal chains for the panel
+LP estimations. Figure 12 displays that supply chain pressures exert upward pressure on headline inflation,
+which is consistent with our previous results and our intuitions. We see a sharp rise in headline inflation
+induced by supply chain pressures, and it declines rapidly after one year. This indicates that supply-side
+shocks are not persistent in five large countries and the Euro Area. In contrast, temperature shocks rather
+reduce inflation, which aligns with our previous results. In addition, we have dropped the COVID-19 pandemic
+period (2020-2021), and the results are qualitatively the same (results not shown here to save space).
+Second, we estimate the countries without the COVID-19 pandemic periods (2020-2021) using the SVAR for
+each country (Figures 13, 14, and 15). Given the unprecedented impact of the COVID-19 pandemic, it may
+have affected inflation that may not be explained by weather anomalies and supply chain pressures. The
+results suggest that weather shocks do not generally affect supply chain pressures. In contrast, we see that
+supply chain pressures raise inflation in most countries, and the negative relationship between supply chain
+
+Figure 12. Weather Shocks on Supply Chain Pressures and Headline Inflation: Panel Setting
+
+Note: Blue and red lines indicate an impulse of temperature and supply chain shocks, respectively. 68% confidence
+interval is included, with country fixed effects, according to the LP method.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+16
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+pressures and inflation in Korea is due to the Asian financial crisis, as explained in the baseline results. When
+it comes to weather shocks and inflation, we see that the estimation outcomes are also similar to the baseline
+estimates. Accordingly, the COVID-19 pandemic did not considerably alter the baseline estimates.
+Third, since inflation and supply chain pressures in respective countries are affected by the COVID-19
+pandemic and shocks specific to each country, we attempt to account for it. For instance, the Asian financial
+crisis considerably affected inflation and supply chain pressures in Asian countries. The European debt crisis
+from 2009 to mid-2010s also impacted inflation and supply chain pressures in the Euro Area. The 2008-2009
+global financial crisis affected all the countries considered in this study. We, therefore, re-estimate each country
+with the SVAR and divide the time into two periods. First, we run from January 2000 to December 2007 to
+circumvent the Asian and global financial crisis. Second, we run from January 2010 to December 2019 to avoid
+the 2008 global financial crisis shock and the COVID-19 pandemic.
+
+Figure 13. Weather Shocks and Supply Chain Pressures, Without COVID-19 Pandemic
+
+Note: The figure presents the cumulative response of supply chain pressures to weather shocks in dark blue line and 68
+percent confidence intervals in light blue. Estimates of the Euro Area and China began from December 2001 and January
+2006, respectively, to December 2019. The COVID-19 pandemic period (2020-2021) is dropped.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+17
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 14. Supply Chain Pressures and Inflation, Without COVID-19 Pandemic
+
+Note: The figure presents the cumulative response of headline inflation to supply chain pressures in dark blue line and 68
+percent confidence intervals in light blue. Estimates of the Euro Area and China began from December 2001 and January
+2006, respectively, to December 2019. The COVID-19 pandemic period (2020-2021) is dropped.
+
+Figure 15. Weather Shocks and Inflation, Without COVID-19 Pandemic
+
+Note: The figure presents the cumulative response of headline inflation to weather anomalies in dark blue line and 68
+percent confidence intervals in light blue. Estimates of the Euro Area and China began from December 2001 and January
+2006, respectively, to December 2019. The COVID-19 pandemic period (2020-2021) is dropped.
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+18
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+We see that the estimation outcomes in different periods show contrasting results (Figures 16-21). First, we
+find that weather anomalies could raise supply chain pressures before 2008, particularly in the US, whereas
+they have no impact on it after (excluding the COVID-19 pandemic period). This implies that supply chain
+pressures in recent periods have been driven more significantly by factors, such as energy prices and delays in
+delivery of parts and components. Second, the effects of supply chain pressures on inflation are statistically
+more significant after 2008 in four countries (China, Korea, the UK, and the US) than before (China and Japan).
+Our intuition is the growing demand for manufactured goods combined with the rising global value chain
+participation of the countries considered. Third, weather anomalies could raise inflation before 2008,
+particularly in the US, but it has no impact on inflation generally, or it reduces it after 2008.
+Fourth, we decompose inflation into cyclical and trend components by applying the Hodrick-Prescott filter. Our
+baseline results could pick up trend inflation, which has declined over time. Although the falling trend inflation
+would be more significant in Japan, we use the cyclical component of inflation for all countries by eliminating
+the trend component for robustness. Our results are broadly similar to the baseline results. One difference is
+that weather shocks could increase the cyclical component of inflation in the US for about three months. Again,
+the negative relationship between supply chain pressures and the cyclical component of inflation in Korea is
+driven by the Asian financial crisis in 1998. We see a positive relationship when this period is removed, like in
+Appendix Figure A1.
+
+Figure 16. Weather Shocks and Supply Chain Pressures: January 2000-December 2007
+
+Note: The figure presents the cumulative response of supply chain pressures to weather shocks in dark blue line and 68
+percent confidence intervals in light blue. Estimates began from January 2000 to December 2007.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+19
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 17. Supply Chain Pressures and Headline Inflation: January 2000-December 2007
+
+Note: The figure presents the cumulative response of headline inflation to supply chain pressures in dark blue line and 68
+percent confidence intervals in light blue. Estimates began from January 2000 to December 2007.
+
+Figure 18. Weather Shocks and Headline Inflation: January 2000-December 2007
+
+Note: The figure presents the cumulative response of headline inflation to weather shocks in dark blue line and 68 percent
+confidence intervals in light blue. Estimates began from January 2000 to December 2007.
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+20
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 19. Weather Shocks and Supply Chain Pressures: January 2010-December 2019
+
+Note: The figure presents the cumulative response of supply chain pressures to weather shocks in dark blue line and 68
+percent confidence intervals in light blue. Estimates began from January 2010 to December 2019.
+
+Figure 20. Supply Chain Pressures and Headline Inflation: January 2010-December 2019
+
+Note: The figure presents the cumulative response of headline inflation to supply chain pressures in dark blue line and 68
+percent confidence intervals in light blue. Estimates began from January 2010 to December 2019.
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+21
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 21. Weather Shocks and Headline Inflation: January 2010-December 2019
+
+Note: The figure presents the cumulative response of headline inflation to weather shocks in dark blue line and 68 percent
+confidence intervals in light blue. Estimates began from January 2010 to December 2019.
+
+Figure 22. Weather Shocks and Supply Chain Pressures: Cyclical Part of Headline Inflation
+
+Note: The figure presents the cumulative response of supply chain pressures to weather shocks in dark blue line and 68
+percent confidence intervals in light blue. Estimates began from September 1997 to December 2019.
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+22
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Figure 23. Supply Chain Pressures and Cyclical Part of Headline Inflation
+
+Note: The figure presents the cumulative response of supply chain pressures to cyclical component of headline inflation in
+dark blue line and 68 percent confidence intervals in light blue. Estimates began from September 1997 to December 2019.
+
+Figure 24. Weather Anomalies and Cyclical Component of Headline inflation
+
+Note: The figure presents the cumulative response of cyclical component of headline inflation to weather anomalies in dark
+blue line and 68 percent confidence intervals in light blue. Estimates began from September 1997 to December 2019.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+23
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+VII. Conclusion
+The world economy has experienced a series of unprecedented shocks over the past three years, disrupting
+supply chains, causing a deep recession, and pushing inflation to the highest level since the 1970s. While
+inflation is on a downward trajectory with economic activity on the mend, vulnerabilities persist. One of the most
+significant risks to the global economy and financial markets is climate change. As human-induced climate
+change accelerates over the coming decades, greater frequency and severity of extreme weather conditions
+can have far-reaching adverse consequences for physical infrastructure and economic activity. There is
+convincing evidence that climate-related natural disasters have significant effects on inflation and economic
+growth. An important channel of this relationship is the impact of weather anomalies—caused by climate
+change—on global supply chains in the production and distribution of goods and services. Disruptions during
+the COVID-19 pandemic and the ensuing sharp increase in global inflation have highlighted the importance of
+risks to the complex and interdependent network of supply chains across the world. With rising global
+temperatures, extreme weather events stress transportation infrastructure and highly-connected global supply
+chains, interrupting production, causing shortages, and leading to higher prices.
+Demand-side factors certainly play a significant role in driving inflation, but this paper aims to close an
+important gap in the literature by investigating the impact of weather anomalies on global supply chains and
+inflation dynamics. Using monthly data covering six large and well-diversified economies—China, the Euro
+area, Japan, Korea, the United Kingdom, and the United States—over the period 1997-2021, we implement a
+SVAR model and trace the contemporaneous effects of weather anomalies on supply chains and inflation
+dynamics. To the best of our knowledge, this is the first attempt in the literature to investigate the impact of
+weather shocks on supply chain pressures and alternative measures of inflation using a SVAR model, which
+offers insights on how climate change could affect global supply networks and inflation dynamics beyond the
+sample of countries used in the analysis.
+We find that weather anomalies could disrupt supply chains and subsequently lead to inflationary pressures.
+Our results—based on high-frequency data and robust to alternative estimation methodologies—show
+significant heterogeneity across countries in the sample, which we attribute to differences in the severity of
+weather shocks and vulnerability to supply chain disruptions. The impact of weather shocks on supply chains
+and inflation dynamics is likely to become more pronounced with accelerating climate change that can have
+non-linear effects. Although our empirical results do not always show a strong positive link between weather
+shocks and supply chain disruptions, due to, in part, the use of aggregated supply-side disruptions, this does
+not imply that we can be complacent about increasing weather anomalies. For instance, a severe drought has
+reduced water level considerably in Panama Canal, disrupting trade route connecting Asia and North America.
+Our results have important policy implications. Central bankers should consider the persistent impact of
+weather anomalies on supply chains and inflation dynamics to prevent entrenching second-round effects and
+de-anchoring inflation expectations. More directly, however, governments can invest more for climate change
+adaptation to strengthen critical infrastructure and thereby minimize supply chain disruptions.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+24
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+References
+Akyapi, B., M. Bellon, and E. Massetti (2022). “Estimating Macro-Fiscal Effects of Climate Shocks From Billions
+of Geospatial Weather Observations,” IMF Working Paper No. 22/156 (Washington, DC: International
+Monetary Fund).
+Andriantomanga, Z., M. Bolhuis, and S. Hakobyan (2023). “Global Supply Chain Disruptions: Challenges for
+Inflation and Monetary Policy in Sub-Saharan Africa,” IMF Working Paper No. 23/39 (Washington, DC:
+International Monetary Fund).
+Auerbach, A., and Y. Gorodnichenkom (2013). “Output Spillovers from Fiscal Policy,” American Economic
+Review, Vol. 103, pp. 141–146.
+Bansal, R., D. Kiku, and M. Ochoa (2016). “Price of Long-Run Temperature Shifts in Capital Markets,” NBER
+Working Paper No. 22529 (Cambridge, MA: National Bureau of Economic Research).
+Benigno, G., J. di Giovanni, J. Groen, and A. Noble (2022) “The GSCPI: A New Barometer of Global Supply
+Chain Pressures,” FRB of New York Staff Report N0. 1017 (New York: Federal Reserve Bank of New
+York).
+Bernstein, A., M. Gustafson, and R. Lewis (2019). “Disaster on the Horizon: The Price Effect of Sea Level
+Rise,” Journal of Financial Economics, Vol. 134, pp. 253–272.
+Binici, M., S. Centorrino, S. Cevik, and G. Gwon, 2022, “Here Comes the Change: The Role of Global and
+Domestic Factors in Post-Pandemic Inflation in Europe,” IMF Working Paper No. 22/241 (Washington,
+DC: International Monetary Fund).
+Bonadio, B., Z. Huo, A. Levchenko, and N. Pandalai-Nayar (2021). “Global Supply Chains in the Pandemic,”
+Journal of International Economics, Vol. 133, 103534.
+Burke, M., and V. Tanutama (2019). “Climatic Constraints on Aggregate Economic Output,” NBER Working
+Paper No. 25779 (Cambridge, MA: National Bureau of Economic Research).
+Burke, M., S. Hsiang, and E. Miguel (2015). “Global Nonlinear Effect of Temperature on Economic Production,”
+Nature, Vol. 527, pp. 235–239.
+Carriere-Swallow, Y., P. Deb, D. Furceri, D. Jimenez, and J. Ostry (2023). “Shipping Costs and Inflation,”
+Journal of International Money and Finance, Vol. 130,102771.
+Celasun, O., N. Hansen, A. Mineshima, M. Spector, and J. Zhou (2022). “Supply Bottlenecks: Where, Why,
+How Much, and What Next?,” IMF Working Paper No. 22/31 (Washington, DC: International Monetary
+Fund).
+Cevik, S., and J. Jalles (2020). “Feeling the Heat: Climate Shocks and Credit Ratings,” IMF Working Paper No.
+20/286 (Washington, DC: International Monetary Fund).
+Cevik, S., and J. Jalles (2021). “An Apocalypse Foretold: Climate Shocks and Sovereign Defaults,” Open
+Economies Review, Vol. 3, pp 89–108.
+Cevik, S., and J. Jalles (2022). “This Changes Everything: Climate Shocks and Sovereign Bonds,” Energy
+Economics, Vol. 107, 105856.
+Cevik, S., and J. Jalles (2023). “Eye of the Storm: The Impact of Climate Shocks on Inflation and Growth,” IMF
+Working Paper No. 23/87 (Washington, DC: International Monetary Fund).
+Ciccarelli, M., F. Kuik, and C. Hernández (2023). “The Asymmetric Effects of Weather Shocks on Euro Area
+Inflation,” ECB Working Paper No. 2798 (Frankfurt: European Central Bank).
+Cline, W. (1992). The Economics of Global Warming (New York: New York University Press).
+Cuaresma, J. (2010). “Natural Disasters and Human Capital Accumulation,” World Bank Economic Review,
+Vol. 24, pp 280–302.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+25
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Dell, M., B. Jones, and B. Olken (2012). “Temperature Shocks and Economic Growth: Evidence from the Last
+Half Century,” American Economic Journal: Macroeconomics, Vol. 4, pp. 66–95.
+De Winne, J., and G. Peersman (2021). “The Adverse Consequences of Global Harvest and Weather
+Disruptions on Economic Activity,” Nature Climate Change, Vol. 11, pp. 665–672.
+Di Giovanni, J., S. Kalemli-Özcan, A. Silva, and M. Yildirim (2022). “Global Supply Chain Pressures,
+International Trade, and Inflation,” NBER Working Paper No. 30240 (Cambridge, MA: National Bureau of
+Economic Research).
+Finck, D., and P. Tillmann (2022). “The Macroeconomic Effects of Global Supply Chain Disruptions,” IMFS
+Working Paper No. 178 (Frankfurt: Institute for Monetary and Financial Stability).
+Gallup, J., J. Sachs, and A. Mellinger (1999). “Geography and Economic Development,” International Regional
+Science Review, Vol. 22, pp. 179–232.
+Gassebner, M., A. Keck, and R. The (2006). “Shaken, Not Stirred: The Impact of Disasters on International
+Trade,” Review of International Economics, Vol. 18, pp. 351–368.
+Di Giovanni, J., Kalemli-Özcan, Ṣ., Silva, A., and Yildirim, M. A. (2022). “Global supply chain pressures,
+international trade, and inflation” (No. w30240). National Bureau of Economic Research.
+Ha, J., A. Kose, and F. Ohnsorge (2023). “One-Stop Source: A Global Database of Inflation,” Journal of
+International Money and Finance, Vol. 137, 102896.
+Heinen, A., J. Khadan, and E. Strobl (2019). “The Price Impact of Extreme Weather in Developing
+Countries,” Economic Journal, Vol. 129, pp 1327–1342.
+International Monetary Fund (2020). “Physical Risk and Equity Prices,” Global Financial Stability Report,
+Chapter 5 (Washington, DC: International Monetary Fund).
+Intergovernmental Panel on Climate Change (2007). Fourth Assessment Report, Intergovernmental Panel on
+Climate Change (New York: Cambridge University Press).
+Intergovernmental Panel on Climate Change (2014). Climate Change in 2014: Mitigation of Climate Change.
+Working Group III Contribution to the Fifth Assessment Report of the Intergovernmental Panel on Climate
+Change (New York: Cambridge University Press).
+Intergovernmental Panel on Climate Change (2021). Climate Change 2021: The Physical Science Basis.
+Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on
+Climate Change [Masson-Delmotte, V., P. Zhai, A. Pirani, S. L. Connors, C. Péan, S. Berger, N. Caud, Y.
+Chen, L. Goldfarb, M. I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J. B. R. Matthews, T. K. Maycock, T.
+Waterfield, O. Yelekçi, R. Yu and B. Zhou (eds.)]. (New York: Cambridge University Press). In Press.
+Jordà, Ò. 2005. "Estimation and Inference of Impulse Responses by Local Projections." American Economic
+Review, Vol. 95, pp. 161–182.
+Kabaca, S., and K. Tuzcuoglu (2023). “Supply Drivers of US Inflation Since the COVID-19 Pandemic,” Bank of
+Canada Staff Working Paper No. 2023-19 (Ottawa: Bank of Canada).
+Kahn, M., K. Mohaddes, R. Ng, M. Pesaran, M. Raissi, and J-C. Yang (2021). “Long-Term Macroeconomic
+Effects of Climate Change: A Cross-Country Analysis,” Energy Economics, 105624.
+Kabundi, A., M. Mlachila, and J. Yao, 2022, “How Persistent Are Climate-Related Price Shocks? Implications
+for Monetary Policy,” IMF Working Paper No. 22/207 (Washington, DC: International Monetary Fund).
+Kim, H., C. Matthes, and T. Phan, 2022, “Severe Weather and the Macroeconomy,” Working Paper Series
+No. 21-14R (Richmond, VA: Federal Reserve Bank of Richmond).
+Loayza, N., E. Olaberria, J. Rogolini, and L. Christaensen (2012). “Natural Disasters and Growth: Going
+Beyond the Averages,” World Development, Vol. 40, pp. 1317–1336.
+Lucidi, F., S., M., M., Pisa and M. Tancioni (2022). “The Effects of Temperature Shocks on Energy Prices and
+Inflation in the Euro Area.” Available at SSRN: https://ssrn.com/abstract=4109417 or
+http://dx.doi.org/10.2139/ssrn.4109417
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+26
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Lund, S., J. Manyika, J. Woetzel, E. Barriball, and M. Krishnan (2020). “Risk, Resilience, and Rebalancing in
+Global Value Chains,” MGI Report (Washington, DC: McKinsey Global Institute).
+Lütkepohl, H. (2005). New Introduction to Multiple Time Series Analysis (Heidelberg: Springer Berlin).
+Nordhaus, W. (1991) “To Slow or Not to Slow: The Economics of the Greenhouse Effect,” Economic Journal,
+Vol. 101, pp. 920–937.
+Nordhaus, W. (1992). “An Optimal Transition Path for Controlling Greenhouse Gases,” Science, Vol. 258, pp.
+1315–1319.
+Nordhaus, W. (2006). “Geography and Macroeconomics: New Data and New Findings,” Proceedings of the
+National Academy of Sciences of the United States of America, 103, 3510–3517.
+Noy, I. (2009). “The Macroeconomic Consequences of Disasters,” Journal of Development Economics, Vol. 88,
+pp. 221–231.
+Painter, M. (2020). “An Inconvenient Cost: The Effects of Climate Change on Municipal Bonds,” Journal of
+Financial Economics, Vol. 135, pp. 468–482.
+Parker, M. (2018). “The Impact of Disasters on Inflation,” Economics of Disasters and Climate Change, Vol. 2,
+pp. 21–48.
+Raddatz, C. (2009). “The Wrath of God: Macroeconomic Costs of Natural Disasters,” Policy Research Working
+Paper No. 5039 (Washington, DC: World Bank).
+Santacreu, A., and J. LaBelle (2022). “Global Supply Chain Disruptions and Inflation During the COVID-19
+Pandemic,” Federal Reserve Bank of St. Louis Review, Vol. 104, pp. 78–91.
+Skidmore, M., and H. Toya (2002). “Do Natural Disasters Promote Long-Run Growth?” Economic Inquiry, Vol.
+40, pp. 664–687.
+Somanathan, E., R. Somanathan, A. Sudarshan, and M. Tewari (2021). “The Impact of Temperature on
+Productivity and Labor Supply: Evidence from Indian Manufacturing,” Journal of Political Economy, Vol.
+129, pp. 1797–1827.
+Stern, N. (2007). The Economics of Climate Change: The Stern Review (Cambridge: Cambridge University
+Press).
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+27
+
+IMF WORKING PAPERS
+
+This Is Going to Hurt: Climate Change, Supply Chain Pressures and Inflation
+
+Appendix Table A1. Unit Root Test
+China
+
+EA
+
+Japan
+
+Korea
+
+UK
+
+US
+
+C
+
+C+T
+
+C
+
+C+T
+
+C
+
+C+T
+
+C
+
+C+T
+
+C
+
+C+T
+
+C
+
+C+T
+
+Temperature
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+SCPI
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+0.00***
+
+Headline CPI
+
+0.00***
+
+0.09*
+
+0.00***
+
+0.36
+
+0.00***
+
+0.00***
+
+0.01***
+
+0.02**
+
+0.01***
+
+0.53
+
+0.00***
+
+0.00***
+
+Core CPI
+
+0.00***
+
+0.27
+
+0.01***
+
+0.68
+
+0.00***
+
+0.09*
+
+0.07*
+
+0.22
+
+0.06*
+
+0.37
+
+0.01***
+
+0.49
+
+Note: Augmented Dickey-Fuller unit root test is employed. C and T indicate constant and trend, respectively. P-values
+are reported. ***, **, and * denote 1%, 5% and 10% significance levels, respectively. Lag 1 is used. We have used lag
+2 and the results are broadly similar. We have employed the Phillips-Perron unit root test to test the robustness of the
+non-significant CPI series, and headline and core CPI with constant and trend are stationary in China. Given the
+inverse hyperbolic sine transformation of CPI series, which reduces outliers and volatility, we consider the CPI series
+stationary in our study.
+
+Appendix Figure A1. Supply Chain Pressures and Inflation: Korea
+
+Note: The figure presents the cumulative response of core inflation to supply chain pressures in dark blue line and 68
+percent confidence intervals in light blue. The Asian financial crisis (1997-1999) and the COVID-19 pandemic (2020-2021)
+periods are eliminated.
+
+INTERNATIONAL MONETARY FUND
+
+©International Monetary Fund. Not for Redistribution
+
+28
+
+

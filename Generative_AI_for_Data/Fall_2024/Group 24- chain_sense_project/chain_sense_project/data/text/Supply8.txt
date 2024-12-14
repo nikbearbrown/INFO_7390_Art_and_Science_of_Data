@@ -1,0 +1,2048 @@
+Heriot-Watt University
+Research Gateway
+
+Modelling the impact of climate change risk on supply chain
+performance
+Citation for published version:
+Er-Kara, M, Ghadge, A & Bititci, US 2021, 'Modelling the impact of climate change risk on supply chain
+performance', International Journal of Production Research, vol. 59, no. 24, pp. 7317-7335.
+https://doi.org/10.1080/00207543.2020.1849844
+
+Digital Object Identifier (DOI):
+10.1080/00207543.2020.1849844
+Link:
+Link to publication record in Heriot-Watt Research Portal
+Document Version:
+Peer reviewed version
+
+Published In:
+International Journal of Production Research
+Publisher Rights Statement:
+This is an Accepted Manuscript of an article published by Taylor & Francis in International Journal of Production
+Research on 2/12/2020, available online: http://www.tandfonline.com/10.1080/00207543.2020.1849844
+
+General rights
+Copyright for the publications made accessible via Heriot-Watt Research Portal is retained by the author(s) and /
+or other copyright owners and it is a condition of accessing these publications that users recognise and abide by
+the legal requirements associated with these rights.
+Take down policy
+Heriot-Watt University has made every reasonable effort to ensure that the content in Heriot-Watt Research
+Portal complies with UK legislation. If you believe that the public display of this file breaches copyright please
+contact open.access@hw.ac.uk providing details, and we will remove access to the work immediately and
+investigate your claim.
+
+Download date: 11. Dec. 2024
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Modelling the impact of climate change risk on supply chain
+performance
+Abstract
+Climate change is among the top global risks due to its growing adverse impact on businesses.
+However, few empirical studies address this imminent risk from a supply chain perspective.
+Due to a lack of established approaches for capturing complex interaction between climate
+change risk and supply chain performance, a three-phase mixed methodology approach was
+attempted. A cognitive map first captured the inter-relationships based on a mental model
+established by a group of experts. Later, a survey gathered from industry practitioners assessing
+causal relationships identified key climate change factors and most influenced supply chain
+performance dimensions. Finally, a system dynamics model supported by multiple case
+scenarios assessed the implications of climate change on supply chain performance. The results
+indicated a significant reduction in the availability of natural resources/raw material and
+capacity, leading to increase in stock-outs, inventory costs and bottlenecks disrupting
+procurement, manufacturing and logistics functions. Supply chain performance captured
+through efficiency and effectiveness shows a negative trend with increasing climate change
+consequences. The systems approach followed in this paper contributes by providing a
+quantitative model for assessing the impact of climate change risk on supply chain
+performance.
+Keywords: Supply chain performance, Climate change, Performance measurement, Climate
+risk, Uncertainty, Systems theory
+
+1. Introduction
+Climate change is an inevitable risk faced by today’s supply chains. Climate change and supply
+chains are found to mutually influence each other through natural disasters and greenhouse gas
+(GHG) emissions, respectively (Ghadge et al., 2020). Recent literature on supply chain
+management attempts to capture the impact of SC operations on climate change (e.g., Sousa
+Jabbour et al., 2018; Dahlmann and Roehrich, 2019). However, climate change also affects SC
+operations in multiple ways. Various industries such as agriculture, forestry and mining are
+exposed to the direct and indirect impact of climate change (Sussman and Freed, 2008;
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Gasbarro et al., 2017). Overconsumption of these natural resources has led to the escalation of
+climate change. This exogenous risk can significantly impact organisation’s operational and
+financial performance (Agrawala et al., 2011; Bergmann et al., 2016; Lim-Camacho et al.,
+2017). Existing climate models indicate that climate change and its cascading effects will
+continue to impact global supply chains in the future (OECD, 2015, Andreoni and Miola, 2014;
+Li et al., 2019). Thus, organisations should work together to develop climate resilient Supply
+Chain (SC) networks. To build such capability within SCs, comprehensive understanding of
+mutually-influencing relationship and their impact is essential.
+Climate change impacts various entities and functional levels in supply chains, and their
+ripple effect leads to risk propagation along the entire SC network (Ghadge et al., 2020).
+However, investigation of the implications of climate change from SC perspective is limited
+and in its early stages (Fleming et al., 2014; Alves et al., 2017; Lim-Camacho et al., 2017).
+Despite few conceptual or theoretical developments, there is an evident lack of
+empirical/analytical studies attempting to capture the holistic interaction between climaterelated risks and SC operations (Ghadge et al., 2020). In general, studies attempting to quantify
+the impact of climate change are inadequate due to the high inherent uncertainty of the topic,
+lack of suitable data, and complexity in modelling an uncertain problem (Andreoni and Miola,
+2014; Melkonyan et al., 2017).
+The motivation behind this study is the lack of holistic analytical modelling approaches
+to develop climate change scenarios at the SC level, earlier identified by Ghadge et al. (2020).
+According to Alves et al. (2017), controlling and monitoring climate contingencies at the SC
+level should be permanent and systematic. This requires developing a thorough understanding
+of the direct and immediate impact of climate change as well as long-term, cascading effects
+resulting from the climate variability. Analysing these changes on SC performance indicators
+is a good starting point to measure and assess these direct and cascading effects. Thus, this
+study aims to quantify the impact of climate change risk on SC performance. In order to
+achieve this aim, the study models the aggregated impact of this risk on identified SC
+performance metrics as well as overall SC efficiency and effectiveness.
+Due to a lack of established approaches for capturing complex interaction between
+climate change risk and supply chain performance, a three-phase mixed methodology approach
+was attempted. First, cognitive mapping was used to provide a graphical representation of
+expert(s) mental model concerning the relations between climate change and business
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+operations. Consequently, a survey was developed to gather information about the most
+influencing variables interfacing between climate change and SC operations from an industry
+practitioners’ perspective. The prominent relations identified from the above methods were
+modelled and simulated using System Dynamics (SD) approach. Multiple case scenarios with
+different risk exposure levels were assessed to gain insights into the behaviour of supply chains
+under different climate change scenarios.
+The paper contributes to climate change risk research within the SC context in two
+ways. First, the proposed cognitive map captures the complex interaction between two domains
+from the climate change perspective. Past studies have looked at this from the SC perspective.
+Secondly, to the best of authors’ knowledge this is the first comprehensive study attempting to
+quantify the aggregated impact of climate change risk on overall SC performance, efficiency
+and effectiveness.
+The rest of the paper is presented as provided. Section 2 provides critical literature
+associated with the impact of climate change on business operations and supply chain
+performance measurement. The mixed-methodology approach is presented in section 3.
+Section 4 explains the three phases of the study, from holistic cognitive mapping to the
+specified quantitative analysis. Section 5 summarises the results and findings of the developed
+SD model. Finally, discussion, theoretical implications and future research directions are
+presented.
+
+2. Literature review
+2.1. Impact of climate change on business operations
+Climate-related risks are increasingly threatening the sustainability and competitiveness of
+organisations and their wider networks (Fleming et al., 2014; Bergmann et al., 2016; Gasbarro
+et al., 2017). It is well known that climate change leads to rising temperatures, changes in
+seasons, sea-level rise, unusual weather events and natural disasters. These events may directly
+or indirectly affect multiple entities within SC networks such as physical infrastructure and
+assets (e.g., factory, warehouse, energy infrastructure, transportation network), natural
+resources (e.g., land, water and energy resources, crops, livestock) and workforce (OECD,
+2015). To comprehend all possible impact of climate change on business operations, an
+extensive review of literature was conducted. Table 1 captures a wide range of adverse effects
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+of climate change on the performance and competitiveness of organizations. Captured
+implications from multiple sources (cited in Table 1) range from decreased availability and
+quality of resources, decreased labour productivity, decline in revenue and profit, increased
+effort and costs due to new regulations, increased insurance costs and changes in energy
+demand for cooling and heating. Undoubtedly, climate change risk is of growing interest to
+business/SC researchers as well as practitioners due to the increased frequency, severity and
+duration of extreme weather events (e.g., heatwaves, floods, storms, and droughts) (OECD,
+2015; Bergmann et al., 2016; Ghadge et al., 2020). Extreme events driven by climate change
+are found to damage facilities, physical assets, transportation and energy infrastructure and
+communication systems as evidenced from the literature (Table 1).
+There have been few developments on building conceptual or theoretical underpinning.
+Bergmann et al. (2016) employ comparative analysis to investigate the impact of five types of
+extreme weather events (heatwave, cold wave, heavy precipitation, storm and drought) on the
+financial performance of organisations based on natural resource dependence theory.
+Following contingency theory, Alves et al. (2017) list four contingencies arising from climate
+change that affect supply chains as: resource scarcity and difficulty of access to raw materials,
+technological advances, new regulations, and extra costs. Ghadge et al. (2020) emphasise the
+importance of risk management to cope with climate change following systems theory to
+propose a conceptual framework for managing climate change risks in supply chains.
+Despite these sporadic conceptual or theoretical developments on climate change in SC
+context, there is an evident lack of empirical/analytical studies that reveal the holistic
+interaction between climate-related risks and SC performance. Notably, there is an apparent
+need to quantify various impacts of climate change on different stages of SCs and provide a
+clear picture of this uncertain and multi-faceted interaction.
+2.2. Supply chain performance measurement
+Performance measurement is the process of developing a set of performance metrics and
+collecting, analysing, reporting and reviewing performance data to quantify the effectiveness
+and efficiency of organisations' processes (Bititci, 2015; Bourne et al., 2018). Effectiveness
+indicates the level to which the customer's requirements are met; whereas efficiency refers to
+how economically the resources are deployed to fulfil customer orders (Neely et al., 1995).
+Performance measurement helps to ascertain that an organisation effectively reveals whether
+processes are under control and whether improvements are required (Akyuz and Erkan, 2010).
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain performance”, International journal of Production Research,
+Accepted.
+
+Table 1. Challenges faced by businesses due to broad climate change issues
+Challenges faced by businesses due to
+Description of issues
+broad climate change issues
+Supply problems of raw material
+• Scarcity of agricultural products due to difficulty to grow crops under
+resources
+changing weather conditions or infectious plant diseases and pests
+• Decreased quality of agricultural and forestry raw materials due to diseases or
+• Extinction or scarcity of some
+extreme weather events such as flood
+resources
+• Water scarcity, lower crop yields and decreased livestock production due to
+• Difficulty to access to raw materials
+meteorological, hydrological and agricultural droughts
+• Decreases in the quality and quantity • Deforestation due to global warming
+of raw materials
+• Land use changes
+• Higher raw material and commodity
+prices
+• Crop diseases, pests, animal
+infections
+Changes in customer behaviour and
+• Demand volatility (e.g., increase in demand of some products and services
+demand
+such as beverages, air conditioners, renewable energy, tourism; decrease in
+demand of electricity, residential heating, etc.)
+• Changes in market (e.g., increase in demand of environmentally-friendly
+products due to environmental awareness)
+Relocation of production
+• The necessity to relocate facilities to resilient geographical regions
+Changes in the efficiency and
+• Increased temperatures may affect the performance of processes and quality
+effectiveness of processes
+of outcomes
+
+References
+Sussman and Freed, 2008;
+Thorpe and Fennell,
+2012; Alves et al., 2017
+
+Agrawala et al., 2011;
+Keleş et al., 2018
+
+Andreoni and Miola, 2014
+Sussman and Freed, 2008
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain performance”, International journal of Production Research,
+Accepted.
+
+Changes in product quality
+
+Decrease in labour performance
+
+Damage or destruction of facilities,
+infrastructure and physical assets
+
+Transportation problems
+
+Destruction of markets
+
+Extra costs
+
+• Decreased product quality resulting from low quality raw materials affected
+by climate change (e.g., decrease in coffee quality due to low-quality beans
+resulting from changing seasons)
+
+Kreie, 2013
+
+• The effects of climate related events (e.g., heat stress) on the productivity of
+the workforce especially in farming and construction industries
+
+Sussman and Freed, 2008;
+OECD, 2015
+
+• Damage to facilities, transportation infrastructure, energy networks and
+communication systems resulting from extreme weather events such as
+floods, storm, etc.
+• Damage to transportation infrastructure and problems in delivery of
+products and services
+
+Crawford and Seidel,
+2013
+
+• Disruption of transportation infrastructure because of climate changerelated disasters
+• Delays in delivery of products due to bad weather conditions or weather
+extremes
+
+Agrawala et al., 2011
+
+• Human migration due to climate change
+• Loss of customer base as a result of climate change-related disasters
+
+Sussman and Freed, 2008;
+OECD, 2015
+
+• Higher prices due to scarcity of resources
+• Costs to control growing crop diseases and pests
+• Regulation taxes, tariffs and levy rates
+• Increased costs due to environmental regulations (e.g., cost of low-carbon
+technologies)
+• Increased energy usage and/or costs
+
+Thorpe and Fennell, 2012;
+Agrawala et al., 2011;
+Fleming et al., 2014;
+Sussman and Freed, 2008;
+Alves et al., 2017
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain performance”, International journal of Production Research,
+Accepted.
+
+• Higher insurance and maintenance costs
+• Cost of development and adoption of new technologies and innovative
+solutions (refrigerated transportation and storage systems, climate resilient
+buildings, temperature regulation technologies in plants, floating agriculture,
+laser land levelling in agriculture, integration of real time monitoring of
+weather data & early warning systems for extreme events, etc.)
+Climate related mortality and
+morbidity
+
+Decreased financial performance
+
+Changes in regulations
+
+Damage to reputation of the company
+
+Changes in energy consumption
+
+• High temperatures may cause health problems and death of employee and IPCC, 2014; OECD, 2015
+customers
+• Exposure to extreme heat and cold may decrease the performance of
+employee
+• Spread of infectious diseases
+• Decrease in profits and income due to increased commodity prices and Crawford and Seidel, 2013
+operation costs
+• Stricter environmental regulations (e.g., GHG reduction)
+• Disaster management regulations
+
+Agrawala et al., 2011
+
+• Decrease in customer satisfaction due to lower quality levels or delays in Agrawala et al., 2011
+delivery of products due to other effects of climate change
+• Changes in energy demand for cooling and heating process, transportation, Sussman and Freed, 2008;
+OECD, 2015
+storage and office environments
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Performance measurement and management systems provide a wide range of advantages such
+as increased performance and competitive advantage, improved visibility on processes,
+standard framework for communication, tracking and documentation of performance among
+others (Bourne et al., 2000; Bititci et al., 2016).
+Multiple performance indicators have been proposed and used both in the academic
+literature and industry. Gunasekaran and Kobu (2007), conducting a literature review on the
+performance measures in logistics and SC management, identify 27 key metrics for
+organisations. Some of these financial and nonfinancial metrics are as follows: return on
+investment, forecasting accuracy, labour efficiency, capacity utilisation, production flexibility,
+lead time, delivery reliability, value-added, perceived quality, etc. Various performance
+measurement models and frameworks have also been developed in the literature; e.g., balanced
+scorecard and supply chain operations reference (SCOR) model (Akyuz and Erkan, 2010;
+Bititci, 2015). Due to criticism of incomplete and incoherent performance metrics, the SCOR
+model was developed by the Supply Chain Council (SCC, 2012). The SCOR model provides
+a framework to describe and analyse all business processes in a standardised way across
+multiple industries. It provides a set of indicators to measure, monitor and benchmark the
+performance of specific process or the overall SC, based on five main performance attributes:
+reliability, responsiveness, agility, costs, and asset management (Sellitto et al., 2015).
+A myriad of macro and micro risks affect the inputs, processes and outputs of
+organizations, damaging overall SC performance (Quang and Hara, 2018; Turken et al., 2020;
+González-Zapatero et al., 2020). However, there is a lack of conceptual models linking SC risk
+management and performance management domains.
+
+3. Research methodology
+This study uses a mixed methods approach to investigate the cascading effects of climate
+change risk on the performance of supply chains. As the research is trying to understand
+uncertain interactions between climate change and supply chains, a systems theory was
+identified to be suitable. Systems theory suggests that all phenomena can be viewed as a ‘web
+of relationships' that have common patterns, behaviours, and properties like a ‘system' (
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Sterman, 2000). The SD approach follows systems theory to model and simulate cause and
+effect relationships (Forrester, 1994; Sterman, 2000) and is found to be ideal for the nature of
+study undertaken here.
+Following a mixed methodology approach, the study was conducted in three phases:
+•
+
+Phase 1: A cognitive mapping approach utilised to present a holistic picture of interrelationships between climate change and SC performance management. Brainstorming
+sessions with subject experts were used to develop a mental model.
+
+•
+
+Phase 2: A survey study to investigate awareness, perception, evaluations and experiences
+of 62 managers from different industries was used to determine the most prominent risks
+based on practitioner’s point of view.
+
+•
+
+Phase 3: Development of a SD model to quantitatively analyse the impact of identified
+climate change factors on different SC indicators as well as overall SC efficiency and
+effectiveness following hypothetical case scenarios.
+The three structured approaches guide towards achieving defined aim of the research. In
+
+the first phase, expert opinions were used to develop a cognitive map capturing
+interrelationships between the consequences of climate change and SC performance
+dimensions. The literature review on the impact of climate change on SC performance showed
+that climate change affects several entities and operations via myriad factors (Table 1).
+Unfortunately, there is no established methodology to apprehend these ambiguous interactions.
+Thus, we followed the cognitive mapping approach to capture complex interactions between
+different (internal and external) climate change factors and SC performance metrics. ‘Cognitive
+map’ is a visual representation of a mental model developed by an individual or group of
+experts for a given system capturing variables, entities and causal relationships based on
+available knowledge (Mital et al., 2018). Cognitive mapping has several advantages, such as
+the ability to model relationships that are very complex and not known with certainty; thus,
+providing the ability to combine expert knowledge and available information (Özesmi and
+Özesmi, 2004).
+As observed in this cognitive map (Figure 1), several climate change factors influence
+SC performance indicators in multiple ways. Since it is not possible to model all climate
+change-related events/risks and their impact on SC performance dimensions during SD
+modelling, a second phase was introduced to carefully select only key climate-driven risks and
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+SC performance indicators. A survey-based study engaged with 62 managers to identify
+following:
+•
+
+Impacted SC functions from the overall climate change threat
+
+•
+
+Key climate change factors that impact SC operations
+
+•
+
+Identification of critical SC performance dimensions capturing this impact
+
+In the third phase, an SD model was developed to simulate and quantify the risk impacts on
+different SC performance indicators as well as overall SC efficiency and effectiveness.
+The SD approach is based on systems theory and allows to analyse the dynamic
+behaviour of complex systems over time (Campuzano and Mula, 2011; Ghadge et al., 2013).
+The ‘systems approach’ is beneficial to model causal relationships and dependencies in order
+to simulate the overall system interaction (Bala et al., 2017). It is also used to identify policies
+or examine the effectiveness of decisions following simulation of the system. It is widely used
+for risk assessment comprising of different scenarios, due to its capability to simulate complex
+interactions and ability to perform sensitivity analysis (Li et al., 2016; Mehrjoo and Pasek,
+2016; Olivares-Aguila and ElMaraghy, 2020). SD methodology follows logical modelling
+approach. First a causal loop diagram (CLD) is developed. CLD is a visual representation of
+the variables, links among variables, signs of the links and the feedback loops in a problem
+system. Next, stock-and-flow diagram capturing input, output and rate values are identified
+from the CLD. Mathematical equations and values are defined for input/output variables in this
+stage. After verification and validation of equations in the stock-and-flow diagram, the model
+is prepared for the simulation run with pre-defined input parameters (Rathore et al., 2020;
+Olivares-Aguila and ElMaraghy, 2020).
+A traditional three-echelon SC network was modelled by considering material, cash
+and information flow under uncertain climatic conditions. As a part of the SD modelling
+approach, first, a causal loop diagram was drawn by incorporating the most prominent links
+between climate change-related risks and SC performance indicators, as revealed from the
+survey. After understanding the basic structural behaviour of the system, a stock and flow
+diagram was developed to model and analyse this problem in detail. A set of equations was
+assigned to describe these relationships. Model parameters and equations (Appendix A & B)
+were identified based on expert knowledge, authors’ experience and several logical
+assumptions due to lack of available and reliable historical data related to the impact of climate
+change on SC operations. The developed SD model was run to simulate nine case scenarios
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+representing three different risk exposure and vulnerability levels (high, moderate, low) for
+sourcing, manufacturing and delivery functions. The simulation model was developed and run
+in Vensim©- a commercial, discrete-event simulation platform.
+
+4. Analysis
+4.1. Towards understanding the impact of climate change on supply chain performance
+The cognitive map shown in Figure 1 was developed based on two brainstorming sessions with
+subject experts to capture the links between climate change factors and SC performance. Five
+subject experts with academic background in supply chain risk management (2), performance
+measurement (1), climate change (1) and business management (1) identified potential
+interactions between climate change factors and key SC performance indicators during the first
+brainstorming session. In the second session, each expert developed their mental model and
+later discussed with other experts; before finalising the cognitive map capturing several interrelationships between climate change factors and SC performance holistically, as shown in
+Figure 1. Multiple influential variables from both domains were identified based the number
+of arrows directed to and from a variable capturing centrality/inter-dependence.
+
++ material
+Raw
+cost
+Disruption of
+SC facilities +
++
++
+
+- -
+
+Sea level rise
++
+Ocean
+warming +
+
+Order
+fulfillment
+lead time
+-
+
+Inventory
+holding
++
+cost
+Quality of
+resources Floods +
+++-++Revenue/
+Drougths
+profit
+Global +
+Precipitation
+Labour
+-warming
+effectiveness
++
+- Delivery + + -+
+Wildfires
+performance
++
+-+
+Water
++
++
++
+Natural resources
+Heatwaves
+Productivity
+Total
+resources
+cycle time
++
+-- +
++
++
++
+Climate
+Availability
++
+Capacity
+change
+of resources
+Demand Forecasting
+Storm +
+utilization
++ + +
+Hurricanes
+variability
+accuracy
++
++ +
+Manufacturing
++
+Land-use and
+operations
+Schedule
+deforestation
++
+Consumption
+of
++
+- variance
++
+natural resources
+Environmental
+Reliability
+GHG
+emissions
++
+-+
+regulations and
+produced
+by firms
+Transportation+
++
+policies
+Energy
++ +
++
++activities
+consumption
+Customer
++
+- Environmental
+satisfaction
+pollution
++
++
+Supplier
++
++
+Order
+performance
++ fulfillment +
+rate
+Geographical
++changes
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Figure 1. Cognitive map for the interaction between climate change and SC performance
+As observed in Figure 1, climate change leads to several environmental consequences
+including global warming and extreme weather events such as storms, hurricanes, etc.
+Especially, global warming affects a huge number of variables in the system; e.g., natural
+resources, heatwaves, sea level rise, precipitation and wildfire. These consequences may also
+impact and trigger other climate change risks via inherent complex relationships within the
+system. All of these consequences directly or indirectly affect different performance
+dimensions of SCs. As an example, global warming leads to an increase in ocean temperature,
+thus contributing to the melting of ice and the rising of sea levels. Climate change also disrupts
+the availability of natural resources via changes in precipitation level, droughts, and extreme
+weather events. Many resource-dependent industries are directly influenced by the scarcity and
+decreasing quality of raw materials. Changes in weather conditions, geographical changes and
+natural disasters caused by climate change may also lead to disruption in SC facilities, changes
+in labour effectiveness, variability in demand and decreases in delivery performance. These
+problems and increasing costs in supply chains proliferate along the network, leading to a
+decrease in productivity, profits and lead times and hence, order fulfilment. The unexpected
+ways in which climate change affects both the environment and organisational conditions lead
+to problems in planning and forecasting reliability. Figure 1 also captures the impact of
+industrial activities on climate change. Manufacturing operations require consumption of
+energy and natural resources, which may result in environmental degradation, loss of resource
+bases and GHG emissions. Both manufacturing operations and transportation activities are
+influenced by environmental pollution and changes in land use. Therefore, SC operations also
+contribute to the growth of existing climate change issues. Thus, environmental regulations
+and policies were incorporated for reducing the amount of waste and GHG emissions produced
+by SCs.
+
+4.2. Defining the boundaries of the model
+The cognitive map in the previous section provided a general picture of the SCs under influence
+of climate change factors. However, it is not possible to model all effects in a unique
+quantitative model. Therefore, a questionnaire was designed to identify the most prominent
+variables interlinking climate change and SC performance dimensions from an SC manager’s
+perspective. To collect the survey data, first, introductory information was provided to
+respondents about the aim of the research. Survey questions focused on evaluation of the
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+criticality of different climate change factors and exposure of different SC functions to these
+risks.
+The survey designed in the Qualtrics survey platform was shared with over 240 contacts
+in industry. Email and other social media platforms such as LinkedIn and Twitter were used to
+obtain responses. 62 responses (26% response rate) were collected over five months (JanuaryMay 2019) from managers from multiple industries (e.g., food, textile, automotive, electronics,
+logistics, pharmaceutical, construction, machinery and energy). Targeted survey respondents
+were not limited to a specific industry, with a view of providing a general overview of climate
+change in the business world. Of the respondents, half were senior managers (i.e., directors and
+executives); 37% and 13% were at mid-level and junior managers, respectively. Average work
+experience of respondents was around 12 years. The 62 responses were checked for nonresponse bias by comparing early and late responses to reveal significant differences, if any
+(Armstrong and Overton, 1997; Blome et al., 2014). All the responses were divided into two
+groups based on their time of return and t-test was performed on two groups. The results of the
+two-samples revealed no statistically significant difference (t=13.52, p>0.05) for all three
+aspects for which data was collected. The difference between the two groups for the categories
+was at the 5% level. Thus, the sample was not found to have response bias and was used for
+the next level of analysis.
+Unsurprisingly, 87% of the respondents stated that climate change is a significant risk
+for their SC/business, which indicates a high awareness of the climate change threat in industry.
+Respondents who did not think climate change poses a severe risk to their business were from
+the automotive, electronics and machinery industries. First, the respondents were asked to
+assess different climate change consequences based on the effect to their business based on a
+five-point scale (Don’t know, No impact, Low impact, Moderate impact, High impact). Figure
+2 shows the percentage of respondents providing the highest score for the negative effects of
+climate change factors on the overall performance of their SC network. Based on the responses,
+extreme weather events, temperature increase, deforestation and decrease in available land
+were selected as the primary external factors for the SD modelling. Changes in seasons was
+not included as temperature increase variability will indirectly include this effect. Detailed
+examination of the responses also revealed that, due to the direct and indirect relations between
+different climate change factors, the awareness and visibility of these links and their ripple
+effects are relatively low; e.g., differences between respondents' individual answers on rising
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+sea levels versus warmer oceans, and water resource problems versus deforestation due to high
+interaction between them.
+
+Increase in extreme weather events
+Temperature increase
+Changes in seasons
+Defor. and decr. in available land
+Emergence/ changes in regulations
+Water resource problems
+Human health impacts
+Extinction of plant and animal spec.
+Rising sea levels
+Warmer oceans
+0%
+
+10%
+
+20%
+
+30%
+
+40%
+
+50%
+
+60%
+
+70%
+
+80%
+
+90%
+
+Figure 2. Response for most influential climate change factors
+Secondly, respondents were asked to evaluate the climate change exposure level on ten
+SC/business functions. Figure 3 represents highly influenced SC functions. Supply, delivery,
+planning and forecasting, inventory management and manufacturing are the highest impacted
+functions due to climate change. Activities associated with planning and forecasting and
+inventory management overlap with supply and manufacturing function. Therefore, supply,
+manufacturing and delivery were selected as SC functions that would be most exposed to the
+negative effects of climate change driven-risks.
+
+Supply
+Delivery
+Planning and forecasting
+Inventory management
+Manufacturing
+Warehousing
+Demand management
+Finance and commercial ops.
+Research & Development
+Marketing
+0%
+
+10%
+
+20%
+
+30%
+
+40%
+
+50%
+
+60%
+
+70%
+
+Figure 3. Response for most impacted SC functions due to climate change
+
+80%
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Respondents were also asked to assess the impact of each climate change
+factor/consequence on a more detailed set of performance dimensions. These performance
+dimensions namely, demand variability, availability of resources, raw material quality, raw
+material price, productivity, manufacturing lead time, manufacturing cost, product quality,
+warehousing/inventory holding cost, delivery lead time, delivery cost, maintenance cost,
+energy consumption and disruptions of SC facilities were identified. These results were
+complementary to most impacted SC functions as well as established SC performance
+measurement matrices. Survey results indicated that extreme weather events and temperature
+increase impact through non-availability and accessibility of resources, increase in raw material
+prices and disruptions to transportation routes, further cascading into reduced overall efficiency
+of SC operations.
+4.3. Developing system dynamics model
+The aim of this section is to develop the SD model of a three-echelon SC under the impact of
+critical climate change factors.
+Causal loop diagram
+Only the most prominent climate change factors and most vulnerable operations to climate
+change threat were identified for the development of the causal-loop model. Following the
+survey results, extreme weather events and temperature increase were identified as the major
+external factors for the SD model. These factors directly impact the availability of natural
+resources (e.g., crops, plants and animal species, water, fossil fuel reserves) due to decreased
+availability of land; further impacting the availability of raw materials in many natural
+resource-dependent industries. Secondly, the impact of extreme weather conditions on delivery
+performance was represented in two ways: decreased delivery speed and blockage of
+transportation routes due to extreme/adverse weather events (e.g., storms, snowfall). The causal
+loop diagram shown in Figure 4 represents the critical interactions between selected climate
+change factors and SC dynamics. Arrows represent the causal links between different elements
+of the system ("+": positive, "–": negative relationships).
+As seen from Figure 4, climate change is an external factor of the system, and its
+consequences directly or indirectly affect several SC performance measures such as
+availability of raw materials, productivity, delivery performance, order-fulfilment rate and
+customer satisfaction. Besides the impact of climate change on physical flows in SC networks,
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+it also leads to some economic impact for SC stakeholders. The proposed model considers two
+types of costs that are impacted by the climate change; increasing raw material price due to
+growing resource scarcity problems and additional logistics costs because of delivery delays
+and blockage of transportation routes (e.g., higher carrying cost due to higher lead time,
+inventory holding cost during blockage). Efficiency and effectiveness dimensions are
+incorporated into the model to understand and evaluate the performance implications of climate
+change risk in SCs.
++
+Climate change
+
++
+Temperature
+increase
+
+Blockage of
+transportation route
+
+Delivery speed
+
++
+
+- Environmental
+availability of
+raw materials
+
++
+
+-
+
++
+Decrease in
+available land
+
+-
+
++
+
+Order
+fullfilment
+rate
+
+Customer
+demand +
+
++
+
++
+
+-
+
+SC
+Effectiveness
+
+Manufacturing
+amount
++
++ Manufacturing
+productivity
+Desired
++
+production rate
+
+Raw material
+price
+
+Bad weather conditions
+and extreme weather
+events
+
+Delays in
+delivery
+
++
+Overall SC
+performance
++
+
++
+
+SC
++
+Efficiency
+-
+
++
+Inventory
+holding cost
+
+++
+Logistics cost
+
+Customer +
+satisfaction
++
+
+Total SC cost +
+
+Figure 4. Causal loop diagram for the SD model
+Stock and flow diagram
+The developed causal loop diagram was later converted into a stock and flow diagram with
+multiple stock, flow and auxiliary variables. Figure 5 represents the stock and flow diagram of
+a three-echelon SC, including supply (sourcing/procurement) and manufacturing as key subsystems and delivery functions linked with the movement of goods between them. The
+objective of developing a stock and flow model was to assess changes in SC dynamics under
+varying climate change conditions. Here, input and output variables of the system were defined
+based on insights generated from the causal loop diagram. For more information regarding
+converting the causal loop diagram to a stock and flow diagram for obtaining simulation results
+in the SD, please refer to Forrester (1994) or Sterman (2000).
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+The SD model consisting of a stock and flow diagram was based on a continuous
+material flow throughout a three-echelon network. Due to lack of real-time data for simulation,
+hypothetical data with several parameter values and assumptions were considered. The quantity
+of monthly customer demand was assumed to be normally distributed with a mean of 1000 and
+a standard deviation of 100. The model was designed such that, if the finished goods inventory
+is not sufficient to fulfil a customer order, the manufacturer will face stock-out issues. Initial
+inventory levels at supplier and manufacturer were set at 1200 to provide a steady state
+beginning for the simulation run.
+Different scenarios were developed by varying climate change related disruption levels.
+Availability of raw materials, transportation blockage and bad weather-related delays were
+specified as random variables. Distribution parameters (e.g. mean, standard deviation, min,
+max) and parameter trend changes at different time steps were identified based on the
+characteristic of the scenario type. Since SD is a behaviour-oriented simulation approach, input
+values and input distributions require domain knowledge and experience (Ghadge et al., 2013).
+Hence, the parameter space was explored based on multiple runs with stochastic parameters.
+Parameter values and relative influence of each parameter on simulation behaviour were
+discussed with two industry practitioners to qualify the best numerical values for low
+(optimistic), moderate and high (pessimistic) conditions by referencing real world experiences
+and foresight. Other model parameters such as standard delivery time were determined by
+consulting experts about the most likely value. Appendix A and B provides detailed
+information on key variables, simulation parameters and scenario parameters used in this study.
+Capturing impact of climate change risk effects on availability of raw materials and supply
+rate
+Availability of resources is affected by disruption and found to be exponentially decreasing
+due to cascading impact (Ivanov et al., 2014; Ojha et al., 2018). Availability of raw materials
+was calculated with Equation (1).
+!"#$%#&$%$'( *+ ,#- .#'/,$#%0
+= 23$'$#% #"#$%#&%/ ,/0*4,5/ "#%4/ ∗ / !"#$%&'() "+&$,-( (..("- ∗ -&$(
+
+(1)
+
+Initial value of available resources was set at 1500 units (150% of mean demand).
+Combined climate effect showed that the level of climate change exposure is a function of the
+following variables: extreme weather events, temperature increase and decrease in available
+land. The value of these three variables was determined by assigning a severity value between
+1 and 9. These variables have a different level of impact on the availability of resources.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain performance”, International journal of Production Research,
+Accepted.
+
+Unit cost
+change
+
+Raw material
+price
+Availability of
+raw materials
+
+Manufacturing
+cost
+
+Combined
+climate effect
+
+Supplier's
+Inventory
+
+Temperature
+increase
+
+Supply rate
+
+Overhead
+absorbtion rate
+
+Extreme weather
+events1
+
+<Climate
+change>
+Mean blockage time
+
+Supplier
+shipment
+rate
+
+Manuf
+Inventory
+
+Desired
+production rate
+
+Safety stock
+Extreme weather
+events2
+
+Severity of
+weather
+extreme
+
+SD of blockage time
+
+Bad weather
+probability
+Decrease in
+delivery speed
+
+Customer
+demand
+
+SC
+Effectiveness
+Product
+delivery
+rate
+Deviation in
+lead time
+
+Desired
+shipment rate
+Stockout
+amount
+
+Delays in
+delivery
+
+Delivery lead
+time
+Lead time
+adjustment
+
+SD of
+Mean bad severity
+weather level
+Weather related
+delay
+
+Transportation
+blockage
+Blockage
+length
+
+Overall SC
+performance
+
+Manufacturing
+productivity
+change
+
+Production
+rate
++
+
+Decrease in
+available land
+
+SC efficiency
+
+Blockage start
+
+Figure 5. Stock and flow diagram of a supply chain under climate change
+
+Additional
+transportation
+cost
+Additional
+inventory holding
+cost
+
+Increase
+in
+logistics
+cost
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Thus, different weights were assigned to each of these factors as 0.3, 0.5 and 0.2, respectively.
+The combined climate effect variable was calculated by multiplying the weighted total with an
+adjustment coefficient to represent the real behaviour of the system following expert opinion
+(by examining what will happen under similar conditions in the real life). Raw material price
+was also set as a function of the availability of resources and the combined climate change
+impact (initial value=7.5 $/unit).
+Capturing impact of weather conditions on logistics
+The initial value of the delivery lead time was set to seven days. Shipment of finished goods to
+customers may be delayed due to changes in weather patterns and extreme weather events in
+terms of increased lead time or may cause blockage of transportation infrastructure for a period.
+A lead time adjustment variable was added to represent these effects. Occurrence start time and
+severity of a possible transportation route blockage and weather-related delays were modelled
+as random variables. Mean, standard deviation and max distribution values were adjusted based
+on the state of climate change risk. In case of a route blockage or decrease in delivery speed
+(e.g. in case of heavy rain or storm), the additional time taken was addressed as a delay.
+Table 2. Summary of scenarios
+Scenarios
+
+Effect of climate change on the supply chain
+Availability of raw materials
+Low
+
+S1L1
+
+✓
+
+S1L2
+
+✓
+
+S1L3
+
+✓
+
+Moderate
+
+High
+
+Logistics operations
+Low
+
+Moderate
+
+High
+
+✓
+✓
+✓
+
+S2L1
+
+✓
+
+S2L2
+
+✓
+
+S2L3
+
+✓
+
+✓
+✓
+✓
+
+S3L1
+
+✓
+
+S3L2
+
+✓
+
+S3L3
+
+✓
+
+✓
+✓
+✓
+
+The model included several performance indicators to analyse the behaviour of SC
+dynamics under varying climate change conditions, e.g., manufacturing productivity change,
+stock out amount, delays in delivery (logistics). Overall, system performance was calculated
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+based on the efficiency and effectiveness of the SC. SC efficiency was defined as a change
+function of unit cost and manufacturing productivity. SC effectiveness was calculated by stockout amount, deviation in lead time and delays in delivery. An empirical input validation process
+was performed to check how well the developed model corresponds to the reality (Rand and
+Rust, 2011). All key parameters were calibrated via running the model for different input values
+and analysing the behaviour of different system parameters with the help of SD expert and
+industry practitioners. Extreme values were tested to make sure the developed SD model works
+as expected. Finally, the model was accepted as representative of a traditional real-world SC
+network following the results of experiments conducted.
+Availability of raw materials during supply and manufacturing activities was found to
+be a major bottleneck for the SC system identified earlier. Similar significant impact of climate
+change was observed on the logistical disruptions. For developing case scenarios presented in
+Table 2, this information was utilised along with considering three layers of severity (Low30%, Moderate-60% & High-90%). For example, the S1L2 disruption scenario represents the
+low availability of raw materials with a moderate level of logistical operations for climate
+change uncertainty. The physical meaning of this scenario is that there is only 30% availability
+of raw materials at the supplier/manufacturer, along with 60% available capacity of logistics.
+The simulation model was run for a 40-year horizon, as the accuracy of the predictions will be
+inaccurate beyond this time interval due to high uncertainty concerning climate change.
+
+5. Simulation and findings
+By simulating the developed SD model, the following results were obtained. Figure 6(a) shows
+the expected decrease in availability of raw materials due to the combined impact of climate
+change risk on natural resources and associated ecosystems for three groups of scenarios. An
+adjustment coefficient that was included in the combined climate effect formulation was varied
+to develop three scenario groups with different severity levels as low, moderate and high. The
+percentage decreases in the availability of raw materials were observed to be 40%, 53% and
+78% for low, moderate and high impact scenarios, respectively. It is evident from Figure 6(a)
+that, if SCs and governments do not take action to reduce climate change and associated risks,
+the worst scenario shows that some raw materials (e.g., crops, minerals) may expeditiously
+decrease and SCs may be obliged to find alternative resources.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+In this study, demand was assumed to be normally distributed. However, when the
+simulated impact is combined with other external factors such as growing global population
+and use of natural resources, the uncontrolled effects of climate change will be much more
+intense for agriculture, forestry, mining and bioenergy sectors.
+
+(a)
+
+(b)
+
+Figure 6. Changes in available resources and raw material price due to combined climate
+change impact
+Problems associated with the availability and accessibility in raw materials were
+directly reflected in the commodity prices. Figure 6(b) shows an increase in unit raw material
+price due to supply problems resulting from combined climatic impact. The percentage
+increases in unit price were approximately 66%, 89%, and 130% for low, moderate and high
+impact on resources, respectively. Rising raw material prices and decline in the raw material
+market size puts pressure on manufacturing costs, productivity, product price and revenue. For
+perishable/time-sensitive products, the distribution and storage of raw materials should also be
+considered, as they bear extra cost and energy consumption. Although this was not considered
+in the model, with increasing global temperatures, the energy consumption of refrigerator
+systems in delivery and warehousing is expected to grow exponentially.
+Figure 7 represents the decrease in production rate and the increasing stock-out amount
+due to supply problems resulting from the adverse impact of climate change risks. Supply
+shortages and increases in raw material prices have a significant impact on manufacturing
+productivity. Therefore, downward trends in productivity and manufacturing capacity should
+be assessed along with other economic impacts of climate change.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Figure 7. Changes in production rate and stock-out amount due to climate change
+Figure 8 represents delay in delivery as a percentage of standard delivery lead time and
+increase in total logistics costs as a percentage of initial standard value. These figures were
+generated based on simulation of bad weather conditions and extreme weather events. As seen
+in the Figure 8, frequency, severity and duration of both events are observed to be increasing.
+All modes of transportation are increasingly affected by adverse weather conditions and
+extreme weather events based on time, volatility and costs of operations. It is expected that
+delivery performance and reliability will increase to a critical level within 40 years. This may
+cause scheduling problems across the whole SC network. Increased lead time and keeping
+products on hand during transportation blockages bear additional transportation, labour and
+inventory holding costs.
+The effects of disruption may quickly propagate throughout the whole SC network
+(Ghadge et al., 2012; Scheibe and Blackhurst, 2018; Dolgui et al., 2018; Dolgui et al., 2020);
+therefore, the proposed SD model considered the impact of various climate change factors on
+different SC performance indicators. These impacts were combined and examined under two
+main dimensions - efficiency and effectiveness; as an SC may be ineffective even though they
+are efficient. Figures 9 and 10 show the changes in these variables for all the scenarios
+considered in this study (initial condition=100% for both variables). It was observed that the
+average decrease in the operational efficiency of the SC was higher than effectiveness in all
+scenarios. A relatively higher decrease in efficiency (compared to effectiveness) is driven by a
+significant decrease in resources to fulfil growing SC demand. Decreases in both SC efficiency
+and effectiveness leads to a decline in the overall SC performance.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain performance”, International journal of Production Research,
+Accepted.
+
+Low-impact on logistics
+
+Moderate-impact on logistics
+
+High-impact on logistics
+
+Delay in delivery for different climate change scenarios (percentage of standard time)
+
+Increase in logistics cost for different climate change scenarios (percentage of standard cost)
+
+Figure 8. Delays and increase in logistics costs due to changing weather conditions and extreme weather
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+SC Efficiency
+100%
+97%
+
+S1L1
+S1L2
+
+94%
+
+S1L3
+S2L1
+
+91%
+
+S2L2
+S2L3
+S3L1
+
+88%
+
+S3L2
+S3L3
+
+85%
+2019
+
+2025
+
+2031
+
+2037
+2043
+Year
+
+2049
+
+2055
+
+Figure 9. Changes in SC efficiency for different climate change scenarios
+Figure 11 shows the box plot for the comparison of nine scenarios based on changes in
+the overall SC performance. Especially, the SCs, of which both supply and delivery functions
+are highly affected and are under severe threat due to climate change. SC performance in
+Scenario S3L3 decreased to 79% in 40 years. In the best case (Scenario S1L1), the expected
+performance level was around 92%.
+
+SC Effectiveness
+100.00%
+
+S1L1
+S1L2
+
+97.00%
+
+S1L3
+S2L1
+S2L2
+
+94.00%
+
+S2L3
+S3L1
+
+91.00%
+
+S3L2
+S3L3
+
+88.00%
+85.00%
+2019
+
+2025
+
+2031
+
+2037
+2043
+Year
+
+2049
+
+2055
+
+Figure 10. Changes in SC effectiveness for different climate change scenarios
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Changes in the overall SC performance
+100%
+95%
+90%
+85%
+80%
+75%
+Climate change scenarios
+S1L1
+
+S1L2
+
+S1L3
+
+S2L1
+
+S2L2
+
+S2L3
+
+S3L1
+
+S3L2
+
+Climate change scenarios
+
+Figure 11. Comparison of changes in the overall SC performance under different
+scenarios
+The results of the proposed SD simulation model provided a platform for quantifying
+and understanding interactions between climate change risks and SC performance.
+
+6. Discussion and theoretical implications
+The developed SD model provides information on the links between climate change-related
+risks and SC operations. The following prepositions can be put forward for this interaction
+based on the results of study. Implications and suggestions are also provided for an effective
+response under each proposition.
+Proposition 1: There is a complex and strong interaction between climate change factors
+and SC performance dimensions.
+This study empirically reveals a high-level dynamic interaction between climate change factors
+and SC performance indicators. Therefore, in our view, these two fields should be assessed
+together by businesses, governments, agencies and organisations to better manage and respond
+to disruptions. Practitioners and academics seem more aware of the direct and immediate
+impact of climate change risk, and indirect impacts are generally neglected: e.g., long-term
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+availability of resources. The proposed systems theory-based approach put forward the multidimensional direct and indirect impact of climate change both in the short- and long-term.
+Preposition 2: When the impact of climate change is examined at the SC level, the
+cascading effect of these risks, along with overall SC performance, efficiency and
+effectiveness become more apparent.
+The survey shows that businesses are already feeling the effects of climate change in their
+operations. However, the propagation of the combined climatic effects along the entire SC
+remains overlooked. SC ecosystems are composed of multiple, complex and connected entities,
+layers and activities, which make these networks inherently vulnerable to the propagative and
+cascading effects of potential risks (Ghadge et al., 2020). The proposed SD analysis provides
+insights into how the impacts of different climatic risks on different levels of an SC propagate
+along the network and how this combined climate change effect is observed on overall SC
+performance, efficiency and effectiveness.
+The results of the model demonstrate the need for substantial intervention for holistic,
+network-level approaches for climate change risk management systems. It should also be noted
+that companies may be more susceptible to climate change-related risks via unprepared and
+weak stakeholders, e.g., suppliers. Notably, global SC networks need to assess geographical
+disparities in exposure to climate change carefully. Increased information sharing, visibility,
+communication and reporting about climate change are some strategies that may increase
+climate change resilience and adaption capabilities.
+Proposition 3: There is a remarkable difference among the awareness level (and
+assessments of climate change risk factors) of managers from different sectors.
+Despite there being a common view concerning the growing danger of some climatic risks
+(e.g., weather extremes), a significant difference is observed among managers' responses on
+the assessment of the interdependency between particular climate change factors and
+performance dimensions. This was an expected case as the target group was not restricted to a
+specific industry, and the exposure and vulnerability of each organisation is highly dependent
+on the industrial sector, geographical region and business network structure. Some sectors are
+inherently more vulnerable to the climate change threat, e.g., agriculture, food and renewable
+energy. However, the results reveal that climate change risk is ‘highly underrated’, and
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+awareness and visibility regarding the links between climate change factors and their ‘ripple
+effects’ are generally overlooked.
+Organisations' business model/strategies and performance management systems should
+cover climate change threat to survive in today's rapidly changing and volatile climate. Both
+climate change science and SC networks inherently cover myriad uncertainties and complex
+relationships; therefore, there may be sudden and unpredicted changes in the system.
+Especially, changing patterns of extreme events and natural disasters are increasingly linked to
+climate change and associated risks. Hence, adaptability and disaster recovery planning are of
+vital importance while facing climate change risk.
+
+7. Conclusion
+Following a systems perspective, this study conceptualised the interaction between climate
+change risk and SC performance for assessing the impact of one over other. The study consisted
+of three main phases. First, a group of experts identified potential impacts of climate change
+on SCs following development of a cognitive map (Figure 1). Later, a survey was applied to a
+group of practitioners to filter key climate change factors and their impact on major SC
+performance dimensions. It was observed that sourcing, manufacturing and logistics are the
+most vulnerable SC operations to climate change due to the combined impact of temperature
+increase, decrease in available land and extreme weather events on the availability of raw
+materials and resource capacity. Following the survey, in the third phase, an SD model was
+developed to simulate these prominent relations and their impact on overall SC performance,
+efficiency and effectiveness. The impact of climate change-driven risks was simulated under
+three levels (low, moderate, and high) for both the availability of resources and delivery
+performance, resulting in nine different hypothetical case scenarios. The study quantified the
+impact of climate change risk on SC performance.
+Climate change risk has started to transform business; however, academia has lagged
+behind these developments compared to the industry. The academic literature is dominated
+with research on environmentally friendly technologies and risk mitigation strategies; the
+opposite perspective, the impact of climate change on business, remains highly undervalued
+and underestimated. Need for empirical research to model, quantify and predict the impact of
+climate change-driven risks on SCs (Ghadge et al., 2020) was an evident research gap. This
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+study is believed to bridge the gap through the integration of supply chain risk management
+and performance management concepts. Limited number of studies have focussed on the
+integration of risk management and performance measurement within supply chain context
+(e.g. Kache and Seuring, 2014; Chaudhuri et al., 2020). This study reveals the importance of
+incorporating risk management into organization’s list of performance measures for effective
+supply chain management. This helps organizations as well as SCs to be better prepared for
+uncertain crises or disruptions.
+This study contributes to the literature in three key dimensions. First, this study
+conceptualises and investigates the uncertain interaction between climate change and SC
+performance based on a review of relevant literature and the development of a cognitive map.
+The originality of this research resides in bringing together climate change inputs and
+behaviour of SC dynamics within an SC performance measurement perspective. The proposed
+systems approach-based structure offers a deeper understanding and holistic picture of the
+relationship between climate change factors and SC performance dimensions. Second, it
+provides an SD-based model to quantify the implications of climate change risk on supply
+chain performance, efficiency and effectiveness. Such quantitative analysis facilitates and
+enhances our knowledge and understanding of the cascading propagation mechanism of
+climate change risk across supply chain networks. A systems theory approach helps to improve
+the visibility of climate change-related risks and SD methodology provides a platform to
+investigate the changes in performance under changing climatic conditions. Third, although
+there is a growing awareness of the impact on climate change and global warming on business
+operations, its generalisability for overall SC performance has not been addressed in the
+literature. To the best of the authors' knowledge, this study is novel by providing a
+comprehensive, quantitative, systems theory-based assessment for capturing interrelationship
+between two key mutually-influencing areas. The authors expect this article to be a steppingstone for further research and providing a new perspective for performance management in
+developing climate-smart and adaptable SCs.
+The study also provides a few propositions and managerial implications. First, insights
+generated on the most influential climate change factors and most influenced SC functions will
+help SC managers to better plan for climate change risk management. Assessment results show
+the extent of implications on key SC performance matrices. This information is vital for
+performance measurement and management. Furthermore, 'closed-loop' causal relationship
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+evidenced between climate change and supply chain will encourage practitioners to be more
+considerate towards the environment. This systems-theory driven holistic study is expected to
+encourage SCs/businesses in making proactive investments in order to mitigate climate-change
+related future disruptions.
+The study has some limitations. The relationship between climate change and SC
+performance is multi-fold and covers a wide range of factors that increase the complexity of
+the problem. Future study can explore this intricate relationship following a micro-level
+analysis. It should also be noted that, scientific evidence shows that climate change is
+accelerating fast; hence, firms must develop robust assessment capabilities to manage this
+inevitable risk better. Taking a clue from this study, similar empirical and quantitative studies
+on climate change should be undertaken to develop comprehensive understanding of cascading
+effect on wider supply chain ecosystem. Future studies should also focus on developing robust
+risk mitigation strategies to quickly reduce and possibly overcome the impact of climate risk
+on global supply chains. Each business within network needs to build resilience to the growing
+climate change risk and its cascading impact on the wider SC network (Ivanov et al., 2017;
+Dolgui et al., 2018). Although the SD model has some limitations and assumptions in terms of
+the boundaries of the model and included variables; the results of the study are presented by
+considering the current state of the global markets and different sectoral characteristics to
+overcome some of these weaknesses. In the simulation model, the scope of climate change
+impact was limited only to factors and interrelationships identified in the survey. Another major
+limitation of the study is the difficulty to gather and utilise historical data on the impact of
+climate change on SC operations, as quantification of this relationship is complex and equally
+difficult. Additional data from different sources (e.g. meteorological data) could be used in
+future studies to better understand the implications of climate risk on supply chain
+performance. Despite the above limitations, this study helps to model complicated relationships
+and thus improve the understanding of the effects of climate change risk on overall SC
+performance.
+Acknowledgement: This study was supported by the Scientific and Technological Research
+Council of Turkey (TUBITAK) under the TUBITAK BIDEB 2219-International Postdoctoral
+Research Scholarship Programme. Authors would also like to thank reviewers and special issue
+guest editor for their constructive recommendations for improving the quality of manuscript.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+References
+Agrawala, S., Carraro, M., Kingsmill, N., Lanzi, E., Mullan, M., Prudent-Richard, G. 2011.
+Private Sector Engagement in Adaptation to Climate Change: Approaches to Managing
+Climate Risks. OECD Environment Working Papers, No. 39, OECD Publishing.
+Akyuz, G.A., and Erkan, T.E. 2010. “Supply chain performance measurement: a literature
+review.” International Journal of Production Research 48 (17): 5137-5155.
+Alves, M.W.F.M., Jabbour, A.B.L.S., Kannan, D., Jabbour, C.J.C. 2017. “Contingency
+theory, climate change, and low-carbon operations management." Supply Chain
+Management: An International Journal 22 (3): 223-236.
+Andreoni, V., and Miola, A. 2014. Climate Vulnerability of the Supply-Chain: Literature and
+Methodological review. Luxembourg: Publications Office of the European Union.
+Armstrong, J.S., Overton, T.S. 1997. “Estimating nonresponse bias in mail surveys.” Journal
+of marketing research 396-402.
+Bala, B.K., Arshad, F.M., and Noh, K.M. 2017. System Dynamics: Modelling and Simulation.
+Springer: Singapore.
+Bergmann, A., Stechemesser, K., and Guenther, E. 2016. “Natural resource dependence
+theory: Impacts of extreme weather events on organizations.” Journal of Business
+Research 69: 1361–1366.
+Bititci, U. 2015. Managing Business Performance: The Science and the Art. John Wiley &
+Sons.
+Bititci, U., Cocca, P., and Ates, A. 2016. “Impact of visual performance management systems
+on the performance management practices of organisations.” International Journal of
+Production Research 54 (6): 1571-1593.
+Blome, C., Schoenherr, T., and Eckstein, D. 2014. “The impact of knowledge transfer and
+complexity on supply chain flexibility: A knowledge-based view.” International Journal
+of Production Economics 147: 307-316.
+Bourne, M., Melnyk, S., and Bititci, U. S. 2018. “Performance measurement and
+management: theory and practice.” International Journal of Operations & Production
+Management 38 (11): 2010-2021.
+Bourne, M., Mills, J., Wilcox, M., Neely, A., Platts, K. 2000. “Designing, implementing and
+updating performance measurement systems.” International Journal of Operations &
+Production Management 20 (7): 754-771.
+Campuzano, F., and Mula, J. 2011. Supply Chain Simulation: A System Dynamics Approach
+for Improving Performance. Springer-Verlag, London.
+Chaudhuri, A., Ghadge, A., Gaudenzi, B., Dani, S. 2020. “A conceptual framework for
+improving effectiveness of risk management in supply networks”. International Journal
+of Logistics Management, 31 (1): 77-98.
+Crawford, M., and Seidel, S. 2013. Weathering the storm: building business resilience to
+climate change. Center for Climate and Energy Solutions, Arlington. Accessed 30 July
+2019.
+https://www.c2es.org/site/assets/uploads/2013/07/weathering-the-storm-fullreport.pdf
+Dahlmann, F., and Roehrich, J.K. 2019. “Sustainable supply chain management and partner
+engagement to manage climate change information.” Business Strategy and the
+Environment 28 (8): 1632-1647.
+Dolgui, A., Ivanov, D., & Sokolov, B. 2018. Ripple effect in the supply chain: an analysis
+and recent literature. International Journal of Production Research 56(1-2): 414-430.
+Dolgui, A., Ivanov, D. and Rozhkov, M. 2020. “Does the Ripple Effect Influence the
+Bullwhip Effect? An Integrated Analysis of Structural and Operational Dynamics in the
+Supply Chain.” International Journal of Production Research 58 (5):1285–1301.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Fleming, A., Hobday, A.J., Farmery, A., van Putten, E.I., Pecl, G.T., Green, B.S., LimCamacho, L. 2014. “Climate change risks and adaptation options across Australian
+seafood supply chains – A preliminary assessment.” Climate Risk Management 1: 39–
+50.
+Forrester, J. W. 1994. “System dynamics, systems thinking, and soft OR.” System dynamics
+review 10 (2‐3): 245-256.
+Gasbarro, F., Iraldo, F., and Daddi, T. 2017. “The drivers of multinational enterprises' climate
+change strategies: A quantitative study on climate-related risks and opportunities.”
+Journal of Cleaner Production 160: 8-26.
+Ghadge, A., Dani, S. and Kalawsky, R. 2012. Supply chain risk management: present and
+future scope. International journal of logistics management, 23(3): 313-339.
+Ghadge, A., Dani, S., Chester, M., Kalawsky, R. 2013. “A systems approach for modelling
+supply chain risks.” Supply chain management: an international journal 18(5), 523-538.
+Ghadge, A., Wurtmann, H., and Seuring, S. 2020. “Managing climate change risks in global
+supply chains: a review and research agenda.” International Journal of Production
+Research 58(1): 44-64.
+González-Zapatero, C., González-Benito, J., Lannelongue, G., Ferreira, L.M. 2020. “Using
+fit perspectives to explain supply chain risk management efficacy.” International Journal
+of Production Research, Online.
+Gunasekaran, A., and Kobu, B. 2007. “Performance measures and metrics in logistics and
+supply chain management: a review of recent literature (1995–2004) for research and
+applications.” International Journal of Production Research 45 (12): 2819-2840.
+IPCC 2014. Climate Change 2014: Mitigation of Climate Change. Contribution of Working
+Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate
+Change [O. Edenhofer, R. Pichs-Madruga, Y. Sokona, E. Farahani, S. Kadner, K.
+Seyboth, A. Adler, I. Baum, S. Brunner, P. Eickemeier, B. Kriemann, J. Savolainen, S.
+Schlömer, C. von Stechow, T. Zwickel and J.C. Minx (eds.)]. Cambridge University
+Press, Cambridge, United Kingdom and New York, NY, USA.
+Ivanov, D., Sokolov, B., and Dolgui, A. 2014. “The Ripple effect in supply chains: trade-off
+‘efficiency-flexibility-resilience’ in disruption management.” International Journal of
+Production Research 52 (7): 2154-2172.
+Kache, F., Seuring, S. 2014. “Linking collaboration and integration to risk and performance
+in supply chains via a review of literature reviews. Supply Chain Management: An
+International Journal, 19 (5/6), 664 –682.
+Keleş, B., Gómez-Acevedo, P., and Shaikh, N.I. 2018. “The impact of systematic changes in
+weather on the supply and demand of beverages.” International Journal of Production
+Economics 195: 186–197.
+Kreie, A. 2013. The Adaptation of Supply Chains to Climate Change. PhD Thesis, HeriotWatt University, UK.
+Li, L., Cao, R., Wei, K., Wang, W., Chen, L. 2019. “Adapting climate change challenge: A
+new vulnerability assessment framework from the global perspective.” Journal of
+Cleaner Production 217: 216-224.
+Lim-Camacho, L., Plagányi, É.E., Crimp, S., Hodgkinson, J.H., Hobday, A.J., Howden, S.M.,
+Loechel, B. 2017. “Complex resource supply chains display higher resilience to
+simulated climate shocks.” Global Environmental Change 46: 126–138.
+McKinnon, A., Browne, M., Whiteing, A., Piecyk, M. -Eds.- 2015. Green Logistics:
+Improving the Environmental Sustainability of Logistics. London: Kogan Page
+Publishers.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Mehrjoo, M., and Pasek, Z.J. 2016. “Risk assessment for the supply chain of fast fashion
+apparel industry: a system dynamics framework.” International Journal of Production
+Research 54 (1): 28-48.
+Melkonyan, A., Krumme, K., Gruchmann, T., De La Torre, G. 2017. “Sustainability
+assessment and climate change resilience in food production and supply.” Energy
+Procedia 123: 131-138.
+Mital, M., Giudice, M.D., and Papa, A. 2018. “Comparing supply chain risks for multiple
+product categories with cognitive mapping and Analytic Hierarchy Process.”
+Technological Forecasting and Social Change 131: 159-170.
+Neely, A., Gregory, M., and Platts, K. 1995. “Performance measurement system design: A
+literature review and research agenda.” International Journal of Operations &
+Production Management 15 (4): 80-116.
+OECD 2015. The Economic Consequences of Climate Change. OECD Publishing, Paris.
+doi:10.1787/9789264235410-en
+Ojha, R., Ghadge, A., Tiwari, M. K. and Bititci, U. S. 2018. Bayesian network modelling for
+supply chain risk propagation. International Journal of Production Research, 56(17):
+5795-5819. doi: 10.1080/00207543.2018.1467059.
+Olivares-Aguila, J. and ElMaraghy, W. 2020. “System dynamics modelling for supply chain
+disruptions.”
+International
+Journal
+of
+Production
+Research.
+doi:10.1080/00207543.2020.1725171
+Özesmi, U., and Özesmi, S.L. 2004. “Ecological models based on people’s knowledge: a
+multi-step fuzzy cognitive mapping approach.” Ecological Modelling 176, 43–64.
+Quang, H.T., and Hara, Y. 2018. “Risks and performance in supply chain: the push effect.”
+International Journal of Production Research 56 (4): 1369-1388.
+Rand, W., and Rust, R.T. 2011. “Agent-based modeling in marketing: Guidelines for rigor.”
+International Journal of Research in Marketing 28 (3): 181-193.
+Rathore, R., Thakkar, J.J., and Jha, J.K. 2020. “Impact of risks in foodgrains transportation
+system: a system dynamics approach.” International Journal of Production Research.
+doi:10.1080/00207543.2020.1725683
+SCC. 2012. Supply Chain Operations Reference Model. Revision 11.0, Supply Chain
+Council.
+Sellitto, M.A., Pereira, G.M., Borchardt, M., da Silva, R.I., Viegas, C.V. 2015. “A SCORbased model for supply chain performance measurement: application in the footwear
+industry.” International Journal of Production Research 53 (16): 4917-4926.
+Sousa Jabbour, A.B.L., Jabbour, C.J.C., Sarkis, J., Gunasekaran, A., Alves, M.W.F.M.,
+Ribeiro, D.A. 2018. “Decarbonisation of operations management – looking back, moving
+forward: a review and implications for the production research community.”
+International Journal of Production Research. doi:10.1080/00207543.2017.1421790
+Sterman, J.D. 2000. Business Dynamics: Systems Thinking and Modeling for a Complex
+World. McGraw-Hill Europe.
+Sussman, F.G., and Freed, J.R. 2008. Adapting to Climate Change: A Business Approach.
+Pew Center on Global Climate Change, Arlington.
+Thorpe, J., and Fennell, S. 2012. Climate Change Risks and Supply Chain Responsibility:
+How should companies respond when extreme weather affects small-scale producers in
+their supply chain? Oxfam Discussion Papers. Accessed 15 July 2020.
+https://d1tn3vj7xz9fdh.cloudfront.net/s3fs-public/file_attachments/dp-climate-changerisks-supply-chain-responsibility-27062012-en_5.pdf.
+Turken, N., Cannataro, V., Geda, A., Dixit, A. 2020. “Nature inspired supply chain solutions:
+definitions, analogies, and future research directions.” International Journal of
+Production Research. doi:10.1080/00207543.2020.1778206.
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+Appendix A.
+Table A.1. Some of the input variables for model and associated mathematical equations
+Variable
+Additional inventory
+holding cost
+Additional transportation
+cost
+Availability of raw
+materials
+Bad weather level
+
+Equation
+Blockage length*0.5
+Weather related delay*1
+(1500*EXP(-Combined climate effect*Time))
+
+0.32+STEP(0.5,12*3)+STEP(0.5,12*6)+STEP(0.5,12*9)+STEP
+(0.5,12*12)+STEP(0.5,12*15)+STEP(0.5,12*18)+STEP(0.5,12
+*21)+STEP(0.5,12*24)+STEP(0.5,12*27)+STEP(0.5,12*30)+S
+TEP(0.5,12*33)+STEP(0.5,12*36)+STEP(0.5,12*39)
+Bad weather probability
+((2/12)+0.2)+STEP(0.04,12*3)+STEP(0.04,12*6)+STEP(0.04,1
+2*9)+STEP(0.04,12*12)+STEP(0.04,12*15)+STEP(0.04,12*18
+)+STEP(0.04,12*21)+STEP(0.04,12*24)+STEP(0.04,12*27)+S
+TEP(0.04,12*30)+STEP(0.04,12*33)+STEP(0.04,12*36)+STE
+P(0.04,12*39)
+badweatherRV
+RANDOM 0 1 ()
+Blockage length
+IF THEN ELSE (Time=Blockage start, Severity of weather
+extreme,0)
+Combined climate effect ((0.5*Temperature increase+0.3*Extreme weather
+events1+0.2*Decrease in available land)/(2135*3))
+Customer Demand
+RANDOM NORMAL(900, 1100 , 1000 , 20 , 1 )
+Decrease in available land 5*Climate change
+Decrease in delivery
+IF THEN ELSE(badweatherRV<Bad weather
+speed
+probability,1,0)*Extreme weather events2
+Delays in delivery
+((Delivery lead time-7)*100)/7
+Delivery lead time
+7+Lead time adjustment
+Extreme weather events1 6*Climate change
+Increase in logistics cost ((Additional transportation cost+Additional inventory holding
+cost)*100)/7
+Lead time adjustment
+MAX(Weather related delay, Blockage length)
+Manuf Inventory
+INTEGER(Production rate-Product delivery rate)
+Initial value: Safety stock
+Manufacturing cost
+10*Production rate
+Manufacturing
+((982.1-Production rate)*100)/982.1
+productivity change
+Mean Blockage Time
+2.2+STEP(0.4,12*3)+STEP(0.4,12*6)+STEP(0.4,12*9)+STEP(
+0.4,12*12)+STEP(0.4,12*15)+STEP(0.4,12*18)+STEP(0.4,12*
+21)+STEP(0.4,12*24)+STEP(0.4,12*27)+STEP(0.4,12*30)+ST
+EP(0.4,12*33)+STEP(0.4,12*36)+STEP(0.4,12*39)
+Overall SC performance (SC efficiency+SC Effectiveness)/2
+Overhead absorbtion rate Manufacturing cost/Production rate
+Raw material price
+10+(10*(1200-Availability of raw materials)/1200)
+Safety stock
+1200
+SC Effectiveness
+100-((0.4*((100*Stockout amount)/1000)+0.2*((Deviation in
+lead time*100)/7)+0.4*Delays in delivery)/10)
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain
+performance”, International journal of Production Research, Accepted.
+
+SC efficiency
+SD of Blockage Time
+SD of severity
+Severity of weather
+extreme
+Stockout amount
+Supplier shipment rate
+Supply rate
+Temperature increase
+TIME STEP
+Transportation blockage
+Unit cost change
+Weather related delay
+
+100-(0.4*((((Unit cost change-14.5)*100)/14.5)+0.4*(((982.1Manufacturing productivity change)*100)/982.1)+0.2*Delays in
+delivery)/50)
+2
+0.6
+RANDOM NORMAL(1, 9 , Mean Blockage Time , SD of
+Blockage Time , 1)*Extreme weather events2
+INTEGER(IF THEN ELSE(Manuf Inventory>=Customer
+Demand,0,Customer Demand-Manuf Inventory))
+MIN(Supplier's Inventory,Desired production rate)
+MIN(Supplier shipment rate, Availability of raw materials)
+8*Climate change
+1
+INTEGER(RANDOM NORMAL(0, 3 , 1 , 2,Time))*Extreme
+weather events2
+(((Raw material price-7.5)*100)/7.5)+Overhead absorbtion
+rate+Increase in logistics cost
+IF THEN ELSE(Decrease in delivery speed=1,RANDOM
+NORMAL(0, 7, Bad weather level, SD of severity, 1),0)
+
+Appendix B.
+Table B.2. General simulation parameters (Common parameters for all scenarios)
+Parameter
+Initial available raw material
+Weight of temperature increase
+Weight of extreme weather events1
+Weight of decrease in available land
+Level of temperature increase
+Level of extreme weather events1
+Level of decrease in available land
+Supplier’s initial inventory level
+Raw material price at time 0
+Manufacturing cost
+Safety stock
+Standard delivery lead time
+Additional inventory holding cost during route blockage
+Additional transportation cost due to delays
+
+Value
+1500 units
+0.5
+
+0.3
+0.2
+8
+6
+5
+
+1200 units
+7.5 $/unit
+10 $/unit
+1200 units
+7 days
+0.5 $/unit/day
+1 $/unit/day
+
+Er-Kara, M., Ghadge, A. & Bititci, US, (2020), “Modelling the impact of climate change risk on supply chain performance”, International journal of Production Research,
+Accepted.
+
+Table B.2. Scenario parameters
+Impact of weather events on delivery
+Scenarios
+Parameters
+
+S1L1
+
+S1L2
+
+S1L3
+
+S2L1
+
+S2L2
+
+S2L3
+
+S3L1
+
+S3L2
+
+S3L3
+
+Mean
+blockage time
+
+2
+(+0.3 each 3
+years)
+2
+
+2.5
+(+0.4 each 3
+years)
+2.5
+
+3
+(+0.5 each 3
+years)
+3
+
+2
+(+0.3 each 3
+years)
+2
+
+2.5
+(+0.4 each 3
+years)
+2.5
+
+3
+(+0.5 each 3
+years)
+3
+
+2
+(+0.3 each 3
+years)
+2
+
+2.5
+(+0.4 each 3
+years)
+2.5
+
+3
+(+0.5 each 3
+years)
+3
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+1
+
+9
+
+11
+
+13
+
+9
+
+11
+
+13
+
+9
+
+11
+
+13
+
+0.3
+(+0.03 each 3
+years)
+0.3
+(+0.3 each 3
+years)
+0.6
+
+0.4
+(+0.04 each 3
+years)
+0.4
+(+0.4 each 3
+years)
+0.7
+
+0.5
+(+0.05 each 3
+years)
+0.5
+(+0.5 each 3
+years)
+0.8
+
+0.3
+(+0.03 each 3
+years)
+0.3
+(+0.3 each 3
+years)
+0.6
+
+0.4
+(+0.04 each 3
+years)
+0.4
+(+0.4 each 3
+years)
+0.7
+
+0.5
+(+0.05 each 3
+years)
+0.5
+(+0.5 each 3
+years)
+0.8
+
+0.3
+(+0.03 each 3
+years)
+0.3
+(+0.3 each 3
+years)
+0.6
+
+0.4
+(+0.04 each 3
+years)
+0.4
+(+0.4 each 3
+years)
+0.7
+
+0.5
+(+0.05 each 3
+years)
+0.5
+(+0.5 each 3
+years)
+0.8
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+0
+
+7
+
+9
+
+11
+
+7
+
+9
+
+11
+
+7
+
+9
+
+11
+
+SD of
+blockage time
+Min blockage
+length
+Max blockage
+length
+Bad weather
+probability
+Mean bad
+weather level
+SD of severity
+Min weather
+related delay
+Max weather
+related delay
+
+

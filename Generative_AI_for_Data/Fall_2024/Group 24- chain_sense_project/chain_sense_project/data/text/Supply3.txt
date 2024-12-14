@@ -1,0 +1,507 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/281279488
+
+Impacts of extreme weather in supply chains
+Article in Időjárás · July 2014
+
+CITATIONS
+
+READS
+
+8
+
+3,353
+
+2 authors, including:
+Beáta Pató
+Eötvös Loránd University
+33 PUBLICATIONS 213 CITATIONS
+SEE PROFILE
+
+All content following this page was uploaded by Beáta Pató on 27 August 2015.
+The user has requested enhancement of the downloaded file.
+
+IDŐJÁRÁS
+Quarterly Journal of the Hungarian Meteorological Service
+Vol. 118, No. 3, July – September, 2014, pp. 283–291
+
+Impacts of extreme weather in supply chains
+Zoltán Kovács and Beáta Sz. G. Pató*
+
+University of Pannonia, Department of Supply Chain Management
+Veszprém, Egyetem u. 10, H-8200, Hungary
+*Corresponding author E-mail: patog@vnet.hu
+(Manuscript received in final form March 10, 2014)
+
+Abstract—There are many phenomena which confirm the fact of climate change. Two
+kinds of responses are mentioned often to this fact: 1. Actions by which this process can
+be interrupted or slowed down. 2. Accepting the fact of changes and finding adaptive
+strategies.
+Authors present a research which aimed to increase the responsiveness of supply
+chains for the climate change – especially extreme weather. Secondary and primary
+investigation were carried out, and the nominal group technique was used to discover,
+group and assess the potential threats.
+Results so far pointed out that both physical and control processes are involved in
+extreme whether consequences. Findings give good bases for a substantial risk analysis
+for any disaster coming from the climate change or other reasons.
+The research is supported by the Government of Hungary.
+Key-words: Climate change, disaster management in supply chains, extreme weather.
+
+1. Introduction
+Extreme weather event might cause wide range of problems in everyday life.
+While there is a debate on the fact of climate change (Nordhaus, 2013) and its
+possible source, there is no doubt that being ready for unexpected weather evens
+is not a bad decision. There are studies which deal with the source and
+implications of extreme weather.
+Stott et al. (2004), in their pioneering study, concluded that human
+influence more than doubled the likelihood of the heat wave occurring. An
+283
+
+OECD study (Agrawala et al., 2011) discovered that while companies are
+generally aware of the physical implications of climate change, few include it
+into their risk management system.
+From this point of view, there are two possible strategies:
+1. To reduce the climate change effects – mostly emission – in order to
+slow down or to turn back the negative trend. We have to be aware that
+outcomes of corrective and preventive actions will show up in middle or
+long time horizon.
+2. To learn to live with climate change at least on middle range and to do
+our best to adapt to the situation.
+Weather sensitive sectors such as agriculture, horticulture, food industries are
+involved mostly. Thorpe and Fennel (2012) present three case studies from
+coffee, cotton, and sesame oil business. Since supply is vital in wide area of
+society and life, it is important to examine the implications of climate change.
+The effects can have influence in direct and indirect ways.
+Present youngsters are the most involved in the consequences of climate
+change. In the State of the Union speech, President Obama urged Congress “to
+get together, pursue a bipartisan, market-based solution to climate change, like
+the one John McCain and Joe Lieberman worked on together a few years ago.”
+In his second inauguration speech (January, 2013), the president said: “We will
+respond to the threat of climate change, knowing that failure to do so would
+betray our children and future generations. Some may still deny the
+overwhelming judgment of science, but none can avoid the devastating impact
+of raging fires, and crippling drought, and more powerful storms.”
+The topic is especially relevant in Hungary, since we faced some extreme
+weather events recently, such as extreme temperature, excessive rainfall,
+flooding, and spring snowstorms.
+Recognizing this and the fact that certain aspects of climate change issues
+are inevitable, University of Pannonia defined a project to carry out research on
+consequences of climate change, especially weather phenomena issues.
+Economics, agriculture, engineering, and social science researchers work in the
+project supported by the EU and the Hungarian government.
+Inside economics, the main analyzed areas are: macroeconomics, regional
+development, tourism, health sector, and supply chains. Part of the research is a
+literature review, such as we introduced above. The other part is primary
+research, in first stage mostly forecast.
+First we tried to discover a wide set of implications. The method we have
+used is the nominal group technique.
+In our research we asked master level students – who are in supply chain
+related programs – about their judgments on the possible consequences of
+climate change, especially extreme weather.
+284
+
+2. Literature review
+The main research question was to learn the opinion of next generation about
+weather change implications in supply chains.
+According to International Energy Agency (2013), it is possible that global
+warming will be more than two degrees Celsius. Above this limit the climate
+could become unstable. This will affect production and transport processes as
+well. Carey (2011) suggests that extreme weather events have become more
+common in recent years.
+Czifra, et al. (2013) argue that climate change affects competitiveness.
+According to IPCC’s annual report (Trenberth, 1999), Hungary is acutely
+vulnerable. Based on this forecast climate change will turn the weather towards
+extreme events. The temperature will be higher than it is now, and we can
+expect stormy winters with more fall (Czifra, et al., 2013).
+In Hungary one of the main supply related implications will be the
+deterioration of transport infrastructure. Extreme weather phenomena such as
+storm, flooding, high temperature, lots of fall will cause damages in transport
+infrastructure. Hunyadi (2010) gives examples for possible damages of road
+infrastructure. Gáspár (2003, 2004) has set up road durability requirements. He
+suggests that the requirement pyramid (Fig. 1) will change in the future as a
+respond to climate change.
+
+Users’
+needs
+
+Safety, convenience, travel time, accessibility
+
+Functional
+requirements
+Constructional
+requirements
+Material
+property
+Raw material
+property requirements
+
+Roughness, noise reduction, traffic lanes
+Strength, durability, etc.
+Fatigue strength, deformation, cracks,
+thickness
+Composition, particle distribution,
+voids content, density, brevity,
+penetration, etc.
+
+Fig. 1. Surface performance requirement related pyramid of requirements (Gáspár, 2003)
+
+285
+
+Hunyadi (2010) argues planting vegetation near the roads which have
+larger tolerance limits, in order to take consideration the effects of climate
+change in advance. Gáspár (2003) suggests life cycle design:”life cycle design
+includes both design methods and their phases which take into consideration
+economic issues, cultural integration and ecological aspects”.
+In addition to the environmental impacts on supply chains, there is an other
+important factor: restructuring of customer needs. Production infrastructure and
+distribution networks have to adjust to them (Czifra et al, 2013).
+Caldwell et al. (2013) and others (Thrope and Fennel, 2012) examined the
+potential impacts of climate change to freight transport. Table 1 summarizes the
+direct and indirect effects of meteorological factors on terrestial traffic safety.
+Jüttner et al. (2003) give an overview of the potential research areas.
+
+Table 1. Effects of weather on surface traffic safety (Vissy and Bátyi, 1998)
+Direct effects
+Surface conditions
+(road, rail)
+
+Visibility
+
+Loading
+
+Snowing
+
+Fog
+
+Wind
+
+Snowdrift
+
+Heavy rainfall
+
+Heavy rainfall
+
+Indirect effects
+Biometeorological effects
+(front effects)
+Accident
+prevention
+
+Health and
+safety
+
+Temperature
+
+There are relatively small number of researches on the opinion of the future
+generation, however, Revesz and Shahabian (2010) evaluate opportunities for
+intergenerational discounting, which are often conflated in the literature. They
+have found that the existing justifications do not support the prevalent approach
+of discounting benefits to future generations at the rate of return in financial
+markets and, more generally, that discounting cannot substitute for a moral
+theory setting forth our obligations to future generations.
+3. Research methodology and results
+As previous studies from literature show, implications of climate changes
+include wide areas of supply chains. We can say that the whole society is
+involved in the climate change, partly due to the effects in supply chains. There
+are different ways to discover opinions on the topic.
+Zaltman et al. (1982) and Yin (1994) used discovery oriented, practitionerbased approach, with semi-structured interviews.
+286
+
+The nominal group technique (NGT) is a group-based problem solving or
+decision making method (Delbecq and VandeVen, 1971, 1975; VandeVen and
+Delbecq, 1974). It combines the amenities of the un/low structured
+brainstorming and formal voting. We have followed the next steps:
+1. Introduction and explanation: We welcomed the participants, who were
+master students in logistics, management, MBA and industrial engineering.
+We provided the question in written form on the top of an A4 format page:
+What are the impacts of extreme weather to the operation of supply chains?
+We have raised participants’ attention to the importance of the question.
+2. Silent generation of ideas: We asked participants to put down possible
+answers to the paper. Since any interaction is prohibited, in this phase we
+asked them not to consult or discuss their ideas with others. This stage
+lasted 10 minutes. In this stage, we repressed not only negative but useful
+positive interactions also. We allowed them in next steps.
+3. Sharing ideas: We invited participants to read their ideas they have written
+on the paper. If they ran out of idea, they could ‘pass’. If they have new idea
+– generated by others – they can join again. They can further develop
+others’ ideas. We recorded each idea into a spreadsheet using the same
+words as participants formulated their ideas. (They were asked to use not
+more than 3 words to compose their idea.)
+
+The round robin process continued until all ideas have been
+presented. Since this phase supports only positive interaction, they
+could hear each other but were not allowed to comment others’ ideas.
+4. Discussion: Participants were invited to seek verbal explanation or further
+details about any of the ideas that others have produced that may not be
+clear to them. Anybody could ask, comment, interpret, explain any ideas on
+the screen. New ideas were generated, others were combined, extended or
+deleted (when they are proved to be equal with others: they called
+duplicates). There are two dangers in this stage (based on our more than 30
+years NGT experiences):
+― Drawing together ideas might result so-called ‘super idea’ which will
+get lots of votes but is not concrete at all, thus, it can not be made real.
+Sometimes ‘super idea’ and some of its parts exist simultaneously.
+― There will be similar good ideas, which will compete again each other and
+share votes. In this way, each of them gets little weight and will drop out.
+It is important for the facilitator to keep good balance in the weight of
+ideas. Such aspects are complexity, extent, related hierarchy level of ideas.
+In this stage, we have received the list of possible effects in Table 2.
+287
+
+Table 2. List of potential effects after group discussion
+
+1 Product damage
+
+36 Earthquake abyss engulfes the company
+
+2 Communication problems in the EDI
+
+37 Daily 8-hour work period may be fragmented
+Increasing number of non-forecasted
+38
+transport errors
+39 Closer relocation of supply chain players
+40 Introduction of stricter limitations
+41 Establishing specialized warehouses
+42 Conflicts between partners
+43 Consumer needs can not be satisfied
+44 Material flow slows
+More dense distribution points, necessity for
+45
+warehouses
+46 Shutdown due to state of emergency
+47 Appreciation of taking out insurance
+48 Good condition tires can not be calculated
+49 Market rankings change
+50 Development of vehicles
+
+3 Damage of factories
+4 Routes are cancelled
+5 Extreme work conditions
+6 Other modal transport are forced
+7 Cost, time, and resource losses
+8 Low water-sailing ban
+Increased preparations in the case of FMCG
+9
+products
+10 Huge storm - closed airports
+11 Increased transport ( supply) uncertainty
+12 Additional storage costs
+Appreciation of reliability models due to
+13
+increased uncertainty
+14 Increased number of risk factors
+Increased costs of mining, excavating raw
+15
+materials
+16 Increased transport time requirement
+
+51 Needs assessment difficulties
+52 IT equipment damage
+53 Stress
+
+17 Companies that fall out of the supply chains
+
+54 Longer delivery lead times
+
+18 Electric grid dropouts complicate storing
+
+55 Shipments over Arctic can not be solved
+
+19 Necessity of work reorganization
+Increased mental and physical load of
+20
+labour
+Higher vulnerability of electronic products,
+21
+lower humidity during winter
+22 Loss of goodwill due to delays and damages
+
+56 Decentralized inventory management
+
+23 Lack of agricultural products
+
+61 Growing importance of forecasts
+
+24 Physical delivery becomes impossible
+
+62 Obstruction in mining
+
+25 Difficult traffic conditions due to flooding
+
+63 Rails freezing
+
+26 Development of resistant packaging
+
+64 Shifted seasonality
+Appreciation of products with longer
+65
+warranty period
+66 Chain problems accumulate
+Increasing weight of security/safety
+67
+technology
+68 Need for special storage conditions
+69 Changes in priorities within the company
+70 Co-operation with the army
+Importance of loading and fastening
+71
+technology
+72 Rail deformation
+
+27 Railway comes to the fore
+28 Coming out supply chain issues
+29 Profile change is necessary (products)
+30 Maintaining higher inventory
+31 Accidents
+32 Maintaining crisis staff
+33 Alternative supply seeking
+34 Further company social responsibilities
+35 More pressure on co-operation, collaboration
+
+288
+
+57 Necessity of rationalization
+58 Increased energy consumption
+59 Appreciation of meteorological information
+60 Weakening of political stability
+
+5. Ranking: In this session there were little, spontaneous and informal
+interaction between participants. They were busy with their voting papers
+and selecting the most preferred ideas.
+First they were asked to select the 5 most important effects from the list of
+72. Then they ranked them. The ranking order was: 1 – 5 – 2 – 4 – 3 where
+5 was the grade of the most important, 1 is the grade of least important one.
+Finally, the grade points were summarized for all effects in the list of 72
+ideas. Table 3 shows the final ranks of the effects.
+Then we summarized the grade points.
+Table 3. The final ranks
+Rank Potential effects
+
+Score
+
+1.
+
+Increased transport ( supply) uncertainty
+
+22
+
+2.
+
+Cost, time and resource losses
+
+21
+
+3.
+
+Routes are cancelled
+
+15
+
+4.
+
+Damage of factories
+
+12
+
+5.
+
+Accidents
+
+11
+
+6-7.
+
+Appreciation of reliability models due to increased uncertainty
+
+10
+
+6-7.
+
+Maintaining crisis staff
+
+10
+
+4. Conclusions
+Looking at the list we can conclude, that students have a realistic judgment on
+possible consequences of climate change, especially effects of extreme weather.
+It is especially important in Hungary where the frequency of extreme weather
+events is increasing, however, to put it cynically, they are tending to become not
+extreme ones.
+We did not asked the participants about the ‘to do’s, it will be the part of
+further research. Based on their case studies Thorpe and Fennel (2012), using an
+EOCD study, suggest five possible actions:
+1. Raise awareness and understanding of adaptation within the business:
+companies need to make more effort to understand and evaluate the
+potential physical impacts.
+2. Ask producers about current climate trends and impacts: talking to
+producers directly, risks must be assessed.
+3. Build longer-term and more stable relationships with suppliers: where
+markets are more stable, producers are empowered to invest for the future.
+289
+
+4. Support community development and environmental sustainability: climate
+resilient products, technologies, new forms of organizations and cooperations, managing social issues, new markets need to be supported.
+5. Work through existing institutions, including governments.
+Our other researches on modeling the implications (Kovács et al., 2014)
+confirm this complex approach.
+We are planning to get further information from the national disaster
+management system. This research will include the evaluation of extreme
+weather related cases such as snowstorm and flooding.
+Acknowledgment–This paper presents the results of the projects TÁMOP-4.2.2/A-11/1-20120064.This project is supported by the European Union and co-financed by the European Social Fund.
+
+References
+Agrawala, S., Carraro, M., Kingsmill, N., Lanzi, E., Mullan, M., and Prudent-Richard, G. 2011:
+Private Sector Engagement in Adaptation to Climate Change: Approaches to Managing Climate
+Risks. OECD Environment Working Papers 39, http://dx.doi.org/10.1787/5kg221jkf1g7-en.
+Caldwell, H., Quinn, H.K., Menuier, J., Subrier, J., and Grenzeback, L., 2013: Potential Impacts of
+Climate Change on Freight Transport. http://climate.dot.gov/documents/workshop1002
+/caldwell.pdf.
+Carey, J., 2011: Storm warnings: extreme weather is a product of climate change. Scientific American.
+http://www.scientificamerican.com/article/extreme-weather-caused-by-climate-change/
+Czifra, T., Dobozi, E., Selmeczi, P., Kohán, Z., Rideg, A., and Schneller, K., 2013: A területfejlesztés 4
+éves szakmai programja a klímaváltozás hatásainak mérséklésére (2010–2013).
+http://www.vati.hu/files/sharedUploads/docs/ttei/A_teruletfejlesztes_klimaprogramja_20102013_1.pdf. In Hungarian)
+Delbecq, A.L. and. VandeVen, A.H., 1971: A Group Process Model for Problem Identification and
+Program Planning. J. Appl. Behav. Sci. VII (July/August, 1971), 466–491.
+Delbecq, A.L., VandeVen, A.H., and Gustafson, D.H., 1975: Group Techniques for Program Planners.
+Glenview, Illinois: Scott Foresman and Company.
+Gáspár, L., 2003: Az élettartam mérnöki tudomány. Közlekedéstudomány 53, 81–129. (In Hungarian)
+Gáspár, L., 2004: Az útburkolatok teljesítőképessége, Közúti mélyépítési szemle 54 (11), 7–12. (In
+Hungarian)
+Hunyadi, D., 2010: A klímaváltozás hatása a közlekedési infrastruktúrára. Közúti mélyépítési szemle
+60 (3), 35–40. (In Hungarian)
+International Energy Agency, 2013: Redrawing the Energy Climate MapWorld Energy Outlook
+Special Report - released on 10 June 2013.
+Jüttner, U., Peck, H. and Christopher, M., 2003: Supply chain risk management: outlining an agenda
+for future research. Int. J. Logistics: Res. Appl. 6, 197–210.
+Kovács Z., Pató Gáborné Szűcs B., and Szabó L., 2014: Logisztika a klímaváltozás körülményei
+között. Logisztikai Híradó. 2014/1, 39–42. (In Hungarian)
+Nordhaus, W.D., 2013: Why the Global Warming Skeptics Are Wrong? http://www.nybooks.com/
+articles/archives/2012/mar/22/why-global-warming-skeptics-are-wrong/?pagination=false.
+Revesz, L.R. and Shahabian, M.R., 2010: Climate Change and Future Generations. Southern California
+Law Review 84, 1099–1164.
+
+290
+
+Stott, P.A., Stone, D.A., and Allen, M.R., 2004: Human contribution to the European heatwave of
+2003. Nature 432, 610–614.
+Thorpe, J. and Fennel, S., 2012: Climate Change Risks and Supply Chain Responsibility: How should
+companies respond when extreme weather affects small-scale producers in their supply chain?”
+Oxfam Discussion Papers, June 2012., www.oxfam.org.
+Trenberth, K. E. 1999: Short-term Climate Variations. Recent accomplishments and issues for future
+progress. (Eds: R. Pielke Sr and R. Pielke Jr) Storms Vol 1. Routledge Press. London. 126–141.
+United Nations Conference on Trade and Development (UNCTAD), 2011: Assuring Food Security in
+Developing Countries under the Challenges of Climate Change: Key Trade and Development
+Issues of a Fundamental Transformation of Agriculture. Discussion Paper 2011(2).
+VandeVen, A.H. and Delbecq, A.L., 1974: The effectiveness of nominal, Delphi, and interacting group
+decision making processes. Acad. Manage J. 605–621.
+Vissy, K. and Bátyi, F., 1998: A földfelszíni közlekedés meteorológiája. Természet Világa, 129. I.
+különszám, 75–78. (In Hungarian)
+Yin, R. 1994: Case study research: design and methods. Thousand Oaks, CA, Sage.
+Zaltman, G., Lemasters, K., and Heffring, K. 1982: Theory construction in marketing: some thoughts
+on thinking. New York, Wiley.
+
+291
+View publication stats
+
+

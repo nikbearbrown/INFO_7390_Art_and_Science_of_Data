@@ -1,0 +1,2301 @@
+Supply Chain Resilience
+Guide
+April 2019
+
+This page intentionally left blank
+
+Supply Chain Resilience Guide
+
+Strategic Overview
+Disasters disrupt preexisting networks of demand and supply. Quickly reestablishing flows of
+water, food, pharmaceuticals, medical goods, fuel, and other crucial commodities is almost
+always in the immediate interest of survivors and longer-term recovery.
+When there has been catastrophic damage to critical infrastructure, such as the electrical grid and
+telecommunications systems, there will be an urgent need to resume—and possibly redirect—
+preexisting flows of life-preserving resources. In the case of densely populated places, when
+survivors number in the hundreds of thousands, only preexisting sources of supply have enough
+volume and potential flow to fulfill demand.
+During the disasters in Japan (2011) and Hurricane Maria in Puerto Rico (2017), sources of
+supply remained sufficient to fulfill survivor needs. But the loss of critical infrastructure, the
+surge in demand, and limited distribution capabilities (e.g., trucks, truckers, loading locations,
+and more) seriously complicated existing distribution capacity. If emergency managers can
+develop an understanding of fundamental network behaviors, they can help avoid unintentionally
+suppressing supply chain resilience, with the ultimate goal of ensuring emergency managers “do
+no harm” to surviving capacity.
+Delayed and uneven delivery can prompt consumer uncertainty that increases demand and
+further challenges delivery capabilities. On the worst days, involving large populations of
+survivors, emergency management can actively facilitate the maximum possible flow of
+preexisting sources of supply: public water systems; commercial water/beverage bottlers; food,
+pharmaceutical, and medical goods distributors; fuel providers; and others. To do this effectively
+requires a level of network understanding and a set of relationships that must be cultivated prior
+to the extreme event. Ideally, key private and public stakeholders will conceive, test, and refine
+strategic concepts and operational preparedness through recurring workshops and tabletop
+exercises. When possible, mitigation measures will be pre-loaded. In this way, private-public and
+private-private relationships are reinforced through practical problem solving.
+Contemporary supply chains share important functional characteristics, but risk and resilience
+are generally anchored in local-to-regional conditions. What best advances supply chain
+resilience in Miami will probably share strategic similarities with Seattle, but will be highly
+differentiated in terms of operations and who is involved.
+In recent years the Department of Homeland Security (DHS) and the Federal Emergency
+Management Agency (FEMA) have engaged with state, local, tribal and territorial partners,
+private sector, civic sector, and the academic community in a series of innovative interactions to
+enhance supply chain resilience. This guide reflects the issues explored and the lessons (still
+being) learned from this process. The guide is designed to help emergency managers at every
+level think through the challenge and opportunity presented by supply chain resilience. Specific
+suggestions are made related to research, outreach, and action.
+
+i
+
+Supply Chain Resilience Guide
+
+This page intentionally left blank
+
+ii
+
+Supply Chain Resilience Guide
+
+Table of Contents
+INTRODUCTION......................................................................................................................... 1
+Purpose .............................................................................................................................................. 1
+Background ....................................................................................................................................... 1
+Supply Chain Defined .............................................................................................................. 2
+Supply Chain Resilience .......................................................................................................... 3
+Supply Chains and Emergency Management .......................................................................... 4
+Community Lifelines ............................................................................................................... 5
+
+SUPPLY CHAIN RESILIENCE PROCESS.............................................................................. 8
+Overview ............................................................................................................................................ 8
+Phase 1: Research and Mapping ..................................................................................................... 9
+Phase 2: Analysis ............................................................................................................................ 11
+Phase 3: Outreach........................................................................................................................... 13
+Phase 4: Action ............................................................................................................................... 15
+Phase 5: Assess and Refine ............................................................................................................ 16
+
+CONNECTION TO LOGISTICS PLANNING ....................................................................... 19
+Overview .......................................................................................................................................... 19
+Considerations ................................................................................................................................ 19
+Supply Source ........................................................................................................................ 20
+Distribution Points ................................................................................................................. 20
+Inventory ................................................................................................................................ 21
+Access and Re-entry............................................................................................................... 21
+Routes .................................................................................................................................... 23
+Fuel ........................................................................................................................................ 24
+Transportation Operators ....................................................................................................... 24
+
+APPENDIX A.
+
+DEFENSE PRODUCTION ACT .............................................................. 25
+
+Requesting DPA Priority Ratings ................................................................................................. 25
+Establishing a Voluntary Agreement ............................................................................................ 26
+
+APPENDIX B.
+
+COMMUNITY LIFELINE FRAMEWORK ........................................... 27
+
+Safety and Security ......................................................................................................................... 27
+Food, Water, Sheltering ................................................................................................................. 28
+Health and Medical ........................................................................................................................ 29
+Energy (Power & Fuel) .................................................................................................................. 30
+Communications ............................................................................................................................. 31
+Transportation ................................................................................................................................ 32
+Hazardous Material........................................................................................................................ 32
+
+APPENDIX C.
+
+SUPPLY CHAIN RESILIENCE ENGAGEMENT CHECKLIST ........ 34
+
+APPENDIX D.
+
+COMPLEX SUPPLY CHAIN EXAMPLE .............................................. 36
+
+iii
+
+Supply Chain Resilience Guide
+
+This page intentionally left blank
+
+iv
+
+Supply Chain Resilience Guide
+
+Introduction
+Supply Chain Resilience
+The most effective way to deliver the needed supplies to a disaster-impacted area is by re-establishing
+pre-disaster supply chains. Building resilience within, and providing for the rapid restoration of, supply
+chain systems is key to responding to any catastrophic incident. 1
+
+Purpose
+This document provides emergency managers with recommendations on how to analyze supply
+chains and to work with the private sector to enhance supply chain resilience in support of
+Comprehensive Preparedness Guide (CPG) 101: Developing and Maintaining Emergency
+Operations Plans. 2 This document also identifies how the results of the supply chain resilience
+process can inform logistics planning.
+
+Background
+Each day, individuals and families routinely receive critical goods and services such as water,
+food, pharmaceuticals, medical goods, power, and fuel from healthy, functioning supply chains.
+However, in times of disaster, even supply chains that were previously functioning well can
+experience significant disruption, generating acute life-safety challenges and quickly turning a
+disaster into a catastrophe. Supply chains that effectively adapt to disasters, disruptions, and
+fluctuating needs greatly benefit the community and can reduce the need for a larger response
+and recovery operation.
+While the private sector operates and maintains the
+Resilient supply chains are a critical
+majority of supply chains, emergency managers can
+element in protecting community lifelines.
+play a critical role in enhancing supply chain
+Community lifelines provide
+resilience by fostering awareness and collaboration
+indispensable services that (1) enable the
+among key supply chain players and promoting
+continuous operation of critical business
+actions to enhance supply chain resilience. They
+and government functions, and (2) are
+critical to human health and safety or
+must also be aware of supply chain vulnerabilities
+economic security.
+and potential impacts to the community so that they
+can develop effective emergency response plans and Survivors depend on community lifelines,
+which depend on resilient supply chains,
+operate efficiently in times of disaster. For example,
+to save and sustain life, ensure public
+emergency response plans are often based on the
+safety, and speed economic recovery.
+assumption of working supply chains. Awareness of
+vulnerabilities can help emergency managers
+understand the potential impacts of disrupted supply chains. In addition, such awareness helps
+managers to support the private sector in re-establishing supply chains and to take necessary
+actions to mitigate the impacts (e.g., prioritizing stabilization of critical supply chain
+1
+
+FEMA Strategic Plan 2018–2022, https://www.fema.gov/strategic-plan.
+FEMA, CPG 101: Developing and Maintaining Emergency Operations Plans, Version 2.0, (Washington, DC,
+2010), https://www.fema.gov/media-library/assets/documents/25975.
+
+2
+
+1
+
+Supply Chain Resilience Guide
+
+infrastructure, reviewing stockpile options, and identifying alternate supply chains for
+emergencies when needed). Integrating the needs of supply chains into mitigation, response,
+recovery, and resilience planning and actions is key to improving supply chain resilience and
+ensuring the availability of key goods and services.
+To effectively support supply chain resilience and develop response and recovery plans,
+emergency managers must understand the activities and principles for each local supply chain,
+similar to the general understanding they have with law enforcement, fire suppression,
+emergency medical services, and public works. Awareness of supply and demand flows,
+bottlenecks, interconnections, and interdependencies between supply chains is as important to
+disaster planning and resilience building as knowledge of the local road networks and
+floodplains.
+The State of Alaska 2012 Evaluation of Supply Chains and Resilience Building
+Issue: The supply chains to Alaska primarily come from the mainland United States, either by ship from
+Seattle, Washington, to Anchorage, Alaska, or by air. As previous disasters have demonstrated, severe
+winter weather, volcanoes, and earthquakes could cut off Alaska’s normal supply chains for several
+weeks or months. In 1964, Alaska experienced a 9.2-magnitude earthquake and subsequent tsunami that
+devastated its power infrastructure, shipping, and distribution networks.
+Action: In 2012, the State of Alaska assessed the supply chains that provide food, supplies, and fuel to
+the state.
+Result: Based on the assessment, the State of Alaska explored procuring shelf-stable meals for 40,000
+survivors for seven days. In addition, the State identified the need to store medical supplies, cold-climate
+water purification systems, and generators. A significant consideration included food that was culturally
+and nutritionally appropriate for both the urban city residents and for rural Alaskan diets, such as smoked
+salmon. Recent catastrophic logistics planning shows that Alaska has seven days of food available
+following a disruption to the supply chain.
+
+Supply Chain Defined
+A supply chain has many definitions. This guide defines a supply chain as the socio-technical
+network that identifies, targets, and fulfills demand. It is the process of deciding what, when, and
+how much should move to where.
+Supply chains can be vastly complex, and they can vary significantly from product to product.
+Appendix D presents a complex example of a supply chain, specific to petroleum. However, all
+supply chains include the same basic components. As Figure 1 shows, supply chains include the
+following:
+•
+
+Supply Nodes – Entities that manufacture, process, store, and/or ship goods and services.
+They generally include raw material providers, suppliers, manufacturers, and distributors.
+(Also Known As: Origins, Outputs, Vertices, Terminals, Warehouses, Distribution Centers,
+Cross Docks, Push Places, and more.)
+
+•
+
+Demand Nodes – Entities that purchase and/or signal for goods and services from supply
+nodes. They generally include individuals, families, businesses, and governments. (Also
+Known As: Destinations, Inputs, Vertices, Retailers, Pull Places, and more.)
+
+•
+
+Tiers – A common way to group nodes and identify upstream and downstream relationships
+within the supply chain. Tier 1 suppliers provide products or services to the
+
+2
+
+Supply Chain Resilience Guide
+
+producer/processor; Tier 2 suppliers provide products or services to Tier 1 suppliers; Tier 3
+suppliers provide products or services to Tier 2 suppliers. As the Tier numbers get higher, the
+further that supplier is from the producer/processor of the finished product.
+•
+
+Links – The physical and functional connections between nodes, such as communication,
+transport, or transaction connections. Links can also relate to service infrastructure, such as
+power. (Also Known As: Edges, Arcs, Paths, Tracks, Routes, and more.)
+
+Supply chains involve the movement of products, information, and money. Products flow from
+supply nodes to demand nodes, while money usually follows the reverse direction. Information
+sharing occurs among all nodes. Humans are agents within the nodes and links.
+
+Figure 1: Supply Chain Diagram
+
+Supply Chain Resilience
+Supply chains are fundamental to modern life and often fluctuate to address minor disruptions
+and changes in both supply and demand. However, the common supplemental and gap-filling
+functions that address minor changes may be insufficient to mitigate significant supply chain
+disruptions. Disruptions that significantly impede or stop the capability or capacity for a good or
+service can have a significant impact on communities, particularly in times of disaster.
+Supply chain resilience is the ability of a preexisting network of demand and supply to deploy
+surviving capacity, and/or introduce new capacity, under severe duress. It is the ability of a
+network, or portion of a network, to continue moving (directing, redirecting, flowing) goods and
+services even when important elements of the network are no longer operating. For example, the
+
+3
+
+Supply Chain Resilience Guide
+
+continued flow of water, food, and fuel while the electric power grid is not operating would be
+an expression of supply chain resilience.
+A meaningful awareness and understanding of preexisting networks, including major players,
+crucial places, interdependencies, vulnerabilities, and threats, enhances the ability of emergency
+managers to interact with supply chain owners and operators to support and improve supply
+chain resilience and post-incident restoration. As is often the case for emergency managers, it is
+not necessary to have expert knowledge, but there is value in having sufficient awareness and
+understanding to communicate effectively with experts (and in this case, especially with the
+owners and operators of the preexisting networks).
+All supply chain components, such as the transportation mechanisms between nodes, facilities,
+people, and communication networks, can impact supply chain resilience. Other examples of
+attributes that may impact supply chain resilience include:
+•
+
+Just-in-time inventory practices
+
+•
+
+Core reliance on information technology systems and data exchange
+
+•
+
+A diverse risk landscape
+
+•
+
+Industry consolidation into a small set of large suppliers
+
+•
+
+The regulatory environment and constraints on supply chain flexibility.
+
+Supply Chains and Emergency Management
+Emergency managers have two primary roles related to supply chain resilience:
+•
+
+To foster collaboration with and among supply chain partners to promote actions that make
+supply chains of critical goods and services more resilient.
+
+•
+
+To develop an awareness of supply chains and their vulnerabilities and use that information
+to inform response and recovery planning.
+
+Emergency managers frequently foster collaboration to create and promote resilience efforts
+across private and public sectors. However, few supply chain players have experience
+coordinating with emergency managers, and it can be challenging for emergency managers to
+engage these organizations with disaster planning and resilience-building actions. For example,
+some regulated public sector and private sector supply chains may require legal actions to build
+or improve resilience, with an increase in costs transferred to the residents and businesses in the
+jurisdiction. Other supply chains involve private sector businesses that compete with each other,
+which can hinder collaboration and hide interdependencies.
+As such, emergency managers may need to employ non-traditional approaches to engage some
+supply chain stakeholders to fully understand the vulnerabilities of the supply chain. For
+example, one non-traditional approach is to implement seldom-used authorities, such as the
+Defense Production Act (DPA), to bridge gaps. The DPA has authorities, which Appendix A
+discusses in detail, that facilitate collaboration by removing barriers between the public and
+private sectors. The Supply Chain Resilience Process section of this guide includes tips and best
+practices for engaging supply chain partners in resilience efforts.
+
+4
+
+Supply Chain Resilience Guide
+
+The Federal Emergency Management Agency (FEMA)
+oversees the National Business Emergency Operations
+Center (NBEOC) to facilitate private sector engagement at
+the national level. Jurisdictions are encouraged to establish a
+NBEOC agreement to streamline communications and
+coordination with private sector members and establish
+data-sharing agreements. 3
+
+One potential way to bolster
+relationships with supply chain
+stakeholders is to establish a
+Business Emergency
+Operations Center (BEOC)
+within the jurisdiction’s
+Emergency Operation Center
+(EOC) and to connect the
+BEOC to existing private sector
+EOCs.
+
+To effectively plan for response and recovery operations and
+support supply chain resilience, emergency managers need
+an awareness and understanding of the systems that make up
+a supply chain and the distribution networks that support the jurisdiction. 4 Emergency managers
+should also understand the legal constraints that can impact supply chain resilience, such as road
+and driver restrictions, normal licensing for delivery of medical and food items, restrictions on
+the movements or storage of medical gases, on-site fuel storage rules, conflicting rules across
+adjacent jurisdictions, data privacy and availability, and specific legal restraints regarding
+procurement practices. This knowledge will help emergency managers develop realistic plans
+and prioritize actions that support supply chain resilience. For example, debris removal is a vital
+aspect of restoring supply chain functionality. Emergency managers can facilitate public-private
+sector debris removal plans focused on partnerships with private sector supply chains.
+Community Lifelines 5
+Government alone cannot respond to the threats and hazards that affect our communities and
+citizens. Response is a shared responsibility across multiple stakeholder groups, including
+governments, the private sector, and non-government entities. Often these groups do not share
+the same lexicon to facilitate unity of purpose across all stakeholders.
+The community lifelines construct promotes a response that facilitates unity of purpose and
+better communication among the whole community (Federal, state, local, tribal, and territorial
+governments, and private sector and non-governmental entities) to prioritize, sequence, and focus
+response efforts towards maintaining or restoring the most critical services and infrastructure.
+A community lifeline enables the continuous operation of government functions and critical
+business and is essential to human health and safety or economic security. The seven community
+lifelines are described below. 6
+
+3
+
+More information on the NBEOC, including the NBEOC’s purpose, operation engagement tools, membership, and
+commonly asked questions, can be found on the NBEOC fact sheet at https://www.fema.gov/medialibrary/assets/documents/28983 or by emailing FEMA-Private-Sector@fema.dhs.gov.
+4
+FEMA National Mitigation Framework, Second Edition, June 2016.
+5
+Community Lifelines Toolkit. https://www.fema.gov/media-library/assets/documents/177222
+6
+The community lifelines concept is still evolving. Please visit www.fema.gov for more information.
+
+5
+
+Supply Chain Resilience Guide
+
+Safety and Security – Supports responder and survivor safety and the continuity of
+government (including basic services, firefighting, and law enforcement). This
+lifeline provides critical actions that enable the other lifelines to function.
+Food, Water, Sheltering – Supports current and projected community needs for
+food, water, durable goods, and shelter capacity, as well as evacuations and water and
+agricultural infrastructure.
+Health and Medical – Provides medical care, public health support, pre-hospital
+care, fatality management services, behavioral health services, and support to the
+medical industry to ensure life-saving and sustaining services are adequate to meet
+the needs of the impacted area.
+Energy (Power & Fuel) – Provides electric power, gas, and liquid fuel to support the
+needs of the whole community. It includes electric power generation, transmission,
+and distribution systems, as well as gas and liquid fuel processing, transportation, and
+delivery systems. This lifeline supports the whole community’s response efforts by
+enabling all other community lifelines.
+Communications – Supports the transmission of information through mechanisms
+such as broadband internet, ethernet, cellular networks, cable television, and radio
+broadcast networks. It covers all types of communications necessary to effectively
+respond to and help survivors, including alerts and warnings, 911 and dispatch, and
+responder communications. This lifeline supports the whole community’s response
+efforts by enabling all other community lifelines.
+Transportation – Enables the movement of goods and services to support the whole
+community. Transportation infrastructure generally includes highway/roadways, mass
+transit, rail, aviation, shipping, pipeline, and intermodal systems. This lifeline
+supports the whole community’s response efforts by enabling all other community
+lifelines.
+Hazardous Material – Covers the management (including containment and removal)
+of all hazardous materials. It focuses on ensuring that hazardous substance facilities,
+conveyance assets, wastewater systems, and incident debris, pollutants, and
+contaminants do not require ongoing emergency responses to mitigate imminent or
+substantial threats to public health and welfare or the environment.
+The lifeline construct provides numerous benefits to jurisdictions, such as helping prioritize,
+sequence, and focus response efforts towards maintaining or restoring the most critical services
+and infrastructure. In the context of supply chain resilience, lifelines provide jurisdictions with a
+way to understand and examine complex (multifaceted) supply chains that require cross-sector
+coordination.
+Community lifelines also identify critical focus areas for jurisdictions to consider, as secondary
+supply chain problems can result from broken lifelines. For example, a break in the power grid
+can lead to a surge in generator and fuel demand. This in turn impacts local gas prices from surge
+demand and/or a shortage in generator supply.
+6
+
+Supply Chain Resilience Guide
+
+Case Study: Resupplying Miami
+In the aftermath of Hurricane Irma in 2017, resupply of the Miami metropolitan area was complicated by
+widespread electrical outages and fuel shortages resulting from mass evacuation. In some cases,
+resupply of groceries and other key resources into Miami required the resupply of fuel and the restoration
+of electricity or emergency backup to truck stops along Interstate 95.
+Lifelines are often interdependent and widely geographically distributed. When disruption or destruction
+cascades across multiple critical infrastructures and supply chains simultaneously, timely restoration and
+possible redirection often benefits from private-public collaboration. In the case of Hurricane Irma, the
+private and public sectors worked together to expedite restoration of the Energy and Transportation
+lifelines, including identifying grid connections for truck stops, providing emergency backup generation for
+truck stops, and delivering fuel to the truck stops. This collaboration also benefitted other lifelines, such as
+Food, Water, Sheltering.
+
+7
+
+Supply Chain Resilience Guide
+
+Supply Chain Resilience Process
+Overview
+To enhance supply chain resilience, emergency managers should develop a strategic
+understanding of the current supply chains and engage with relevant stakeholders, such as
+vendors and industry associations, to foster public-private sector collaboration, cooperation, and
+planning. This section presents a five-phased cyclical approach to enhance supply chain
+resilience (see Figure 2).
+
+Figure 2: Supply Chain Resilience Phases
+
+Before beginning the five-phase process, emergency managers should identify an initial supply
+chain to explore. As supply chain networks are complex systems with numerous stakeholders,
+nodes, and specialized concerns, emergency managers who are just starting to engage supply
+chain issues may find it helpful to focus on the supply chain for a single good or service, such as
+groceries or fuel. Developing experience and confidence in one supply chain will often
+accelerate engagement with multiple supply chains and the interdependencies that supply chains
+share. As emergency managers become more comfortable with the process, they will find it
+easier to expand the focus to a community lifeline, which may encompass multiple goods or
+services (see Appendix B for more information).
+The first two phases of the supply chain resilience process, Phase 1: Research and Mapping
+and Phase 2: Analysis, use open source data to identify and analyze a supply chain. The goal is
+to develop a strategic understanding of the supply chain, helping emergency managers identify
+key stakeholders with which to engage and potentially uncovering supply chain resilience issues.
+Phase 3: Outreach engages specific stakeholders to vet the findings from the first two phases
+and develop collaborative relationships focused on enhancing supply chain resilience.
+
+8
+
+Supply Chain Resilience Guide
+
+Phase 4: Action develops and implements preparedness activities, including tabletop exercises,
+with partners to enhance supply chain resilience. These preparedness activities may include
+actions that private sector partners can take, either to mitigate disruption of their nodes or links
+or to create continuity in the event of a disruption. They may also include developing or revising
+Emergency Operations Plan annexes or logistics plans outlining how the jurisdiction will
+implement logistics operations in light of potential supply chain issues.
+Phase 5: Assess and Refine maintains the effort by refreshing the data and revising the analysis
+as needed and continuing to collaborate with stakeholders. Supply chains and stakeholders are
+constantly changing, so an ongoing effort is critical.
+The following sections present additional details about each phase of the supply chain resilience
+process, along with examples of how this process may apply to the fuel sector. Figure 3 on page
+17 provides a consolidated graphic of the fuel sector examples.
+
+Phase 1: Research and Mapping
+This phase uses readily available data, such as open
+source information or other available data sets, to
+identify and map supply chain nodes. 7 This
+information, which the emergency manager will
+analyze in Phase 2, provides important insight into the
+supply chain’s key players. However, given the
+constantly evolving nature of supply chains, the goal is
+to develop a strategic understanding of the
+local/regional demand and supply network to identify
+key supply chain players with whom to engage. A
+detailed and comprehensive understanding of the
+global supply chain is not necessary.
+To complete this phase, emergency managers should:
+
+Many resources are available to
+support emergency managers with
+Research and Mapping (Phase 1) and
+Analysis (Phase 2). Examples include:
+ DHS Infrastructure Protection (IP)
+partners in the FEMA Regions
+ Private sector contractors
+ The Regional Resiliency
+Assessment Program (RRAP)
+(https://www.dhs.gov/regionalresiliency-assessment-program)
+ FEMA’s Planning Technical
+Assistance Program
+(https://www.fema.gov/fematechnical-assistance-program).
+
+•
+
+Identify the primary crucial suppliers for the local community. Emergency managers may
+use a variety of sources for this step, such as online searches, local community knowledge,
+and local economic reports. Strategic plans, Emergency Operations Plans, or other plans and
+policy documents are also good sources, as they may identify response operational priorities
+or previously identified supply nodes.
+
+•
+
+Identify supply chain nodes within the scope of the review. Supply chains are global, so
+defining a geographic boundary when reviewing
+Last mile is the movement of products
+each supply chain helps scope the analysis into a
+along the final stretch of the supply
+manageable size. Boundaries to consider include
+chain to deliver products to their final
+the state, a region, and/or focusing mainly on “last
+destination, often covering the
+mile” delivery. It is not practical or necessary to
+movement of the product from the
+identify all nodes within a supply chain; focus on
+distributor to the demand node.
+identifying nodes that serve a large proportion of
+
+7
+
+The NBEOC can assist with establishing data-sharing agreements to support this effort.
+
+9
+
+Supply Chain Resilience Guide
+
+demand and/or supply. Concentration occurs in both demand
+and supply nodes and is especially typical of supply nodes.
+These points of concentration, such as ports, distribution
+centers, and fuel terminals/racks, are fundamental to the
+strategic capacity of the entire supply chain. As long as the
+point of concentration persists, the capacity to supply the
+demand is likely to persist. The capacity to supply the demand
+significantly drops if the point of concentration is destroyed or
+separated from its network. It is common for 80 percent of key
+goods and services serving a densely populated area to depend
+on seven or fewer distribution centers. 8
+•
+
+Identify ultimate destinations of goods. By widening the
+scope of distribution nodes, emergency managers can obtain a
+more complete picture of a supply chain. For example, part of
+supply chain resilience for healthcare goods is knowing the
+location of healthcare product distribution centers. An
+expanded understanding of the multitude of end customer sites
+(such as hospitals, clinics, pharmacies, surgical centers,
+dialysis centers, and cancer treatment centers) provides
+information to inform more robust resilience efforts.
+
+•
+
+Identify infrastructure systems supporting supply chain
+operations. To more fully address supply chain resilience,
+emergency managers should identify the infrastructure
+dependencies of key nodes, along with their physical
+locations. Utility service providers, their geographic service
+areas, critical utility system nodes, and transportation
+routes/mechanisms are especially important to rapidly restore
+normal supply chain operations. Some supply chain
+infrastructure dependencies are themselves supply chains (e.g.,
+diesel and gasoline fuels) that emergency managers may also
+need to explore. Electric power, refined fuels, natural gas,
+water, wastewater, and communications are the infrastructure
+systems most likely to be dependencies of the various nodes
+comprising a supply chain, though others will certainly exist.
+
+•
+
+Overlay key threats and hazards, and other stressors and disruptors, against the identified
+primary crucial suppliers. Hazard Mitigation Plans may provide key threats, hazards, and
+mitigation strategies for this stage of research. Geographic Information System (GIS)
+specialists may provide mapping support by overlaying identified hazards across supply
+chain nodes and known routes.
+
+8
+
+The concentrated nature of the wholesale level of the U.S. (and other advanced economies) tends to be referenced
+sector by sector. In many sectors and for many products, the concentration level is consistently high, but individual
+players may change from city to city or region to region. Sector-specific articles that support this include The Pareto
+rule for frequently purchased packaged goods: an empirical generalization, 2018 Top Pharmaceutical Distributors,
+and Concentration and Mergers in U.S. Wholesale Grocery Markets.
+
+10
+
+Supply Chain Resilience Guide
+
+Phase 2: Analysis
+After identifying and mapping the demand and supply nodes,
+emergency managers conduct an initial analysis of the supply
+chain by examining the importance of specific suppliers and nodes
+previously identified and targeting outreach to these potential
+stakeholders. In this phase, emergency managers:
+•
+
+Assess the capabilities of the infrastructures and
+organizations previously identified through engagement.
+Self-assessments may be beneficial in this effort, as
+stakeholders can self-disclose their capabilities, plans, and
+partnerships for further planning coordination. Most
+contemporary demand and supply networks are diverse,
+dynamic, and very difficult to fully comprehend, but the intent
+is to think through key questions and identify and document
+the information available.
+Distinguish between the nodes that comprise a supply chain
+(such as manufacturing facilities and hospitals) and the
+infrastructure that those nodes depend on (such as electric
+power, water systems, and transportation). The distinction is
+important, as the two groups of systems/nodes need analysis
+from different perspectives. For example, a power company
+that serves key supply chain nodes may be able to offer
+anticipated recovery time objectives for service to that area
+following a disruption. This is a helpful detail for comparison
+against the supply chain node’s on-site backup power
+capabilities and the length of time that it can operate without
+refueling. If power restoration recovery time objectives are
+longer than the length of time that the supply chain node can
+operate on backup without significant impact to operations,
+then there is a resilience gap.
+Examples of key questions to include in the analysis process:
+‒
+
+‒
+
+Can you determine sources of strategic capacity?
+
+
+Can you identify the potential downstream flow of
+water, food, pharmaceuticals, medical goods, fuel,
+and other key goods and services?
+
+
+
+What is the volume and velocity of these flows on
+most days? What is the regular throughput?
+
+
+
+How quickly can volume increase and be
+distributed?
+
+Based on your research and mapping phase, where is the
+strategic capacity of preexisting supply chains located?
+
+
+Who owns this strategic capacity?
+11
+
+Supply Chain Resilience Guide
+
+
+‒
+
+‒
+
+What, if any, elements of this strategic capacity are likely to survive your
+jurisdiction’s catastrophic risks?
+
+Who are the key players? In many cases, capacity has significant concentrations;
+identify the seven or fewer sources that are likely to generate 70 to 80 percent of total
+flows.
+
+
+Is current strategic capacity already insufficient in some geographic areas (for
+example, areas with a lack of grocery stores and food providers)?
+
+
+
+Are risks especially likely to create particularly troublesome new deficiencies in
+any geographic areas?
+
+Are your sources of strategic capacity dependent on or interdependent with critical
+infrastructure or other key resources?
+
+
+If these dependencies fail, are mitigation strategies and measures in place?
+
+
+
+What is your professional judgment regarding the survival of sufficient strategic
+capacity for key resources?
+
+Appendix B provides additional considerations specific to supply chains for all seven
+community lifelines—Safety and Security; Food, Water, Sheltering; Health and Medical;
+Energy (Power & Fuel); Communications; Transportation; and Hazardous Material.
+•
+
+Identify key stakeholders to target for engagement. Based on the answers to the previous
+analytical questions, identify where to focus outreach efforts for Phase 3. Consider the
+following questions when identifying stakeholders to target:
+‒
+
+What are the highest priority needs?
+
+
+What are the dependencies or interdependencies that have the broadest impact?
+
+
+
+Given your risks and your population needs, which element(s) of the supply chain
+would enhance resilience to serve the highest number of, or perhaps most
+vulnerable, survivors?
+
+‒
+
+What external entities are most important to enhancing supply chain resilience?
+
+‒
+
+What functions or roles are most important?
+
+‒
+
+Among these priorities, where or with whom do you already have trusted relationships?
+
+
+12
+
+Is the trusted relationship with a supply chain professional? If not, can the trusted
+party provide an appropriate introduction?
+
+Supply Chain Resilience Guide
+
+Phase 3: Outreach
+After analyzing the supply chain, emergency managers can
+engage with key stakeholders, including private sector
+organizations, relevant jurisdictions, and other community
+partners, to vet their findings and begin the collaboration process.
+Whenever possible, outreach should involve supply chain
+professionals, including distribution center managers,
+procurement managers, and transportation managers. However, in
+some organizations, supply chain professionals may be difficult to
+engage and are often introduced through contacts with safety,
+security, and external relations professionals. Successful outreach
+often depends on finding at least one internal champion. The
+champion is not always a supply chain professional but is
+someone who can ensure the direct participation of supply chain
+professionals. In some contexts, supply chain resilience problems
+and opportunities require involvement of senior executives. In this
+case, it may be necessary for senior emergency management or
+political leadership to reach out. However, this should be done in
+close communication with the supply chain and other
+professionals already engaged.
+In this phase, emergency managers:
+•
+
+Hold targeted meetings to vet findings and initial analysis.
+Reach out to the identified stakeholders to initiate discussions
+about current priorities, concerns, and knowledge of supply
+chain resilience. The organizations involved with supply
+chains are predominantly private sector entities. These
+partners may already have emergency management
+considerations in company plans, trainings, and experience.
+Consider these best practices when initiating and holding
+discussions with supply chain stakeholders:
+‒
+
+When opening a new relationship, it may be helpful to
+visit the other party's place of business for a one-on-one
+informal discussion. This approach can help build rapport
+and trust, which is critical to the success of the effort.
+
+‒
+
+Consider asking for a tour of their facilities. This is often
+a good starting point, as the organization may enjoy
+showing off their facility, and it provides you with the
+opportunity to ask naturally occurring questions about
+how they operate, which will often serve to confirm or
+deny aspects of your Phase 2 analysis.
+
+‒
+
+A discussion, and cultivating trust, is more likely to
+emerge from asking questions than from making
+
+13
+
+Supply Chain Resilience Guide
+
+statements. The same sort of questions asked in the prior analysis phase can be a good
+place to begin.
+
+•
+
+14
+
+‒
+
+Consider asking how you can support the private sector in building more resilient supply
+chains.
+
+‒
+
+Explain your concept for catastrophe preparedness and outline the desired end state.
+Emphasize the importance of their organization to the effort.
+
+‒
+
+Some private sector entities are not familiar with catastrophic risk profiles. After a brief
+presentation, ask the individual(s) how and where the risk profile has the most potential
+impact on their supply chains.
+
+‒
+
+Meaningfully vet the outcomes of your analysis, and assess the collaborative readiness
+of a supply chain owner/operator. in two or three one-on-one (or small group) meetings.
+In many cases, finding one or two market leaders ready to collaborate will help
+encourage others to participate. Typically, at the point you perceive that at least three
+entities constituting at least fifty percent of your jurisdiction’s strategic capacity are
+ready to collaborate, a more group-oriented process may be productive. A checklist for
+the group process is in Appendix C.
+
+‒
+
+Consider meeting with both the private sector organization’s operational leaders and the
+public relations staff to clarify roles/responsibilities as they relate to either operational
+requirements and/or messaging.
+
+Identify and prioritize issues to address, in coordination with the key stakeholders. This
+process may take various forms depending on the preferences of the participants. One
+common approach is to use tabletop exercises to identify critical issues. As the exercises
+identify issues, emergency managers and stakeholders can work together to prioritize them.
+The criteria for prioritization will vary from group to group, but consider the criticality of the
+issue and the feasibility of developing an economical approach to mitigating or resolving the
+issue.
+
+Supply Chain Resilience Guide
+
+Phase 4: Action
+After engaging with key stakeholders and identifying/prioritizing
+issues to address, emergency managers can collaborate with
+relevant stakeholders to develop and implement preparedness
+activities and enhance supply chain resilience.
+Supply chain resilience is a still-developing discipline of
+emergency management. Depending on purposes, private-public
+relationships, and priorities emerging from the research and
+outreach phases, different jurisdictions will deploy different
+actions. In many of the most mature examples of action taken to
+enhance supply chain resilience, tabletop exercises (TTXs) have
+been especially helpful. Private sector entities seem to value the
+ability of emergency management professionals to convene
+various stakeholders, frame supply chain risks, design and execute
+realistic TTXs, facilitate action-oriented discussion, and deliver
+After Action Reports that drive future collaboration and follow-on
+exercises.
+In some cases, a recurring calendar of private-public workshops
+and TTXs is hosted by a civic sector organization (professional or
+academic entity) that serves as a helpful broker between private
+and public, a source of operational continuity, and a safe place for
+very different stakeholders to interact.
+
+15
+
+Supply Chain Resilience Guide
+
+Phase 5: Assess and Refine
+After reviewing a supply chain, creating partnerships, and
+developing a resilience plan, maintenance begins. Supply chains
+evolve so rapidly that resilience requires continuous collaboration
+with stakeholders and reviewing and refining data, analysis, and
+plans. In this phase, emergency managers:
+•
+
+Maintain relationships. It is essential to maintain the
+relationships built through this process. Some ways include
+holding annual reviews and recurring discussions with
+stakeholders and engaging stakeholders in relevant exercises
+throughout the year.
+
+•
+
+Validate and refine data. The constantly evolving nature of
+supply chains means the data collected throughout this process
+can change quickly. While it is not necessary to constantly
+monitor and update every detail, it is important to frequently
+review and refine the data. This may include independent
+research by emergency managers, as well as regular
+conversations with key stakeholders to identify changes.
+Training and exercises can also support this step. Incorporate
+identified changes to refine plans or develop new plans to
+enhance supply chain resilience.
+
+•
+
+Target outreach as needed. While maintaining the
+relationships developed through this process is crucial, it is
+also important to identify other important stakeholders and
+target outreach to them, as needed. For example, as supply
+chains evolve, emergency managers may identify new crucial
+suppliers, whom they should then engage in the supply chain
+resilience process.
+
+16
+
+Supply Chain Resilience Guide
+
+Figure 3: Supply Chain Resilience Process – Fuel Sector Example
+17
+
+Supply Chain Resilience Guide
+
+This page intentionally left blank
+
+18
+
+Supply Chain Resilience Guide
+
+Connection to Logistics Planning
+Overview
+The supply chain resilience process described in the previous section focuses on understanding
+supply chain vulnerabilities and identifying actions to enhance resilience. However, in extreme
+events, supply chains will not always be resilient. For example, disasters can destroy nodes,
+separate demand from sources of supply, destroy road networks, or create long-term disruption.
+While many impediments are possible, some are predictable.
+The results of the five-phased supply chain resilience process provide emergency managers with
+valuable information to inform actions to restore supply chains and priorities for logistics
+planning. It yields an understanding of key supply chain stakeholders, vulnerabilities, and
+challenges and identifies actions emergency managers may need to take in the event of supply
+chain disruption. Emergency managers should use this information to develop or refine logistics
+plans or annexes, following the six-step planning process described in CPG 101 (see Figure 4). 9
+
+Figure 4: Six-Step Planning Process from CPG 101
+
+For example, identifying key supply chain stakeholders through the supply chain resilience
+process provides emergency managers with critical potential members for the Collaborative
+Planning Team (Step 1). Additionally, emergency managers can apply the outcomes from the
+supply chain resilience process to understand the situation (Step 2), as well as to establish or
+refine operational priorities and develop goals and objectives (Step 3).
+
+Considerations
+This section presents additional considerations that emergency managers may want to explore to
+develop a unified approach to restoring community lifelines: restoring private sector supply
+chains and public sector logistics planning. Emergency managers may have uncovered some of
+these answers during the supply chain resilience process or may need to conduct additional
+analysis efforts to identify necessary details.
+To effectively inform logistics planning, emergency managers should examine known and
+potential hazards plotted along the supply chain, alternate routes, alternate methods of
+transportation, and any known restrictions of storage, handling, and/or transportation. Their
+analysis should address both the supply chain nodes (e.g., manufacturing sites, storage facilities,
+distribution facilities, customers’ receiving sites), as well as the infrastructure on which these
+nodes depend. For example, it is important to include the power infrastructure that provides
+service to a key tunnel along a main supply route, as without power the tunnel may need to be
+closed due to inoperable ventilation systems.
+9
+
+FEMA, CPG 101: Developing and Maintaining Emergency Operations Plans, Version 2.0, (Washington, DC,
+2010), https://www.fema.gov/media-library/assets/documents/25975.
+19
+
+Supply Chain Resilience Guide
+
+Supply Source
+Supply nodes may be overseas, across the country, or in a hazardous area. Consider what
+potential events may impact supplier production (e.g., extreme weather or natural disasters,
+political upheaval, national holidays). Steps include:
+•
+
+Identify the origin of supplies, tracing the supply chain as far upstream as practical.
+
+•
+
+Review relevant foreign customs and holidays.
+‒
+
+•
+
+Some countries shut down factory work for several days, even weeks, each year to
+celebrate holidays.
+
+Consider alternative supply sources.
+‒
+
+To what extent do customers have secondary contracts? How easily could customers
+turn to new sources in a major event?
+
+‒
+
+What plans and capabilities do suppliers have as part of their business continuity plans?
+Are they likely to fill a gap with limited or no direct involvement by government?
+
+Distribution Points
+Emergency managers should review the distribution points for the supply chain within the
+network under review. Multiple distribution points may help reroute supplies to other
+distribution centers to alleviate some local distribution strain during disasters.
+Reviewing multiple modes of distribution may help planning teams identify stakeholders to
+include in planning efforts. Steps include:
+•
+
+Review distribution points:
+‒
+
+Determine the need to prioritize route clearances, restore power, water, and
+communication, and provide staff access.
+
+‒
+
+Coordinate with other jurisdictions to inform them of the importance of distribution
+points if they are located outside of your jurisdiction.
+
+‒
+
+Identify legal/regulatory restrictions that could impede an easy transfer to another
+distribution location (e.g., required licensing to service a given destination, such as with
+certain pharmaceuticals).
+
+‒
+
+Identify specialized capabilities or needs of certain distribution points (e.g., cold
+chain/refrigeration, reliance on automation and information technology).
+
+‒
+
+Identify the second- and third-tier backup sites for the primary points of distribution, and
+determine potential delays, cost increases, or transport options.
+
+‒
+
+Identify alternative facilities that can be used to reroute supplies.
+
+‒
+
+Consider multiple modes of distribution.
+
+•
+
+Consider door-to-door delivery service, such as how the Postal Service delivers medication.
+
+•
+
+Include supply chain distribution points in logistics planning to provide community lifeline
+support.
+
+20
+
+Supply Chain Resilience Guide
+
+Inventory
+Supply chains provide community lifeline goods and services to the jurisdiction pre-disaster.
+Post-disaster, the jurisdiction may need to augment a community lifeline that supply chains
+temporarily cannot provide. During logistics planning, emergency managers should review
+standard inventory supply, resupply intervals, storage facilities or compartments and their power
+requirements, and Just-In-Time restock options during emergency scenarios. Just-In-Time
+resupply adaptability may mitigate short-term breaks in the supply chain.
+Additional steps include:
+•
+
+Consider the process to invoke government-managed emergency stockpiles for food, water,
+and healthcare.
+‒
+
+•
+
+•
+
+•
+
+Will this help or harm recovery of supply chains?
+
+Determine if the capability and capacity of supply chains’ inventory status is available to
+emergency managers.
+‒
+
+Are companies likely to provide detailed data, and could anti-competitive/legal concerns
+arise?
+
+‒
+
+Consider how purely commercial interests may adversely harm restoration of the normal
+supply chain (e.g., hoarding supplies out of concern for shortages, exacerbating the
+shortages).
+
+Review standard inventory supply.
+‒
+
+Review resupply intervals.
+
+‒
+
+Review Just-In-Time restock opportunities.
+
+‒
+
+Consider seasonal influxes.
+
+‒
+
+Consider temperature-sensitive stock.
+
+Review secondary power source options.
+‒
+
+Backup generators.
+
+‒
+
+Fuel for the generators.
+
+‒
+
+Consider additional equipment, such as cables, hookups adaptors, and batteries.
+
+Access and Re-entry 10
+Supply chain logistics, partnerships, and memoranda of understanding (MOUs) should consider
+route security and escort needs. Local police departments and military units may be sources of
+security during emergency events. Restricted area access and security at the point of distribution
+may require additional communication. To prevent denial of entry, personnel stationed at the
+checkpoints along the route, at barriers, and/or at the facility need to be aware of what is in the
+
+10
+
+The Crisis Event Response and Recovery Access (CERRA) Framework, developed by the DHS Office of
+Infrastructure Protection, outlines a common approach to manage access to affected areas during and after an
+incident. For more information, visit
+https://www.dhs.gov/sites/default/files/publications/Crisis%20Event%20Response%20and%20Recovery%20Access
+%20%28CERRA%29%20Framework.pdf.
+21
+
+Supply Chain Resilience Guide
+
+shipment and the destination. Planning teams should consider procedures for clearance,
+checkpoint access, and facility access. Steps include:
+•
+
+Determine who is responsible for granting access.
+
+•
+
+Coordinate communication approaches, including who will send what message and through
+which pathways.
+
+•
+
+Develop message templates for resuming operation of supply chain nodes, activating
+emergency supply chain routes, and/or providing route security.
+
+•
+
+Determine if supply chain stakeholders/product transporters are aware of, and enrolled in,
+local emergency access programs.
+‒
+
+What gaps/inadequacies exist with these programs that may exclude critical
+organizations (e.g., private medical product suppliers that are often not considered
+emergency-access-eligible)?
+
+Access Case Study: Impact to Community Water and Wastewater Services 11
+Excerpts from Crisis Event Response and Recovery Access (CERRA) Framework Case Study
+Challenge: Coordinating access management and control during emergencies to support community
+water and wastewater services.
+Scenario Summary: A significant, geographically widespread incident has occurred that has affected
+public drinking water and wastewater treatment operations, as well as distribution and collection systems.
+Local authorities have established checkpoints to restrict access to emergency zones across multiple
+jurisdictions, many of which contain water and wastewater utility assets that must be immediately
+assessed for damage or repaired to maintain water and wastewater services for critical infrastructure
+facilities, response and recovery operations, and public consumption requirements.
+Access Challenges:
+ During emergencies, water and wastewater utility personnel may need the same degree of access as
+other first responders to enable emergency response operations or to maintain municipal and
+community lifelines (e.g., water and wastewater utility personnel often require prompt access to
+damaged assets both at the treatment facility and within the distribution or collection systems [e.g.,
+pump or lift stations, damaged water lines], even though they may not be directly involved in the
+lifesaving portion of the incident).
+ Local access program managers may need to coordinate access requirements with neighboring
+jurisdictions for water and wastewater utility assets dispersed across large areas, with additional
+support from state or Federal entities during large-scale incidents.
+ Ensuring the ability to identify and support access by water and wastewater utility chemical suppliers,
+fuel delivery, and mutual assistance assets (e.g., assistance provided through the Emergency
+Management Assistance Compact) may be difficult if they are not pre-registered in the local access
+program or known to local authorities.
+
+11
+
+DHS Crisis Event Response and Recovery Access (CERRA) Framework, March 2018,
+https://www.dhs.gov/publication/crisis-event-response-and-recovery-access.
+
+22
+
+Supply Chain Resilience Guide
+
+•
+
+Pre-plan to contend with multiple access and reentry rules as a single supplier passes through
+different jurisdictions (for example, when the end destination allows reentry, but outer
+jurisdictions that must be traversed do not).
+‒
+
+Review initial access procedures to emergency supply chain nodes.
+
+‒
+
+Review re-entry access procedures to emergency supply chain nodes.
+
+
+‒
+
+‒
+
+‒
+•
+
+Are there differences between initial access and re-entry?
+
+Identify communication procedures:
+
+
+When supply nodes resume operation.
+
+
+
+For emergency routes.
+
+
+
+When providing route security and/or escorts.
+
+Review route security and/or escort procedures.
+
+
+Clearances for transportation, supply and distribution nodes.
+
+
+
+Checkpoint access along emergency route.
+
+
+
+Facility access.
+
+Consider Restricted Areas access and procedures.
+
+Consider waivers.
+
+Routes
+One way to analyze a supply chain is to review the normal means of transportation and the
+normal routes. Supply chain logistic plans should identify main supply routes and alternative
+routes. Following a disaster, jurisdictions may waive special considerations such as weight and
+noise restrictions on routes (other restrictions, such as height for roads under bridges, and
+hazardous or flammable materials, may not be waived). Planning teams should consider debris
+management plans (who will clear which roads first, and where the debris will go). Steps
+include:
+•
+
+Review normal transportation.
+
+•
+
+Review normal routes.
+
+•
+
+Identify main and alternative routes.
+
+•
+
+Review special considerations on route restrictions.
+
+•
+
+Consider waivers.
+
+•
+
+Consider varying modes, including the delivery of supplies into the region/jurisdiction by
+rail, marine, air.
+‒
+
+•
+
+What options exist to alter modes to continue product deliveries (e.g., switch to barge
+when bridge/tunnel access to a water-bound city is impeded)?
+
+Consider debris management.
+‒
+
+Partner with the private sector. Consider if local entities can clear debris on their
+property to expedite supply chain recovery.
+
+23
+
+Supply Chain Resilience Guide
+
+Fuel
+Consider vehicle type and fuel in supply chain logistics, as different supply vehicles may require
+different types of fuel. Diesel is common, as well as gasoline and flex-fuel vehicles.
+Fuel access, stockpile, and re-supply procedures are crucial for supply chain recovery. Steps
+include:
+•
+
+Identify the vehicle fuel types required.
+
+•
+
+Identify all support requirements needed to operate the fuel supply chain (e.g., backup
+generators, security).
+
+•
+
+Consider access to fuel at distribution centers.
+
+•
+
+Determine normal fuel operations.
+
+•
+
+Consider stockpiling emergency fuel.
+‒
+
+Identify when, how, and who will receive emergency fuel.
+
+Transportation Operators
+Supply chains function across air, land, and sea. Authorization and availability of pilots, drivers,
+and captains may require specific considerations for various supply chains. For example, in
+healthcare supply chains, strict rules relate to who may transport certain products and the
+tracking and accountability of these products. Requirements for temperature and environmental
+controls may limit the transporters that can provide the service.
+Transportation operators often rely heavily on information technology and communications to
+direct their movements and deliveries. Consider what, if any, plans exist to address loss of these
+normal capabilities.
+Large-scale disasters can significantly diminish available transport staff, drivers, and dispatchers.
+Union member operators and volunteer operators may have different regulations for operation
+than other private or public operators. Pre-standing MOUs with unions, volunteer organizations,
+and private/public sector entities may alleviate a lack of authorized drivers in an emergency.
+Transportation operators may need clearances to transport materials and/or enter facilities.
+Personnel entering secure areas of maritime facilities and vessels require the Transportation
+Worker Identification Credential (TWIC) 12 and fuel truck drivers require site-specific
+certifications before they can receive fuel at individual distribution terminals.
+Steps include:
+•
+
+12
+
+Review transportation operators’ regulations:
+‒
+
+Union members.
+
+‒
+
+Volunteers.
+
+‒
+
+Clearances required, including TWIC.
+
+Transportation Security Administration TWIC website, https://www.tsa.gov/for-industry/twic.
+
+24
+
+Supply Chain Resilience Guide
+
+Appendix A. Defense Production
+Act
+The Defense Production Act (DPA) 13 is the primary source of Presidential authorities to
+expedite and expand the supply of critical resources from the United States private sector to
+support national defense. The DPA broadly defines national defense to include emergency
+management preparedness, response, and recovery activities. Emergency preparedness activities,
+which are a component of national defense, include measures designed or undertaken to:
+•
+
+Prepare for or minimize the effects of a hazard upon the civilian population;
+
+•
+
+Deal with the immediate emergency conditions, which the hazard would create; and
+
+•
+
+Effectuate emergency repairs to, or the emergency restoration of, vital utilities and facilities
+that the hazard destroyed or damaged.
+
+DPA is a Federal authority that states, localities, tribes, and territories can petition to use, and
+approval is considered on a case-by-case basis. Private sector critical infrastructure owners can
+also petition for DPA use to protect and restore their critical infrastructure.
+DPA is primarily used for prioritizing resources both in the planning process and in response and
+recovery activities. The contracting process executes DPA priority ratings. DPA priority-rated
+contracts receive preferential treatment from contractors and supporting subcontractors and
+suppliers to meet delivery dates and quantities. This authority, in effect, places these rated
+contracts at the head of the line, in front of all other unrated contracts.
+DPA encompasses the term “critical infrastructure protection and restoration” in its definition of
+national defense. The DPA defines “critical infrastructure” to mean “any systems and assets,
+whether physical or cyber-based, so vital to the United States that the degradation or destruction
+of such systems and assets would have a debilitating impact on national security, including, but
+not limited to, national economic security and national public health or safety.”
+
+Requesting DPA Priority Ratings
+The process starts with a request from a state, local, tribal, or territorial government or
+owners/operators of private sector critical infrastructure for a priority rating. DPA requests can
+go to different organizations in various ways, but during Presidentially declared disasters,
+requests should go to the Federal Coordinating Officer at the Joint Field Office. The Federal
+Coordinating Officer will determine whether to support the request and initiate coordination
+accordingly. Outside of a disaster, such as preparedness planning, the state, local, tribal, and
+territorial governments should refer to the FEMA Regional staff to initiate coordination.
+
+13
+
+The Defense Production Act of 1950, as Amended (50 U.S.C. App. 2061 et seq.) https://www.fema.gov/medialibrary/assets/documents/108022#.
+25
+
+Supply Chain Resilience Guide
+
+•
+
+Step 1 (Request) – The Federal Coordinating Officer should notify the supporting FEMA
+Region and the National Response Coordination Center (NRCC) of the request and provide
+comments on whether to approve the request or not.
+
+•
+
+Step 2 (Operational Priority) – The Resource Support Section Chief in the NRCC identifies
+the stakeholders who should work together to determine if this should be an operational
+priority. In conjunction with these stakeholders, the Federal Coordinating Officer, and the
+supporting FEMA Region, the Resource Support Section Chief will determine if this request
+is an operational priority and whether to support the request.
+
+•
+
+Step 3 (Approval) – If the request is approved, FEMA works with the appropriate Federal
+department to obtain a priority rating. The Federal Coordinating Officer will provide the
+rating to the jurisdiction or private sector organization requesting the priority rating.
+
+•
+
+Step 4 (Implementation) – The private sector organization or jurisdiction places the priority
+rating in its contracts in accordance with the applicable Federal statutes and regulations.
+
+Establishing a Voluntary Agreement
+Voluntary agreements allow key business sectors that are likely to be severely impacted by
+catastrophic disasters, or suppliers of critical materials or services for disaster response and
+recovery, to coordinate emergency preparedness plans and actions. A voluntary agreement
+allows cooperation among what otherwise may be business competitors to expedite or expand
+the supply of critical materials or services to meet national defense needs, including emergency
+preparedness, response, recovery, and mitigation activities and critical infrastructure protection
+and restoration. Sectors that could respond more effectively with coordinated emergency
+response plans might include, for example, data processing and storage for financial and other
+vital business records and construction for repair and rebuilding of damaged infrastructure.
+The steps to establish a voluntary agreement include:
+•
+
+Step 1 (Request) – Forward request for voluntary agreements to the Federal Coordinating
+Officer, the primary Federal interface with jurisdictions and private sector owner/operators of
+critical infrastructure. The Federal Coordinating Officer should notify the supporting FEMA
+Region and the Resource Support Section in the NRCC of the request and comment on
+whether to approve the request.
+
+•
+
+Step 2 (Sponsor) – The process for establishing a voluntary agreement starts with
+identifying a Federal sponsor for the private sector organizations that the agreement will
+represent. Contact the FEMA DPA Program Division at FEMA-OPPA-DPA@fema.dhs.gov
+or (202) 212-3441 for assistance finding a sponsor.
+
+•
+
+Step 3 (Initial Approval) – FEMA coordinates with the Department of Justice to obtain the
+initial approval from the Attorney General. This approval allows the sponsor to consult with
+private interests about establishing an agreement.
+
+•
+
+Step 4 (Meetings) – Conduct publicly announced meetings to establish the agreement.
+
+•
+
+Step 5 (Final Approval) – The Attorney General provides final approval to implement the
+agreement, along with a finding that a voluntary agreement is needed (See 44 CFR 332.2 for
+more details).
+
+26
+
+Supply Chain Resilience Guide
+
+Appendix B. Community Lifeline
+Framework
+Community lifelines provide a common lexicon to facilitate unity of purpose among the whole
+community (Federal, state, local, tribal, and territorial governments, and private sector and nongovernmental entities) to prioritize, sequence, and focus response efforts towards maintaining or
+restoring the most critical services and infrastructure. In the context of supply chain resilience,
+community lifelines identify critical focus areas for jurisdictions to consider. Community
+lifelines also provide jurisdictions with a way to understand and examine complex (multifaceted)
+supply chains that require cross-sector coordination.
+This section presents questions and examples that may be helpful in jumpstarting a jurisdiction’s
+identification of the nodes, links, and flow related to the seven community lifelines:
+•
+
+Safety and Security
+
+•
+
+Food, Water, Sheltering
+
+•
+
+Health and Medical
+
+•
+
+Energy (Power & Fuel)
+
+•
+
+Communications
+
+•
+
+Transportation
+
+•
+
+Hazardous Material.
+
+Safety and Security
+The Safety and Security lifeline supports responder and survivor safety and the continuity of
+government (including basic services, firefighting, and law enforcement). This community
+lifeline provides critical actions that enable the other lifelines to function.
+•
+
+•
+
+•
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Emergency medical transportation, high-water vehicles, rescue rafts
+
+‒
+
+911 Call Center operations, public safety communications network
+
+‒
+
+Fuel for public safety transportation and backup generation
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+911 Call Centers
+
+‒
+
+Police precincts, fire stations
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Police cruisers, fire suppression vehicles, ambulances, incident command post, base, and
+staging areas
+27
+
+Supply Chain Resilience Guide
+
+•
+
+‒
+
+Neighborhoods, private homes, schools, commercial properties, hospitals, clinics
+
+‒
+
+Forward-deployed professional safety and security personnel
+
+‒
+
+Disaster response and recovery shipments
+
+‒
+
+Access and re-entry points
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+Surface transportation network, trucking, fueling, and related
+
+‒
+
+Demand is typically expressed through telecommunications
+
+‒
+
+Telecommunications dispatch is usually needed to sustain the flow
+
+Food, Water, Sheltering
+The Food, Water, Sheltering lifeline supports current and projected community needs for food,
+water, durable goods, and shelter capacity, as well as evacuations and water and agricultural
+infrastructure.
+•
+
+•
+
+•
+
+•
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Fresh food, consumer packaged goods, other groceries
+
+‒
+
+Prepared food, bottled water, bulk water, other beverages
+
+‒
+
+Foods for infants and young children
+
+‒
+
+Residential housing market: builders, brokers, lenders, information resources
+
+‒
+
+Emergency shelters
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+Grocery distribution centers, wholesalers, food processing facilities
+
+‒
+
+Institutional and commercial food distribution centers
+
+‒
+
+Preexisting houses, condominiums, and multifamily housing complexes
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Grocery stores, convenience stores, bodegas, and other food retailers
+
+‒
+
+Restaurants, fast-food outlets
+
+‒
+
+Shelters, feeding stations, commodity points of distribution (PODs)
+
+‒
+
+Real estate brokers, rental housing centers, online search providers
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+28
+
+Surface transportation network, trucking, fueling, and related
+
+Supply Chain Resilience Guide
+
+‒
+
+Cash, credit card, and Electronic Benefit Transfer (EBT) card transactions 14
+
+‒
+
+Readiness to receive, especially related to on-site electricity and personnel
+
+‒
+
+Readiness to receive commodities (e.g., bottled drinking water, packaged food), stage,
+and deliver to commodity PODs and end users
+
+Health and Medical
+The Health and Medical lifeline provides medical care, public health support, pre-hospital care,
+fatality management services, behavioral health services, and support to the medical industry to
+ensure life-saving and sustaining services are adequate to meet the needs of the impacted area.
+•
+
+•
+
+•
+
+•
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Medical goods
+
+‒
+
+Pharmaceuticals
+
+‒
+
+Medical gases
+
+‒
+
+Medical professionals
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+Medical goods and pharmaceutical distribution centers, corporate supply centers,
+warehouses, and refrigerated storage
+
+‒
+
+Hospital and other pharmacies
+
+‒
+
+Clinics and expeditionary emergency facilities
+
+‒
+
+Home healthcare providers
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Ambulances, incident command post, base, and staging areas
+
+‒
+
+Hospitals, clinics, nursing homes, specialty treatment centers, home healthcare providers
+
+‒
+
+Emergency shelters, points of dispensing
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+Demand is typically expressed by telecommunications or by those in need physically
+presenting themselves at a demand node (e.g., hospital or clinic)
+
+‒
+
+Delivery requires medical professionals with diagnostic and treatment assets
+
+‒
+
+Sustained flow requires resupply of diagnostic and treatment assets (especially
+pharmaceuticals and medical goods), pure water, a clean physical environment, and
+some source of electricity, especially for diagnostic equipment
+
+14
+
+EBT is an electronic system that allows a recipient to authorize transfer of their government benefits from a
+Federal account to a retailer account to pay for products received. See https://www.fns.usda.gov/snap/whatelectronic-benefits-transfer-ebt.
+29
+
+Supply Chain Resilience Guide
+
+‒
+
+Delivery mode may include maritime, aviation, freight rail, and trucking fleet
+(independent drivers or corporate transportation company, truck yards)
+
+Energy (Power & Fuel)
+The Energy lifeline provides electric power, gas, and liquid fuel to support the needs of the
+whole community. It includes electric power generation, transmission, and distribution systems,
+as well as gas and liquid fuel processing, transportation, and delivery systems. This lifeline
+supports the whole community’s response efforts by enabling all other community lifelines.
+•
+
+•
+
+•
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Grid continuity or rapid repair, utility mutual aid, transformers, powerlines
+
+‒
+
+Backup generation pre-wired or in place
+
+‒
+
+Flow of fuel
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+Fuel terminals, refineries, pipelines, racks
+
+‒
+
+Propane distributors, truck stops and other fuel retailers
+
+‒
+
+Electric utility mutual aid agreements, personnel, equipment, and processes
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Gas stations
+
+‒
+
+Federal, state, or private enterprise fuel depots
+
+‒
+
+Distribution substations
+
+
+•
+
+30
+
+NOTE: While substation location is important, its associated service area is a far
+more effective piece of information for the purposes of dependency analysis and
+planning. Attempting to identify specific service lines connecting an asset to a
+particular substation has value in certain cases (for example, when a single service
+line to a key facility identifies a single point of failure), but that can be a
+challenging proposition when dealing with multiple facilities.
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+Surface transportation network, trucking, fueling, and related
+
+‒
+
+Pipelines
+
+‒
+
+Demand is typically expressed through telecommunications
+
+‒
+
+Professional electricians, utility personnel, dispatch personnel
+
+Supply Chain Resilience Guide
+
+Communications
+The Communications lifeline supports the transmission of information through mechanisms such
+as broadband internet, ethernet, cellular networks, cable television, and radio broadcast networks.
+It covers all types of communications necessary to effectively respond to and help survivors,
+including alerts and warnings, 911 and dispatch, and responder communications. This lifeline
+supports the whole community’s response efforts by enabling all other community lifelines.
+•
+
+•
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Grid continuity, rapid repair, or backup generation with refueling
+
+‒
+
+Cell On Wheels (COW), Cell On Truck (COT), or cellular airframes (e.g., blimps)
+
+‒
+
+Fuel tankers with drivers, telecommunications repair personnel and trucks
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+Public Switched Telephone Network (PSTN) facilities
+
+‒
+
+Internet Service Providers
+
+‒
+
+Data Centers and server farms
+
+
+•
+
+•
+
+NOTE: This is challenging data to obtain and is of greatest value only when the
+location of the critical data to support infrastructure or supply chain operations is
+known. For example, a jurisdiction cannot prioritize restoration of a commercial
+cargo port’s cloud-based terminal operating system unless they know the data
+center that stores it. Not all infrastructure owners know where their offsite data
+physically resides.
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Credit, debit, and EBT point-of-sale terminals at retailers
+
+‒
+
+911 Call Centers
+
+‒
+
+Transportation dispatch and broker operations
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+High-speed fiber and wireless connections
+
+
+‒
+
+NOTE: Fiber line routes are notoriously difficult to obtain with any accuracy;
+certain owners are more forthcoming than others.
+
+Cellular telephone provider cell sites
+
+
+NOTE: While cell site location is important, its associated coverage area is most
+useful for dependency analysis.
+
+‒
+
+Widely distributed consumer demand
+
+‒
+
+Access to some source of electricity across the flow of demand and supply
+
+31
+
+Supply Chain Resilience Guide
+
+Transportation
+The Transportation lifeline enables the movement of goods and services to support the whole
+community. Transportation infrastructure generally includes highway/roadways, mass transit,
+rail, aviation, shipping, pipeline, and intermodal systems. This lifeline supports the whole
+community’s response efforts by enabling all other community lifelines.
+•
+
+•
+
+•
+
+•
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Trucks and truckers
+
+‒
+
+Truck stops and other fuel providers
+
+‒
+
+Surface transportation network, including roads, rail, bridges, ports
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+Transportation companies: wholly owned, dedicated fleets, third-party logistics (3PL)
+providers, package delivery, U.S. Mail
+
+‒
+
+Freight yards, staging lots, community of independent truckers
+
+‒
+
+Ports, intermodal facilities, wherever there is concentration of flow
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Food processing facilities
+
+‒
+
+Distribution centers
+
+‒
+
+Fuel retailers
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+Surface, maritime, and air transportation networks
+
+‒
+
+Preexisting delivery contracts, spot-market calls, transportation brokers
+
+‒
+
+Refueling vehicles and vessels is essential to sustaining the flow
+
+Hazardous Material
+The Hazardous Material lifeline covers the management (including containment and removal) of
+all hazardous materials. It focuses on ensuring that hazardous substance facilities, conveyance
+assets, wastewater systems, and incident debris, pollution, and contaminants do not require
+ongoing emergency responses to mitigate imminent or substantial threats to public health and
+welfare or the environment.
+•
+
+32
+
+What goods or services are essential to provide this lifeline? Examples:
+‒
+
+Biochemical treatment and containment products
+
+‒
+
+Backup power generation and fuel
+
+Supply Chain Resilience Guide
+
+‒
+•
+
+•
+
+•
+
+Pre-identification of hazardous substance facilities
+
+Where do these goods or services originate (where are the supply nodes)? Examples:
+‒
+
+Hazardous materials teams (local, state, Federal and private sector)
+
+‒
+
+Occupational and material safety professionals, both public and private sector
+
+‒
+
+Biochemical suppliers, heavy equipment sources, specialty extraction providers
+
+Where are these goods or services stored or deployed (where are the demand nodes)?
+Examples:
+‒
+
+Treatment facilities (e.g., water, sewage)
+
+‒
+
+Hazardous waste storage facilities (e.g., coal ash, nuclear spent fuel pool)
+
+‒
+
+Biochemical production and processing facilities compromised by extreme events
+
+How are these goods or services delivered? (Where are the links? How is demand expressed?
+How do goods or services move from supply nodes to demand nodes? What is minimally
+needed to start the flow? What is minimally needed to sustain the flow?) Examples:
+‒
+
+Surface transportation, maritime, and air may all be involved
+
+‒
+
+Demand is typically expressed by telecommunications
+
+‒
+
+Effective flow typically requires pre-identification, active monitoring, extensive
+mitigation, and rapid response facilitated by research, outreach, and exercises
+
+33
+
+Supply Chain Resilience Guide
+
+Appendix C. Supply Chain
+Resilience Engagement Checklist
+The following recommended actions help emergency managers foster long-term collaboration
+between the public and private sector stakeholders to support supply chain resilience.
+ Identify perceived or known issues/obstacles that hinder the private sector from engaging in
+response and recovery efforts in coordination with the public sector.
+‒
+
+Identify issues per individual company (if not done so previously).
+
+‒
+
+Identify trends across the sector within community and/or region (if not done so
+previously).
+
+ Based on information gleaned from the Action Phase, form a “Task Force” of appropriate
+Private Sector Representatives.
+‒
+
+Identify representatives from each private sector company – if possible, ensure
+representation of both operators and decisions makers.
+
+‒
+
+Consider representatives from trade associations, Federal agencies, tribes, state agencies,
+county agencies, and city agencies.
+
+ Develop a “Task Force” Concept of Operations (CONOPS) or Charter outlining agreed-upon
+parameters for engagement during steady state operations and response or disaster
+operations. The CONOPS/Charter could include:
+‒
+
+Overview
+
+‒
+
+Vision
+
+‒
+
+Mission Statement
+
+‒
+
+Area of Operation/
+Geography
+
+‒
+
+Purpose and Scope
+
+‒
+
+Subcommittees (if
+applicable)
+
+‒
+
+Roles & Responsibilities
+
+‒
+
+‒
+
+Elections
+
+Objectives
+
+‒
+
+‒
+
+Quorum
+
+Timeframe for
+Objectives
+
+‒
+
+‒
+
+Communications/
+Reporting Structure
+
+Membership &
+Meeting Schedule
+
+‒
+
+Decision Process.
+
+ Leverage the Task Force for information planning and assumption development.
+ Conduct a workshop with the Task Force to determine public and private sector priorities.
+‒
+
+Determine ownership of priorities and potential solutions.
+
+ Host workshops/seminars, potentially with cross-sector representation, to address identified
+priorities.
+
+34
+
+‒
+
+Develop products to facilitate inclusive response and recovery efforts.
+
+‒
+
+Develop tactics and MOUs/Memoranda of Agreement (MOAs) to facilitate inclusive
+response and recovery efforts.
+
+Supply Chain Resilience Guide
+
+‒
+
+Network Sector Task Force members with other Sector Task Force members to develop
+innovative options to address identified issues and priorities, as well as share lessons
+learned and best practices.
+
+ Host exercises to validate products, tactics, and agreements developed from workshops.
+ Provide training/outreach informing the private sector on the different opportunities and
+requirements to conduct business with the appropriate state agencies.
+ Continue to facilitate the resilience-building actions developed from the Task Force.
+‒
+
+Host exercises (discussion- and operations-based).
+
+‒
+
+Host conferences and/or seminars.
+
+‒
+
+Provide/Host networking opportunities.
+
+35
+
+Supply Chain Resilience Guide
+
+Appendix D. Complex Supply
+Chain Example
+Demand and supply networks can be highly differentiated by product, region, and enterprise.
+Figure 5 shows a representation of the petroleum product supply chain. In this representation,
+sourcing starts on the left, with inputs flowing toward outputs on the right (other terminology is
+sometimes used, for example “origins” are connected to “destinations,” or supply is “pulled” to
+demand, etc.).
+In the figure, several major production processes are given particular attention (e.g., refining)
+and multiple distribution options are highlighted (e.g., pipelines, maritime barge, tanker truck,
+rail). These process steps are often said to represent specific “tiers”" in the supply chain. Further
+dis-aggregation of flow is possible that can help identify “hidden” participants and anticipate
+potential bottlenecks in supply.
+It can be helpful for emergency managers to know where the key supply chain functions serving
+their jurisdiction are located and who owns/operates these functions. They should ask:
+•
+
+How many of these functions are located in your jurisdiction or your region?
+
+•
+
+To what extent – and how – does your jurisdiction depend on sources outside your region?
+
+As emergency managers especially know, maps are very helpful. However, a map is not the
+territory. Every helpful visualization of a supply chain tends to be over-simplified. For example,
+this visualization does not highlight dependencies (e.g., necessary electric power, chemical, and
+workforce inputs). Demand signals, including financial flows, are not shown. In supply chain
+resilience, it can be very helpful to work with stakeholders to conceive and deploy models and
+maps that key participants agree represent an accurate representation of local/regional reality.
+
+36
+
+Supply Chain Resilience Guide
+
+Figure 5: Representation of a Petroleum Supply Chain
+
+37
+
+Supply Chain Resilience Guide
+
+This page intentionally left blank.
+
+38
+
+

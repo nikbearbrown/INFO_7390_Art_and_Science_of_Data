@@ -1,0 +1,1274 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/380746388
+
+Impacts of Climate Change on Logistics and Supply Chains
+Article in Afet ve Risk Dergisi · May 2024
+DOI: 10.35341/afet.1361151
+
+CITATIONS
+
+READS
+
+0
+
+968
+
+1 author:
+Veli Ahmet Cevik
+Hitit University
+19 PUBLICATIONS 20 CITATIONS
+SEE PROFILE
+
+All content following this page was uploaded by Veli Ahmet Cevik on 01 August 2024.
+The user has requested enhancement of the downloaded file.
+
+Research Article
+
+Journal of Disaster and Risk
+7(2), 2024, (368-391)
+
+Received: 15.09.2023
+Accepted: 19.05.2024
+Published: 31.07.2024
+
+e-ISSN: 2636-8390
+DOI: 10.35341/afet.1361151
+
+Impacts of Climate Change on Logistics and Supply Chains
+Veli Ahmet Çevik1
+Abstract
+While the global public is struggling with Covid-19 and the subsequent inflation, war and energy crisis,
+climate change has turned into a forgotten crisis. However, with the increasing number of disasters caused
+by extreme weather events in different continents of the world, climate change has started to attract
+attention all over the world. Extreme weather events such as global warming, floods and hurricanes, which
+are the result of global climate change, not only affect the lives of societies, but also affect logistics and
+supply chains. The first spots to see the effects of extreme weather conditions as a result of climate change
+are the production centers in different parts of the world and the international logistics sector, which
+ensures that the goods produced in these facilities reach the markets. By this study, the qualitative effects
+of climate change on supply chains were investigated and this research is expected to shed light on the
+effects of climate change on international logistics activities.
+Keywords: Climate Change, Global Warming, Logistics, Supply Chain
+
+1. INTRODUCTION
+Climate change, which is felt more and more each year, has been overshadowed by the
+coronavirus pandemic, which emerged in China in the last days of 2019 and damaged the global
+economy much more severely than the global financial crisis that broke out in 2008 (Gopinath,
+2020; URL 1). While the governments were struggling with the global health crisis, which was
+caught unprepared, global warming turned into a forgotten crisis. However, towards the end of
+2021, with the decrease of the effects of the global pandemic, the issue of climate change has
+started to attract attention again. In a study conducted in Germany in which respondents were
+asked to select the two most important issues among the twelve issues facing the country, from
+social policy to the economy, climate change was at the top of the list by 43% of the respondents,
+followed by coronavirus with 38% (URL 2). The effects of the pandemic have eased, but this time,
+climate change continues to be overshadowed due to global inflation, war and energy crisis.
+Undoubtedly, the increase in air temperatures in recent years has a large share in the increasing
+interest of societies against climate change. Because the last eight years have been the warmest
+years since the 1800s, when global temperature records were started to be kept, and even 2021
+has been recorded as the fifth warmest year (URL 3).
+Bigger, more complex and more uncertain than other environmental problems, climate change is
+affecting agriculture, energy use, health and many aspects of nature, which means it affects
+everything and everyone. The causes and consequences of climate change are very diverse (Tol,
+1 Lecturer, Dr., Hitit Uni., Osmancık Ömer Derindere Vocational School, Depart. of Management and Organization, Logistics Prog, Çorum
+
+E-mail: veliahmetcevik@hitit.edu.tr ORCID No: 0000-0003-1981-7275
+To cite this article
+Çevik, V. A. (2024). Impacts of Climate Change on Logistics and Supply Chains.
+Journal of Disaster and Risk, 7(2), 368-391.
+
+368
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+2009). Rising temperatures, persistent multi-year and severe droughts, storms, rising sea levels,
+melting glaciers and warming oceans in connection with climate change affect human activities
+and bottleneck global supply chains, which is the focus of this study. The globalized production
+system, characterized by low transportation costs, economies of scale and comparative
+advantages, has increased the links between producers and consumers all over the world
+(Andreoni and Miola, 2015). Floods, hurricanes, high temperatures and forest fires that have
+emerged in different parts of the world in recent years affect one link of global supply chains, and
+this effect carries the risk of spreading to the entire network. Supply chains have a vital role in the
+development of global economies. Evaluating the economic consequences of disruptions in the
+regular flow of goods and services of global climate change is becoming more and more important
+for macroeconomic analyzes and economic policies. In this context, various central banks have
+begun to assess the consequences of climate change on the conduct of monetary policy,
+recognizing that supply shocks related to, for example, extreme weather events can strike a
+balance between stable inflation or output (Cœuré, 2018).
+On the other hand, activities such as production, transportation, storage and distribution carried
+out in supply chains have serious effects on climate change.
+The remainder of this article is organized as follows. In Chapter 3, climate change is examined in
+general terms. In Chapter 4, the effects of climate change on the supply chains and the effects on
+the main activity areas of the supply chain are investigated. The study was based on existing
+secondary sources, including books, regional and international reports, scientific journals, news
+articles and internet resources highlighting climate change-related supply chain issues, and
+expert interview.
+In this study, the qualitative effects of climate change on supply chains were investigated and this
+research is expected to shed light on the effects of climate in international logistics activities.
+2. LITERATURE REVIEW
+Climate change has been a recognized issue throughout history, but as a science, theory and
+evidence have been studied for the last two centuries. In the 1820s, French physicist and
+mathematician Joseph Fourier, realizing that the atmosphere traps heat, studied the heat balance
+equations for the Earth. He concluded that the planet was about 30°C hotter than these equations
+suggest, arguing that something was blocking the energy output (Stern, 2015).
+In recent years, climate change has become one of the most important challenges at practically all
+levels of decision-making, both governmental and private. Climate change, which is a result of
+global warming, is a universal reality that affects the life of human societies, business activities
+and the environment itself in many ways (Stern et al., 2010). The mid-1990s work of William
+Nordhaus on an integrated quantitative assessment model to explain the relationship between
+the economy and climate earned him the 2018 Nobel Prize in Economics (URL 4). Academic
+studies in the context of supply chains and climate change have been evaluated from many
+different perspectives. These studies can be divided into two groups as the effects of supply chain
+activities on climate change and the effects of climate change on supply chain activities. In the
+context of the effects of supply chain activities on climate change, Solaymani (2019) examined the
+CO2 emission models and the transportation sector in the seven economies that emit the most
+carbon in his study. Zhang et al. (2018) investigated the analysis of an optimal mass transit
+structure under carbon emission constraint on a case in China. Wan and his team (2018)
+369
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+presented solutions and policy recommendations regarding the decarbonization of the
+international shipping industry.
+The effects of climate change, which is also the subject of this research, on supply chain activities
+have started to attract the attention of researchers in recent years. In a systematic literature
+review on the management of climate change risks in global supply chains by Ghadge et al. (2020),
+90 interdisciplinary articles were reviewed between 2005 and 2018. It is seen that more than 30%
+of these studies were carried out between 2015 and 2018. A large number of studies have been
+carried out on food supply chains, which are among the areas where the effects of climate change
+are seen most rapidly. Godde et al. (2021) studied the effects of climate change on animal based
+food supply chains and emphasized that climate change will have effects throughout the supply
+chain, from agricultural production to storage, transportation and human consumption.
+Parajuli et al. (2019), in face of climate change investigated how fruit and vegetable production
+supply chains could remain environmentally sustainable. In order to reduce possible losses in the
+processing chain due to extreme and variable weather conditions, they suggested increasing the
+capacity of processing facilities such as storage, transportation and logistics in the supply chain.
+Pankratz and Schiller (2021) investigated climate change and adaptation in global supply chain
+networks and suggested that extreme weather events in the regions where suppliers are located
+lead to a decrease in the operating performance of suppliers and their customers.
+Izaguirre and her colleagues (2021), in their study investigating climate change risk to global port
+operations, revealed coastal flooding and overflows caused by sea level rise and heat stress effects
+of high temperatures as the main factors affecting port operations. In their research Becker et al.
+(2018), examining the effects of climate change on maritime, they recommended that a wide range
+of stakeholders operating in ports and related supply chains be in communication regarding
+adaptation to climate change. In their literature review research Ryley et al. (2020), examining
+the effects of climate change on aviation, they emphasized the importance of the participation of
+more stakeholders operating in the aviation industry in the development and implementation of
+adaptation plans against climate change risks. Their research on adapting railway maintenance to
+climate change, Garmabaki et al. (2021) concluded that it is important to implement effective
+climate adaptation approaches, including awareness.
+In the context of the effects of climate change, although industries such as supply chains, maritime
+and ports, aviation and railway are examined separately, the effects of climate change on all modes
+of transport are clearly lacking as a whole and there is an obvious need for a general framework.
+To address this research gap, supply chain and logistics operations are considered as a whole in
+this study.
+3. CLIMATE CHANGE
+Natural disasters have occurred throughout history. However, it is now becoming more frequent,
+more intense, and more importantly, more predictable.
+Climate change refers to long-term changes in the Earth's local, regional and global temperatures
+and weather patterns. Global warming, which is used in the same sense as climate change, but is
+one of the consequences of climate change, is caused by the use of fossil fuels, which increase the
+levels of greenhouse gases that trap heat in the atmosphere and increase the average surface
+370
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+temperature of the Earth as a result of human activities. These temperature increases, directly or
+indirectly caused by humans, are generally called global warming (URL 5, URL 6.)
+Especially in the 20th century, the rapid increase in industrialization and the ability to travel
+around the world with unprecedented efficiency, the ability to trade commodities and share
+information have accelerated global warming. According to estimates, about 90% of world trade
+is transported by ships. In 2019, 11 billion tons of goods were loaded at world ports and the global
+trade value of goods exported to the whole world was approximately 19 trillion US dollars (URL
+7). Humanity has depended more and more on fossil fuels since the Industrial Revolution 200
+years ago. Carbon dioxide emissions from fossil fuels have increased steadily since then,
+accumulating in the Atmosphere, warming the planet, and net emissions have increased by 40%
+over the past 30 years (URL 8). Although the subject of this study is the impact of climate change
+on supply chains, the global greenhouse gas emissions caused by the sectors are shown in Figure
+1.
+Greenhouse Gas Emissions by Economic Sectors
+
+Other Energy
+10%
+Industry
+24%
+Electricity
+and Heat
+Production 23%
+
+Agriculture,
+Forestry, and
+Other Land Use
+22%
+
+Transportation
+15%
+
+Buildings
+6%
+
+Figure 1.Greenhouse Gas Emissions by Economic Sectors ( URL 9)
+
+Climate change makes itself felt with different dangers and these dangers affect businesses in
+different parts of the world in very different ways (Table 1).
+The potential threats of climate change are given in Table 1. Many of these threats continue to
+threaten societies and businesses in different geographies.
+The Intergovernmental Panel on Climate Change (IPCC) was established in 1988 by the World
+Meteorological Organization (WMO) and the United Nations Environment Program (UNEP) with
+the goal of providing scientific data to all levels of government for the development of climate
+policies. With the founding of the IPCC, the process of developing global action to manage climate
+change began more than three decades ago. The IPCC was created to offer a concise scientific
+371
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+summary of what is currently known about climate change. It has produced six main evaluation
+reports in 1990, 1995, 2001, 2007, 2014 and 2022.
+Table 1. Operations Risk Indicators (Mazzacurati et al., 2017)
+Climate Hazard
+
+Description
+
+Heat Stress
+
+Increase in temperature
+
+Water Stress
+
+Extreme Precipitation
+
+Wildfire
+
+Sea level rise
+
+Cyclones, Hurricanes,
+Typhoons
+
+Socio-economic
+vulnerability
+
+Potential Business Impacts
+ Rising costs of energy for cooling
+ Heightened risk of brownouts/power outages
+ Decreased labor productivity
+ Negative impacts on human health/ labor
+force
+
+Fluctuation in water supply
+and demand
+
+ Reduced supply/ Increased costs
+ Interrupted business
+ Damaged reputation
+ Losted jobs & customers
+
+ Impairment of Property and Infrastructure
+ Compromised infrastructure
+Events of heavy rain
+ Delayed projects
+ Disrupted operations
+ Constant decline in property value
+Change in fire conditions
+ Increased insurance losses
+ Flooding problems and damaged physical
+Elevated storm surge,
+assets
+intensified by the escalation
+ Permanent loss of property value
+of sea levels.
+ Costs of moving operations
+ Severe property damage
+Exposure extreme weather  Constant decline in property value
+phenomenon
+ Costs of moving operations
+ Losses in value added operations
+Social upheaval, population  Disruptions in operations, physical assets
+movement or economic
+damages
+disruption exacerbated or
+ Impact on on the labor force
+intensified by the influences  Social acceptance to operate
+of climate change
+
+The United Nations Framework Convention on Climate Change (UNFCCC) was created at the Rio
+Earth Summit in 1992 to coordinate action on climate change. UNFCCC parties have met annually
+at Conferences of the Parties (COPs) since 1995. COP 1 was held in Berlin, with an agreement on
+"Jointly Implemented Actions", the first joint measures in international climate action (Breidenich
+et al., 1998). The third COP was held in 1997 in Kyoto and the Kyoto Protocol, which entered into
+force in 2005, was adopted. The Paris Climate Agreement was signed at COP 21 held in Paris in
+2015. The COP26 UN Climate Change Conference, which was planned to be held in Glasgow in
+2020 by the UK in partnership with Italy, was postponed due to Covid-19 and held in 2021. The
+COP27 took place in 2022 in Egypt and The COP28 held in Dubai, the United Arab Emirates (UAE)
+in 2023. The COP29 is scheduled in Bakü, Azerbaijan in November 2024.
+
+372
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+4. IMPACT ON SUPPLY CHAIN
+Lambert et al. (1998) defined the concept of supply chain, which has many different definitions in
+the literature, as the harmony of companies that bring products or services to the market. Supply
+chain management, on the other hand, is the coordination of activities within and between
+vertically linked firms in order to profitably serve their end customers (Larson and Rogers, 1998).
+According to The Council of Supply Chain Management Professionals (CSCMP), ‘‘Supply chain
+management encompasses the planning and management of all activities involved in sourcing and
+procurement, conversion, and all logistics management activities’’ (URL 10). As can be understood
+from the definitions above, the activities of processing raw materials in any corner of the world in
+different geographies and serving them to consumers in many different places constitute the
+subject of the supply chain. With the decrease in transportation costs for the last 50 years,
+developments in communication technologies and the spread of just-in-time production
+philosophy, outsourcing has increased and production can be made in geographies that are far
+from the markets. Such a level of complexity and interconnectedness of supply chains reduced
+costs considerably when things were on track, but in the case of a risk, this supply network can
+pose great challenges to businesses. The most severe of these difficulties was witnessed by the
+whole world in the Covid 19 pandemic. In addition to the pandemic, the gigantic container ship
+agrounded in the Suez Canal almost brought Asia-Europe trade to a halt.
+The supply chain does not only cover production and supply activities, but also includes other
+activities such as transportation, warehousing and retail, as understood from the above
+definitions. These core activities cover other components such as people, technology, knowledge
+transfer and adding value. Exposure of the activities and components of a supply chain to one of
+the climate change factors at any point in the world can bring the entire operation in the chain to
+a halt.
+In fact, nature's disruption of supply chains is not a new phenomenon. Dealing with extreme
+weather events such as floods, droughts and storms began long before corporations became
+popular in the 19th century. For many firms, the physical impact of climate change will affect them
+more through disaster-affected suppliers or flooded transportation routes, rather than their own
+operations (URL 11). The Western Pacific is home to a significant portion of semiconductor supply
+chains, with the probability of devastating hurricanes occurring once in 100 years likely to double
+or even quadruple by 2040. Such hurricanes have the potential to wipe out about 30% of their
+income by causing months of production loss for businesses in the geography where they occur.
+Heavy rare earth mining in Southeast China is also likely to face major challenges with the
+increased probability of heavy rainfall (URL 12).
+The increasing effects of climate change have led governments, businesses and other stakeholders
+to take steps towards climate change. Established at Stanford University in 2022, the School of
+Sustainability will focus on a range of disciplines, from research to new technologies and climate
+policy study (URL 13). On the other hand, in an open letter ahead of the G7 summit in Germany in
+2022, more than ten global big company executives called for ambitious government climate
+policies that offer clarity and stability to the private sector (URL 14). These developments are
+examples of the steps taken by different sectors towards climate change. Climate change factors
+such as the steps taken by governments and the changing purchasing behavior of consumers pose
+threats and opportunities to businesses and supply chain networks (Figure 2) (Dasaklis and
+Pappis, 2013). In a study conducted in 28 countries in 2019, 69% of the participants said that they
+made a change in consumer behavior due to climate change concerns (URL 15).
+373
+
+Impacts of Climate Change on Logistics and Supply Chains
+*Differentiated
+products and
+services
+*New markets
+*New technologies
+*Value Creation
+*Clean energy
+*Resource
+efficiency
+*Better company
+performance
+
+Climate Change Opportunities
+
+Information
+
+Cash Flow
+Supplier
+
+Manufacturer
+
+Distributor
+s
+
+Retailers
+
+Customer
+r
+
+Material Flow
+Reverse Material Flow
+
+Climate Change Threats
+
+GHG
+Emissions
+
+Carbon
+Management
+*International accords
+*Litigation risk
+*Shareholder’s value
+* Environmental
+sensitive of customers
+*Disruption
+*Physical impacts
+*Raw materials’
+scarcity/shortage
+*Health, welfare,
+security threats
+*Vulnerable ecosystems
+
+Figure 2. Climate Change Threats and Opportunities for Supply Chain Networks (Dasaklis and Pappis,
+2013; URL 9, URL 16)
+
+4.1. Production and Storage
+The factors required for production are labor, capital, land and entrepreneurship (Karagül, 2014).
+Climate change has the potential to affect all of these factors. If the living areas of the employees
+in the production centers are affected by natural disasters, it is inevitable that the businesses they
+work will also affect them. On the other hand, societies had to migrate from their places of
+residence due to extreme weather conditions. Between 2008 and 2016, abrupt weather events
+like floods, storms, forest fires, and excessive temperatures resulted in the forcible displacement
+of 21.5 million people annually on average (URL 17).
+International management consulting firm McKinsey has grouped the socioeconomic impact of
+climate change in a five-system framework: livability and workability, food systems, physical
+assets, infrastructure services and natural capital (URL 18).
+Of the hazards listed in Table 1, the temperature factor may affect people's ability to work
+outdoors. Between 1992 and 2016, approximately 70,000 workers were seriously injured and
+more than 700 lost their lives due to extreme heat in the USA (Tanglis and Devine, 2018).
+Physical assets such as buildings that constitues production centers of enterprises can be
+damaged or destroyed by dangers such as excessive precipitation, floods and forest fires. In 2011,
+more than 270 factories were damaged in five industrial estates in the flood disaster that occurred
+in Thailand (URL 19). Infrastructure services are also damaged due to extreme weather events.
+Other energy production and transmission tools, especially electricity and natural gas services,
+374
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+suffer, too. According to the IPCC's 6th Assessment Report (URL 9), the hotter summer climate in
+Asian countries and the increasing population cause a rapid increase in the demand for energy for
+cooling (URL 20). For example, the Japanese government, after warning in March 2022, called on
+businesses and people in the Tokyo area to cut electricity use with a second warning in June, as
+the heat wave increased the use of air conditioners.
+Climate change is changing ecosystems and destroying natural capitals such as forests and oceans
+that contribute significantly to societies. Because trees keep greenhouse gases out of the
+atmosphere, forests are critical to limiting the damage of climate change. Agriculture, forestry and
+related sectors contribute 21% of global greenhouse gas emissions, of which 45% come from
+deforestation for economic activity (URL 20). Global Canopy, one of the non-profit environmental
+groups, analyzed the environmental programs of 350 companies working in the forestry, land use
+and agriculture sectors, which have a major impact on the world's forests, within the framework
+of the United Nations' Race to Zero 2030 breakthroughs. It has been found that 148 of these
+companies have committed to net zero, but only nine have made strong progress in preventing
+deforestation (URL 21) In addition, leaders of Unilever and Nestlé companies in the global food
+industry have committed to achieving deforestation-free supply chains by the end of 2025 (URL
+22).
+In today's international trade, raw materials and intermediate products are brought together from
+different parts of the world with the philosophy of just-in-time manufacturing and presented to
+the end user. Certain products have clustered production centers in certain countries or even in
+different regions of these countries. Risks increase when suppliers are clustered in certain
+regions. About 70% of the world's smartphones are concentrated in one region of China. Another
+region is home to half of global laptop production (URL 23). The world has witnessed this problem
+in the latest Covid-19 outbreak. It is estimated that at least 51,000 companies operating in
+different parts of the world have a first-tier supplier in the Wuhan region of China, where the
+pandemic first appeared, and at least five million companies around the world have at least one
+second-tier supplier (Çevik and Durukan, 2021).
+Severe freeze in Texas in February 2021 caused the largest power outage in US history. These cuts
+have exacerbated the semiconductor shortage triggered by the global pandemic, and key suppliers
+of the automotive industry dependent on microchips have had to close their factories (URL 24).
+Sea level rise is one of the most important effects of climate change. Future rates of sea level rise
+have caught the world's attention. Countries, particularly those in low-lying areas and small
+islands, are worried that flooding and coastal erosion would limit their land area, and at worst, a
+sizable portion of their population may be compelled to emigrate (Mimura, 2013).
+According to the United Nations report, approximately one in ten of the world's population lives
+in coastal areas less than 10 meters above sea level, and approximately 40% of the world's
+population lives in an area 100 km from the coast (URL 25). Sea level rise is considered the most
+serious threat that climate change poses to China's coastal regions. Over the past century, China
+has experienced a sustained trend of sea level rise, with a total rise in sea levels of about 20-30 cm
+and an average annual rise of 2.5 mm (Cui et al., 2018). China's 11 coastal provinces occupy only
+13.5% of the land area, accounting for 45.22% of the national GDP and more than 41% of the
+population by 2021 (URL 26).
+Damage to structures, equipment, vehicles used for transportation, raw materials, components,
+and products, as well as decreased or suspended production, have an immediate impact on many
+375
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+medium-sized businesses. The main reason for this is that the machines are permanently installed,
+which can hardly be protected if water enters the first floor. Therefore, production will be
+interrupted rapidly (Leitold et al., 2021). The increase in production in the world and the growth
+in e-commerce have increased the number of warehouses and transfer centers. These centers,
+where raw materials, intermediate products and final products are stored, are generally large
+closed areas and characteristic structures that are not very high from the ground. These facilities
+are vulnerable to flooding and extreme weather events. Electricity, natural gas and
+telecommunications infrastructures are the backbone of both generation and storage facilities.
+Recent studies show that when power outages are included, economic losses from flood-induced
+business disruption are 300% higher (Koks et al., 2019). Droughts in recent years have seriously
+damaged electricity production. Severe storms will damage fragile power grids and natural gas
+supply systems that is not designed to operate at certain temperatures. Similarly, it will damage
+critical equipment in gas and coal power plants, wind turbines and pipelines, disrupting critical
+infrastructures of generation and storage systems.
+Extreme heat and drought as a result of climate change affect many different regions from the
+European continent to China. According to the report of the European Union Joint Research
+Center, Europe is experiencing the driest time of 500 years in August 2022 and more than 60
+percent of land in the EU is under drought warnings or alerts (URL 27). Drought seriously affects
+agriculture, energy and global material production. Cooling water is of vital importance for
+thermal power plants that provide about 80% of the world's electricity. In the USA, it is estimated
+that 41% of the amount of fresh water used in power plants in 2005 was used for electricity
+generation, primarily for cooling (Zhou et al., 2018). China, which has been heading towards a
+water crisis in recent years, has 20% of the world's population but only 7% of the world's fresh
+water resources. The country, which is the production center of the world, is structurally
+insufficient in water resources and electrical power to sustain its economy (URL 28). The longest
+river in Asia, the Yangtze, reached a record low, causing major companies such as Toyota and
+Foxconn to shut down factory operations for at least a week due to outages in hydroelectric power
+plants (URL 29). Considering the weight of the country in the global economy, potential waterrelated disruptions that started in China will shock the food, energy and material markets around
+the world and create economic and political turmoil in the coming years (URL 30).
+High temperatures, which reduce productivity, tend to reduce both agriculture and manufacturing
+exports, and hurricanes, which reduce national incomes, tend to reduce imports. The spatial
+distribution of climatic conditions in extensive trade networks has the potential to have an impact
+on market pricing through both effects on supply costs and affects on demand (Carleton and
+Hsiang, 2016).
+4.2. Transportation
+Transport is an important sector that contributes to the smooth functioning of societies and
+ensures the economic development of a nation (Vajjarapu et al., 2019). The lockdown periods that
+started with the Covid 19 pandemic once again emphasized the great importance of the
+transportation industry. The transportation sector, which is in a key position to ensure an
+uninterrupted flow of goods and the continuation of world trade, needs to be prepared in advance
+for the increasing effects of climate change day by day. Climate change impact types and possible
+consequences in terms of transportation are given in Table 2.
+
+376
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+Table 2. Types of Climate Change Impacts, Possible Consequences for Transport (Nemry and Demirel,
+2012)
+Climate impact
+Increased Summer Temperatures
+Increased Winter Temperatures
+
+Increased Precipitation and floodings
+
+Increased and more frequent extreme
+winds
+
+Sea Level Rise and sea storm surges
+
+Change in frequency of Winter Storms
+Permafrost degradation abnd thawing
+Reduced Arctic sea ice Cover
+Earlier River Ice Breakup
+
+Overview of potential impact on transport system
+ Deterioration of asphalt, Railway Track Expansion, change
+in the takingoff distance and required airport runway
+length, lack of navigable water, thermal expansion of
+bridges, superheating of diesel engine
+ Alleviating limitations on road and rail maintenance
+ Modified construction seasons
+ Inundation of terrestrial transportation infrastructures,
+dampened road surfaces, and hazards to safety.
+ Erosion of embankments, scouring of bridges, and
+submergence of subterranean transit systems.
+ Increased occurrence of slushflow avalanches, landslides,
+and related vulnerabilities.
+ Impairment of transportation-related infrastructure such
+as roadways, railways, pipelines, maritime ports, and
+aviation facilities.
+ Vulnerabilities in cable-supported bridges, signage,
+elevated cables, railway signaling, and towering structures.
+ Disruption of electronic transportation infrastructures
+including signaling systems.
+ Diminished safety conditions for vehicles driving.
+ Degradation of coastal highways due to erosion.
+ Elevated tides posing threats to port and harbor
+installations, as well as low-level aviation infrastructure.
+ Recurrent and sustained inundation.
+ Scouring of bridges.
+ Deterioration through corrosion.
+ Less or more snow / ice for all modes
+ Road, rail, airport, pipeline embankments failures
+ New northern shipping routes Reduced ice loading on
+structures, such as bridges or piers
+ Ice-jam flooding risk
+
+Climate change is likely to threaten transportation systems both temporarily through extreme
+weather events and permanently through gradual changes (Markolf et al., 2019). Sudden extreme
+weather events, floods and landslides can increase the risks of disruption in transportation
+systems such as delays, disruptions, damage and malfunctions. Gabela and Sarmiento (2020)
+investigated the effects of the 2013 floods in Germany on road freight transport and found that
+23% of all main roads were damaged during floods. A study of the effects of the climate crisis on
+critical infrastructure found that high temperatures alone will account for around 92% of total
+hazard damage in Europe’s transport sector by 2080, largely as roads are built for cooler times.
+(Forzieri vd., 2018). The increase in the number of floods and excessively snowy days on the
+highways will shorten the economic life of the roads. More frequent maintenance, repair and
+rebuilding activities will result in higher costs. For example, the African continent faces a cost of
+US$183.6 billion to repair and maintain roads as a result of damage from temperature and
+precipitation changes from potential climate change by 2100 (Chinowsky et al., 2011).
+Extreme weather events cause great risks to rails, bridges, tunnels, energy and communication
+systems, and extreme temperatures cause rails to buckle in railways and trains to derail or collide
+377
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+(Rail Safety and Standards Board, 2003). In 2021, the financial impact of wildfires and heavy rains
+on Union Pacific, North America's largest rail freight company, was approximately $100 million
+as it caused gradual disruptions to the company's 32,000-mile network (URL 31).
+Climate change also affects airport operations in different ways. The terminal and flight
+operations will need to be modified due to variations in wind speed and direction, temperature,
+and air density (Williams, 2016). In the "Climate Change Risk and Resilience" report prepared by
+the European Air Navigation Safety Organization (Eurocontrol) (2013), the main potential risks
+of climate change for the European aviation sector are as follows;
+• Temperature increase
+• Changes in precipitation (rain and snow)
+• Changes in storm patterns
+• Changes in wind patterns
+• Sea level rise and storm surges
+Analyzing the infrastructure of more than 14,000 airports worldwide and their exposure to storm
+surges for current and future sea level, Yesudian and Dawson (2021) concluded that 269 airports
+are currently at risk of coastal flooding. According to the aforesaid research, a temperature
+increase of 2°C in line with the Paris Agreement will cause 100 airports to remain below the mean
+sea level and 364 airports to face the risk of flooding. Airport operations may be interrupted or
+halted by flooding of airport terminals, electricity and lighting infrastructure, navigation and
+communication systems, inter-terminal transit, or runways. Because important utility
+infrastructure is frequently underground, minor water leaks can harm fundamental components
+(Burbidge, 2018). There are risks of climate change causing the following problems in aviation
+operations (Eurocontrol, 2018);
+• Aircraft performance changes
+• Runway length issues
+• Efficiency and flight range problems
+• Demand redistribution (geographic)
+• Redistribution of demand (seasonal)
+• Increased cooling and heating requirements
+• Heat damage to airport surfaces (runways and taxiways)
+• Structural problems caused by changes in permafrost
+Ports, which are the driving force of economic growth and development, play a significant role in
+meeting human needs and in global trade. As more than 80% by volume of global trade in goods
+are transported by sea, ports are crucial links in production, distribution and supply chains based
+on low-cost transportation (URL 32). In 2021, the cargo and shipping activities of ports on the US
+west coast supported more than 12 million jobs across the US and a total economic value of
+approximately $2 trillion, accounting for approximately 8.7% of the nation's GDP (Martin
+Associates, 2022). Ports are highly vulnerable to extreme weather conditions due to their nature
+being built at sea level and serving in open areas. Disruption of port operations, with damage to
+port infrastructures and equipment, will lead to disruption of supply chains and disruption to
+trade globally. Hurricane Sandy, which hit the ports of New York and New Jersey in 2012,
+disrupted maritime operations and facilities and caused approximately $2.2 billion in damage
+(Smythe, 2013). In general, the maritime sector is affected by the increase in sea levels in port
+activities and the increase in the severity of storms in voyage services (Asariotis and Benamara,
+2012).
+
+378
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+River transport, known as inland waterway transport, is also affected by extreme temperatures
+with changing climate, similar to other modes of transport. In Europe, transportation could not be
+carried out due to the fall in the water level in 2018 in the Rhine River, which connects Germany
+and Switzerland to Rotterdam. Approximately 80% of inland waterway transport, which
+constitutes 6% of Germany's total transport volume, takes place on the Rhine, the most important
+inland waterway in Germany and Western Europe (Ademmer et al., 2020). The water level of 80
+cm, which is necessary for the safe floating of the barges used in river transport, has decreased to
+25 cm. The banks of the river, which is approximately 1200 km long, are home to some of
+Germany's largest industrial companies, including the world's largest chemical plant. The
+suspension of river transport due to drought caused industrial plants to cut production for several
+weeks and gave the German economy a short-term shock (URL 33). In August 2022, the water
+level dropped to 47 cm and the container ships had to carry some of their planned cargoes to avoid
+running aground, resulting in high transportation costs and serious delays in deliveries (URL 34).
+Although global warming negatively affects humanity, the melting of glaciers offers new business
+opportunities in the Arctic region. Since the geographical distance between the continents is less
+in the Arctic than in the southern regions, northern countries have started to build submarine
+fiber optic cables in Arctic waters (URL 35). Furthermore, new transportation routes are emerging
+as an alternative to the Suez Canal and Cape of Good Hope crossings in the Arctic region.
+Alternative new routes in the North Pole provide approximately 35% distance savings compared
+to traditional maritime trade routes (Çevik and Durukan, 2020).
+4.3. Insurance
+Climate change also affects the insurance industry. Businesses transfer the risks brought by
+extreme weather conditions to insurance companies and as the risks increase, the premiums paid
+increase. Between 1980 and 2020, extreme weather events caused 487 billion Euros of economic
+loss in the member states of the European Environment Agency and accounted for approximately
+80% of the total economic losses caused by natural disasters (URL 36). Global economic losses
+from natural and man-made disasters increased from USD 150 billion in 2019 to USD 202 billion
+in 2020. Estimated global insured losses from natural disasters in the first half of 2022 amounted
+to USD 35 billion, exceeding the average of the last decade by 22% (Swiss Re, 2020; URL 37). The
+increase in pandemics and natural disasters in recent years has also negatively affected
+reinsurance companies, and some reinsurance companies have implemented a 12% premium
+increase in property and casualty insurance, which includes natural disaster insurance and other
+types of insurance, in July 2022 (URL 38).
+4.4. Other Logistics Activities
+Logistics activities include transportation, stock management, warehouse management,
+packaging, order processing, handling, customs clearance, customer services, information
+management, demand forecasting, after-sales service, factory-warehouse location selection,
+purchasing, and waste parts management. Transportation, stock management and warehouse
+management are considered as the prominent basic logistics activities. These three activities are
+the key activities carried out within the entire logistics channel (Nalçakan and Er, 2012) .
+Since these logistics operations (packaging, order processing, handling, customs, etc.), other than
+basic logistics activities, are generally carried out in closed areas, extreme weather events
+primarily affect employee. Inadequate ventilation, heating and cooling systems of buildings will
+negatively affect the workforce (Yavuz et al., 2020). Extreme temperatures may negatively affect
+electrical infrastructure, digital systems and power supplies, and these interruptions may disrupt
+379
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+business processes. Extreme weather events may hinder activities such as transportation, support
+and personnel recruitment carried out before and after these operations.
+Inventory control management has a strong impact on the performance and profitability of the
+firm, increasing efficiency and reducing costs in the supply chain process (Khan and Siddiqui,
+2019). Increasing extreme weather events may lead to increased transportation costs, which in
+turn may lead to increased raw material acquisition costs. To fulfill production contracts and
+maintain production, businesses may consume raw materials and intermediate products faster
+than planned, ultimately reducing the inventory of unfinished products. Climate impact increases
+the likelihood of road closures and traffic stops, reducing the speed at which finished products
+reach customers, resulting in product backlogs and a significant increase in finished product
+inventory (He et al., 2023).
+Since customs revenues arise mainly from customs duties, taxes and duties applied to goods
+subject to import and export, climate change may have various impacts on these revenues.
+Disruptions caused by climate change, such as extreme weather events, prolonged droughts or
+floods, can disrupt supply chains and business models, ultimately reducing trade volumes and
+therefore customs revenues (Soro, 2023).
+The number of climate elements that concern the company affects the positive financial
+performance of companies. Businesses that are less dependent on the natural environment may
+continue normal business operations and therefore experience positive sales growth, whereas
+businesses that are highly dependent on weather conditions will, conversely, experience a decline
+in sales (Bergmann et al., 2016).
+Extreme weather events caused by climate change can cause disruptions to supply chain facilities,
+changes in workforce productivity, variability in demand and declines in delivery performance.
+These problems in supply chains multiply exponentially throughout the network, leading to
+reduced efficiency, profits, delivery times and therefore order fulfillment. The fact that climate
+change affects both the internal and external environment of the business in unexpected ways
+causes problems in achieving planning and forecasting goals (Er Kara et al., 2021).
+Packaging has a critical role in the storage, transportation and handling of products, and in
+protecting and preserving the products (URL 39). However, unexpected sudden changes in
+weather conditions can affect packaging materials and compromise their ability to keep the
+products inside safe. Changing weather conditions such as extreme temperature and humidity
+during transportation of the products will negatively affect products that spoil quickly due to
+packaging that loses its function. Employees serving in this area will be negatively affected by
+extreme weather events.
+5. METHOD
+In this study, literature review and expert interview technique, one of the qualitative research
+methods, was used to reveal the effects of climate change on logistics and supply chains.
+This study’s data came from secondary information made available by primary research in related
+field. In recent years, secondary data has grown in significance for study in a variety of fields,
+including sociology, economics, and political science (Trzesniewski et al., 2011). The researchers
+380
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+answered crucial research concerns by analyzing secondary data in a way that broadened or
+reinterpreted key findings in the area (Greenhoot and Dowsett, 2012).
+Expert interviewing, as a qualitative research method that aims to explore or collect data on a
+particular area of interest, has been a frequently used method in political and social research since
+the early 1990s (Döringer, 2021). Interviews are the most commonly used data collection
+method, and the semi-structured format is the most frequently used interview technique in
+qualitative research (Kallio et al., 2016). According to Mergel et al.’s ( 2019) definition, an expert
+is a person who possesses technical, procedural, and interpretive knowledge relevant to their
+fields of expertise.
+The advantages of using expert interviews, which have long been popular in social research, for
+the researcher are as follows (Bogner et al., 2009);
+ Talking to experts during the discovery process of a study is a more efficient and collective
+method of collecting data than quantitative surveys.
+ Interviewing experts can help shorten lengthy data collection processes, especially
+because experts provide practical knowledge from within the organisation.
+ Interviewing experts is appropriate when it is difficult or impossible to access a particular
+social area
+ Additionally, if the expert being interviewed also holds a key position in the organization,
+opportunities to expand the researcher's access to the field may be uncovered during this
+interview.
+In qualitative research, the adequacy of sample size is relative; While a sample size of 10 is
+sufficient for certain types of homogeneous or critical case sampling, it may be considered too
+small to develop a complex phenomenon or theory (Sandelowski, 1995). There is no exact
+number of samples that researchers should include in their studies. However, it is recommended
+that researchers include at least 8 to 15 participants to obtain a large enough sample so that they
+can determine whether their findings are representative of more than one person (Hill et al.,
+1997).
+10 experts were interviewed in the research. The interviewees who participated in the research
+were coded as P1, P2, P3... with the letter ‘‘P’’ meaning ‘‘participant’’. Interviews were conducted
+face to face and by telephone in February/March 2024. Interviewees were promised anonymity
+in any publication and as a result only identifying them by their role in their organization.
+In this study, it is aimed to answer the following research questions in particular:
+RQ1: What is the impact of extreme weather events on logistics operations?
+RQ2: How does climate change affect supply chains in general?
+Although this research focuses on supply chains, it is expected to contribute to the literature on
+its effects on international logistics activities.
+6. RESULTS
+In order to determine their perspectives on the effects of climate change on logistics and supply
+chains, two questions were asked to the managers and employees of production, transportation
+and warehouse companies; one question was asked to employees in the customs, packaging,
+handling and delivery business and an occupational health and safety (OHS) expert in Turkey.
+381
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+RQ1: What is the impact of extreme weather events on logistics operations ?
+RQ2: How does climate change affect supply chains in general?
+P1: (Mid-level manager in warehouse industry)
+A1: ‘‘Especially heavy rains in recent years caused floods, causing minor damage to our warehouse.
+We know that some of our friends in the industry have had more than one flood in their warehouses.
+Even though there are no problems in our warehouse on extremely rainy days, the vehicles that bring
+goods to and from the warehouse experience delays due to floods and puddles on the roads.
+Furthermore, our friends we have talked to in the industry say that extreme heat, especially in the
+summer months, has increased the energy costs of cold-storage warehouses.’’
+A2: ‘‘As I mentioned, when excessive rainfall affects the transportation infrastructure, it becomes
+difficult to reach ports or factories, it can disrupt the transportation of raw materials or inputs to
+factories, logistics processes, and cause delays in supply chains. It causes businesses to change their
+plans and sometimes even cause financial losses.’’
+P2: (Mid-level manager in production)
+A1: ‘‘We operate a factory that processes agricultural products. Farmers or brokers bring us the
+grains. However, in some rural areas, we send trucks to farmers who want to send their grain to our
+factory. The bridge that provides transportation to the village was damaged due to the flood and we
+cannot bring the product. Or the farmer cannot take machinery to his field for harvesting.’’
+A2: ‘‘Heavy rains during the grain harvest season not only reduce the quality of goods but also cause
+producers' products to be flooded. Prices vary widely locally during periods of floods or heavy rain
+during peak harvest season. There are grain silos in our factories. We know that silos in some places
+have been damaged in strong storms in recent years. The industry now attaches importance to the
+durability of buildings.’’
+P3: (Mid-level manager in railway company)
+A1: ‘‘In railway transportation, transportation cannot be carried out when floods damage the
+ground on which the rails are laid. During periods of heavy rainfall, soil or rocks may fall on the rails
+as a result of landslides. A similar event occurred was in 2024. In fact, although extreme heat does
+not affect our entire line, it mostly affects the line in the southern regions. Heated rails expand and
+can start to curve this is known as buckling, which can lead to accidents. In addition, since our
+employees in some units work outdoors, there is a risk of health problems in extremely hot weather.’’
+A2: ‘‘In general, considering Turkey's railway lines, alternative routes are used in case of road
+interruption in any region. However, this alternative route can sometimes cover very long distances.
+In this case, the sender of the goods has to bear serious costs. In addition to the cost, the time also
+increases. The plans of the sender's recipient customer may be disrupted. If some of the loaded
+wagons are damaged on the road, the production of the recipient company may be disrupted.’’
+P4: (Mid-level manager in airline company)
+A1: ‘‘Weather is an important data source for aviation. Uncertainty in weather forecasts or sudden
+changes can make the weather's suitability for flight unpredictable. Such situations can make flight
+planning and flight route selection difficult. Excessive rainfall may damage the apron or
+infrastructure. I don't remember any large-scale incident in Turkey where the apron was affected by
+floods, but we know that floods have occurred at airports in different countries in recent years.
+Extreme temperatures can sometimes be a problem for employees working on the apron. Strong
+storms can cause equipment on the apron to move and crash into aircraft. Since all these disruptions
+382
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+ultimately concern the passenger, they affect your service quality and customer satisfaction.
+Cancellations and delays can cause undesirable situations such as chaos at airports.’’
+A2: ‘‘When we look at the characteristic features of air cargo transportation, these cargoes are
+valuable, sensitive and must be transported quickly. In cases where airports cannot provide service
+due to long-term extreme weather events, these cargoes will not reach their recipients on time.
+Especially today, some inputs of companies that produce in just-in-time production model are
+transported by air cargo. In this case, there will be a risk of the production line halting. Additionally,
+race horses or Formula 1 racing vehicles are also transported by air. These organizations are of
+worldwide importance. When we look at air transportation from the passenger perspective, business
+travel has a significant share. Time is important for senior executives who hold business meetings in
+different countries of the world. Delaying the flights of these executives may lead to business losses.’’
+P5: ( Executive in road transport company)
+A1: ‘‘On rainy days, intercity main roads do not cause much trouble, but district roads or bridge
+crossings may flood. While passing through mountainous regions, rocks or soil from the mountain
+block the road. In this case, we have to wait. If there is a facility nearby where we can park for a long
+time, we wait there, but otherwise we have to stay in the truck on cold days, in which case we
+experience fuel problems. If we get caught in snow or rain in the city, there is long traffic. When the
+weather is very hot in the summer, asphalt melts and this negatively affects us drivers.’’
+A2: ‘‘When it rains or snows a lot, if we are on the road, we are forced to reduce our speed. Of course,
+this delays the delivery of cargo. We have had disputes regarding delay in freight delivery several
+times. When the weather is too hot or too cold, the loads we carry can be affected. Of course, no one
+wants their good to be damaged.’’
+P6: (Mid-level manager in port operation)
+A1: ‘‘By their nature, ports are located at flat areas and seaside. They are vulnerable to winds and
+floods. Excessive rainfall can cause floods. Even if there is no puddle in the ports, it can affect traffic
+on the roads accessing the ports. Extreme winds can blow empty containers in ports or knock down
+cranes that load and unload containers, restraining operations. Similarly, there may be a risk of
+containers falling from ships traveling at sea. In general, excessive rains and winds can stress
+operations in ports.’’
+A2: ‘‘These factors affecting maritime transportation can generally interrupt transportation and
+port operations and cause delays. These negativities are reflected in transportation costs and
+insurance expenses. The entire supply chain can be negatively affected in terms of both time and cost.
+Interruption of port operations can cause delays. When the goods are delayed in reaching their
+destination, the inputs of the manufacturing enterprises are delayed and production plans can be
+disrupted.’’
+Q: What is the impact of extreme weather events on logistics operations ?
+P7: (Staffer in custom operation)
+A: ‘‘During the summer season, extreme heat does not affect the operations and passage of
+commercial vehicles and individual vehicles. If the vehicles have entered the customs area, border
+crossing and customs procedures are carried out. However, there may be some difficulties for the
+working staff. Some of our colleagues have experienced cases of sunstroke, but support personnel are
+immediately assigned to replace the staff with health problems, services and operations continue
+383
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+without interruption. Since customs areas are open and wide areas, they can be exposed to floods.
+We have experienced floods and flooding in recent years, but since critical systems such as electricity
+and digital infrastructure were not damaged, there was no disruption in customs procedures. Of
+course, in the event of a flood that damages these systems, business processes will be interrupted.
+Excessive snowfall at border gates and customs areas in high-altitude geographical regions causes
+difficulties for employee in reaching their workplaces.’’
+P8: (Assistant Professor in Occupational health and safety (OHS))
+A: ‘‘Optimum temperature, humidity and wind conditions, which we call thermal comfort in indoor
+environments, indicate the suitability of the workplace. For light work, the room temperature should
+be 22-24C°. During heavy work, body temperature increases due to muscle movements producing
+energy, so the room temperature should be low. Those who work in open areas may be exposed to
+sunlight and skin disorders may occur in these people. To prevent this, it is necessary to have full
+personal protective equipment such as mask, glasses and cream. Since the musculoskeletal system
+will be more sensitive in extremely windy weather, employees working in these conditions are more
+likely to experience health problems. Monitoring the health of employees by performing periodic
+health checks in rainy weather and other adverse weather conditions is important for work
+efficiency.’’
+P9: (Staffer in delivery operation)
+A: ‘‘Since we go to delivery with open vehicles, which we call motorcycles, extreme temperatures
+affect us a lot. Likewise, in extremely windy and snowy weather, there are risks of both traffic
+accidents and diseases. On days when delivery cannot be made, work piles up and drags it to the next
+days as a workload. Recipient complain about delayed deliveries. During flood events and extremely
+rainy days, urban traffic is heavy, which delays deliveries too, we have to change routes, and the extra
+distance increases the fuel cost. When distribution/delivery businesses serving in industrial zones
+delay deliveries on days when there is a lot of rain or snow, the lack of parts, tools and components
+needed by industrial businesses disrupts production work. Additionally, since industrial zones are
+located outside residential areas in some cities, deliveries are made on a certain day of the week. If
+delivery cannot be made that day, it will be delayed until the next week, resulting in a serious loss of
+time. Since the delivery/distribution sector generally works with insufficient personnel, there is a lot
+of workload due to the lack of personnel with health problems, which causes an increase in the
+workload of other personnel.’’
+P10: (Staffer in packaging and handling operationin warehouse)
+A: ‘‘Extreme weather events affect the personnel working in packaging, handling and other valueadded works and processes in the warehouses (indoor areas). On days when the weather is very hot,
+if the ventilation or cooling systems of the buildings are inadequate, employees get tired more quickly
+and their work performance decreases. If the weather is very cold, employees experience health
+problems more often. Sweating and cold weather during busy working days cause illness. There are
+similar effects for those who work outdoors. However, there are also health problems such as
+sunstroke in outdoors. In regions where the winter season is intense, if warehouses or work sites are
+outside the city, getting to work may be disrupted because snowfall closes the roads.’’
+7. CONCLUSION
+The global pandemic has wreaked unpredictable damage to supply chain networks, but beyond
+shipping delays and parts shortages, climate change presents a longer-term challenge for supply
+chains. Climate change affects a different part of supply chains, as different geographies
+384
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+experience different extreme weather events due to their characteristic climate characteristics.
+The business world is deeply interconnected due to international trade. The effects of climate
+change, which is a systemic problem, will directly or indirectly affect every company. For different
+companies, this will transform to different costs (URL 40).
+This study, which was conducted to investigate the effects of climate change on logistics and
+supply chains, achieved some important results. First of all, the research results show that
+extreme weather events resulting from climate change affect operations, in the context of the
+opinions of participants from different areas of logistics and supply chains. The majority of the
+participants stated that extreme weather events affected their operations or also affected the
+previous or post-stage of their operations (in transportation to the operation area or in the
+transportation of departing vehicles to their next destination). The fact that the majority of
+business processes in transportation operations are carried out in open areas shows that
+infrastructure or facilities and especially employees, are vulnerable to extreme weather events.
+An interruption occurring at one point in the supply chain will affect the entire chain throughout
+the network, causing businesses to change their production and post-production plans, and will
+also have a negative impact in terms of cost and time. Careful monitoring of the working
+conditions of employees in packaging, handling and value-added operations in indoor areas
+against extreme weather events will prevent possible health problems.
+Different hazards arise as a result of climate change, which refers to long-term changes in local,
+regional and global temperatures and weather patterns. The consequences of climate change,
+such as temperature change, water stress, excessive precipitation, wildfire, sea level rise,
+hurricanes, typhoons and cyclones, socio-economic vulnerability, have a variety of potential
+impacts on different businesses in different parts of the world. The decrease in transportation
+costs, the development of technology and the globalized production system have increased the
+connections between producers and consumers all over the world and have made the smooth flow
+of goods in the supply chains. However, since an interruption in one link of the supply chain will
+affect the entire chain, it is important for businesses to be prepared for such interruptions in
+advance. All factors of production are affected by climate change. The forced migration of millions
+of people due to the sudden dangers caused by weather conditions such as floods, storms, forest
+fires, and extreme temperatures and the loss of their lives due to these hazards will cause a loss
+of labor required for production. Physical assets such as buildings that make up production
+facilities and warehouses can be damaged or destroyed by hazards such as excessive
+precipitation, floods and forest fires.
+The transportation sector, which contributes to the welfare of societies and is an important sector
+in the economic development of countries, is perhaps the area where climate change first showed
+its impact. Sudden extreme weather events, floods and landslides disrupt transportation
+infrastructures and cause interruptions in supply chains. Extreme temperatures damage the
+railway lines by disrupting the ground on the highways and by causing the rails to buckle in the
+railways. Similarly, heavy rainfall interrupts both modes of transport. The aviation industry is
+affected by adverse conditions such as changes in storm patterns and sea level rise as a result of
+the changing climate. Extreme weather events can cause disruption or interruption of airport
+operations by damaging power and lighting infrastructure, navigation and communication
+equipment in airport terminals. Ports are highly vulnerable to extreme weather conditions due to
+their nature being built at sea level and serving in open areas. Damage to port infrastructures and
+equipment will cause disruption of operations and halt global trade in ports where 80% of the
+world's goods trade is handled. A model change has become imperative in the planning,
+385
+
+Impacts of Climate Change on Logistics and Supply Chains
+
+investment and operation strategies of ports, which operate at the forefront of climate change, at
+the center of global development, and which are the most important transit route of world trade.
+The destruction caused by severe weather events in recent years has begun to seriously affect the
+insurance industry. Large amounts of compensation payments by insurance companies caused
+reinsurance companies to increase their premiums.
+Whether the world warms more or less, societies will need to change the way they live and work.
+With climate change exacerbating extreme weather events, world societies today have to renew
+their world architecture and infrastructure for unexpected situations. Making buildings, cities,
+supply chains, and even agriculture weatherproof is essential to having a chance to live with
+climate change.
+This study, which investigates the operational effects of climate change on logistics and supply
+chains, is expected to be a stepping stone for further research and to provide a new perspective
+in investigating the economic effects of climate change on logistics and supply chains
+REFERENCES
+Ademmer, M., Jannsen, N., & Mösle, S. (2020). Extreme weather events and economic activity: The case of low
+water levels on the Rhine river. Kiel Working Paper.
+Andreoni, V., Miola, A. (2015). Climate change and supply-chain vulnerability: Methodologies for resilience
+and impacts quantification. International Journal of Emergency Services, 4(1), 6–26.
+https://doi.org/10.1108/IJES-09-2014-0012
+Asariotis, R., Benamara, H. (2012). Maritime transport and the climate change challenge. Routledge.
+Becker, A., Ng, A. K. Y., McEvoy, D., & Mullett, J. (2018). Implications of climate change for shipping: Ports
+and supply chains. Wiley Interdisciplinary Reviews: Climate Change, 9(2), e508.
+Bergmann, A., Stechemesser, K., & Guenther, E. (2016). Natural resource dependence theory: Impacts of
+extreme weather events on organizations. Journal of Business Research, 69(4), 1361–1366
+Bogner, A., Littig, B., & Menz, W. (2009). Introduction: Expert interviews—An introduction to a new
+methodological debate. In Interviewing experts (pp. 1–13). Springer.
+Breidenich, C., Magraw, D., Rowley, A., & Rubin, J. W. (1998). The Kyoto protocol to the United Nations
+framework convention on climate change. American Journal of International Law, 92(2), 315–331.
+Burbidge, R. (2018). Adapting aviation to a changing climate: Key priorities for action. Journal of Air
+Transport Management, 71, 167–174. https://doi.org/10.1016/j.jairtraman.2018.04.004
+Carleton, T. A., & Hsiang, S. M. (2016). Social and economic impacts of climate. In Science (Vol. 353, Issue
+6304). American Association for the Advancement of Science. https://doi.org/10.1126/science.aad9837
+Chinowsky, P., Schweikert, A., Strzepek, N., Manahan, K., & Strzepek, K. (2011). Adaptation advantage to
+climate change impacts on road infrastructure in Africa through 2100 (Issue 2011/25). WIDER Working
+Paper.
+Cœuré, B. (2018). Monetary policy and climate change. Speech at a Conference on" Scaling up Green Finance:
+The Role of Central Banks", Organised by the Network for Greening the Financial System, the Deutsche
+Bundesbank and the Council on Economic Policies, Berlin, 8.
+
+386
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+Cui, Q., Xie, W., & Liu, Y. (2018). Effects of sea level rise on economic development and regional disparity in
+China. Journal of Cleaner Production, 176, 1245–1253.
+Çevik, V. A., & Durukan, T. (2020). Çin’in Kuzey Kutbu’na Olan İlgisi: Kutup İpek Yolu. Akdeniz İİBF Dergisi,
+20(2), 254–262. https://doi.org/10.25294/auiibfd.827510
+Çevik, V. A., & Durukan, T. (2021). Covid-19 Pandemisinin Küresel Ticarete İlk Etkileri. Kafkas Üniversitesi
+İktisadi
+ve
+İdari
+Bilimler
+Fakültesi
+Dergisi,
+12(24),
+1027–1055.
+https://doi.org/10.36543/kauiibfd.2021.042
+Dasaklis, T. K., & Pappis, C. P. (2013). Supply chain management in view of climate change: an overview of
+possible impacts and the road ahead. Journal of Industrial Engineering and Management (JIEM), 6(4), 1139–
+1161. http://dx.doi.org/10.3926/jiem.883
+Döringer, S. (2021). ‘The problem-centred expert interview’. Combining qualitative interviewing
+approaches for investigating implicit expert knowledge. International Journal of Social Research
+Methodology, 24(3), 265–278.
+Er Kara, M., Ghadge, A., & Bititci, U. S. (2021). Modelling the impact of climate change risk on supply chain
+performance. International Journal of Production Research, 59(24), 7317–7335.
+Eurocontrol. (2013). Challenges of growth 2013. Eurocontrol Brussels.
+Eurocontrol. (2018). European Aviation in 2040—Challenges of Growth. Eurocontrol Brussels, Belgium.
+Forzieri, G., Bianchi, A., e Silva, F. B., Herrera, M. A. M., Leblois, A., Lavalle, C., Aerts, J. C. J. H., & Feyen, L.
+(2018). Escalating impacts of climate extremes on critical infrastructures in Europe. Global Environmental
+Change, 48, 97–107. https://doi.org/10.1016/j.gloenvcha.2017.11.007
+Gabela, J. G. F., & Sarmiento, L. (2020). The effects of the 2013 floods on Germany’s freight traffic.
+Transportation
+Research
+Part
+D:
+Transport
+and
+Environment,
+82,
+102274.
+https://doi.org/10.1016/j.trd.2020.102274
+Garmabaki, A. H. S., Thaduri, A., Famurewa, S., & Kumar, U. (2021). Adapting railway maintenance to climate
+change. Sustainability, 13(24), 13856.
+Ghadge, A., Wurtmann, H., & Seuring, S. (2020). Managing climate change risks in global supply chains: a
+review and research agenda. International Journal of Production Research, 58(1), 44–64.
+https://doi.org/10.1080/00207543.2019.1629670
+Godde, C. M., Mason-D’Croz, D., Mayberry, D. E., Thornton, P. K., & Herrero, M. (2021). Impacts of climate
+change on the livestock food supply chain; a review of the evidence. Global Food Security, 28, 100488.
+https://doi.org/10.1016/j.gfs.2020.100488
+Gopinath, G. (2020). The great lockdown: Worst economic downturn since the great depression. IMF Blog,
+14, 2020.
+Greenhoot, A. F., & Dowsett, C. J. (2012). Secondary data analysis: An important tool for addressing
+developmental questions. Journal of Cognition and Development, 13(1), 2–18.
+He, X., Xu, X., & Shen, Y. (2023). How climate change affects enterprise inventory management-From the
+perspective of regional traffic. Journal of Business Research, 162, 113864.
+Hill, C. E., Thompson, B. J., & Williams, E. N. (1997). A guide to conducting consensual qualitative research.
+The Counseling Psychologist, 25(4), 517–572.
+
+387
+
+Impacts of Climate Change on Logistics and Supply Chains
+Izaguirre, C., Losada, I. J., Camus, P., Vigh, J. L., & Stenek, V. (2021). Climate change risk to global port
+operations. Nature Climate Change, 11(1), 14–20.
+Kallio, H., Pietilä, A., Johnson, M., & Kangasniemi, M. (2016). Systematic methodological review: developing
+a framework for a qualitative semi‐structured interview guide. Journal of Advanced Nursing, 72(12), 2954–
+2965.
+Karagül, M. (2014). Kalkınma sürecinde üretim faktörlerinin yeniden tanımlanması. Leges Ekonomik ve
+Hukuk Araştırmaları Dergisi, 1(1), 1–11.
+Khan, F., & Siddiqui, D. A. (2019). Impact of Inventory Management on firm’s efficiency–a quantitative
+research study on departmental stores operating in Karachi. Social Science and Humanities Journal, 3(4),
+964–980.
+Koks, E., Pant, R., Thacker, S., & Hall, J. W. (2019). Understanding business disruption and economic losses
+due to electricity failures and flooding. International Journal of Disaster Risk Science, 10(4), 421–438.
+Lambert, D., Stock, J. R., & Ellram, L. M. (1998). Fundamentals of logistics management. McGraw-Hill/Irwin.
+Larson, P. D., & Rogers, D. S. (1998). Supply chain management: definition, growth and approaches. Journal
+of Marketing Theory and Practice, 6(4), 1–5. https://doi.org/10.1080/10696679.1998.11501805
+Leitold, R., Garschagen, M., Tran, V., & Diez, J. R. (2021). Flood risk reduction and climate change adaptation
+of manufacturing firms: Global knowledge gaps and lessons from Ho Chi Minh City. International Journal of
+Disaster Risk Reduction, 61, 102351. https://doi.org/10.1016/j.ijdrr.2021.102351
+Markolf, S. A., Hoehne, C., Fraser, A., Chester, M. V, & Underwood, B. S. (2019). Transportation resilience to
+climate change and extreme weather events–Beyond risk and robustness. Transport Policy, 74, 174–186.
+https://doi.org/10.1016/j.tranpol.2018.11.003
+Martin Associates. (2022). Martin Associates Research: The Economic Impacts of West Coast Ports.
+Mazzacurati, E., Vargas Mallard, D., Turner, J., Steinberg, N., & Shaw, C. (2017). Measuring Physical Climate
+Risk in Equity Portfolios. Deutsche Asset Management Global Research Group: Frankfurt, Germany.
+Mergel, I., Edelmann, N., & Haug, N. (2019). Defining digital transformation: Results from expert interviews.
+Government Information Quarterly, 36(4), 101385.
+Mimura, N. (2013). Sea-level rise caused by climate change and its implications for society. Proceedings of
+the Japan Academy, Series B, 89(7), 281–301. https://doi.org/10.2183/pjab.89.281
+Nalçakan, M., & Er, F. (2012). Lojistik İlkeleri. Eskişehir: TC Anadolu Üniversitesi Yayını, 2517.
+Nemry, F., & Demirel, H. (2012). Impacts of Climate Change on Transport: A focus on road and rail transport
+infrastructures. European Commission, Joint Research Centre (JRC), Institute for Prospective Technological
+Studies (IPTS).
+Pankratz, N., & Schiller, C. (2021). Climate change and adaptation in global supply-chain networks.
+Proceedings of Paris December 2019 Finance Meeting EUROFIDAI-ESSEC, European Corporate Governance
+Institute–Finance Working Paper, 775.
+Parajuli, R., Thoma, G., & Matlock, M. D. (2019). Environmental sustainability of fruit and vegetable
+production supply chains in the face of climate change: A review. Science of the Total Environment, 650,
+2863–2879.
+
+388
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+Rail Safety and Standards Board. (2003). Railway Safety Implications of Weather, Climate and Climate
+Change.
+Ryley, T., Baumeister, S., & Coulter, L. (2020). Climate change influences on aviation: A literature review.
+Transport Policy, 92, 55–64.
+Smythe, T. C. (2013). Assessing the impacts of Hurricane Sandy on the Port of New York and New Jersey’s
+Maritime responders and response infrastructure. Natural Hazards Center.
+Sandelowski, M. (1995). Sample size in qualitative research. Research in Nursing & Health, 18(2), 179–183.
+Solaymani, S. (2019). CO2 emissions patterns in 7 top carbon emitter economies: the case of transport
+sector. Energy, 168, 989–1001. https://doi.org/10.1016/j.energy.2018.11.145
+Soro, S. J. (2023). The Impact of Climate Change on Customs Revenues in The Waemu Zone. Jurnal BPPK:
+Badan Pendidikan Dan Pelatihan Keuangan, 16(2), 113–120.
+Stern, N. (2015). Why are we waiting?: The logic, urgency, and promise of tackling climate change. Mit Press.
+Stern, V., Peters, S., & Bakhshi, V. (2010). The stern review. Government Equalities Office, Home Office.
+Swiss Re. (2020). Natural catastrophes in 2020: Secondary perils in the spotlight, but don’t forget primaryperil risks. Sigma, 1, 2021.
+Tanglis, M., & Devine, S. (2018). Extreme heat and unprotected workers: Public Citizen petitions OSHA to
+protect the millions of workers who labor in dangerous temperatures. Washington, DC: Public Citizen.
+Tol, R. S. J. (2009). The economic effects of climate change. Journal of Economic Perspectives, 23(2), 29–51.
+DOI: 10.1257/jep.23.2.29
+Trzesniewski, K. H., Donnellan, M. B., & Lucas, R. E. (2011). Secondary data analysis: An introduction for
+psychologists. JSTOR.
+Yavuz, Ş., Gür, B., & Yavuz, A. (2020). İmalat işlerinde çalışanlarda iş sağlığı ve güvenliği algı düzeyinin
+incelenmesi. Journal of Social and Humanities Sciences Research, 7(59), 2618–2627.
+URL 1, https://covid19.who.int/ Accessed June 25, 2022,
+URL 2, https://www.economist.com/graphic-detail/2021/09/24/the-climate-has-overtaken-covid-19-asgerman-voters-top-concern Accessed June 25, 2022
+URL 3, https://www.nasa.gov/press-release/2021-tied-for-6th-warmest-year-in-continued-trend-nasaanalysis-shows Accessed June 25, 2022
+URL 4, https://www.ft.com/content/b08807de-cae0-11e8-9fe5-24ad351828ab Accessed June 25, 2022
+URL 5, https://climate.nasa.gov/resources/global-warming-vs-climate-change/ Accessed . June 26, 2022
+URL 6, https://www.un.org/en/climatechange/what-is-climate-change Accessed June 26, 2022
+URL 7, https://unctad.org/system/files/official-document/tdstat45_en.pdf Accessed February 12,
+2021
+URL 8, https://www.economist.com/special-report/2020/09/17/the-great-disrupter Accessed February
+12, 2021
+
+389
+
+Impacts of Climate Change on Logistics and Supply Chains
+URL 9, https://www.ipcc.ch/report/sixth-assessment-report-working-group-3/ Accessed July 3, 2022
+URL 10, https://cscmp.org/CSCMP/Educate/SCM_Definitions_and_Glossary_of_Terms.aspx Accessed June
+26, 2022
+URL 11, https://www.economist.com/leaders/2019/02/21/climate-change-and-the-threat-to-companies
+Accessed August 22, 2022
+URL 12, https://www.mckinsey.com.br/business-functions/sustainability/our-insights/confrontingclimate-risk Accessed August 22, 2022
+URL 13, https://www.ft.com/content/bef4699a-1ce7-47e8-b696-40bdc1eb1449 Accessed June 28, 2022
+URL 14, https://www.ft.com/content/8b118e44-a256-4aae-aaa0-464009276e56 Accessed June 28, 2022
+URL
+15,
+https://www.ipsos.com/sites/default/files/ct/news/documents/2020-01/global-advisorclimate-change-consumer-behavior.pdf Accessed June 28, 2022
+URL 16, https://www.worldbank.org/en/news/opinion/2016/01/13/climate-change-is-a-threat---andan-opportunity---for-the-private-sector Accessed June 27, 2022
+URL 17, https://www.unhcr.org/news/latest/2016/11/581f52dc4/frequently-asked-questions-climatechange-disaster-displacement.html Accessed June 28, 2022
+URL 18, https://www.mckinsey.com/business-functions/sustainability/our-insights/climate-risk-andresponse-physical-hazards-and-socioeconomic-impacts Accessed June 28, 2022
+URL
+19,
+https://www.reuters.com/article/thailand-floods-supplychain-idUSL3E7LH0GK20111017
+Accessed June 28, 2022
+URL 20, https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/ Accessed June 28, 2022
+URL
+21,
+https://globalcanopy.org/wp-content/uploads/2022/06/Why-net-zero-needs-zerodeforestation-now-June-2022.pdf Accessed July 3, 2022
+URL 22, https://www.ft.com/content/d0224863-6071-436d-a628-d7f3a71cb36f Accessed August 24,
+2022
+URL 23, https://www.economist.com/special-report/2020/09/17/a-grim-outlook Accessed June 28,
+2022,
+URL 24, https://www.ft.com/content/ec2f93ad-d23c-4ff4-867a-59385d1cc8a6 Accessed August 20, 2022
+URL 25, https://www.un.org/sustainabledevelopment/wp-content/uploads/2017/05/Ocean-fact-sheetpackage.pdf Accessed July 1, 2022
+URL 26, http://www.stats.gov.cn/tjsj/ndsj/2020/indexeh.htm Accessed July 1, 2022
+URL
+27,
+https://edo.jrc.ec.europa.eu/documents/news/GDO-EDODroughtNews202208_Europe.pdf
+Accessed August 24, 2022
+URL 28, https://readyforclimate.org/reports/water-crisis-in-china/ Accessed August 24, 2022
+URL 29, https://www.ft.com/content/7c2052b9-eaac-4f3e-9386-dfa3ae100206 Accessed August 21, 2022
+
+390
+
+Afet ve Risk Dergisi Cilt: 7 Sayı: 2, 2024 (368-391)
+
+Veli Ahmet Çevik
+
+URL 30, https://www.foreignaffairs.com/china/chinas-growing-water-crisis Accessed August 24, 2022
+URL 31, https://www.ft.com/content/8f5c8360-19eb-437a-b55c-4c393ffa0ba5 Accessed July 4, 2022
+URL 32, https://unctad.org/system/files/official-document/cimem7d23_en.pdf; Accessed July 6, 2022
+URL 33, https://www.bloomberg.com/opinion/articles/2022-03-29/add-german-rain-and-rhine-waterlevels-to-investors-checklist-of-worries Accessed August 20, 2022,
+URL 34, https://www.ft.com/content/d6317b92-9c13-4f80-b5c8-de966adb6fcf Accessed August 20, 2022
+URL
+35,
+https://www.wsj.com/articles/a-warming-arctic-emerges-as-a-route-for-subsea-cables11655323903 Accessed July 7, 2022
+URL 36, https://www.eea.europa.eu/ims/economic-losses-from-climate-related Accessed August 21,
+2022,
+URL 37, https://www.swissre.com/press-release/Floods-and-storms-drive-global-insured-catastrophelosses-of-USD-38-billion-in-first-half-of-2022-Swiss-Re-Institute-estimates/4d31d695-e49f-4168-85bc2a5944313b05 Accessed August 21, 2022
+URL 38, https://www.ft.com/content/cac643b3-dd22-4e85-befb-e1b8b153445b Accessed August 21,
+2022
+URL
+39,
+https://www.toptier.com/en-us/blog-events/blog/how-temperature-changes-can-affectpackaging Accessed February 27, 2024
+URL 40, https://www.economist.com/special-report/2020/09/17/directing-the-disruption Accessed June
+28, 2022
+Vajjarapu, H., Verma, A., & Gulzar, S. (2019). Adaptation policy framework for climate change impacts on
+transportation sector in developing countries. Transportation in Developing Economies, 5(1), 1–16.
+https://doi.org/10.1007/s40890-019-0071-y
+Wan, Z., El Makhloufi, A., Chen, Y., & Tang, J. (2018). Decarbonizing the international shipping industry:
+Solutions
+and
+policy
+recommendations.
+Marine
+Pollution
+Bulletin,
+126,
+428–435.
+https://doi.org/10.1016/j.marpolbul.2017.11.064
+Williams, P. D. (2016). Transatlantic flight times and climate change. Environmental Research Letters, 11(2),
+24008. DOI 10.1088/1748-9326/11/2/024008
+Yesudian, A. N., & Dawson, R. J. (2021). Global analysis of sea level rise risk to airports. Climate Risk
+Management, 31, 100266. https://doi.org/10.1016/j.crm.2020.100266
+Zhang, L., Long, R., Chen, H., & Yang, T. (2018). Analysis of an optimal public transport structure under a
+carbon emission constraint: a case study in Shanghai, China. Environmental Science and Pollution Research,
+25(4), 3348–3359. https://doi.org/10.1007/s11356-017-0660-4
+Zhou, Q., Hanasaki, N., & Fujimori, S. (2018). Economic consequences of cooling water insufficiency in the
+thermal
+power
+sector
+under
+climate
+change
+scenarios.
+Energies,
+11(10),
+2686.
+https://doi.org/10.3390/en11102686
+
+391
+
+View publication stats
+
+
