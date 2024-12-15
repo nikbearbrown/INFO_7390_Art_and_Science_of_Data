@@ -1,3 +1,4 @@
 youtbue link - https://www.youtube.com/watch?v=f1JwwappPzE
-Bot Link - Local URL: http://localhost:8501
-           Network URL: http://10.0.0.59:8501
+Bot Link - https://prajnabot.streamlit.app/ 
+Local URL: http://localhost:8501
+
