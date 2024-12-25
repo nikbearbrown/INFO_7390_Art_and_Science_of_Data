@@ -8,17 +8,15 @@ import openai
 from pinecone import Pinecone
 
 from dotenv import load_dotenv
-# Load environment variables
 load_dotenv()
 
-# Initialize APIs
+
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 api_key = st.secrets["PINECONE_API_KEY"]
 host = st.secrets["PINECONE_HOST"]
 pc = Pinecone(api_key=api_key)
-index_name = "career-guidance"
 
-# Check if index exists and create it if necessary
+index_name = "career-guidance"
 if index_name not in pc.list_indexes().names():
     pc.create_index(
         name=index_name,
@@ -26,10 +24,8 @@ if index_name not in pc.list_indexes().names():
         metric="cosine"
     )
 
-# Connect to the index
 index = pc.Index(name=index_name, host=host)
 
-# Streamlit App
 st.title("PRAJNA- The Career Guidance Bot")
 st.markdown(
     """
@@ -39,40 +35,34 @@ st.markdown(
     """
 )
 
-# Initialize session state to maintain chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Function to retain only the last 3 chat pairs
 def trim_chat_history():
     if len(st.session_state.messages) > 6:  # Keep only 3 user-bot pairs (6 messages)
         st.session_state.messages = st.session_state.messages[-6:]
 
-# Function to handle query submission
+
 def handle_query():
-    query = st.session_state.query  # Access the query from session state
+    query = st.session_state.query
     if query:
-        # Add user query to chat history
         st.session_state.messages.append({"role": "user", "content": query})
 
-        # Generate embedding for the query
         response = openai.Embedding.create(
             model="text-embedding-ada-002",
             input=query
         )
         query_embedding = response['data'][0]['embedding']
 
-        # Query Pinecone for relevant context
         query_result = index.query(
             vector=query_embedding,
             top_k=5,
             include_metadata=True
         )
 
-        # Combine contexts
         context = "\n\n".join([match['metadata']['text'] for match in query_result['matches']])
 
-        # Generate GPT-4 response
+
         gpt_response = openai.ChatCompletion.create(
             model="gpt-4",
             messages=st.session_state.messages + [
@@ -83,21 +73,16 @@ def handle_query():
             temperature=0.5
         )
 
-        # Extract the response message
         bot_response = gpt_response['choices'][0]['message']['content'].strip()
 
-        # Add bot response to chat history
         st.session_state.messages.append({"role": "assistant", "content": bot_response})
 
-        # Retain only the last 3 user-bot chat pairs
         trim_chat_history()
 
-        # Clear the query input field
         st.session_state.query = ""  # Reset the input field
     else:
         st.warning("Please enter a query!")
 
-# Display chat history
 st.write("### Chat History")
 for message in st.session_state.messages:
     if message["role"] == "user":
@@ -105,7 +90,6 @@ for message in st.session_state.messages:
     elif message["role"] == "assistant":
         st.write(f"**Prajna:** {message['content']}")
 
-# Input for user query with "Enter" key support
 st.text_input(
     "Enter your query:",
     key="query",  # Store the input in session_state
