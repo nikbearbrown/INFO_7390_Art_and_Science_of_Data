@@ -1,171 +1,272 @@
-# Game Development Cheat Sheet
+## Model Evaluation and Selection
 
-## Game Physics
+### Classification Metrics
+- **Confusion Matrix**: Shows true positives, false positives, true negatives, false negatives
+  - Cannot capture probabilistic predictions (only hard classifications)
+  - Does not reflect model calibration
+  - Can be used for multi-class classification
+  - Provides insights for imbalanced datasets
 
-### Physics Bodies
-- **Rigidbody**: Responds to physics forces (gravity, collisions, etc.)
-- **Kinematic Body**: Ignores external forces; must be moved manually
-- **Static Body**: Cannot move; used for immovable scenery
+### Bias-Variance Tradeoff
+- **Bias**: Simplifying assumptions made by model
+  - High bias leads to underfitting
+  - Model performs poorly on training data
+- **Variance**: Model's sensitivity to fluctuations in training data
+  - High variance leads to overfitting 
+  - Model performs well on training data but poorly on test data
+- Goal is to find optimal balance between bias and variance
 
-### Collision Detection
-- **Unity Requirements for OnCollisionEnter**:
-  - At least one object must have a Rigidbody
-  - Both objects must have a Collider component
-  - Neither can have isTrigger enabled
-- **Unity Requirements for OnTriggerEnter**:
-  - At least one object must have a Rigidbody
-  - Both must have Colliders
-  - At least one must have isTrigger enabled
-- **CompareTag()**: More efficient than direct string comparison (tag == "PickUp")
+## Machine Learning Models
 
-## Unity Basics
+### Decision Trees
+- Split nodes based on maximum information gain or minimum Gini impurity
+- **Pruning**: Removing nodes with little predictive value
+  - Pre-pruning: Stops tree growth early based on criteria
+  - Post-pruning: Removes branches after tree is fully grown
+  - Improves generalization to unseen data
+  - Not based solely on reducing depth
+- Used for both classification and regression
+- Capture non-linear relationships
 
-### MonoBehaviour Events
-- **Start()**: Called once when the script is enabled, before any Update
-- **Update()**: Called every frame
-- **FixedUpdate()**: Called at a fixed time interval; use for physics calculations
-- **LateUpdate()**: Called after all Updates; use for camera follow
-- **Awake()**: Called when the script instance is being loaded
-- **OnEnable()**: Called when the object becomes enabled and active
-- **OnDisable()**: Called when the object becomes disabled or inactive
+### Supervised Learning
+- **Logistic Regression**: Useful for binary classification
+- **Decision Trees**: Split data using entropy or Gini impurity
+- **Neural Networks**: Can be used for both regression and classification
+- **Linear Regression**: For continuous numerical values (not discrete data)
 
-### Important Components
-- **Transform**: Position, rotation, scale of GameObjects
-- **Rigidbody**: Makes objects respond to the physics system
-- **Collider**: Defines the shape for collision detection
-- **Camera**: Renders the scene from its perspective
-- **Renderer**: Makes objects visible (MeshRenderer, SpriteRenderer)
-- **Animator**: Controls animations using animation controllers
+### Unsupervised Learning
+- **K-Means Clustering**:
+  - Minimizes within-cluster sum of squared distances
+  - Assumes spherical, equally sized clusters
+  - Choice of initial centroids impacts results
+  - Sensitive to outliers
+  - Doesn't inherently handle missing values
+# Data Science and AI Comprehensive Cheat Sheet
 
-## Unreal Engine Basics
+## Causal Inference Fundamentals
 
-### Blueprint Types
-- **Level Blueprint**: Specific to one level; manages level-wide events
-- **Class Blueprint**: Reusable objects that can be placed in multiple levels
-- **Animation Blueprint**: Controls character animations
+### Core Concepts
+- **Association vs. Causation**: 
+  - Association: Pr[Y=1|A=1] ≠ Pr[Y=1|A=0]
+  - Causation: Pr[Y^(a=1)=1] ≠ Pr[Y^(a=0)=1]
+  - Y^(a) represents counterfactual outcome under treatment a
 
-### Key Events
-- **BeginPlay**: Runs once when the game starts or when the actor is spawned
-- **Tick**: Runs every frame (like Update in Unity)
-- **OnComponentBeginOverlap**: Called when this component begins overlapping another
-- **OnComponentEndOverlap**: Called when this component stops overlapping another
+- **Counterfactuals**:
+  - Individual causal effects: Y^(a=1) - Y^(a=0)
+  - Population average causal effects: E[Y^(a=1)] - E[Y^(a=0)]
+  - Joint counterfactual: Y^(a,e) - outcome if treatment components A=a and E=e
 
-### Casting
-- Used to access specific properties and functions of a particular class
-- Allows animation blueprints to interact with character-specific variables
+- **Causal Null Hypotheses**:
+  - Sharp causal null: Y^(a=1) = Y^(a=0) for all individuals
+  - Null of no average effect: E[Y^(a=1)] = E[Y^(a=0)]
 
-## Shaders & Materials
+### Identifiability Conditions
+- **Consistency**: If A = a, then Y^a = Y (observed outcome equals counterfactual)
+- **Exchangeability**: Y^a ⫫ A for all a (no unmeasured confounding)
+- **Conditional Exchangeability**: Y^a ⫫ A | L for all a (no unmeasured confounding given L)
+- **Positivity**: Pr[A=a | L=l] > 0 for all values l (all strata have chance of receiving treatment)
 
-### Key Material Properties
-- **Albedo/Base Color**: The base color of the material without lighting
-- **Metallic**: How metallic a surface is (reflective, conducts light)
-- **Roughness**: How smooth or rough a surface is (affects reflection sharpness)
-- **Normal**: Affects how light bounces off surfaces
-- **Specular**: Controls direct reflection of light sources
-- **Emission**: Makes materials appear to emit light
+### Experimental Designs
+- **Marginally Randomized Experiment**: Single randomization probability for all subjects
+- **Conditionally Randomized Experiment**: Different randomization probabilities across strata
 
-### Normals in 3D Rendering
-- Vectors that define the direction a surface is facing
-- Determine how light interacts with surfaces
-- Critical for proper shading and lighting calculations
+### Confounding
+- **Backdoor Path**: Noncausal path between treatment and outcome with arrow pointing into treatment
+- **Backdoor Criterion**: Identifiability exists if all backdoor paths can be blocked by conditioning on variables not affected by treatment
+- **Confounding by Indication**: Treatment more likely prescribed to individuals at higher risk of outcome
+- **Frontdoor Criterion**: Method to estimate causal effect when treatment-outcome relationship is confounded but mediated by unconfounded variable
 
-### UV Mapping
-- Defines how 2D textures wrap around 3D models
-- U and V coordinates correspond to X and Y in 2D texture space
+### Causal Diagrams (DAGs)
+- **Path**: Sequence of edges connecting two variables 
+- **Collider**: Variable where two arrowheads on a path collide (A→Y←L)
+- **Blocked Path**: Path containing conditioned noncollider or unconditioned collider
+- **d-separation**: All paths between two variables are blocked
+- **d-connectedness**: Variables are not d-separated
 
-## Particle Effects
+### Methods for Confounding Adjustment
+- **G-Methods**:
+  - G-formula, IP weighting, G-estimation
+  - Estimate causal effects in entire population
+- **Stratification-based Methods**:
+  - Stratification, restriction, matching
+  - Estimate associations in subsets defined by L
 
-### Particle System Components
-- **Emitter**: Controls where and how particles are spawned
-- **Lifetime**: How long particles exist
-- **Size/Scale**: Controls particle dimensions
-- **Color**: Can change over particle lifetime
-- **Velocity/Direction**: Controls how particles move
-- **Collision**: How particles interact with the environment
+### Selection and Measurement Bias
+- **Selection Bias**: Conditioning on common effects
+- **Measurement/Information Bias**: Systematic differences due to measurement error
+- **Healthy Worker Bias**: Including only subjects healthy enough to participate
 
-### Optimization Techniques
-- **Particle Pooling**: Reuse particle instances instead of creating/destroying
-- **LOD System**: Reduce detail for distant effects
-- **Limit Overdraw**: Avoid having many transparent particles overlap
-- **Use Flipbooks**: Animate textures rather than using many particles
+### Effect Modification and Interaction
+- **Effect Modification**: Treatment effect varies across levels of another variable M
+  - Additive effect modification: E[Y^(a=1)-Y^(a=0) | M=1] ≠ E[Y^(a=1)-Y^(a=0) | M=0]
+  - Multiplicative effect modification: Ratio of effects differs across strata of M
+- **Interaction**: Effect of one treatment component depends on level of another component
+  - Sufficient cause interaction: Components appear together in a sufficient cause
 
-## Animation
+### Analysis Methods
+- **Standardization**: Calculate marginal effects by weighted average over stratum-specific risks
+- **Inverse Probability Weighting**: Weight individuals by inverse probability of treatment received
+- **Difference-in-Differences**: Technique to account for unmeasured confounders under specific conditions
+- **Intention-to-Treat vs. Per-Protocol Analysis**: 
+  - ITT: Effect of treatment assignment regardless of adherence
+  - Per-Protocol: Effect if all followed assigned treatment
 
-### Animation Types
-- **Keyframe Animation**: Manually created poses at specific frames
-- **Skeletal Animation**: Uses a hierarchical bone structure to control a mesh
-- **Physics-Based Animation**: Simulates real-world physics for movement
-- **Procedural Animation**: Generated through code rather than pre-created
+## Transformer Architecture in Generative AI
+- **Attention Mechanism**: Enables models to focus on relevant input tokens
+- **Positional Encodings**: Incorporate sequence order information into transformers
+- **Self-Attention**: Eliminates need for recurrent layers by allowing parallel processing
+- **Multi-Head Attention**: Allows model to focus on different aspects of input simultaneously
+- **Encoder-Decoder Architecture**: Used primarily in sequence-to-sequence tasks
 
-### Animation Blending
-- **Blend Trees**: Smoothly transition between animations based on parameters
-- **Animation Layers**: Combine animations (e.g., upper body aiming while legs walking)
-- **Additive Animations**: Add motion on top of base animations
+## Large Language Models (LLMs)
+- **Training Method**: Pre-trained on massive datasets, then fine-tuned for specific tasks
+- **Learning Capabilities**: Can perform zero-shot, few-shot, and fine-tuned learning
+- **Response Generation**: Generate contextually relevant responses based on pre-trained knowledge
+- **Limitations**:
+  - Prone to generating hallucinated or incorrect information
+  - Training requires significant computational and energy resources
+  - Struggle with long-term coherence in multi-turn conversations
+  - Inherit biases from training datasets
 
-### Animation Retargeting
-- Allows animations created for one skeleton to be applied to different characters
-- Preserves the essence of the animation while adjusting for differences in skeleton structure
+## Retrieval-Augmented Generation (RAG)
+- **Core Function**: Combines generative models with retrieval systems to improve factual accuracy
+- **Components**: 
+  - Retriever: Fetches relevant documents based on a query
+  - Generator: Uses retrieved information plus model knowledge to generate responses
+- **Benefits**: Allows integration of domain-specific external knowledge bases
 
-## Audio
+## GenAI Project Lifecycle
+- Includes a dedicated phase for augmenting models and building LLM-powered applications
+- This phase focuses on enhancing model capabilities and leveraging them in applications
 
-### Audio Components
-- **Audio Source**: Emits sound from a location
-- **Audio Listener**: Receives sounds (typically attached to the player camera)
-- **Audio Mixer**: Organizes and adjusts audio channels and effects
-- **Audio Effects**: Modify sounds (reverb, echo, distortion, etc.)
+## Data Visualization
+### Channels in Visualization
+- **Definition**: Control how marks are perceived by mapping data variables to visual properties
+- **Examples**: Size, color, position, saturation/opacity, area
+- **Application**: Used for encoding both categorical and quantitative variables
 
-### Procedural Audio
-- Dynamically generated sound based on in-game parameters
-- Examples: Footsteps changing based on surface, adaptive music systems
+### Visualization Analysis
+- **Scatterplots**: Useful for showing relationships between variables
+  - Positive slopes indicate positive correlations
+  - Regression lines show trends but correlation ≠ causation
+  - Outliers can be identified visually
+- **Histograms**: 
+  - Can use stacked bar format to represent multiple variables
+  - Bar height represents sum of counts for each category
+- **Boxplots**:
+  - Shows distribution through quartiles (Q1, median, Q3)
+  - Whiskers typically extend to 1.5 × IQR
+  - Points beyond whiskers represent outliers
+  - IQR (Interquartile Range) = Q3 - Q1
+- **Density Plots**:
+  - Show distribution of continuous variables
+  - Overlapping areas represent similar distributions
+  - Narrower curves indicate smaller variance
+  - Peak density shows most common values
+- **Hans Rosling Plots**:
+  - Use bubbles to represent population size
+  - Show data for multiple countries over time
+  - Often encode multiple dimensions (not histograms)
 
-## Profiling & Optimization
+### Principles of Effective Visualization
+- **Simplicity**: Minimize chart elements like gridlines and excessive colors
+- **Audience Adaptation**: Tailor visualizations to audience knowledge level
+- **Redundant Encoding**: Use both color and shape for clarity and accessibility
+- **Titles**: Include descriptive titles even when axes are labeled
+- **Avoid 3D Effects**: These distort perception and reduce accuracy
 
-### Common Performance Bottlenecks
-- **Draw Calls**: Too many separate objects being rendered
-- **Polygon Count**: Too many triangles in view
-- **Texture Size**: Overly high-resolution textures
-- **Physics Calculations**: Too many rigidbodies or complex colliders
-- **Script Performance**: Inefficient code execution
+## Statistics and Hypothesis Testing
+### Central Limit Theorem
+- Allows using normal distribution assumptions in hypothesis testing, even with non-normally distributed data
+- Provides basis for confidence intervals and hypothesis testing regardless of population distribution
 
-### Optimization Techniques
-- **LOD (Level of Detail)**: Reduce model complexity at distance
-- **Batching**: Combine draw calls to reduce rendering overhead
-- **Object Pooling**: Reuse objects instead of instantiating/destroying them
-- **Occlusion Culling**: Don't render objects that can't be seen
-- **Texture Atlasing**: Combine multiple textures into one to reduce draw calls
+### t-Distribution
+- Used when sample size is small and population standard deviation is unknown
+- Symmetric and unimodal
+- Has heavier tails than normal distribution (allows for outliers)
+- Resembles normal distribution more closely as sample size increases
 
-## Game AI
+### Probability Distributions
+- **Normal Distribution**: 
+  - Symmetric, bell-shaped curve describing many natural phenomena
+  - Most data clustered around the mean
+- **Binomial Distribution**:
+  - Models number of successes in fixed number of independent trials
+  - Requires constant probability of success
+- **Uniform Distribution**:
+  - Gives equal probability to all outcomes in sample space
+- **Poisson Distribution**:
+  - Models random, independent events in fixed time/space interval
+  - Not for predicting events over long time periods
 
-### AI Architecture Types
-- **Finite State Machines**: Simple states with transitions between them
-- **Behavior Trees**: Hierarchical structure of tasks with priority
-- **Utility AI**: Decision-making based on scoring potential actions
-- **GOAP (Goal-Oriented Action Planning)**: AI that forms plans to achieve goals
+### Bootstrap Methods
+- Involves sampling with replacement from original dataset
+- Can estimate confidence intervals for any statistic
+- Assumes sample is representative of population
+- Doesn't require minimum sample size but larger samples give more reliable results
+- Not guaranteed to produce unbiased estimates
 
-### Common Enemy States
-- **Patrol**: Moving along predetermined paths
-- **Alert**: Aware of potential player presence
-- **Chase**: Actively pursuing the player
-- **Attack**: Engaging the player
-- **Retreat**: Moving away from the player to safety
-- **Searching**: Looking for a player that was previously detected
+### Imbalanced Data
+- Significantly affects the power of hypothesis tests
+- Stratified sampling helps ensure representative samples
 
-## C# Programming
+### Distance Metrics
+- **Euclidean Distance**:
+  - Measures straight-line distance between points in n-dimensional space
+  - Sensitive to data scale
+  - Requires numeric features
+  - Not robust to outliers
+  - Inappropriate for categorical data without transformation
 
-### Memory Management
-- **Stack**: Value types (int, float, bool, struct)
-- **Heap**: Reference types (classes, arrays, strings)
-- **new Operator**: Allocates memory on the heap
-- **Garbage Collection**: Automatically frees memory that's no longer needed
+## Causality and Causal Inference
+### Key Concepts
+- **Counterfactuals**: 
+  - Describe hypothetical scenarios with different decisions/actions
+  - Compare actual outcomes to potential outcomes under different treatments
+  - Provide framework for estimating causal effects when interventions are infeasible
 
-### Static Variables/Methods
-- Belong to the class itself, not any specific instance
-- Shared among all instances of the class
-- Can be accessed without creating an object of the class
-- Use for data that should be consistent across all instances
+- **Confounders**: Variables that influence both treatment and outcome
+- **Backdoor Criterion**: Ensures confounders are correctly adjusted for
 
-### C# Best Practices in Unity
-- Use [SerializeField] for inspector-visible private variables
-- Prefer GetComponent<>() in Start/Awake rather than Update
-- Use object pooling for frequently instantiated/destroyed objects
-- Avoid FindObjectOfType() and GameObject.Find() in performance-critical code
+### Examples of True Causality
+- Drug reducing cholesterol by inhibiting specific enzyme pathways
+- Airbags reducing fatalities in traffic accidents
+- Increased school funding improving student performance through better resources
+
+## Feature Engineering and Model Interpretation
+### Dimensionality Reduction
+- Reduces risk of overfitting
+- Improves computational efficiency
+- Simplifies understanding of model outputs
+
+### Principal Component Analysis (PCA)
+- Reduces dimensionality while preserving important variance
+- Projects data onto orthogonal components
+- Components ordered by amount of variance explained
+- Sensitive to feature scale (requires standardization)
+- Helps visualize high-dimensional data
+- Works with numeric features, not categorical variables
+- Does not guarantee class separability
+
+### Feature Engineering Techniques
+- Creating derived features (e.g., price per square foot)
+- One-hot encoding categorical variables
+- Binning continuous variables into categories
+- Creating interaction terms between features
+- Standardizing features for distance-based algorithms
+- Log transformation to reduce skewness
+- For time series: creating features for transaction frequency, time between events
+- Feature selection still needed even if all features contain information
+
+### Missing Data Handling
+- **K-Nearest Neighbors (KNN) Imputation**: Estimates based on feature similarity
+- **Multiple Imputation by Chained Equations (MICE)**: Creates multiple datasets with different plausible values
+- **Forward Fill**: Common for time series, fills with most recent non-missing value
+- Mean imputation doesn't always improve accuracy
+- Removing missing data isn't always best approach
+
+### Interpretable Models
+- Causal structures enable counterfactual reasoning for "what-if" scenarios
+- Causal knowledge helps models generalize across domains
+- Correlation-based models fail with shifting distributions
+- Causal models help identify confounding variables
