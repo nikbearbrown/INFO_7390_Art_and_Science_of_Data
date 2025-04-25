@@ -30,7 +30,7 @@ Link: https://coverly-job-specific-ai-cover-letter-generator.streamlit.app/
 ## Team Contribution
 
 - **LLM**: LLaMA 3.3 (70B parameter model) via GROQ API - **Apoorv Dhaygude**
-- **Framework**: LangChain for LLM interactions and document processing - **Apoorv Dhaygude**
+- **Framework**: LangChain for LLM interactions - **Apoorv Dhaygude**
 - **Frontend**: Streamlit for the user interface - **Chinmay Deshpande**
 - **Document Processing**:  WebBaseLoader for job description extraction & PyPDFLoader for resume parsing - **Chinmay Deshpande**
 ---
