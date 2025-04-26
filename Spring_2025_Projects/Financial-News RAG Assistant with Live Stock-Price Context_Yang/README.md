@@ -8,7 +8,7 @@ This Jupyter Notebook presents a complete **Retrieval-Augmented Generation (RAG)
 2. **Live Market Data** – Up-to-date closing prices are pulled on-the-fly with `yfinance`, summarising recent trends (e.g., 30-day movement) for any recognised ticker symbol.
 
 A lightweight language model (DistilGPT-2) then fuses both contexts into a concise answer, giving the user an “at a glance” narrative that blends qualitative news sentiment with quantitative price performance.
-## Video Demo: https://ragchatgoodgoodstuff.vercel.app/
+## Website Demo: https://ragchatgoodgoodstuff.vercel.app/
 
 ## Environment Requirements
 
