@@ -2,6 +2,7 @@
 
 #  AI Script & Storyboard Generator
 [![View in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-script-generator.streamlit.app/)
+Access Key here: https://docs.google.com/document/d/1VN2qAjhZt5ky2OOiFrhNsh9QZdLWFRSno9QrtE95vMo/edit?usp=sharing
 
 Generate creative **5-page movie scripts** and **cinematic storyboard illustrations** with **voiceover videos**, powered by **OpenAI GPT-4o** and **DALL·E 3**.
 
