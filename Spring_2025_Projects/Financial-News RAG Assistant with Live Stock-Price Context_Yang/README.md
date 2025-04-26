@@ -9,6 +9,9 @@ This Jupyter Notebook presents a complete **Retrieval-Augmented Generation (RAG)
 
 A lightweight language model (DistilGPT-2) then fuses both contexts into a concise answer, giving the user an “at a glance” narrative that blends qualitative news sentiment with quantitative price performance.
 ## Website Demo: https://ragchatgoodgoodstuff.vercel.app/
+## System Architecture
+
+![Financial-News RAG Architecture](images/Arch.drawio.png)
 
 ## Environment Requirements
 
