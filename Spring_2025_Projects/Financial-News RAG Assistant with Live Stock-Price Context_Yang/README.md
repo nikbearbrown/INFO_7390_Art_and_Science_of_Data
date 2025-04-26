@@ -58,6 +58,16 @@ pip install transformers faiss-cpu pandas numpy tqdm yfinance
 
 *The cleaned CSV file — `cnbc_headlines.csv` — is embedded at runtime; no proprietary data is distributed with the repository.*
 
+## References  
+
+1. *ChatGPT* – conversational assistance and content generation for this notebook.  
+2. *Prompting Guide — “Retrieval‑Augmented Generation”*  
+   <https://www.promptingguide.ai/research/rag>  
+3. *TensorFlow Documentation*  
+   <https://www.tensorflow.org/>
+4. *Dataset*
+   <https://www.kaggle.com/datasets/notlucasp/financial-news-headlines>
+
 
 
 
