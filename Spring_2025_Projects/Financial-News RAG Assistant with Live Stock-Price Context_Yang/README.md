@@ -11,7 +11,7 @@ A lightweight language model (DistilGPT-2) then fuses both contexts into a conci
 ## Website Demo: https://ragchatgoodgoodstuff.vercel.app/
 ## System Architecture
 
-![Financial-News RAG Architecture](images/Arch.drawio.png)
+![Financial-News RAG Architecture](Arch.drawio.png)
 
 ## Environment Requirements
 
