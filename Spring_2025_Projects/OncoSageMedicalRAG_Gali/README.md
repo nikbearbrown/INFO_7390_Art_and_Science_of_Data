@@ -7,6 +7,18 @@ Oncno Sage is a Retrieval-Augmented Generation (RAG) system designed to answer m
 - Offer transparent source attribution and relevance visualizations.  
 - Enable clinicians and researchers to quickly access up-to-date information.  
 
+## Resources
+
+[![Watch Video](https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube)](https://youtu.be/VaA9NGJIRys)  [![Documentation](https://img.shields.io/badge/Documentation-📄-555?logo=read-the-docs)](docs/) [![Application](https://img.shields.io/badge/Application-live-28a745?logo=streamlit&logoColor=white)](http://3.93.76.163:8501/)
+
+---
+
+## Tech Stack
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://python.org) [![Streamlit](https://img.shields.io/badge/Streamlit-FF4C31?logo=streamlit&logoColor=white)](https://streamlit.io) [![LangChain](https://img.shields.io/badge/LangChain-000000?logo=langchain&logoColor=white)](https://github.com/langchain-ai/langchain) [![Pinecone](https://img.shields.io/badge/Pinecone-5B21B6?logo=pinecone&logoColor=white)](https://pinecone.io) [![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)](https://openai.com) [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](https://plotly.com) [![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://docker.com) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FDAE3F?logo=huggingface&logoColor=white)](https://huggingface.co) [![Amazon EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2)
+
+
+
 **Scope & Architecture:**  
 - **Frontend:** Streamlit web UI for interactive querying and visualization.  
 - **Backend:**  
@@ -56,16 +68,6 @@ Oncno Sage employs a modular, cloud-ready architecture to deliver medical questi
 - OpenAI API Key  
 - Pinecone API Key  
 ---
-
-## Resources
-
-[![Watch Video](https://img.shields.io/badge/YouTube-Video-FF0000?logo=youtube)](https://youtu.be/VaA9NGJIRys)  [![Documentation](https://img.shields.io/badge/Documentation-📄-555?logo=read-the-docs)](docs/) [![Application](https://img.shields.io/badge/Application-live-28a745?logo=streamlit&logoColor=white)](http://3.93.76.163:8501/)
-
----
-
-## Tech Stack
-
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://python.org) [![Streamlit](https://img.shields.io/badge/Streamlit-FF4C31?logo=streamlit&logoColor=white)](https://streamlit.io) [![LangChain](https://img.shields.io/badge/LangChain-000000?logo=langchain&logoColor=white)](https://github.com/langchain-ai/langchain) [![Pinecone](https://img.shields.io/badge/Pinecone-5B21B6?logo=pinecone&logoColor=white)](https://pinecone.io) [![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white)](https://openai.com) [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)](https://plotly.com) [![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org) [![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://docker.com) [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FDAE3F?logo=huggingface&logoColor=white)](https://huggingface.co) [![Amazon EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?logo=amazonaws&logoColor=white)](https://aws.amazon.com/ec2)
 
 
 ### Local Setup
