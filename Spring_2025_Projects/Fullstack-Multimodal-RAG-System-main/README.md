@@ -13,7 +13,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com)
 [![Crawl4AI](https://img.shields.io/badge/Crawl4AI-FF4F8B?style=for-the-badge&logo=spider&logoColor=white)](https://github.com/crawl4ai)
-[![PumaPDF4LLM](https://img.shields.io/badge/PumaPDF4LLM-FF7518?style=for-the-badge&logo=adobe&logoColor=white)](https://github.com/pumapdf4llm)
+[![PyMuPDF4LLM](https://img.shields.io/badge/PyMuPDF4LLM-000000?style=for-the-badge&logo=python&logoColor=white)](https://pymupdf.readthedocs.io/en/latest/pymupdf4llm/)
 [![Upstage Document AI](https://img.shields.io/badge/Upstage%20Document%20AI-3355FF?style=for-the-badge&logo=document&logoColor=white)](https://upstage.ai/)
 ![Poetry](https://img.shields.io/badge/Poetry-%233B82F6.svg?style=for-the-badge&logo=poetry&logoColor=0B3D8D)
 [![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)](https://jwt.io/)
