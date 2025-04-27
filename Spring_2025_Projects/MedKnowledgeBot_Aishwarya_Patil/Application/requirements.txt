@@ -1,0 +1,14 @@
+selenium
+wedriver-manager
+pandas
+google-api-python-client
+python-dotenv 
+whisper
+awscli
+boto3
+PyPDF2
+pinecone 
+groq
+openai
+streamlit
+requests
