@@ -1,262 +1,215 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "a254044f-cfec-4f14-9d1f-00f841742772",
-   "metadata": {},
-   "source": [
-    "# LLM Preference Learning and DPO Fine-tuning\n",
-    "\n",
-    "## 🌟 Overview\n",
-    "\n",
-    "This project demonstrates a comprehensive approach to improving Large Language Model (LLM) performance through preference learning and Direct Preference Optimization (DPO). We use two distinct methods to create preference datasets:\n",
-    "\n",
-    "1. **LLM Judge-Based Collection**: Implementing a sophisticated judging system to evaluate response quality\n",
-    "2. **PairRM-Based Collection**: Utilizing the PairRM algorithm to create preference pairs\n",
-    "\n",
-    "The collected preference data is then used to fine-tune Llama-3.2 models using the DPO technique, significantly improving response quality across various metrics.\n",
-    "\n",
-    "## 🚀 Key Features\n",
-    "\n",
-    "- Data generation and preference collection from Lima dataset\n",
-    "- Implementation of an LLM-based judging system\n",
-    "- Application of PairRM for preference pair creation\n",
-    "- DPO fine-tuning of Llama-3.2-1B\n",
-    "- Iterative training approach for model improvement\n",
-    "- Comprehensive evaluation and comparative analysis\n",
-    "- HuggingFace dataset and model integration\n",
-    "\n",
-    "## 📋 Requirements\n",
-    "\n",
-    "- Python 3.8+\n",
-    "- PyTorch 2.0+\n",
-    "- Transformers 4.30+\n",
-    "- PEFT\n",
-    "- Accelerate\n",
-    "- llm-blender\n",
-    "- Datasets\n",
-    "- tqdm\n",
-    "- numpy\n",
-    "- pandas\n",
-    "- matplotlib\n",
-    "\n",
-    "## 🔧 Installation\n",
-    "\n",
-    "```bash\n",
-    "# Clone the repository\n",
-    "git clone https://github.com/your-username/llm-preference-learning.git\n",
-    "cd llm-preference-learning\n",
-    "\n",
-    "# Create and activate a virtual environment (optional but recommended)\n",
-    "\n",
-    "\n",
-    "# Install dependencies\n",
-    "\n",
-    "```\n",
-    "\n",
-    "## 🏗️ Project Structure\n",
-    "\n",
-    "```\n",
-    "llm-preference-learning/\n",
-    "├── data/\n",
-    "│   ├── raw/                  # Original Lima dataset\n",
-    "│   ├── processed/            # Processed instructions and responses\n",
-    "│   ├── judge_dataset/        # LLM judge-based preference pairs\n",
-    "│   └── pairm_dataset/        # PairRM-based preference pairs\n",
-    "├── models/\n",
-    "│   ├── base/                 # Base Llama-3.2 model\n",
-    "│   ├── lora_adapter_judge/   # LoRA adapter for judge-based DPO\n",
-    "│   └── lora_adapter_pair/    # LoRA adapter for PairRM-based DPO\n",
-    "├── notebooks/\n",
-    "│   ├── data_generation.ipynb      # Dataset generation process\n",
-    "│   ├── model_training.ipynb       # DPO training process\n",
-    "│   └── evaluation.ipynb           # Model evaluation\n",
-    "├── src/\n",
-    "│   ├── data/\n",
-    "│   │   ├── __init__.py\n",
-    "│   │   ├── data_loader.py        # Functions for loading datasets\n",
-    "│   │   └── data_processor.py     # Functions for data cleaning and processing\n",
-    "│   ├── judge/\n",
-    "│   │   ├── __init__.py\n",
-    "│   │   ├── judge_prompt.py       # LLM judge prompt templates\n",
-    "│   │   └── judge_system.py       # Implementation of judging system\n",
-    "│   ├── models/\n",
-    "│   │   ├── __init__.py\n",
-    "│   │   ├── model_loader.py       # Functions for loading models\n",
-    "│   │   └── training.py           # Training utilities\n",
-    "│   ├── utils/\n",
-    "│   │   ├── __init__.py\n",
-    "│   │   └── helpers.py            # Helper functions\n",
-    "│   └── main.py                   # Main execution script\n",
-    "├── scripts/\n",
-    "│   ├── generate_responses.py     # Script to generate model responses\n",
-    "│   ├── create_judge_dataset.py   # Script to create judge-based dataset\n",
-    "│   ├── create_pairm_dataset.py   # Script to create PairRM dataset\n",
-    "│   ├── train_dpo_judge.py        # Script to train judge-based DPO model\n",
-    "│   └── train_dpo_pairm.py        # Script to train PairRM-based DPO model\n",
-    "├── requirements.txt              # Project dependencies\n",
-    "├── setup.py                      # Package setup file\n",
-    "├── LICENSE                       # Project license\n",
-    "└── README.md                     # Project overview (this file)\n",
-    "```\n",
-    "\n",
-    "## 📊 Usage\n",
-    "\n",
-    "### 1. Dataset Generation\n",
-    "\n",
-    "#### a) Generate Base Responses\n",
-    "\n",
-    "```bash\n",
-    "python scripts/generate_responses.py \\\n",
-    "    --model \"meta-llama/Llama-3.2-1B-chat\" \\\n",
-    "    --dataset \"GAIR/lima\" \\\n",
-    "    --num_instructions 50 \\\n",
-    "    --responses_per_instruction 5 \\\n",
-    "    --output_dir \"data/processed\"\n",
-    "```\n",
-    "\n",
-    "#### b) Create Judge-Based Dataset\n",
-    "\n",
-    "```bash\n",
-    "python scripts/create_judge_dataset.py \\\n",
-    "    --model \"meta-llama/Llama-3.2-1B-chat\" \\\n",
-    "    --responses_dir \"data/processed\" \\\n",
-    "    --output_dir \"data/judge_dataset\"\n",
-    "```\n",
-    "\n",
-    "#### c) Create PairRM-Based Dataset\n",
-    "\n",
-    "```bash\n",
-    "python scripts/create_pairm_dataset.py \\\n",
-    "    --responses_dir \"data/processed\" \\\n",
-    "    --output_dir \"data/pairm_dataset\"\n",
-    "```\n",
-    "\n",
-    "### 2. Model Training\n",
-    "\n",
-    "#### a) Train Judge-Based DPO Model\n",
-    "\n",
-    "```bash\n",
-    "python scripts/train_dpo_judge.py \\\n",
-    "    --model \"meta-llama/Llama-3.2-1B-chat\" \\\n",
-    "    --dataset \"data/judge_dataset\" \\\n",
-    "    --output_dir \"models/lora_adapter_judge\" \\\n",
-    "    --learning_rate 5e-5 \\\n",
-    "    --batch_size 8 \\\n",
-    "    --num_epochs 3\n",
-    "```\n",
-    "\n",
-    "#### b) Train PairRM-Based DPO Model\n",
-    "\n",
-    "```bash\n",
-    "python scripts/train_dpo_pairm.py \\\n",
-    "    --model \"meta-llama/Llama-3.2-1B-chat\" \\\n",
-    "    --dataset \"data/pairm_dataset\" \\\n",
-    "    --output_dir \"models/lora_adapter_pair\" \\\n",
-    "    --learning_rate 5e-5 \\\n",
-    "    --batch_size 8 \\\n",
-    "    --num_epochs 3\n",
-    "```\n",
-    "\n",
-    "### 3. Model Evaluation\n",
-    "\n",
-    "```bash\n",
-    "python scripts/evaluate_models.py \\\n",
-    "    --base_model \"meta-llama/Llama-3.2-1B-chat\" \\\n",
-    "    --judge_adapter \"models/lora_adapter_judge\" \\\n",
-    "    --pair_adapter \"models/lora_adapter_pair\" \\\n",
-    "    --test_instructions \"data/test_instructions.json\" \\\n",
-    "    --output_file \"evaluation_results.csv\"\n",
-    "```\n",
-    "\n",
-    "## 📚 Datasets\n",
-    "\n",
-    "The project uses the Lima dataset from HuggingFace as the source of instructions. The generated preference datasets are available at:\n",
-    "\n",
-    "- Judge-Based Dataset: [HuggingFace Link](https://huggingface.co/datasets/your-username/llm-judge-preferences)\n",
-    "- PairRM-Based Dataset: [HuggingFace Link](https://huggingface.co/datasets/your-username/llm-pairm-preferences)\n",
-    "\n",
-    "## 🤖 Models\n",
-    "\n",
-    "The trained LoRA adapters are available at:\n",
-    "\n",
-    "- Judge-Based DPO Model: [HuggingFace Link](https://huggingface.co/your-username/llama-3.2-1B-dpo-judge)\n",
-    "- PairRM-Based DPO Model: [HuggingFace Link](https://huggingface.co/your-username/llama-3.2-1B-dpo-pairm)\n",
-    "\n",
-    "## 📈 Results\n",
-    "\n",
-    "Our comparative analysis shows significant improvements in response quality across both fine-tuned models compared to the base Llama-3.2 model. Key findings include:\n",
-    "\n",
-    "- Both DPO models show improved response coherence and instruction following\n",
-    "- The PairRM-based model excels at factual accuracy\n",
-    "- The Judge-based model demonstrates stronger reasoning capabilities\n",
-    "- Iterative DPO training shows compounding improvements in model performance\n",
-    "\n",
-    "For detailed results, see the [Evaluation Notebook](notebooks/evaluation.ipynb).\n",
-    "\n",
-    "## 🤝 Contributing\n",
-    "\n",
-    "Contributions are welcome! Please feel free to submit a Pull Request.\n",
-    "\n",
-    "1. Fork the repository\n",
-    "2. Create your feature branch (`git checkout -b feature/amazing-feature`)\n",
-    "3. Commit your changes (`git commit -m 'Add some amazing feature'`)\n",
-    "4. Push to the branch (`git push origin feature/amazing-feature`)\n",
-    "5. Open a Pull Request\n",
-    "\n",
-    "## 📄 License\n",
-    "\n",
-    "This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n",
-    "\n",
-    "## 📧 Contact\n",
-    "\n",
-    "Hu Liu - liu.hu1@northeastern.edu\n",
-    "\n",
-    "Northeastern University, MSIS\n",
-    "\n",
-    "## 🙏 Acknowledgements\n",
-    "\n",
-    "- [HuggingFace](https://huggingface.co/) for hosting datasets and models\n",
-    "- [GAIR/Lima](https://huggingface.co/datasets/GAIR/lima) for the instruction dataset\n",
-    "- [Meta AI](https://ai.meta.com/) for the Llama models\n",
-    "- [PairRM](https://github.com/microsoft/PairRM) for the preference learning algorithm\n",
-    "- [DPO Paper](https://arxiv.org/abs/2305.18290) for the Direct Preference Optimization method"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "d5a76661-fc9e-433d-ad46-ab529d57c470",
-   "metadata": {},
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "f6de22a9-d5f6-4b46-9440-05fcd8158055",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.12.4"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# LLM Preference Learning and DPO Fine-tuning
+
+## 🌟 Overview
+
+This project demonstrates a comprehensive approach to improving Large Language Model (LLM) performance through preference learning and Direct Preference Optimization (DPO). We use two distinct methods to create preference datasets:
+
+1. **LLM Judge-Based Collection**: Implementing a sophisticated judging system to evaluate response quality
+2. **PairRM-Based Collection**: Utilizing the PairRM algorithm to create preference pairs
+
+The collected preference data is then used to fine-tune Llama-3.2 models using the DPO technique, significantly improving response quality across various metrics.
+
+## 🚀 Key Features
+
+- Data generation and preference collection from Lima dataset
+- Implementation of an LLM-based judging system
+- Application of PairRM for preference pair creation
+- DPO fine-tuning of Llama-3.2-1B
+- Iterative training approach for model improvement
+- Comprehensive evaluation and comparative analysis
+- HuggingFace dataset and model integration
+
+## 📋 Requirements
+
+- Python 3.8+
+- PyTorch 2.0+
+- Transformers 4.30+
+- PEFT
+- Accelerate
+- llm-blender
+- Datasets
+- tqdm
+- numpy
+- pandas
+- matplotlib
+
+## 🔧 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/llm-preference-learning.git
+cd llm-preference-learning
+
+# Create and activate a virtual environment (optional but recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+## 🏗️ Project Structure
+
+```
+llm-preference-learning/
+├── data/
+│   ├── raw/                  # Original Lima dataset
+│   ├── processed/            # Processed instructions and responses
+│   ├── judge_dataset/        # LLM judge-based preference pairs
+│   └── pairm_dataset/        # PairRM-based preference pairs
+├── models/
+│   ├── base/                 # Base Llama-3.2 model
+│   ├── lora_adapter_judge/   # LoRA adapter for judge-based DPO
+│   └── lora_adapter_pair/    # LoRA adapter for PairRM-based DPO
+├── notebooks/
+│   ├── data_generation.ipynb      # Dataset generation process
+│   ├── model_training.ipynb       # DPO training process
+│   └── evaluation.ipynb           # Model evaluation
+├── src/
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py        # Functions for loading datasets
+│   │   └── data_processor.py     # Functions for data cleaning and processing
+│   ├── judge/
+│   │   ├── __init__.py
+│   │   ├── judge_prompt.py       # LLM judge prompt templates
+│   │   └── judge_system.py       # Implementation of judging system
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── model_loader.py       # Functions for loading models
+│   │   └── training.py           # Training utilities
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── helpers.py            # Helper functions
+│   └── main.py                   # Main execution script
+├── scripts/
+│   ├── generate_responses.py     # Script to generate model responses
+│   ├── create_judge_dataset.py   # Script to create judge-based dataset
+│   ├── create_pairm_dataset.py   # Script to create PairRM dataset
+│   ├── train_dpo_judge.py        # Script to train judge-based DPO model
+│   └── train_dpo_pairm.py        # Script to train PairRM-based DPO model
+├── requirements.txt              # Project dependencies
+├── setup.py                      # Package setup file
+├── LICENSE                       # Project license
+└── README.md                     # Project overview (this file)
+```
+
+## 📊 Usage
+
+### 1. Dataset Generation
+
+#### a) Generate Base Responses
+
+```bash
+python scripts/generate_responses.py \
+    --model "meta-llama/Llama-3.2-1B-chat" \
+    --dataset "GAIR/lima" \
+    --num_instructions 50 \
+    --responses_per_instruction 5 \
+    --output_dir "data/processed"
+```
+
+#### b) Create Judge-Based Dataset
+
+```bash
+python scripts/create_judge_dataset.py \
+    --model "meta-llama/Llama-3.2-1B-chat" \
+    --responses_dir "data/processed" \
+    --output_dir "data/judge_dataset"
+```
+
+#### c) Create PairRM-Based Dataset
+
+```bash
+python scripts/create_pairm_dataset.py \
+    --responses_dir "data/processed" \
+    --output_dir "data/pairm_dataset"
+```
+
+### 2. Model Training
+
+#### a) Train Judge-Based DPO Model
+
+```bash
+python scripts/train_dpo_judge.py \
+    --model "meta-llama/Llama-3.2-1B-chat" \
+    --dataset "data/judge_dataset" \
+    --output_dir "models/lora_adapter_judge" \
+    --learning_rate 5e-5 \
+    --batch_size 8 \
+    --num_epochs 3
+```
+
+#### b) Train PairRM-Based DPO Model
+
+```bash
+python scripts/train_dpo_pairm.py \
+    --model "meta-llama/Llama-3.2-1B-chat" \
+    --dataset "data/pairm_dataset" \
+    --output_dir "models/lora_adapter_pair" \
+    --learning_rate 5e-5 \
+    --batch_size 8 \
+    --num_epochs 3
+```
+
+### 3. Model Evaluation
+
+```bash
+python scripts/evaluate_models.py \
+    --base_model "meta-llama/Llama-3.2-1B-chat" \
+    --judge_adapter "models/lora_adapter_judge" \
+    --pair_adapter "models/lora_adapter_pair" \
+    --test_instructions "data/test_instructions.json" \
+    --output_file "evaluation_results.csv"
+```
+
+## 📚 Datasets
+
+The project uses the Lima dataset from HuggingFace as the source of instructions. The generated preference datasets are available at:
+
+- Judge-Based Dataset: [HuggingFace Link](https://huggingface.co/datasets/xiaokeliu/llm-judge-preferences)
+- PairRM-Based Dataset: [HuggingFace Link](https://huggingface.co/datasets/xiaokeliu/llm-pairm-preferences)
+
+## 🤖 Models
+
+The trained LoRA adapters are available at:
+
+- Judge-Based DPO Model: [HuggingFace Link](https://huggingface.co/xiaokeliu/lora_adapter_judge_based)
+- PairRM-Based DPO Model: [HuggingFace Link](https://huggingface.co/xiaokeliu/lora_adapter_pair_based)
+
+## 📈 Results
+
+Our comparative analysis shows significant improvements in response quality across both fine-tuned models compared to the base Llama-3.2 model. Key findings include:
+
+- Both DPO models show improved response coherence and instruction following
+- The PairRM-based model excels at factual accuracy
+- The Judge-based model demonstrates stronger reasoning capabilities
+- Iterative DPO training shows compounding improvements in model performance
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+Hu Liu - liu.hu1@northeastern.edu
+
+Northeastern University, MSIS
+
+## 🙏 Acknowledgements
+
+- [HuggingFace](https://huggingface.co/) for hosting datasets and models
+- [GAIR/Lima](https://huggingface.co/datasets/GAIR/lima) for the instruction dataset
+- [Meta AI](https://ai.meta.com/) for the Llama models
+- [PairRM](https://github.com/microsoft/PairRM) for the preference learning algorithm
+- [DPO Paper](https://arxiv.org/abs/2305.18290) for the Direct Preference Optimization method
