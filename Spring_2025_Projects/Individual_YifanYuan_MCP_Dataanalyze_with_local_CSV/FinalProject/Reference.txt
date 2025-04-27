@@ -1,0 +1,9 @@
+# References
+
+1. MCP Introduction: https://modelcontextprotocol.io/introduction
+
+2. MCP Client Quickstart Guide: https://modelcontextprotocol.io/quickstart/client
+
+3. MCP Server Data Exploration GitHub Repository: https://github.com/reading-plus-ai/mcp-server-data-exploration#
+
+4. MCP Mirror Server: https://mcp.so/server/reading-plus-ai_mcp-server-data-exploration/MCP-Mirror?tab=content
