@@ -167,15 +167,15 @@ python scripts/evaluate_models.py \
 
 The project uses the Lima dataset from HuggingFace as the source of instructions. The generated preference datasets are available at:
 
-- Judge-Based Dataset: [HuggingFace Link](https://huggingface.co/datasets/xiaokeliu/llm-judge-preferences)
-- PairRM-Based Dataset: [HuggingFace Link](https://huggingface.co/datasets/xiaokeliu/llm-pairm-preferences)
+- Judge-Based Dataset: [HuggingFace Link](https://huggingface.co/xiaokeliu/lora_adapter_judge_based)
+- PairRM-Based Dataset: [HuggingFace Link](https://huggingface.co/xiaokeliu/lora_adapter_pair_based)
 
 ## 🤖 Models
 
 The trained LoRA adapters are available at:
 
-- Judge-Based DPO Model: [HuggingFace Link](https://huggingface.co/xiaokeliu/lora_adapter_judge_based)
-- PairRM-Based DPO Model: [HuggingFace Link](https://huggingface.co/xiaokeliu/lora_adapter_pair_based)
+- Judge-Based DPO Model: [HuggingFace Link](https://huggingface.co/datasets/xiaokeliu/judge_based_data)
+- PairRM-Based DPO Model: [HuggingFace Link](https://huggingface.co/datasets/xiaokeliu/pairRM_data)
 
 ## 📈 Results
 
