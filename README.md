@@ -1,5 +1,5 @@
 
-# INFO 7390: Advances in Data Sciences and Architecture
+# INFO 7390: Advances in Data Sciences and Architecture "GIGO"
 ## The Art and Science of Data Validation
 
 **Garbage-In Garbage Out (GIGO)** may be the most widely used maxim in machine learning, but how does one assess the quality of each step in an analysis pipeline? This course teaches students how to understand their data, models, and pipelines using visualization and computational skepticism, empowering them to create robust, trustworthy AI systems.
