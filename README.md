@@ -1,164 +1,160 @@
 
-# INFO 7390 Advances in Data Sciences and Architecture (The Art and Science of Data)
+# INFO 7390: Advances in Data Sciences and Architecture
+## The Art and Science of Data Validation
 
-**Garbage-In Garbage Out (GIGO)** may be the most widely used maxim in machine learning, but how does one assess the quality of each step in an analysis pipeline? This course teaches students how to understand their data, models, and pipelines using visualization.
+**Garbage-In Garbage Out (GIGO)** may be the most widely used maxim in machine learning, but how does one assess the quality of each step in an analysis pipeline? This course teaches students how to understand their data, models, and pipelines using visualization and computational skepticism, empowering them to create robust, trustworthy AI systems.
 
-## Part I - Understanding Data
+## Part 0 - AI Fluency and Computational Skepticism (Weeks 1-3)
 
-The first part of the course covers understanding the statistical properties of a data set visually, how to fix issues with their data, and how to graphically demonstrate how the data was improved. The choice of the right chart for a particular question is covered. The principles of visual design, including typography, contrast, balance, emphasis, movement, white space, proportion, hierarchy, repetition, rhythm, pattern, unity, and variety are covered.
+This introductory section provides the philosophical and practical foundation for the course, introducing students to the Botspeak framework and computational skepticism principles that will be applied throughout the remaining sections.
 
-### 1A - Data Preprocessing and Prep
+### Week 1: Botspeak - The Nine Pillars of AI Fluency
+* Introduction to the Botspeak framework for human-AI collaboration
+* Overview of the Nine Pillars:
+  * Strategic Delegation
+  * Effective Communication
+  * Critical Evaluation
+  * Technical Understanding
+  * Ethical Reasoning
+  * Stochastic Reasoning
+  * Learning by Doing
+  * Rapid Prototyping
+  * Theoretical Foundation
+* Interaction Modes: Automation, Augmentation, and Agency in human-AI collaboration
+* Assignment: Design an agentic AI tool that implements Strategic Delegation for data analysis tasks
 
-In this segment of the course, students will be immersed in the crucial initial steps of data science: data preprocessing and preparation. Before any robust analysis can occur, it's essential to ensure the data is clean, relevant, and ready for exploration. We'll begin by introducing the foundational techniques to clean and transform raw data, ensuring its quality and integrity. This involves handling missing data, outliers, and potential errors that can skew results.
+### Week 2: Philosophical Foundations of Computational Skepticism
+* Skepticism in philosophy (Descartes, Hume, Popper) applied to AI systems
+* Truth and falsifiability in data-driven conclusions
+* Critical thinking approaches for AI validation
+* Plato's Allegory of the Cave—Are datasets just shadows of reality?
+* Assignment: Develop a computational framework to identify assumptions in datasets
 
-Furthermore, students will learn about normalization and standardization processes, enabling them to make disparate data sets comparable. Techniques such as one-hot encoding and binning will be covered, emphasizing the need to make data machine-readable, particularly when preparing for machine learning or statistical modeling.
+### Week 3: Practical Applications of Computational Skepticism in AI
+* The Black Box Problem—Is understanding necessary for trust?
+* Adversarial approaches to AI validation
+* Developing systematic doubt in AI workflows
+* Assignment: Create an agentic AI tool that implements the Critical Evaluation pillar to validate model outputs
 
-As data comes in various forms - from textual and categorical to numerical - we'll delve deep into transforming these different data types to be more suited for analysis. The end goal of this segment is to equip students with the skills needed to turn raw, messy data into a polished and prepared asset, setting a solid foundation for subsequent analysis and visualization.
+## Part I - Understanding Data (Weeks 4-6)
 
-### 1B - Data Analysis and Improvement
+The first part of the course covers understanding the statistical properties of a data set visually, how to fix issues with their data, and how to graphically demonstrate how the data was improved.
 
-In this segment of the course, students will be introduced to a visual understanding of a dataset's statistical properties. This includes identifying potential problems within the data and implementing corrective measures. We'll also delve into effective graphical methods to showcase the enhancement and transformation of data. An essential part of this section is selecting the most suitable chart type to address specific questions or insights about the dataset.
+### Week 4: Data Preprocessing and Validation
+* Visual understanding of dataset statistical properties
+* Data cleaning and transformation techniques
+* Handling missing data, outliers, and errors
+* Normalization and standardization processes
+* Applying Critical Evaluation and Technical Understanding to dataset validation
+* Assignment: Build an agentic AI tool that applies Stochastic Reasoning to detect data anomalies
 
-### 1C - Principles of Visual Design in Data Presentation
+### Week 5: Data Analysis and Improvement
+* Identifying potential problems within the data using computational skepticism
+* Implementing corrective measures through Critical Evaluation
+* Graphical methods to demonstrate data enhancement and transformation
+* Selecting appropriate chart types for specific analytical questions
+* Integrating Botspeak's Learning by Doing approach to data improvement
+* Assignment: Develop an agentic AI tool that helps visualize data improvements over time
 
-In this segment, we put emphasis on the art and science of visual design as it pertains to data presentation. Students will explore various fundamental principles, including typography, contrast, and balance. Additionally, we'll discuss advanced design concepts such as emphasis, movement, the strategic use of white space, proportion, hierarchy, and more. We'll also delve into the significance of repetition, rhythm, pattern, unity, and variety, ensuring that the data is not only accurate but also aesthetically compelling and easily comprehensible.
+### Week 6: Principles of Visual Design in Data Presentation
+* Fundamental visual design principles: typography, contrast, balance
+* Advanced design concepts: emphasis, movement, white space, proportion, hierarchy
+* Using Effective Communication to present data findings clearly
+* Bias detection in visual representation
+* McLuhan's "The medium is the message"—How visualizations shape AI trust
+* Assignment: Create an agentic AI tool that applies the Effective Communication pillar to optimize data visualizations
 
-## Part II - Generative AI for Data
+## Part II - Generative AI for Data (Weeks 7-9)
 
-### 2A - Understanding Generative AI
+### Week 7: Understanding Generative AI
+* Distinguishing between traditional machine learning, generative AI, and AGI
+* Practical applications and limitations of generative AI
+* Implicit bias and cognitive bias in shaping AI models
+* Do AI models reinforce existing power structures?
+* Applying Ethical Reasoning to generative AI applications
+* Assignment: Build an agentic AI tool that uses Strategic Delegation to guide generative AI outputs
 
-Dive deep into the world of generative AI and its impressive capability to produce content. This section introduces its practical uses and constraints. We will differentiate between traditional machine learning models, generative AI, and artificial general intelligence (AGI). Additionally, we'll uncover the primary elements fueling the progress of generative AI.
+### Week 8: Building Generative AI Systems
+* Research, design, data gathering, model training, and assessment procedures
+* Importance of diverse datasets and cutting-edge training strategies
+* Evaluation techniques and their strengths/weaknesses
+* Integrating Technical Understanding and Theoretical Foundation principles
+* Robust AI systems against adversarial attacks
+* Assignment: Develop an agentic AI that implements Rapid Prototyping for generative AI systems
 
-### 2B - Building Generative AI Systems
+### Week 9: Employing Generative AI for Synthetic Data Creation
+* Mechanics behind data generation processes across multiple modalities
+* Students select their focus area (text, numeric, images, audio, or video)
+* Techniques for evaluating synthetic data quality
+* Ethical considerations in synthetic data creation
+* Free will vs. determinism—Do AI agents "choose" what to generate?
+* Assignment: Create an agentic AI tool that generates and validates synthetic data in the student's chosen modality
 
-This segment details the crucial procedures involved in crafting generative AI systems. Topics covered include research, design, data gathering, model training, and assessment. Emphasis is placed on the importance of varied datasets and cutting-edge training strategies. We will also explore the different evaluation techniques, highlighting their advantages and drawbacks.
+## Part III - Causal Inference (Weeks 10-12)
 
-### 2C - Employing Generative AI for Synthetic Data Creation
+The third part of the course covers visualizing causal relationships in data. The emphasis is on understanding visual techniques for separating causal relationships from correlation.
 
-In this section, we venture into the practical application of generative AI in fabricating synthetic data. Whether it's text, visuals, videos, or soundscapes, generative AI offers innovative solutions for generating authentic-seeming content. We'll break down the mechanics behind these processes, demonstrating how cutting-edge models can craft content that's nearly indistinguishable from real-world data, and discuss the potential advantages and challenges of using synthetic data across various sectors.
+### Week 10: What is Causal Inference?
+* Fundamental concept of causal inference
+* Distinguishing correlation from causation
+* Introduction to potential outcomes and counterfactual frameworks
+* Hume's Problem of Induction—Can we trust AI predictions?
+* Applying Theoretical Foundation principles to causal reasoning
+* Assignment: Build an agentic AI tool that helps identify potential causal relationships in data
 
-### 2D - Leveraging Generative AI for Data Verification
+### Week 11: Visual Techniques in Causal Data
+* Visualization of causal relationships within datasets
+* Confounding, causal graphs, and Directed Acyclic Graphs (DAGs)
+* Relationship between DAGs and probability distributions
+* Paths and associations, conditional independence (d-separation)
+* Integrating Technical Understanding and Stochastic Reasoning
+* Assignment: Develop an agentic AI that visualizes causal relationships using DAGs
 
-In this segment, we explore how generative AI can play a pivotal role in data verification. By harnessing the power of large language models (LLMs) and cross-referencing information across them, we can enhance the accuracy and reliability of our data. We'll discuss the methodologies behind this innovative approach, detailing how multiple LLMs can be employed in tandem to validate the authenticity of a piece of information. Additionally, we'll touch upon the benefits of this process, emphasizing the increased trustworthiness of data and the reduction in misinformation.
+### Week 12: Advanced Causal Analysis Techniques
+* Observational studies methodologies
+* Optimal matching, sensitivity analysis, and Inverse Probability of Treatment Weighting (IPTW)
+* Marginal structural models and IPTW estimation
+* Causal effect identification and estimation
+* Socratic method—Using questioning to refine causal research
+* Assignment: Create an agentic AI tool that applies causal inference techniques to real-world data
 
-## Part III - Causal Inference
-
-The third part of the course covers visualizing causal relationships in data. The emphasis is on understanding visual techniques for separating causal relationships for correlation.
-
-### 3A - What is Causal Inference?
-
-In this segment of the course, we will delve into the fundamental concept of causal inference, demystifying the distinction between correlation and causation. Students will be introduced to the idea that while many factors might be correlated, not all are causative. We will explore the principles underlying causality, elucidating why it's a cornerstone in many scientific disciplines, especially in social sciences, medicine, and economics.
-
-Through real-world examples, learners will gain a grasp on the importance of discerning causative factors in various scenarios - from public policy decisions to medical treatments. Discussions will revolve around the challenges faced in establishing causality, especially when experiments are impractical or unethical.
-
-The segment will lay the foundation for understanding the differences between observational studies and randomized controlled trials (RCTs), highlighting the strengths and pitfalls of each approach. Moreover, students will be introduced to potential outcomes and counterfactual frameworks, which provide a structured way to think about cause and effect. By the end of this section, students will have a solid grasp of why causal inference is vital, its challenges, and the fundamental tools and concepts used to determine causality in data.
-
-
-
-### 3B - Visual Techniques in Causal Data
-
-In this segment of the course, the primary focus will be on the visualization of causal relationships within datasets. We aim to provide a robust understanding of visual methods that can be employed to distinguish genuine causal connections from mere correlations. This involves diving deep into concepts such as confounding, causal graphs, and the intricate relationship between Directed Acyclic Graphs (DAGs) and probability distributions. The segment will also highlight the significance of paths and associations, along with the idea of conditional independence through d-separation.
-
-### 3C - Advanced Causal Analysis Techniques
-
-Venturing further into the realm of causality, this segment dives into the practical aspects and methodologies used in observational studies. Techniques and concepts such as optimal matching, sensitivity analysis, and Inverse Probability of Treatment Weighting (IPTW) will be detailed. The course will subsequently move into the nuances of marginal structural models, providing insights on IPTW estimation and the meticulous process of causal effect identification and estimation. This part of the course aims to equip students with the advanced tools and knowledge necessary for in-depth causal analyses in complex scenarios.
+### Week 13: Final Projects
+* Student presentations of integrated agentic AI systems
+* Evaluation of data validation approaches
+* Discussion of emerging trends in data science and AI validation
+* Ethical considerations for the future of AI-assisted data analysis
+* Final Project: Present a comprehensive agentic AI system that integrates computational skepticism principles with data validation techniques across one or more of the course focus areas
 
 ## Learning Objectives
 
 Upon completion of this course, students will be able to:
 
-* **General Understanding:**
-  * Recognize the importance of data quality in machine learning and analysis pipelines.
-  * Utilize visualization techniques to gain insights into data, models, and pipelines.
+* **Computational Skepticism and AI Fluency:**
+  * Master the Nine Pillars of Botspeak for effective human-AI collaboration
+  * Apply computational methods for systematic data validation
+  * Develop critical thinking methodologies for AI and machine learning
+  * Recognize and mitigate common biases and errors in AI models
+  * Create agentic AI tools for data validation and analysis
 
 * **Understanding Data:**
-  * Visually interpret the statistical properties of datasets.
-  * Identify and rectify issues within datasets.
-  * Select appropriate chart types to address specific analytical questions.
-  * Apply principles of visual design, including but not limited to typography, contrast, balance, and hierarchy, to enhance data presentation.
-
-* **Data Analysis and Improvement:**
-  * Implement corrective measures to address potential problems within datasets.
-  * Use graphical methods to demonstrate the enhancement and transformation of data.
-
-* **Principles of Visual Design in Data Presentation:**
-  * Comprehend and apply foundational visual design principles to data representation.
-  * Understand advanced design principles like emphasis, movement, proportion, hierarchy, repetition, and unity in data visualization.
+  * Visually interpret the statistical properties of datasets
+  * Identify and rectify issues within datasets using computational skepticism
+  * Select appropriate chart types to address specific analytical questions
+  * Apply principles of visual design to enhance data presentation
+  * Build tools that automate data validation processes
 
 * **Generative AI for Data:**
-  * Understand the fundamental differences and relationships between traditional machine learning, generative AI, and AGI.
-  * Comprehend the practical applications and constraints of generative AI.
-  * Construct generative AI systems, from research and design to data gathering and training.
-  * Utilize generative AI for synthetic data creation and data verification.
+  * Understand the fundamental differences between traditional ML, generative AI, and AGI
+  * Construct generative AI systems using the Botspeak framework
+  * Utilize generative AI for synthetic data creation across multiple modalities
+  * Apply computational skepticism to verify data using generative AI
+  * Develop agentic AI tools for synthetic data generation and validation
 
 * **Causal Inference:**
-  * Visualize and comprehend causal relationships in datasets.
-  * Separate genuine causal connections from correlations using advanced visual techniques.
-  * Utilize advanced causal analysis techniques in observational studies.
-  * Understand and apply concepts like confounding, causal graphs, Directed Acyclic Graphs (DAGs), and the relationship between DAGs and probability distributions.
+  * Visualize and comprehend causal relationships in datasets
+  * Separate genuine causal connections from correlations using advanced visual techniques
+  * Utilize computational skepticism to validate causal claims
+  * Apply concepts like confounding, causal graphs, and DAGs to real-world data
+  * Create agentic AI tools for causal inference and validation
 
-## Weekly Schedule
-
-### Week 1
-* **Information Visualization:** Foundations, Data Abstraction
-* Fundamental Graphs and Data Transformation
-* Graphical Components and Mapping Strategies
-* Basic data statistics and Exploratory Data Analysis (EDA)
-
-### Week 2
-* Perception for Information Visualization
-* Effectiveness of Visual Channels
-* Identifying Statistical Properties: A Visual Approach
-* Data Issue Diagnosis and Rectification Strategies
-
-### Week 3
-* Demonstrating Data Improvement through Graphics
-* Chart Selection for Specific Analytical Questions
-* Introduction to Principles of Visual Design
-* Typography, Contrast, and Balance in Data Presentation
-
-### Week 4
-* Advanced Visual Design: Emphasis, Movement, White Space
-* The Role of Proportion, Hierarchy, Repetition in Visualization
-* Delving Deeper: Rhythm, Pattern, Unity, and Variety in Design
-
-### Week 5
-* Introduction to Generative AI: Distinguishing Traditional ML, Generative AI, and AGI
-* Real-world Applications and Limitations of Generative AI
-
-### Week 6
-* Crafting Generative AI Systems: Research and Design Phases
-* The Importance of Diverse Data Gathering
-
-### Week 7
-* Advanced Training Strategies in Generative AI
-* Evaluation Techniques: Strengths and Limitations
-
-### Week 8
-* Using Generative AI for Synthetic Data Creation: Text, Images, Videos
-* Mechanics Behind Generative Processes and Real-world Implications
-* Generating text
-
-### Week 9
-* Generating numeric data
-* Generating images
-
-### Week 10
-* Generating audio
-* Generating video
-
-### Week 11
-* Leveraging Large Language Models for Data Verification
-* Benefits and Challenges of Cross-referencing Information
-
-### Week 13
-* Introduction to Causal Inference in Data Visualization
-* Visual Techniques for Understanding Causality: Basics
-
-### Week 14
-* Advanced Causal Analysis Techniques: Observational Studies and Beyond
-* Wrapping Up: IPTW Estimation, Causal Effect Identification, and Future Trends
-
-### Week 15
-* Review
-
+This course integrates philosophical foundations with practical computational techniques, empowering students to build robust, trustworthy AI systems through a skeptical, validation-focused approach. By applying the Botspeak framework throughout each section, students will develop both the technical skills and critical thinking abilities necessary for effective human-AI collaboration in data science and architecture.
