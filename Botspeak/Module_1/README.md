@@ -1,5 +1,7 @@
 # Module 1: Botspeak - The Nine Pillars of AI Fluency
 
+Focus on Fluency + Skepticism + hands-on
+
 ## Overview
 
 This foundational module introduces students to the theoretical and practical frameworks that will guide their exploration of computational skepticism and AI fluency throughout the course. Students will develop both the philosophical understanding and practical skills necessary to navigate the complex landscape of human-AI collaboration effectively.
