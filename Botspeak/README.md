@@ -12,7 +12,8 @@ Botspeak bridges this gap with nine essential pillars that will remain relevant 
 1. **Strategic Delegation:** Thoughtfully distributing tasks between human and AI based on comparative strengths. This means breaking complex problems into optimized components that play to each partner's abilities.
 
 2. **Effective Communication: (i.e prompt engineering)** Crafting precise prompts with clear intent and context. It's about specifying exactly what you need from the AI system in a way it can understand and act upon.
- Jargon
+   
+ --Jargon__
 
 4. **Critical Evaluation:** Systematically assessing AI outputs for accuracy and bias. This means verifying claims through multiple sources and evaluating not just the answers, but the reasoning processes behind them.
 
