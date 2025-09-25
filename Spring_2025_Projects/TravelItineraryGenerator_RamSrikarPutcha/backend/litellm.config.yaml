@@ -1,4 +1,0 @@
-model_list:
-  - model_name: xai/grok-2-1212
-    litellm_provider: xai
-    api_key: ${XAI_API_KEY}

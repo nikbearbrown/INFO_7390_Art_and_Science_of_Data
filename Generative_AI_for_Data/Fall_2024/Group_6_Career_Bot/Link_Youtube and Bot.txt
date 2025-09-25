@@ -1,4 +1,0 @@
-youtbue link - https://www.youtube.com/watch?v=f1JwwappPzE
-Bot Link - https://prajnabot.streamlit.app/ 
-Local URL: http://localhost:8501
-

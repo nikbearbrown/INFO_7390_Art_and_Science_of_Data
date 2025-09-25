@@ -1,6 +1,0 @@
-openai
-tqdm
-python-dotenv
-pinecone-client>=2.0
-sentence-transformers
-streamlit

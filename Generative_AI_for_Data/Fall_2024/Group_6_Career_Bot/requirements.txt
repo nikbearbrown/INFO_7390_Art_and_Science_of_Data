@@ -1,4 +1,0 @@
-streamlit
-openai==0.27.8
-pinecone-client
-python-dotenv
