@@ -7,7 +7,7 @@ This repository contains course materials for INFO 7390, an advanced graduate-le
 
 ### Core Course Materials
 - **`Assignments/`** - Weekly assignments and project submissions
-- **Syllabus** - Course syllabus and schedule
+- **`Syllabus/`** - Course syllabus and schedule
 - **`Exams/`** - Exam materials and study guides
 
 ### Technical Topics
@@ -24,18 +24,17 @@ This repository contains course materials for INFO 7390, an advanced graduate-le
 ### Resources
 - **`CSV_Data/`** - Sample datasets for course exercises
 - **`Notebooks/`** -  Comprehensive collection of Jupyter notebooks organized by topic:
-
-Botspeak_Framework 
-Causal_Inference 
-Computational_Skepticism 
-Data_Understanding_and_Preprocessing
-Data_Visualization/Visual_Design_Principles
-GIGO_Reference
-Generative_AI
-Misc
-Projects/Final_Projects
-Statistical_Methods
-Weekly_Assignments
+    - * Botspeak_Framework
+    - * Causal_Inference 
+    - * Computational_Skepticism 
+    - * Data_Understanding_and_Preprocessing
+    - * Data_Visualization/Visual_Design_Principles
+    - * GIGO_Reference
+    - * Generative_AI
+    - * Misc
+    - * Projects/Final_Projects
+    - * Statistical_Methods
+    - * Weekly_Assignments
 - **`MD/`** - Markdown documentation and notes
 
 ### Setup Instructions
