@@ -1,7 +1,5 @@
 # INFO 7390 Midterm Topics
 
-![Data Preprocessing Overview](sandbox:/mnt/data/e6c4a583-6b2f-4cbf-aab5-ac2370af8138.png)
-
 ## Introduction
 
 **GIGO Principle: Garbage In, Garbage Out.**
