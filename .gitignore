@@ -1,33 +1,78 @@
-# Prerequisites
-*.d
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 *.so
-*.dylib
-*.dll
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
 
-# Fortran module files
-*.mod
-*.smod
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Data files (add specific large files)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.db
+*.sqlite
 
-# Executables
-*.exe
-*.out
-*.app
-*.pyc
+# But keep small example datasets
+!examples/*.csv
+!sample_data/*.csv
+
+# Credentials and secrets
+.env
+*.key
+*.pem
+credentials.json
+config.ini
+secrets/
+
+# Azure specific
+local.settings.json
+*.azureconnection.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Large model files
+*.pkl
+*.h5
+*.model
+*.weights
+
+# Output directories
+output/
+results/
+temp/
+
