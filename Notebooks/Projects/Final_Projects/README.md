@@ -1,7 +1,7 @@
 # Final Projects & Portfolio Work
 
 ## 📖 Overview
-This directory contains resources, templates, and examples for the **INFO 7390 Final Projects**. It serves as a repository for end-to-end data science projects that demonstrate the complete lifecycle of a model—from development and training to evaluation and deployment.
+This directory contains resources, templates, and examples for the **INFO 7390 Final Projects**. It serves as a repository for end-to-end data science projects that demonstrate the complete lifecycle of a model from development and training to evaluation and deployment.
 
 ## 🔑 Key Components
 This project requires demonstrating the full lifecycle of a data product:
