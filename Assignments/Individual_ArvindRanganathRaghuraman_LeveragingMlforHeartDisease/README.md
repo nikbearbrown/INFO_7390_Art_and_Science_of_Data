@@ -139,7 +139,7 @@ Through a complete data science lifecycle—from exploratory analysis to model d
 ### 4. Class Imbalance Requires Specialized Handling
 * Stratified splitting maintains distribution across train/test
 * class_weight='balanced' prevents majority class bias
-* ROC-AUC more reliable than accuracy for imbalanced data
+
 
 ### 5. Interpretability-Performance Tradeoff
 * Logistic Regression: 78% accurate, fully interpretable (coefficients)
