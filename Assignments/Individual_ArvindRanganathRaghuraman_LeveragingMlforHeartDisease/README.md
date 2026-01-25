@@ -1,7 +1,7 @@
 # Binary Classification for Cardiovascular Disease Prediction: Comparing Logistic Regression and Random Forest
 📘 INFO 7390 — Art and Science of Data
 
-**Author:** [Your Name]  
+**Author:** Arvind Ranganath Raghuraman  
 **Institution:** Northeastern University  
 **Instructor:** Prof. Nicholas Brown  
 **Term:** Spring 2026
@@ -94,8 +94,8 @@ Through a complete data science lifecycle—from exploratory analysis to model d
 
 | Model | Accuracy | Recall (Stroke) | ROC-AUC | Assessment |
 |-------|----------|----------------|---------|------------|
-| Linear Regression | 49.63% | 50% | ~0.51 | ❌ Random performance |
-| Random Forest | 51.00% | 50% | ~0.52 | ❌ Random performance |
+| Linear Regression | 49.63% | 50% | ~0.51 |  Random performance |
+| Random Forest | 51.00% | 50% | ~0.52 |  Random performance |
 
 **Outcome:** Both models failed to learn meaningful patterns (performance equivalent to coin flipping)
 
@@ -105,8 +105,8 @@ Through a complete data science lifecycle—from exploratory analysis to model d
 
 | Model | Accuracy ↑ | Sensitivity ↑ | Specificity ↑ | ROC-AUC ↑ | Assessment |
 |-------|-----------|--------------|--------------|-----------|------------|
-| Logistic Regression | 78.05% | 87% | 69% | ~0.89 | ✅ Good baseline |
-| Random Forest | **98.54%** | **97%** | **100%** | **~0.99** | ✅ Near-perfect! |
+| Logistic Regression | 78.05% | 87% | 69% | ~0.89 |  Good baseline |
+| Random Forest | **98.54%** | **97%** | **100%** | **~0.99** |  Near-perfect! |
 
 **Outcome:** Random Forest achieved exceptional, near-deployment-ready performance
 
@@ -135,7 +135,6 @@ Through a complete data science lifecycle—from exploratory analysis to model d
 4. **thalach** (Max Heart Rate) - Exercise capacity
 5. **thal** (Thallium Test) - Perfusion defect detection
 
-✅ **100% Clinical Validation:** All are established diagnostic criteria
 
 ### 4. Class Imbalance Requires Specialized Handling
 * Stratified splitting maintains distribution across train/test
@@ -157,9 +156,8 @@ Through a complete data science lifecycle—from exploratory analysis to model d
 | **Data Handling** | pandas, numpy |
 | **Modeling** | scikit-learn (LogisticRegression, RandomForestClassifier) |
 | **Visualization** | matplotlib, seaborn |
-| **Statistical Testing** | scipy (shapiro, stats) |
 | **Environment** | Jupyter Notebook |
 
 ---
 
-## 📁 Repository Structure
+
