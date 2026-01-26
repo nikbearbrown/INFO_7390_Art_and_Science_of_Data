@@ -1,6 +1,7 @@
 # Chapter: Understanding High-Dimensional Data Through Dimensionality Reduction and Semantic Embeddings
 
-**Author:** Nilay Raut
+**Author:** Nilay Raut  
+
 INFO 7390 Advance Data Science
  
 
@@ -508,3 +509,4 @@ This chapter shows that dimensionality reduction is not a one-size-fits-all task
 [11] Amid, E., & Warmuth, M. K. (2019). TriMap: Large-scale dimensionality reduction using triplets. *arXiv preprint arXiv:1910.00204*. https://arxiv.org/abs/1910.00204
 
 [12] Kobak, D., & Berens, P. (2019). The art of using t-SNE for single-cell transcriptomics. *Nature Communications*, 10(1), 5416. https://doi.org/10.1038/s41467-019-13056-x
+
