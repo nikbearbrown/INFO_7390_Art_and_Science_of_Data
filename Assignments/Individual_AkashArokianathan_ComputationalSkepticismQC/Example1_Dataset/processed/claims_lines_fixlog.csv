@@ -1,0 +1,5 @@
+action,col,strategy,fill_value,flag_col,lower_q,upper_q,lo,hi
+impute,InscClaimAmtReimbursed,median,80.0,InscClaimAmtReimbursed__was_missing,,,,
+impute,DeductibleAmtPaid,median,0.0,DeductibleAmtPaid__was_missing,,,,
+winsorize,InscClaimAmtReimbursed,,,,0.01,0.99,0.0,17000.0
+winsorize,DeductibleAmtPaid,,,,0.01,0.99,0.0,1068.0
