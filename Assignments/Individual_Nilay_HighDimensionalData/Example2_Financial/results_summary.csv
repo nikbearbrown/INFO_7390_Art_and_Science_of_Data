@@ -1,0 +1,3 @@
+Method,Dimensions,Silhouette Score,Variance (2D PCA),Captures Semantics,Best For
+TF-IDF,100,-0.1634,15.40%,No,Keyword matching
+FinBERT,768,0.3982,56.64%,Yes,Context understanding
