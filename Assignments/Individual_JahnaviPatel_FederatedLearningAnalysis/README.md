@@ -1,0 +1,8 @@
+## Project Details
+This project implements and analyzes Federated Learning (FL) with Differential Privacy (DP) on two real-world datasets: Human Activity Recognition (HAR) using smartphone sensor data and Credit Risk Assessment using German credit records. The analysis demonstrates privacy-preserving distributed machine learning by training models across simulated clients without centralizing raw data. Key contributions include: (1) comprehensive FedAvg implementation achieving 96%+ accuracy on HAR and 72%+ on credit risk despite non-IID data distributions, (2) quantitative privacy-accuracy tradeoff analysis showing ε-differential privacy costs 3-14% accuracy depending on privacy budget, (3) visual comparisons proving federated learning loses only 2-3% accuracy versus centralized training while preserving 100% data privacy, and (4) production-ready guidance for choosing privacy parameters (ε) based on regulatory requirements (GDPR, HIPAA). The work validates that privacy and performance can coexist in modern ML systems, making federated learning viable for healthcare, finance, and IoT applications where data cannot leave edge devices.
+
+## How to Run the Analysis Notebook
+1. Open Analysis.ipynb in VS Code or Jupyter.
+2. Ensure Python 3.9+ with packages: tensorflow (or tensorflow-macos on Apple Silicon), tensorflow-federated, numpy, pandas, scikit-learn, matplotlib, seaborn.
+3. Update data paths if you relocate datasets; default notebook assumes the datasets reside in the sibling Example1_Dataset/ and Example2_Dataset/ directories.
+4. Run cells sequentially; figures save to assets/ and federated_learning_results/.
