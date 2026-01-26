@@ -228,6 +228,46 @@ D) Quality doesn't matter if the method is fast enough
 
 **Explanation:** The chapter demonstrates a clear tradeoff: PCA processed 5,000 MNIST images in ~1 second but achieved a poor silhouette score (-0.051) due to its linear nature. t-SNE took ~120 seconds but captured non-linear structure (0.125 score, 2.5× better). Neural embeddings like FinBERT achieve the best quality (0.398 score) but require significant compute—though GPU acceleration can make them competitive with t-SNE. Option A is too absolute (PCA can be sufficient for linear data), option C ignores the documented tradeoffs, and option D dismisses quality concerns inappropriately.
 
+### Question 16: Trade-offs and Failure Cases
+When would PCA perform WORSE than random projection for dimensionality reduction?
+
+A) When data has high variance along orthogonal directions
+B) When data lies on a non-linear manifold with low intrinsic variance
+C) When the dataset has more samples than features
+D) When computational speed is the primary concern
+
+**Answer: B**
+
+**Explanation:** PCA maximizes variance preservation, but if data lies on a curved manifold (like a Swiss roll) with low overall variance, PCA will still apply linear projection and miss the manifold structure. In such cases, random projection might accidentally preserve local structure better than PCA's variance-based approach. Options A and C favor PCA, and option D is about speed (where PCA is already fast).
+
 ---
+
+### Question 17: Hyperparameter Sensitivity
+In the MNIST t-SNE visualization, the perplexity parameter was set to 30. What would happen if perplexity were increased to 200?
+
+A) Clusters would become tighter and more separated
+B) The algorithm would fail to converge
+C) Local structure would be lost, revealing more global relationships
+D) Computation time would decrease significantly
+
+**Answer: C**
+
+**Explanation:** Perplexity controls the effective number of neighbors considered. Higher perplexity (200) means each point considers more neighbors, emphasizing global structure over local clusters. This would make the visualization look more like PCA (global variance preservation) and less like the tight clusters seen with perplexity=30. Option A is incorrect (opposite effect), B is unlikely (just converges to different solution), and D is wrong (higher perplexity increases computation).
+
+---
+
+### Question 18: Production Deployment
+You need to deploy a sentiment analysis system that processes 10,000 financial news articles per minute. Which embedding approach is most suitable?
+
+A) FinBERT on GPU with batch processing
+B) FinBERT on CPU with sequential processing  
+C) Pre-computed FinBERT embeddings with cached lookup table
+D) TF-IDF with aggressive vocabulary pruning
+
+**Answer: C**
+
+**Explanation:** 10,000 articles/minute = 167 articles/second, requiring sub-millisecond inference. Pre-computing FinBERT embeddings for known articles and using a lookup table provides both semantic quality and speed. Option A (GPU FinBERT) is too slow (~2-5 sec/batch), option B is even slower, and option D sacrifices too much semantic understanding. For truly novel articles, a hybrid system (TF-IDF for routing + cached FinBERT for known patterns) would be optimal.
+---
+
 
 **End of Quiz Questions**
