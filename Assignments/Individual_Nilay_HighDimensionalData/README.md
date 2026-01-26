@@ -143,7 +143,32 @@ Through two concrete examples, we demonstrate:
 
 ---
 
+## 🎯 Quick Results Summary
+
+| Metric | PCA | t-SNE | TF-IDF | FinBERT |
+|--------|-----|-------|--------|---------|
+| **Best For** | Fast preprocessing | Visualization | Keyword search | Semantic analysis |
+| **Speed** | ⚡⚡⚡ Fast | 🐌 Slow | ⚡⚡⚡ Fast | 🐌 Slow |
+| **Separation Quality** | ❌ Poor | ✅ Good | ❌ Poor | ✅✅ Excellent |
+| **Interpretability** | ✅✅ High | ❌ Low | ✅ Medium | ✅ Medium |
+| **Scalability** | ✅✅ Excellent | ❌ Poor | ✅✅ Excellent | ✅ Good |
+
+## 🚀 Interactive Demo (coming soon)
+For an interactive version of this analysis, see the Streamlit app (future work):
+```bash
+streamlit run app.py  # Coming soon
+```
+
+## 📊 Key Takeaways
+
+1. **No universal winner**: Method choice depends on your goal (speed vs. quality vs. interpretability)
+2. **Domain matters**: FinBERT's 244% improvement over TF-IDF shows importance of domain-specific models
+3. **Visualization ≠ Analysis**: t-SNE is great for plots but shouldn't be used for downstream ML tasks
+4. **Always baseline**: PCA provides a fast, interpretable baseline that's often "good enough"
+---
+
 **Author:** Nilay Raut  
 **Institution:** Northeastern University  
 **License:** Academic Use Only  
 **Year:** 2026
+
