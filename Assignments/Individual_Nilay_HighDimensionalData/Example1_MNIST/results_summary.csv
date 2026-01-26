@@ -1,0 +1,3 @@
+Method,Dimensions,Variance Explained,Silhouette Score,Computation Time,Best For
+PCA,2,10.66%,-0.0510,Fast (~1s),"Quick exploration, preprocessing"
+t-SNE,2,N/A,0.1254,Slow (~120s),"Final visualization, publication"

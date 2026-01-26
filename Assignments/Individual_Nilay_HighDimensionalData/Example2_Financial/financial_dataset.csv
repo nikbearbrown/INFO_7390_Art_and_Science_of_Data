@@ -1,0 +1,21 @@
+text,category,sentiment_score
+Quarterly profits rose by 15% exceeding analyst expectations significantly.,Positive,0.8
+The company's stock price surged after announcing the merger deal.,Positive,0.8
+Revenue growth projected to double next year driven by strong demand.,Positive,0.8
+New product launch was a massive success across all Asian markets.,Positive,0.8
+Share buyback program approved boosting investor confidence substantially.,Positive,0.8
+The company filed for bankruptcy protection amid mounting debt crisis.,Negative,-0.8
+Sales dropped by 20% due to increased competition and market saturation.,Negative,-0.8
+CEO resigned following the accounting scandal and regulatory investigation.,Negative,-0.8
+Quarterly losses were significantly wider than previously anticipated.,Negative,-0.8
+Supply chain disruptions will delay product shipments for several months.,Negative,-0.8
+The annual shareholder meeting is scheduled for June 15th this year.,Neutral,0.0
+Company headquarters are located in London's financial district.,Neutral,0.0
+The board declared a standard quarterly dividend of $0.50 per share.,Neutral,0.0
+Trading volume remained consistent with historical average levels today.,Neutral,0.0
+The fiscal year ends on December 31st according to corporate guidelines.,Neutral,0.0
+"While revenue increased, profit margins compressed due to rising costs.",Mixed,0.2
+The acquisition expands market share but raises integration concerns.,Mixed,0.2
+Strong domestic performance offset by weakening international sales.,Mixed,0.2
+Cost-cutting measures improved profitability but affected employee morale.,Mixed,0.2
+Innovation investments yielded breakthroughs yet delayed short-term returns.,Mixed,0.2
