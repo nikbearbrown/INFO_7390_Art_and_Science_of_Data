@@ -76,3 +76,5 @@ output/
 results/
 temp/
 
+.DS_Store
+.DS_Store
