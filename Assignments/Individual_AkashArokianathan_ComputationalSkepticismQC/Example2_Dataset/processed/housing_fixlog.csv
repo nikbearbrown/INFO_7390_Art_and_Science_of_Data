@@ -1,0 +1,19 @@
+action,key_cols,rows_removed,dupe_rows_detected,col,strategy,fill_value,flag_col,lower_q,upper_q,lo,hi
+dedupe,['PID'],0.0,0.0,,,,,,,,
+impute,,,,SalePrice,median,160000.0,SalePrice__was_missing,,,,
+impute,,,,Gr Liv Area,median,1442.0,Gr Liv Area__was_missing,,,,
+impute,,,,Lot Frontage,median,68.0,Lot Frontage__was_missing,,,,
+impute,,,,Mas Vnr Area,median,0.0,Mas Vnr Area__was_missing,,,,
+impute,,,,Garage Yr Blt,median,1979.0,Garage Yr Blt__was_missing,,,,
+impute,,,,Garage Area,median,480.0,Garage Area__was_missing,,,,
+fill_missing_categorical,,,,Alley,,Missing,Alley__was_missing,,,,
+fill_missing_categorical,,,,Pool QC,,Missing,Pool QC__was_missing,,,,
+fill_missing_categorical,,,,Fence,,Missing,Fence__was_missing,,,,
+fill_missing_categorical,,,,Fireplace Qu,,Missing,Fireplace Qu__was_missing,,,,
+fill_missing_categorical,,,,Garage Type,,Missing,Garage Type__was_missing,,,,
+fill_missing_categorical,,,,Garage Finish,,Missing,Garage Finish__was_missing,,,,
+fill_missing_categorical,,,,Bsmt Qual,,Missing,Bsmt Qual__was_missing,,,,
+fill_missing_categorical,,,,Bsmt Cond,,Missing,Bsmt Cond__was_missing,,,,
+winsorize,,,,SalePrice,,,,0.01,0.99,61756.07,456666.3700000001
+winsorize,,,,Gr Liv Area,,,,0.01,0.99,677.51,2930.6600000000017
+winsorize,,,,price_per_sqft,,,,0.01,0.99,52.80315003579907,209.7207003195847

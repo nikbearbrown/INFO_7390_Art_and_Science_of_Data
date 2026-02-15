@@ -1,0 +1,8 @@
+# Override repo-level *.csv ignore for THIS assignment folder
+!Example1_Dataset/raw/*.csv
+!Example2_Dataset/raw/*.csv
+!Example1_Dataset/processed/*.csv
+!Example2_Dataset/processed/*.csv
+
+# Exclude the one >100MB (GitHub hard limit)
+Example1_Dataset/processed/claims_lines_clean.csv

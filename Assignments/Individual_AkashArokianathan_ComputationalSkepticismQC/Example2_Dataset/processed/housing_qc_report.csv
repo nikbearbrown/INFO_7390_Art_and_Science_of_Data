@@ -1,0 +1,14 @@
+check_name,severity,n_affected,evidence,recommendation
+missingness:high:Pool QC,90,2917,Missing rate=99.6% (threshold=20%),Consider imputation + missing flag; investigate collection bias.
+missingness:high:Misc Feature,90,2824,Missing rate=96.4% (threshold=20%),Consider imputation + missing flag; investigate collection bias.
+missingness:high:Alley,90,2732,Missing rate=93.2% (threshold=20%),Consider imputation + missing flag; investigate collection bias.
+missingness:high:Fence,90,2358,Missing rate=80.5% (threshold=20%),Consider imputation + missing flag; investigate collection bias.
+missingness:high:Mas Vnr Type,90,1775,Missing rate=60.6% (threshold=20%),Consider imputation + missing flag; investigate collection bias.
+missingness:high:Fireplace Qu,90,1422,Missing rate=48.5% (threshold=20%),Consider imputation + missing flag; investigate collection bias.
+missingness:group:Lot Frontage,85,44,group=ClearCr missing_rate=54.5% (threshold=35%),Investigate subgroup-specific collection/mapping; consider stratified imputation.
+missingness:group:Lot Frontage,85,2,group=GrnHill missing_rate=100.0% (threshold=35%),Investigate subgroup-specific collection/mapping; consider stratified imputation.
+missingness:group:Lot Frontage,85,1,group=Landmrk missing_rate=100.0% (threshold=35%),Investigate subgroup-specific collection/mapping; consider stratified imputation.
+anomaly:robust_z:Lot Area,55,39,39 rows with |robust_z| >= 6.0,Prefer flag/cap (winsorize) over deletion; verify domain meaning.
+anomaly:robust_z:SalePrice,55,19,19 rows with |robust_z| >= 6.0,Prefer flag/cap (winsorize) over deletion; verify domain meaning.
+anomaly:robust_z:Gr Liv Area,55,5,5 rows with |robust_z| >= 6.0,Prefer flag/cap (winsorize) over deletion; verify domain meaning.
+anomaly:robust_z:Lot Frontage,55,5,5 rows with |robust_z| >= 6.0,Prefer flag/cap (winsorize) over deletion; verify domain meaning.
